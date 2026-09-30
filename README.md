@@ -5,10 +5,10 @@
 
 **Learning when to observe again, from the policy's own action predictions.**
 
-[![Paper](https://img.shields.io/badge/Paper-PDF-181717?style=for-the-badge)](https://hf618.github.io/ChunkTrust.github.io/assets/paper/ChunkTrust.pdf)
-[![Project Page](https://img.shields.io/badge/Project_Page-205B47?style=for-the-badge)](https://hf618.github.io/ChunkTrust.github.io/)
-[![Models](https://img.shields.io/badge/Models-Hugging_Face-205B47?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/Niugan/ChunkTrust)
-[![Core checks](https://github.com/hf618/ChunkTrust/actions/workflows/core.yml/badge.svg)](https://github.com/hf618/ChunkTrust/actions/workflows/core.yml)
+[![Paper](https://img.shields.io/badge/Paper-PDF-B31B1B?style=for-the-badge&logo=readthedocs&logoColor=white)](https://hf618.github.io/ChunkTrust.github.io/assets/paper/ChunkTrust.pdf)
+[![Project Page](https://img.shields.io/badge/Project_Page-1A73E8?style=for-the-badge&logo=googlechrome&logoColor=white)](https://hf618.github.io/ChunkTrust.github.io/)
+[![Models](https://img.shields.io/badge/Models-Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/Niugan/ChunkTrust)
+[![Core checks](https://img.shields.io/github/actions/workflow/status/hf618/ChunkTrust/core.yml?branch=main&style=for-the-badge&label=Core%20checks&logo=githubactions&logoColor=white&color=4C8C4A)](https://github.com/hf618/ChunkTrust/actions/workflows/core.yml)
 
 </div>
 
@@ -148,23 +148,52 @@ Both launchers accept `--dry-run`. The held-out split trains on Handover Block, 
 
 ## 🧪 Evaluation
 
-Recompute the released outcomes from the repository root:
+Install the [policy environment and simulator assets](docs/backends.md) before running evaluations. Commands below start from the ChunkTrust repository root.
+
+### AHS
+
+Run training-free horizon selection with the frozen π0.5 policy. This RoboTwin 2.0 example uses the **50-task multitask checkpoint at step 30,000**.
+
+```bash
+export CHUNKTRUST_ROOT="$PWD"
+python scripts/prepare_backend.py robotwin --destination workspaces/robotwin
+python scripts/eval_robotwin50.py \
+  --task place_a2b_left --setting demo_clean --method ahs \
+  --backend-root workspaces/robotwin --output outputs/ahs --gpu 0 --dry-run
+```
+
+Place the base checkpoint in the prepared backend's checkpoint directory as described in the [model guide](docs/models.md). Remove `--dry-run` to evaluate. Use `--method base` for the fixed-horizon comparison, and `--setting demo_randomized` for Hard.
+
+### AHS + QHA
+
+Combine AHS with a learned QHA prior while keeping the base policy frozen. This example evaluates **six-task QHA on the held-out Place Bread Basket task**, using the **step-10,000 QHA checkpoint** and the **task-specific, non-qnorm π0.5 base at step 20,000**.
+
+Use the backend prepared in [QHA Training](#-qha-training), and download the head into the evaluator's checkpoint layout:
+
+```bash
+export CHUNKTRUST_ROOT="$PWD"
+export ROBOTWIN_ROOT="$CHUNKTRUST_ROOT/workspaces/robotwin-qha"
+python scripts/download_asset.py qha_heldout \
+  --destination "$ROBOTWIN_ROOT/policy/pi05_horizon/checkpoints/pi05_base_aloha_robotwin_full_qha_heldout/qha_heldout6_formal_20260727_05/10000"
+
+cd "$ROBOTWIN_ROOT/policy/pi05_horizon"
+bash scripts/eval_qha_heldout_manifest.sh \
+  --method ahs_qha --task place_bread_basket --setting demo_clean \
+  --manifest "$CHUNKTRUST_ROOT/configs/qha_heldout/manifests/place_bread_basket_demo_clean_100.json" \
+  --qha-model qha_heldout6_formal_20260727_05 --qha-step 10000 \
+  --base-model pi05_place_bread_basket_clean50 --base-step 20000 \
+  --result-root "$CHUNKTRUST_ROOT/outputs/ahs-qha" --gpu 0 --dry-run
+```
+
+Place the matching base under `policy/pi05_horizon/checkpoints/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/`. Remove `--dry-run` to run the 100-episode manifest. Use `--method ahs_only` for AHS on the same task, base checkpoint and episode seeds. For Hard, change both `--setting` and the manifest filename to `demo_randomized`.
+
+**Recorded results:** recompute the released outcome summaries from the repository root:
 
 ```bash
 python scripts/summarize_results.py --output outputs/recomputed_summary.json
 ```
 
-Inspect an archived RoboTwin-50 evaluation command:
-
-```bash
-python scripts/prepare_backend.py robotwin --destination workspaces/robotwin
-python scripts/eval_robotwin50.py --task place_a2b_left --setting demo_clean \
-  --method ahs --backend-root workspaces/robotwin --output outputs/robotwin50 --dry-run
-```
-
-Remove `--dry-run` after setting up the backend, simulation assets and matching checkpoints.
-
-The [evaluation guide](docs/evaluation.md) also covers held-out QHA, RoboCasa GR1, and the RTC panels with four tasks, four methods, three delays and 100 episodes per cell in both Easy and Hard. Latency reports include success rate, waiting time, policy calls, inference time and mean observation age.
+See the [evaluation guide](docs/evaluation.md) for RoboCasa GR1 Tabletop and RTC latency evaluations.
 
 ## 🗂️ Repository Structure
 
