@@ -30,8 +30,8 @@
 </details>
 
 <div align="center">
-  <a href="https://github.com/hf618/ChunkTrust/releases/tag/media-v1"><img src="assets/video-cover.jpg" alt="ChunkTrust introduction in 4K" width="100%"></a>
-  <p><b>Complete project video · 4K · 2 min 57 s · English narration and captions</b></p>
+  <video src="https://github.com/user-attachments/assets/6c989d41-c0ec-424e-b9c4-6bc86a29b885" controls width="100%"></video>
+  <p><b>Complete project video · 2K preview · 2 min 57 s · English narration and captions</b></p>
   <p><a href="https://github.com/hf618/ChunkTrust/releases/tag/media-v1">Download the original 4K video on GitHub</a></p>
 </div>
 
