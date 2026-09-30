@@ -62,16 +62,14 @@ The [integration guide](docs/integration.md) describes traces, action coordinate
 
 ## 📊 Results
 
-Selected results from the [paper](https://hf618.github.io/ChunkTrust.github.io/assets/paper/ChunkTrust.pdf). Simulation rows report task-averaged success. The real-robot row reports normalized process score.
+Simulation rows report task-averaged success. The real-robot row reports normalized process score.
 
-| Benchmark | Policy | Scope | Base | ChunkTrust | Method |
-| --- | --- | --- | ---: | ---: | --- |
-| RoboTwin2.0 | π0.5 | 50 tasks | 56.70% | **63.50%** | AHS |
-| RoboTwin2.0 | π0.5 | 8 tasks | 29.63% | **39.06%** | AHS + QHA |
-| RoboCasa GR1 Tabletop | Qwen3GR00T | 24 tasks | 47.83% | **57.50%** | AHS |
-| Real robot | π0.5 | 4 household tasks | 50.4% | **57.5%** | AHS |
-
-The 50-task and eight-task RoboTwin evaluations use different checkpoint regimes. Full protocols and per-task outcomes are in the paper.
+| Benchmark | Policy | Task Scope | Train Recipe | Base | ChunkTrust | Method |
+| --- | --- | --- | --- | ---: | ---: | --- |
+| RoboTwin 2.0 | π0.5 | 50 tasks (full suite) | Multitask post-training | 56.70% | **63.50%** | AHS |
+| RoboTwin 2.0 | π0.5 | 8 tasks (subset) | Task-specific post-training | 29.63% | **39.06%** | AHS + QHA |
+| RoboCasa GR1 Tabletop | Qwen3GR00T | 24 tasks (full suite) | Multitask post-training | 47.83% | **57.50%** | AHS |
+| Real robot | π0.5 | 4 household tasks | Real-robot post-training, 200 demos/task | 50.4% | **57.5%** | AHS |
 
 ## 🛠️ Installation
 
@@ -103,15 +101,15 @@ Policy training and simulation use the [backend environments](docs/backends.md).
 
 Find model weights at [Niugan/ChunkTrust](https://huggingface.co/Niugan/ChunkTrust). Task splits and evaluation manifests are in `configs/`, with recorded results in `results/`.
 
-Training data for the simulation experiments come from **RoboTwin** and **RoboCasa**. The QHA protocols below use RoboTwin clean50 demonstrations.
+Training data for the simulation experiments come from [**RoboTwin 2.0**](https://github.com/RoboTwin-Platform/RoboTwin) and [**RoboCasa GR1 Tabletop**](https://github.com/robocasa/robocasa-gr1-tabletop-tasks). The QHA protocols below use RoboTwin 2.0 clean50 demonstrations.
 
 QHA learns horizon preferences from action-expert evidence while the base policy stays frozen.
 
 | Protocol | Policy | Training | Checkpoint |
 | --- | --- | --- | --- |
-| Eight-task augmentation | π0.5 | Batch 256, 10,000 steps | [Intermediate head, step 5,000](https://huggingface.co/Niugan/ChunkTrust/tree/main/checkpoints/qha_pi05_8task_step5000) |
-| Eight-task augmentation | π0 | See [training details](docs/training.md#eight-task-qha) | [Intermediate head, step 5,000](https://huggingface.co/Niugan/ChunkTrust/tree/main/checkpoints/qha_pi0_8task_step5000) |
-| Six-task training, two held-out tasks | π0.5 | Batch 384, 10,000 steps | [Head, step 10,000](https://huggingface.co/Niugan/ChunkTrust/tree/main/checkpoints/qha_pi05_heldout6_step10000) |
+| Eight-task augmentation | π0.5 | Batch 256, 10,000 steps | [Step 5,000](https://huggingface.co/Niugan/ChunkTrust/tree/main/checkpoints/qha_pi05_8task_step5000) |
+| Eight-task augmentation | π0 | Batch 256, 10,000 steps | [Step 5,000](https://huggingface.co/Niugan/ChunkTrust/tree/main/checkpoints/qha_pi0_8task_step5000) |
+| Six-task training, two held-out tasks | π0.5 | Batch 384, 10,000 steps | [Step 10,000](https://huggingface.co/Niugan/ChunkTrust/tree/main/checkpoints/qha_pi05_heldout6_step10000) |
 
 **Download QHA heads:**
 
