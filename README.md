@@ -107,8 +107,8 @@ QHA learns horizon preferences from action-expert evidence while the base policy
 
 | Protocol | Policy | Training | Checkpoint |
 | --- | --- | --- | --- |
-| Eight-task augmentation | π0.5 | Batch 256, 10,000 steps | [Step 5,000](https://huggingface.co/Niugan/ChunkTrust/tree/main/checkpoints/qha_pi05_8task_step5000) |
-| Eight-task augmentation | π0 | Batch 256, 10,000 steps | [Step 5,000](https://huggingface.co/Niugan/ChunkTrust/tree/main/checkpoints/qha_pi0_8task_step5000) |
+| Eight-task augmentation | π0.5 | Batch 256, 5,000 steps | [Step 5,000](https://huggingface.co/Niugan/ChunkTrust/tree/main/checkpoints/qha_pi05_8task_step5000) |
+| Eight-task augmentation | π0 | Batch 256, 5,000 steps | [Step 5,000](https://huggingface.co/Niugan/ChunkTrust/tree/main/checkpoints/qha_pi0_8task_step5000) |
 | Six-task training, two held-out tasks | π0.5 | Batch 384, 10,000 steps | [Step 10,000](https://huggingface.co/Niugan/ChunkTrust/tree/main/checkpoints/qha_pi05_heldout6_step10000) |
 
 **Download QHA heads:**
