@@ -1,0 +1,49 @@
+name: Publish 4K project video
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/publish-video.yml]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-project-video
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - name: Retrieve and verify the original 4K master
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --fail --location --retry 5 --output ChunkTrust_work_intro_4k.mp4 \
+            'https://huggingface.co/Niugan/ChunkTrust/resolve/ce2f5cb6a297d960297c0f700eaa6eced283bf2e/media/ChunkTrust_work_intro_4k.mp4'
+          echo '19c35d003ec93128ec41315dd1051f30274d241a319a9ca6f56e8214282868ff  ChunkTrust_work_intro_4k.mp4' > SHA256SUMS
+          sha256sum --check SHA256SUMS
+      - name: Publish the video on GitHub
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat > release-notes.md <<'EOF'
+          The complete ChunkTrust introduction in 4K (3840 × 2160, 30 fps, 2 min 57.5 s), with English narration and captions.
+
+          This is the original encoded master, without downscaling or re-encoding. SHA256SUMS records its checksum.
+          EOF
+          if gh release view media-v1 > /dev/null 2>&1; then
+            if ! gh release view media-v1 --json assets --jq '.assets[].name' | grep -Fxq ChunkTrust_work_intro_4k.mp4; then
+              gh release upload media-v1 ChunkTrust_work_intro_4k.mp4 SHA256SUMS
+            fi
+          else
+            gh release create media-v1 ChunkTrust_work_intro_4k.mp4 SHA256SUMS \
+              --target "$GITHUB_SHA" --title 'ChunkTrust project video · 4K' \
+              --notes-file release-notes.md --latest=false
+          fi
