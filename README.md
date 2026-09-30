@@ -103,7 +103,7 @@ Policy training and simulation use the [backend environments](docs/backends.md).
 
 Find model weights at [Niugan/ChunkTrust](https://huggingface.co/Niugan/ChunkTrust). Task splits and evaluation manifests are in `configs/`, with recorded results in `results/`.
 
-## 🏋️ QHA Training
+Training data for the simulation experiments come from **RoboTwin** and **RoboCasa**. The QHA protocols below use RoboTwin clean50 demonstrations.
 
 QHA learns horizon preferences from action-expert evidence while the base policy stays frozen.
 
@@ -112,6 +112,18 @@ QHA learns horizon preferences from action-expert evidence while the base policy
 | Eight-task augmentation | π0.5 | Batch 256, 10,000 steps | [Intermediate head, step 5,000](https://huggingface.co/Niugan/ChunkTrust/tree/main/checkpoints/qha_pi05_8task_step5000) |
 | Eight-task augmentation | π0 | See [training details](docs/training.md#eight-task-qha) | [Intermediate head, step 5,000](https://huggingface.co/Niugan/ChunkTrust/tree/main/checkpoints/qha_pi0_8task_step5000) |
 | Six-task training, two held-out tasks | π0.5 | Batch 384, 10,000 steps | [Head, step 10,000](https://huggingface.co/Niugan/ChunkTrust/tree/main/checkpoints/qha_pi05_heldout6_step10000) |
+
+**Download QHA heads:**
+
+```bash
+python scripts/download_asset.py qha_pi05_8task_step5000 --destination checkpoints/qha-pi05-eight/5000
+python scripts/download_asset.py qha_pi0_8task_step5000 --destination checkpoints/qha-pi0-eight/5000
+python scripts/download_asset.py qha_heldout --destination checkpoints/qha-heldout/10000
+```
+
+Each head is loaded alongside its matching frozen base policy. See [training details](docs/training.md) for the eight-task recipe and checkpoint provenance.
+
+## 🏋️ QHA Training
 
 Prepare the π0.5 QHA backend from the repository root, then install its [environment and training data](docs/training.md):
 
@@ -135,17 +147,6 @@ bash scripts/train_qha_heldout_8gpu.sh --mode formal --exp-name qha-heldout
 ```
 
 Both launchers accept `--dry-run`. The held-out split trains on Handover Block, Handover Mic, Hanging Mug, Place A2B Left, Place Bread Skillet and Place Can Basket. Blocks Ranking RGB and Place Bread Basket are held out.
-
-**Download QHA heads:**
-
-```bash
-cd "$CHUNKTRUST_ROOT"
-python scripts/download_asset.py qha_pi05_8task_step5000 --destination checkpoints/qha-pi05-eight/5000
-python scripts/download_asset.py qha_pi0_8task_step5000 --destination checkpoints/qha-pi0-eight/5000
-python scripts/download_asset.py qha_heldout --destination checkpoints/qha-heldout/10000
-```
-
-Each head is loaded alongside its matching frozen base policy. See [training details](docs/training.md) for the eight-task recipe and checkpoint provenance.
 
 ## 🧪 Evaluation
 
