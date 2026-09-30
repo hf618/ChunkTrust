@@ -1,16 +1,18 @@
 # Models and downloadable assets
 
-Large files are hosted at [Niugan/ChunkTrust](https://huggingface.co/Niugan/ChunkTrust).
+Model weights are hosted at [Niugan/ChunkTrust](https://huggingface.co/Niugan/ChunkTrust).
 `configs/assets.json` lists published artifacts at immutable HF revisions with
 per-file SHA-256 hashes. Download and verify without installing a model framework:
 
 ```bash
 python scripts/download_asset.py qha_heldout --destination checkpoints/qha-heldout/10000
-python scripts/download_asset.py video_4k --destination media
 ```
 
-The complete video is 3840×2160, 30 fps, 177.5 seconds, with English narration
-and captions. Its SHA-256 is
+The complete video is hosted on [GitHub Releases](https://github.com/hf618/ChunkTrust/releases/tag/media-v1),
+at 3840×2160, 30 fps, 177.5 seconds, with English narration and captions.
+Download the [original MP4](https://github.com/hf618/ChunkTrust/releases/download/media-v1/ChunkTrust_work_intro_4k.mp4)
+and [SHA256SUMS](https://github.com/hf618/ChunkTrust/releases/download/media-v1/SHA256SUMS).
+Its SHA-256 is
 `19c35d003ec93128ec41315dd1051f30274d241a319a9ca6f56e8214282868ff`.
 
 ## Identified weights

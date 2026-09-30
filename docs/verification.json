@@ -89,7 +89,9 @@
     "fps": 30,
     "seconds": 177.5,
     "sha256": "19c35d003ec93128ec41315dd1051f30274d241a319a9ca6f56e8214282868ff",
-    "hf_status": "published"
+    "github_release": "https://github.com/hf618/ChunkTrust/releases/tag/media-v1",
+    "github_status": "published; GitHub asset digest matches original master",
+    "readme_inline_player": "pending GitHub browser attachment upload"
   },
   "asset_download_check": {
     "qha_heldout": "PASS; downloaded from public HF and verified every SHA-256",

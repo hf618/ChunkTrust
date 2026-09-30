@@ -30,7 +30,7 @@
 </details>
 
 <div align="center">
-  <video src="https://github.com/hf618/ChunkTrust/releases/download/media-v1/ChunkTrust_work_intro_4k.mp4" poster="https://raw.githubusercontent.com/hf618/ChunkTrust/main/assets/video-cover.jpg" controls width="100%"></video>
+  <a href="https://github.com/hf618/ChunkTrust/releases/tag/media-v1"><img src="assets/video-cover.jpg" alt="ChunkTrust introduction in 4K" width="100%"></a>
   <p><b>Complete project video · 4K · 2 min 57 s · English narration and captions</b></p>
   <p><a href="https://github.com/hf618/ChunkTrust/releases/tag/media-v1">Download the original 4K video on GitHub</a></p>
 </div>
@@ -70,7 +70,7 @@ Selected results from the [paper](https://hf618.github.io/ChunkTrust.github.io/a
 | Benchmark | Policy | Scope | Base | ChunkTrust | Method |
 | --- | --- | --- | ---: | ---: | --- |
 | RoboTwin2.0 | π0.5 | 50 tasks | 56.70% | **63.50%** | AHS |
-| RoboTwin2.0 | π0.5 | 8 tasks | 29.62% | **39.06%** | AHS + QHA |
+| RoboTwin2.0 | π0.5 | 8 tasks | 29.63% | **39.06%** | AHS + QHA |
 | RoboCasa GR1 Tabletop | Qwen3GR00T | 24 tasks | 47.83% | **57.50%** | AHS |
 | Real robot | π0.5 | 4 household tasks | 50.4% | **57.5%** | AHS |
 

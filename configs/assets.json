@@ -1,17 +1,4 @@
 {
-  "video_4k": {
-    "status": "published",
-    "repo_id": "Niugan/ChunkTrust",
-    "revision": "ce2f5cb6a297d960297c0f700eaa6eced283bf2e",
-    "files": [
-      {
-        "remote_path": "media/ChunkTrust_work_intro_4k.mp4",
-        "local_path": "ChunkTrust_work_intro_4k.mp4",
-        "bytes": 88685428,
-        "sha256": "19c35d003ec93128ec41315dd1051f30274d241a319a9ca6f56e8214282868ff"
-      }
-    ]
-  },
   "qha_heldout": {
     "status": "published",
     "repo_id": "Niugan/ChunkTrust",
