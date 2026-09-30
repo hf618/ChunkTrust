@@ -1,0 +1,864 @@
+{
+  "base_manifest_sha256": "bec3fff9bb8f424631b329f48c783c245107fe8508043ae41fb006f503fed7ce",
+  "entries": [
+    {
+      "episode_seed": 951056,
+      "instruction": "Pick the bread loaf medium-sized and place it in the medium light brown breadbasket.",
+      "precheck_status": "accepted",
+      "rollout_id": 50,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "ae2dd0ee965c6dc916a67cb1aefcdf489b638e5922a49641583ab25e93d1133b",
+          "cam_left_wrist": "34e17fdc9cb49c463f2766a78f56d1b99fc46ccd19de0a55eca6f48a2f1a66fa",
+          "cam_right_wrist": "2e9abab5589861149e518ce980a13b1c62974972da7b9904f174a6d16ad180ee"
+        },
+        "instruction_sha256": "8b424ce64b4f0674fbbcf08e900ea7d7080b32e544ef83d2143c4b1f4dff56fc",
+        "scene_sha256": "7694c25eee953b40dfc8a1bbc0468875545e2c7e059dcf4b5217836f4bb94555",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951057,
+      "instruction": "Use the dual arm to pick the oval-shaped soft bread and the soft rectangular bread loaf and place in the beige breadbasket.",
+      "precheck_status": "accepted",
+      "rollout_id": 51,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "7c97b8cc8fe730552cb889865396f3c1443c729178922801a9f610eaa76ae95d",
+          "cam_left_wrist": "29fc1cff56ab66be6be8cdc043589e3f1a0678726a5b519748a65cd95eabe701",
+          "cam_right_wrist": "2167a447387ab4a3ce2e8ae778d16d230a73a55954b6b534486082cb93a71fe8"
+        },
+        "instruction_sha256": "fec62e252e8dd7dcd7f469261d99272b8d7ba9015a9171e4065900fd50e5724a",
+        "scene_sha256": "9741ab6e471ae2df9829aecd8ba68e5133423f64f70217c27c39bf1a4b649436",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951058,
+      "instruction": "Use one arm to grab the rounded oval bread and the bread with golden crust, drop in the breadbasket with woven pattern.",
+      "precheck_status": "accepted",
+      "rollout_id": 52,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "71dde8d0fb3bcdda3f3672a13b5b47ae72b80e1913d512ec49ae06a9708eca0c",
+          "cam_left_wrist": "df6f57c2f24ed77bb2941037dd5b5fbf14815e1c1393b2f94904767dff26059a",
+          "cam_right_wrist": "f45ebfb4d29cffeb7c0d791b0d907a6ad79e7f96fa914ab9aac6054a5c33eed5"
+        },
+        "instruction_sha256": "d3319dfdc90ab6d514f38c38189c99d069de17f6467b0ca170021343c64db978",
+        "scene_sha256": "176a0ba95027aaeab08e8343787481a24bca23815904f66da507b688541314a8",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951059,
+      "instruction": "Place the braided top round bread into the breadbasket with smooth bottom grid sides using the right arm",
+      "precheck_status": "accepted",
+      "rollout_id": 53,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "c53a6aa55395dfc988f23662bd4562bc168f8b9db64897c7acc9019a8be939dd",
+          "cam_left_wrist": "4798c4a99a20eb5761d4f7a6395df0db6f7b2d08b0f134113bd9693831857181",
+          "cam_right_wrist": "f82ce03a16be54012514a2acc5f626a6dc13f0fff37f1e7c0ab476406e6b1a3e"
+        },
+        "instruction_sha256": "01f455c5e92b9ab5b70c0f3784a942a35359f807f652021f74415488479fa2d2",
+        "scene_sha256": "8e6c16da6bf1a626a8f56573ef9d49150d36deb00f09fa6d17954e3ac639b759",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951061,
+      "instruction": "Grab the rectangular bread loaf and the oval bread and drop them into the rectangular light brown breadbasket.",
+      "precheck_status": "accepted",
+      "rollout_id": 54,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "5a6b17d1587759c2750b8835360bd196ab4cfa75de60c3f2abdb60db735ad9b5",
+          "cam_left_wrist": "9411a47072d08e6bb0627426e5445345345cdf5bc02dec470ac272aa491e2d4c",
+          "cam_right_wrist": "53a93720fceb1bb56fb0b2a7114a217dc775d44a024ecb26afcfef24c55a6df5"
+        },
+        "instruction_sha256": "d73f213f1722874f751f3dab481978f9db444cc76a54a803d993bad22b967d1b",
+        "scene_sha256": "bd4507646060aa1a6baeaff0d22fbc126ed121f9f7168a4ac252175854327891",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951062,
+      "instruction": "Pick the square bread with light spots and the soft rectangular bread loaf and place them in the beige breadbasket.",
+      "precheck_status": "accepted",
+      "rollout_id": 55,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "1046661150e5f3aaa4f64b26ed7d7e4c615b00771dcb33152f5d75f007b57a91",
+          "cam_left_wrist": "98957cc26b5c0ff4de0db1db20460543e7d29517d93a23c556c2091fc68b2b26",
+          "cam_right_wrist": "1b3a6a6e1a18b5a9251a1d576d9f24e4f19cb59c587e420074c61c5a343e7f9d"
+        },
+        "instruction_sha256": "31693ba183b3ffb51eda6740acdd89c5a3a2e8279ece5d32fad9e9cd3d96adb0",
+        "scene_sha256": "b4aadaaa6f69e4c497a6504883675f9850d5eac3eb57ca56f36cd6a6b97afaa6",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951063,
+      "instruction": "Use the dual arm to pick the bread with golden crust and the oval-shaped soft bread and place in the white basket with beige bottom.",
+      "precheck_status": "accepted",
+      "rollout_id": 56,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "eeb79ab9c6e6b0b614ad7d1bcc63208e0b09ee79ee78789542a14409fac1b977",
+          "cam_left_wrist": "c3c0119e20cad3d28577ac5090c9b00bb6a4af44772c33a105c60eb6f58a8110",
+          "cam_right_wrist": "0f759dac4854bb5c2f5621f4add272f314efe0e6fe1c8c2a2edb51da3ec22018"
+        },
+        "instruction_sha256": "0efe5ccafacc72bd1c2bf7a4c30e16a78315f930d8841d701c11ab214ed2ed29",
+        "scene_sha256": "531bf8d339c054354adc01104694a27f23f0685df2874cdd24130a3390099bf5",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951064,
+      "instruction": "Place the palm-sized braided golden bread and the spongy golden brown bread into the beige breadbasket using the right arm",
+      "precheck_status": "accepted",
+      "rollout_id": 57,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "5ff94a634bdbb28c9f593962439611cf6769a2cb94e6c5a0362084ec6f828569",
+          "cam_left_wrist": "15a82a0b97b2e23180f33956403d010234ab3f35d06e525d91917df793408d32",
+          "cam_right_wrist": "3ac521984a2812a54f197eba6af4cc6e467205531bac8afd6988e6c5ed2ff549"
+        },
+        "instruction_sha256": "caacfb0a988a165938911f47ae5d4f03034f44afc79ad3a00fc846f9f1d7389a",
+        "scene_sha256": "f132cd0775f6501cefa39fdb111cd042d536f050e67894c624ae56edbc2da43a",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951065,
+      "instruction": "Grab the bread with golden crust and the bread with golden crust and drop them into the woven shallow breadbasket.",
+      "precheck_status": "accepted",
+      "rollout_id": 58,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "aa2be46af02eb26e443d991ff91e05948c8f1d4048ec18a15312d14eab51ea6b",
+          "cam_left_wrist": "be0908a1535bf901e4a09e88dd08aeb95ad7320d02c8b1b3a3b601a8c4a56480",
+          "cam_right_wrist": "bd715a039b843b01c7cfa45ae91dd48a14e1cbc48146dc03742e9ce5dd8a76c4"
+        },
+        "instruction_sha256": "8138025b8cc9141a4f11c243d8c6d57d96694a7b78dc5cf4486ff709860033ca",
+        "scene_sha256": "53e875718384e0c89db374e92af80ff6d44123dfa14f489969a7aa05acba66ed",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951066,
+      "instruction": "Use one arm to grab the braided top round bread and the rounded oval bread, drop in the breadbasket with smooth bottom grid sides.",
+      "precheck_status": "accepted",
+      "rollout_id": 59,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "62ced77695a7b73f421899d8f1e7c950664902c98ceb7778e93f050ac9d3e637",
+          "cam_left_wrist": "aa3a7f07e896f6b7b49770b1b236e5b8e6c9a0ce266fcd0e24a51d22dc7c2964",
+          "cam_right_wrist": "f555d6e2a98c00f5da4bd40ee0474b6ec20e1552fd4e81f0f56e2caa3fe27e24"
+        },
+        "instruction_sha256": "60c4362fb97c116f0dcedc7bbaeee0fddeeeab9930eb88078831e3a30fce11bc",
+        "scene_sha256": "191df88de40704f23ee4a23cb627d66231c8297ee773a6fbeba9b9c63374ec64",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951067,
+      "instruction": "Use the left arm to pick up the soft rectangular bread loaf and the square bread with light spots, then place them in the breadbasket with ridged texture.",
+      "precheck_status": "accepted",
+      "rollout_id": 60,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "a76d7a6c2d78ba2d83939a8631d1a71e49f08bcfec8ce6310afbc96af8a1dfdf",
+          "cam_left_wrist": "59dcce6d0bba2dd768af90966f990f53cb21ae721c760eb3e688f915a353dc4a",
+          "cam_right_wrist": "3c275a846809afd548bf677d8245663c5830822e83c794a9fa0b11664db5a8d6"
+        },
+        "instruction_sha256": "af385eccbb9b8f5b3e283b98a8a810476f50ac92b263e2aeed35f76d9c4e4f08",
+        "scene_sha256": "bd0679d0ac0d6f122fa61cb087eb7d16be6cc344d3b2f54ff9fed81f22783202",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951068,
+      "instruction": "Grab the braided top round bread and the oval bread and drop them into the white basket with beige bottom.",
+      "precheck_status": "accepted",
+      "rollout_id": 61,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "430e83035ae23d43a5fa5fb41ad3f1f994a60ea2f6edabeb4c1de403e47f5e09",
+          "cam_left_wrist": "72482ca6d9a307e59fb8f9a4537b93be4585f53bec8739497c8a2588556c8349",
+          "cam_right_wrist": "869962cef2c16d762026479f10a0e9559885d2dc48fdf698a43679b21d3fba6e"
+        },
+        "instruction_sha256": "2818573472bc0b19d5cb31793a6f2e37d7016a60f5156b81e6f47bf01a41d30b",
+        "scene_sha256": "a6dce9511be21d1655620a3b77ffa03f013e2f9904de51099e152fbc0d4e8a96",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951069,
+      "instruction": "Use one arm to grab the braided top round bread and the spongy golden brown bread, drop in the shallow rectangular breadbasket.",
+      "precheck_status": "accepted",
+      "rollout_id": 62,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "a4d5d7120260375d1b146c0c70580baf04b910bed14659b253902aeb8251d21c",
+          "cam_left_wrist": "ee3217105e0dcdd0033614e23de5b23ea7a64b814e8712d0223fc58251bc1847",
+          "cam_right_wrist": "7c10ec1360365a43d512df2ed761a918c6fb12d099abc177c86c2fdc085921cb"
+        },
+        "instruction_sha256": "003c3bf9bd21ec311fb185e45589194290b02cecd729134414a4d136ac2d30d1",
+        "scene_sha256": "aac2e8336ab076cb431f2614c8247fce8752d3b66f1c2e998a40a4b24dc501cd",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951070,
+      "instruction": "Use the dual arm to pick the palm-sized braided golden bread and the spongy golden brown bread and place in the rectangular light brown breadbasket.",
+      "precheck_status": "accepted",
+      "rollout_id": 63,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "cd3532b7e201fc0812cacf70970579cc6094bb01a5caa23d8a2efde8bd94fcb4",
+          "cam_left_wrist": "7a92c48ce1dc2d6171df48ab53e23f80df3e7f0069f492e300e7891aacfa7e5f",
+          "cam_right_wrist": "5574944cfa926244f1a27b2cde602497a947ae83d47806d104bedbe014dec94a"
+        },
+        "instruction_sha256": "ad1763ce2c535c9a651857f1fc00f5e353037fbf9dd924ad98a8544c0c3e3f8c",
+        "scene_sha256": "d8a28841acc171b9cbf7e0e4eab225ab69f37cbd8f0024b34d3ea38ac298486c",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951072,
+      "instruction": "Use one arm to grab the round braided loaf and the soft rectangular bread loaf, drop in the woven shallow breadbasket.",
+      "precheck_status": "accepted",
+      "rollout_id": 64,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "1ae421508fd451a010e38101122cdac2cbc78ceac5f6d969efb6154762aa9adf",
+          "cam_left_wrist": "30bcaad341bd61941fead9401f537f49b7c4cd67855fadf7ba3342328a347a96",
+          "cam_right_wrist": "12a9ed92278e316a2e9072e323867c22a9474d8c977a8c663da66491f1de1f91"
+        },
+        "instruction_sha256": "3588a9d62e3647214661a382fe1c8fdf606e415bc2226a7e0bce4f3b7047924b",
+        "scene_sha256": "4728b825027ecb2c3520ea3306c5f06e2292795f7d2a6f362f458322c5fb6d6f",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951073,
+      "instruction": "Grab the soft bread with golden edges and the oval-shaped soft bread and drop it into the beige breadbasket.",
+      "precheck_status": "accepted",
+      "rollout_id": 65,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "30d5823185e743b28262fdb6ad97df6681d281725f6b809d51554eff1d03265d",
+          "cam_left_wrist": "7161392026d8881941ff1ad9e030b0f8579e7ea07d3b29b53003e0e8d5a73381",
+          "cam_right_wrist": "3741310fc09f367afccdb582869e123f4ae2447d625d90cff23b9e74c99dabd8"
+        },
+        "instruction_sha256": "ddb4a9bd064a5e40b892f53a6153597903c6c91c161e25335bf175431f13999f",
+        "scene_sha256": "e65c1071d3c8935b862d94310a23cd05e3371212075028547291620ecda27eb4",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951074,
+      "instruction": "Pick the oval bread and the oval-shaped soft bread and place them in the white basket with beige bottom.",
+      "precheck_status": "accepted",
+      "rollout_id": 66,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "b97ae2848265f997fe6da26f1ef2c41b6d97e9e27001caca480a3ccc0fdcccaf",
+          "cam_left_wrist": "0950f097511dfbc249840bd6b3160733132ea1b0160fcffc5b3a7f812ea1360a",
+          "cam_right_wrist": "be64b40d8b9c59790877eb9529cf5689e44dc111d2c30b7e7c23a4b48ba26235"
+        },
+        "instruction_sha256": "5451e01a73ce0ef626058d82c83c7b0123e3614630d2b392ec6c1d8e22a8903c",
+        "scene_sha256": "d4c8346ff3ff16978fedeb15ffd0c7eded7affcf234795101d3f1a5ff3bca694",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951075,
+      "instruction": "Use the left arm to pick the small loaf-shaped bread and the soft rectangular bread loaf and place in the breadbasket with smooth bottom grid sides.",
+      "precheck_status": "accepted",
+      "rollout_id": 67,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "15ae2d644a67fee941b66efb55e2ea6374650957859504c9f128223e98f84922",
+          "cam_left_wrist": "61ae2e2f8bdbe2ae18732bb3a70f484f2480260144c9bb9dcc752d5babfe270f",
+          "cam_right_wrist": "a22cfbf186fe8741eeadab2338c345c3f2613d297e7607429ff787013e5095c5"
+        },
+        "instruction_sha256": "99aa6af6eb6b8a017c9dcbb32fdcf951184fa9af82531228550801938befe782",
+        "scene_sha256": "8b005fcc101e483e13c2f40e2d244d85a6d4c980b9e88e2b9d5d051cf66d5536",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951076,
+      "instruction": "Grab the round braided loaf and the small loaf-shaped bread with two arms, place in the rectangular breadbasket.",
+      "precheck_status": "accepted",
+      "rollout_id": 68,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "9292723a0d1f0ea973709375bcb6581b84e9fa340829a25bed68d95bacb047bf",
+          "cam_left_wrist": "648701c03ee34414edca43c596989bc6c4808436ea558f56c242bb6e6612c4aa",
+          "cam_right_wrist": "f46591cb51eb4f87e15322865562426cf5b311868f2a528e2ce6f3a878587924"
+        },
+        "instruction_sha256": "7f09625043ac2f87b66ce56d30cfca22e344a0b30cfb95ea689b017d8a314cc8",
+        "scene_sha256": "629d40d620eec7df93f9ff42818d012c91563f5c8b1b2f71d9ff01066e24997f",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951077,
+      "instruction": "Grab the spongy golden brown bread and the square bread with light spots with two arms, place in the breadbasket with smooth bottom grid sides.",
+      "precheck_status": "accepted",
+      "rollout_id": 69,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "ac35ca10786c609e6766824c0e16178c16de330b38daba7aca1d76a0d8b30b98",
+          "cam_left_wrist": "fe1d2d3674f23bda6fa4c832bfb330114493b16bade5247e480e9049c024fac5",
+          "cam_right_wrist": "6c7f20e96ff1d5a4c4efebf6628f9211321853e68f6d2b8d1833a3979308d152"
+        },
+        "instruction_sha256": "9db950f10f4053712584ca3a475c49f541e7e391537bba8d4e0d0d80de2664d8",
+        "scene_sha256": "113e5ce1d06d37308dbb8606f2092091db1fae81e8831b5680e77c89a6f27e87",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951079,
+      "instruction": "Use the dual arm to pick up the palm-sized braided golden bread and the small loaf-shaped bread, then place them in the medium light brown breadbasket.",
+      "precheck_status": "accepted",
+      "rollout_id": 70,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "e3830068361a0b1313faf066a68f4515768038e57e28218c855113662f90c079",
+          "cam_left_wrist": "61f3d77ebc62b894e4e3d119da4ff5697f3daa4abc219bb935628cc33a9bd55f",
+          "cam_right_wrist": "693c418f0ad46d45b43f59b3843400566ceaa48c3983c94d2ee2bcf864eaea8a"
+        },
+        "instruction_sha256": "3f07423456cc36cecb9ed25732d5d959a4f0e2dfc1e386ba1cf4681ce37c2b42",
+        "scene_sha256": "3e8f39ecc3a5fc8bfda05ce048ca3e1f5ff8e3d03e1ee16dcbadb696fa00554d",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951081,
+      "instruction": "Grab the bread loaf with soft surface and the bread loaf with soft surface and drop it into the medium light brown breadbasket.",
+      "precheck_status": "accepted",
+      "rollout_id": 71,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "825d2dfd89cf8b5b18500e91a7943d77d80a404e5b4d3fd2dfc6c6f3504130b7",
+          "cam_left_wrist": "b13ddcd7e7e483d01fd48e1aa87c332da57e884453dca24a5a185ec757629f35",
+          "cam_right_wrist": "b55670263fb66bc6e54fde10ed4df222bff7f3b412dce07fae5e62edfe1b07ca"
+        },
+        "instruction_sha256": "f6a427c864665582bb3f5f6d0bcb4d9b85caddfa9d0f381099a7e3bb70b360a8",
+        "scene_sha256": "033dd23e12e0c66b0e94793873e17a70cd8d73c6a1e898e8f6865a15bc3dc838",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951082,
+      "instruction": "Grab the oval bread and the rectangular bread loaf and put them in the breadbasket with hollowed white walls.",
+      "precheck_status": "accepted",
+      "rollout_id": 72,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "b762aaaee7f77522af87d97a1da147fbe2df49c2599fe1f03a94028d5ce5f727",
+          "cam_left_wrist": "7e1989afaced6f8a1bc47640548c05c246c8d5d7b658ccf9ac41ed9556866878",
+          "cam_right_wrist": "9b6b238c1e412d6b83ae493e26a37c48ab1db1ea8911702e3a44aee88075065a"
+        },
+        "instruction_sha256": "85d62e0cb65db9740c6d618a118898e35066dc1b0095aa1cf8526757a5a99ec6",
+        "scene_sha256": "aa45f774216ff28e9bdbd22e312d020d9f251a4da2f6c5318cab415b25ca5987",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951083,
+      "instruction": "Grab the square bread with light spots and the rectangular bread loaf and drop it into the woven shallow breadbasket.",
+      "precheck_status": "accepted",
+      "rollout_id": 73,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "ed76ba56585b16a6b9ebd6011f90a9a4f919112e85efda1778959eb9b64eb33f",
+          "cam_left_wrist": "20fdb738522c6fca091b8f78c4b3edc3b5c95f59b56f47a9e7899c0952fcf40e",
+          "cam_right_wrist": "9a09ccd5cd57bb174d04482ef7c7db9d1397894fdf6c691eb16d93645c227d3f"
+        },
+        "instruction_sha256": "5ea15be078997f2b93db23931bf3fd897bfe898b88f3651f1c844b8e8d62638d",
+        "scene_sha256": "7841a916e9c03726016b403b111f81f6af78d900db9bbb8c398714188d9cf855",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951084,
+      "instruction": "Place the square bread with light spots and the soft bread with golden edges into the medium-sized breadbasket using the left arm",
+      "precheck_status": "accepted",
+      "rollout_id": 74,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "55a378141e9642eff312ab1bd517ebe6cfdb6c98c449eb7ab0de4267981f8fbf",
+          "cam_left_wrist": "de60bb6746b3e763a2cf63f8f0a1ebf0b395827da49397c2c9cb189e6fa48ea9",
+          "cam_right_wrist": "189abbe7e48aab157e9da6dc3cdbd15b9e1a06881ea444bf34112848758e9d6b"
+        },
+        "instruction_sha256": "c866f61c0952beeaf4901047b1163ed3c6e9dc2cf6862a1e67ab672ac73ed1e4",
+        "scene_sha256": "43d59693b677418eb997756e786934eb326727e9697f881ceec3c2c1c16f1f1f",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951085,
+      "instruction": "Grab the square bread with light spots and the square bread with light spots and put them in the breadbasket with smooth bottom grid sides.",
+      "precheck_status": "accepted",
+      "rollout_id": 75,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "766f3886e9421f3ea6c14834d5ff1125fb3982ff0bc025a30afad60284c848a9",
+          "cam_left_wrist": "66e7e08e663daa2f9388ef84a1991074e363adf84a7c5653fc305c67d7e08356",
+          "cam_right_wrist": "60e111810f1fa4afd474b763a011aeaac6b2bc3795d1015e893a0a49ef6f79fc"
+        },
+        "instruction_sha256": "2d8308bc7d82b39c2c1d10dceacb0b9822b3fec69599e1124189a5db85f5522e",
+        "scene_sha256": "1987d9bb5bcc626a8fbb926550a6473a7f98636c822e1e425df38dade14f224e",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951086,
+      "instruction": "Pick the soft bread with golden edges and the soft rectangular bread loaf and place them in the breadbasket with smooth bottom grid sides.",
+      "precheck_status": "accepted",
+      "rollout_id": 76,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "4d31274ba9cfee4bc5c22e7406c97888610b10b8421884af044e8b893d0cf1f4",
+          "cam_left_wrist": "b07ba67e91f4c3ed74942aba19d437683e2022f08b3efb40c7241da6f51456f6",
+          "cam_right_wrist": "618b63ffa4b9ec6bfd0abddfd84bc85fc0b90a0448d29513065d7f8ccf20ae1b"
+        },
+        "instruction_sha256": "e2cd24064295247fbe5d8abe71a73dd599e5d14c46669e9ef0819f97c18c10e8",
+        "scene_sha256": "f911c28fb55576990a42366583091dd9c6074990a896ccb3da82d3e75e7e6917",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951088,
+      "instruction": "Use the dual arm to pick up the bread with golden crust and the spongy golden brown bread, then place them in the woven shallow breadbasket.",
+      "precheck_status": "accepted",
+      "rollout_id": 77,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "d539ce5fbc87226a1aa0f356994606a054dada0af7d03c3ae9231f8e172a4798",
+          "cam_left_wrist": "c3cdb22fe3fd37bae77da70ffc891cd688f056a32d914aff4225982feaaca2ef",
+          "cam_right_wrist": "e1ec0ba80d3ad0de84b65f2751cb7e25d1872f0feef4019c28b43ba0ee791c62"
+        },
+        "instruction_sha256": "50808447393b3bf64597ecbd122c6ebd7edf870d346ea2d5800bf0867e8dbfc9",
+        "scene_sha256": "7548706d7bd12b98ea1fe621d5d3a81cc1b0a7058e5299f435ca483cd577d662",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951090,
+      "instruction": "Use the right arm to pick the square bread with light spots and place in the rectangular breadbasket.",
+      "precheck_status": "accepted",
+      "rollout_id": 78,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "03d6b07afebb03893696cca17ae4885395633b559ee95ee9d7bab7e58a3ee8f9",
+          "cam_left_wrist": "903ab3053b792d628a1e6d28567f95b9cda65b1d4902290dee34c6946b00ff94",
+          "cam_right_wrist": "99e9c913c0649be090c0c11f6234c30831b3ae663aba0b3b8b144bccae67ffd8"
+        },
+        "instruction_sha256": "6b2dedb746d3024dfa4a3d4bcc8caf8b7aa81213688e367cfd14dff43e8fa68d",
+        "scene_sha256": "474903272fc4a336192f4bf965d954588917700b6fbec4ddb673625af8d4c7c5",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951092,
+      "instruction": "Grab the palm-sized braided golden bread and the bread loaf medium-sized with two arms, place in the beige breadbasket.",
+      "precheck_status": "accepted",
+      "rollout_id": 79,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "016643c5ff182a32f4dbb16bae275a22b52dae885cafd139aa3819e9607ee055",
+          "cam_left_wrist": "e61eb238cb2b85bebfe9ee4de7f29cd2647e2fd16e2a266d4b4215e292172b56",
+          "cam_right_wrist": "aaad9499dfb319219ecfd4c5353c055ff83e9fd3c48b3189527ac817b5bdca5b"
+        },
+        "instruction_sha256": "ccfa92df8f6c669b4fd9c19094e6cf9e7ac809816c19888a0e9fb71efcb4881b",
+        "scene_sha256": "f94972bda287fb7500a709a8b3b99a3efeec0b9aab6f0ac711d87a4ebad8f2c2",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951093,
+      "instruction": "Place the small loaf-shaped bread into the white basket with beige bottom using the right arm",
+      "precheck_status": "accepted",
+      "rollout_id": 80,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "7f45fadce8f33da4553fd61db626527c250821a987c5041de2543e3937d5f05d",
+          "cam_left_wrist": "d5b028a828e1e873343025e908aeac3580471fb25068cd950b76acaf8501139b",
+          "cam_right_wrist": "1fc7d94c91138c7e365884f4a4ae5f22399c69ac35f654b4a3a2ce0a58278af7"
+        },
+        "instruction_sha256": "4eb98fd6ba7b2a622e753a2364e2cbb7850d2299c87b2edf4a9ad6740424deab",
+        "scene_sha256": "b9c2d92474a72af196fa7afabdedbe13cf1e61db65f4661cf4fac004aa4fa59c",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951094,
+      "instruction": "Use one arm to grab the spongy golden brown bread, drop in the medium light brown breadbasket.",
+      "precheck_status": "accepted",
+      "rollout_id": 81,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "5e26a8cd3e436fb8e72f376ee810172df7dc22eec5eb49148f70932dc885ff9e",
+          "cam_left_wrist": "63661c1683b9777d331ce0a3494ea374489d8371ddfb65e6e029eaef781e64b9",
+          "cam_right_wrist": "71b7fcd9fa9a4041cb0f33ecde56b7274ef91af48befaffdd6dc59f08fc6ac52"
+        },
+        "instruction_sha256": "cc197fce60465543a66deb9b777439a40b28962a5559d39e07e2f101711183c6",
+        "scene_sha256": "f0f5d5f5d286988d457f271ac0dbdf011a9282338595a6c27b2f7ff3dc3c0b39",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951095,
+      "instruction": "Place the oval-shaped soft bread and the spongy golden brown bread into the round beige breadbasket using the dual arm",
+      "precheck_status": "accepted",
+      "rollout_id": 82,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "328103ca796aaa5be00de44a76514e43df3da6edfe09c872247c6880e7e553c7",
+          "cam_left_wrist": "c44bafc1bd85fa332954f31113236caa35e6f4219e6d31c6c0eac54065dd9eb7",
+          "cam_right_wrist": "4865ef2bcdf031f0f677d85c01e9c24bd5f292127a810b2c8b989bde8417d4a4"
+        },
+        "instruction_sha256": "9c4b3108ec32b33c6ad7bf770be85e520b57a693546813274926eb83b142b066",
+        "scene_sha256": "d432651946f1709ddefaa412fa363275d98cc1e41c82559c244548d5d54bb1e9",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951096,
+      "instruction": "Pick the bread loaf medium-sized and place it in the rectangular breadbasket.",
+      "precheck_status": "accepted",
+      "rollout_id": 83,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "2e7c49688d707a680224d2c6f911b00a13f85508071c5db7ee7a47ab4897f8df",
+          "cam_left_wrist": "5937f4b41c2f1b674683539e0854f06c2ed1adffdeac35b0f8c97fb00c299b0d",
+          "cam_right_wrist": "e3cef9c863fe6ce5913271a49008b899bf34a214c1f938f5d50749b67ce37e16"
+        },
+        "instruction_sha256": "d898af7f9bf7d64ce76ae3221c8428761ff5d6273cfac0a7a1605a9611640dc5",
+        "scene_sha256": "202ca15ea51aab8d43ab82ec162769728618666aa46ccf6bd274b2fa4bce340d",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951098,
+      "instruction": "Use the dual arm to pick the small loaf-shaped bread and the palm-sized braided golden bread and place in the woven shallow breadbasket.",
+      "precheck_status": "accepted",
+      "rollout_id": 84,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "925d457310a2238592c7804e3b220075a9a57bee5739d214a3dfcbcc8f09cb5e",
+          "cam_left_wrist": "1ecc35f66182faf9f937e2fe8d81c55109554fc1aaf7f12c250b0077f76385f6",
+          "cam_right_wrist": "7fab1dabb6edeff53b8fd5f64d858238a0e34290cdd8029a1c96b9a61180414d"
+        },
+        "instruction_sha256": "44d514c41f9344e726e5b87be62649b27b6c5db2b7a4485c0efb59f5be77993e",
+        "scene_sha256": "e0b9f9809e454b4debc3401eb1b8442c7222e73a7b57ee4aab0eb70ae640d84f",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951099,
+      "instruction": "Grab the bread loaf with soft surface and the rounded oval bread and drop it into the beige breadbasket.",
+      "precheck_status": "accepted",
+      "rollout_id": 85,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "6ad0c64fd1671688ed2abfaecdb85135312c56d746776d92fc5cce02a7a0abe5",
+          "cam_left_wrist": "a19541e476cdf176c287dc1b24823a926e6ce76a27f90c973d004e12e95d16b8",
+          "cam_right_wrist": "a00f093b27af334270d06a191d3c427d4e1c4d4976e5096dbc8de71e79a10ae5"
+        },
+        "instruction_sha256": "24c251fea6d11cfdd08df8b95af24d670eb0b9b1eec67b64582ce7b66fe38a31",
+        "scene_sha256": "3583dfcce06dbb3773a90428c2ccf984f4d233147234ba03c0688a26b8912675",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951101,
+      "instruction": "Use one arm to grab the bread with golden crust and the palm-sized braided golden bread, drop in the round beige breadbasket.",
+      "precheck_status": "accepted",
+      "rollout_id": 86,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "c3062d8b178692f2c3a4d8f5e1e717b045b48f0f62fe04d3d4031d59d23df299",
+          "cam_left_wrist": "756eecf18a99e4953384d43b39a555d730449bd827dc9b09ad02092d49f81fc1",
+          "cam_right_wrist": "2360e810d0e9de1e3a2a63c4e7efe31d29b69d4abd80b84221c2c6cf144a294c"
+        },
+        "instruction_sha256": "69a5a674b86e1bffc7dc82d75b44cc977bf9f3411140c25c6c1ba52dc64754a9",
+        "scene_sha256": "d85ecd3934df02470af26c12ee00d03834ffe4112bf7cbe36ff3f2541b7e09f3",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951102,
+      "instruction": "Grab the soft rectangular bread loaf and the bread with golden crust with two arms, place in the white basket with beige bottom.",
+      "precheck_status": "accepted",
+      "rollout_id": 87,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "850c0d880dbdae2c34f5e31002029090d04ed17ab98c7661f2e31c64d646b0b1",
+          "cam_left_wrist": "3883872244794feb2574013ae1efb0dd5889c2fdd8f4d2f17dca29b5b623e2a9",
+          "cam_right_wrist": "5e8f2105f7f10c8ed0255a2c778875e1615fdeaf494b74679043e90120cf68a2"
+        },
+        "instruction_sha256": "6e5b6b9abb72e718d04f1b7acf7b6a45069f656916f09df8d614fa3b52db9373",
+        "scene_sha256": "1a3cc00566639373167f0394b2a55a51fb96e6f2a8dcd34b3b4b7f172c77e8d0",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951103,
+      "instruction": "Pick the oval-shaped soft bread and the palm-sized braided golden bread and place them in the light wooden breadbasket.",
+      "precheck_status": "accepted",
+      "rollout_id": 88,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "b23c48c899e6c4b28466a75f8e489d95b2341fbc5b644e7a5fb9d8d75b38ab25",
+          "cam_left_wrist": "a63e09d819e5cae7b130b9afd80a275d71c85446b11a619cd65082c23c29e42b",
+          "cam_right_wrist": "3f971dd8aacedd3e6142bf2083d7ce3b277296221ecb566645635d8be8fb9dcc"
+        },
+        "instruction_sha256": "30bef60adaac4e43b4a1a64e3d114daa7fdcd6fe5e6e7a0e89bfa03953af6a01",
+        "scene_sha256": "3c36dc36654010c03cbd25a995da0a6ab856135d1446c572f660f3c1533ff767",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951104,
+      "instruction": "Use one arm to grab the bread with golden crust and the palm-sized braided golden bread, drop in the rectangular light brown breadbasket.",
+      "precheck_status": "accepted",
+      "rollout_id": 89,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "b34130f82a0f51dc230a284d5f62e27f69bb44a0341423bfb8a6bd99be2f6a3f",
+          "cam_left_wrist": "84912440ccc7004dc05eda8a8a42cf47226de608a896b4fde1ea84ee27c7fbe6",
+          "cam_right_wrist": "ae7446075691235f93943911d3d21493e7c85bd883a2f667d48f36545170766d"
+        },
+        "instruction_sha256": "889554c2d237174d134309e8a772e7f405837956ac21c44e82fa0c99ad5edc02",
+        "scene_sha256": "6ea1081b3d7864db703b7deac874b523db0c995013db1828786fe27649a31b0a",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951105,
+      "instruction": "Grab the oval-shaped soft bread with one arm, place in the light wooden breadbasket.",
+      "precheck_status": "accepted",
+      "rollout_id": 90,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "41abe7bc06ebba752428bebee4a4b6d3aea70ca34b44a89eba95f70404d67dc4",
+          "cam_left_wrist": "aea2c69d0d206d240cd0e1f56611e1f8438d5ac0ab18490883c38927f57649ba",
+          "cam_right_wrist": "9130f4df8c132b7c9b5b9e9091749eae2adc4d6faf00e2a5048b0268407aaeb5"
+        },
+        "instruction_sha256": "c480851c153ab25063ae66a867afdac8366cf3ee6077c62772c76c168a6f55bd",
+        "scene_sha256": "fa1f3c65294facf7bed596f1e51830cdb8aac102da38741308f495bac02d18ff",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951106,
+      "instruction": "Place the bread loaf medium-sized into the beige breadbasket using the left arm",
+      "precheck_status": "accepted",
+      "rollout_id": 91,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "991be32ec0702a13948b0e04cb5f1fed88d2a9014b9ea714ad270ba04b0ed027",
+          "cam_left_wrist": "e5cea1366f762345678b9442231547b22cd83b6864f949d4ca6dbdbd1529499a",
+          "cam_right_wrist": "bbbdfbb988df680581f1876eaeedbf0373784f7c5125964fea214da98000048c"
+        },
+        "instruction_sha256": "8e8f7ef361b063b463d6661e4b9629236295f1b03a424b3ac8cde17a8becdeb2",
+        "scene_sha256": "3045ed0e4491cae143ff55f8c068fb949913ae29c05328a4bb7cd31ee2b420c1",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951108,
+      "instruction": "Pick the braided top round bread and the rectangular bread loaf and place them in the medium-sized breadbasket.",
+      "precheck_status": "accepted",
+      "rollout_id": 92,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "4b41a0611fe805e5bcdc777e95600da9199149caa9f93df4d795a61ebf7545cc",
+          "cam_left_wrist": "dcee6e13feed004272ef175cafcce50d9a2b7fc3425f4089b94b303745ce280e",
+          "cam_right_wrist": "41cf034f98b4a882487845d4cf6b5453eeb20ac0d190eb4628c36b4d8fe6b5f6"
+        },
+        "instruction_sha256": "94a22835c92d14106c075ab1013800a404ac777adbb41a89f74469ab605284d3",
+        "scene_sha256": "e063a48c5d399cee753a01c5c46b35b3fb147aa4c34f42f03f41afb740d736fa",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951109,
+      "instruction": "Use the dual arm to pick the round braided loaf and the bread with golden crust and place in the breadbasket with woven pattern.",
+      "precheck_status": "accepted",
+      "rollout_id": 93,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "ac32a23b7eb2995dd8581d38586d9ed1d2a18d5937b00cbed7bfb95bd48ff092",
+          "cam_left_wrist": "c8e8160e04fca8648a82f3278f5f61ecbff092370a3487b4d5d0ea63bcc2fbb3",
+          "cam_right_wrist": "46c9f6b43e26654878d1f9712d84626b8d994bc4af7f0ab7b49eb786a51023ff"
+        },
+        "instruction_sha256": "1b6eb14ddc440d23741e2ff76a08f6238dfdeae1a03b6e7b53d335d6da44ab71",
+        "scene_sha256": "6cbc22acf523cc1fecc3778400bab9272b76e6abda0b974ed6dc30f5f17c62d8",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951110,
+      "instruction": "Grab the soft bread with golden edges and drop it into the medium-sized breadbasket.",
+      "precheck_status": "accepted",
+      "rollout_id": 94,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "a4e36442a1549adcec09fabf41eda58b39247b15c31103698edd6b523c512672",
+          "cam_left_wrist": "d5357ec683e3f889a70c5a97d38584624d0b944c9520f08fbedd298a40a921d5",
+          "cam_right_wrist": "9fde3b5a5b81e4e4d984d310cf4a6c1a7beec2fc198cde65ac016f965ecc16d6"
+        },
+        "instruction_sha256": "02fdb17bec606d67f09524453ea3de182e157af6c6cbb595150d2000ebe5d707",
+        "scene_sha256": "9828ba6744b1c1ba5af28987df040dbdc73bfd8bc6c6a30f3e1055d14cd07d40",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951111,
+      "instruction": "Grab the bread loaf medium-sized and the square bread with light spots and put them in the breadbasket with woven pattern.",
+      "precheck_status": "accepted",
+      "rollout_id": 95,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "74c0e3ad00d24ff7a8384ed7986ec4724916a753b9b0a82ab9be29bd543bb307",
+          "cam_left_wrist": "2f2d862acd7dd083809f8e7abfc0950798d4a6b7330150e3bdc5a587c0bc1795",
+          "cam_right_wrist": "91cc1a2b170bf60335018e3d0876805a501f0a120ac472d52f667dc801059e6d"
+        },
+        "instruction_sha256": "029504e5cdada02f94ad3a3e806c9f71d9e6bb29b46e365050092d39b64beab4",
+        "scene_sha256": "6d60230ab76b95ab634781bc241a82e9888e5a04f0f2a4b8109061dcb5effed9",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951112,
+      "instruction": "Grab the soft bread with golden edges and the round braided loaf with two arms, place in the breadbasket with hollowed white walls.",
+      "precheck_status": "accepted",
+      "rollout_id": 96,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "9588a2a2a57e9bc65f5e17c0baed4baabdccb145e6ba70b309303e79d52949c0",
+          "cam_left_wrist": "e8955233f0e027ca148e0aecac0bf96ee88f49049f415b813ae984bf8599f655",
+          "cam_right_wrist": "38f5d31cce4a815b22b8c28beb2e8b42e921af41fd83458e326841c4493466f8"
+        },
+        "instruction_sha256": "b7fcde32c7be0d4604d83e57926823590a9f208d86f7c6f0edf762e7f34bab1b",
+        "scene_sha256": "1dccf6787d7f65c8d2303b16ed8610459a9b7501136046fb8919f3730be8a27e",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951113,
+      "instruction": "Use the right arm to pick the oval-shaped soft bread and the oval bread and place in the breadbasket with ridged texture.",
+      "precheck_status": "accepted",
+      "rollout_id": 97,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "1ec174ebbd1d80182dd7bb72cc45e61253e47f5697d2a8de7844ea983bef7389",
+          "cam_left_wrist": "28c7906087dea001ff678c6960673dc1624e0d4da6b3ef836c6b7232fd03a29d",
+          "cam_right_wrist": "7857cc56a6a21b76bb16cc829b1d9fdc89e1dac3a718547b4137bb655e3c7ca0"
+        },
+        "instruction_sha256": "83bdb3a80d09ca26358c92ae8603460a6ffa10780acb08f4b5955b7867a2b78d",
+        "scene_sha256": "c50e12e0976a061497c887fc9114e5bd461767fb5929650f1e8be1a21f9a88d8",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951114,
+      "instruction": "Grab the soft bread with golden edges and the braided top round bread and drop them into the white basket with beige bottom.",
+      "precheck_status": "accepted",
+      "rollout_id": 98,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "1c5fa4796936992cb168c49163a9cf0bdfc20d0ce1677e61e73fce087d8311a6",
+          "cam_left_wrist": "b2248282d45be290acc8f0d7829fbf756fd1a898de390860d32bd6519f562b46",
+          "cam_right_wrist": "95c0bc1ca6c0170e2f1749c54737b3d51e04e34a35149a8c0ca3e5e42b6d2b72"
+        },
+        "instruction_sha256": "f0419778ba77273fbe3f139bdad2ca6104192cf01fa3a5198107037ee1d9f570",
+        "scene_sha256": "db0fe268a2fd4717679a84297319e9043e77b4f3d8f4900226b513e01ad30447",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 951115,
+      "instruction": "Grab the bread with golden crust and put it in the beige breadbasket.",
+      "precheck_status": "accepted",
+      "rollout_id": 99,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "67607a1ff4d73fcc54a04dd44324c8aff62ffc518c14b05b49d5bcc627e2860e",
+          "cam_left_wrist": "3bb45ca92b3ba2207bfe198b53c68cdaa9110181865242f6c0e6da6d70d2d0c9",
+          "cam_right_wrist": "2bbfeb5bdf488f673043bb042240e598f7f5e5ede17a1017ff6ea086835a0d01"
+        },
+        "instruction_sha256": "11e11cb1d8e322585601f5227183d752633b7b8deebe7eddd2cb72f7ae639c1e",
+        "scene_sha256": "af3a3eda5ea715b0706d6d92235a128b5c29b5074d64e80f708e37670927bbe9",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    }
+  ],
+  "precheck": "setup_only_no_policy_or_expert_outcomes",
+  "protocol_id": "chunktrust-rtc-v2-formal-extension",
+  "rejections": [
+    {
+      "message": "Objects is unstable in seed(951060), unstable objects: spoon",
+      "seed": 951060,
+      "type": "UnStableError"
+    },
+    {
+      "message": "Objects is unstable in seed(951071), unstable objects: 066_vinegar",
+      "seed": 951071,
+      "type": "UnStableError"
+    },
+    {
+      "message": "Objects is unstable in seed(951078), unstable objects: spoon",
+      "seed": 951078,
+      "type": "UnStableError"
+    },
+    {
+      "message": "Objects is unstable in seed(951080), unstable objects: 090_trophy",
+      "seed": 951080,
+      "type": "UnStableError"
+    },
+    {
+      "message": "Objects is unstable in seed(951087), unstable objects: 001_bottle",
+      "seed": 951087,
+      "type": "UnStableError"
+    },
+    {
+      "message": "Objects is unstable in seed(951089), unstable objects: 049_shampoo",
+      "seed": 951089,
+      "type": "UnStableError"
+    },
+    {
+      "message": "Objects is unstable in seed(951091), unstable objects: 018_microphone",
+      "seed": 951091,
+      "type": "UnStableError"
+    },
+    {
+      "message": "Objects is unstable in seed(951097), unstable objects: 086_woodenblock",
+      "seed": 951097,
+      "type": "UnStableError"
+    },
+    {
+      "message": "Objects is unstable in seed(951100), unstable objects: 066_vinegar",
+      "seed": 951100,
+      "type": "UnStableError"
+    },
+    {
+      "message": "Objects is unstable in seed(951107), unstable objects: 114_bottle",
+      "seed": 951107,
+      "type": "UnStableError"
+    }
+  ],
+  "schema_version": 1,
+  "seed_candidate_start": 951056,
+  "setting": "demo_randomized",
+  "stage": "formal_extra50",
+  "task": "place_bread_basket"
+}

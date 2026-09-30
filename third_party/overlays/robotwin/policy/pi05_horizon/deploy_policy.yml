@@ -1,0 +1,44 @@
+# Basic experiment configuration (keep unchanged)
+policy_name: null
+task_name: null
+task_config: null
+ckpt_setting: null
+seed: null
+instruction_type: unseen
+eval_type: default
+horizon_intra_cut_t: 0.25
+horizon_candidates: 10,20,30,40,50
+horizon_intra_z_mode: window_rms
+horizon_exec_mode: expected_round
+horizon_expected_temp: 1.0
+horizon_intra_alpha: 4.0
+horizon_ts_epsilon: 0.05
+horizon_ts_seed: 0
+horizon_ts_update_mode: kernel_forget
+horizon_ts_kernel_bandwidth: 10.0
+horizon_ts_forget_rho: 0.99
+horizon_ts_update_eta: 1.0
+horizon_intra_tau_window: 3
+horizon_mix_mode: both
+horizon_inter_use_speed_uniformity: 1
+horizon_inter_window: 60
+horizon_inter_weight: 0.5
+horizon_inter_beta: 4.0
+horizon_inter_fallback: ehh_only
+
+# Add Parameters You Need
+train_config_name: null
+checkpoint_root_tag: null
+model_name: null
+checkpoint_id: 20000
+pi0_step: 50
+use_qha: null
+qha_eval_variant: native
+qha_candidate_mode_override: auto
+qha_hybrid_prior_gamma_override: null
+dump_denoise: 0
+denoise_log_dir: null
+fixed_exec_k: 0
+denoise_npz_compress: 0
+manifest_setup_max_attempts: 1
+counterfactual_spec_path: null

@@ -1,0 +1,116 @@
+[
+  {
+    "file": "third_party/overlays/pi05_gr1/src/openpi/training/multitask50_test.py",
+    "kind": "machine paths only",
+    "sha256_before": "89706b7a34c462038fb14c32b5ab98e43c31f053dc83806770555b7f3dcf0ff8",
+    "sha256_after": "472a126a091f1cffa9ac8cdefe56621d68197e6be39eefaef4b78161b9ba0252"
+  },
+  {
+    "file": "third_party/overlays/pi05_gr1/src/openpi/training/config.py",
+    "kind": "machine paths only",
+    "sha256_before": "3a0cf0ccf7b53fb08a5f7d8eb6500664d56a0fd7e5ceb5dd5a034f2d1ded2450",
+    "sha256_after": "45ee2cd4d0730dfaa0feda94e0639121371e66a1773734543025dcfd9f5c5a5a"
+  },
+  {
+    "file": "third_party/overlays/qha_heldout/policy/pi05_horizon/pi_model.py",
+    "kind": "machine paths only",
+    "sha256_before": "4ae9eea57bd662821a1ba512346f5b8029b69d5f83da7549ca214b75743be869",
+    "sha256_after": "65fcd19705f5873cc2e1c3159bf4a6dc1fd49540f241880daeac1bd388a53069"
+  },
+  {
+    "file": "third_party/overlays/qha_heldout/policy/pi05_horizon/src/openpi/training/config.py",
+    "kind": "machine paths only",
+    "sha256_before": "59b15f20642b99a39ec1619ad14136ea7ab976dfdb9b73ee084bfda840a9e07c",
+    "sha256_after": "ef58e2105c4eafcc74716bfb722b0fc7a9b50559dbabd8cf5ff923b8609f37d1"
+  },
+  {
+    "file": "third_party/overlays/robotwin/eval_rebuttal/scripts/pi05_robocasa_common.py",
+    "kind": "machine paths only",
+    "sha256_before": "246a0f671549356c485da342adfa4a905cae34b2686d9afde86c95268370114c",
+    "sha256_after": "55c0323bcb6e670b3a56483743348f2a40f043cf30e191ba5b0b0d65946b8e2e"
+  },
+  {
+    "file": "third_party/overlays/robotwin/policy/pi05_horizon/pi_model.py",
+    "kind": "machine paths only",
+    "sha256_before": "57900524c9b461bff56f283e5d63cf05b6db868606d9fc6b4b757049338538b0",
+    "sha256_after": "e758a326cbd72d879968f290d57f24bc31d6f5e24f691c87cb9f9fbb1ca93561"
+  },
+  {
+    "file": "third_party/overlays/robotwin/policy/pi0/pi_model.py",
+    "kind": "machine paths only",
+    "sha256_before": "5f3c3cd53f55becf01c9b7f6ca70cb7a304b11a4adfaebbd697c492197a03d60",
+    "sha256_after": "4dddf8796cd636f40785c063d1e7042849e157c4e92ea4e8c0ef0526a39aa66b"
+  },
+  {
+    "file": "third_party/overlays/robotwin/policy/pi0/runtime_hooks.py",
+    "kind": "machine paths only",
+    "sha256_before": "06837f4d39941ab50e83502a01ebe9701cbeab77203bd4c6cff7262661cf778d",
+    "sha256_after": "bcd4c2a13b34daa369311b87d313ad1c94a4aa5b55a7da90b58450c9cbbf68ae"
+  },
+  {
+    "file": "third_party/overlays/robotwin/policy/pi0/src/openpi/training/config.py",
+    "kind": "machine paths only",
+    "sha256_before": "965ae89986f5976e563d38bcc73003fca9d1cc1c3c0a3207a3650791f689a788",
+    "sha256_after": "f8ad583f1630ea536af362dea388168a0888fd0e5e755a6fd29ff5fab44332a4"
+  },
+  {
+    "file": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/training/config.py",
+    "kind": "machine paths only",
+    "sha256_before": "b29b6841c3f370e54b12756fd51518e3a47370b6d8471ce0a96393263911d1e4",
+    "sha256_after": "158e5c120c3692bc28842623d1a381b8805cee47bce99670443fbf1772d485b3"
+  },
+  {
+    "file": "third_party/overlays/xvla/evaluation/robotwin-2.0_horizon/client.py",
+    "kind": "machine paths only",
+    "sha256_before": "1eb40a2c0f6a94b211722561af7b89e7d36782261df5ec008069eadbb91e4ada",
+    "sha256_after": "9674c5808557d2c802f8005bb48f6dcbfe2024418468fd32d2c60bd48e3f97b3"
+  },
+  {
+    "file": "third_party/overlays/xvla/evaluation/robotwin-2.0_horizon/scripts/tools/validate_horizon_info_schema.py",
+    "kind": "machine paths only",
+    "sha256_before": "1c8fdcd2ca012f2e8b167791a38e8fb99d939ee452e04aecc5a2a28004297cda",
+    "sha256_after": "e48388e93849bcd5b34ccfe897807bdbbc61ec6b85b1a515c1a082d0f94a8272"
+  },
+  {
+    "file": "third_party/overlays/xvla/evaluation/robotwin-2.0_horizon/scripts/tools/validate_horizon_selectors.py",
+    "kind": "machine paths only",
+    "sha256_before": "7a3b1bfd6872d68e070ae4450d5964db51fb48b0ae613050477c77ef4433d97d",
+    "sha256_after": "f758c4b3ccc0c1478d8c3262724af3382a77acc09c88b82a5b54cbe83ea31b4d"
+  },
+  {
+    "file": "third_party/overlays/gr00t_n16/scripts/tools/patch_n15_stride_ts.py",
+    "kind": "machine paths only",
+    "sha256_before": "b9cf4364817bdc9dc1c59edff12393aed74c213dca57a0313d4016c126b4985a",
+    "sha256_after": "12d40eb687a159a3d4bb42b6528ec6758542e5b4caeb792f2cd9683d666fd509"
+  },
+  {
+    "file": "third_party/overlays/gr00t_n16/scripts/tools/patch_starvla_stride_ts.py",
+    "kind": "machine paths only",
+    "sha256_before": "1a4f3bb669e1e22ecb637e97344c555b9cb6a9a074cdfd75e2e07634b52d2b87",
+    "sha256_after": "3fb698373ab075ba9a55b8feb02e472a8e0d7ecef39eb348d22eeef765eb5b77"
+  },
+  {
+    "file": "third_party/overlays/gr00t_n16/scripts/tools/migrate_united_eval_results.py",
+    "kind": "machine paths only",
+    "sha256_before": "343a0b46f55e07b039146b6ced765995ab5285f0b9c695e6ea11a5bd2c5f15d5",
+    "sha256_after": "34969c69b94e40cee406ca5ff341c5bd7db5f120cedd19ab8c61e2e07bbd5b4f"
+  },
+  {
+    "file": "third_party/overlays/gr00t_n16/scripts/tools/refill_chunk_from_npz.py",
+    "kind": "machine paths only",
+    "sha256_before": "fe6f78fb7b90dca8c065727da7b273fdace9e41a998bd2e5b71f916f5b8b8eeb",
+    "sha256_after": "e5ee0b245bfc7476ac3c9d935e848cccad77a81d6164eb4e56b46768c36af688"
+  },
+  {
+    "file": "third_party/overlays/qha_heldout/policy/pi05_horizon/scripts/train_qha_heldout_8gpu.sh",
+    "kind": "cache defaults",
+    "sha256_before": "5ea7a3904328b0015b3a66c474690f516f36e7195068d88c3e76b85de38c2c64",
+    "sha256_after": "593dc9ec693e9bb4ec5b3f20f51f9606ce0a1227847c170c6e6736187b919bd5"
+  },
+  {
+    "file": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/policies/policy.py",
+    "kind": "adapter compatibility: only pass optional QHA feature flag to models that support it",
+    "sha256_before": "37e1ce91165644238b14fefe237e03eb30d32f932d72bae5bc621027e9673af2",
+    "sha256_after": "b4430691be232cd09779ad889f7247e07806daaa8e15f7e6e11c82a61a6941b5"
+  }
+]

@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/scan_object__demo_clean.json",
+    "parent_manifest_sha256": "90b8caceadbeb34b7b856621ae33b1ed22fe743f6cc4f2a8a9467758f55a3955",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_scan_object_demo_clean",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9710000,
+      "instruction": "Grab the handheld scanner with one arm, take the black tea-box with golden details with the other, then scan the black tea-box with golden details using the handheld scanner",
+      "instruction_sha1": "f50f8f5d956a10125ef6948eb5a35b2fdcdcd0ec",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9710001,
+      "instruction": "Pick up the black scanner with ergonomic handle, hold the glossy tea-box, and scan it with the black scanner with ergonomic handle",
+      "instruction_sha1": "ab60d81098c26862afa3df2e08f09b15ad82717a",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9710002,
+      "instruction": "Pick up the handheld scanner with blue activation trigger, then pick the small tea box, and scan the small tea box using the handheld scanner with blue activation trigger.",
+      "instruction_sha1": "89983c44244e71bfaac536732f9aa833113b2960",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9710003,
+      "instruction": "Grab the handheld scanner with one arm, take the beige box with golden decoration with the other, then scan the beige box with golden decoration using the handheld scanner",
+      "instruction_sha1": "fca88b50f8736c3811c72a69bd65581755a963ae",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9710004,
+      "instruction": "Grab the black scanner with ergonomic handle with one arm, take the beige box with golden decoration with the other, then scan the beige box with golden decoration using the black scanner with ergonomic handle",
+      "instruction_sha1": "3dc4266fe01fdf421149a300c8db5aa7f5b8d140",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9710005,
+      "instruction": "Lift the light gray scanner with smooth finish in one hand and grab the red tea-box with golden designs with the other, then scan it.",
+      "instruction_sha1": "b258f7c25a22b90c6987bd2f50dbecdd9a42c372",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9710006,
+      "instruction": "Pick the compact black barcode scanner, grab the small tea-box, and scan it with the compact black barcode scanner.",
+      "instruction_sha1": "7cb35d8dad4d3e2c30dbe9bc42b9d745ce263965",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9710007,
+      "instruction": "Pick the small scanner fits in hand, grab the glossy tea-box, and scan it with the small scanner fits in hand.",
+      "instruction_sha1": "4fa22f847f46ce921d3fe9433c647a7e2d45743f",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9710008,
+      "instruction": "Grab the handheld scanner with blue activation trigger, take the beige box with golden decoration, and scan the beige box with golden decoration using the handheld scanner with blue activation trigger.",
+      "instruction_sha1": "63299da40131da30688f867fce013a214137f069",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9710009,
+      "instruction": "Pick up the barcode scanner, hold the beige box with golden decoration, and scan it with the barcode scanner",
+      "instruction_sha1": "acc57e5c50f23755d7b1bd43eb9e5e7866904740",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9710010,
+      "instruction": "Pick up the compact black barcode scanner, hold the tea-box with smooth glossy finish, and scan it with the compact black barcode scanner",
+      "instruction_sha1": "088403160a15e9e3f1bd8d482ce83e13bc253d6d",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9710011,
+      "instruction": "Pick up the scanner for barcode scanning, hold the small tea box, and scan it with the scanner for barcode scanning",
+      "instruction_sha1": "b5dc5265138888cfa9468fbf26ce712395959773",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9710012,
+      "instruction": "Pick up the compact barcode scanner, hold the tea-box with small handle, and scan it with the compact barcode scanner",
+      "instruction_sha1": "04d3e9d29d55fa0ace33bb55cc234eed5c27f276",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9710013,
+      "instruction": "Pick up the handheld scanner, hold the glossy tea-box, and scan it with the handheld scanner",
+      "instruction_sha1": "1172f5d91da1a42a1bab79cee5ecedb788e86ee2",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9710014,
+      "instruction": "Grab the plastic yellow gun-shaped scanner with one arm, take the compact tea box with the other, then scan the compact tea box using the plastic yellow gun-shaped scanner",
+      "instruction_sha1": "536d805e4769e52764c1cc3fcb1319d44d8bfbbe",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9710015,
+      "instruction": "Grab the compact black barcode scanner, then pick up the cube tea box with shiny embossed patterns, and use the compact black barcode scanner to scan the cube tea box with shiny embossed patterns.",
+      "instruction_sha1": "3f76f61d9609558af825cd40e68811474d5a768e",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9710016,
+      "instruction": "Take the handheld scanner, pick the tea-box with smooth glossy finish, and use the scanner to perform the scan.",
+      "instruction_sha1": "9a04f1671c18651006a2010c3c5165dabde2d6d5",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9710017,
+      "instruction": "Pick the small scanner fits in hand, grab the red tea-box with golden designs, and scan the red tea-box with golden designs with the small scanner fits in hand.",
+      "instruction_sha1": "2d4e59e4525739b231254b48fbc8530e994fbdec",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9710018,
+      "instruction": "Grab the scanner for barcode scanning in one hand and the small tea box in the other, then scan the small tea box with the scanner for barcode scanning.",
+      "instruction_sha1": "77d76692ea2fe3d763df5d31f2554ed9f717f935",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9710019,
+      "instruction": "Pick up the compact black barcode scanner, hold the beige box with golden decoration, and scan it with the compact black barcode scanner",
+      "instruction_sha1": "bbb7d0f427358a8e05e9f60110ae4a8c780d92df",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-08-01T03:29:08.998234+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_scan_object_demo_clean_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9710000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_clean",
+  "task_name": "scan_object"
+}

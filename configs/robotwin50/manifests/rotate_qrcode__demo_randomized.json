@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/rotate_qrcode__demo_randomized.json",
+    "parent_manifest_sha256": "ed2f734869965e65ad45fb4370f7effcc7f0556e2bb56f36468c1bce78e60079",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_rotate_qrcode_demo_randomized",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9701000,
+      "instruction": "Pick the QR code paymentsign up from the table and rotate it.",
+      "instruction_sha1": "882e67c3fd8c7fe0eec994ac2f976b2c0a090ad5",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9701001,
+      "instruction": "Catch the sign for payment processing on the table and pick it up.",
+      "instruction_sha1": "ab240f1a150314131dafbc7763e38a134ea7c090",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9701002,
+      "instruction": "Pick the sign for payment processing up from the table and rotate it.",
+      "instruction_sha1": "bbae82a07108fe2609c20b0366feaa717bac846e",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9701003,
+      "instruction": "Grab the paymentsign with smooth base stand, lift it, and rotate until the QR code faces you.",
+      "instruction_sha1": "b7b4c506531a486c59e5c8c5a036890ed52ca711",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9701004,
+      "instruction": "Pick up the paymentsign with smooth base stand and rotate it facing you.",
+      "instruction_sha1": "9aae7c6ef6388f336f3923f6ce76b16c1f6ae7eb",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9701005,
+      "instruction": "Pick the tabletop paymentsign off the table using the right arm and rotate it.",
+      "instruction_sha1": "37260d13192045e23953d0ba47bca2d981cd5227",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9701006,
+      "instruction": "Pick up the black stand with angled display and rotate it to face its QR code toward you.",
+      "instruction_sha1": "c8bc365d94fc6816db7f14bd7b65c3804c9f25d9",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9701007,
+      "instruction": "Pick up the black stand with angled display and rotate it facing you.",
+      "instruction_sha1": "9a5aacdd6040a1fedd3874eacb887d2101221643",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9701008,
+      "instruction": "Pick up the paymentsign with angled stand and rotate it to face its QR code toward you.",
+      "instruction_sha1": "27209e4ad604d30d1d34a1fc3398abf7b155aa49",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9701009,
+      "instruction": "Grab the black stand with angled display, lift it, and rotate until the QR code faces you.",
+      "instruction_sha1": "171509045197d20dd1e7406de7d3e5d261d1cc1b",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9701010,
+      "instruction": "Grab the QR code payment sign, lift it, and rotate to see the qrcode.",
+      "instruction_sha1": "4bca0a579aca5f71cc4522e394af21cc0484f6dc",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9701011,
+      "instruction": "Grab the tabletop paymentsign, lift it, and rotate to see the qrcode.",
+      "instruction_sha1": "930618aed2da4dc516477c09147ae15fa59c4f7b",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9701012,
+      "instruction": "Pick the paymentsign with angled stand up from the table and rotate it.",
+      "instruction_sha1": "d4969d37da837203a2d2f0b405853b6fa43f06ac",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9701013,
+      "instruction": "Catch the QR code payment sign from the table and make it face you.",
+      "instruction_sha1": "9b0ff84a88ee5eebdda567222ebd0e4d11714991",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9701014,
+      "instruction": "Pick the tabletop paymentsign up from the table and rotate it.",
+      "instruction_sha1": "7313e718d55b65de47ecbd7f5a7c15facd609a8b",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9701015,
+      "instruction": "Pick up the paymentsign with QR code and rotate it facing you.",
+      "instruction_sha1": "e3761d7d106400f39f3594d6e27d1551dfc02d2d",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9701016,
+      "instruction": "Catch the medium paymentsign with QR section from the table and rotate it",
+      "instruction_sha1": "a7aff61af9a28ec6c6648999c8d6a83862558869",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9701017,
+      "instruction": "Catch the sign for payment processing from the table and make it face you.",
+      "instruction_sha1": "a9b406ed49eb7a7afa6072f3cf3e34b27d868c26",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9701018,
+      "instruction": "Pick up the black stand with angled display and rotate it facing you.",
+      "instruction_sha1": "9a5aacdd6040a1fedd3874eacb887d2101221643",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9701019,
+      "instruction": "Pick up the medium paymentsign with QR section and rotate it facing you.",
+      "instruction_sha1": "08f0aa4c73fb2f7a5a9e6716a4a4d272e6e5741e",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-08-01T03:18:13.874184+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_rotate_qrcode_demo_randomized_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9701000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_randomized",
+  "task_name": "rotate_qrcode"
+}

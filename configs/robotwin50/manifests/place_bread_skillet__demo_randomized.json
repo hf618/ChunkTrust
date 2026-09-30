@@ -1,0 +1,175 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_bread_skillet__demo_randomized.json",
+    "parent_manifest_sha256": "b5b80e1b8ea54e11c94bd924b3c973e7fb39e51c300aad80d35d423c93a24d25",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_place_bread_skillet_demo_randomized",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9531000,
+      "instruction": "Grab the oval-shaped soft bread and set it in the medium black frying skillet",
+      "instruction_sha1": "057e28609dff437d6582e6e8d9d54372909ace59",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9531001,
+      "instruction": "Use the right arm to grab the braided top round bread and set it in the dark gray round cast iron pan",
+      "instruction_sha1": "8399b672ab87f6ee67d464a2fe32b6c2525be25d",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9531002,
+      "instruction": "Grab the soft bread with golden edges and place it into the blackish-gray cast iron skillet.",
+      "instruction_sha1": "7e5ec458aed6d82f449316f7586a8a6fe8cc607b",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9531003,
+      "instruction": "Grab the spongy golden brown bread and drop it into the round black skillet.",
+      "instruction_sha1": "37bebd45e4534a4143bb5616d6390a04aca75afc",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9531004,
+      "instruction": "Grab the soft bread with golden edges and place it into the blackish-gray cast iron skillet.",
+      "instruction_sha1": "7e5ec458aed6d82f449316f7586a8a6fe8cc607b",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9531005,
+      "instruction": "Move the palm-sized braided golden bread to the medium black frying skillet using the right arm.",
+      "instruction_sha1": "b0d17f3397b8762fb5971368450dc2bfc58f53fd",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9531006,
+      "instruction": "Pick the rectangular bread loaf up and place it in the black skillet",
+      "instruction_sha1": "123b2c814f3c02d597815b3c756d73c4b62945bc",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9531007,
+      "instruction": "Pick up the bread with golden crust and drop it into the medium black frying skillet",
+      "instruction_sha1": "ae8ce7b0499dbf1d0a2076ebe2d9dd06ccd2b6c6",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9531008,
+      "instruction": "Pick up the bread loaf medium-sized and drop it into the iron skillet for frying foods",
+      "instruction_sha1": "7bf7f8793f484adaf6c3adaa1629732f9eef122c",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9531009,
+      "instruction": "Move the small loaf-shaped bread to the dark gray round cast iron pan using the right arm.",
+      "instruction_sha1": "7948b2ec3bf947a3cb8153d52dfc0ad8f424ab62",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9531010,
+      "instruction": "Pick the round braided loaf up and place it in the smooth interior skillet",
+      "instruction_sha1": "47750953e0d89cc1d9bd13e1950e98e8b8c23375",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9531011,
+      "instruction": "Take the bread loaf with soft surface and put it in the cooking skillet with grippy handle",
+      "instruction_sha1": "92aa63bb9f1149a67caf828d918a0e55116dd2c1",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9531012,
+      "instruction": "Grab the soft bread with golden edges and drop it into the pan-shaped skillet with hole in handle.",
+      "instruction_sha1": "07768d1e869d587545dc59fe03ce37c1931bd050",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9531013,
+      "instruction": "Grab the bread loaf medium-sized and drop it into the medium black frying skillet.",
+      "instruction_sha1": "559e745f8b42efcfd4b5e0ed5a172268a8cca5ee",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9531014,
+      "instruction": "Grab the spongy golden brown bread and drop it into the cooking skillet with grippy handle.",
+      "instruction_sha1": "8ae5a375d18b6c74bda57d25b1bd242224f1bb68",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9531015,
+      "instruction": "Take the bread with golden crust and put it in the round black skillet",
+      "instruction_sha1": "36b0bf687a5dc86af3d52159662c8c2866fa40e2",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9531016,
+      "instruction": "Grab the soft bread with golden edges and set it in the versatile skillet for frying and sauteing",
+      "instruction_sha1": "c92472bd63f1a32a7bacd72e12fcebf51952f8c5",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9531017,
+      "instruction": "Use the right arm to move the spongy golden brown bread to the medium black frying skillet.",
+      "instruction_sha1": "c2292d5ffa2d83280849f64918fc0bca4fbb7289",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9531018,
+      "instruction": "Pick the oval bread up and place it in the iron skillet for frying foods",
+      "instruction_sha1": "44d5a99006cc791cd750a067999775486a225fb2",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9531019,
+      "instruction": "Grab the soft bread with golden edges and place it into the smooth interior skillet.",
+      "instruction_sha1": "5e3a83073ee2e9762300336d04dcc7377b9fac0b",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-07-31T21:21:10.228447+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_place_bread_skillet_demo_randomized_first20",
+  "rejected_pre_manifest_candidates": [
+    {
+      "episode_seed": 9531026,
+      "reason": "UnStableError: Objects is unstable in seed(9531026), unstable objects: 106_skillet"
+    }
+  ],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9531000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_randomized",
+  "task_name": "place_bread_skillet"
+}

@@ -1,0 +1,183 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 20,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/stamp_seal__demo_randomized.json",
+    "parent_manifest_sha256": "943a4cc5d9c8e0d8a815f571e3d53b0978c1fe2f409520a71ac15c15a6346d79",
+    "parent_protocol_id": "clean50_base_ahs_parent_min20_runtime_v4_freshscene_hashseed0_deadline_20260801_stamp_seal_demo_randomized",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9781000,
+      "instruction": "Grab the smooth stone seal with writing, press onto Yellow",
+      "instruction_sha1": "92593d2cc36d38ca42e43ea39f4544d9b5e533b6",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9781001,
+      "instruction": "Pick the small rectangular seal for stamping and press on Pink.",
+      "instruction_sha1": "4e952c791a8d398ba69911dee4fb1901135c9fb0",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9781002,
+      "instruction": "Grab the stamp with beige handle, press onto Tan",
+      "instruction_sha1": "07a5bd5bca2366c9f363c8053dbe3e7ec7c6dc93",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9781003,
+      "instruction": "Use the left arm to grab the smooth stone seal with writing, stamp Maroon.",
+      "instruction_sha1": "3ad0d65f25079531f1435e4b8bb133bf16308d21",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9781004,
+      "instruction": "Pick the red seal on rectangular base and stamp Magenta",
+      "instruction_sha1": "2b7dc401292edbd10b9c4407d6f5fc5179c437c7",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9781005,
+      "instruction": "Grab the solid brown seal, press onto Olive",
+      "instruction_sha1": "5ef4f54b1733ca01c1a84ae3ef748e04bdee528f",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9781006,
+      "instruction": "Pick the small slanted-edged brown seal to stamp Purple",
+      "instruction_sha1": "c86020ea2246415c290a80e7f667baa8803c7ed2",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9781007,
+      "instruction": "Use the left arm to grab the small rectangular seal for stamping, stamp Orange.",
+      "instruction_sha1": "6b9be6651f6984bb56c48dea84c87599059b854b",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9781008,
+      "instruction": "Grab the small slanted-edged brown seal and stamp Cyan",
+      "instruction_sha1": "0f8e9ffe55978aff86b3b8127e8e3798b3c5576f",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9781009,
+      "instruction": "Pick the stamp with beige handle and stamp Green",
+      "instruction_sha1": "e41b485d45fbeb8b88606ba8844e706417992053",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9781010,
+      "instruction": "Pick the block-shaped seal with angled edges and stamp Indigo",
+      "instruction_sha1": "1ab93fccb20f4448701fb6742e66360325342367",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9781011,
+      "instruction": "Use the right arm to grab the small carved seal, stamp Teal.",
+      "instruction_sha1": "e49c6802f2a342127c0cf6b2d15c5472758ea704",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9781012,
+      "instruction": "Pick the reddish rectangular seal and stamp Magenta",
+      "instruction_sha1": "4afdf122a70e5e215385311474e7c49b39b0498f",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9781013,
+      "instruction": "Pick the block-shaped seal with angled edges and press on Maroon.",
+      "instruction_sha1": "32d5804179e308d26b20e2cf55a79e7f761e1227",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9781014,
+      "instruction": "Pick the brown seal with leaf carvings and stamp on Brown",
+      "instruction_sha1": "441d62f351af38e5a6fcf029d76ad5c023beed7a",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9781017,
+      "instruction": "Pick the small rectangular seal for stamping and stamp Teal",
+      "instruction_sha1": "a5e774bcf9637a3e4f9cb416ba5039317949c116",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9781019,
+      "instruction": "Grab the small rectangular seal for stamping, press onto Olive",
+      "instruction_sha1": "22255a62bc7522b338be21f2500c9b808e0bd989",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9781020,
+      "instruction": "Grab the round base seal and stamp Red",
+      "instruction_sha1": "6442973fc81927dac734a53f42d54791ac6a83c1",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9781021,
+      "instruction": "Grab the smooth stone seal with writing, press onto Pink",
+      "instruction_sha1": "3746b03396f69e4854f3c39ccfd36024184302da",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9781022,
+      "instruction": "Stamp Purple using the small slanted-edged brown seal",
+      "instruction_sha1": "19bdfa2ae2f31b78cad732b141ae062c96d87e59",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-08-01T05:52:30.043750+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_parent_min20_runtime_v4_freshscene_hashseed0_deadline_20260801_stamp_seal_demo_randomized_first20",
+  "rejected_pre_manifest_candidates": [
+    {
+      "episode_seed": 9781015,
+      "reason": "UnStableError: Objects is unstable in seed(9781015), unstable objects: 101_milk-tea"
+    },
+    {
+      "episode_seed": 9781016,
+      "reason": "UnStableError: Objects is unstable in seed(9781016), unstable objects: 066_vinegar"
+    },
+    {
+      "episode_seed": 9781018,
+      "reason": "UnStableError: Objects is unstable in seed(9781018), unstable objects: 001_bottle"
+    }
+  ],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9781000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_randomized",
+  "task_name": "stamp_seal"
+}

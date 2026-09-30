@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/hanging_mug__demo_randomized.json",
+    "parent_manifest_sha256": "1615fe984954c158800ba8edf464ec6b10ebbf5e15236d5933977b0820f5c1fe",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_hanging_mug_demo_randomized",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9401000,
+      "instruction": "Grab the mug with white logo print from the table, rotate it, and set it in the center. Then hang the mug with white logo print on the rack with straight and slanted rods.",
+      "instruction_sha1": "4592e9528ae2cb09c6af1a84abf8e9e52cd5e383",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9401001,
+      "instruction": "Pick the beige coffee mug from the table, rotate it, place it in the middle, and hang it onto the rack with straight and slanted rods.",
+      "instruction_sha1": "8d5772a39d32738e3bfc213ea6940266f7e4e587",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9401002,
+      "instruction": "Pick the mug with white logo print with the left arm, rotate, place it, then hang it on the rack with straight and slanted rods.",
+      "instruction_sha1": "ef28b2185094b26569da665c9a534f7bb12e2b74",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9401003,
+      "instruction": "Grab the drinking mug made of ceramic, turn it, set it on the table, then hang it on the dark gray rack with flat back.",
+      "instruction_sha1": "b2be647766e97f4ee4c492711bd085c0533e17bd",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9401004,
+      "instruction": "Pick the mug with rounded bottom and handle with the left arm, rotate, place it, then hang it on the dark gray rack with flat back.",
+      "instruction_sha1": "065c3914e7f3354eaea8f9c0db26d282d917c767",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9401005,
+      "instruction": "Lift the drinking mug made of ceramic from the table, spin it, set it down, and hang it on the rack with straight and slanted rods.",
+      "instruction_sha1": "a5eef00b36eda8fb3542146f4040a3a023fbe302",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9401006,
+      "instruction": "Grab the matte black mug on the table, rotate it, set it down in the middle, then hang it onto the medium-sized rack.",
+      "instruction_sha1": "df466284684db3b79cc81a838562a9cb4f64b0ac",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9401007,
+      "instruction": "Lift the beige coffee mug from the table, spin it, set it down, and hang it on the dark gray rack with flat back.",
+      "instruction_sha1": "c58a570f5dde30ebca6b81c718926abdd2a3b400",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9401008,
+      "instruction": "Pick up the beige coffee mug, rotate it, place it on the table, and hang it on the rack with straight and slanted rods.",
+      "instruction_sha1": "4e5177904f86ca650e2f8d89618ee7b7b04ce8df",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9401009,
+      "instruction": "Pick the mug with rounded bottom and handle from the table, rotate it, place it in the middle, and hang it onto the rack with straight and slanted rods.",
+      "instruction_sha1": "49f8d2067c33eaffd3af7431943d18cb539cfbaa",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9401010,
+      "instruction": "Lift the printed beige mug, rotate it, put it down, then attach it to the rack with straight and slanted rods.",
+      "instruction_sha1": "8e4c680eecbc6915df614e5ad1348cd8b140da6b",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9401011,
+      "instruction": "Grab the rounded mug with glossy shine from the table, rotate it, and set it in the center. Then hang the rounded mug with glossy shine on the medium-sized rack.",
+      "instruction_sha1": "ea1205ceee4e9a6f07b7838d02444ffefa506463",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9401012,
+      "instruction": "Grab the dark mug with a curved handle, turn it, set it on the table, then hang it on the medium-sized rack.",
+      "instruction_sha1": "a4f393d88f13a748f245328b764c82244c528eac",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9401013,
+      "instruction": "Pick up the mug with white logo print, rotate it, place it on the table, and hang it on the dark gray rack with flat back.",
+      "instruction_sha1": "ec222ed25f15bf50ca61fd1c21d40b5f974f6a67",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9401014,
+      "instruction": "Lift the cylindrical drinking mug black color, rotate it, put it down, then attach it to the rack with straight and slanted rods.",
+      "instruction_sha1": "1c3309aa6f4624183910755875cce90a2f6397de",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9401015,
+      "instruction": "Pick the medium mug for hot drinks from the table, rotate it, place it in the middle, and hang it onto the medium-sized rack.",
+      "instruction_sha1": "eda6ace5336d4b955533a93964f1dac933281858",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9401016,
+      "instruction": "Lift the smooth ceramic mug, rotate it, put it down, then attach it to the rack with straight and slanted rods.",
+      "instruction_sha1": "3b9ebaf6a32ecafecd7c6ab6ad2bbc43609e13a9",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9401017,
+      "instruction": "Grab the printed beige mug, turn it, set it on the table, then hang it on the rack with straight and slanted rods.",
+      "instruction_sha1": "624c5e94163a2e18928a2e6e799116a45a7e152e",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9401018,
+      "instruction": "Pick the beige mug from the table, rotate it, place it in the middle, and hang it onto the rack with straight and slanted rods.",
+      "instruction_sha1": "cad9622f324652d3172e3669bbe57d373448a6eb",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9401019,
+      "instruction": "Lift the white coffee mug from the table, spin it, set it down, and hang it on the medium-sized rack.",
+      "instruction_sha1": "ae2c17e4ec2835ba145b5e1e9a7b7a8e7749b03d",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-07-31T16:55:03.897876+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_hanging_mug_demo_randomized_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9401000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_randomized",
+  "task_name": "hanging_mug"
+}

@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use ChunkTrust, please cite this work."
+title: "ChunkTrust: Adapting Execution Horizons for Robot Policies with Action-Expert Evidence"
+type: software
+version: 0.1.0
+url: "https://hf618.github.io/ChunkTrust.github.io/"
+repository-code: "https://github.com/hf618/ChunkTrust"
+authors:
+  - family-names: Huang
+    given-names: Fanding
+  - family-names: Jiang
+    given-names: Jingyan
+  - family-names: Bao
+    given-names: Shifeng
+  - family-names: Pu
+    given-names: Mingkang
+  - family-names: Li
+    given-names: Shiwei
+  - family-names: Xu
+    given-names: Jing
+  - family-names: Xu
+    given-names: Shijia
+  - family-names: Huang
+    given-names: Guanbo
+  - family-names: Gu
+    given-names: Chenghao
+  - family-names: Huang
+    given-names: Yuzhi
+  - family-names: Li
+    given-names: Chenxin
+  - family-names: Khan
+    given-names: Faisal Nadeem
+  - family-names: Yang
+    given-names: Huan
+  - family-names: Wang
+    given-names: Yan
+  - family-names: Chi
+    given-names: Cheng
+  - family-names: Wang
+    given-names: Zhi

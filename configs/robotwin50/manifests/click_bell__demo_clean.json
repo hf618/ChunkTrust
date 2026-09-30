@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/click_bell__demo_clean.json",
+    "parent_manifest_sha256": "28cd6dd2401d038c7ea5338490b5baaf2db41520e67e43e4b9c24b2c12dd49e4",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_click_bell_demo_clean",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9350000,
+      "instruction": "Click the top center of the lightweight bell with smooth surface.",
+      "instruction_sha1": "754c2cbcb433850d1e4d164bdf3f7334887722bb",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9350001,
+      "instruction": "Use the left arm to press the smooth metal bell's top center.",
+      "instruction_sha1": "60f6fd4e8e6a42291d1677ea7690cb2967513cb7",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9350002,
+      "instruction": "Use the left arm to press the blue bell with glossy finish's top center.",
+      "instruction_sha1": "83884a925eb3ed44438d9b448d66904506cbde1a",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9350003,
+      "instruction": "Use the right arm to press the medium-sized bell's top center.",
+      "instruction_sha1": "9649db501a6fc026ae7e39d42447f9bea121d033",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9350004,
+      "instruction": "Use the right arm to press the bell with raised round top's top center.",
+      "instruction_sha1": "026d8f91b36a810177c4936ec5f85d1227680118",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9350005,
+      "instruction": "Click the top center of the palm-sized bell.",
+      "instruction_sha1": "cd8303f0db0421ed27f22be6f72671eac1c495b1",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9350006,
+      "instruction": "Click the top center of the bell with raised round top.",
+      "instruction_sha1": "d2ff28a7c217cb0dffebfedf451056124a663c72",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9350007,
+      "instruction": "Click the bell with raised round top's top center on the table.",
+      "instruction_sha1": "a73c51ae5f19f40fcf5ac61f814437b407dec4f9",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9350008,
+      "instruction": "Use the right arm to press the lightweight bell with smooth surface's top center.",
+      "instruction_sha1": "be3a6b1403b0bdc9eddea3c1ad18b828bb23847b",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9350009,
+      "instruction": "Find the palm-sized bell and click its top center.",
+      "instruction_sha1": "3c8ca73e120dc8b7450d9e969e2f2357e69201cb",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9350010,
+      "instruction": "Direct the left arm to click the blue bell with glossy finish's top.",
+      "instruction_sha1": "bf600f92e4563d505ac8ee3bb5db8a00266d1451",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9350011,
+      "instruction": "Use the left arm to press the palm-sized bell's top center.",
+      "instruction_sha1": "984bcc7566da393457aca1d29f503196592e72de",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9350012,
+      "instruction": "Click the top center of the lightweight bell with smooth surface.",
+      "instruction_sha1": "754c2cbcb433850d1e4d164bdf3f7334887722bb",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9350013,
+      "instruction": "Use the right arm to press the blue bell with glossy finish's top center.",
+      "instruction_sha1": "81af3a3fbba3f0d32a1e289c69cafb444bc8fbbe",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9350014,
+      "instruction": "Direct the left arm to click the bell with raised round top's top.",
+      "instruction_sha1": "0ba40fb7c84fcb5ebfec450878b2847a76583a0b",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9350015,
+      "instruction": "Use the right arm to press the smooth metal bell's top center.",
+      "instruction_sha1": "4a2f2987160bc71b00f7f6630b7fc098a9b5dede",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9350016,
+      "instruction": "Find the smooth metal bell and click its top center.",
+      "instruction_sha1": "9810db907de79ddb984f205f72d524bd73a9463c",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9350017,
+      "instruction": "Use the right arm to press the smooth metal bell's top center.",
+      "instruction_sha1": "4a2f2987160bc71b00f7f6630b7fc098a9b5dede",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9350018,
+      "instruction": "Direct the right arm to click the smooth metal bell's top.",
+      "instruction_sha1": "0dbe1fcb4f043e6e89f854c982b041836dffea80",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9350019,
+      "instruction": "Use the left arm to press the blue bell with glossy finish's top center.",
+      "instruction_sha1": "83884a925eb3ed44438d9b448d66904506cbde1a",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-07-31T14:59:42.317615+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_click_bell_demo_clean_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9350000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_clean",
+  "task_name": "click_bell"
+}

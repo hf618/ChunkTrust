@@ -1,0 +1,27 @@
+{
+  "robotwin": {
+    "url": "https://github.com/RoboTwin-Platform/RoboTwin.git",
+    "commit": "668952bcfad412bf3508b74b62c0bbad2eb072cc",
+    "overlay": "third_party/overlays/robotwin"
+  },
+  "gr00t_n15": {
+    "url": "https://github.com/NVIDIA/Isaac-GR00T.git",
+    "commit": "4af2b622892f7dcb5aae5a3fb70bcb02dc217b96",
+    "overlay": "third_party/overlays/gr00t_n15"
+  },
+  "gr00t_n16": {
+    "url": "https://github.com/NVIDIA/Isaac-GR00T.git",
+    "commit": "77866395d6ab601a770f95cf78cf51d5847f6fa1",
+    "overlay": "third_party/overlays/gr00t_n16"
+  },
+  "starvla": {
+    "url": "https://github.com/starVLA/starVLA",
+    "commit": "c33807799cf4101593644cc866d495b53d7e3c5a",
+    "overlay": "third_party/overlays/starvla"
+  },
+  "xvla": {
+    "url": "https://github.com/2toinf/X-VLA.git",
+    "commit": "6bc2513f5f1cbec715cc668b414392a6cae5c671",
+    "overlay": "third_party/overlays/xvla"
+  }
+}

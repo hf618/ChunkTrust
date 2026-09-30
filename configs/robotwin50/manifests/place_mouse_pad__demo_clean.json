@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_mouse_pad__demo_clean.json",
+    "parent_manifest_sha256": "befe1c52004bf826fe0cdd6947f6ace82af228a54a78e0eae6905f9a214f6dfb",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_place_mouse_pad_demo_clean",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9610000,
+      "instruction": "Grab the flat-bottomed mouse and set it on the Red mat.",
+      "instruction_sha1": "80e638bf65c9405e1cf72309205b42e548a381ee",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9610001,
+      "instruction": "Pick the hand-sized dark gray mouse and position it on the Red colored mat.",
+      "instruction_sha1": "1b7028e6cb3ece604bc5a50fc38a957a157ff58f",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9610002,
+      "instruction": "Grab the the wireless mouse with left and right buttons and position it on the Black mat.",
+      "instruction_sha1": "1e97acb057fc8aea2a3aa784461c7ccbda334b73",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9610003,
+      "instruction": "Grab the dark gray wireless mouse and set it on the Black mat.",
+      "instruction_sha1": "1ba39d4bcc36a8f333bad2249532b62f7336f76c",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9610004,
+      "instruction": "Pick up the the dark gray wireless mouse and set it on the Blue mat.",
+      "instruction_sha1": "2b52ea0eaf83174f572861e06f61fd1668d007ff",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9610005,
+      "instruction": "Pick up the the hand-sized dark gray mouse and set it on the Cyan mat.",
+      "instruction_sha1": "72563b70259a598fbd8ceccfad33afa666f544e3",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9610006,
+      "instruction": "Pick the small rounded plastic mouse and position it on the Green colored mat.",
+      "instruction_sha1": "d385b39427b210e94af62aaf8e1af1f49b350028",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9610007,
+      "instruction": "Grab the hand-sized black-gray mouse and set it on the Red mat.",
+      "instruction_sha1": "06317818b69018fd3e93b76997174a065117de8d",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9610008,
+      "instruction": "Grab the small rounded plastic mouse and set it on the Blue mat.",
+      "instruction_sha1": "15827f55ba8754eb52945bc83c76aab5064962ec",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9610009,
+      "instruction": "Grab the dark gray computer mouse with logo and set it on the Magenta mat.",
+      "instruction_sha1": "6b9c313ef38f2bf46f41d3cb32d2e2ee38162ba9",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9610010,
+      "instruction": "Pick the hand-sized wireless mouse and position it on the Yellow colored mat.",
+      "instruction_sha1": "e04b456ebb8404e27f92b0a6698706e32a5fc01e",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9610011,
+      "instruction": "Pick up the the wireless mouse with left and right buttons and set it on the Red mat.",
+      "instruction_sha1": "0b786915ae9a493c2175a4a6b35b5053e162a8db",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9610012,
+      "instruction": "Pick up the the hand-sized dark gray mouse and set it on the Cyan mat.",
+      "instruction_sha1": "72563b70259a598fbd8ceccfad33afa666f544e3",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9610013,
+      "instruction": "Grab the hand-sized dark gray mouse and set it on Green mat.",
+      "instruction_sha1": "c64acaac5bc6bd5bc13e4e5c0eee3cea973f53da",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9610014,
+      "instruction": "Pick the hand-sized dark gray mouse and position it on the Magenta colored mat.",
+      "instruction_sha1": "928bf3fe6f257573411cf3bd21ba5d485a5abdb2",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9610015,
+      "instruction": "Grab the dark gray computer mouse with logo and set it on Gray mat.",
+      "instruction_sha1": "2b1f86972ea6255d08321e3f19d3d0d0641001ed",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9610016,
+      "instruction": "Grab the small rounded plastic mouse and set it on the Magenta mat.",
+      "instruction_sha1": "ff9d7a4e94fece18fa7febf88d2f990cf859f26d",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9610017,
+      "instruction": "Pick the small rounded plastic mouse and position it on the Gray colored mat.",
+      "instruction_sha1": "a4d511c2cbf4a3fada142705c3747dc4886daf99",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9610018,
+      "instruction": "Grab the small rounded plastic mouse and set it on the Green mat.",
+      "instruction_sha1": "5037a3c4f511194c3c3b298556c50f11e8c1e857",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9610019,
+      "instruction": "Grab the hand-sized dark gray mouse and set it on the Gray mat.",
+      "instruction_sha1": "1e069620b3a334764a68a4c274c4372c18a87997",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-07-31T23:55:40.506105+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_place_mouse_pad_demo_clean_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9610000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_clean",
+  "task_name": "place_mouse_pad"
+}

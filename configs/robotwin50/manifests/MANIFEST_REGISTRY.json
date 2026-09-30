@@ -1,0 +1,971 @@
+{
+  "derived_entry_count": 20,
+  "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+  "parent_entry_count_minimum": 20,
+  "parent_entry_counts": [
+    20,
+    50
+  ],
+  "parent_registry_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/MANIFEST_REGISTRY.json",
+  "parent_registry_sha256": "afd46380af33411ffe3bf94e9c9ea04d3d1e73b23bba5de117fa88ae9112a720",
+  "records": [
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/adjust_bottle__demo_clean.json",
+      "parent_sha256": "eeb2f38dfc15a5e66c5bc33739b022a58d3b7025070681e2123a425c30ae61d6",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/adjust_bottle__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "95d0689b363395e14fc47653795e177e993c6c17e095f777877a6483ed588245",
+      "task": "adjust_bottle"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/adjust_bottle__demo_randomized.json",
+      "parent_sha256": "64893e658017acb869acdf89c50d3b327b0a3d5dbd1fa74bdf4546d952f7ed97",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/adjust_bottle__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "d59647eac3b3ed6c4ac98b601e594ad7455a36fddd1f71ead39afa6ead897327",
+      "task": "adjust_bottle"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/beat_block_hammer__demo_clean.json",
+      "parent_sha256": "9e6f1d35625259de6257c6a2d52e20f3862f3c57c0df789fc35ae416fb1cbfc5",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/beat_block_hammer__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "988042d626595bda5de2877130c2172df2e4edaa71246069bf11fc5cd3471726",
+      "task": "beat_block_hammer"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/beat_block_hammer__demo_randomized.json",
+      "parent_sha256": "f2663b2e70911b2f2d9b9006855c773cb93f77b097fb328ec14f161e51f069fe",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/beat_block_hammer__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "a4aa713d1a1c6746a1f8c346bec6137beb0cc2aa2d8249ada6a5b04d59801dfd",
+      "task": "beat_block_hammer"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/blocks_ranking_rgb__demo_clean.json",
+      "parent_sha256": "312707e86874fcfe8f56f0121f9e72e353d93a060628b5d1c414beb45cb1a9a3",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/blocks_ranking_rgb__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "47a43ad1a9d57a7c0395bf98ea137b49ba6e7dd4a92e4b4c0b50b8de492b1b4d",
+      "task": "blocks_ranking_rgb"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/blocks_ranking_rgb__demo_randomized.json",
+      "parent_sha256": "025ecf3add34e5f935641b2b66faeecb9b492753034b32b2fbc6cb0787c3049e",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/blocks_ranking_rgb__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "ed95cbe83a3558726fad710a0922306c884e3d71f4bd15326dc348ba8b22fbbb",
+      "task": "blocks_ranking_rgb"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/blocks_ranking_size__demo_clean.json",
+      "parent_sha256": "44eaccca2c6df89c9bb32f5cf5700dba5cafe61c695a9e07a09d6c8e8e767dae",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/blocks_ranking_size__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "bad13ef3df27c7f6835a6ca063035479f9817f36b67daba05db4edabef2e81ed",
+      "task": "blocks_ranking_size"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/blocks_ranking_size__demo_randomized.json",
+      "parent_sha256": "25e64e11640cfa3d84661bd542fc077d6f8b742d5332ba801c668fa4bc62e25e",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/blocks_ranking_size__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "95e94a2e410e004ff0f9e6b55b351b22678a765d6640fca0588fbbf42aa05980",
+      "task": "blocks_ranking_size"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/click_alarmclock__demo_clean.json",
+      "parent_sha256": "06d8808c7b27f8b50050116d89bd97f7429114772ed804a65a5c67160daf330a",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/click_alarmclock__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "5e959f9f0bc9ed9d22871afadc9034d4b14ebf3a3667caf3bc3277478060e21b",
+      "task": "click_alarmclock"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/click_alarmclock__demo_randomized.json",
+      "parent_sha256": "fc029c96c04d9e57f641a0d0059fc97e0bbb500643aef2fa3196ce1ed9390c88",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/click_alarmclock__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "24eb5e2ffe697f2e0c4ca1522a39eb9cec7476e183e58320f56b48c88e8af5fd",
+      "task": "click_alarmclock"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/click_bell__demo_clean.json",
+      "parent_sha256": "28cd6dd2401d038c7ea5338490b5baaf2db41520e67e43e4b9c24b2c12dd49e4",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/click_bell__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "613e887e4fccc0c1eece996218cf8072e7180e3569a669e0b8397c55a91b2888",
+      "task": "click_bell"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/click_bell__demo_randomized.json",
+      "parent_sha256": "84a659fbc2e9691d605e31710294128af7021857f46bbdcca72cb1ecce659817",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/click_bell__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "c22ce31496fae78797e95265a99e757478fdebaca8cce2913a2b84dec35ea4f2",
+      "task": "click_bell"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/dump_bin_bigbin__demo_clean.json",
+      "parent_sha256": "50832b4c6fbb597c7c7695bb5f505b8c19164f6364baeb3f9e05e7dc0c300a75",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/dump_bin_bigbin__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "fdae5a4c31182b8bce2aecce2d2ac789236e63255907cb9961193f37ae68f547",
+      "task": "dump_bin_bigbin"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/dump_bin_bigbin__demo_randomized.json",
+      "parent_sha256": "5eb2176c7fe0bc744c3acb935336aa91edc897238e4887af94aa910dd7a75fff",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/dump_bin_bigbin__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "329ec9b73f7fb4baaa4e810f6207591669fbd2c2aa8e0b19d18f7faafe1bb125",
+      "task": "dump_bin_bigbin"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/grab_roller__demo_clean.json",
+      "parent_sha256": "8a8430c8330571422f1d71b3f5674c27628ac1f7c76a8939fb38ca64808e97ba",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/grab_roller__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "69969b053d19a8c9c83790c596958c9e0e2b58d51548c3d3f45c2b838d5034fe",
+      "task": "grab_roller"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/grab_roller__demo_randomized.json",
+      "parent_sha256": "2d71d6c685457217c57297a9a2f10e5aac59f48650fbd1efd5dd27d50ed4b68a",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/grab_roller__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "5edb98a34fc32dc539feb5bbe62145a222ce0446a28a23b8aac132ae6629b8b4",
+      "task": "grab_roller"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/handover_block__demo_clean.json",
+      "parent_sha256": "d962c1d4cc5a80be8c35f704273035e88808f8fa2e75304f9b0083a1fc19224b",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/handover_block__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "2c279d05588fee702243e6c692e96a62ce9b2ea9ce56ced3dfd8f189fe59b8a5",
+      "task": "handover_block"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/handover_block__demo_randomized.json",
+      "parent_sha256": "0e94cf1c0bb0088ef165c681e0511ffb09263c9280271663c795e82752593a60",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/handover_block__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "5e8cfc54e5f8a21ecff01047a98d5a436cc861dc93ae6327924cce71f78ee8ea",
+      "task": "handover_block"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/handover_mic__demo_clean.json",
+      "parent_sha256": "ed011c96fe586e718ad5f824ddb08e93b061415195c3d8b8e1855316c2f47504",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/handover_mic__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "1446219b7861bc2cd7ff2f69166c0cde3e60734690716df66a50bfc8805adad6",
+      "task": "handover_mic"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/handover_mic__demo_randomized.json",
+      "parent_sha256": "49770f6574f257cf0d1a89fc313e12ef7045df04bf659e48bd706c1da0a4b36f",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/handover_mic__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "7ba16fb9ee407a67c105c81ffce84b542392e8ca364dfb7a3af02405b93b4dca",
+      "task": "handover_mic"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/hanging_mug__demo_clean.json",
+      "parent_sha256": "237b45c5ff631f0a6e971082463e60fd80f7c48b0ce64e64a9efa0333e0a4428",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/hanging_mug__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "65693cba313ee0e87f828d97366273705588b579f5543913067b476c004e4257",
+      "task": "hanging_mug"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/hanging_mug__demo_randomized.json",
+      "parent_sha256": "1615fe984954c158800ba8edf464ec6b10ebbf5e15236d5933977b0820f5c1fe",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/hanging_mug__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "3ecf5d7e7a89c061fabdc565d78ff3881a5f70dfefaa31595579b6e1dd31739f",
+      "task": "hanging_mug"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/lift_pot__demo_clean.json",
+      "parent_sha256": "fccea01f794210870abd5abb3dfdad8a9101f5775ee81034ff1e4766d71136f9",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/lift_pot__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "ab89e41ba79827d2278e985efabeb54042df21691081b6606dba4c5ef2248165",
+      "task": "lift_pot"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/lift_pot__demo_randomized.json",
+      "parent_sha256": "f717014a5d0ae27dc59bb33b732660a7a33fb279fc989456bf8dfe6cc68ad84f",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/lift_pot__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "866eaec9a5a6e1125c165e43bf44ca3f594dc809a427cdafaf59217ea3b9e3fc",
+      "task": "lift_pot"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/move_can_pot__demo_clean.json",
+      "parent_sha256": "441f835889b8b577ebf227dde9e79a236b8ba814c173ed09f5b8c471e269a926",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/move_can_pot__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "73cf1ce8b3d5ecf24c120c0cd1693fcc4c0b8606953236642015d833912f8e22",
+      "task": "move_can_pot"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/move_can_pot__demo_randomized.json",
+      "parent_sha256": "2fa0bd0d1b4c5b646ce07f19fa700fdd70a54e67334deea8104febe0eeeb1246",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/move_can_pot__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "4685af77c0ef207cb850e8e724dc09657ba8539476bdb4ec0c7d4a92231a1d81",
+      "task": "move_can_pot"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/move_pillbottle_pad__demo_clean.json",
+      "parent_sha256": "9f2e7c28c14fcd8f8564fdeb1ce177a0cf69a90e6c55a97f60c0b881797499c6",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/move_pillbottle_pad__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "bb5a3c2331f652acc27817ba51201a219f307d63d795718cd64a967339c2b861",
+      "task": "move_pillbottle_pad"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/move_pillbottle_pad__demo_randomized.json",
+      "parent_sha256": "60c327ee5c3f6b2f5f75da904279209558d4ba235d44df2b555dffcdaf708dcc",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/move_pillbottle_pad__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "5f40967ddc832781fc8e3e24bd5d8815f9bb43739ea06018cf9297d888a50fc5",
+      "task": "move_pillbottle_pad"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/move_playingcard_away__demo_clean.json",
+      "parent_sha256": "4024b04f4e4d6ee5890783cf7e35f6b63377bc88b2b4ca5dcd9d733eb59de8e8",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/move_playingcard_away__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "77070dc2bdfe4c578670d2fe1f8af478423977d4529fc7bee65d8a66a7d8379c",
+      "task": "move_playingcard_away"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/move_playingcard_away__demo_randomized.json",
+      "parent_sha256": "575df00e8484f2d1f311f3b91c2375bcd1d8c4ec024c9c201be32e032e6dd462",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/move_playingcard_away__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "47d4dd6d155d5f1dd1f8d7d2800af7b648b9efea2fae7d6a7c1940ce3f74f10a",
+      "task": "move_playingcard_away"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/move_stapler_pad__demo_clean.json",
+      "parent_sha256": "f83561c3d268e17a01fd247c4a41af92dd35aebd775639ad8ab77dca314bd32f",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/move_stapler_pad__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "02a71ccc159d79c18f75517cd5f4a4603e8ddad901457886eaf4730cb5b381f8",
+      "task": "move_stapler_pad"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/move_stapler_pad__demo_randomized.json",
+      "parent_sha256": "b81018b3af251483834a63ea29a7ca231b0347263d4c972234bae91800faa5b1",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/move_stapler_pad__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "03025670f77aeeca10d3dacff14f6560005935e0ff35a838ddb5a4d6b62a3169",
+      "task": "move_stapler_pad"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/open_laptop__demo_clean.json",
+      "parent_sha256": "30914cd0d43069e777babfa7b383c5a8adc99b945066d7acaa1141b84b214048",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/open_laptop__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "f82fb296c67d6d88043708e1ca50eb1a074f60b2d832d5e43623d6db8c728d4d",
+      "task": "open_laptop"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/open_laptop__demo_randomized.json",
+      "parent_sha256": "58de377ded16e86d25b310f9c9aa816e7e57e7539a2c03a80dac170d89a2d8bc",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/open_laptop__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "e86367795796a425d6856699f0c69112efed879281cecd8fa017a940168488d6",
+      "task": "open_laptop"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/open_microwave__demo_clean.json",
+      "parent_sha256": "f9215a81e542252d1908d8a9eef3ce5decac944a49fad9ee1eab501ce4f764c1",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/open_microwave__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "61661b7951a94390a83ff5feebfd62eb222db0c2e7f3c5ba2bf609a4ae1f2460",
+      "task": "open_microwave"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/open_microwave__demo_randomized.json",
+      "parent_sha256": "bad443a0d08f7d34af1662a68b304ea745279b365f3e545bf09c522ccf0887ab",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/open_microwave__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "3a4112ae0b09d951c671823c322f5549387322bec73f888dcc1a251d491fac50",
+      "task": "open_microwave"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/pick_diverse_bottles__demo_clean.json",
+      "parent_sha256": "e4329b3703b3b26d08e6098106f40948fd525dc50da045004b412852fa82b015",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/pick_diverse_bottles__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "8b4927b6ce0f79c6f812c49148ee6b5a07c93cb6838c7bb8f5a3a33d950b1db9",
+      "task": "pick_diverse_bottles"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/pick_diverse_bottles__demo_randomized.json",
+      "parent_sha256": "393116baaf5eb87054442d84ac173bba7ddf3132c3279d0862224810cf7a0b4d",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/pick_diverse_bottles__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "663c5727c9ad8de8058ca8d7a07cd2cbc0857b3a446a48d7c0f42e43556e9d52",
+      "task": "pick_diverse_bottles"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/pick_dual_bottles__demo_clean.json",
+      "parent_sha256": "83ed9d13e509e2d955a0bcdfeb7f29011759a0c5e467df2c3b715458420e18d4",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/pick_dual_bottles__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "5f02d64a65dddb26c05d0720b74867f2df094ac611651fd6a16b77390e637c60",
+      "task": "pick_dual_bottles"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/pick_dual_bottles__demo_randomized.json",
+      "parent_sha256": "7b7e97765c7732dc9ef3b0963ce34229e42ba6f96cf1f3e4d0f64e3258236de3",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/pick_dual_bottles__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "4d2f5adeda2f32a59965a3ba830dd87a08394709b71b5e4d44f3ca3d5fd03d00",
+      "task": "pick_dual_bottles"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_a2b_left__demo_clean.json",
+      "parent_sha256": "ba7f22bbe221630f696ae50e110a7374fa6106577e201e9115aa026bb6de89c1",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_a2b_left__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "29e8294b8563e681c86b5849340999cfbb29ee45aadf0e1983ab3fbed4b8ca78",
+      "task": "place_a2b_left"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_a2b_left__demo_randomized.json",
+      "parent_sha256": "a77e30575048c70a126fc8b7e3aee955381ce158a46221912c77cc72e5557313",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_a2b_left__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "80b7f3e576588c3ae492eb6be7f6667acf8dd1f39182f0888f5b626f31914910",
+      "task": "place_a2b_left"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_a2b_right__demo_clean.json",
+      "parent_sha256": "781cbc4c396ca7a265ffb87cdf104b500b8a31e3359f5b7c9470331863c4a142",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_a2b_right__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "614effb6732feebe5741e0aac2e85d34cefc9ae42634876315ff3375312b3b4b",
+      "task": "place_a2b_right"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_a2b_right__demo_randomized.json",
+      "parent_sha256": "f4ca3d8a7f50b5db8769643a32d8477ce305b9e6586ce2e75a5bf20f746ae9f1",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_a2b_right__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "74073817fa7676cf4e9931a122ce24336fd7dd16af611415c5fca83774c08b9f",
+      "task": "place_a2b_right"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_bread_basket__demo_clean.json",
+      "parent_sha256": "e2e48ada6d76628b9a3a1664e5d0305b7eba3ab5a6026a9dd757e51e04a23d85",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_bread_basket__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "13f9fee050c947cd37a7016035f9352c174b20375ba0b25f47c888943bed4751",
+      "task": "place_bread_basket"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_bread_basket__demo_randomized.json",
+      "parent_sha256": "587ffb5b1dda916c027f06238ea9498d3dcbac2637b666238582afe6cb59917c",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_bread_basket__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "3420f2d85b9789cb6220b30b2bab83b9ccaf94e3f95473715b93376daaefb3d4",
+      "task": "place_bread_basket"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_bread_skillet__demo_clean.json",
+      "parent_sha256": "dd83d4e024d0148ee093c3f951da6c3fc91f2c6a9bf26052db3df16edb8a1f63",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_bread_skillet__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "e4f3993e5ce537beb1f822a2c6012cd660e99a71cf9599114f7d979407af497d",
+      "task": "place_bread_skillet"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_bread_skillet__demo_randomized.json",
+      "parent_sha256": "b5b80e1b8ea54e11c94bd924b3c973e7fb39e51c300aad80d35d423c93a24d25",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_bread_skillet__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "a99176b2788453813dc3716017141ab3b8af1790799d8f81b5c7636e380f746e",
+      "task": "place_bread_skillet"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_burger_fries__demo_clean.json",
+      "parent_sha256": "b24463248d7fc91ed4569e62927f5c526c80e2186adc46a7467da7ecda71063e",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_burger_fries__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "b8978250e710a55b81b95a36d7069578ed7d96eb123451acab9e7d7dfde8993e",
+      "task": "place_burger_fries"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_burger_fries__demo_randomized.json",
+      "parent_sha256": "572345d03b04d2819bed03a49359ab2e1a98f3cf2d42c67820d64df9b3df9655",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_burger_fries__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "d5fb7e088e331408cb11c6adbc58baa8212212f4c0cec3d1e34b0c6baf47ac7b",
+      "task": "place_burger_fries"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_can_basket__demo_clean.json",
+      "parent_sha256": "05b7e70c88122ffa880ea296626a2ac1a3fcac5141b33d5311eeed0cd5808d3d",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_can_basket__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "abd5882a239c2a70863f48d31f7cd0d6c3f667d6a9405e8b619e38733ba68394",
+      "task": "place_can_basket"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_can_basket__demo_randomized.json",
+      "parent_sha256": "19532649e92a67f135bd594872ee0aa1706f9825b3f873e3976f0773ad086a26",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_can_basket__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "0d0e3152e0e2d00684421c40cb39d3e79ebe1dac777633ca6329cc6bbb9e0301",
+      "task": "place_can_basket"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_cans_plasticbox__demo_clean.json",
+      "parent_sha256": "480d4ddb11ac3304ee14528c35bc3cb1ee5dc06b363867e61d20ef383624b073",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_cans_plasticbox__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "07e460635c510e677d0616da06ec6ef43d3b111d2eb68adae4fbe21aadb660f7",
+      "task": "place_cans_plasticbox"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_cans_plasticbox__demo_randomized.json",
+      "parent_sha256": "bc8843be3f0ac814e7a900d0b9d4834a4ac2436d666486769f95f9d93fa95677",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_cans_plasticbox__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "721c892c916dd6155a142ae320effee7d960d2ff857ec01c03d1b4146cd13af7",
+      "task": "place_cans_plasticbox"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_container_plate__demo_clean.json",
+      "parent_sha256": "c0927b2f3762faac49b1cf897bc8f0b306f8617458154d890222b87d908a40ea",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_container_plate__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "412e106752141f2020faa03ccf08d226d3a672ca36e2046e1fdb0ab85fbd78b0",
+      "task": "place_container_plate"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_container_plate__demo_randomized.json",
+      "parent_sha256": "4234f7e285e3166b5280a2e806cdf071ab1c71d8957a5fa4f16c3a79dd1b4349",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_container_plate__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "cb5393a0f4693d1b2571082796d94b0829c325e98e7b3f1321c2fcc3351c552e",
+      "task": "place_container_plate"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_dual_shoes__demo_clean.json",
+      "parent_sha256": "5e8f74ab83c9c8f9c935a03f477fb41d96d983a5b34cfd3129e1d724a778934f",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_dual_shoes__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "a7f5595b329684e8003c243e6078c37e13c947c14f02c41f2ea0ffc9f867e60a",
+      "task": "place_dual_shoes"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_dual_shoes__demo_randomized.json",
+      "parent_sha256": "01cafe6c0935d422d13d6bfdc7c588346e212c54a7f5269e06a43afebcb87953",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_dual_shoes__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "f1cd0a4a0e424ef2a2a22ff3145b51569240ff05860cb756703c36855bccf132",
+      "task": "place_dual_shoes"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_empty_cup__demo_clean.json",
+      "parent_sha256": "a2a0d3d0c2ffaf8dad738e5a5c28f21d7a449553165b09ea4fe4c49b659b65e5",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_empty_cup__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "5577fb60135c9c2c0fbaddf65d0bc1fc44ecd4e0a26c71a525c9dffb24a39c74",
+      "task": "place_empty_cup"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_empty_cup__demo_randomized.json",
+      "parent_sha256": "659c6fd0b5541a8e291ec9f6fdc440565362b76eeefd2ce98a464b4f286131a8",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_empty_cup__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "b307b8d9e873b064216099c6f17eb77dffd3a8c3607ab73f73d7b93d0ddc10c8",
+      "task": "place_empty_cup"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_fan__demo_clean.json",
+      "parent_sha256": "8be8ff54bd6d6da13e006117e040d3e7a3e4532a2b5c92559487a4693a21faaf",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_fan__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "a9fe4c83dfbf0c2901b006663c929620e7e708d0ccb326e079f1bb4fb05cc0c4",
+      "task": "place_fan"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_fan__demo_randomized.json",
+      "parent_sha256": "a55ac0b578d863d760f5d3f0ed72301fc48f98173567adbb27747e961160753a",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_fan__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "409bb8e3a811bf84219a39a92d329146427c5aaa3627be0857a8edf5deb34d58",
+      "task": "place_fan"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_mouse_pad__demo_clean.json",
+      "parent_sha256": "befe1c52004bf826fe0cdd6947f6ace82af228a54a78e0eae6905f9a214f6dfb",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_mouse_pad__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "cf15c5485899c0102d405cf0f0275f56ddd3151f0f304afc8534e38178b979d8",
+      "task": "place_mouse_pad"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_mouse_pad__demo_randomized.json",
+      "parent_sha256": "df67ef183fa2cf302d02108961b6bb5feb019779fea87d8df65c98efeecd80f7",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_mouse_pad__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "adc3ec30627f0c4a37e0e85881c71c3f3583733753f159c287eff30807af7100",
+      "task": "place_mouse_pad"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_object_basket__demo_clean.json",
+      "parent_sha256": "5df9107ed14ebf65cb80d3c9502aa24587080fa3c0bf4ccdcd9778b29ccce0c3",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_object_basket__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "1e8e92131f2794277f61465bd00eae5c8170cdfb7dccb88a36d701630be3c83f",
+      "task": "place_object_basket"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_object_basket__demo_randomized.json",
+      "parent_sha256": "ca4e156a464e2ae4ade0bf2be8d7309906b261db0d37ede381aac9c852373163",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_object_basket__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "a59c1ceaafe003d81e852005fa6dc71139bdb6f44aeb1ea5035277d2677e6764",
+      "task": "place_object_basket"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_object_scale__demo_clean.json",
+      "parent_sha256": "71561e29dd49d45070e5d4ee11b22e29a2d7744337d7cbfcb74c1a013b0897bd",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_object_scale__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "1750d1e755833da79e6ae8d1fc790ae0ef99e0c86d3123f6866e8e3b312e5884",
+      "task": "place_object_scale"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_object_scale__demo_randomized.json",
+      "parent_sha256": "177e003c9d71f3b39a24513c0fbe25588c65991063b8fb5582cb6f396d82750a",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_object_scale__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "45efc41608a9cb2290540f7a95f12d304e13bea9f831623b62406595fa45ae9b",
+      "task": "place_object_scale"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_object_stand__demo_clean.json",
+      "parent_sha256": "c1e0c919991c7938d8f58fb603843ee197d558e732207a901fcace9bdbe6b703",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_object_stand__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "9e86ad15cafabdbd541797386c4ca4c3a6de3d4c7bef864088e46e0ba75d7987",
+      "task": "place_object_stand"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_object_stand__demo_randomized.json",
+      "parent_sha256": "2f5e4971cba01fb239a21ebd91ee1098087650a46063b9ff4f4be294e47d32f1",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_object_stand__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "9bb21c90b44b1c12f9890f9e4bfb3aa0502b8d838652a6a88a92f2acc1a74082",
+      "task": "place_object_stand"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_phone_stand__demo_clean.json",
+      "parent_sha256": "d34bda8abfed7fe1ff8a0bf2beb7611ae8cabfeaee9a8e54c154bb9553508aaa",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_phone_stand__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "4044c498f3213cb84593e4059ad2d0c2ad01d867847bfc31f154ee1a29a172ce",
+      "task": "place_phone_stand"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_phone_stand__demo_randomized.json",
+      "parent_sha256": "019da37e5afed5c486678840588a33ace4a87a7d472618f751abec88e6a6ebd4",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_phone_stand__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "5a8dbe0c5609e2d2a96b9836571be2efb0fff6f874fe94e1f65aae300e2bd4d9",
+      "task": "place_phone_stand"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_shoe__demo_clean.json",
+      "parent_sha256": "be21769f139faad6b1d54edb8c656ce452b7fd8dc3672be66f33f8de13c15c0c",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_shoe__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "cd5b2336e8b9e85db9a49c521649a2e208e17cfe3292e0bfe8de2ded91711caf",
+      "task": "place_shoe"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_shoe__demo_randomized.json",
+      "parent_sha256": "c8ba181bf9bd656ce95f226f9d9d2ed92f318b9716383b5112b2fd322254e190",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_shoe__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "3d835b0248d52de19bbbacaaa8fd622dff665dae93b7573a33befceff741b2f7",
+      "task": "place_shoe"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/press_stapler__demo_clean.json",
+      "parent_sha256": "d9d95a04a3c928a354defe82536e38581d04036effbf2b1a392f965a7c0c8e94",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/press_stapler__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "09e193558e2d6aaa91156a9e7a55853e9580ef2315e0ac97b26b0ba1b68eccd7",
+      "task": "press_stapler"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/press_stapler__demo_randomized.json",
+      "parent_sha256": "cbf5be694adf6217e6a5c6ac76c0a19fe3044f47f8584f2c3d66839b8af71da1",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/press_stapler__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "c90adf6b4db618a23b1b5d0a3963203894adbf98fd3e86e551b4de4cb9ade6ad",
+      "task": "press_stapler"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/put_bottles_dustbin__demo_clean.json",
+      "parent_sha256": "267f59960e238052e58cef143be9fc2d4caea374d4c1c984fe4361fbc47a3885",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/put_bottles_dustbin__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "b7be2250caf508f524f7a3f1517efbbeaf7321dbf3ea25f4d8c9556c3d17d6f9",
+      "task": "put_bottles_dustbin"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/put_bottles_dustbin__demo_randomized.json",
+      "parent_sha256": "052035ec80229363fb1e00b907e9dc2d18b938a0e5255e1e937e1abfda334352",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/put_bottles_dustbin__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "35694682b1a0e52fc1628230d5f0473500a208f876bf09cb9b4e66b26a00520e",
+      "task": "put_bottles_dustbin"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/put_object_cabinet__demo_clean.json",
+      "parent_sha256": "23d85662566466c9859a62859e3f87fe457cedd9292ecb7350dc6002c7f5e205",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/put_object_cabinet__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "271339cf33f58d0418734035721db2b82cbdc751abb0de4d37528e9a5505f2b4",
+      "task": "put_object_cabinet"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/put_object_cabinet__demo_randomized.json",
+      "parent_sha256": "06acbc535162ed676c5d6d3d401b80745dbacfcb785a2e459ea8d44fcdfbebd5",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/put_object_cabinet__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "e1347693b4d8962a486b22eee9bce1271fe15840a1c2cd85d9aaf48f7675061e",
+      "task": "put_object_cabinet"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/rotate_qrcode__demo_clean.json",
+      "parent_sha256": "3e1c2c3343bd137598bf035e9267481ad7259b7f45682f6662e3aecdb6411a38",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/rotate_qrcode__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "3b6ee664b4d71a63f2d31001bd4bafdfffdfd1837bac8ea55b59e01946aaced0",
+      "task": "rotate_qrcode"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/rotate_qrcode__demo_randomized.json",
+      "parent_sha256": "ed2f734869965e65ad45fb4370f7effcc7f0556e2bb56f36468c1bce78e60079",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/rotate_qrcode__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "f8c743fdf9ba936a19b9dc05ebdbb48f7ba79853708b4653f4da6ff5e4f556c7",
+      "task": "rotate_qrcode"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/scan_object__demo_clean.json",
+      "parent_sha256": "90b8caceadbeb34b7b856621ae33b1ed22fe743f6cc4f2a8a9467758f55a3955",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/scan_object__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "89b9da7adc64f131a09699ee9da612e670d7a6bd57b5e3b4dfc269c4c72130bb",
+      "task": "scan_object"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/scan_object__demo_randomized.json",
+      "parent_sha256": "ff5e48ae19c6991752ac52319940ef213ba283645ebaec865fa62fb48fffb0c6",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/scan_object__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "7bd987f3de52a17d4f4d20f0d776ed8514b331c987e1796a0b1464765b439778",
+      "task": "scan_object"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/shake_bottle__demo_clean.json",
+      "parent_sha256": "4954dc63132a50cd90be190f313da549c067e75ad6e8fbbce291ae2360d74681",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/shake_bottle__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "2db53fb50e167d616d655a1effc02685a5943a16f144ecaae5be26596416bd01",
+      "task": "shake_bottle"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/shake_bottle__demo_randomized.json",
+      "parent_sha256": "c3cf91136799dc748f0339af7837983d50279b62f8a0f8924c6fe00b15796b0d",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/shake_bottle__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "89ccfa73ced5ec0a2628de6ab9cd5d49a8aa1304fbcbf1056d656688eb1ea9ea",
+      "task": "shake_bottle"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/shake_bottle_horizontally__demo_clean.json",
+      "parent_sha256": "e307aecbcff215e7abd1de1e3964db31f28de53ddece381a243852e8d6bfeb0a",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/shake_bottle_horizontally__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "ae4283687ea4ab9e6e932aac755f25fa4acfd59b14c3e048a951db9c53cd195c",
+      "task": "shake_bottle_horizontally"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/shake_bottle_horizontally__demo_randomized.json",
+      "parent_sha256": "48faa364d5459a3faa45861df8f312d9324af0057f3bba9f25be0fe70ca60faa",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/shake_bottle_horizontally__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "6b2c5d8a1325aebae5e7fd4efdb4b10ac4d8f6cf807e5f72fec43b58fae45408",
+      "task": "shake_bottle_horizontally"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/stack_blocks_three__demo_clean.json",
+      "parent_sha256": "7a2ce18754a4fadb3bebbfa43dcfcc9efc6f5caca4db17756058ba191eca82eb",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/stack_blocks_three__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "bf8d076bd81d9b54e982e668403e7c10592addca47e46ad91574e4aa9cc95f01",
+      "task": "stack_blocks_three"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/stack_blocks_three__demo_randomized.json",
+      "parent_sha256": "f5e7bb960b24e703cedc84bf61359c3aa319d08c96d6f27055e909ea11c9065c",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/stack_blocks_three__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "ae5d65a891788141a36c86ee63a59b59db2508ab42007f0aefceeaa8b973845c",
+      "task": "stack_blocks_three"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/stack_blocks_two__demo_clean.json",
+      "parent_sha256": "7b9373c5c75519c453fa0b292f4368be375fcea738c44e47f1ccc1628537d66d",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/stack_blocks_two__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "a6e5251d74096da4bbf21fbefc00a080c9f275d5b521d2a2ea1a387b93b8aec4",
+      "task": "stack_blocks_two"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/stack_blocks_two__demo_randomized.json",
+      "parent_sha256": "c79dc5d02a5d1bb0efd58aad04b41bb820f1f744ffce9de8f7fbb5709113f0e4",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/stack_blocks_two__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "0494d0a7dbdf1af1faeae18c27fbc08ea99dd8acaee816e27b3836c68f1be5c3",
+      "task": "stack_blocks_two"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/stack_bowls_three__demo_clean.json",
+      "parent_sha256": "407db3042e62fd9789be9cb67d87791d959d1485f412f83d2ff42ff84709d4a0",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/stack_bowls_three__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "4e70b972201b776aea58ee512b97c92733727997f7582300182811813c816d4a",
+      "task": "stack_bowls_three"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/stack_bowls_three__demo_randomized.json",
+      "parent_sha256": "fdbc239266ef68207c4db59e61905880bc926321268f43e9935b92b3cb19833a",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/stack_bowls_three__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "176036c626da443d5f39ca3d5055311ba3a439443eb70025b6b9824888d43ea8",
+      "task": "stack_bowls_three"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/stack_bowls_two__demo_clean.json",
+      "parent_sha256": "1379f4367e4ab4c3d344d2d191e2dc44d58c166f2e093cd47f44c20c71eb0f7d",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/stack_bowls_two__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "4242e25e15fbfb32430f466e9d1f1c01e6baffc6496a2b2756e644ebbeea83bd",
+      "task": "stack_bowls_two"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/stack_bowls_two__demo_randomized.json",
+      "parent_sha256": "9cd5ec6b99a7594c7664946ac884b48eadecbf0f2eac66aad8e2731d72770191",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/stack_bowls_two__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "ae095898875f8adc6264e1ac9d8ea5a5201cd0724ab5fb7d95b32774c87d1607",
+      "task": "stack_bowls_two"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/stamp_seal__demo_clean.json",
+      "parent_sha256": "e98e9bc3e37715ef39fe623aec45a892e8ae735d87edaba24f2771a48c90c5f1",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/stamp_seal__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "c131c836237004f3d2817fee31835edc5e7e9380bd32513e2fe941708c6b4fd3",
+      "task": "stamp_seal"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/stamp_seal__demo_randomized.json",
+      "parent_sha256": "943a4cc5d9c8e0d8a815f571e3d53b0978c1fe2f409520a71ac15c15a6346d79",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/stamp_seal__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "0fbb17df708246f801d534c35f9f79e8c180c0c91f679c8516d92ab41187594b",
+      "task": "stamp_seal"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/turn_switch__demo_clean.json",
+      "parent_sha256": "b51f926dfcd62ecaa6beec70c1a4176379f4e030887cf23c72fac2dd4dc9d9c6",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/turn_switch__demo_clean.json",
+      "setting": "demo_clean",
+      "sha256": "d58a3185ac02b002223e9b4e416c908fa5f62293ea76696628e710e00b742e6f",
+      "task": "turn_switch"
+    },
+    {
+      "entries": 20,
+      "parent_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/turn_switch__demo_randomized.json",
+      "parent_sha256": "9c549c06c7948bbca415648304a5e6120e931006e53b4cba7d64f93f77e7267c",
+      "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/turn_switch__demo_randomized.json",
+      "setting": "demo_randomized",
+      "sha256": "0759545d5b549b2c5bdcc807dca8624ff96c7a7327cd1c34d8fe5667216c5f69",
+      "task": "turn_switch"
+    }
+  ],
+  "schema_version": 1,
+  "selected_tasks": [
+    "adjust_bottle",
+    "beat_block_hammer",
+    "blocks_ranking_rgb",
+    "blocks_ranking_size",
+    "click_alarmclock",
+    "click_bell",
+    "dump_bin_bigbin",
+    "grab_roller",
+    "handover_block",
+    "handover_mic",
+    "hanging_mug",
+    "lift_pot",
+    "move_can_pot",
+    "move_pillbottle_pad",
+    "move_playingcard_away",
+    "move_stapler_pad",
+    "open_laptop",
+    "open_microwave",
+    "pick_diverse_bottles",
+    "pick_dual_bottles",
+    "place_a2b_left",
+    "place_a2b_right",
+    "place_bread_basket",
+    "place_bread_skillet",
+    "place_burger_fries",
+    "place_can_basket",
+    "place_cans_plasticbox",
+    "place_container_plate",
+    "place_dual_shoes",
+    "place_empty_cup",
+    "place_fan",
+    "place_mouse_pad",
+    "place_object_basket",
+    "place_object_scale",
+    "place_object_stand",
+    "place_phone_stand",
+    "place_shoe",
+    "press_stapler",
+    "put_bottles_dustbin",
+    "put_object_cabinet",
+    "rotate_qrcode",
+    "scan_object",
+    "shake_bottle",
+    "shake_bottle_horizontally",
+    "stack_blocks_three",
+    "stack_blocks_two",
+    "stack_bowls_three",
+    "stack_bowls_two",
+    "stamp_seal",
+    "turn_switch"
+  ],
+  "selection_rule": "first N entries in ascending canonical rollout_id order",
+  "settings": [
+    "demo_clean",
+    "demo_randomized"
+  ]
+}

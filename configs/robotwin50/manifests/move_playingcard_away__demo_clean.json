@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/move_playingcard_away__demo_clean.json",
+    "parent_manifest_sha256": "4024b04f4e4d6ee5890783cf7e35f6b63377bc88b2b4ca5dcd9d733eb59de8e8",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_move_playingcard_away_demo_clean",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9440000,
+      "instruction": "Pick up the rectangular playingcards case with patterns and move it outward.",
+      "instruction_sha1": "a3f5092e6a9906601b52c75800efadd744d30045",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9440001,
+      "instruction": "Grab the rectangular red playingcards holder and move it off the table.",
+      "instruction_sha1": "9e3b830882aa8061cb3d1512e6a99eed29f369a4",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9440002,
+      "instruction": "Use the left arm to grab the gold text on playing cards box and relocate it.",
+      "instruction_sha1": "90a22e6a1ee53bac42ea8679aef1e235ae13831e",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9440003,
+      "instruction": "Grab the hard black box for card deck and move it off the table.",
+      "instruction_sha1": "5a7f83cebdc84019221c3db7cdc44ae3a2c9d4c1",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9440004,
+      "instruction": "Pick up the small box for playingcards and shift it outward.",
+      "instruction_sha1": "4671ea37dbcc1aa2b8e31bde3f63dcdadfbbd0a3",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9440005,
+      "instruction": "Lift the playingcards with red packaging from the table and shift it.",
+      "instruction_sha1": "1097e96fa134dbc7a70f748e7741d741f3ac8796",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9440006,
+      "instruction": "Grab the rectangular red playingcards holder and move it off the table.",
+      "instruction_sha1": "9e3b830882aa8061cb3d1512e6a99eed29f369a4",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9440007,
+      "instruction": "Pick up the rectangular playingcards case with patterns and move it outward.",
+      "instruction_sha1": "a3f5092e6a9906601b52c75800efadd744d30045",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9440008,
+      "instruction": "Pick up the rectangular playingcards case with patterns and move it outward.",
+      "instruction_sha1": "a3f5092e6a9906601b52c75800efadd744d30045",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9440009,
+      "instruction": "Use the left arm to grab the playingcards with red packaging and relocate it.",
+      "instruction_sha1": "09659204523af718f6a537851be31b285f007524",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9440010,
+      "instruction": "Use the left arm to grab the black box with smooth surface and relocate it.",
+      "instruction_sha1": "86b2bfd66f59601c205e528668b54c7bac773003",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9440011,
+      "instruction": "Use the left arm to grab the gold text on playing cards box and relocate it.",
+      "instruction_sha1": "90a22e6a1ee53bac42ea8679aef1e235ae13831e",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9440012,
+      "instruction": "Use the left arm to grab the rectangular red playingcards holder and relocate it.",
+      "instruction_sha1": "1978a6a048fbdb8b61e1b3b106c5810a8f6c5462",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9440013,
+      "instruction": "Pick up the playingcards with red packaging and move it outward.",
+      "instruction_sha1": "cc49c29e8ca49a52df223182683c31c311e47c38",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9440014,
+      "instruction": "Use the right arm to grab the rectangular red playingcards holder and move it outward.",
+      "instruction_sha1": "a89bb25c830eee2eb730b4f4b17c464964b2b8bc",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9440015,
+      "instruction": "Use the right arm to grab the rectangular playingcards pack and relocate it.",
+      "instruction_sha1": "7dc263b23bdd511d7687f2d6b6d53601e1e85f0d",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9440016,
+      "instruction": "Use the left arm to grab the playingcards with red packaging and relocate it.",
+      "instruction_sha1": "09659204523af718f6a537851be31b285f007524",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9440017,
+      "instruction": "Use the right arm to grab the hard black box for card deck and relocate it.",
+      "instruction_sha1": "9f85bd32b32f413fc18d32fd20651885eafeda1a",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9440018,
+      "instruction": "Pick up the gold text on playing cards box and move it outward.",
+      "instruction_sha1": "4b15f2b5ae9f779a4f38a22d62e5ba5a0988f489",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9440019,
+      "instruction": "Pick up the playingcards with red packaging and shift it outward.",
+      "instruction_sha1": "600cdda54fd840e877152b35b6c0c3df50743647",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-07-31T17:59:32.109551+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_move_playingcard_away_demo_clean_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9440000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_clean",
+  "task_name": "move_playingcard_away"
+}

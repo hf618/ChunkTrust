@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/open_microwave__demo_clean.json",
+    "parent_manifest_sha256": "f9215a81e542252d1908d8a9eef3ce5decac944a49fad9ee1eab501ce4f764c1",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_open_microwave_demo_clean",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9470000,
+      "instruction": "Move the left arm and open the kitchen microwave with slanted shape.",
+      "instruction_sha1": "5ada6ac510b4814245b0d780b7e68852e90bc4c9",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9470001,
+      "instruction": "Open the medium-sized microwave with angled walls by pulling its door handle.",
+      "instruction_sha1": "b0f58df8534943efdcde8e676b6547494f2d52bd",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9470002,
+      "instruction": "Grab the dark gray microwave's handle and pull to open it.",
+      "instruction_sha1": "d4049df00fa3d86f67db3613c50796ed56d34f25",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9470003,
+      "instruction": "Pull the dark gray microwave open with the left arm.",
+      "instruction_sha1": "a2bcd86dbc5ffe3e1d52d90518b844ee526f95a6",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9470004,
+      "instruction": "Locate the gray and yellow rectangular microwave and open it using the left arm.",
+      "instruction_sha1": "6b9000810fde72fe98716fe796bf0139c5e45f52",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9470005,
+      "instruction": "Use the left arm to open the medium-sized microwave with angled walls.",
+      "instruction_sha1": "a445310d057c03a63aee3ee6fef10fd7d02c331e",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9470006,
+      "instruction": "Open the medium gray microwave with top vents using the left arm.",
+      "instruction_sha1": "8d5bc5052185477a76729c4436bf99e071b71934",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9470007,
+      "instruction": "Pull the dark gray microwave open with the left arm.",
+      "instruction_sha1": "a2bcd86dbc5ffe3e1d52d90518b844ee526f95a6",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9470008,
+      "instruction": "Grab the dark gray microwave's handle and pull to open it.",
+      "instruction_sha1": "d4049df00fa3d86f67db3613c50796ed56d34f25",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9470009,
+      "instruction": "Locate the medium-sized microwave with angled walls and open it using the left arm.",
+      "instruction_sha1": "fd153df0bbaf41e998ba3710b4567c90e2372190",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9470010,
+      "instruction": "Open the gray and yellow rectangular microwave using the left arm.",
+      "instruction_sha1": "6ed7b1195a3cddb76851264cb4e9e6b25f874803",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9470011,
+      "instruction": "Use the left arm to pull the handle of the kitchen microwave with slanted shape.",
+      "instruction_sha1": "b154dd6ca416dfcc86ca3994638fc6a702f3a703",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9470012,
+      "instruction": "Use the left arm to pull the handle of the dark gray microwave.",
+      "instruction_sha1": "95d826fb745936756ce3728ef2dacf1e7c928ace",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9470013,
+      "instruction": "Use the left arm to pull the handle of the medium-sized microwave with angled walls.",
+      "instruction_sha1": "ce8b606a68f8ba9e401da6badb56cdedec75f710",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9470014,
+      "instruction": "Pull the gray and yellow rectangular microwave open with the left arm.",
+      "instruction_sha1": "bddb44f604b7e4615a4d058b898d81a4813c1a64",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9470015,
+      "instruction": "Grab the kitchen microwave with slanted shape's handle and pull to open it.",
+      "instruction_sha1": "d5dbafe4cfe4d7b68b7e7c374af1df1f7e70d77a",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9470016,
+      "instruction": "Grab the medium-sized microwave with angled walls's handle and pull to open it.",
+      "instruction_sha1": "d77d4a1e98690a8e0d1d4366cafe038e9ab56d3c",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9470017,
+      "instruction": "Move the left arm and open the medium gray microwave with top vents.",
+      "instruction_sha1": "dc7e94e7d1c3e682b4f5c6a09b8940e19ec6c9a4",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9470018,
+      "instruction": "Use the left arm to open the gray and yellow rectangular microwave.",
+      "instruction_sha1": "95dba06e180132825221e36c07f4580dc9645bc3",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9470019,
+      "instruction": "Move the left arm and open the kitchen microwave with slanted shape.",
+      "instruction_sha1": "5ada6ac510b4814245b0d780b7e68852e90bc4c9",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-07-31T18:56:10.507743+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_open_microwave_demo_clean_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9470000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_clean",
+  "task_name": "open_microwave"
+}

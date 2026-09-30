@@ -1,0 +1,823 @@
+{
+  "entries": [
+    {
+      "episode_seed": 992000,
+      "instruction": "Use the right arm to move the bread with golden crust to the black skillet.",
+      "precheck_status": "accepted",
+      "rollout_id": 0,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "ad2eb2844853539c77b14b6e8334df4e7086ec59847bf1bc807909caf434b02e",
+          "cam_left_wrist": "4959658e39536e2c173d42c1639ad79e0f95c20c638c171e72adbae7a9daed1f",
+          "cam_right_wrist": "eb02698b2b794c051b57ae0a9421e1a1a9bf38f86ca26ba35a5a709ad590ef4d"
+        },
+        "instruction_sha256": "16d36c18dd6207a396c8ec2647780e55d52f0ca809149db79fb5f7e60d34240d",
+        "scene_sha256": "9b4cc6fe565105da0277cc1eaf15337fd5b05132b2a7e413be3ea9c486b7b19e",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992001,
+      "instruction": "Move the square bread with light spots to the dark skillet with shiny finish using the right arm.",
+      "precheck_status": "accepted",
+      "rollout_id": 1,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "b1fdafc493e4fef429be8abcb883bacc0c0beaa28d2f234a7d4e388fd410c473",
+          "cam_left_wrist": "7678611a15b637cbaf170ee0753ca4024bd9d14bbe04550d4af16893de7bd9e8",
+          "cam_right_wrist": "27860f41f4ff35ecb463015ade3e1f7ca7a7c6af371505e68a0a9bcc0b509e5d"
+        },
+        "instruction_sha256": "a7ede9c703077bfd555ef2da77e8e47bd5b73cf180c8502ddea9d88d76840ba2",
+        "scene_sha256": "f950a26732642f5df7dbf5ac6c285b97eb3203e71ca7bbf9fbcc6d329c31f645",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992002,
+      "instruction": "Grab the oval bread and set it in the medium black frying skillet",
+      "precheck_status": "accepted",
+      "rollout_id": 2,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "661a50c86ac0f6fae4f4286d303b4f0f2f1fe05c68e43f730831dba692f51bf0",
+          "cam_left_wrist": "545cf14781b277c55c0633dab9900d921cbc1dd38a645338d7d365e196bd8b49",
+          "cam_right_wrist": "c254150930d5e6d8712603ac468e05df0cd52bec6571dfed266f22ccf8f71132"
+        },
+        "instruction_sha256": "d18608ffee5e113d47f3722af631b0ba971651dea37cd585af5df839d44bae7a",
+        "scene_sha256": "be3e1ad469fa0b2e38056238e7172d3b87aa1d2c7e3b59798245a43eb2dbfcff",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992003,
+      "instruction": "Grab the spongy golden brown bread and place it into the iron skillet for frying foods.",
+      "precheck_status": "accepted",
+      "rollout_id": 3,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "0b6143d010fa749fc46f6e808df373d4d2bb1ffc87f9d894357ae5f2e0a21fd5",
+          "cam_left_wrist": "a7b98d4fefa5830acdfd13fb3eb62ac2b6850ca2a70c52f02ee2524d68855bd4",
+          "cam_right_wrist": "7fdeb248b8c6d66b452a7612326f85a9e77b4fb46cce296a4c754f14d17d0530"
+        },
+        "instruction_sha256": "c06afa48b97d8eac637f763dc79c0e588f3157ad6a50f77410dc5268d850f849",
+        "scene_sha256": "fe3348e52bae06e03a6772b4e800ef959f1c82872fedd801f5e5995dfeef56c4",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992004,
+      "instruction": "Move the braided top round bread to the round black skillet using the right arm.",
+      "precheck_status": "accepted",
+      "rollout_id": 4,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "9f12affdce74753f1fbe64080b5184ea6ed553d9df0f02ccf79e636d6f1e8e3b",
+          "cam_left_wrist": "35c26be6237b505e838da0770547c1178390755a884623ca0322445957d9f1d1",
+          "cam_right_wrist": "6cc1d496dbd1d2af4c3e6c75bbe0f8f8ce2668af25febed426f5f056d2ded2de"
+        },
+        "instruction_sha256": "59914ec08db608a1ec61b55c226dfb7a4b793741a619c74e35d86c0807183c4d",
+        "scene_sha256": "400353f8521e651f3cadaaa4954255386b89133da97a2811727429d60e0ca745",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992005,
+      "instruction": "Use the right arm to grab the round braided loaf and set it in the round cast-iron skillet",
+      "precheck_status": "accepted",
+      "rollout_id": 5,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "1de049c73b9dc9d2e972d29d0a701f1129af07bcb2c05a489e1ddcc10ce90851",
+          "cam_left_wrist": "e95e490c56936dfbdaf05b88063f6ab6987060d82fa73f5d7440ee254d5d2170",
+          "cam_right_wrist": "728d2afbc095b510815d32c1f6f7671f4ea98f6ce86d8231243725c03e0f085d"
+        },
+        "instruction_sha256": "8d3569f702a41c5664460109ef4258f8015bbdd2e8c8e8d36fc2bdc5cb8d2910",
+        "scene_sha256": "acf793c1816b095079205b67622bb9ce85569738e8b8ca75c2a4d8625d324b62",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992006,
+      "instruction": "Grab the rectangular bread loaf and drop it into the round cast-iron skillet.",
+      "precheck_status": "accepted",
+      "rollout_id": 6,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "aa939adb1a91164dba30cccd4a6e23ad40840e6fa7ccb466c0f9c66507efd3f9",
+          "cam_left_wrist": "f147b9ac0b9ec0f986a63ef8646b31f403bfd4fea4b1a9271c1ac346a4e30016",
+          "cam_right_wrist": "c798dd922894a197df84cfa4f853cd1ce70e2c3691c476070d647d29e09e1c29"
+        },
+        "instruction_sha256": "022cef34f3899de2f00ba15a9cb1788fc963b6206dd494a33e70de2fd2872592",
+        "scene_sha256": "668fe90bec3a8db843b0c7844c06b8fa7cabef9724d6cc9c8eebe7efc16ce6c1",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992007,
+      "instruction": "Grab the oval-shaped soft bread and place it in the dark skillet with shiny finish",
+      "precheck_status": "accepted",
+      "rollout_id": 7,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "b62f3ad1d191bb1a24f24b390030f66f304784a175691173463d36425a88080f",
+          "cam_left_wrist": "376ac78e61a17059ee66a4fcc894c89aa8e1930d47091dc69a111528189d183c",
+          "cam_right_wrist": "ad622b8567a8370a367b95773d9c13e2d6431344fb91f267d9d7db35ca682c2c"
+        },
+        "instruction_sha256": "4f258a8e276c2b264cc9bc717cebf9656ea822fe398738a3087529e22c250f16",
+        "scene_sha256": "8f5a5916820a962882131688d9b24c100a8f1210477eb6016767d290c3806680",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992008,
+      "instruction": "Pick the square bread with light spots up and place it in the dark gray round cast iron pan",
+      "precheck_status": "accepted",
+      "rollout_id": 8,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "b597eeff78d97d1eebe2f1bd89155342e6e92ac4e412b730faee2a2b1d2720e2",
+          "cam_left_wrist": "8f1e73024b32c5f84c934cd12c5557f8e150788263d966dc69c8f4eebaa89bac",
+          "cam_right_wrist": "619b67e0da59cd6f222ad2227cebcd543e710b3863cfecdb34d429cb07a86fc2"
+        },
+        "instruction_sha256": "60f7cb5a5aa38bbf260201f3444cc5fc563d2dea39bc442b10658b98dcc56c46",
+        "scene_sha256": "4d808b31faf9b0aa456b023e4d006563b62a1b256e8f126d0ce3b800c8fadf14",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992009,
+      "instruction": "Take the bread loaf medium-sized and put it in the cooking skillet with grippy handle",
+      "precheck_status": "accepted",
+      "rollout_id": 9,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "88d31d5d89b7246c84726d63003025b8b9024f150188a8c55b9171281787d0fa",
+          "cam_left_wrist": "81f4fe85f874deb2f5a24f003d5992cc5b7e2dac82d9eb3a8877e5e2a5ad3bdc",
+          "cam_right_wrist": "efb7b756c1631aa6b899030cdec14fc12a77f3502ded3282a69d966df6019f76"
+        },
+        "instruction_sha256": "8c82e95ba8f415487885e3813924a442e7ed391b37f031803b4a015738b157d8",
+        "scene_sha256": "d093c16071a9ff94cf3dddcfad9cbf382084b6bec8a61d48f65986cff2213528",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992010,
+      "instruction": "Grab the square bread with light spots and place it into the dark gray round cast iron pan.",
+      "precheck_status": "accepted",
+      "rollout_id": 10,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "89c35e2d91c2dea6cc35e5961af2459190e9e40feb93ba2960a39410a3ad06aa",
+          "cam_left_wrist": "68410c5cda63c7c4ee9fb4a70833a1a56b20c31e6986e84c0573a798a7f3b505",
+          "cam_right_wrist": "1f0a1e8784fb21c8a7e6b388e7afa151177d973acd5b56443e363111f38c3d8a"
+        },
+        "instruction_sha256": "f10fa759580874110a34fea8ec1816a869cb76a6c221b656e494d0bc0a8e807a",
+        "scene_sha256": "7db370247319514469623a6662a1293b4ed58acc31eaeb7a1a54906fe147ecad",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992011,
+      "instruction": "Grab the square bread with light spots and set it in the pan-shaped skillet with hole in handle",
+      "precheck_status": "accepted",
+      "rollout_id": 11,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "5747af39d8d4ee37be64e23fa27ca6e619c86e0ed8c9f8b9e88b4613e5464254",
+          "cam_left_wrist": "1c5380e6bd54426e4a1d866e6691ed66a37b761d7a4d2ebcffae968cc9a354e9",
+          "cam_right_wrist": "300eb57188c9fb95f1c246b0c8fcfe2c0a5c6d52fdd23838fc3fa93c19a355fe"
+        },
+        "instruction_sha256": "4555ec2a050fc3a78343091e9cdde1ca2924dc0b7713576caa80c7b1b902b767",
+        "scene_sha256": "028889e7019ba3d58be584c7656b936a37e6edf167d928f9147968561b7e2e10",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992012,
+      "instruction": "Grab the square bread with light spots and place it in the versatile skillet for frying and sauteing",
+      "precheck_status": "accepted",
+      "rollout_id": 12,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "e65eb49d2038d06a282ab6b8600da0f75263545f768fffff15642245736ee964",
+          "cam_left_wrist": "194491b1523d54b68ee2a65827a9936074aa599f6947bb1ebe8e154eaf5633b8",
+          "cam_right_wrist": "d2ca34ad59807dce9f975734f12da0fb855e2c92437ae23b02d8a6a0f7383d74"
+        },
+        "instruction_sha256": "0d740e5352bfbef33a27c9e7c3345e388d6a9579827c3543b105ee353baf6d3a",
+        "scene_sha256": "bff99ca31a16bb32f9a6f3bbc862df3cfb5edaa8387cb788973d0c245fd4c9ff",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992013,
+      "instruction": "Pick up the braided top round bread and drop it into the medium black frying skillet",
+      "precheck_status": "accepted",
+      "rollout_id": 13,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "b724ac4a711eb8c45cadc91fa63a652642fc856cf9530acf7bf88dc841748e12",
+          "cam_left_wrist": "63806256b63a7e0e0d549643dfe0b68da7aa10233347f80f242709f3cbd13252",
+          "cam_right_wrist": "dc1cbdd05b6951fe42b4e0d380bc29b08b38304440a2aef5db9b121c681f3882"
+        },
+        "instruction_sha256": "3dc6dff5e783cf39a17b5fc0ab37945f7ef3d71e4ce5c7692a9e36e82d41cd20",
+        "scene_sha256": "fde8e82d94a410d79b32b3691a4ac12b244c0a9c8d715a0d8e4af3212af1efdc",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992014,
+      "instruction": "Pick up the rounded oval bread and drop it into the dark skillet with shiny finish",
+      "precheck_status": "accepted",
+      "rollout_id": 14,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "9d09b5cf0d8e42c74025e5991d719e7673cd1855d9479ac11004df738059c211",
+          "cam_left_wrist": "4d0dd0c0d22ffc329fd0a1dfb93d260a73f902f13c57a4c259f2ed4896996915",
+          "cam_right_wrist": "345a03a872b6cc538548b100d297cdb58edd9ca837d3169f4c3eecec2d537a6c"
+        },
+        "instruction_sha256": "5902f48d77af0f2dbc21140ac1d8bd9c9061634e262d33b870c1b18177a4f4b5",
+        "scene_sha256": "368401778882b3813ba8948a1785aafdd4f0d7ba827d0f0d3fb76960d7afd9f3",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992015,
+      "instruction": "Use the left arm to grab the small loaf-shaped bread and set it in the round cast-iron skillet",
+      "precheck_status": "accepted",
+      "rollout_id": 15,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "602061db9f9d26b6806b7a012a799fa2baa352661ec0bc5a6243ee28848d8eab",
+          "cam_left_wrist": "c3bf872cb5ef17becdbac2a48a5e0f26c2bc6317823013377c263b252c70761a",
+          "cam_right_wrist": "42fdfe5bbd62b5370b57bda4c9b765c9c525f0dcb0f3d528bb82fbd3a1489c46"
+        },
+        "instruction_sha256": "81916f698c984025bd4023e0a4994c84e38ed5461b82751272549276983edca4",
+        "scene_sha256": "2a6f36e723162b341ac1af7e73b052bfc3fa53515f0bd009304f8362fce65927",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992017,
+      "instruction": "Grab the palm-sized braided golden bread and place it in the blackish-gray cast iron skillet",
+      "precheck_status": "accepted",
+      "rollout_id": 16,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "3ccaef50847c9fd2af7018667474d478b6236c0d784f01eaff799e284e403de1",
+          "cam_left_wrist": "d7dc27e584373e0e19431def5e759c61386dc1afb8d307d3fd9eb02eff372880",
+          "cam_right_wrist": "d931acebcd5f0ff6be9ec78a6357975680b85f1775a72c4a3672ef2d02ff075e"
+        },
+        "instruction_sha256": "0d191e264ef5666fa956fbff88b70ffca24ab37ba534761169eaa76b8bad5703",
+        "scene_sha256": "7727898d9c11e1ccb01d6c788121e1b082ab2c8752ec7fab6ae3b25fad947cdc",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992018,
+      "instruction": "Grab the bread with golden crust and drop it into the round black skillet.",
+      "precheck_status": "accepted",
+      "rollout_id": 17,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "39cdce612638e524923aa6f8854053b4ca920eab239cda33ca3a6623ea4b1ff2",
+          "cam_left_wrist": "bdc8ff898bf21a249624418a28ae6f46959b0ec6fa61df7202a2984fb42e8dba",
+          "cam_right_wrist": "e95e1072bf102d36e5eefd5305a1192f42b7e1c04919411c2c272b955e04d30c"
+        },
+        "instruction_sha256": "9140a28136b0fc627939a20c1d5e72b99f92b65ff469a2c0395ab2bdb6dc613e",
+        "scene_sha256": "c8a238fc535e82f26a514ad120a4feaa28a5a2d19700fa5d9fd98a202c212e1c",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992019,
+      "instruction": "Use the left arm to grab the soft bread with golden edges and set it in the medium black frying skillet",
+      "precheck_status": "accepted",
+      "rollout_id": 18,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "897cc0a2e7f469c7fc67160d5b1ce5ee500475186dbafe07bffa878efcd1d42d",
+          "cam_left_wrist": "f6bea302630f82795de76e02d837fb6bc122952cf4c25ef1d1f5d1b0b47a689f",
+          "cam_right_wrist": "88b50529bb6999580cb0aa83c30abc47c0846506f00d4edddbdbfca01c63c812"
+        },
+        "instruction_sha256": "12b557cc7b5dd06f38e1f20b1cd518985130c60cd995042b567b87973865235f",
+        "scene_sha256": "38774e8beb0d1ad4e8be001533e0bd36c38c407d536223fcf51f8f9e58910a40",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992020,
+      "instruction": "Grab the rounded oval bread and place it in the versatile skillet for frying and sauteing",
+      "precheck_status": "accepted",
+      "rollout_id": 19,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "f27f774229970a5f0e5698795f8ca1cdc12638e72046439faf679745d1cbf040",
+          "cam_left_wrist": "c02164f6b10821654983c81aa6af0fe1164b98094b2a081f780b8335f6758f38",
+          "cam_right_wrist": "e9ae8551022843181ab59e25903f55dc55d51aa6afe54702b78cc4e1a02008d3"
+        },
+        "instruction_sha256": "b03c21c45bc3da0835e81d4f7c9599dda27b63fb5dd25c895484c2efeb7f6c20",
+        "scene_sha256": "4d2585c486e1c54b7cf4be415a5d399dcd2cc9865f2b2e216e8e338b6f666684",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992021,
+      "instruction": "Use the right arm to move the bread loaf with soft surface to the pan-shaped skillet with hole in handle.",
+      "precheck_status": "accepted",
+      "rollout_id": 20,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "3d61288df7eb091c597c3a8703044c2a050e580136c280b5713e71d7f0bc5790",
+          "cam_left_wrist": "87a243576ccf2ee649fa17e40564d62a0b6b7cdde47a3cc2510a072df2a5beb1",
+          "cam_right_wrist": "f7525b118d6b0e78255da55d701b696833846334704c8caa16b858809bd4c2fb"
+        },
+        "instruction_sha256": "c16b8731aa979e013c973c62e263f60eefe180c6d1ee07f04234d86b65dc02df",
+        "scene_sha256": "f1e75737336e322794f842676e2fa846638ee9db4dcded26a7e7b4cec9ddd8b9",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992022,
+      "instruction": "Pick up the soft bread with golden edges and drop it into the pan-shaped skillet with hole in handle",
+      "precheck_status": "accepted",
+      "rollout_id": 21,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "058b3fbc74d1a05e2b4abbca188d9afddabfa932ffd067d68127742cdee964c7",
+          "cam_left_wrist": "15642710b2294a292f6d9a06d31bd02e6bee43ef59c15e724fec49b9537e7eb4",
+          "cam_right_wrist": "e4ea64a3d1f0769081bcd79c0f45bdb1b6785836da099c4853c62e207861fe1a"
+        },
+        "instruction_sha256": "5e2dc470ca338bca8fa22bfe8cb3e9f1a99ad5caa3a0ddfc9abe12d02bac0a06",
+        "scene_sha256": "2002c7c2322c169aac63f4e28a8d3b057ae7b8b81232d8db852fa8cb20e86d09",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992023,
+      "instruction": "Take the bread with golden crust and put it in the dark gray round cast iron pan",
+      "precheck_status": "accepted",
+      "rollout_id": 22,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "05400a759456513b96db40958c42538ca4aba2cd6c8dcc3d473655a9fa51c2e3",
+          "cam_left_wrist": "04970d1196190b490b20c049dcfb330385ccdf0b1d55a197844e775996553047",
+          "cam_right_wrist": "a910a460ea3c43097675c11df3b256e4d019d5ee585d662e9f46007a23ff1808"
+        },
+        "instruction_sha256": "3bd72873a19b8ff143729924a0db9d0d9057af7620a611ab5125e3480b822d46",
+        "scene_sha256": "e3cbf919c96a67c23baf2c4c307b3f0958fe5cb8826d22e606cd5abe41601da4",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992024,
+      "instruction": "Grab the square bread with light spots and place it in the dark gray round cast iron pan",
+      "precheck_status": "accepted",
+      "rollout_id": 23,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "67e18fe0a01bc1cef2e94547009a998bbed7f399342954f127adb166b5876f0f",
+          "cam_left_wrist": "e84062669045a8e1a91bcb9ad0de8111186d5312840c159233100d170b68c11d",
+          "cam_right_wrist": "416dd2a2ffc74af2a1a2240cc0e606502ed60e73c30bafd66f893eed372b4531"
+        },
+        "instruction_sha256": "01eb1bf0f381c387c92471731e6f1f1896a85d095c1c89efb9fa6c7b3456f93b",
+        "scene_sha256": "e7dac55c0c78561cc459b22e107182700a15cc67748075fb10799573693efb83",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992025,
+      "instruction": "Move the soft bread with golden edges to the pan-shaped skillet with hole in handle using the right arm.",
+      "precheck_status": "accepted",
+      "rollout_id": 24,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "2a951dd07ee2721f4def10a5b9edee590ab52b2b0a8e7bf1d20b7d8a9d4c3f71",
+          "cam_left_wrist": "ac179bd578b3cecdf6ab20fc6431fad17e8c1a98886942b70ab0783f9512cbc5",
+          "cam_right_wrist": "3efe473f30b8432d2d8e4da47282043ba9623e4c0ac10d436bb73027e531926b"
+        },
+        "instruction_sha256": "cd37c9631899603edba886dafc4eb7f2a8d43b781eb799f2789aa80f947710e5",
+        "scene_sha256": "4ba8b77da5e7b04955e0576f47b9d4aa8f5bf0dde36d4ce95d2d76accc672e4e",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992026,
+      "instruction": "Pick up the bread loaf medium-sized and drop it into the smooth interior skillet",
+      "precheck_status": "accepted",
+      "rollout_id": 25,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "dfd4981a08e06f3f8f19999e5268e234cdffe40f1dc7307e793dab1840a8ecab",
+          "cam_left_wrist": "c72891b33a9e1a29027b7b5ed3e261a5d6edddb78bd6fdefe0600d26d32e95fb",
+          "cam_right_wrist": "4b5713b088ecc5ece9a04542e3eda9531919bd318016f93ebd823bff90125d10"
+        },
+        "instruction_sha256": "5f659babb3d6eb59f4483252b7d7d9a8f7ff8e649905fa847ffed7fa5a5bbbc7",
+        "scene_sha256": "8965a3b998570d200b7fdfb17b690e101b137d777bcda22e6ca42b4c898c7b4d",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992027,
+      "instruction": "Pick up the oval bread and drop it into the smooth interior skillet",
+      "precheck_status": "accepted",
+      "rollout_id": 26,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "bf022ce00b2eb18a08db58f38cca07e3a807cc88a3531233af9e473775c9165e",
+          "cam_left_wrist": "f5a8f2028aa85b8d839a06554ababc9889c39742cb142326c6e331bd149d5178",
+          "cam_right_wrist": "387fad72364b55ed21a761f5f4b9d747b681d5dbd14338945fef3184b592094e"
+        },
+        "instruction_sha256": "f1790323f0a32303a2e0b451811955ba5b67595c8cb3441d73d8ce583aa5e541",
+        "scene_sha256": "ddb210b99ee4d8e737cbce37944dd71de0b5632e79b7ad770f1ddb990ca90b50",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992028,
+      "instruction": "Pick up the square bread with light spots and drop it into the iron skillet for frying foods",
+      "precheck_status": "accepted",
+      "rollout_id": 27,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "d0a4574b78df9f483b87be3bc0de7e81b7cabe47e8331c4a916793eb7468df4c",
+          "cam_left_wrist": "00cf6765ae884f6ea0db1be6553046553e64d5ed083e2fbce16a859bdd0c04f9",
+          "cam_right_wrist": "2e1e22362b286aeecab2dee0e28fd9252b1033fd5a9f93d8c59a5530dea9c917"
+        },
+        "instruction_sha256": "9ff062005d5f017d2caf6b10150b640c7401fa3a938eec519cf61987f130d5ab",
+        "scene_sha256": "322b98fd8fc4612e1bdb57e8ace542b542cd0b8b0d8572e6199dd216abe23121",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992029,
+      "instruction": "Move the rectangular bread loaf to the smooth interior skillet using the right arm.",
+      "precheck_status": "accepted",
+      "rollout_id": 28,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "9a5d009659894f9051fdb09e00b21373774df5b16c496d0d120051b5d435f0e5",
+          "cam_left_wrist": "c2395ea1d2759a08120cf06c458b06ff7285a164601a5f4cd33807d2353cd237",
+          "cam_right_wrist": "dcd60a7e5bc8f0fc317f7d16df509474f31bfb846e41db4fc6ab6e3b1445ef38"
+        },
+        "instruction_sha256": "325ca458c2555a759f065b756a78c8d091ee0f33d75cfa65f7e7fdfce59ab988",
+        "scene_sha256": "946e606103fb4f6760e49551a899e9907dd206c350170d2ef5fa9c2943f965f4",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992030,
+      "instruction": "Move the small loaf-shaped bread to the cooking skillet with grippy handle using the left arm.",
+      "precheck_status": "accepted",
+      "rollout_id": 29,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "55ce37e49e10367f069b6894f2f9e9f3d3915d00dd2417f1c5ed385d1c3b045e",
+          "cam_left_wrist": "1cfeb00bce092204a768a001d30004248a7233fcf23157840933826b43ec5cbf",
+          "cam_right_wrist": "fae69f7d95a143d8b3292f9e3e7553987216121a2741586aa8b12a0a8953ffbe"
+        },
+        "instruction_sha256": "aa95689f6878213b023ca54cbc8725b32da00b43d6083e84b8549cef5325216d",
+        "scene_sha256": "7a3cc5e05fed6bf49abef4dd244fdc6c15b79aeed56e1b1774ed59070031c57c",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992031,
+      "instruction": "Grab the bread with golden crust and place it in the dark skillet with shiny finish",
+      "precheck_status": "accepted",
+      "rollout_id": 30,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "a473a274491f733ad8eea3e7c642748d5241cb4beb7fb83a4baba031b39f9a89",
+          "cam_left_wrist": "f961d5ad28297fbf17d10d576150f7761c70add183cce76a948c36c36de9448c",
+          "cam_right_wrist": "cd885841b8d79daa82dfd1fdba4eb7a87032e4accd5028f9dd568c4f469c63e7"
+        },
+        "instruction_sha256": "8ee3f4f5daa0d720c0056e157d56e581bf857a6ff478240fc78463895e6f19e0",
+        "scene_sha256": "8ceb1a7f2feee9ce1f5d653b29fa2632e260bb546898ae6fca1025b981123540",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992032,
+      "instruction": "Pick up the rounded oval bread and drop it into the dark gray round cast iron pan",
+      "precheck_status": "accepted",
+      "rollout_id": 31,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "0c0863a76af5e7cf559df3de7e372e571f84e1298923920d5790a7b4609b7e13",
+          "cam_left_wrist": "1baf2d636fbfa71d1aa151f8bf16bffdab70658e0977d4a421d946e49fb73d20",
+          "cam_right_wrist": "f91e44c20b9145e21d30fe6b7ffd2a3fe0db35424efae6d294bf34b568d34d55"
+        },
+        "instruction_sha256": "3afd139612ebab6007dc2b287b200c9c5c71ab03dabbb2817321cfbb3be1af46",
+        "scene_sha256": "9a5f64a01216fe36ce641165c57ffd5c46828d4c75a15ba2e5983d98ab0bb4c0",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992033,
+      "instruction": "Grab the bread loaf with soft surface and place it in the blackish-gray cast iron skillet",
+      "precheck_status": "accepted",
+      "rollout_id": 32,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "aa389a029183605cef899b194c39e568008f502375d18b193857cb62471664b8",
+          "cam_left_wrist": "1adb74e59e5eca45eb965cdae734b0723708ff7f0f2941ef1404b6a03b3c17e5",
+          "cam_right_wrist": "8289d0ad435c3204d0e5eac4725e5762c0dd1f5ae55413f8303902f97de11d19"
+        },
+        "instruction_sha256": "e4ffe89b3cf58d33580f87283bde979949da25b1d3357b2e186bbad0ee05e750",
+        "scene_sha256": "f8feb19fb3af31ffba23ee8ee9b2272393c06f981274d3ac46ddcc1c4328a36d",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992034,
+      "instruction": "Pick the bread loaf medium-sized up and place it in the dark skillet with shiny finish",
+      "precheck_status": "accepted",
+      "rollout_id": 33,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "9d4e2f918767b38cba64cb8365f6210af0f6d67aabe99bad204fbd7cd6bf03c9",
+          "cam_left_wrist": "f81e58282bc163c077d5adbecf66612339273ffa25c1581571957f2e86d3f1bc",
+          "cam_right_wrist": "7c658f3d285e4cc6cd7e7efae41d5e996566932e5293c5d483faf71d8266afd1"
+        },
+        "instruction_sha256": "36dc74fdb6e4664b2398351c10a1fd7fef7558ff1c18d9c97549344db27f4fe9",
+        "scene_sha256": "a3e5a0e6b1a471c5820b3a21581dc79565177c56e1d1a067e1b22a5a3c572cc0",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992035,
+      "instruction": "Take the bread loaf medium-sized and put it in the blackish-gray cast iron skillet",
+      "precheck_status": "accepted",
+      "rollout_id": 34,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "f68bdc252ffc26944ac20f990d6e442916c21bcda101a162a8c751adf7ccafd0",
+          "cam_left_wrist": "7679f63949ae3760a5f4cdab53c13f86aa9c8f16db26f3baca25f1ee7d8b9b3b",
+          "cam_right_wrist": "23ac7cae53d5f3cd583c7d77ba8925f1ecb8e810512782a37b9640beae378ef6"
+        },
+        "instruction_sha256": "341016d435f614eedf771946a15a5c9acfe417171991ed73fdbeee19c26e2698",
+        "scene_sha256": "d524fad1b790b323de6e12772a3b349801eb32d2921fc5b745e6563ed495647c",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992036,
+      "instruction": "Take the rounded oval bread and put it in the medium black frying skillet",
+      "precheck_status": "accepted",
+      "rollout_id": 35,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "978dae570c40672e0942e9991c3ad105ec67397fb443875dec948317d4b92664",
+          "cam_left_wrist": "5a7de790eb0ed125911d461ede1c15bd74afd9329112b98dceb22c2a2cf29970",
+          "cam_right_wrist": "6ce62423944d180244eb82d377b3405e101a5cfa7219110a02f6cfc1550ef45e"
+        },
+        "instruction_sha256": "edb7a1fbbcfb7a1cb503a6cf5f987fb2210d28f7059414a5e090c420b7d7687d",
+        "scene_sha256": "11c4521c5b6d316ee989917e14dbff0978407c7bfef9d8b882571679d0e03972",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992037,
+      "instruction": "Grab the bread loaf with soft surface and drop it into the black skillet.",
+      "precheck_status": "accepted",
+      "rollout_id": 36,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "ff757b8ccefb1f73d4b74c9ff00d267d9cbdc4960c144bb7ecce48f480b81a26",
+          "cam_left_wrist": "7a0c3a9aa51fdecc4528fc962a20dd1a4c7d7d35f2415933161d6a75e5bc12a7",
+          "cam_right_wrist": "60a19244e7ef11983c07d4cf95d568484bbfdc760898e48739d1d3bdd7fd25d4"
+        },
+        "instruction_sha256": "38f19149ff3f1d8871984fb955152a0a7bdca7c3338df0654c37efc6327fa436",
+        "scene_sha256": "6a97add6b2694b7f754f21c04799075a485c9605d0a4a56deb1d477ec349320d",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992038,
+      "instruction": "Grab the spongy golden brown bread and drop it into the iron skillet for frying foods.",
+      "precheck_status": "accepted",
+      "rollout_id": 37,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "561c9c10295914f3a995701f91b188c9ff66979c2d444d6169400b13c92cb21f",
+          "cam_left_wrist": "0077357e4841208e45f61ef5b411cd428102d13c95d8e2e42e63c9a0c55a4b78",
+          "cam_right_wrist": "be5b0788df79d48db18c7770c519502a8e09355e161a638c6aae779d086498bd"
+        },
+        "instruction_sha256": "4e0722d33707ddd8b2fba3568df7c408917aec8c5f8e6454a2c02d9f06c545a3",
+        "scene_sha256": "a916de7bd3c6bd076d26d74a5c3e202d853ae1076b91d309579692de03784104",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992039,
+      "instruction": "Grab the soft rectangular bread loaf and place it into the medium black frying skillet.",
+      "precheck_status": "accepted",
+      "rollout_id": 38,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "f6efde861e12e0c18eb05f8674cd3942ade80ae54b53250ad77279c477382253",
+          "cam_left_wrist": "40a08f806f6f86b1a4893cbac32fa6ce15339e99162d9b1b31289608ced28d29",
+          "cam_right_wrist": "7f0d99068faca4de298a5b29862ef9f1c71fdde8dbd5d50a3c9067ab97990a9e"
+        },
+        "instruction_sha256": "2b701d59c8871069fae358986b4dfc1104c205cc1ef2901ca5978e629155d53f",
+        "scene_sha256": "638de022e293fea8bdd618fb5f7eccabb2c2a4aa4b928d4cb4d0b7f77dd95c1f",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992040,
+      "instruction": "Pick up the spongy golden brown bread and drop it into the black skillet",
+      "precheck_status": "accepted",
+      "rollout_id": 39,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "319792192a6cf60507af7006e703f0fc237cacc73b388ccef1a0a7cb2cb801dc",
+          "cam_left_wrist": "4f08c3dc7d6e5b770488c8d5bf85ae7840bd6c78c50e4b2d2808648f24a70e6c",
+          "cam_right_wrist": "9e6768da40d045264ebc3c79cb5b9baa0117328e22a85ac3fa5bd2631f3ee258"
+        },
+        "instruction_sha256": "d84b1c9179dd62bd1ac98a54450b5604448e118c91ad0ef314e88261d49b0581",
+        "scene_sha256": "438607f5c7c67aca8d6a0ba1db4c447a18dd8af6ce07ef3f882a0265b15ad9c0",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992041,
+      "instruction": "Grab the bread loaf with soft surface and set it in the medium black frying skillet",
+      "precheck_status": "accepted",
+      "rollout_id": 40,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "6731648a4d5348d919653bc687faffdb000e92bac0513e59ee8e4e75aa5377ff",
+          "cam_left_wrist": "8ef324e38cefdfa4890a741e594e3c1d2bd382b17cbe57f3b670fb9ac3345e7a",
+          "cam_right_wrist": "eb5108fc882842c8e465226bd36555d0a680cb285d7d4c1b695adab8c3a7a0da"
+        },
+        "instruction_sha256": "7e73da8068b8cf7d309177fe8f1493fcdbf075a614776b540a816f25e0a30c52",
+        "scene_sha256": "27d2a087b3f40b7542db7803dec2b4206fba6f90e4f0cfddc3b518a7bc705467",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992042,
+      "instruction": "Use the right arm to move the rounded oval bread to the dark gray round cast iron pan.",
+      "precheck_status": "accepted",
+      "rollout_id": 41,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "07bcf9545255669dc9e1ece62b48d3ad42358b7e295ef8640b8b40df34a05d33",
+          "cam_left_wrist": "18eb24db7a6a01cc9e727bf97521d2bbd03a786c0a960ac5fd4bd02af7bae492",
+          "cam_right_wrist": "9ae6e7dccaa2a98b533603bb79ba39dcdcc785578e673a096197a1e90a71a17d"
+        },
+        "instruction_sha256": "7707ed6cf88ef362a0d57491e9a0d27545b6c4320d3dcd095c98ad92eb657cc3",
+        "scene_sha256": "a288ac8962316722e893de6e7a7dfde38804ac65760a152943b8175d2ec7a0c3",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992043,
+      "instruction": "Grab the spongy golden brown bread and place it in the blackish-gray cast iron skillet",
+      "precheck_status": "accepted",
+      "rollout_id": 42,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "fde99c9b6233c662e5576e4237da277b970e41fc4aede81b4238c52050f597ef",
+          "cam_left_wrist": "f10a352d2478a574e3403ec64972c14f1aec3ff6a9a8c248fa40927997aa609c",
+          "cam_right_wrist": "42433d8b6c4b548e6232ac16b4cef0743b07d54f1137e923b07001e072a207d2"
+        },
+        "instruction_sha256": "1624e3dcb00994c087945466cbcdc9f88cb10aaa416749fa7398905cfc349317",
+        "scene_sha256": "9c87a2de1fa375f5f9d5bd403fbaafe99696db433402677c60abcfa2b95351fe",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992044,
+      "instruction": "Grab the braided top round bread and set it in the round cast-iron skillet",
+      "precheck_status": "accepted",
+      "rollout_id": 43,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "43362c5d9341a9c0570495fba7f47601b9fb68d1514071c5feeb9ea1d5297d54",
+          "cam_left_wrist": "392207b57928930fd68f225a22110dfba280ac3cfbfeb7a92c1dce6d4c32ef93",
+          "cam_right_wrist": "c50a71b211f79435b9bbef97f412c21a4fdbe645d18a0bb8f119b7aa67b8026b"
+        },
+        "instruction_sha256": "7bf16ffc1e6efab7ebe030f27343e95db3b8ec71d1055a291939a09daff11861",
+        "scene_sha256": "2f9bd16b08a90717d709620e3ae2848cf666c21ac10cbbae5944398c90f5d7e5",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992045,
+      "instruction": "Use the left arm to grab the bread loaf with soft surface and set it in the dark skillet with shiny finish",
+      "precheck_status": "accepted",
+      "rollout_id": 44,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "b3a6aa165e1ae1602c23ef431b06e6d68a79896ba9c2fd5c00500bd814bfd973",
+          "cam_left_wrist": "5cf62d8ca4c7a60f103bcbec80fb28e77bede7865a19f7786c96030f5dd82555",
+          "cam_right_wrist": "f8e4194f65660cba2d32438c0d97d8549c5174fb63d541483ae12b1bb7b0412a"
+        },
+        "instruction_sha256": "a11fb5252702355c3038a8c5b110934fc6341010f68c5afbe19b0cd86e1e846d",
+        "scene_sha256": "e7ff90f9f1ca065390ac8c78843f6f1e60950662eed1ddec802435ef583c5e01",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992047,
+      "instruction": "Use the right arm to grab the spongy golden brown bread and set it in the round cast-iron skillet",
+      "precheck_status": "accepted",
+      "rollout_id": 45,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "f273ab5aee5793b2131d574292224843f300b3bb4b23eff7a8f26d6495312ac2",
+          "cam_left_wrist": "362185d4eeb5b58ce53b1247c0b7127d1b6297acf645bb79a57ccb4841b42bcc",
+          "cam_right_wrist": "923ded293145739d0a6273b6710bbeb4bfb9f54031604609f52052827d43e0f8"
+        },
+        "instruction_sha256": "bb2a1f797fc0f42ea0a28273cc5c07142ef57095c41c554854c5bd04f9f76641",
+        "scene_sha256": "15dd19184afe34447b71676f81c6b86a65b00997221b5287c081e0b4c04d1d88",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992048,
+      "instruction": "Use the right arm to move the soft rectangular bread loaf to the iron skillet for frying foods.",
+      "precheck_status": "accepted",
+      "rollout_id": 46,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "e7891f2abd5057b9490b3e6b8b038ed12ab86344dffa899749f358828e1aa0fc",
+          "cam_left_wrist": "69b7a99ae5fa9ef80871f05ab11d812e754f456c9f0e9f0629cad4f4c3a75b92",
+          "cam_right_wrist": "f6d5e954be36b6e1bfc7cea89d172c2a89d3232056ae4305b20d7e57e070590a"
+        },
+        "instruction_sha256": "67c87cd37065e0db70eb874b65fbc6213a83adab1679a7fc9c9cd834a8b70779",
+        "scene_sha256": "834dbe7bfd9f842f401ad97c35d66373601f7d9536ab8708a6c501048fe20d1a",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992049,
+      "instruction": "Grab the soft rectangular bread loaf and drop it into the cooking skillet with grippy handle.",
+      "precheck_status": "accepted",
+      "rollout_id": 47,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "d0a5c75b9d74f0e184ea85701a17fbcc15eec603fd760a193f28d7643a336ac3",
+          "cam_left_wrist": "c3d29d7ccc0d18a58b44188a36d70cc4f81662df5d68f133b1e391cfba5c71de",
+          "cam_right_wrist": "b8b141575808e55ecd4e5b0799505677b850cabbd82c831cdabf9b89324955f7"
+        },
+        "instruction_sha256": "926384031ee3ffee85c8b6d656da502707cad8e72b962d7c668f3835d537c5ed",
+        "scene_sha256": "7494d31f7b186d42deed8419b2b284135db5bc5a9df704c055bad6025d86b38b",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992050,
+      "instruction": "Move the oval bread to the round cast-iron skillet using the right arm.",
+      "precheck_status": "accepted",
+      "rollout_id": 48,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "c92448b20773412c62bce34b4ba1e5da2c1ef7c10caf6e8af28a1d611cff840e",
+          "cam_left_wrist": "e05c0668e1e80eff1d9a286c9e21bff013f9bcf898b57f2d164079e7e240fb37",
+          "cam_right_wrist": "d87c6b01908e0edecce15d676293c87e9d1d1a679e7deeeb9580f3e59e3b5398"
+        },
+        "instruction_sha256": "91a743544ffb7d13b01ef20f80c8a48c4d64c36f3bfa59325c5d4dacfd509042",
+        "scene_sha256": "e7da11900db18c79363f40d71c45d7013c4a663c0f3ea7ded637c62929e5baf4",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 992051,
+      "instruction": "Grab the oval-shaped soft bread and set it in the blackish-gray cast iron skillet",
+      "precheck_status": "accepted",
+      "rollout_id": 49,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "5e620208f67c07b7dd1c90db7df27fbf647d44fd266e0c9b6bd32c8affb729b3",
+          "cam_left_wrist": "d2f2b374ff129654ed8d7f11439650730c2fcc7f67bf2117cef703f877d535ab",
+          "cam_right_wrist": "904852a2b28b26e7752f6f85b59ff47484d33c8223456bca676f3e9dd49dfa8f"
+        },
+        "instruction_sha256": "6531f9fc7fcfad7f36b04a4e6a868c7efaab59bbb97919f34c817d3564a2a125",
+        "scene_sha256": "20989ec5e56d4fceb6781d2db173d3b26371d67ae02fc86be737c2ee035351ae",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    }
+  ],
+  "precheck": "setup_only_no_policy_or_expert_outcomes",
+  "protocol_id": "chunktrust-rtc-v1",
+  "rejections": [
+    {
+      "message": "Objects is unstable in seed(992016), unstable objects: 106_skillet",
+      "seed": 992016,
+      "type": "UnStableError"
+    },
+    {
+      "message": "Objects is unstable in seed(992046), unstable objects: 106_skillet",
+      "seed": 992046,
+      "type": "UnStableError"
+    }
+  ],
+  "schema_version": 1,
+  "seed_candidate_start": 992000,
+  "setting": "demo_clean",
+  "stage": "formal",
+  "task": "place_bread_skillet"
+}

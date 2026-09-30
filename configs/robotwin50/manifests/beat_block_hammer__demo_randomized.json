@@ -1,0 +1,179 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/beat_block_hammer__demo_randomized.json",
+    "parent_manifest_sha256": "f2663b2e70911b2f2d9b9006855c773cb93f77b097fb328ec14f161e51f069fe",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_beat_block_hammer_demo_randomized",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9311000,
+      "instruction": "Use the left arm to pick up the hammer with claw and smooth head.",
+      "instruction_sha1": "aa5c01649d1a3a0fa56fb2fb371b2c8ba0dbaafc",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9311001,
+      "instruction": "Pick the hammer with black handle up and hit the block",
+      "instruction_sha1": "493ee8141428d6db18031e9ce48ea2301f2fcaaf",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9311002,
+      "instruction": "Grab the hammer with claw and smooth head and hit the block.",
+      "instruction_sha1": "93329a52422f9a0d7763d60d7607ac20a6148bfc",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9311003,
+      "instruction": "Grab the hammer with black handle and hit the block.",
+      "instruction_sha1": "5e0cb54c9592ca8510ac8aeef3f751b9c9f2d711",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9311004,
+      "instruction": "Use the hammer with black handle to strike the block",
+      "instruction_sha1": "da93bb00d1b741fa972adcbc4f0ffd08d36effc3",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9311005,
+      "instruction": "Grab the silver hammer head and claw and hit the block.",
+      "instruction_sha1": "7c7a34518dc5546d0f22bdb68893dbe2d3e93b14",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9311006,
+      "instruction": "Grab the hammer with black handle and hit the block",
+      "instruction_sha1": "eac8fdd390749df1a4c320e22257754d90d91df8",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9311007,
+      "instruction": "Use the hammer with claw and smooth head to strike the block",
+      "instruction_sha1": "131ce39b27c6159f1e0338d30eb683247ad9cff0",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9311008,
+      "instruction": "Grab the hammer with claw and smooth head and beat the block",
+      "instruction_sha1": "1ff6fae8b81e878c2fc1fd4bd75591f110cc0c92",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9311009,
+      "instruction": "Grab the hammer with black handle and beat the block.",
+      "instruction_sha1": "4b650430a68c7caa1a259976f255d160f01e5d00",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9311010,
+      "instruction": "Grab the hammer with black handle and beat the block.",
+      "instruction_sha1": "4b650430a68c7caa1a259976f255d160f01e5d00",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9311011,
+      "instruction": "Grab the hammer with claw and smooth head and hit the block",
+      "instruction_sha1": "d0ded8fdb71f28c47f59b2af482d74987286c15d",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9311012,
+      "instruction": "Grab the hammer with black handle and beat the block.",
+      "instruction_sha1": "4b650430a68c7caa1a259976f255d160f01e5d00",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9311013,
+      "instruction": "Pick the hammer with claw and smooth head up and hit the block",
+      "instruction_sha1": "9a430bc5018e2af52ecf32ab820205ba04e34c14",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9311014,
+      "instruction": "Grab the hammer with black handle and beat the block.",
+      "instruction_sha1": "4b650430a68c7caa1a259976f255d160f01e5d00",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9311015,
+      "instruction": "Use the right arm to pick up the hammer with claw and smooth head.",
+      "instruction_sha1": "7b0556dc27e9af01bfa1d5747c7b5f0d46356f90",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9311016,
+      "instruction": "Use the right arm to grab the hammer with claw and smooth head, beat the block.",
+      "instruction_sha1": "2d03507bf99e38ef5ce0209d9aabc43c4a006ca5",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9311017,
+      "instruction": "Grab the hammer with claw and smooth head and strike the block",
+      "instruction_sha1": "8d290524e19329391c35f53df9678c2f1101825d",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9311018,
+      "instruction": "Pick the hammer with black handle up and hit the block",
+      "instruction_sha1": "493ee8141428d6db18031e9ce48ea2301f2fcaaf",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9311020,
+      "instruction": "Grab the silver hammer head and claw and beat the block",
+      "instruction_sha1": "eb181a86ed63a0c082073be558ad0a536cc94e2c",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-07-31T13:57:48.262708+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_beat_block_hammer_demo_randomized_first20",
+  "rejected_pre_manifest_candidates": [
+    {
+      "episode_seed": 9311019,
+      "reason": "UnStableError: Objects is unstable in seed(9311019), unstable objects: 066_vinegar"
+    },
+    {
+      "episode_seed": 9311047,
+      "reason": "UnStableError: Objects is unstable in seed(9311047), unstable objects: 088_wineglass"
+    }
+  ],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9311000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_randomized",
+  "task_name": "beat_block_hammer"
+}

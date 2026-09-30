@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/put_object_cabinet__demo_randomized.json",
+    "parent_manifest_sha256": "06acbc535162ed676c5d6d3d401b80745dbacfcb785a2e459ea8d44fcdfbebd5",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_put_object_cabinet_demo_randomized",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9691000,
+      "instruction": "Pull out the drawer of the slanted wooden cabinet and set the palm-sized braided golden bread into it.",
+      "instruction_sha1": "71d8518965cede3ba5e133896ed9516cb2c0492a",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9691001,
+      "instruction": "Open the cabinet with smooth finish's drawer and set the rectangular bread loaf inside with the other arm.",
+      "instruction_sha1": "3c8003ca21b8065415c2521a5d6c70a47365b636",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9691002,
+      "instruction": "Open the cabinet with smooth finish's drawer and set the dark gray computer mouse with logo inside with the other arm.",
+      "instruction_sha1": "0b5ae5945409641fd489c32771045a78b7d36308",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9691003,
+      "instruction": "Pull out the drawer of the cabinet with smooth finish and set the skincare soap bar into it.",
+      "instruction_sha1": "00bcb6db2f66ca3bced6d99d4492a79ef367a825",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9691004,
+      "instruction": "Pull out the drawer of the cabinet with smooth finish and set the rectangular red playingcards holder into it.",
+      "instruction_sha1": "0eae1b771dcebd220b63edab449d3606321428ab",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9691005,
+      "instruction": "Pull out the drawer of the cabinet with light wood panels and set the medium bread loaf with soft crust into it.",
+      "instruction_sha1": "cf6d36c3061a8b7ad7277484c964f592fd30c7e8",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9691006,
+      "instruction": "Pull out the drawer of the slanted wooden cabinet and set the small packet of playingcards into it.",
+      "instruction_sha1": "a4dda8ef030d4b884dc6c7abb7fd76ca9102030d",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9691007,
+      "instruction": "Pull out the drawer of the cabinet with smooth finish and set the small loaf-shaped bread into it.",
+      "instruction_sha1": "68c64c3021837cfb64517fd5fe8871217aa5fbab",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9691008,
+      "instruction": "Open the slanted wooden cabinet's drawer and set the coffee-box featuring cup and beans image inside with the other arm.",
+      "instruction_sha1": "c2eeb27b6fd42737422baeb65088aaecf28e9c94",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9691009,
+      "instruction": "Open the cabinet with light wood panels's drawer and set the phone with rounded edges inside with the other arm.",
+      "instruction_sha1": "ecb6a8ed7b7231964c314520d9d2d051acb3a5e5",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9691010,
+      "instruction": "Pull out the drawer of the cabinet with light wood panels and set the hand-sized rubikscube with colored squares into it.",
+      "instruction_sha1": "c29d92e89ea1280b398265a3d2c5faa2b0a5c9f9",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9691011,
+      "instruction": "Open the cabinet with light wood panels's drawer and set the blue stapler for holding papers inside with the other arm.",
+      "instruction_sha1": "27d035496a53b91ca158b95ad383843aa2b1e5c9",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9691012,
+      "instruction": "Open the cabinet with smooth finish's drawer and set the blue toycar inside with the other arm.",
+      "instruction_sha1": "40e53b3042cbcfb12d3cabc286cb023ece22e6e8",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9691013,
+      "instruction": "Open the cabinet with smooth finish's drawer and set the dark gray wireless mouse inside with the other arm.",
+      "instruction_sha1": "c57661fd1949b4362d8764e372ac1548e3abde28",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9691014,
+      "instruction": "Pull out the drawer of the cabinet with light wood panels and set the multi-colored rubikscube into it.",
+      "instruction_sha1": "7930a125750bf6cd80138dbc90ac2743178b726d",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9691015,
+      "instruction": "Open the cabinet with light wood panels's drawer and set the flat-bottomed mouse inside with the other arm.",
+      "instruction_sha1": "7ef9a81262435f2e54ad5b1a764f74b32d343deb",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9691016,
+      "instruction": "Open the cabinet with light wood panels's drawer and set the white-sided phone inside with the other arm.",
+      "instruction_sha1": "99617b485c0d9031b2f17fbf13bdd734a11d1618",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9691017,
+      "instruction": "Open the slanted wooden cabinet's drawer and set the plastic toycar inside with the other arm.",
+      "instruction_sha1": "a606f681b2d44c907ac6cf052d23d2ab1a607376",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9691018,
+      "instruction": "Open the cabinet with smooth finish's drawer and set the red stapler with silver chamber inside with the other arm.",
+      "instruction_sha1": "a5451d71df0bd0479d773d7ec8a524d5338d352a",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9691019,
+      "instruction": "Open the cabinet with smooth finish's drawer and set the hand-sized rubikscube with colored squares inside with the other arm.",
+      "instruction_sha1": "c55b9dd1c5eced1a1bd4f8af8249b8f3362f7cb5",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-08-01T02:56:29.346491+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_put_object_cabinet_demo_randomized_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9691000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_randomized",
+  "task_name": "put_object_cabinet"
+}

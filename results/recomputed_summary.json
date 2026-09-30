@@ -1,0 +1,442 @@
+{
+  "robotwin50": [
+    {
+      "method": "ahs",
+      "extra_ms": null,
+      "episodes": 2000,
+      "tasks": 50,
+      "sr_percent": 63.5,
+      "cell_counts": [
+        20
+      ]
+    },
+    {
+      "method": "base",
+      "extra_ms": null,
+      "episodes": 2000,
+      "tasks": 50,
+      "sr_percent": 56.699999999999996,
+      "cell_counts": [
+        20
+      ]
+    }
+  ],
+  "qha_heldout": [
+    {
+      "method": "ahs_only",
+      "extra_ms": null,
+      "episodes": 400,
+      "tasks": 2,
+      "sr_percent": 40.0,
+      "cell_counts": [
+        100
+      ]
+    },
+    {
+      "method": "ahs_qha",
+      "extra_ms": null,
+      "episodes": 400,
+      "tasks": 2,
+      "sr_percent": 41.25,
+      "cell_counts": [
+        100
+      ]
+    },
+    {
+      "method": "qha_only",
+      "extra_ms": null,
+      "episodes": 400,
+      "tasks": 2,
+      "sr_percent": 40.5,
+      "cell_counts": [
+        100
+      ]
+    }
+  ],
+  "robocasa_pi05": [
+    {
+      "method": "ahs",
+      "extra_ms": null,
+      "episodes": 1200,
+      "tasks": 24,
+      "sr_percent": 42.5,
+      "cell_counts": [
+        50
+      ]
+    },
+    {
+      "method": "base",
+      "extra_ms": null,
+      "episodes": 1200,
+      "tasks": 24,
+      "sr_percent": 42.083333333333336,
+      "cell_counts": [
+        50
+      ]
+    }
+  ],
+  "rtc_hard": [
+    {
+      "method": "rtc_ahs",
+      "extra_ms": 0,
+      "episodes": 400,
+      "tasks": 4,
+      "sr_percent": 26.5,
+      "cell_counts": [
+        100
+      ],
+      "wait_percent": 0.1359118369760009,
+      "wait_s_ep": 0.1471300069883,
+      "calls_ep": 22.2325,
+      "infer_s_ep": 9.829807815528765,
+      "observation_age_mean_s": 2.8892330039229543
+    },
+    {
+      "method": "rtc_ahs",
+      "extra_ms": 100,
+      "episodes": 400,
+      "tasks": 4,
+      "sr_percent": 25.75,
+      "cell_counts": [
+        100
+      ],
+      "wait_percent": 0.22144811329402003,
+      "wait_s_ep": 0.24401001158985308,
+      "calls_ep": 24.045,
+      "infer_s_ep": 10.490268375780724,
+      "observation_age_mean_s": 2.869063201526771
+    },
+    {
+      "method": "rtc_ahs",
+      "extra_ms": 200,
+      "episodes": 400,
+      "tasks": 4,
+      "sr_percent": 26.75,
+      "cell_counts": [
+        100
+      ],
+      "wait_percent": 0.3104160176756314,
+      "wait_s_ep": 0.3443800163571723,
+      "calls_ep": 24.2975,
+      "infer_s_ep": 10.623040598226217,
+      "observation_age_mean_s": 2.982630133340133
+    },
+    {
+      "method": "rtc_fixed",
+      "extra_ms": 0,
+      "episodes": 400,
+      "tasks": 4,
+      "sr_percent": 23.0,
+      "cell_counts": [
+        100
+      ],
+      "wait_percent": 0.13021498124517564,
+      "wait_s_ep": 0.14614000694127754,
+      "calls_ep": 12.8425,
+      "infer_s_ep": 6.314702664340439,
+      "observation_age_mean_s": 4.822899894934857
+    },
+    {
+      "method": "rtc_fixed",
+      "extra_ms": 100,
+      "episodes": 400,
+      "tasks": 4,
+      "sr_percent": 21.5,
+      "cell_counts": [
+        100
+      ],
+      "wait_percent": 0.22003609771395272,
+      "wait_s_ep": 0.24403001159080304,
+      "calls_ep": 13.34,
+      "infer_s_ep": 6.637215828693297,
+      "observation_age_mean_s": 4.688154844524135
+    },
+    {
+      "method": "rtc_fixed",
+      "extra_ms": 200,
+      "episodes": 400,
+      "tasks": 4,
+      "sr_percent": 22.0,
+      "cell_counts": [
+        100
+      ],
+      "wait_percent": 0.31315387191277444,
+      "wait_s_ep": 0.34442001635907216,
+      "calls_ep": 13.3175,
+      "infer_s_ep": 6.470254399322293,
+      "observation_age_mean_s": 4.753509144971322
+    },
+    {
+      "method": "sync_ahs",
+      "extra_ms": 0,
+      "episodes": 400,
+      "tasks": 4,
+      "sr_percent": 26.25,
+      "cell_counts": [
+        100
+      ],
+      "wait_percent": 2.927350957665953,
+      "wait_s_ep": 3.243600154062733,
+      "calls_ep": 22.525,
+      "infer_s_ep": 8.373181568593573,
+      "observation_age_mean_s": 2.718782683599688
+    },
+    {
+      "method": "sync_ahs",
+      "extra_ms": 100,
+      "episodes": 400,
+      "tasks": 4,
+      "sr_percent": 24.250000000000004,
+      "cell_counts": [
+        100
+      ],
+      "wait_percent": 4.84961842524316,
+      "wait_s_ep": 5.522970262326998,
+      "calls_ep": 22.6375,
+      "infer_s_ep": 8.390475609225978,
+      "observation_age_mean_s": 2.809234550362113
+    },
+    {
+      "method": "sync_ahs",
+      "extra_ms": 200,
+      "episodes": 400,
+      "tasks": 4,
+      "sr_percent": 23.75,
+      "cell_counts": [
+        100
+      ],
+      "wait_percent": 6.804025725708925,
+      "wait_s_ep": 7.893140374904033,
+      "calls_ep": 22.9475,
+      "infer_s_ep": 8.590494040617923,
+      "observation_age_mean_s": 2.8701458591792885
+    },
+    {
+      "method": "sync_fixed",
+      "extra_ms": 0,
+      "episodes": 400,
+      "tasks": 4,
+      "sr_percent": 19.5,
+      "cell_counts": [
+        100
+      ],
+      "wait_percent": 1.6026462709230915,
+      "wait_s_ep": 1.8529200880089776,
+      "calls_ep": 12.8675,
+      "infer_s_ep": 5.137031117273727,
+      "observation_age_mean_s": 4.702708102276021
+    },
+    {
+      "method": "sync_fixed",
+      "extra_ms": 100,
+      "episodes": 400,
+      "tasks": 4,
+      "sr_percent": 19.5,
+      "cell_counts": [
+        100
+      ],
+      "wait_percent": 2.716114915640267,
+      "wait_s_ep": 3.1683601504890246,
+      "calls_ep": 12.9875,
+      "infer_s_ep": 5.115098139278125,
+      "observation_age_mean_s": 4.757776279935087
+    },
+    {
+      "method": "sync_fixed",
+      "extra_ms": 200,
+      "episodes": 400,
+      "tasks": 4,
+      "sr_percent": 19.25,
+      "cell_counts": [
+        100
+      ],
+      "wait_percent": 3.766999212425172,
+      "wait_s_ep": 4.432440210529603,
+      "calls_ep": 12.885,
+      "infer_s_ep": 5.044921453208226,
+      "observation_age_mean_s": 4.878883287009283
+    }
+  ],
+  "rtc_easy": [
+    {
+      "method": "rtc_ahs",
+      "extra_ms": 0,
+      "episodes": 400,
+      "tasks": 4,
+      "sr_percent": 46.0,
+      "cell_counts": [
+        100
+      ],
+      "wait_percent": 0.16417000537167747,
+      "wait_s_ep": 0.1467900069721509,
+      "calls_ep": 17.855,
+      "infer_s_ep": 7.807056396327243,
+      "observation_age_mean_s": 2.9810259101930563
+    },
+    {
+      "method": "rtc_ahs",
+      "extra_ms": 100,
+      "episodes": 400,
+      "tasks": 4,
+      "sr_percent": 48.5,
+      "cell_counts": [
+        100
+      ],
+      "wait_percent": 0.280181617398911,
+      "wait_s_ep": 0.24400001158937812,
+      "calls_ep": 18.7325,
+      "infer_s_ep": 8.086561679853476,
+      "observation_age_mean_s": 2.8804314890911544
+    },
+    {
+      "method": "rtc_ahs",
+      "extra_ms": 200,
+      "episodes": 400,
+      "tasks": 4,
+      "sr_percent": 42.75,
+      "cell_counts": [
+        100
+      ],
+      "wait_percent": 0.37087485615631577,
+      "wait_s_ep": 0.34427001635194754,
+      "calls_ep": 20.32,
+      "infer_s_ep": 8.804164786206675,
+      "observation_age_mean_s": 2.9469516914886564
+    },
+    {
+      "method": "rtc_fixed",
+      "extra_ms": 0,
+      "episodes": 400,
+      "tasks": 4,
+      "sr_percent": 38.75,
+      "cell_counts": [
+        100
+      ],
+      "wait_percent": 0.15606654807922846,
+      "wait_s_ep": 0.1465900069626514,
+      "calls_ep": 11.1975,
+      "infer_s_ep": 5.380168077943527,
+      "observation_age_mean_s": 4.646506484823208
+    },
+    {
+      "method": "rtc_fixed",
+      "extra_ms": 100,
+      "episodes": 400,
+      "tasks": 4,
+      "sr_percent": 40.25,
+      "cell_counts": [
+        100
+      ],
+      "wait_percent": 0.26278191707162724,
+      "wait_s_ep": 0.24400001158937812,
+      "calls_ep": 11.415,
+      "infer_s_ep": 5.453858020073094,
+      "observation_age_mean_s": 4.594284516034356
+    },
+    {
+      "method": "rtc_fixed",
+      "extra_ms": 200,
+      "episodes": 400,
+      "tasks": 4,
+      "sr_percent": 39.0,
+      "cell_counts": [
+        100
+      ],
+      "wait_percent": 0.37451484367562865,
+      "wait_s_ep": 0.34424001635052265,
+      "calls_ep": 11.495,
+      "infer_s_ep": 5.570334260500822,
+      "observation_age_mean_s": 4.619999669889188
+    },
+    {
+      "method": "sync_ahs",
+      "extra_ms": 0,
+      "episodes": 400,
+      "tasks": 4,
+      "sr_percent": 46.0,
+      "cell_counts": [
+        100
+      ],
+      "wait_percent": 2.8650959767035853,
+      "wait_s_ep": 2.6139601241564376,
+      "calls_ep": 18.1525,
+      "infer_s_ep": 6.780937934962276,
+      "observation_age_mean_s": 2.7577923502011017
+    },
+    {
+      "method": "sync_ahs",
+      "extra_ms": 100,
+      "episodes": 400,
+      "tasks": 4,
+      "sr_percent": 46.25,
+      "cell_counts": [
+        100
+      ],
+      "wait_percent": 4.799346406015815,
+      "wait_s_ep": 4.384070208232151,
+      "calls_ep": 17.9675,
+      "infer_s_ep": 6.604402102105378,
+      "observation_age_mean_s": 2.82476638823752
+    },
+    {
+      "method": "sync_ahs",
+      "extra_ms": 200,
+      "episodes": 400,
+      "tasks": 4,
+      "sr_percent": 44.75,
+      "cell_counts": [
+        100
+      ],
+      "wait_percent": 6.6272922532508,
+      "wait_s_ep": 6.3102302997198425,
+      "calls_ep": 18.345,
+      "infer_s_ep": 6.900938232774934,
+      "observation_age_mean_s": 2.921481479702279
+    },
+    {
+      "method": "sync_fixed",
+      "extra_ms": 0,
+      "episodes": 400,
+      "tasks": 4,
+      "sr_percent": 38.0,
+      "cell_counts": [
+        100
+      ],
+      "wait_percent": 1.670111267676503,
+      "wait_s_ep": 1.5998400759883225,
+      "calls_ep": 11.11,
+      "infer_s_ep": 4.315359959273774,
+      "observation_age_mean_s": 4.555453723024394
+    },
+    {
+      "method": "sync_fixed",
+      "extra_ms": 100,
+      "episodes": 400,
+      "tasks": 4,
+      "sr_percent": 35.5,
+      "cell_counts": [
+        100
+      ],
+      "wait_percent": 2.816634128555633,
+      "wait_s_ep": 2.754760130844079,
+      "calls_ep": 11.29,
+      "infer_s_ep": 4.3687757053817045,
+      "observation_age_mean_s": 4.621270703216012
+    },
+    {
+      "method": "sync_fixed",
+      "extra_ms": 200,
+      "episodes": 400,
+      "tasks": 4,
+      "sr_percent": 37.0,
+      "cell_counts": [
+        100
+      ],
+      "wait_percent": 3.9023834837696296,
+      "wait_s_ep": 3.8558301831420976,
+      "calls_ep": 11.21,
+      "infer_s_ep": 4.382978949195676,
+      "observation_age_mean_s": 4.751157205658541
+    }
+  ]
+}

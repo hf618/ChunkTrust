@@ -1,0 +1,60 @@
+{
+  "schema_version": "qha-heldout-v1",
+  "kind": "qha_teacher_manifest",
+  "heldout_tasks": [
+    "blocks_ranking_rgb",
+    "place_bread_basket"
+  ],
+  "train_repo_ids": [
+    "handover_block_aloha-agilex_clean_50_repo",
+    "handover_mic_aloha-agilex_clean_50_repo",
+    "hanging_mug_aloha-agilex_clean_50_repo",
+    "place_a2b_left_aloha-agilex_clean_50_repo",
+    "place_bread_skillet_aloha-agilex_clean_50_repo",
+    "place_can_basket_aloha-agilex_clean_50_repo"
+  ],
+  "teachers": [
+    {
+      "repo_id": "handover_block_aloha-agilex_clean_50_repo",
+      "train_config_name": "pi05_base_aloha_robotwin_full",
+      "checkpoint_root_tag": "pi05_base_aloha_robotwin_full",
+      "model_name": "pi05_handover_block_clean50_qnorm",
+      "checkpoint_id": "20000"
+    },
+    {
+      "repo_id": "handover_mic_aloha-agilex_clean_50_repo",
+      "train_config_name": "pi05_base_aloha_robotwin_full",
+      "checkpoint_root_tag": "pi05_base_aloha_robotwin_full",
+      "model_name": "pi05_handover_mic_clean50_qnorm",
+      "checkpoint_id": "20000"
+    },
+    {
+      "repo_id": "hanging_mug_aloha-agilex_clean_50_repo",
+      "train_config_name": "pi05_base_aloha_robotwin_full",
+      "checkpoint_root_tag": "pi05_base_aloha_robotwin_full",
+      "model_name": "pi05_hanging_mug_clean50_qnorm",
+      "checkpoint_id": "20000"
+    },
+    {
+      "repo_id": "place_a2b_left_aloha-agilex_clean_50_repo",
+      "train_config_name": "pi05_base_aloha_robotwin_full",
+      "checkpoint_root_tag": "pi05_base_aloha_robotwin_full",
+      "model_name": "pi05_place_a2b_left_clean50_qnorm",
+      "checkpoint_id": "20000"
+    },
+    {
+      "repo_id": "place_bread_skillet_aloha-agilex_clean_50_repo",
+      "train_config_name": "pi05_base_aloha_robotwin_full",
+      "checkpoint_root_tag": "pi05_base_aloha_robotwin_full",
+      "model_name": "pi05_place_bread_skillet_clean50_qnorm",
+      "checkpoint_id": "20000"
+    },
+    {
+      "repo_id": "place_can_basket_aloha-agilex_clean_50_repo",
+      "train_config_name": "pi05_base_aloha_robotwin_full",
+      "checkpoint_root_tag": "pi05_base_aloha_robotwin_full",
+      "model_name": "pi05_place_can_basket_clean50_qnorm",
+      "checkpoint_id": "20000"
+    }
+  ]
+}

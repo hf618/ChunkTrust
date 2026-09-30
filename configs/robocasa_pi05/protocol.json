@@ -1,0 +1,249 @@
+{
+  "ahs": {
+    "exec_mode": "expected_round",
+    "expected_temp": 0.8,
+    "horizon_candidates": [
+      4,
+      8,
+      12,
+      16
+    ],
+    "intra_alpha": 4.0,
+    "intra_cut_t": 0.25,
+    "mix_mode": "both",
+    "speed_beta": 4.0,
+    "speed_fallback": "ehh_only",
+    "speed_weight": 0.5,
+    "speed_window": 20,
+    "tau_window": 3,
+    "ts_epsilon": 0.05,
+    "ts_forget_rho": 0.99,
+    "ts_kernel_bandwidth": 10.0,
+    "ts_seed": 0,
+    "ts_update_eta": 1.0,
+    "ts_update_mode": "kernel_forget",
+    "use_speed_uniformity": true,
+    "z_mode": "window_rms"
+  },
+  "base": {
+    "fixed_k": 16,
+    "use_qha": false
+  },
+  "formal_episodes_per_task_method": 50,
+  "formal_method_rollouts": 2400,
+  "formal_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49
+  ],
+  "frozen_at": "2026-08-02T08:07:43.309425+00:00",
+  "methods": [
+    "base",
+    "ahs"
+  ],
+  "model": {
+    "checkpoint": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/checkpoint",
+    "id": "NewGain/pi05_robocasa_gr1_tabletop24",
+    "norm_asset_id": "robocasa_gr1_tabletop24_global",
+    "norm_stats_sha256": "55fef4aefd96f317daff2a06510dfba70c34de9f6c8e561536f819c56a02d331",
+    "optimizer_step": 30000,
+    "package_tree_sha256": "a9cd68a081b692e0755994f59ad753ab214bf3dcfa6301698c19b0265b3bb5fe",
+    "revision": "master",
+    "source_archive_sha256": "6d91c7531891854ce788c3bbea950541e02a5e069265cb7863a510b9e5f139ce"
+  },
+  "parameter_source": "Submitted-paper Appendix A.2: candidates 4/8/12/16, expected-round T_sel=0.8, alpha=beta=4, lambda=0.5, rho=0.99, eta=1, bandwidth=10, W_h=20, W_tau=3, cut=0.25. The model image is the official bg_crop_pad ego view, verified against the frozen NVIDIA source pixels before rollout. Earlier StarVLA stride artifacts are provenance only.",
+  "protocol_id": "pi05_robocasa_gr1_tabletop24_base_ahs_formal50_seeded_reset_v3_20260802",
+  "reviewer_question": "tVFj Q3 base-policy family confound",
+  "sampling": {
+    "active_action_dim": 29,
+    "denoise_steps": 10,
+    "generated_action_horizon": 16,
+    "image_key": "video.ego_view_bg_crop_pad_res256_freq20",
+    "image_source": "frozen NVIDIA source observation.images.ego_view pixel-equivalent",
+    "max_environment_steps": 720,
+    "model_action_dim": 32,
+    "noise_rule": "sha256(protocol_id,task,seed,replan_index)->PCG64 float32 standard_normal",
+    "reset_rule": "python_random+numpy_global+underlying_robosuite_rng seeded from literal episode seed before reset",
+    "success_rule": "any official info['success'] during the episode"
+  },
+  "schema_version": 1,
+  "smoke": {
+    "excluded_from_formal": true,
+    "seed": 10000,
+    "tasks": [
+      "pnp_bottle_to_cabinet_close",
+      "posttrain_pnp_novel_from_cuttingboard_to_basket"
+    ]
+  },
+  "status": "FROZEN_BEFORE_POLICY_ROLLOUT",
+  "task_count": 24,
+  "task_mapping": [
+    {
+      "env_name": "gr1_unified/PnPBottleToCabinetClose_GR1ArmsAndWaistFourierHands_Env",
+      "repo_id": "gr1_unified.PnPBottleToCabinetClose_GR1ArmsAndWaistFourierHands_1000",
+      "task_name": "pnp_bottle_to_cabinet_close"
+    },
+    {
+      "env_name": "gr1_unified/PnPCanToDrawerClose_GR1ArmsAndWaistFourierHands_Env",
+      "repo_id": "gr1_unified.PnPCanToDrawerClose_GR1ArmsAndWaistFourierHands_1000",
+      "task_name": "pnp_can_to_drawer_close"
+    },
+    {
+      "env_name": "gr1_unified/PnPCupToDrawerClose_GR1ArmsAndWaistFourierHands_Env",
+      "repo_id": "gr1_unified.PnPCupToDrawerClose_GR1ArmsAndWaistFourierHands_1000",
+      "task_name": "pnp_cup_to_drawer_close"
+    },
+    {
+      "env_name": "gr1_unified/PnPMilkToMicrowaveClose_GR1ArmsAndWaistFourierHands_Env",
+      "repo_id": "gr1_unified.PnPMilkToMicrowaveClose_GR1ArmsAndWaistFourierHands_1000",
+      "task_name": "pnp_milk_to_microwave_close"
+    },
+    {
+      "env_name": "gr1_unified/PnPPotatoToMicrowaveClose_GR1ArmsAndWaistFourierHands_Env",
+      "repo_id": "gr1_unified.PnPPotatoToMicrowaveClose_GR1ArmsAndWaistFourierHands_1000",
+      "task_name": "pnp_potato_to_microwave_close"
+    },
+    {
+      "env_name": "gr1_unified/PnPWineToCabinetClose_GR1ArmsAndWaistFourierHands_Env",
+      "repo_id": "gr1_unified.PnPWineToCabinetClose_GR1ArmsAndWaistFourierHands_1000",
+      "task_name": "pnp_wine_to_cabinet_close"
+    },
+    {
+      "env_name": "gr1_unified/PosttrainPnPNovelFromCuttingboardToBasketSplitA_GR1ArmsAndWaistFourierHands_Env",
+      "repo_id": "gr1_unified.PosttrainPnPNovelFromCuttingboardToBasketSplitA_GR1ArmsAndWaistFourierHands_1000",
+      "task_name": "posttrain_pnp_novel_from_cuttingboard_to_basket"
+    },
+    {
+      "env_name": "gr1_unified/PosttrainPnPNovelFromCuttingboardToCardboardboxSplitA_GR1ArmsAndWaistFourierHands_Env",
+      "repo_id": "gr1_unified.PosttrainPnPNovelFromCuttingboardToCardboardboxSplitA_GR1ArmsAndWaistFourierHands_1000",
+      "task_name": "posttrain_pnp_novel_from_cuttingboard_to_cardboardbox"
+    },
+    {
+      "env_name": "gr1_unified/PosttrainPnPNovelFromCuttingboardToPanSplitA_GR1ArmsAndWaistFourierHands_Env",
+      "repo_id": "gr1_unified.PosttrainPnPNovelFromCuttingboardToPanSplitA_GR1ArmsAndWaistFourierHands_1000",
+      "task_name": "posttrain_pnp_novel_from_cuttingboard_to_pan"
+    },
+    {
+      "env_name": "gr1_unified/PosttrainPnPNovelFromCuttingboardToPotSplitA_GR1ArmsAndWaistFourierHands_Env",
+      "repo_id": "gr1_unified.PosttrainPnPNovelFromCuttingboardToPotSplitA_GR1ArmsAndWaistFourierHands_1000",
+      "task_name": "posttrain_pnp_novel_from_cuttingboard_to_pot"
+    },
+    {
+      "env_name": "gr1_unified/PosttrainPnPNovelFromCuttingboardToTieredbasketSplitA_GR1ArmsAndWaistFourierHands_Env",
+      "repo_id": "gr1_unified.PosttrainPnPNovelFromCuttingboardToTieredbasketSplitA_GR1ArmsAndWaistFourierHands_1000",
+      "task_name": "posttrain_pnp_novel_from_cuttingboard_to_tieredbasket"
+    },
+    {
+      "env_name": "gr1_unified/PosttrainPnPNovelFromPlacematToBasketSplitA_GR1ArmsAndWaistFourierHands_Env",
+      "repo_id": "gr1_unified.PosttrainPnPNovelFromPlacematToBasketSplitA_GR1ArmsAndWaistFourierHands_1000",
+      "task_name": "posttrain_pnp_novel_from_placemat_to_basket"
+    },
+    {
+      "env_name": "gr1_unified/PosttrainPnPNovelFromPlacematToBowlSplitA_GR1ArmsAndWaistFourierHands_Env",
+      "repo_id": "gr1_unified.PosttrainPnPNovelFromPlacematToBowlSplitA_GR1ArmsAndWaistFourierHands_1000",
+      "task_name": "posttrain_pnp_novel_from_placemat_to_bowl"
+    },
+    {
+      "env_name": "gr1_unified/PosttrainPnPNovelFromPlacematToPlateSplitA_GR1ArmsAndWaistFourierHands_Env",
+      "repo_id": "gr1_unified.PosttrainPnPNovelFromPlacematToPlateSplitA_GR1ArmsAndWaistFourierHands_1000",
+      "task_name": "posttrain_pnp_novel_from_placemat_to_plate"
+    },
+    {
+      "env_name": "gr1_unified/PosttrainPnPNovelFromPlacematToTieredshelfSplitA_GR1ArmsAndWaistFourierHands_Env",
+      "repo_id": "gr1_unified.PosttrainPnPNovelFromPlacematToTieredshelfSplitA_GR1ArmsAndWaistFourierHands_1000",
+      "task_name": "posttrain_pnp_novel_from_placemat_to_tieredshelf"
+    },
+    {
+      "env_name": "gr1_unified/PosttrainPnPNovelFromPlateToBowlSplitA_GR1ArmsAndWaistFourierHands_Env",
+      "repo_id": "gr1_unified.PosttrainPnPNovelFromPlateToBowlSplitA_GR1ArmsAndWaistFourierHands_1000",
+      "task_name": "posttrain_pnp_novel_from_plate_to_bowl"
+    },
+    {
+      "env_name": "gr1_unified/PosttrainPnPNovelFromPlateToCardboardboxSplitA_GR1ArmsAndWaistFourierHands_Env",
+      "repo_id": "gr1_unified.PosttrainPnPNovelFromPlateToCardboardboxSplitA_GR1ArmsAndWaistFourierHands_1000",
+      "task_name": "posttrain_pnp_novel_from_plate_to_cardboardbox"
+    },
+    {
+      "env_name": "gr1_unified/PosttrainPnPNovelFromPlateToPanSplitA_GR1ArmsAndWaistFourierHands_Env",
+      "repo_id": "gr1_unified.PosttrainPnPNovelFromPlateToPanSplitA_GR1ArmsAndWaistFourierHands_1000",
+      "task_name": "posttrain_pnp_novel_from_plate_to_pan"
+    },
+    {
+      "env_name": "gr1_unified/PosttrainPnPNovelFromPlateToPlateSplitA_GR1ArmsAndWaistFourierHands_Env",
+      "repo_id": "gr1_unified.PosttrainPnPNovelFromPlateToPlateSplitA_GR1ArmsAndWaistFourierHands_1000",
+      "task_name": "posttrain_pnp_novel_from_plate_to_plate"
+    },
+    {
+      "env_name": "gr1_unified/PosttrainPnPNovelFromTrayToCardboardboxSplitA_GR1ArmsAndWaistFourierHands_Env",
+      "repo_id": "gr1_unified.PosttrainPnPNovelFromTrayToCardboardboxSplitA_GR1ArmsAndWaistFourierHands_1000",
+      "task_name": "posttrain_pnp_novel_from_tray_to_cardboardbox"
+    },
+    {
+      "env_name": "gr1_unified/PosttrainPnPNovelFromTrayToPlateSplitA_GR1ArmsAndWaistFourierHands_Env",
+      "repo_id": "gr1_unified.PosttrainPnPNovelFromTrayToPlateSplitA_GR1ArmsAndWaistFourierHands_1000",
+      "task_name": "posttrain_pnp_novel_from_tray_to_plate"
+    },
+    {
+      "env_name": "gr1_unified/PosttrainPnPNovelFromTrayToPotSplitA_GR1ArmsAndWaistFourierHands_Env",
+      "repo_id": "gr1_unified.PosttrainPnPNovelFromTrayToPotSplitA_GR1ArmsAndWaistFourierHands_1000",
+      "task_name": "posttrain_pnp_novel_from_tray_to_pot"
+    },
+    {
+      "env_name": "gr1_unified/PosttrainPnPNovelFromTrayToTieredbasketSplitA_GR1ArmsAndWaistFourierHands_Env",
+      "repo_id": "gr1_unified.PosttrainPnPNovelFromTrayToTieredbasketSplitA_GR1ArmsAndWaistFourierHands_1000",
+      "task_name": "posttrain_pnp_novel_from_tray_to_tieredbasket"
+    },
+    {
+      "env_name": "gr1_unified/PosttrainPnPNovelFromTrayToTieredshelfSplitA_GR1ArmsAndWaistFourierHands_Env",
+      "repo_id": "gr1_unified.PosttrainPnPNovelFromTrayToTieredshelfSplitA_GR1ArmsAndWaistFourierHands_1000",
+      "task_name": "posttrain_pnp_novel_from_tray_to_tieredshelf"
+    }
+  ]
+}

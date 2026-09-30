@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 20,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/stack_bowls_three__demo_clean.json",
+    "parent_manifest_sha256": "407db3042e62fd9789be9cb67d87791d959d1485f412f83d2ff42ff84709d4a0",
+    "parent_protocol_id": "clean50_base_ahs_parent_min20_runtime_v4_freshscene_hashseed0_deadline_20260801_stack_bowls_three_demo_clean",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9760000,
+      "instruction": "Grab the first the small smooth brown-rimmed bowl and stack the others on top.",
+      "instruction_sha1": "79a76dc820649b78ef9c7509d2fbe89905406566",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9760001,
+      "instruction": "Grab the first the light blue bowl with darkened rim and stack the others on top.",
+      "instruction_sha1": "85e92563ebdb69b5a470ffa1804888f0a54ca57b",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9760002,
+      "instruction": "Stack the first the light blue bowl with darkened rim, then the second, then the third.",
+      "instruction_sha1": "c4ce5410e2b3d26e19973cb1757f1d2cbf3aefcc",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9760003,
+      "instruction": "Stack the small smooth brown-rimmed bowl together one by one.",
+      "instruction_sha1": "78d6060a91ad9a2733c6d8f153e69ef22c9f45a8",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9760004,
+      "instruction": "Grab the first the smooth bowl with glossy finish and stack the others on top.",
+      "instruction_sha1": "5639e10782ffadc85747aea4519e6b361c34945f",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9760005,
+      "instruction": "Stack the smooth bowl with glossy finish together one by one.",
+      "instruction_sha1": "baf6792719bcc8a642b7372da3a79487cc00d55e",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9760006,
+      "instruction": "Position one the light blue bowl with darkened rim and stack two others on it.",
+      "instruction_sha1": "157350f983a65abb959b3b8dec3c58b48b9df830",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9760007,
+      "instruction": "Put the light blue bowl with darkened rim in a pile, largest to smallest.",
+      "instruction_sha1": "3f49cedc4d6598f6b9d90b75a6c9c1b404b1ba71",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9760008,
+      "instruction": "Stack the first the small smooth brown-rimmed bowl, then the second, then the third.",
+      "instruction_sha1": "a1781ecf19f98ae4a4cfc164bdd96bd6fa2be3d2",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9760009,
+      "instruction": "Stack the first the light blue bowl with darkened rim, then the second, then the third.",
+      "instruction_sha1": "c4ce5410e2b3d26e19973cb1757f1d2cbf3aefcc",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9760010,
+      "instruction": "Stack the light blue bowl with darkened rim together one by one.",
+      "instruction_sha1": "ee0c0ba387415d6a81d9eae2012f923caa1509a8",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9760011,
+      "instruction": "Pick up the first the small smooth brown-rimmed bowl and layer the rest above it.",
+      "instruction_sha1": "282242623a5eac54da7b8f14be394df42187f356",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9760012,
+      "instruction": "Stack the three the small smooth brown-rimmed bowl one above the other.",
+      "instruction_sha1": "bab6418eae0b53ad6fa6906e1e16ac2dc5c90875",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9760013,
+      "instruction": "Pick up the first the light blue bowl with darkened rim and layer the rest above it.",
+      "instruction_sha1": "fb8cf667dfd16d03e48599cab5042a75fb0f0694",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9760014,
+      "instruction": "Start stacking the small smooth brown-rimmed bowl from the bottom to the top.",
+      "instruction_sha1": "a2209cd7860feff5694e75859ccb6252d026ff8c",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9760015,
+      "instruction": "Stack the smooth bowl with glossy finish by placing smallest on top.",
+      "instruction_sha1": "55edfec2b13c61e81f56f201075add4ef9f7d798",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9760016,
+      "instruction": "Grab the first the small smooth brown-rimmed bowl and stack the others on top.",
+      "instruction_sha1": "79a76dc820649b78ef9c7509d2fbe89905406566",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9760017,
+      "instruction": "Pick up the first the smooth bowl with glossy finish and layer the rest above it.",
+      "instruction_sha1": "f4fc16d0bd8d90814259426c9649c28ef2bb6469",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9760018,
+      "instruction": "Stack the three the small smooth brown-rimmed bowl one above the other.",
+      "instruction_sha1": "bab6418eae0b53ad6fa6906e1e16ac2dc5c90875",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9760019,
+      "instruction": "Stack the light blue bowl with darkened rim together one by one.",
+      "instruction_sha1": "ee0c0ba387415d6a81d9eae2012f923caa1509a8",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-08-01T05:36:08.839999+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_parent_min20_runtime_v4_freshscene_hashseed0_deadline_20260801_stack_bowls_three_demo_clean_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9760000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_clean",
+  "task_name": "stack_bowls_three"
+}

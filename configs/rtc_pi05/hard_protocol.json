@@ -1,0 +1,349 @@
+{
+  "action_limit_source": {
+    "path": "Reflex/RoboTwin/task_config/_eval_step_limit.yml",
+    "sha256": "41c62bd26184977bae45aee555edd0cc21de5cddf560c2595921fc23a1e3b551"
+  },
+  "action_limits": {
+    "blocks_ranking_rgb": 1200,
+    "handover_block": 800,
+    "handover_mic": 600,
+    "hanging_mug": 900,
+    "place_a2b_left": 400,
+    "place_bread_basket": 700,
+    "place_bread_skillet": 500,
+    "place_can_basket": 700
+  },
+  "ahs_record_k": {
+    "pi0": 20,
+    "pi05": 20
+  },
+  "amendment_reason": "User requested 100 rollouts and resume using existing seeds; include all prior completed identities without outcome filtering.",
+  "bootstrap_repetitions": 10000,
+  "bootstrap_seed": 0,
+  "combined_manifest_directory": "formal100",
+  "deferred": [
+    "remaining validation grid",
+    "validation-selected strong fixed controls",
+    "native wall-clock audit"
+  ],
+  "evidence": "User: \u90a3\u6211\u611f\u89c9\u628a\u57fa\u7ebf\u8bbe\u7f6e\u4e3a K=40 \u611f\u89c9\u4f1a\u597d\u4e00\u70b9\u5427. Existing K20 protocol and results remain immutable reference evidence.",
+  "execution_contract": {
+    "controlled_availability": "request_tick + ceil(specified_delay / physics_dt); never inspect output earlier",
+    "fft_horizon": 50,
+    "forecast": "frozen waypoint P05-based prefix estimate guides inference and request timing, but does not compel execution",
+    "handoff": "first legal waypoint boundary at or after full prediction availability",
+    "k_semantics": "selected K is the target and maximum old execution budget; record actual actions separately; never extend K to hide a late result",
+    "late_fallback": "hold last drive target and continue physics after selected old budget is exhausted",
+    "limitations": "variable-duration waypoint adaptation; cannot interrupt TOPP or claim fixed-Hz/native-deployment equivalence",
+    "native_availability": "complete prediction received by background receiver; wall clock timestamp",
+    "protocol_id": "chunktrust-rtc-v2-fft50-ready-boundary",
+    "required_gates": [
+      "unit_tests",
+      "native_check",
+      "smoke",
+      "pilot"
+    ],
+    "scoring": "original AHS formulas on the actually available suffix; fixed H50 FFT padding; actual executed target history"
+  },
+  "execution_hash": "d6a273e21752394aa45def642cb5fb800d14f175eba98ce447fc0d8eb450cdac",
+  "fixed_k": {
+    "pi0": 40,
+    "pi05": 40
+  },
+  "formal_cohorts": [
+    {
+      "directory": "formal",
+      "rollout_ids": [
+        0,
+        49
+      ]
+    },
+    {
+      "directory": "formal_extra50",
+      "rollout_ids": [
+        50,
+        99
+      ]
+    }
+  ],
+  "formal_n_per_cell": 100,
+  "formal_seed_rule": "Keep original first 50 setup-valid entries byte-identical. Continue the same per-task 1000-seed candidate interval to obtain the next 50 setup-valid identities. Reject only native UnStableError during scene setup; no policy or expert screening.",
+  "formal_total": 19200,
+  "frozen_at": "2026-09-19T14:21:38.139119+08:00",
+  "inherited_ahs": "Reuse every completed formal AHS identity with unchanged settings/execution hashes. K20 in AHS paths is a legacy label; the AHS branch never reads fixed_k. New AHS uses identical settings and RNG.",
+  "latency": {
+    "pi0": {
+      "candidates": [
+        10,
+        20,
+        30,
+        40
+      ],
+      "d0_s": 0.15860128866916057,
+      "fft_horizon": 50,
+      "forecast": "ceil(total delay / minimum task P05 calibrated waypoint duration)",
+      "handoff": "first legal waypoint boundary at/after prediction availability; forecast is not a commitment",
+      "horizon_semantics": "K is the target/upper execution budget; early ready handoff can execute fewer actions; log both",
+      "late_result_fallback": "hold last drive target after old selected K is exhausted; never extend K",
+      "max_delay_lead": 5,
+      "method_b1_p95_s": {
+        "rtc_ahs": 0.15860128866916057,
+        "rtc_fixed": 0.15780096342787148,
+        "sync_ahs": 0.09352033986360767,
+        "sync_fixed": 0.09314170569414273
+      },
+      "protocol_id": "chunktrust-rtc-v2-fft50-ready-boundary",
+      "timeout_s": 3600.0,
+      "timeout_status": "frozen uniform 3600 s physical cap; original task action limit retained",
+      "waypoint_calibration": {
+        "handover_block": {
+          "n": 200,
+          "p05_s": 0.09600000455975533,
+          "p50_s": 0.19200000911951065
+        },
+        "hanging_mug": {
+          "n": 200,
+          "p05_s": 0.0800000037997961,
+          "p50_s": 0.21200001006945968
+        },
+        "place_a2b_left": {
+          "n": 200,
+          "p05_s": 0.08400000398978591,
+          "p50_s": 0.28000001329928637
+        },
+        "place_bread_basket": {
+          "n": 200,
+          "p05_s": 0.08380000398028642,
+          "p50_s": 0.2380000113043934
+        }
+      },
+      "waypoint_lower_s": 0.0800000037997961
+    },
+    "pi05": {
+      "candidates": [
+        10,
+        20,
+        30,
+        40
+      ],
+      "d0_s": 0.14214269743533806,
+      "fft_horizon": 50,
+      "forecast": "ceil(total delay / minimum task P05 calibrated waypoint duration)",
+      "handoff": "first legal waypoint boundary at/after prediction availability; forecast is not a commitment",
+      "horizon_semantics": "K is the target/upper execution budget; early ready handoff can execute fewer actions; log both",
+      "late_result_fallback": "hold last drive target after old selected K is exhausted; never extend K",
+      "max_delay_lead": 5,
+      "method_b1_p95_s": {
+        "rtc_ahs": 0.14214269743533806,
+        "rtc_fixed": 0.14187480764230714,
+        "sync_ahs": 0.09213303164287936,
+        "sync_fixed": 0.09170135316962842
+      },
+      "protocol_id": "chunktrust-rtc-v2-fft50-ready-boundary",
+      "timeout_s": 3600.0,
+      "timeout_status": "frozen uniform 3600 s physical cap; original task action limit retained",
+      "waypoint_calibration": {
+        "handover_block": {
+          "n": 200,
+          "p05_s": 0.09200000436976552,
+          "p50_s": 0.25400001206435263
+        },
+        "hanging_mug": {
+          "n": 200,
+          "p05_s": 0.08800000417977571,
+          "p50_s": 0.2960000140592456
+        },
+        "place_a2b_left": {
+          "n": 200,
+          "p05_s": 0.0800000037997961,
+          "p50_s": 0.26600001263432205
+        },
+        "place_bread_basket": {
+          "n": 200,
+          "p05_s": 0.08400000398978591,
+          "p50_s": 0.3160000150091946
+        }
+      },
+      "waypoint_lower_s": 0.0800000037997961
+    }
+  },
+  "methods": [
+    "sync_fixed",
+    "sync_ahs",
+    "rtc_fixed",
+    "rtc_ahs"
+  ],
+  "noninferiority_margin_pp": -3.0,
+  "outcome_visibility_at_change": [
+    {
+      "backbone": "pi0",
+      "completed": 40,
+      "method": "sync_fixed"
+    },
+    {
+      "backbone": "pi0",
+      "completed": 0,
+      "method": "sync_ahs"
+    },
+    {
+      "backbone": "pi0",
+      "completed": 0,
+      "method": "rtc_fixed"
+    },
+    {
+      "backbone": "pi0",
+      "completed": 0,
+      "method": "rtc_ahs"
+    },
+    {
+      "backbone": "pi05",
+      "completed": 150,
+      "method": "sync_fixed"
+    },
+    {
+      "backbone": "pi05",
+      "completed": 150,
+      "method": "sync_ahs"
+    },
+    {
+      "backbone": "pi05",
+      "completed": 150,
+      "method": "rtc_fixed"
+    },
+    {
+      "backbone": "pi05",
+      "completed": 150,
+      "method": "rtc_ahs"
+    }
+  ],
+  "outcome_visibility_at_sample_size_change": {
+    "primary_completed": 460,
+    "raw_formal_completed": 800
+  },
+  "panel_protocol_id": "chunktrust-rtc-v2-primary-k40-n100-staticcap-20260919",
+  "predecessor": {
+    "panel_protocol_id": "chunktrust-rtc-v2-primary-k40-staticcap-20260919",
+    "protocol_file": "artifacts/formal_protocol_k40.json",
+    "sha256": "ce868424c325df42dfc8f65defe2989f890c71d140ed689cbd2aec465af120e5"
+  },
+  "preserved_inventory": "artifacts/n100_transition_20260919_141426/preserved_files.json",
+  "protocol_id": "chunktrust-rtc-v2-fft50-ready-boundary",
+  "removed_prerequisite": "Independent 320-episode P99 timeout cohort replaced by the explicit fixed cap; it does not silently change this formal panel later.",
+  "reporting_warning": "K40 was selected after partial validation/K20 formal outcomes were observed. Original K20 results remain available; AHS rows are shared observations, never counted as independent replications. Strong fixed controls follow independent validation. Sample size increased from 50 to 100 per task after partial outcomes were available, at user request. All prior completed observations are retained once; this is a disclosed sample-size amendment, not a new independent replication.",
+  "schema_version": 5,
+  "scope": "Four-way comparison against specified K40 under unchanged action/time budgets. Baseline choice followed partial observed outcomes; no claim of validation optimality or fully outcome-blind confirmatory selection.",
+  "selection_mode": "User-specified long-execution K40 comparator after inspecting partial validation and K20 formal results; not validation-optimal or outcome-blind.",
+  "setting": "demo_randomized",
+  "settings_files": {
+    "pi0": {
+      "blocks_ranking_rgb": {
+        "ahs": "artifacts/formal_settings_pi0_blocks_ranking_rgb.json",
+        "fixed": "artifacts/formal_settings_k40_pi0_blocks_ranking_rgb.json"
+      },
+      "handover_block": {
+        "ahs": "artifacts/formal_settings_pi0_handover_block.json",
+        "fixed": "artifacts/formal_settings_k40_pi0_handover_block.json"
+      },
+      "handover_mic": {
+        "ahs": "artifacts/formal_settings_pi0_handover_mic.json",
+        "fixed": "artifacts/formal_settings_k40_pi0_handover_mic.json"
+      },
+      "hanging_mug": {
+        "ahs": "artifacts/formal_settings_pi0_hanging_mug.json",
+        "fixed": "artifacts/formal_settings_k40_pi0_hanging_mug.json"
+      },
+      "place_a2b_left": {
+        "ahs": "artifacts/formal_settings_pi0_place_a2b_left.json",
+        "fixed": "artifacts/formal_settings_k40_pi0_place_a2b_left.json"
+      },
+      "place_bread_basket": {
+        "ahs": "artifacts/formal_settings_pi0_place_bread_basket.json",
+        "fixed": "artifacts/formal_settings_k40_pi0_place_bread_basket.json"
+      },
+      "place_bread_skillet": {
+        "ahs": "artifacts/formal_settings_pi0_place_bread_skillet.json",
+        "fixed": "artifacts/formal_settings_k40_pi0_place_bread_skillet.json"
+      },
+      "place_can_basket": {
+        "ahs": "artifacts/formal_settings_pi0_place_can_basket.json",
+        "fixed": "artifacts/formal_settings_k40_pi0_place_can_basket.json"
+      }
+    },
+    "pi05": {
+      "blocks_ranking_rgb": {
+        "ahs": "artifacts/formal_settings_pi05_blocks_ranking_rgb.json",
+        "fixed": "artifacts/formal_settings_k40_pi05_blocks_ranking_rgb.json"
+      },
+      "handover_block": {
+        "ahs": "artifacts/formal_settings_pi05_handover_block.json",
+        "fixed": "artifacts/formal_settings_k40_pi05_handover_block.json"
+      },
+      "handover_mic": {
+        "ahs": "artifacts/formal_settings_pi05_handover_mic.json",
+        "fixed": "artifacts/formal_settings_k40_pi05_handover_mic.json"
+      },
+      "hanging_mug": {
+        "ahs": "artifacts/formal_settings_pi05_hanging_mug.json",
+        "fixed": "artifacts/formal_settings_k40_pi05_hanging_mug.json"
+      },
+      "place_a2b_left": {
+        "ahs": "artifacts/formal_settings_pi05_place_a2b_left.json",
+        "fixed": "artifacts/formal_settings_k40_pi05_place_a2b_left.json"
+      },
+      "place_bread_basket": {
+        "ahs": "artifacts/formal_settings_pi05_place_bread_basket.json",
+        "fixed": "artifacts/formal_settings_k40_pi05_place_bread_basket.json"
+      },
+      "place_bread_skillet": {
+        "ahs": "artifacts/formal_settings_pi05_place_bread_skillet.json",
+        "fixed": "artifacts/formal_settings_k40_pi05_place_bread_skillet.json"
+      },
+      "place_can_basket": {
+        "ahs": "artifacts/formal_settings_pi05_place_can_basket.json",
+        "fixed": "artifacts/formal_settings_k40_pi05_place_can_basket.json"
+      }
+    }
+  },
+  "status": "FROZEN_SAMPLE_SIZE_AMENDMENT_AFTER_PARTIAL_N50_OUTCOMES",
+  "strong_fixed_k": {
+    "pi0": [],
+    "pi05": []
+  },
+  "strong_fixed_n_per_cell": 100,
+  "supplementary_selection_file": "artifacts/strong_control_selection_k40_n100.json",
+  "tasks": [
+    "place_a2b_left",
+    "place_bread_basket",
+    "place_bread_skillet",
+    "place_can_basket",
+    "blocks_ranking_rgb",
+    "handover_block",
+    "handover_mic",
+    "hanging_mug"
+  ],
+  "technical_gates": {
+    "native_check": {
+      "evidence_hash": "dd715db7bbe571d56048911ea62ec55442c23bf6b57b6ae34d6262b55c41e82e",
+      "execution_hash": "d6a273e21752394aa45def642cb5fb800d14f175eba98ce447fc0d8eb450cdac"
+    },
+    "pilot": {
+      "evidence_hash": "aa95e915b9692f8529f7b28ba7027be1f4b66e09ad6b4f5e1b9d9c5c0594b5fa",
+      "execution_hash": "d6a273e21752394aa45def642cb5fb800d14f175eba98ce447fc0d8eb450cdac"
+    },
+    "smoke": {
+      "evidence_hash": "35357b6a3ea880b7cbd92291d888211df46eb2008ae1f22650d43c0895e4529a",
+      "execution_hash": "d6a273e21752394aa45def642cb5fb800d14f175eba98ce447fc0d8eb450cdac"
+    }
+  },
+  "timeout_rule": "Original per-task action budget plus uniform 3600 s physical cap, shared by all methods/backbones/delays. No fitted P99 deadline in this panel.",
+  "timeout_s": {
+    "blocks_ranking_rgb": 3600.0,
+    "handover_block": 3600.0,
+    "handover_mic": 3600.0,
+    "hanging_mug": 3600.0,
+    "place_a2b_left": 3600.0,
+    "place_bread_basket": 3600.0,
+    "place_bread_skillet": 3600.0,
+    "place_can_basket": 3600.0
+  }
+}

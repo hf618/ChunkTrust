@@ -1,0 +1,175 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/grab_roller__demo_clean.json",
+    "parent_manifest_sha256": "8a8430c8330571422f1d71b3f5674c27628ac1f7c76a8939fb38ca64808e97ba",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_grab_roller_demo_clean",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9370000,
+      "instruction": "Use both arms to grab the light brown wooden roller.",
+      "instruction_sha1": "72a21171a53eda697d1603e83f83231353674532",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9370001,
+      "instruction": "Grab the light brown wooden roller on the table.",
+      "instruction_sha1": "a28de2f427752937115a1a13baad46d9b277ba7f",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9370002,
+      "instruction": "Use arms to grab the roller with tapered tips.",
+      "instruction_sha1": "4c07b3360df0f2ff67beab774709b682b7dbb5c0",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9370003,
+      "instruction": "Reach and grab the roller with tapered tips with both arms",
+      "instruction_sha1": "10232635f481815ea050bb183d200744bcdf37e6",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9370005,
+      "instruction": "Grab the roller with tapered ends on the table.",
+      "instruction_sha1": "afbcf915e24526ec39d622b5826114e96c3d906b",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9370006,
+      "instruction": "Grab the roller with tapered tips on the table using arms",
+      "instruction_sha1": "5b20f70f013d4f66aa49e765e1890b2901ac1dbd",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9370007,
+      "instruction": "Use both arms to grab the roller with tapered ends.",
+      "instruction_sha1": "1c49abcb844896baab201af5214d330305bfbd11",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9370008,
+      "instruction": "Grab the light brown cylindrical roller on the table using arms",
+      "instruction_sha1": "9d17eb99f734b0b446da5ffe62a0c839b5a2769b",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9370009,
+      "instruction": "Use both arms to grab the light brown wooden roller.",
+      "instruction_sha1": "72a21171a53eda697d1603e83f83231353674532",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9370010,
+      "instruction": "Use both arms to grab the light brown wooden roller.",
+      "instruction_sha1": "72a21171a53eda697d1603e83f83231353674532",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9370011,
+      "instruction": "Grab the roller with tapered ends on the table with arms.",
+      "instruction_sha1": "aae2ea26f9c44862636b895a513abaa4d4abe67e",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9370012,
+      "instruction": "Grab the smooth wooden roller with both arms.",
+      "instruction_sha1": "993dacd536861fc68cdcb0bddf8ec599a97169f2",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9370013,
+      "instruction": "Grab the roller with tapered tips on the table.",
+      "instruction_sha1": "1cc7d7fb0ffc1530a89a2111cc438cc05129b259",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9370014,
+      "instruction": "Reach and grab the smooth wooden roller with both arms",
+      "instruction_sha1": "842bb5000957f0408564f9628c959e07a02815fb",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9370015,
+      "instruction": "Hold the wooden roller with both arms.",
+      "instruction_sha1": "13468ebdda077f529aa7bbdad961671dcd2e99d1",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9370016,
+      "instruction": "Use arms to grab the roller with tapered tips.",
+      "instruction_sha1": "4c07b3360df0f2ff67beab774709b682b7dbb5c0",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9370017,
+      "instruction": "Use both arms to grab the light brown wooden roller.",
+      "instruction_sha1": "72a21171a53eda697d1603e83f83231353674532",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9370018,
+      "instruction": "Grab the roller with tapered ends on the table with arms.",
+      "instruction_sha1": "aae2ea26f9c44862636b895a513abaa4d4abe67e",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9370019,
+      "instruction": "Use both arms to grab the smooth wooden roller.",
+      "instruction_sha1": "27a529c1ecfe006d76c3d86048d66dde5ba29ac4",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9370020,
+      "instruction": "Grab the light brown wooden roller on the table with arms.",
+      "instruction_sha1": "3b83441f50f04937f5746c60ea7f1d582a47cd2d",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-07-31T15:52:00.951253+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_grab_roller_demo_clean_first20",
+  "rejected_pre_manifest_candidates": [
+    {
+      "episode_seed": 9370004,
+      "reason": "UnStableError: Objects is unstable in seed(9370004), unstable objects: 102_roller"
+    }
+  ],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9370000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_clean",
+  "task_name": "grab_roller"
+}

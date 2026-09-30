@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_object_scale__demo_randomized.json",
+    "parent_manifest_sha256": "177e003c9d71f3b39a24513c0fbe25588c65991063b8fb5582cb6f396d82750a",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_place_object_scale_demo_randomized",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9631000,
+      "instruction": "Grab the lightweight bell with smooth surface and place it on the handheld electronicscale with smooth finish.",
+      "instruction_sha1": "4ea1b284c828af27a749f20db8f1fc4035189fb4",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9631001,
+      "instruction": "With the left arm, grab the small rounded plastic mouse and position it on the electronicscale with gold round platform",
+      "instruction_sha1": "0b26543cb94e607cf68b925d8bc2f83527661aca",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9631002,
+      "instruction": "With the left arm, grab the shiny red plastic stapler and position it on the gold circular platform electronicscale",
+      "instruction_sha1": "b8ae13633854c3fc1b94122bc62a9e03ac646139",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9631003,
+      "instruction": "Use one arm to pick the small stapler with simple design for the gold circular platform electronicscale",
+      "instruction_sha1": "ebe23c72785e87084060a5eb9045e70a9eb849d5",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9631004,
+      "instruction": "Use one arm to pick the wireless mouse with left and right buttons for the electronicscale with gold round platform",
+      "instruction_sha1": "872505f87cdba8d935ad3164a737351f990991e9",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9631005,
+      "instruction": "Pick the hand-sized dark gray mouse up and put it on the electronicscale with circular platform",
+      "instruction_sha1": "28310c3dc996ada7618cc941dd370b10f6a01df1",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9631006,
+      "instruction": "Pick up the dark gray wireless mouse and set it on the electronicscale with circular platform",
+      "instruction_sha1": "74a6ad77d3a833e8109128596ebd0d5027b2e22c",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9631007,
+      "instruction": "Pick the blue stapler for holding papers up and put it on the electronicscale with circular platform",
+      "instruction_sha1": "085f00c6f0bc12745d2af5b2d0b26a6ffdbcbb7f",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9631008,
+      "instruction": "Grab the lightweight bell with smooth surface and set it on the electronicscale with circular platform",
+      "instruction_sha1": "7301d33c565bbc86398c8e4c40f1582b5809bcab",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9631009,
+      "instruction": "Use one arm to pick the smooth metal bell for the black screen electronicscale",
+      "instruction_sha1": "014503bbc31a7e7418228423abe07da627736859",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9631010,
+      "instruction": "Grab the bell with raised round top and place it on the electronicscale flat base and stand.",
+      "instruction_sha1": "728ac0251018a4a4dc66cdf58f2ce678cad1de41",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9631011,
+      "instruction": "With the left arm, grab the hand-sized wireless mouse and position it on the electronicscale with gold round platform",
+      "instruction_sha1": "d9f6eac550d6f4764a74b0e9c383a03d7d180b82",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9631012,
+      "instruction": "Grab the white stapler and place it on the electronicscale with black digital screen",
+      "instruction_sha1": "656c1f2b54dbd0771554210081be185c5e28fe29",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9631013,
+      "instruction": "Grab the palm-sized bell and place it on the black screen electronicscale",
+      "instruction_sha1": "8222745993e00f82ee4a4e2d57ea5355639c7c50",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9631014,
+      "instruction": "Pick the lightweight bell with smooth surface up and put it on the gold circular platform electronicscale",
+      "instruction_sha1": "fbced3388dece13b04b1f81ac0ef8ac857e3c860",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9631015,
+      "instruction": "Pick up the plastic stapler and set it on the scale with rounded edges",
+      "instruction_sha1": "f0085b2903568b738c1459af922ea056d4e14432",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9631016,
+      "instruction": "Grab the shiny red plastic stapler and set it on the gold circular platform electronicscale",
+      "instruction_sha1": "7ed99321819b30eb3276ae6aed151482ddcae5f9",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9631017,
+      "instruction": "Use one arm to pick the dark gray wireless mouse for the electronicscale flat base and stand",
+      "instruction_sha1": "948b3e67dd9795b518c3ddd5207068f70ad79396",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9631018,
+      "instruction": "Grab the medium-sized bell and put it on the scale with rounded edges",
+      "instruction_sha1": "f15b52591f341901a3136029c33449d612c5a23e",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9631019,
+      "instruction": "With the right arm, grab the smooth metal bell and position it on the electronicscale with rectangular base",
+      "instruction_sha1": "f3d3563171666368dff086d9465f99446871b365",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-08-01T00:47:46.772120+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_place_object_scale_demo_randomized_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9631000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_randomized",
+  "task_name": "place_object_scale"
+}

@@ -1,0 +1,367 @@
+{
+  "claim_guard": "No reviewer-facing number until all 50x2x2xN cells pass identity, checkpoint, runtime, and task-cluster paired-bootstrap gates.",
+  "coverage": {
+    "expected_method_rollouts": 4000,
+    "formal_parent_entries": 50,
+    "formal_selected_entries": 20,
+    "methods": [
+      "base",
+      "ahs"
+    ],
+    "settings": [
+      "demo_clean",
+      "demo_randomized"
+    ],
+    "task_count": 50,
+    "tasks": [
+      "adjust_bottle",
+      "beat_block_hammer",
+      "blocks_ranking_rgb",
+      "blocks_ranking_size",
+      "click_alarmclock",
+      "click_bell",
+      "dump_bin_bigbin",
+      "grab_roller",
+      "handover_block",
+      "handover_mic",
+      "hanging_mug",
+      "lift_pot",
+      "move_can_pot",
+      "move_pillbottle_pad",
+      "move_playingcard_away",
+      "move_stapler_pad",
+      "open_laptop",
+      "open_microwave",
+      "pick_diverse_bottles",
+      "pick_dual_bottles",
+      "place_a2b_left",
+      "place_a2b_right",
+      "place_bread_basket",
+      "place_bread_skillet",
+      "place_burger_fries",
+      "place_can_basket",
+      "place_cans_plasticbox",
+      "place_container_plate",
+      "place_dual_shoes",
+      "place_empty_cup",
+      "place_fan",
+      "place_mouse_pad",
+      "place_object_basket",
+      "place_object_scale",
+      "place_object_stand",
+      "place_phone_stand",
+      "place_shoe",
+      "press_stapler",
+      "put_bottles_dustbin",
+      "put_object_cabinet",
+      "rotate_qrcode",
+      "scan_object",
+      "shake_bottle",
+      "shake_bottle_horizontally",
+      "stack_blocks_three",
+      "stack_blocks_two",
+      "stack_bowls_three",
+      "stack_bowls_two",
+      "stamp_seal",
+      "turn_switch"
+    ]
+  },
+  "cross_process_scene_identity": {
+    "candidate_environment_lifecycle": "fresh task environment per candidate seed",
+    "python_hash_seed": "0",
+    "reason": "Fix Python set iteration and validate every seed at the same fresh-scene failure boundary used by the formal evaluator.",
+    "runtime_v1_v2_v3_outcomes_allowed": false
+  },
+  "deadline": {
+    "final_report": "2026-08-05T10:00:00+08:00",
+    "formal_rollouts": "2026-08-05T06:00:00+08:00",
+    "hours_remaining_to_formal_at_freeze": 127.79444444444445
+  },
+  "episode_budget": {
+    "formula": "projected(N)=200*N*t90/G*1.20",
+    "projections": [
+      {
+        "N": 50,
+        "fits_rollout_deadline": false,
+        "projected_hours": 337.2332255045573,
+        "projected_seconds": 1214039.6118164062
+      },
+      {
+        "N": 30,
+        "fits_rollout_deadline": false,
+        "projected_hours": 202.33993530273438,
+        "projected_seconds": 728423.7670898438
+      },
+      {
+        "N": 25,
+        "fits_rollout_deadline": false,
+        "projected_hours": 168.61661275227866,
+        "projected_seconds": 607019.8059082031
+      },
+      {
+        "N": 20,
+        "fits_rollout_deadline": false,
+        "projected_hours": 134.8932902018229,
+        "projected_seconds": 485615.8447265625
+      }
+    ],
+    "selected_N": 20,
+    "selection_candidates": [
+      50,
+      30,
+      25,
+      20
+    ],
+    "selection_reason": "AT_RISK continuation at the previously frozen reduced budget N=20; Runtime V4 corrects setup-only scene precheck lifecycle without reopening outcome-dependent budget or hyperparameter selection.",
+    "smoke_episode_count": 16,
+    "smoke_mean_wall_seconds": 66.40874165296555,
+    "smoke_t90_wall_seconds": 101.16996765136719,
+    "stable_gpu_count": 1
+  },
+  "formal_logging": {
+    "full_denoise_dump": false,
+    "lightweight_episode_outcome_replan_timing": true,
+    "video": false
+  },
+  "frozen_at": "2026-08-01T13:58:38.382811+08:00",
+  "git": {
+    "commit": "668952bcfad412bf3508b74b62c0bbad2eb072cc",
+    "worktree_dirty": true
+  },
+  "manifest_protocol": {
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "formal_manifest_registry": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/MANIFEST_REGISTRY.json",
+    "formal_manifest_registry_sha256": "7a68254390bbbacbc088fefb0bf310ec647431792cb9b21b8eed26ad83b79c43",
+    "formal_selection_rule": "first 20 entries in ascending canonical rollout_id order",
+    "fresh_env_per_candidate": true,
+    "parent_entries": 50,
+    "parent_entries_minimum": 20,
+    "parent_entry_counts": [
+      20,
+      50
+    ],
+    "parent_manifest_registry": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/MANIFEST_REGISTRY.json",
+    "parent_manifest_registry_sha256": "afd46380af33411ffe3bf94e9c9ea04d3d1e73b23bba5de117fa88ae9112a720",
+    "parent_seed_base": 9300000,
+    "parent_storage_note": "Completed 50-entry parents are retained unchanged; deadline-finalized parents contain the frozen formal minimum of 20 entries.",
+    "python_hash_seed": "0",
+    "setting_seed_stride": 1000,
+    "smoke_manifest_registry": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_20260730/manifests/smoke/MANIFEST_REGISTRY.json",
+    "smoke_manifest_registry_sha256": "c9e050dfd42fc7009e3937c266eb0bdad8713e0d906f5b3f4c8f6c90d14d083c",
+    "smoke_seed_base": 8100000,
+    "task_seed_stride": 10000
+  },
+  "methods": {
+    "ahs": {
+      "eval_type": "horizon",
+      "evidence_candidates": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "exec_mode": "expected_round",
+      "execution_rule": "round of posterior-weighted expected horizon; integer K in [10,50]",
+      "frozen_defaults": {
+        "horizon_inter_beta": 4.0,
+        "horizon_inter_fallback": "ehh_only",
+        "horizon_inter_use_speed_uniformity": 1,
+        "horizon_inter_weight": 0.5,
+        "horizon_inter_window": 60,
+        "horizon_intra_alpha": 4.0,
+        "horizon_intra_cut_t": 0.25,
+        "horizon_intra_tau_window": 3,
+        "horizon_intra_z_mode": "window_rms",
+        "horizon_ts_epsilon": 0.05,
+        "horizon_ts_forget_rho": 0.99,
+        "horizon_ts_kernel_bandwidth": 10.0,
+        "horizon_ts_seed": 0,
+        "horizon_ts_update_eta": 1.0,
+        "horizon_ts_update_mode": "kernel_forget"
+      },
+      "mix_mode": "both",
+      "temperature": 1.0,
+      "use_qha": false
+    },
+    "base": {
+      "eval_type": "default",
+      "execution_K": 50,
+      "pi0_step": 50,
+      "use_qha": false
+    }
+  },
+  "model": {
+    "checkpoint_id": 30000,
+    "checkpoint_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_20260730/checkpoint_download/NewGain__pi05_robotwin_clean50_multitask50",
+    "model_name": "pi05_robotwin_clean50_multitask50_formal_20260728_01",
+    "params_assets_tree_sha256": "6251aacd16553b5c079a280e061cc80f122e5d3c0a4256c76e621b06a7baed85",
+    "repository": "NewGain/pi05_robotwin_clean50_multitask50",
+    "task_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_20260730/checkpoint_download/NewGain__pi05_robotwin_clean50_multitask50/assets/_audit/robotwin_clean50_multitask50_manifest.json",
+    "task_manifest_sha256": "f1e8ed7184a864d8aecd86258929ab22a5cf1300e58d90eada043c9252c9d67e",
+    "train_config": "pi05_base_aloha_robotwin_full_multitask50",
+    "use_qha": false
+  },
+  "protocol_revision": "runtime_v4_freshscene_hashseed0_min20_deadline",
+  "protocol_tool_sha256_at_freeze": {
+    "eval_rebuttal/scripts/build_clean50_literal_manifests.py": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+    "eval_rebuttal/scripts/derive_clean50_formal_manifests.py": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "eval_rebuttal/scripts/freeze_clean50_runtime_v4.py": "ff3a73b746913990cd112899021436740b1fa8f46632a54c648b83c5c0d7753e"
+  },
+  "reviewer_facing_purpose": "full standardized RoboTwin2.0 coverage; exactly 50 checkpoint-audited tasks, not an eight-task subset",
+  "runtime_revision": {
+    "active_revision": 4,
+    "revision_4": {
+      "fresh_env_per_candidate": true,
+      "python_hash_seed": "0",
+      "reason": "Runtime V3 reused an open task environment during manifest construction. Runtime V4 prechecks every candidate in an independent environment before any Runtime V4 policy rollout.",
+      "revised_at": "2026-08-01T13:58:38.383062+08:00",
+      "superseded_runtime_v3_method_rollouts": 600
+    }
+  },
+  "runtime_source_sha256": {
+    "eval_rebuttal/scripts/aggregate_clean50_base_vs_ahs.py": "faffe6535f6a43099482584d16b567b84a181a8b12464ee5cad3519030b0de6d",
+    "eval_rebuttal/scripts/run_clean50_base_vs_ahs.py": "aac97bf45b9f8d102ab48a0812d4d4d2e016b2403fbfa34b87fa5b792f559744",
+    "policy/pi05_horizon/denoise_logger.py": "9ace9acb3d8a64157da25a5e9d4b8596fdf8fe40eade1f8a7516a9583724c746",
+    "policy/pi05_horizon/deploy_policy.py": "876e7eaba0b9826104148e052d7f0864187e96011fc990673e780b53d6faedb1",
+    "policy/pi05_horizon/deploy_policy.yml": "a1e00e1854d3a767aa99a18b65474ffafd713465180d084b05a3bbb707fc0c68",
+    "policy/pi05_horizon/eval.sh": "0f334e3199f529523db0dddfbc87b5b8eeaf0fb431db96cc3173e9e540f1aca7",
+    "policy/pi05_horizon/pi_model.py": "1d050d914170653924859787caf2f3d8d8dc933869b54308c5e164b78d40bd5a",
+    "policy/pi05_horizon/runtime_hooks.py": "096644ae601585b8b38e43172940b1b2bebc8816054f112d1cd46a47fe59f17b",
+    "policy/pi05_horizon/src/openpi/models/model.py": "b6230d6d277bc26c53add1c6cd8161455b9d14970392e535722c24337b4c5332",
+    "policy/pi05_horizon/src/openpi/models/pi0.py": "f8a009b16bed8decd6af4038708ffb1166a50718c7bfbe6f0afe7c5dbac7d4df",
+    "policy/pi05_horizon/src/openpi/policies/aloha_policy.py": "2482f5f09ecccea9ab846009df5793e1eb6db6da6a58d5a905f98fbf82de350e",
+    "policy/pi05_horizon/src/openpi/policies/policy.py": "eb70d3b176b6a74e3ae23eb94a9b39c8630ddcba8dc2684139a417ec86eb6e0b",
+    "policy/pi05_horizon/src/openpi/policies/policy_config.py": "35ecbd472d01f837d403911aca038e164864a63699c2dba00eb247de14c04e7d",
+    "policy/pi05_horizon/src/openpi/training/checkpoints.py": "7f44d2f42ee7c283c2f5cfb56842a530144adef15cd769e3f888fa447e0abdcf",
+    "policy/pi05_horizon/src/openpi/training/config.py": "b29b6841c3f370e54b12756fd51518e3a47370b6d8471ce0a96393263911d1e4",
+    "policy/pi05_horizon/src/openpi/transforms.py": "1c5439938ce16b50d33a15c22093d71e6e9744b61b8031cb4df6121c44819e2f",
+    "script/eval_policy.py": "f3a9cd24aa3e874b7246e1bf5b82643e9c1f1c4e89a9cec2bc80fe6641c2f763"
+  },
+  "schema_version": 3,
+  "smoke": {
+    "cells": 8,
+    "claim_guard": "engineering-only; never included in full-benchmark success-rate evidence",
+    "completion_status": "PASS",
+    "episode_measurements": [
+      {
+        "method": "ahs",
+        "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_20260730/smoke/runs/ahs/blocks_ranking_rgb__demo_clean/episodes/episode0.npz",
+        "policy_calls": 18,
+        "success": true,
+        "wall_seconds": 39.48043441772461
+      },
+      {
+        "method": "ahs",
+        "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_20260730/smoke/runs/ahs/blocks_ranking_rgb__demo_clean/episodes/episode1.npz",
+        "policy_calls": 22,
+        "success": true,
+        "wall_seconds": 41.76368713378906
+      },
+      {
+        "method": "base",
+        "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_20260730/smoke/runs/base/blocks_ranking_rgb__demo_clean/episodes/episode0.npz",
+        "policy_calls": 24,
+        "success": false,
+        "wall_seconds": 100.14480590820312
+      },
+      {
+        "method": "base",
+        "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_20260730/smoke/runs/base/blocks_ranking_rgb__demo_clean/episodes/episode1.npz",
+        "policy_calls": 24,
+        "success": false,
+        "wall_seconds": 85.65592956542969
+      },
+      {
+        "method": "ahs",
+        "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_20260730/smoke/runs/ahs/blocks_ranking_rgb__demo_randomized/episodes/episode0.npz",
+        "policy_calls": 46,
+        "success": false,
+        "wall_seconds": 106.37252044677734
+      },
+      {
+        "method": "ahs",
+        "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_20260730/smoke/runs/ahs/blocks_ranking_rgb__demo_randomized/episodes/episode1.npz",
+        "policy_calls": 17,
+        "success": true,
+        "wall_seconds": 42.32142639160156
+      },
+      {
+        "method": "base",
+        "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_20260730/smoke/runs/base/blocks_ranking_rgb__demo_randomized/episodes/episode0.npz",
+        "policy_calls": 24,
+        "success": false,
+        "wall_seconds": 102.19512939453125
+      },
+      {
+        "method": "base",
+        "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_20260730/smoke/runs/base/blocks_ranking_rgb__demo_randomized/episodes/episode1.npz",
+        "policy_calls": 24,
+        "success": false,
+        "wall_seconds": 95.74833679199219
+      },
+      {
+        "method": "ahs",
+        "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_20260730/smoke/runs/ahs/place_bread_basket__demo_clean/episodes/episode0.npz",
+        "policy_calls": 27,
+        "success": false,
+        "wall_seconds": 75.84431457519531
+      },
+      {
+        "method": "ahs",
+        "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_20260730/smoke/runs/ahs/place_bread_basket__demo_clean/episodes/episode1.npz",
+        "policy_calls": 5,
+        "success": true,
+        "wall_seconds": 11.98588752746582
+      },
+      {
+        "method": "base",
+        "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_20260730/smoke/runs/base/place_bread_basket__demo_clean/episodes/episode0.npz",
+        "policy_calls": 14,
+        "success": false,
+        "wall_seconds": 73.33374786376953
+      },
+      {
+        "method": "base",
+        "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_20260730/smoke/runs/base/place_bread_basket__demo_clean/episodes/episode1.npz",
+        "policy_calls": 3,
+        "success": true,
+        "wall_seconds": 13.322098731994629
+      },
+      {
+        "method": "ahs",
+        "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_20260730/smoke/runs/ahs/place_bread_basket__demo_randomized/episodes/episode0.npz",
+        "policy_calls": 29,
+        "success": false,
+        "wall_seconds": 79.8492431640625
+      },
+      {
+        "method": "ahs",
+        "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_20260730/smoke/runs/ahs/place_bread_basket__demo_randomized/episodes/episode1.npz",
+        "policy_calls": 18,
+        "success": true,
+        "wall_seconds": 48.502811431884766
+      },
+      {
+        "method": "base",
+        "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_20260730/smoke/runs/base/place_bread_basket__demo_randomized/episodes/episode0.npz",
+        "policy_calls": 14,
+        "success": false,
+        "wall_seconds": 77.02802276611328
+      },
+      {
+        "method": "base",
+        "path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_20260730/smoke/runs/base/place_bread_basket__demo_randomized/episodes/episode1.npz",
+        "policy_calls": 14,
+        "success": false,
+        "wall_seconds": 68.99147033691406
+      }
+    ],
+    "episodes": 16,
+    "registry_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_20260730/smoke/RUN_REGISTRY.json",
+    "registry_sha256": "81079052240753441bd968ebff7417d83184c65e19781b5e30ff55779e2112a6",
+    "source_protocol": "clean50_base_ahs_smoke_20260730",
+    "source_runtime_note": "Read-only reuse of the completed engineering smoke for the unchanged checkpoint, Base/AHS implementation, rendering, inference, K, timing, and replan logging. Smoke outcomes are excluded; all Runtime V4 formal identities come from fresh-scene parent manifests generated before any Runtime V4 policy rollout."
+  },
+  "status": "AT_RISK"
+}

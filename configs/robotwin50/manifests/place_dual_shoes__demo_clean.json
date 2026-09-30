@@ -1,0 +1,175 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_dual_shoes__demo_clean.json",
+    "parent_manifest_sha256": "5e8f74ab83c9c8f9c935a03f477fb41d96d983a5b34cfd3129e1d724a778934f",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_place_dual_shoes_demo_clean",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9580000,
+      "instruction": "Grab a pair of the rounded white shoe, place left tips in the orange box for keeping shoes.",
+      "instruction_sha1": "dd290d2e2c3e9b10ba7865836bfad0f8e95870b6",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9580001,
+      "instruction": "Pick up two the black shoe with white midsole, tips left, into the orange box for keeping shoes.",
+      "instruction_sha1": "81f34713983cb7d421ed139f936cd1afde7e2704",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9580002,
+      "instruction": "Put a pair of the walking shoe with grip sole in the the orange box for keeping shoes, tips pointing left.",
+      "instruction_sha1": "7006db6f47edaf4f41d8400e9fe92b5ab839a72b",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9580003,
+      "instruction": "Place two the black shoe with white midsole into the orange box for keeping shoes, tips left.",
+      "instruction_sha1": "9aadce7a520aacf94c361009d982d32b33c7c8f1",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9580004,
+      "instruction": "Lift two the shoe with rubber bottom, tips pointing left, into the medium cardboard shoe-box.",
+      "instruction_sha1": "704653bea18d3ea9160713f40241a04049927e42",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9580005,
+      "instruction": "Lift two the black-striped white shoe, tips pointing left, into the medium cardboard shoe-box.",
+      "instruction_sha1": "c97dd8b3d29b579fddee9d0b1b91b8af1a83ee48",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9580006,
+      "instruction": "Put a pair of the shoe with padded collar and tongue in the the medium cardboard shoe-box, tips pointing left.",
+      "instruction_sha1": "b456c60e136fd911ae0dce4ffc1ee8c632ae50fb",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9580007,
+      "instruction": "Use both arms to move two the black shoe with white midsole to the medium cardboard shoe-box, tips pointing left.",
+      "instruction_sha1": "732ba7a0010f14d9ec70289f16c6a22173f38fc2",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9580008,
+      "instruction": "Grab two the green shoe and set them in the medium cardboard shoe-box, tips left.",
+      "instruction_sha1": "fcf461dc700c5b80cbaaf31f263e502bd91eedda",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9580009,
+      "instruction": "Put a pair of the shoe with ribbed sole in the the orange box for keeping shoes, tips pointing left.",
+      "instruction_sha1": "c70857d319822fbb6bbcd9bc8cf19801e4647d31",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9580010,
+      "instruction": "Grab two the green shoe, point tips left, place in the orange box for keeping shoes.",
+      "instruction_sha1": "b52e06046987f6a23548563eb5e17ff0b3b09395",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9580011,
+      "instruction": "Pick up two the running shoe with laces, tips left, into the medium cardboard shoe-box.",
+      "instruction_sha1": "cf8e7b9cb1416631136494c2c3c2edaecaac35c2",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9580012,
+      "instruction": "Lift two the smooth plastic shoe, tips pointing left, into the orange box for keeping shoes.",
+      "instruction_sha1": "6a2f33df702d0f5a392178f75f7f419d46914c1f",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9580013,
+      "instruction": "Grab a pair of the brown shoe with sturdy sole, place left tips in the rectangular Nike box for shoes.",
+      "instruction_sha1": "8efd06d85bc35992fda121407b813c6ba67d1e3a",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9580014,
+      "instruction": "Pick up two the brown footwear with smooth texture, tips left, into the rectangular Nike box for shoes.",
+      "instruction_sha1": "4d7cb0f075c3ef738d9dd42121c333001d96337f",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9580015,
+      "instruction": "Place two the smooth plastic shoe into the orange box for keeping shoes, tips left.",
+      "instruction_sha1": "c2d00b0ce6f48c344aaad42574741d057dbdf0a8",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9580016,
+      "instruction": "Put a pair of the smooth white shoe with laces in the the medium cardboard shoe-box, tips pointing left.",
+      "instruction_sha1": "ade51a0421e5da24edbfc0ecd86ce77f4645dbe5",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9580017,
+      "instruction": "Grab two the black-striped white shoe, point tips left, place in the rectangular Nike box for shoes.",
+      "instruction_sha1": "900e538b6630ad91ae6051a99bc04b2527f5c455",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9580018,
+      "instruction": "Pick up two the white leather shoe with gum sole, tips left, into the rectangular Nike box for shoes.",
+      "instruction_sha1": "09349cdc608337ee617b2bcd70c13928973d3517",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9580019,
+      "instruction": "Grab two the shoe with striped design and set them in the rectangular Nike box for shoes, tips left.",
+      "instruction_sha1": "c4db58742326cbc69983d9e50982205f9cb6f2f8",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-07-31T22:52:12.717991+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_place_dual_shoes_demo_clean_first20",
+  "rejected_pre_manifest_candidates": [
+    {
+      "episode_seed": 9580032,
+      "reason": "UnStableError: Objects is unstable in seed(9580032), unstable objects: 041_shoe"
+    }
+  ],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9580000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_clean",
+  "task_name": "place_dual_shoes"
+}

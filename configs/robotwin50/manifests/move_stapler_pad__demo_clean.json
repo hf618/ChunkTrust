@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/move_stapler_pad__demo_clean.json",
+    "parent_manifest_sha256": "f83561c3d268e17a01fd247c4a41af92dd35aebd775639ad8ab77dca314bd32f",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_move_stapler_pad_demo_clean",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9450000,
+      "instruction": "Use the left arm to move the plastic stapler to Green mat",
+      "instruction_sha1": "a4adf96cdffd7f60502bef73d60197956756713b",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9450001,
+      "instruction": "Move the red plastic stapler to the Green mat",
+      "instruction_sha1": "13cbce645903685b821a84e229469e63af94d743",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9450002,
+      "instruction": "Place the black stapler on the Magenta mat",
+      "instruction_sha1": "378770f043a58bd3b903c60d8f3a059b488dc8ef",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9450003,
+      "instruction": "Place the black stapler on the Blue colored mat.",
+      "instruction_sha1": "aaa76ff217a7897e3e404c67f7bd70ea9a37ad05",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9450004,
+      "instruction": "Place the metal and plastic stapler on the Red colored mat.",
+      "instruction_sha1": "cc8b4895c305a05393001350c18adc3a76c8e837",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9450005,
+      "instruction": "Place the compact stapler on the Black colored mat.",
+      "instruction_sha1": "a13c0d8c8ddabbf5d52106d3f5776cda5294e16c",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9450006,
+      "instruction": "Use the right arm to move the blue and white stapler to Red mat.",
+      "instruction_sha1": "a0e497304b8eec6172f192354a97debdc963115a",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9450007,
+      "instruction": "Place the black stapler on the Black colored mat.",
+      "instruction_sha1": "47cbb50914106830aadcbee958500008020708ab",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9450008,
+      "instruction": "Place the blue stapler with smooth finish on the Yellow mat",
+      "instruction_sha1": "a990c57d2fc944f33a1cba3036351df5c555af3e",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9450009,
+      "instruction": "Use the left arm to move the stapler with smooth plastic body to the Gray mat",
+      "instruction_sha1": "b93acc3c88a9917584e76c914a823628ceec5115",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9450010,
+      "instruction": "Move the palm-sized black stapler to the Green mat",
+      "instruction_sha1": "2da6d63d7bd2261e1acfacca702b7e19a3493d95",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9450011,
+      "instruction": "Use the left arm to move the small stapler with simple design to Cyan mat.",
+      "instruction_sha1": "20cdc51f8b15e59d57d2bbfa70e9f57f9139e332",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9450012,
+      "instruction": "Grab the paper stapler with curved handle and set it on Magenta mat",
+      "instruction_sha1": "805a7b2116bd60cd63baea16fb957a5038150c1e",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9450013,
+      "instruction": "Use the left arm to move the shiny red plastic stapler to Blue mat.",
+      "instruction_sha1": "cbd30c531f88a147289dc1c17876e606173b793c",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9450014,
+      "instruction": "Use the left arm to move the metal and plastic stapler to the Cyan mat",
+      "instruction_sha1": "03b6ad35c7743a893e1b8f5832a578fbacc85f24",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9450015,
+      "instruction": "Move the paper stapler with curved handle to the Red mat.",
+      "instruction_sha1": "1cf3f1901ed9b600e45150e912ee2f58eda5470e",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9450016,
+      "instruction": "Place the stapler with smooth plastic body on the Magenta colored mat.",
+      "instruction_sha1": "0484fc6a9dfe2e0b8f03ae4caf3c6840a52a8d9c",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9450017,
+      "instruction": "Grab the red stapler with silver chamber and set it on Gray mat",
+      "instruction_sha1": "7236cac817564b2ec6aad49cbf61fe4a530b9a42",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9450018,
+      "instruction": "Use the right arm to move the paper stapler with curved handle to Magenta mat.",
+      "instruction_sha1": "a5157482934511584c15b873cae5df03f78dd71d",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9450019,
+      "instruction": "Use the right arm to move the white stapler with metal tray to the Cyan mat",
+      "instruction_sha1": "9ebc9efb9425776aee54c5dca6189d2021e8e299",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-07-31T18:18:09.985019+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_move_stapler_pad_demo_clean_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9450000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_clean",
+  "task_name": "move_stapler_pad"
+}

@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/handover_block__demo_randomized.json",
+    "parent_manifest_sha256": "0e94cf1c0bb0088ef165c681e0511ffb09263c9280271663c795e82752593a60",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_handover_block_demo_randomized",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9381000,
+      "instruction": "Use the left arm to pick up the red block.",
+      "instruction_sha1": "3312b47974c190bb1b6215e7bfcf5ca0f2ed944b",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9381001,
+      "instruction": "Grab the red block using the left arm.",
+      "instruction_sha1": "5fe5c0ab06bd5350ae174e5f3443818848357fa4",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9381002,
+      "instruction": "Use the left arm to pick up the red block.",
+      "instruction_sha1": "3312b47974c190bb1b6215e7bfcf5ca0f2ed944b",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9381003,
+      "instruction": "Pick up the red block and switch arms.",
+      "instruction_sha1": "9e443ff79946ce359f4f1c0e82be3903f3e472cc",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9381004,
+      "instruction": "Pick up the red block and switch arms.",
+      "instruction_sha1": "9e443ff79946ce359f4f1c0e82be3903f3e472cc",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9381005,
+      "instruction": "Pick up the red block with the left arm, transfer it to the right, and place it on the blue pad.",
+      "instruction_sha1": "70681dcb211d2a4cc6f1ffa8255a90a38fb549ab",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9381006,
+      "instruction": "Grab the red block with the left arm, switch to the right, and place it on the blue pad.",
+      "instruction_sha1": "06648c9c1972bfdc7653251e90236a4d0483b324",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9381007,
+      "instruction": "Use the left arm to grab the red block, transfer it to the right hand, and set it onto the blue pad.",
+      "instruction_sha1": "2eeee78ab0d1ef00334abb2f0d0446c06f8f982e",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9381008,
+      "instruction": "Grab the red block with the left arm, switch to the right, and place it on the blue pad.",
+      "instruction_sha1": "06648c9c1972bfdc7653251e90236a4d0483b324",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9381009,
+      "instruction": "Pick up the red block with the left arm, transfer it to the right, and place it on the blue pad.",
+      "instruction_sha1": "70681dcb211d2a4cc6f1ffa8255a90a38fb549ab",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9381010,
+      "instruction": "Use the left arm to pick up the red block.",
+      "instruction_sha1": "3312b47974c190bb1b6215e7bfcf5ca0f2ed944b",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9381011,
+      "instruction": "Grab the red block using the left arm.",
+      "instruction_sha1": "5fe5c0ab06bd5350ae174e5f3443818848357fa4",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9381012,
+      "instruction": "Pass the red block to the right arm and set it down.",
+      "instruction_sha1": "af6e05bc0a25dadea4c4049fedc05ad2fbfdb38d",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9381013,
+      "instruction": "Grab the red block with the left arm, switch to the right arm, and set it on the blue pad.",
+      "instruction_sha1": "1d1daad0b5ddaf631c09d7690f74960e793d5302",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9381014,
+      "instruction": "Grab the red block with the left arm, switch to the right, and place it on the blue pad.",
+      "instruction_sha1": "06648c9c1972bfdc7653251e90236a4d0483b324",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9381015,
+      "instruction": "Pick up the red block with the left arm, transfer it to the right, and place it on the blue pad.",
+      "instruction_sha1": "70681dcb211d2a4cc6f1ffa8255a90a38fb549ab",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9381016,
+      "instruction": "Pick up the red block with the left arm, transfer it to the right, and place it on the blue pad.",
+      "instruction_sha1": "70681dcb211d2a4cc6f1ffa8255a90a38fb549ab",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9381017,
+      "instruction": "Pass the red block to the right arm and set it down.",
+      "instruction_sha1": "af6e05bc0a25dadea4c4049fedc05ad2fbfdb38d",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9381018,
+      "instruction": "Pick up the red block with the left arm, transfer it to the right, and place it on the blue pad.",
+      "instruction_sha1": "70681dcb211d2a4cc6f1ffa8255a90a38fb549ab",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9381019,
+      "instruction": "Use the left arm to grab the red block, transfer it to the right hand, and set it onto the blue pad.",
+      "instruction_sha1": "2eeee78ab0d1ef00334abb2f0d0446c06f8f982e",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-07-31T16:18:52.269314+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_handover_block_demo_randomized_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9381000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_randomized",
+  "task_name": "handover_block"
+}

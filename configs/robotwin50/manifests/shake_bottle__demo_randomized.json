@@ -1,0 +1,263 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/shake_bottle__demo_randomized.json",
+    "parent_manifest_sha256": "c3cf91136799dc748f0339af7837983d50279b62f8a0f8924c6fe00b15796b0d",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_shake_bottle_demo_randomized",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9721000,
+      "instruction": "Grab the bottle with yellow sticker label and shake it.",
+      "instruction_sha1": "a1c35b750feb2453b4e8bebe9208a596c892913f",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9721001,
+      "instruction": "Pick up the gray bottle for holding drinks and shake it.",
+      "instruction_sha1": "de112dce7321edfe01ba2c10e051031ddba46d00",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9721002,
+      "instruction": "Grab the bottle with green label and white lid and give it a shake.",
+      "instruction_sha1": "5612ab464720c3c37c6c9b706785ec892e37b781",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9721004,
+      "instruction": "Use the left arm to grab the light gray bottle and shake.",
+      "instruction_sha1": "db5fd2b2a5f4a9caa7fcd22192c21d8bfa6e053d",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9721005,
+      "instruction": "Use the left arm to pick the yellow bottle for liquid storage.",
+      "instruction_sha1": "fb1d8426800ce7898c91bb4d72552b58c90ccc0c",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9721007,
+      "instruction": "Pick up the bottle with red screw cap and shake it.",
+      "instruction_sha1": "83350a7506eec4b44ba5fe8abee5d290667c1d3b",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9721008,
+      "instruction": "Use the right arm to grab the yellow bottle for liquid storage and shake.",
+      "instruction_sha1": "97af552dce44e2bd291858fc105d9426c2942bad",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9721011,
+      "instruction": "Use the right arm to grab the gray bottle for holding drinks and shake.",
+      "instruction_sha1": "75382c35e27efc7312c21db4909df31ed750a25b",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9721013,
+      "instruction": "Use the right arm to grab the bottle with ridged orange grip and shake.",
+      "instruction_sha1": "42f496ffe536eae681faa7f7ee69249676ce9c5b",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9721014,
+      "instruction": "Use the left arm to grab the lightweight plastic brown bottle and shake.",
+      "instruction_sha1": "ecbf6dcd57577e29dab6b0153c36096552624f96",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9721017,
+      "instruction": "Use the left arm to grab the bottle with curved neck design and shake.",
+      "instruction_sha1": "9b8a7458f2ee12ebb52d54c76bf1dd8653e4498c",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9721018,
+      "instruction": "Shake the brown bottle after picking it with the left arm.",
+      "instruction_sha1": "4eda5395e2442286fe223dc6a3147e98e3a64596",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9721019,
+      "instruction": "Use the left arm to pick the bottle with red screw cap.",
+      "instruction_sha1": "57ab5163aeedcf1afaaf53967cf4178da0e62058",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9721020,
+      "instruction": "Shake the bottle with glossy surface after picking it with the left arm.",
+      "instruction_sha1": "e41c583327f7cb36678c4f765e4b9d43280948a1",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9721021,
+      "instruction": "Pick up the hand-sized yellow plastic bottle and shake it.",
+      "instruction_sha1": "6b205d88bea4ab734fbf226b745983dbcc7ab29d",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9721022,
+      "instruction": "Shake the brown bottle after picking it with the right arm.",
+      "instruction_sha1": "e03794f533048386fcc1113ecf33a35ca60cd11c",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9721023,
+      "instruction": "Pick and shake the the plastic bottle with blue label with the right arm.",
+      "instruction_sha1": "5d62eeef9c0129a6fd0981349c139d28f7a4cb0c",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9721025,
+      "instruction": "Grab the gray bottle for holding drinks, shake it properly, then set it down.",
+      "instruction_sha1": "d953f09cbf6cd9bf8131a4ade5d71f443b9b8e29",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9721026,
+      "instruction": "Grab the curvy orange bottle with white section, shake it properly, then set it down.",
+      "instruction_sha1": "82e29ffe1a55eec451a8b3bf79ccb078097fe3e9",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9721027,
+      "instruction": "Pick up the bottle with ridged orange grip and shake it.",
+      "instruction_sha1": "65e40125b3110e24df27f1f18be45dda69374429",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-08-01T04:14:22.702087+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_shake_bottle_demo_randomized_first20",
+  "rejected_pre_manifest_candidates": [
+    {
+      "episode_seed": 9721003,
+      "reason": "UnStableError: Objects is unstable in seed(9721003), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9721006,
+      "reason": "UnStableError: Objects is unstable in seed(9721006), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9721009,
+      "reason": "UnStableError: Objects is unstable in seed(9721009), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9721010,
+      "reason": "UnStableError: Objects is unstable in seed(9721010), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9721012,
+      "reason": "UnStableError: Objects is unstable in seed(9721012), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9721015,
+      "reason": "UnStableError: Objects is unstable in seed(9721015), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9721016,
+      "reason": "UnStableError: Objects is unstable in seed(9721016), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9721024,
+      "reason": "UnStableError: Objects is unstable in seed(9721024), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9721028,
+      "reason": "UnStableError: Objects is unstable in seed(9721028), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9721034,
+      "reason": "UnStableError: Objects is unstable in seed(9721034), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9721035,
+      "reason": "UnStableError: Objects is unstable in seed(9721035), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9721039,
+      "reason": "UnStableError: Objects is unstable in seed(9721039), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9721042,
+      "reason": "UnStableError: Objects is unstable in seed(9721042), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9721044,
+      "reason": "UnStableError: Objects is unstable in seed(9721044), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9721045,
+      "reason": "UnStableError: Objects is unstable in seed(9721045), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9721055,
+      "reason": "UnStableError: Objects is unstable in seed(9721055), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9721058,
+      "reason": "UnStableError: Objects is unstable in seed(9721058), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9721059,
+      "reason": "UnStableError: Objects is unstable in seed(9721059), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9721061,
+      "reason": "UnStableError: Objects is unstable in seed(9721061), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9721062,
+      "reason": "UnStableError: Objects is unstable in seed(9721062), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9721063,
+      "reason": "UnStableError: Objects is unstable in seed(9721063), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9721066,
+      "reason": "UnStableError: Objects is unstable in seed(9721066), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9721070,
+      "reason": "UnStableError: Objects is unstable in seed(9721070), unstable objects: 001_bottle"
+    }
+  ],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9721000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_randomized",
+  "task_name": "shake_bottle"
+}

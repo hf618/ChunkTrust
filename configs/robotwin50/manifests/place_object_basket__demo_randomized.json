@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_object_basket__demo_randomized.json",
+    "parent_manifest_sha256": "ca4e156a464e2ae4ade0bf2be8d7309906b261db0d37ede381aac9c852373163",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_place_object_basket_demo_randomized",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9621000,
+      "instruction": "Place the blue toycar in the medium-sized basket with perforated texture and move it.",
+      "instruction_sha1": "a46b284f3097471a82ea129060ec921411a90060",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9621001,
+      "instruction": "Grab the pink toycar with white bumper and put it into the yellow rectangular basket with dual grips.",
+      "instruction_sha1": "c83d1f2c08122b2902ad4c63a755560b56b54bca",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9621002,
+      "instruction": "Pick up the gold text on playing cards box, place it in the basket with rounded edges, move the basket with rounded edges.",
+      "instruction_sha1": "fa5ed35160362a84fc04d7874fce3a5b10518b34",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9621003,
+      "instruction": "Move the rectangular red playingcards holder to the yellow rectangular basket with dual grips, then shift the yellow rectangular basket with dual grips.",
+      "instruction_sha1": "ad68c049a43ba13cfad42635b7dbf06fbf5dc1df",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9621004,
+      "instruction": "Pick up the playable toycar with rolling wheels, place it in the medium-sized basket with perforated texture, move the medium-sized basket with perforated texture.",
+      "instruction_sha1": "82e7d2fd841bd82718a3f3339080a0962b4a45e3",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9621005,
+      "instruction": "Pick up the playingcards with red packaging and drop in the medium-sized basket with perforated texture.",
+      "instruction_sha1": "80b9d32c5c167b8d3f1fe9cce84343d83042658e",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9621006,
+      "instruction": "Use one arm to grab the rectangular playingcards pack, place it in the medium basket with smooth texture.",
+      "instruction_sha1": "eda8e923fc4725bc124c83b805e06b2231a78f83",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9621007,
+      "instruction": "Grab the toycar with rounded edges and put it in the basket with rounded edges.",
+      "instruction_sha1": "25b0fafdd97b503807ad68ab7ae03ca6c9787a06",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9621008,
+      "instruction": "Pick up the blue toycar and drop in the oval basket with medium storage space.",
+      "instruction_sha1": "b6dbe6076b0ac4dcbd1dbe4adcc1ad953fd3f9fb",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9621009,
+      "instruction": "Use one arm to grab the toycar with rounded edges, place it in the yellow rectangular basket with dual grips.",
+      "instruction_sha1": "54fba463a72b73373a8e403b1ef2def0bfa66520",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9621010,
+      "instruction": "Pick up the rectangular red playingcards holder, place it in the basket with rounded edges, move the basket with rounded edges.",
+      "instruction_sha1": "3579eb4e8db13d454718e8a7b8bf04a289e06538",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9621011,
+      "instruction": "Pick up the playable toycar with rolling wheels, place it in the yellow rectangular basket with dual grips, move the yellow rectangular basket with dual grips.",
+      "instruction_sha1": "52d6e92492249095b0294057872122f33491a597",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9621012,
+      "instruction": "Move the plastic toycar with four spinning wheels to the basket with rounded edges, then shift the basket with rounded edges.",
+      "instruction_sha1": "8369a7aeaac6d8af3ca333a68a13351e012c2d12",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9621013,
+      "instruction": "Move the pink toycar with white bumper to the medium-sized basket with perforated texture, then shift the medium-sized basket with perforated texture.",
+      "instruction_sha1": "b83af4d45a3ccd12f6117162b181580c41fc2476",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9621014,
+      "instruction": "Use one arm to grab the rectangular playingcards case with patterns, place it in the basket with rounded edges.",
+      "instruction_sha1": "134983d3b96becaaf9ab7173aa8f0c19a8cb41aa",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9621015,
+      "instruction": "Pick up the blue toycar and drop in the medium-sized basket with perforated texture.",
+      "instruction_sha1": "e2d2d5fd9185d18082fc195ba8d2f0b0921a001b",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9621016,
+      "instruction": "Grab the toycar with orange wheels, put it in the yellow basket with open slots, move the yellow basket with open slots.",
+      "instruction_sha1": "fbde01930008dce85e739f4e663c307a0fd0d6fd",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9621017,
+      "instruction": "Grab the toycar with rounded edges and place into the yellow rectangular basket with dual grips.",
+      "instruction_sha1": "74225b784f50c2390e2d86c9e769d14ae7380e01",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9621018,
+      "instruction": "Use one arm to grab the toycar with rounded edges, place it in the oval basket with medium storage space.",
+      "instruction_sha1": "7c2047de5dd055619854d149d60886d38fa5ca65",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9621019,
+      "instruction": "Grab the gold text on playing cards box and place into the yellow rectangular basket with dual grips.",
+      "instruction_sha1": "e599e3887142f85cbcf5928135c97938e44b946a",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-08-01T00:26:51.146344+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_place_object_basket_demo_randomized_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9621000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_randomized",
+  "task_name": "place_object_basket"
+}

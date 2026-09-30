@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/put_bottles_dustbin__demo_clean.json",
+    "parent_manifest_sha256": "267f59960e238052e58cef143be9fc2d4caea374d4c1c984fe4361fbc47a3885",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_put_bottles_dustbin_demo_clean",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9680000,
+      "instruction": "Grab the plastic bottle with two distinct parts and place it in the simple black garbage bin, then do the same for the plastic bottle and the medium black bottle.",
+      "instruction_sha1": "e30a9ba9dce9668eb99f48189ba12d449bd29db3",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9680001,
+      "instruction": "Take each bottle the yellow bottle with elongated cylinder body, the plastic bottle, the plastic bottle with ridges near bottom one by one and place them in the smooth surface dustbin.",
+      "instruction_sha1": "4155bfb4dfa11fea034449e1177302781cf377b8",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9680002,
+      "instruction": "Grab the plastic bottle with two distinct parts and place it in the simple black garbage bin, then do the same for the bottle with ridges and the medium black bottle.",
+      "instruction_sha1": "93dafeeb0c945e669c99b696116bd9db27530b61",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9680003,
+      "instruction": "Pick up the plastic bottle with two distinct parts, drop it into the curved rectangular trash can, then repeat for the plastic bottle and the medium black bottle.",
+      "instruction_sha1": "52bdb729ae79929e5c80cb1a39178d449ed85ee2",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9680004,
+      "instruction": "Take each bottle the plastic bottle with two distinct parts, the plastic bottle, the bottle with red screw cap one by one and place them in the curved rectangular trash can.",
+      "instruction_sha1": "488016519e28a7ca5c0af7dfc0f25b9a4dd0e8a0",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9680005,
+      "instruction": "Pick the yellow plastic bottle, drop it into the simple black garbage bin, repeat for the bottle with ridges and the plastic bottle with ridges near bottom.",
+      "instruction_sha1": "cb00ebff184cf793c3ce0d6cc33d785a6fb9c140",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9680006,
+      "instruction": "Pick the yellow bottle with elongated cylinder body, drop it into the curved rectangular trash can, repeat for the bottle with blue highlights and the bottle with red screw cap.",
+      "instruction_sha1": "9cf1c53711e7ad25b75627df5f231796777b87bb",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9680007,
+      "instruction": "Move the plastic bottle with two distinct parts, the bottle with blue highlights, and the bottle with red screw cap into the curved rectangular trash can on the left of the table.",
+      "instruction_sha1": "7f25e5bd415ad29d134b4f42ee426ee3099a58fa",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9680008,
+      "instruction": "Pick up the plastic bottle with two distinct parts and toss it into the curved rectangular trash can; repeat for the plastic bottle and the bottle with red screw cap.",
+      "instruction_sha1": "0c07117f2bb1e0f981c2c3541d88a204f7b6ce19",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9680009,
+      "instruction": "Move the yellow plastic bottle, the bottle with blue highlights, and the medium black bottle into the smooth surface dustbin on the left of the table.",
+      "instruction_sha1": "9b13ba85f02c7f15c2878bab953c7f83d5b36b59",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9680010,
+      "instruction": "Pick up the plastic bottle with two distinct parts and drop it into the curved rectangular trash can, do the same for the plastic bottle and the medium black bottle.",
+      "instruction_sha1": "bb649c05bc2688e2d917d058e67773167469503a",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9680011,
+      "instruction": "Use arms to grab the yellow bottle with elongated cylinder body, the bottle with blue highlights, and the medium black bottle and drop them into the simple black garbage bin.",
+      "instruction_sha1": "2d8bb96d17c9b7c918703b0f6af2d51235c6daca",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9680012,
+      "instruction": "Use arms to grab the plastic bottle with two distinct parts, the bottle with blue highlights, and the medium black bottle, placing each into the simple black garbage bin.",
+      "instruction_sha1": "1502bc0240d55fe57c569ce388c131b299d65aa3",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9680013,
+      "instruction": "Pick up the yellow bottle with elongated cylinder body and drop it into the smooth surface dustbin, do the same for the bottle with ridges and the bottle with red screw cap.",
+      "instruction_sha1": "88b58df763f1cd347264c235cc7b5289b1806932",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9680014,
+      "instruction": "Pick up the yellow bottle with elongated cylinder body and toss it into the simple black garbage bin; repeat for the bottle with blue highlights and the medium black bottle.",
+      "instruction_sha1": "7c8ad6b91919c0e4080b6620094fbb488f9e3989",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9680015,
+      "instruction": "Pick the yellow bottle with elongated cylinder body, drop it into the simple black garbage bin, repeat for the plastic bottle and the bottle with red screw cap.",
+      "instruction_sha1": "7aaabadf1cde940319c7e493658c189d95921b5e",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9680016,
+      "instruction": "Grab the yellow plastic bottle and place it in the curved rectangular trash can, then do the same for the bottle with ridges and the bottle with red screw cap.",
+      "instruction_sha1": "a907a58e7753de75780cfa252590507cfbc9b01d",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9680017,
+      "instruction": "Take each bottle the plastic bottle with two distinct parts, the bottle with blue highlights, the plastic bottle with ridges near bottom one by one and place them in the simple black garbage bin.",
+      "instruction_sha1": "80f747fa92d8f81b2310df3dd91a2ebf6cd3133c",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9680018,
+      "instruction": "Move the yellow bottle with elongated cylinder body, the bottle with blue highlights, and the medium black bottle into the simple black garbage bin on the left of the table.",
+      "instruction_sha1": "47d206bdd47931b5a62cb876839ba6723548418d",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9680019,
+      "instruction": "Take each bottle the plastic bottle with two distinct parts, the plastic bottle, the bottle with red screw cap one by one and place them in the curved rectangular trash can.",
+      "instruction_sha1": "488016519e28a7ca5c0af7dfc0f25b9a4dd0e8a0",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-08-01T02:23:28.266739+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_put_bottles_dustbin_demo_clean_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9680000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_clean",
+  "task_name": "put_bottles_dustbin"
+}

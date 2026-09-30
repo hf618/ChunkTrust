@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_object_stand__demo_clean.json",
+    "parent_manifest_sha256": "c1e0c919991c7938d8f58fb603843ee197d558e732207a901fcace9bdbe6b703",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_place_object_stand_demo_clean",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9640000,
+      "instruction": "Use the right arm to place the bell with raised round top on the displaystand with hollow center.",
+      "instruction_sha1": "b9a56604ed99d45f3745062454af93841f587db6",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9640001,
+      "instruction": "Place the toycar with rounded body onto the medium-sized hollow black displaystand with the right arm",
+      "instruction_sha1": "90d2f41da2067ee71570f8c173190e98c67309b1",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9640002,
+      "instruction": "Place the rubikscube for puzzle solving on the displaystand with hollow center with the right arm.",
+      "instruction_sha1": "46f03274fc3415939709cc62c228e076ee597c2a",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9640003,
+      "instruction": "Grab the blue toycar with yellow buttons using the left arm and place on the black displaystand.",
+      "instruction_sha1": "7c19695f9af8256606d01b6670696d1f6e76e985",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9640004,
+      "instruction": "Place the smooth metal bell onto the medium displaystand with smooth finish with the right arm",
+      "instruction_sha1": "7e1e9df3fe05d3708c36955e99d9b14d403c1968",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9640005,
+      "instruction": "Grab the metal and plastic stapler using the left arm and place on the displaystand with hollow center.",
+      "instruction_sha1": "c40ea64c137bf6e9648cf989b66c9abae4939160",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9640006,
+      "instruction": "Use the left arm to place the shiny red plastic stapler on the rectangular displaystand",
+      "instruction_sha1": "6ce3a70a4da3b3f439121f91c3814fe3a25e17cb",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9640007,
+      "instruction": "Use the left arm to place the plastic teal car with wheels on the medium-sized hollow black displaystand.",
+      "instruction_sha1": "e63a086986fab3d1a26337cd91d7c403f6abdc4c",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9640008,
+      "instruction": "Set the rectangular remotecontrol onto the medium-sized displaystand using the right arm.",
+      "instruction_sha1": "d8008b84519f2afc77e38a93e25fd9b2255deb60",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9640009,
+      "instruction": "Set the playable toycar with rolling wheels onto the displaystand with angled sides using the right arm.",
+      "instruction_sha1": "11c5b019c35bbffc0424ea7264d0fd31cbcd0865",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9640010,
+      "instruction": "Grab the hand-sized black-gray mouse using the right arm and place on the medium displaystand with smooth finish.",
+      "instruction_sha1": "880dc15ab5fce8d67a37c2c7267e0f440f39e317",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9640011,
+      "instruction": "Set the handheld remotecontrol on the displaystand with hollow center.",
+      "instruction_sha1": "c337a6a8c5b409b9774f7bc141a0aa953b38b668",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9640012,
+      "instruction": "Set the lightweight bell with smooth surface onto the medium-sized displaystand using the right arm.",
+      "instruction_sha1": "d1ec09244f52f453f309d09f6c04bfb096303912",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9640013,
+      "instruction": "Grab the toycar with rounded body using the right arm and place on the rectangular base displaystand.",
+      "instruction_sha1": "440a2be4ea56284dffb8fb724bad5164e01d5a37",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9640014,
+      "instruction": "Grab the multi-colored rubikscube, then place it on the angled rectangular metal displaystand",
+      "instruction_sha1": "e67dc890be5e7c73bb7839e8fbd144a5413e5491",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9640015,
+      "instruction": "Place the hand-size bright blue stapler on the black frame displaystand with open sides using the right arm.",
+      "instruction_sha1": "adc19b45ecaca53f3ad6002c2d1a51fbaa08aa23",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9640016,
+      "instruction": "Grab the toycar with rounded body, then place it on the rectangular displaystand",
+      "instruction_sha1": "d32847b6f688e4dbfe84bb4db87bd9802a81c751",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9640017,
+      "instruction": "Place the rectangular stapler with curved corners on the medium brown displaystand with slot with the right arm.",
+      "instruction_sha1": "70b3684c7af651753754f53ca1ee3130bb4fa4e9",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9640018,
+      "instruction": "Place the lightweight bell with smooth surface on the medium displaystand with smooth finish using the right arm.",
+      "instruction_sha1": "19f77bc1d61060c5e628c6d91574b3824e7c1110",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9640019,
+      "instruction": "Use the right arm to grab the toycar with orange wheels and place it on the hollow rectangular black displaystand",
+      "instruction_sha1": "db4c00dd7723691aa311b4d0d1028cb917ccaefc",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-08-01T00:58:16.101920+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_place_object_stand_demo_clean_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9640000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_clean",
+  "task_name": "place_object_stand"
+}

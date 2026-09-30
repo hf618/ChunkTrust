@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/handover_mic__demo_randomized.json",
+    "parent_manifest_sha256": "49770f6574f257cf0d1a89fc313e12ef7045df04bf659e48bd706c1da0a4b36f",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_handover_mic_demo_randomized",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9391000,
+      "instruction": "Grab the microphone used for audio input and pass it to the other arm.",
+      "instruction_sha1": "c56a32c1c42af5b3cd70f9a30b4a4649f8223cef",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9391001,
+      "instruction": "Pick up the long teal microphone with white grooves and hand it over",
+      "instruction_sha1": "ed172d099d15c56179fb9ca248008fc1b26d5abe",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9391002,
+      "instruction": "Pick up the lightweight handheld microphone and hand it over",
+      "instruction_sha1": "22ce059a0966e3904e11c0f07f8aec0c402113e2",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9391003,
+      "instruction": "Grab the handheld microphone from the table and pass it across.",
+      "instruction_sha1": "abad5d25fc6bf4380879c1baeb8a1f6742db27ae",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9391004,
+      "instruction": "Use one arm to hold the black and white plastic microphone and hand it over.",
+      "instruction_sha1": "e87b392ab4c55ac056d4f40b7e06b64038cf4733",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9391005,
+      "instruction": "Grab the long teal microphone with white grooves from the table and pass it across.",
+      "instruction_sha1": "de80ecd0b4f68e9b2cc72f72c87767988752ec57",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9391006,
+      "instruction": "Grab the microphone used for audio input from the table and pass it across.",
+      "instruction_sha1": "e26fe9bd566cef3781b9dbf08024500e6b30c850",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9391007,
+      "instruction": "Take hold of the microphone with cylindrical handle and hand it over.",
+      "instruction_sha1": "4a03a2182bafbb00a30b0c8da6e89aec261743c0",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9391008,
+      "instruction": "Grab the teal microphone with white bottom from the table and pass it over.",
+      "instruction_sha1": "2b7b0096091c6a3a5e5657115d2873510b75e4a7",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9391009,
+      "instruction": "Grab the handheld microphone and pass it to the other arm.",
+      "instruction_sha1": "32c99376d80bf17e0314fa6be28499044b771a6c",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9391010,
+      "instruction": "Grab the teal microphone with white bottom from the table and pass it across.",
+      "instruction_sha1": "d05b25b3f87b00ec83fe1386982584a1237f319e",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9391011,
+      "instruction": "Pick up the teal microphone with white bottom and hand it over",
+      "instruction_sha1": "2e142f9a32eed76ae9983ce7760ce75d111bbd8f",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9391012,
+      "instruction": "Take hold of the teal microphone with white bottom and hand it over.",
+      "instruction_sha1": "85ff839a4d572abb2093e82b9894e0e5edfd01c8",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9391013,
+      "instruction": "Pick up the compact microphone with two parts and hand it over",
+      "instruction_sha1": "4b481f2f7c3ca04a4e5a1997f4342f67f369c898",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9391014,
+      "instruction": "Use one arm to hold the microphone used for audio input and hand it over.",
+      "instruction_sha1": "b55a9b350825445d3f24c636d0e4fe954d5363b8",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9391015,
+      "instruction": "Pick up the switchable microphone with teal body and transfer it to the other hand.",
+      "instruction_sha1": "36a4a448b9d26f3f9250f3c55031e3582fad1648",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9391016,
+      "instruction": "Pick up the handheld microphone and hand it over",
+      "instruction_sha1": "8d2573f6b5ab128e8e43539c9f6f7aa5b7734604",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9391017,
+      "instruction": "Grab the microphone used for audio input and pass it to the other arm.",
+      "instruction_sha1": "c56a32c1c42af5b3cd70f9a30b4a4649f8223cef",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9391018,
+      "instruction": "Grab the microphone with cylindrical handle and pass it to the other arm.",
+      "instruction_sha1": "6a3c642187bd71101682aaa3a578cfc8614f5439",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9391019,
+      "instruction": "Grab the black and white plastic microphone from the table and pass it over.",
+      "instruction_sha1": "d7546a475af10bcb79055492e0d57226fd4a540d",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-07-31T16:36:53.035062+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_handover_mic_demo_randomized_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9391000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_randomized",
+  "task_name": "handover_mic"
+}

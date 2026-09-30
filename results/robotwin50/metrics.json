@@ -1,0 +1,77 @@
+{
+  "metrics": {
+    "clean": {
+      "ahs": {
+        "episodes": 1000,
+        "policy_calls_per_episode": 12.815,
+        "policy_calls_total": 12815,
+        "policy_infer_seconds_per_episode": 1.3892993018627167,
+        "success_rate": 0.731,
+        "success_rate_percent": 73.1,
+        "successes": 731,
+        "successes_per_1000_policy_calls": 57.04252828716348,
+        "wall_seconds_per_episode": 30.005810696601866
+      },
+      "base": {
+        "episodes": 1000,
+        "policy_calls_per_episode": 7.28,
+        "policy_calls_total": 7280,
+        "policy_infer_seconds_per_episode": 0.9012688095569611,
+        "success_rate": 0.654,
+        "success_rate_percent": 65.4,
+        "successes": 654,
+        "successes_per_1000_policy_calls": 89.83516483516483,
+        "wall_seconds_per_episode": 32.00417337417603
+      }
+    },
+    "overall": {
+      "ahs": {
+        "episodes": 2000,
+        "policy_calls_per_episode": 14.5025,
+        "policy_calls_total": 29005,
+        "policy_infer_seconds_per_episode": 1.5541027423143388,
+        "success_rate": 0.635,
+        "success_rate_percent": 63.5,
+        "successes": 1270,
+        "successes_per_1000_policy_calls": 43.78555421479055,
+        "wall_seconds_per_episode": 36.83355107378959
+      },
+      "base": {
+        "episodes": 2000,
+        "policy_calls_per_episode": 8.001,
+        "policy_calls_total": 16002,
+        "policy_infer_seconds_per_episode": 0.9713044728040695,
+        "success_rate": 0.567,
+        "success_rate_percent": 56.7,
+        "successes": 1134,
+        "successes_per_1000_policy_calls": 70.86614173228347,
+        "wall_seconds_per_episode": 38.18614404249191
+      }
+    },
+    "randomized": {
+      "ahs": {
+        "episodes": 1000,
+        "policy_calls_per_episode": 16.19,
+        "policy_calls_total": 16190,
+        "policy_infer_seconds_per_episode": 1.7189061827659606,
+        "success_rate": 0.539,
+        "success_rate_percent": 53.9,
+        "successes": 539,
+        "successes_per_1000_policy_calls": 33.29215565163681,
+        "wall_seconds_per_episode": 43.66129145097732
+      },
+      "base": {
+        "episodes": 1000,
+        "policy_calls_per_episode": 8.722,
+        "policy_calls_total": 8722,
+        "policy_infer_seconds_per_episode": 1.041340136051178,
+        "success_rate": 0.48,
+        "success_rate_percent": 48.0,
+        "successes": 480,
+        "successes_per_1000_policy_calls": 55.03324925475808,
+        "wall_seconds_per_episode": 44.3681147108078
+      }
+    }
+  },
+  "status": "PASS"
+}

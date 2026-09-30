@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/stack_blocks_three__demo_randomized.json",
+    "parent_manifest_sha256": "f5e7bb960b24e703cedc84bf61359c3aa319d08c96d6f27055e909ea11c9065c",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_stack_blocks_three_demo_randomized",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9741000,
+      "instruction": "Move red block, green block, and blue block to the center of the table, then stack blue block on green block and green block on red block.",
+      "instruction_sha1": "e6e7ea5793c57c07334bce06345f5f7bac45c067",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9741001,
+      "instruction": "Bring red block, green block, and blue block to the center, stacking blue block on green block and green block on red block.",
+      "instruction_sha1": "e009632cd2f44ddec504c035521c43171e1bc4c6",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9741002,
+      "instruction": "Place red block, green block, and blue block at the table's center, then stack blue block on green block and green block on red block.",
+      "instruction_sha1": "26470e47f1e3ff658047caba82f3eb304caf76e4",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9741003,
+      "instruction": "Move red block, green block, and blue block to the center, then stack blue block on green block, and green block on red block.",
+      "instruction_sha1": "84c106d84c32e8efb35ee8ad590b971c0d23d86f",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9741004,
+      "instruction": "Place red block, green block, and blue block at the table's center, then stack blue block on green block and green block on red block.",
+      "instruction_sha1": "26470e47f1e3ff658047caba82f3eb304caf76e4",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9741005,
+      "instruction": "Move red block, green block, and blue block to the center, then stack blue block on green block and green block on red block.",
+      "instruction_sha1": "3350ab9c19d707ba4e1ed4eb0c933488f6058a3d",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9741006,
+      "instruction": "Move red block, green block, and blue block to the table's center and stack them.",
+      "instruction_sha1": "d1f10aaafbd8bdd29d0d1ba3045f1062ca75c51d",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9741007,
+      "instruction": "Move red block, green block, and blue block to the center, then stack blue block on green block and green block on red block.",
+      "instruction_sha1": "3350ab9c19d707ba4e1ed4eb0c933488f6058a3d",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9741008,
+      "instruction": "Move red block, green block, and blue block to the center, then stack blue block on green block, and green block on red block.",
+      "instruction_sha1": "84c106d84c32e8efb35ee8ad590b971c0d23d86f",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9741009,
+      "instruction": "Move red block, green block, and blue block to the table's center and stack them.",
+      "instruction_sha1": "d1f10aaafbd8bdd29d0d1ba3045f1062ca75c51d",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9741010,
+      "instruction": "Bring red block, green block, and blue block to the table's center. Stack green block on red block and blue block on green block.",
+      "instruction_sha1": "4cbbe3395d96d03398bd42d0bc31615435af89c8",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9741011,
+      "instruction": "Bring red block, green block, blue block to the table's center and stack them: blue block on green block, green block on red block.",
+      "instruction_sha1": "0569831fff6e012f9859862dbcf33dbdd9eef8fd",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9741012,
+      "instruction": "Bring red block, green block, and blue block to the table's center. Stack green block on red block and blue block on green block.",
+      "instruction_sha1": "4cbbe3395d96d03398bd42d0bc31615435af89c8",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9741013,
+      "instruction": "Bring red block, green block, and blue block to the table's center. Stack green block on red block and blue block on green block.",
+      "instruction_sha1": "4cbbe3395d96d03398bd42d0bc31615435af89c8",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9741014,
+      "instruction": "Move red block, green block, and blue block to the center, then stack blue block on green block, and green block on red block.",
+      "instruction_sha1": "84c106d84c32e8efb35ee8ad590b971c0d23d86f",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9741015,
+      "instruction": "Move red block, green block, and blue block to the center of the table, then stack blue block on green block and green block on red block.",
+      "instruction_sha1": "e6e7ea5793c57c07334bce06345f5f7bac45c067",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9741016,
+      "instruction": "Move red block, green block, and blue block to the center of the table, then stack blue block on green block and green block on red block.",
+      "instruction_sha1": "e6e7ea5793c57c07334bce06345f5f7bac45c067",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9741017,
+      "instruction": "Place red block, green block, and blue block at the table's center, then stack blue block on green block and green block on red block.",
+      "instruction_sha1": "26470e47f1e3ff658047caba82f3eb304caf76e4",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9741018,
+      "instruction": "Place red block, green block, and blue block at the table's center, then stack blue block on green block and green block on red block.",
+      "instruction_sha1": "26470e47f1e3ff658047caba82f3eb304caf76e4",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9741019,
+      "instruction": "Place red block, green block, and blue block at the table's center, then stack blue block on green block and green block on red block.",
+      "instruction_sha1": "26470e47f1e3ff658047caba82f3eb304caf76e4",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-08-01T05:07:51.055754+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_stack_blocks_three_demo_randomized_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9741000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_randomized",
+  "task_name": "stack_blocks_three"
+}

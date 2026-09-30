@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 20,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/stack_bowls_two__demo_clean.json",
+    "parent_manifest_sha256": "1379f4367e4ab4c3d344d2d191e2dc44d58c166f2e093cd47f44c20c71eb0f7d",
+    "parent_protocol_id": "clean50_base_ahs_parent_min20_runtime_v4_freshscene_hashseed0_deadline_20260801_stack_bowls_two_demo_clean",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9770000,
+      "instruction": "Stack the light blue bowl with darkened rim directly over the smooth bowl with glossy finish.",
+      "instruction_sha1": "95fbbf2848f2ae237f9bbc3c9dedd48248e5ef51",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9770001,
+      "instruction": "Place the smooth bowl with glossy finish down, then put the light blue bowl with darkened rim on top.",
+      "instruction_sha1": "be1728c3d700fea9266d2e17e0139737cbc44d33",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9770002,
+      "instruction": "Place the small smooth brown-rimmed bowl carefully over the small smooth brown-rimmed bowl to stack them.",
+      "instruction_sha1": "df946b73fc68ef59b8d79ad33bfbdf80a1b79c30",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9770003,
+      "instruction": "Stack the light blue bowl with darkened rim directly over the light blue bowl with darkened rim.",
+      "instruction_sha1": "d6cfffbf9f3c048923ef322921267acd50fc1a23",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9770004,
+      "instruction": "Pick up the smooth bowl with glossy finish and stack the small smooth brown-rimmed bowl above.",
+      "instruction_sha1": "d6a2deabc62678fb03d9133e9cc8a0a52b74377f",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9770005,
+      "instruction": "Place the smooth bowl with glossy finish carefully over the light blue bowl with darkened rim to stack them.",
+      "instruction_sha1": "a0b55fe6ef30faf32df21fb0c086ed5d772fd6d5",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9770006,
+      "instruction": "Grab the light blue bowl with darkened rim and stack the smooth bowl with glossy finish on it.",
+      "instruction_sha1": "dababf6e07b8b2ea451a245de17b9d858c1d5bfc",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9770007,
+      "instruction": "Grab the light blue bowl with darkened rim, then set the light blue bowl with darkened rim on top.",
+      "instruction_sha1": "39b8661229a0629bd4074a24c0f59f40167db2f3",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9770008,
+      "instruction": "Place the small smooth brown-rimmed bowl onto the small smooth brown-rimmed bowl to form a stack.",
+      "instruction_sha1": "0655e64fb52e321abf5c2def13e56fbaee30c2f3",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9770009,
+      "instruction": "Pick up the small smooth brown-rimmed bowl and stack the smooth bowl with glossy finish above.",
+      "instruction_sha1": "d6fca42c7a8c641c1eaf591cb35c161938a1068f",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9770010,
+      "instruction": "Take the light blue bowl with darkened rim, set it down, and stack the smooth bowl with glossy finish on top.",
+      "instruction_sha1": "c89748ff274234aab5a43321dc8c6bf7adea8676",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9770011,
+      "instruction": "Place the smooth bowl with glossy finish onto the light blue bowl with darkened rim to form a stack.",
+      "instruction_sha1": "02902925e776caa0cb1ff6f3acb7029f7f772577",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9770012,
+      "instruction": "Place the light blue bowl with darkened rim carefully over the small smooth brown-rimmed bowl to stack them.",
+      "instruction_sha1": "b89564da5112ccaca7eea07d1cc74af1745eba60",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9770013,
+      "instruction": "Place the small smooth brown-rimmed bowl down, then put the light blue bowl with darkened rim on top.",
+      "instruction_sha1": "adc3feb8181008b51216f4faded3114b1f4c9852",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9770014,
+      "instruction": "Place the light blue bowl with darkened rim onto the light blue bowl with darkened rim to form a stack.",
+      "instruction_sha1": "13fb707fefad0f8d5f56e90e45cec3d76e4ec7c8",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9770015,
+      "instruction": "Grab the small smooth brown-rimmed bowl and stack the smooth bowl with glossy finish on it.",
+      "instruction_sha1": "29f4485a8897a763252e94586a9446340c13e2bd",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9770016,
+      "instruction": "Grab the small smooth brown-rimmed bowl and stack the small smooth brown-rimmed bowl on it.",
+      "instruction_sha1": "cb7343f5422a20c41f91c46a5d820104906c318d",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9770017,
+      "instruction": "Place the small smooth brown-rimmed bowl down, then put the light blue bowl with darkened rim on top.",
+      "instruction_sha1": "adc3feb8181008b51216f4faded3114b1f4c9852",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9770018,
+      "instruction": "Place the small smooth brown-rimmed bowl onto the small smooth brown-rimmed bowl to form a stack.",
+      "instruction_sha1": "0655e64fb52e321abf5c2def13e56fbaee30c2f3",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9770019,
+      "instruction": "Place the smooth bowl with glossy finish down, then put the light blue bowl with darkened rim on top.",
+      "instruction_sha1": "be1728c3d700fea9266d2e17e0139737cbc44d33",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-08-01T05:42:18.159461+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_parent_min20_runtime_v4_freshscene_hashseed0_deadline_20260801_stack_bowls_two_demo_clean_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9770000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_clean",
+  "task_name": "stack_bowls_two"
+}

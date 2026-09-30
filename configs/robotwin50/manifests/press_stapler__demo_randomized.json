@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/press_stapler__demo_randomized.json",
+    "parent_manifest_sha256": "cbf5be694adf6217e6a5c6ac76c0a19fe3044f47f8584f2c3d66839b8af71da1",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_press_stapler_demo_randomized",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9671000,
+      "instruction": "Press down on the shiny red plastic stapler with the right arm.",
+      "instruction_sha1": "46433d1abf6fd21fede95db6f335d339310e5e0d",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9671001,
+      "instruction": "Press down on the stapler with white loading section firmly using the right arm.",
+      "instruction_sha1": "250b6c63fe11f2127bbbd57b22efd4391be27b4d",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9671002,
+      "instruction": "Press down on the compact stapler firmly using the left arm.",
+      "instruction_sha1": "d3d8930b87d5fb65c330b60de38d8aacf7cafb1e",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9671003,
+      "instruction": "Use the right arm to press the stapler the red plastic stapler.",
+      "instruction_sha1": "62cdee00612d3b18ca5844ad472e6ca01f8da081",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9671004,
+      "instruction": "Use the right arm to press down on the shiny red plastic stapler.",
+      "instruction_sha1": "d38bd35ef6b0279157dbe184cc156d132d9802b7",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9671005,
+      "instruction": "Use the right arm to press the stapler the red plastic stapler.",
+      "instruction_sha1": "62cdee00612d3b18ca5844ad472e6ca01f8da081",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9671006,
+      "instruction": "Use the left arm to press on the palm-sized black stapler",
+      "instruction_sha1": "2bf4a9882d9ec117e5f871168683319e4100daf6",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9671007,
+      "instruction": "Press the shiny red plastic stapler firmly using your arm.",
+      "instruction_sha1": "6af3cd3f7634b8c5b3d4246d70ce6551c4332c8e",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9671008,
+      "instruction": "Use the right arm to press the stapler with smooth plastic body.",
+      "instruction_sha1": "7f279487a05a6b997d674bc224c0b40fccd1cc28",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9671009,
+      "instruction": "Press down on the blue stapler with smooth finish with the left arm",
+      "instruction_sha1": "44e4bacee6f9e909dadba0876fecebb7a8690637",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9671010,
+      "instruction": "Use the right arm to press on the small stapler with simple design",
+      "instruction_sha1": "a951504c422e3d674df803b4b5d29a6de0479ec3",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9671011,
+      "instruction": "Use the left arm to press down on the blue stapler for holding papers.",
+      "instruction_sha1": "29eefd5b73503e7541da59d84c5f476150c5981f",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9671012,
+      "instruction": "Push the paper stapler with curved handle down with one arm the left arm.",
+      "instruction_sha1": "0d63daca7a3181236de1fd2993eb922aacbd4b3b",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9671013,
+      "instruction": "Use the left arm to press the stapler the rectangular stapler with curved corners.",
+      "instruction_sha1": "f9e72052a3068fe4191a275276351628fe2b31c1",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9671014,
+      "instruction": "Use the left arm to press down on the plastic stapler.",
+      "instruction_sha1": "517d6aed2a8d9849662dac42f0edabfb422171c2",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9671015,
+      "instruction": "Use the left arm to press the metal and plastic stapler.",
+      "instruction_sha1": "29efa9a035939743ce12c84409c038660f77e28e",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9671016,
+      "instruction": "Press the stapler the red stapler with silver chamber with the arm the right arm.",
+      "instruction_sha1": "5c942dc2b056558eeb7a468e7a7072e7bad94c48",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9671017,
+      "instruction": "Press the stapler the metal and plastic stapler with the arm the right arm.",
+      "instruction_sha1": "6fcf457c8adae623f3a2a42324e5675df24c6b89",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9671018,
+      "instruction": "Press down on the red plastic stapler with the right arm",
+      "instruction_sha1": "4b6b87a355c60f23acd8d815691c924cda185308",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9671019,
+      "instruction": "Press down on the small stapler with simple design with the left arm.",
+      "instruction_sha1": "ba56cca599982291a37f925d20369ff98b78c13f",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-08-01T02:12:39.409346+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_press_stapler_demo_randomized_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9671000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_randomized",
+  "task_name": "press_stapler"
+}

@@ -1,0 +1,2516 @@
+[
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/selector.py",
+    "destination": "src/chunktrust/_pi_ahs.py",
+    "sha256": "44ee901b6397c77405e073cc5909d18e869dd64f96aea7e2c17d94475481b8bd",
+    "bytes": 19781
+  },
+  {
+    "source": "starVLA/examples/Robocasa_tabletop/eval_files/horizon_selector.py",
+    "destination": "src/chunktrust/starvla_ahs.py",
+    "sha256": "d72c7f280cf6fd9710f9611d6df52279db5d32c515a17b93f2a10794f0da97dc",
+    "bytes": 21687
+  },
+  {
+    "source": "Isaac-GR00T/gr00t/eval/horizon_selector.py",
+    "destination": "src/chunktrust/gr00t_ahs.py",
+    "sha256": "afccc1b0b0bc34cb54ba89586e8cd00ca5f323f40e0ace24e051aa855b9690c7",
+    "bytes": 25563
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/__init__.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/conftest.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/conftest.py",
+    "sha256": "626672e385fb276396c119e2220421065c58f8ec602401e8bf2ae509f9fffaf3",
+    "bytes": 339
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/models/__init__.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/models/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/models/gemma.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/models/gemma.py",
+    "sha256": "03b72219c25e7abcced2927ac11e89b55ee338ab58818b90d3e25a6232609a18",
+    "bytes": 15858
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/models/gemma_fast.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/models/gemma_fast.py",
+    "sha256": "f2aea8e23eddfd4f39ec42b1f2299f897a7834f8cf42c397ad0913ed10f59d55",
+    "bytes": 15673
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/models/lora.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/models/lora.py",
+    "sha256": "2a5e533dfa827927817d558c774b76112b919d2632e0ae2960c857cc5f0dcbc4",
+    "bytes": 5332
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/models/lora_test.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/models/lora_test.py",
+    "sha256": "a0f10525de7773310402b3ffa636e88ffff7035f3179b140aacc6809c122f085",
+    "bytes": 3138
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/models/model.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/models/model.py",
+    "sha256": "081a40e7fd8bd1c4a529e440ec260b79064085c8f17e5936eff7be06fff362a6",
+    "bytes": 13825
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/models/model_test.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/models/model_test.py",
+    "sha256": "9e29136ad12ee3bed9afdd572a25784791f582a935a583e316bd60c19804beef",
+    "bytes": 2935
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/models/pi0.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/models/pi0.py",
+    "sha256": "8d40e0153cdb71d0a7c0500f1f9834e257c2976e21196227ab5c5a112667b82f",
+    "bytes": 58529
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/models/pi0_fast.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/models/pi0_fast.py",
+    "sha256": "06bf47e753114749a6b15016ba5c1e3ae1c3aa3042c181fa38d51521d21b1fca",
+    "bytes": 13406
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/models/pi0_test.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/models/pi0_test.py",
+    "sha256": "5579e2cf74e7cd762f14489a15d4b9c935cbe31b6e64a3c85a08dbdc05c075a0",
+    "bytes": 1582
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/models/qha.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/models/qha.py",
+    "sha256": "f2b6a5e697f5ee89aeb65a944c537e18b0630c754463f11d1f1e45edbb509ca1",
+    "bytes": 30658
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/models/siglip.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/models/siglip.py",
+    "sha256": "3294ab864f3f7929fc67aa4912ee3ad3c86a73147682ae81326c774ca6ce7908",
+    "bytes": 12136
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/models/tokenizer.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/models/tokenizer.py",
+    "sha256": "05712dc10ea1352fc0870a67cb6a007cb31eefbf9493673d051d6cc0ce18e9e5",
+    "bytes": 5927
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/models/tokenizer_test.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/models/tokenizer_test.py",
+    "sha256": "fabce52f465ab35d016b7b4a29a9d0e82ceaf8381235253e4683067d97e07337",
+    "bytes": 813
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/models/vit.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/models/vit.py",
+    "sha256": "ce37ed9c96be01a304a9e4e0c291d1362cbaddb3c4056265ef770ec5092db651",
+    "bytes": 10620
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/policies/aloha_policy.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/policies/aloha_policy.py",
+    "sha256": "a7f14bd7d2228576048a15b828f77f300163066cbb4d45ff6bf9838a6c7b050b",
+    "bytes": 10963
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/policies/droid_policy.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/policies/droid_policy.py",
+    "sha256": "538c1d2f6edbc6a2178cf7ead07baca804e213655dd5ca63ffbde832908ecc6f",
+    "bytes": 2983
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/policies/libero_policy.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/policies/libero_policy.py",
+    "sha256": "d34226e26f38017ccc1710eda32c118d9c3b163124e0c6bb70efebef3a043c2f",
+    "bytes": 2900
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/policies/policy.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/policies/policy.py",
+    "sha256": "dd9651f911b9ca138050d541d9a8e7dd255594568b586e5f52bf682e7aa29db6",
+    "bytes": 6285
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/policies/policy_config.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/policies/policy_config.py",
+    "sha256": "53a9858439a688ff3a02e14e2cff7eda16a14f08a1583c653663da982fe5eae4",
+    "bytes": 7673
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/policies/policy_test.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/policies/policy_test.py",
+    "sha256": "9d3b8334bb9ba4b8ed0e7578cd3500aeec8aeb072aed11496a60fc558526e9f9",
+    "bytes": 1128
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/serving/websocket_policy_server.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/serving/websocket_policy_server.py",
+    "sha256": "b4dedf49a1d9b54a2857e88b516711f56160864be84f868cce5c338f329521c7",
+    "bytes": 2109
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/shared/__init__.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/shared/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/shared/array_typing.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/shared/array_typing.py",
+    "sha256": "680bc47529a0462b9f49c5fd07b51b3ec7b1beb21cabd560a37761ee2405ce4a",
+    "bytes": 3259
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/shared/download.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/shared/download.py",
+    "sha256": "717bcbaad119148197c0408be78c2c7f79b64d8531c116c259f4c0b5bd1e0625",
+    "bytes": 12939
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/shared/download_test.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/shared/download_test.py",
+    "sha256": "14db3512aeeb3e662d5f888cc06c405d5e61a39f4564972b858d49b26f3ccb99",
+    "bytes": 1490
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/shared/image_tools.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/shared/image_tools.py",
+    "sha256": "55cb0d93ef436d52735941d8f7b94d224dd27b7ce4fbad6edc39cffb1b4be8d8",
+    "bytes": 1926
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/shared/image_tools_test.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/shared/image_tools_test.py",
+    "sha256": "842374579dc9f4c2907da5e8bb555efe5a3f4902b659720c8e90115863dd59fe",
+    "bytes": 1418
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/shared/nnx_utils.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/shared/nnx_utils.py",
+    "sha256": "4da7111ba3011c4d1c381c9ed17257771df6a50ed89182647c3fb6f79208005e",
+    "bytes": 2844
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/shared/normalize.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/shared/normalize.py",
+    "sha256": "66d47c1e9fdcc7d90735e02ebec922f3c5403a1d575f9d37e93f2cfad80453fc",
+    "bytes": 5585
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/shared/normalize_test.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/shared/normalize_test.py",
+    "sha256": "83b2bca520d4f47942558eda9e4b26eccbb4c0c54244886a926e54f79645941b",
+    "bytes": 751
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/training/checkpoints.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/training/checkpoints.py",
+    "sha256": "d496db606abbb59b87876f7bba9ac2eda5766c25da8812c1d6677076c2dbf5b1",
+    "bytes": 16474
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/training/config.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/training/config.py",
+    "sha256": "965ae89986f5976e563d38bcc73003fca9d1cc1c3c0a3207a3650791f689a788",
+    "bytes": 41277
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/training/data_loader.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/training/data_loader.py",
+    "sha256": "198f142aac25b62d7d26d381b18bd05a3684014ccc09efe9ff8bec6c681a9a20",
+    "bytes": 10249
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/training/optimizer.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/training/optimizer.py",
+    "sha256": "ec72d57a597cc99cc56da9c658535939f1509b9cba968c9ac3fb31cee2a34ac2",
+    "bytes": 3181
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/training/sharding.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/training/sharding.py",
+    "sha256": "98f9104e5375b01e33d5d0f7cac13797bd9df56cca84f634ec9d41f996da2d72",
+    "bytes": 4109
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/training/utils.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/training/utils.py",
+    "sha256": "b684e674343f86ef5e976f279a586d3fe2f885e901f396ac899ed136abc7eca6",
+    "bytes": 1217
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/training/weight_loaders.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/training/weight_loaders.py",
+    "sha256": "343be431bb1f65c5b80b0753ac4c0fe6e0b934af022064ef462e313e9a815898",
+    "bytes": 3733
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/transforms.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/transforms.py",
+    "sha256": "f50fa5785f81364cb6d77eae1c1a3f6a35868e5afa55c29e32162b1c93e99c16",
+    "bytes": 20110
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/src/openpi/transforms_test.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/src/openpi/transforms_test.py",
+    "sha256": "def4f3d80d42c2ce82e4c1667c83b92c3efb1c0f6d35977deea75669e3e8962d",
+    "bytes": 4162
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/packages/openpi-client/pyproject.toml",
+    "destination": "third_party/overlays/robotwin/policy/pi0/packages/openpi-client/pyproject.toml",
+    "sha256": "bfcb6af4f5c71bf60b3e1c00335e3f9f19b9f6e977c82b22184fdbef87c716e5",
+    "bytes": 409
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/packages/openpi-client/src/openpi_client/__init__.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/packages/openpi-client/src/openpi_client/__init__.py",
+    "sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed",
+    "bytes": 22
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/packages/openpi-client/src/openpi_client/action_chunk_broker.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/packages/openpi-client/src/openpi_client/action_chunk_broker.py",
+    "sha256": "e8eb9009a419b1e3fc97f9cc78028e9440f24f802826c03728a272bdc9e21a9b",
+    "bytes": 1276
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/packages/openpi-client/src/openpi_client/base_policy.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/packages/openpi-client/src/openpi_client/base_policy.py",
+    "sha256": "331a37b42978704915cc2bf2040931a1d123e3d4adf6c441a1348a2ba4d843ed",
+    "bytes": 272
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/packages/openpi-client/src/openpi_client/image_tools.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/packages/openpi-client/src/openpi_client/image_tools.py",
+    "sha256": "d48b4bd7f44e79fe6db8a8e07c9161144fa250be686e1245014a8b47e6171977",
+    "bytes": 2426
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/packages/openpi-client/src/openpi_client/image_tools_test.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/packages/openpi-client/src/openpi_client/image_tools_test.py",
+    "sha256": "4df4b0ba0b95ba5e47160039c3e837a64d50c802b419a588211dffbaa732589c",
+    "bytes": 1411
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/packages/openpi-client/src/openpi_client/msgpack_numpy.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/packages/openpi-client/src/openpi_client/msgpack_numpy.py",
+    "sha256": "b6397ec0ad244e056b2f1cb6a980037a207284368f20b313001e07409fd1a74e",
+    "bytes": 1987
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/packages/openpi-client/src/openpi_client/msgpack_numpy_test.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/packages/openpi-client/src/openpi_client/msgpack_numpy_test.py",
+    "sha256": "a7307beeaebf7b73b4cac41e6e40818388f619e95f615ee8c69db5a166027eba",
+    "bytes": 1752
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/packages/openpi-client/src/openpi_client/runtime/agent.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/packages/openpi-client/src/openpi_client/runtime/agent.py",
+    "sha256": "b559885afd9645a91b9b6ee12a28513295474f987d11b16610fc0479dbe6de5b",
+    "bytes": 465
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/packages/openpi-client/src/openpi_client/runtime/agents/policy_agent.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/packages/openpi-client/src/openpi_client/runtime/agents/policy_agent.py",
+    "sha256": "c4d63952d1954bd4b72a3122223df36794812fea74cf1c7023433b5a90473c1c",
+    "bytes": 509
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/packages/openpi-client/src/openpi_client/runtime/environment.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/packages/openpi-client/src/openpi_client/runtime/environment.py",
+    "sha256": "1c12e5054b3401dec5f1f8b71eef0f625cb60e2b50784dcf19afa32c77107a7e",
+    "bytes": 1044
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/packages/openpi-client/src/openpi_client/runtime/runtime.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/packages/openpi-client/src/openpi_client/runtime/runtime.py",
+    "sha256": "5217c91b9a1e921cf61740dd7314ee290885e5181b9cec63456913f7460328ba",
+    "bytes": 3082
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/packages/openpi-client/src/openpi_client/runtime/subscriber.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/packages/openpi-client/src/openpi_client/runtime/subscriber.py",
+    "sha256": "d269a2af8ec4056beb310e5c3c97d4468af01549c7ef80dd905652d8ac64f85b",
+    "bytes": 500
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/packages/openpi-client/src/openpi_client/websocket_client_policy.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/packages/openpi-client/src/openpi_client/websocket_client_policy.py",
+    "sha256": "c61481abe83c39811bac1feadbbf6226197063f8b115d0ab9ae7246d1b3acc14",
+    "bytes": 1744
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/__init__.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/__init__.py",
+    "sha256": "559dfd499a5fa98c7c1523e45c4d5374cab6b0a3e2010fcd38fda96d149dfaf2",
+    "bytes": 29
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/pyproject.toml",
+    "destination": "third_party/overlays/robotwin/policy/pi0/pyproject.toml",
+    "sha256": "891795ba02ac6b1d88c02003b3be6a8d072f1764538b62e9002a8bb17b967a68",
+    "bytes": 2858
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/LICENSE",
+    "destination": "third_party/overlays/robotwin/policy/pi0/LICENSE",
+    "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+    "bytes": 11356
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/uv.lock",
+    "destination": "third_party/overlays/robotwin/policy/pi0/uv.lock",
+    "sha256": "330f8db019cf3aee909e92177c5d138f123317240937baedff9c328742787ddf",
+    "bytes": 767225
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/denoise_logger.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/denoise_logger.py",
+    "sha256": "b108056bc80f8365ba6ca60fc39925482143356d6d210ca78c1ec22533094e91",
+    "bytes": 12154
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/deploy_policy.yml",
+    "destination": "third_party/overlays/robotwin/policy/pi0/deploy_policy.yml",
+    "sha256": "712868eceffaf40d45fac6f5b392647ed0d51ef09571932dd9ef75a21e601be7",
+    "bytes": 1303
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/deploy_policy.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/deploy_policy.py",
+    "sha256": "aa38bae0c3b65619d0fc99c44b3f3def8b8626a46383eccef9ba31b683887873",
+    "bytes": 5537
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/pi_model.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/pi_model.py",
+    "sha256": "5f3c3cd53f55becf01c9b7f6ca70cb7a304b11a4adfaebbd697c492197a03d60",
+    "bytes": 71423
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/action_only_selector.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/action_only_selector.py",
+    "sha256": "5abe1bc6adc2c3d1cca1682e9d504c8e7f00ff13a1850429a78b55eb4c868341",
+    "bytes": 7745
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/runtime_hooks.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/runtime_hooks.py",
+    "sha256": "06837f4d39941ab50e83502a01ebe9701cbeab77203bd4c6cff7262661cf778d",
+    "bytes": 15667
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/.python-version",
+    "destination": "third_party/overlays/robotwin/policy/pi0/.python-version",
+    "sha256": "bb0635f951bfd55419a47fc08a859192049b4d0949cf2d09a4d4d6b2cafafb94",
+    "bytes": 4
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/prior_runtime.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/prior_runtime.py",
+    "sha256": "776b53e94400684a28f5cfa0d59a1bc2463c520b6a80c51be2e287677228cd7b",
+    "bytes": 14499
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/scripts/train.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/scripts/train.py",
+    "sha256": "d2e0aef193dc476cf76c48db159880fdec7cb49fbb9dc0c54b9200128a2f7fea",
+    "bytes": 10563
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/scripts/serve_policy.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/scripts/serve_policy.py",
+    "sha256": "6e88fab47c2e1b50749d3cb520e856e10149ec16adb9c24f8f726d48918460fc",
+    "bytes": 3759
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/scripts/compute_norm_stats.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/scripts/compute_norm_stats.py",
+    "sha256": "e69224b413683eab071612783b6c9e15631da09e10f1f9dc9f3d9ce5c98e8ab2",
+    "bytes": 2458
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/scripts/tools/qha_smoke_eval.py",
+    "destination": "third_party/overlays/robotwin/policy/pi0/scripts/tools/qha_smoke_eval.py",
+    "sha256": "5b6b1b35804dc8b0799a628f6a16f1595741ce12e375efcc920c41424ecc9bf0",
+    "bytes": 7070
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/__init__.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/conftest.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/conftest.py",
+    "sha256": "626672e385fb276396c119e2220421065c58f8ec602401e8bf2ae509f9fffaf3",
+    "bytes": 339
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/models/__init__.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/models/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/models/gemma.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/models/gemma.py",
+    "sha256": "7e42ada4ae7e9995f0ef3e33a0c224758323c2015e2d9d72ec15726a8a001d2a",
+    "bytes": 17146
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/models/gemma_fast.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/models/gemma_fast.py",
+    "sha256": "563c6e1ffd8afa31c406bcb8894a605e87df88f6c075d398d97a57af6bc3aefa",
+    "bytes": 15643
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/models/lora.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/models/lora.py",
+    "sha256": "ced28716950c34d84a1a6d0b03b1d9550000732721df884818080b6e78cb3289",
+    "bytes": 5342
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/models/lora_test.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/models/lora_test.py",
+    "sha256": "a0f10525de7773310402b3ffa636e88ffff7035f3179b140aacc6809c122f085",
+    "bytes": 3138
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/models/model.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/models/model.py",
+    "sha256": "b6230d6d277bc26c53add1c6cd8161455b9d14970392e535722c24337b4c5332",
+    "bytes": 12943
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/models/model_test.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/models/model_test.py",
+    "sha256": "f8e71f195045d4e3ef1ddfafb2337fa52e5aa2f89bce1fde62f5cbfb67121f21",
+    "bytes": 2966
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/models/pi0.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/models/pi0.py",
+    "sha256": "e1311f4fb4d80bd5b43dcbd61a8cf4525699e849a9ad2c6c48e5abaa0ca53219",
+    "bytes": 43457
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/models/pi0_config.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/models/pi0_config.py",
+    "sha256": "904d0536e6c4fef9976b86f658aac1ff1010eb5eaf2ab2b113de465aaaac9d90",
+    "bytes": 10373
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/models/pi0_fast.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/models/pi0_fast.py",
+    "sha256": "627332a555046f2744ef144c45f8bd3361a9820cf68854a4528d0fdbba7e9aa3",
+    "bytes": 13209
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/models/pi0_test.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/models/pi0_test.py",
+    "sha256": "5082873014a7fc45fb8414f517909e1c24cdafea980a1fb612e0aea6058ed0fe",
+    "bytes": 1631
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/models/qha.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/models/qha.py",
+    "sha256": "b1bdabec8097cbf5ddbb466b1d25cc915bf8cd753c13c0e77e488080ee89a175",
+    "bytes": 30874
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/models/siglip.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/models/siglip.py",
+    "sha256": "14b4df0be280d5769fb0dc31a40cde27525dbb1980cc998c28475d62fa3cad32",
+    "bytes": 12078
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/models/tokenizer.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/models/tokenizer.py",
+    "sha256": "965be8b3c393a6811875bbc32da9e01a5d01cc2f87802de801cf7293e049748c",
+    "bytes": 17517
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/models/tokenizer_test.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/models/tokenizer_test.py",
+    "sha256": "5abd179ce883420e39d4d18b33d0123290af752da243003aa48a3bc06dbb9517",
+    "bytes": 807
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/models/utils/fsq_tokenizer.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/models/utils/fsq_tokenizer.py",
+    "sha256": "88866638ee4775f46a222561a957bd35e20600fe38c5888b587016ad77b1065f",
+    "bytes": 15928
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/models/vit.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/models/vit.py",
+    "sha256": "d285d057636c3cba2d1fd3b37693b18075ad4b9c3b47bbde807c34c6c376ac93",
+    "bytes": 10266
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/models_pytorch/gemma_pytorch.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/models_pytorch/gemma_pytorch.py",
+    "sha256": "08fd8d750519f0fb44fc5173311e50a30f4c8f32c02e51244b4f8e47b32cd52f",
+    "bytes": 13509
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/models_pytorch/pi0_pytorch.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/models_pytorch/pi0_pytorch.py",
+    "sha256": "0c7b9f1de02ed886da49035e3fa1b38efea46eb6209489cb4f594f777f97b70c",
+    "bytes": 19014
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/models_pytorch/preprocessing_pytorch.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/models_pytorch/preprocessing_pytorch.py",
+    "sha256": "6a44e91be2d7a724c6140d2cc98ed0a631b8d38bbb29f63b380a0a19f903bbf6",
+    "bytes": 7264
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/models_pytorch/transformers_replace/models/gemma/configuration_gemma.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/models_pytorch/transformers_replace/models/gemma/configuration_gemma.py",
+    "sha256": "26fd0d0f52730ab32b6f337eb73ae9a26cb71ae0915bc49eced1d0e2ed8d0ec6",
+    "bytes": 8958
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/models_pytorch/transformers_replace/models/gemma/modeling_gemma.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/models_pytorch/transformers_replace/models/gemma/modeling_gemma.py",
+    "sha256": "17eeb54e277939e58cd6f8a92719a275e36baf0c9f463b2754227d42f87aedde",
+    "bytes": 36392
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/models_pytorch/transformers_replace/models/paligemma/modeling_paligemma.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/models_pytorch/transformers_replace/models/paligemma/modeling_paligemma.py",
+    "sha256": "c945d330b829264f927f3ee5339f977238631772de07a28e855e265bb85fd53c",
+    "bytes": 27688
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/models_pytorch/transformers_replace/models/siglip/check.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/models_pytorch/transformers_replace/models/siglip/check.py",
+    "sha256": "466e8eb7887ac5ccc98118a3169298d6ab65a284d834bae74751e3854dbc4245",
+    "bytes": 133
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/models_pytorch/transformers_replace/models/siglip/modeling_siglip.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/models_pytorch/transformers_replace/models/siglip/modeling_siglip.py",
+    "sha256": "ef2e99500f263fdd78db9d4d9a255e29d844eb92f53c25ad640f8056700ef84b",
+    "bytes": 50231
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/policies/aloha_policy.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/policies/aloha_policy.py",
+    "sha256": "2482f5f09ecccea9ab846009df5793e1eb6db6da6a58d5a905f98fbf82de350e",
+    "bytes": 8318
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/policies/droid_policy.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/policies/droid_policy.py",
+    "sha256": "7d0893555964d485e231f70084125084a99495705ddd74b29461229d524fff26",
+    "bytes": 3186
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/policies/libero_policy.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/policies/libero_policy.py",
+    "sha256": "ad01e5be74516d9ec9aeb1f76294d5c9f7f7179a60f1f7fbbb35e7646534f81a",
+    "bytes": 4320
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/policies/policy.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/policies/policy.py",
+    "sha256": "37e1ce91165644238b14fefe237e03eb30d32f932d72bae5bc621027e9673af2",
+    "bytes": 11232
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/policies/policy_config.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/policies/policy_config.py",
+    "sha256": "35ecbd472d01f837d403911aca038e164864a63699c2dba00eb247de14c04e7d",
+    "bytes": 8421
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/policies/policy_test.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/policies/policy_test.py",
+    "sha256": "9dbb20963600367a7e7abfc97d1e326916777c57a87b39b1bc4070ba64676683",
+    "bytes": 1127
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/serving/websocket_policy_server.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/serving/websocket_policy_server.py",
+    "sha256": "1370d345e6c3c5b8f15573050e485e60a5b423d1df33e24b237805e6b442b026",
+    "bytes": 3051
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/shared/__init__.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/shared/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/shared/array_typing.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/shared/array_typing.py",
+    "sha256": "6524945566eab3eb97b75a6280ba4724617b4d028c55f05172b283c3de68a026",
+    "bytes": 3402
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/shared/download.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/shared/download.py",
+    "sha256": "6f49ff4917fd180b650ab753132a78ff146f30aff8f9f8f7519505a359f62881",
+    "bytes": 7866
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/shared/download_test.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/shared/download_test.py",
+    "sha256": "234ee70ab2501a1421f6c44cbd83c1e16747597023319ae1446bed9d44f17072",
+    "bytes": 1490
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/shared/image_tools.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/shared/image_tools.py",
+    "sha256": "0f8fcb355288119e56acb56d550c1cc1f3a9edddceb0dc5b319f955943ef7767",
+    "bytes": 4665
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/shared/image_tools_test.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/shared/image_tools_test.py",
+    "sha256": "842374579dc9f4c2907da5e8bb555efe5a3f4902b659720c8e90115863dd59fe",
+    "bytes": 1418
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/shared/nnx_utils.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/shared/nnx_utils.py",
+    "sha256": "4da7111ba3011c4d1c381c9ed17257771df6a50ed89182647c3fb6f79208005e",
+    "bytes": 2844
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/shared/normalize.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/shared/normalize.py",
+    "sha256": "6c2cea4946fb07e51801530400d2b2fd94730e195cd290d6b6960114eca9739d",
+    "bytes": 5529
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/shared/normalize_test.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/shared/normalize_test.py",
+    "sha256": "fda27a21cf37f337b12bcab71229407c2a349c5965c33f278bdc468ed03f58af",
+    "bytes": 1521
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/training/checkpoints.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/training/checkpoints.py",
+    "sha256": "7f44d2f42ee7c283c2f5cfb56842a530144adef15cd769e3f888fa447e0abdcf",
+    "bytes": 16140
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/training/config.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/training/config.py",
+    "sha256": "b29b6841c3f370e54b12756fd51518e3a47370b6d8471ce0a96393263911d1e4",
+    "bytes": 50357
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/training/data_loader.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/training/data_loader.py",
+    "sha256": "99221d1fec5eff2d3f54ea1a14015302164dac7e494e65bb339feb4630f57f4a",
+    "bytes": 19993
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/training/data_loader_test.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/training/data_loader_test.py",
+    "sha256": "a0cf1bc293e8b0eb9bc5516bc05d30d9940da06c94fcfa1addca7267f8358815",
+    "bytes": 2487
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/training/droid_rlds_dataset.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/training/droid_rlds_dataset.py",
+    "sha256": "9480e75ab2dbcc16d9219ed0f0982b057e5ba555b1b2b5abc692956568bdc722",
+    "bytes": 9305
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/training/misc/roboarena_config.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/training/misc/roboarena_config.py",
+    "sha256": "914acdd74ccf90e6779c13a5093140595c7e4f687e9e0b167439446a81d74c01",
+    "bytes": 4804
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/training/optimizer.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/training/optimizer.py",
+    "sha256": "cfb5d6f6aec61fbe961287b4015c652260628a0ed4682a0dbdc271b8e65431fa",
+    "bytes": 3202
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/training/sharding.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/training/sharding.py",
+    "sha256": "2384acbb4c33b1796294efdb088c6cd1a1f6100f505e636434e3c0c894f7def6",
+    "bytes": 4100
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/training/utils.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/training/utils.py",
+    "sha256": "b684e674343f86ef5e976f279a586d3fe2f885e901f396ac899ed136abc7eca6",
+    "bytes": 1217
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/training/weight_loaders.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/training/weight_loaders.py",
+    "sha256": "a54ac3222f81f8c6233241bc16b6f369c9416cdaa83f7058f96f7ddcfde1a3b4",
+    "bytes": 3738
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/transforms.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/transforms.py",
+    "sha256": "1c5439938ce16b50d33a15c22093d71e6e9744b61b8031cb4df6121c44819e2f",
+    "bytes": 20579
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/src/openpi/transforms_test.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/transforms_test.py",
+    "sha256": "d76f3ee8c5d7dc1c6fb6cb3b36b45ef30dd1de1ab5bc054bcb03deb79dcc06a8",
+    "bytes": 4111
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/packages/openpi-client/pyproject.toml",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/packages/openpi-client/pyproject.toml",
+    "sha256": "bfcb6af4f5c71bf60b3e1c00335e3f9f19b9f6e977c82b22184fdbef87c716e5",
+    "bytes": 409
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/packages/openpi-client/src/openpi_client/__init__.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/packages/openpi-client/src/openpi_client/__init__.py",
+    "sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed",
+    "bytes": 22
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/packages/openpi-client/src/openpi_client/action_chunk_broker.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/packages/openpi-client/src/openpi_client/action_chunk_broker.py",
+    "sha256": "e8eb9009a419b1e3fc97f9cc78028e9440f24f802826c03728a272bdc9e21a9b",
+    "bytes": 1276
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/packages/openpi-client/src/openpi_client/base_policy.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/packages/openpi-client/src/openpi_client/base_policy.py",
+    "sha256": "331a37b42978704915cc2bf2040931a1d123e3d4adf6c441a1348a2ba4d843ed",
+    "bytes": 272
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/packages/openpi-client/src/openpi_client/image_tools.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/packages/openpi-client/src/openpi_client/image_tools.py",
+    "sha256": "d48b4bd7f44e79fe6db8a8e07c9161144fa250be686e1245014a8b47e6171977",
+    "bytes": 2426
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/packages/openpi-client/src/openpi_client/image_tools_test.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/packages/openpi-client/src/openpi_client/image_tools_test.py",
+    "sha256": "4df4b0ba0b95ba5e47160039c3e837a64d50c802b419a588211dffbaa732589c",
+    "bytes": 1411
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/packages/openpi-client/src/openpi_client/msgpack_numpy.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/packages/openpi-client/src/openpi_client/msgpack_numpy.py",
+    "sha256": "b6397ec0ad244e056b2f1cb6a980037a207284368f20b313001e07409fd1a74e",
+    "bytes": 1987
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/packages/openpi-client/src/openpi_client/msgpack_numpy_test.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/packages/openpi-client/src/openpi_client/msgpack_numpy_test.py",
+    "sha256": "a7307beeaebf7b73b4cac41e6e40818388f619e95f615ee8c69db5a166027eba",
+    "bytes": 1752
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/packages/openpi-client/src/openpi_client/runtime/agent.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/packages/openpi-client/src/openpi_client/runtime/agent.py",
+    "sha256": "b559885afd9645a91b9b6ee12a28513295474f987d11b16610fc0479dbe6de5b",
+    "bytes": 465
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/packages/openpi-client/src/openpi_client/runtime/agents/policy_agent.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/packages/openpi-client/src/openpi_client/runtime/agents/policy_agent.py",
+    "sha256": "c4d63952d1954bd4b72a3122223df36794812fea74cf1c7023433b5a90473c1c",
+    "bytes": 509
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/packages/openpi-client/src/openpi_client/runtime/environment.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/packages/openpi-client/src/openpi_client/runtime/environment.py",
+    "sha256": "1c12e5054b3401dec5f1f8b71eef0f625cb60e2b50784dcf19afa32c77107a7e",
+    "bytes": 1044
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/packages/openpi-client/src/openpi_client/runtime/runtime.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/packages/openpi-client/src/openpi_client/runtime/runtime.py",
+    "sha256": "5217c91b9a1e921cf61740dd7314ee290885e5181b9cec63456913f7460328ba",
+    "bytes": 3082
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/packages/openpi-client/src/openpi_client/runtime/subscriber.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/packages/openpi-client/src/openpi_client/runtime/subscriber.py",
+    "sha256": "d269a2af8ec4056beb310e5c3c97d4468af01549c7ef80dd905652d8ac64f85b",
+    "bytes": 500
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/packages/openpi-client/src/openpi_client/websocket_client_policy.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/packages/openpi-client/src/openpi_client/websocket_client_policy.py",
+    "sha256": "c61481abe83c39811bac1feadbbf6226197063f8b115d0ab9ae7246d1b3acc14",
+    "bytes": 1744
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/__init__.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/__init__.py",
+    "sha256": "559dfd499a5fa98c7c1523e45c4d5374cab6b0a3e2010fcd38fda96d149dfaf2",
+    "bytes": 29
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/test_tab4_metrics.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/test_tab4_metrics.py",
+    "sha256": "75f71e10790ed504aca6c7026567f38421da2c8e6f8e4415e1c3cbcf4f670163",
+    "bytes": 5827
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/counterfactual_intervention.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/counterfactual_intervention.py",
+    "sha256": "997af34d3bf651de4367220b92f77e20bb93395aadc55402e68b541154af5d60",
+    "bytes": 10492
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/test_timing_alignment.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/test_timing_alignment.py",
+    "sha256": "1228588333fcd61e4064f23ad2cddff0323fea38b01a6b7dd3413f75a5d531bf",
+    "bytes": 7032
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/pyproject.toml",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/pyproject.toml",
+    "sha256": "891795ba02ac6b1d88c02003b3be6a8d072f1764538b62e9002a8bb17b967a68",
+    "bytes": 2858
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/test_task_metrics.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/test_task_metrics.py",
+    "sha256": "f902f2ea3c896446eebb83b2c8df74369b517789d79cf6c35d717b97af765af3",
+    "bytes": 4442
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/LICENSE",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/LICENSE",
+    "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+    "bytes": 11356
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/uv.lock",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/uv.lock",
+    "sha256": "330f8db019cf3aee909e92177c5d138f123317240937baedff9c328742787ddf",
+    "bytes": 767225
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/test_shift_recorder.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/test_shift_recorder.py",
+    "sha256": "3e803bf5287e86b8a5a72b3dacb79fec70a4e97994c66d91cb983e10f74ed29b",
+    "bytes": 10059
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/test_horizon_exec_modes.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/test_horizon_exec_modes.py",
+    "sha256": "b50969311684bdf3a87f91a31da84062fb6a6d9f9c002d75912b334554e17d29",
+    "bytes": 2838
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/denoise_logger.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/denoise_logger.py",
+    "sha256": "92143611e1e74df82d8f0e8c824e3e0a7c97c9c219c942a22669bfe462565c0a",
+    "bytes": 14555
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/deploy_policy.yml",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/deploy_policy.yml",
+    "sha256": "5921ce52166531b56d7651a81e133ce95ca1e5900c6ebc42ec61f74872b689d1",
+    "bytes": 1103
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/deploy_policy.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/deploy_policy.py",
+    "sha256": "5305a55da0219006224ecef775bb76a6b759b40aa6989d5fa0d81864556f09e3",
+    "bytes": 6790
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/pi_model.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/pi_model.py",
+    "sha256": "57900524c9b461bff56f283e5d63cf05b6db868606d9fc6b4b757049338538b0",
+    "bytes": 92202
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/runtime_hooks.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/runtime_hooks.py",
+    "sha256": "731e2a65e85063664eac320a6f040f790dbaef50d6919b6f85c2db68118eaa2a",
+    "bytes": 26068
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/.python-version",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/.python-version",
+    "sha256": "bb0635f951bfd55419a47fc08a859192049b4d0949cf2d09a4d4d6b2cafafb94",
+    "bytes": 4
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/test_counterfactual_intervention.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/test_counterfactual_intervention.py",
+    "sha256": "13061a8ff2dde957e39bb74deccf8de6feed628289fea21cf41e56714217578c",
+    "bytes": 3458
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/scripts/train.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/scripts/train.py",
+    "sha256": "d2e0aef193dc476cf76c48db159880fdec7cb49fbb9dc0c54b9200128a2f7fea",
+    "bytes": 10563
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/scripts/serve_policy.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/scripts/serve_policy.py",
+    "sha256": "6e88fab47c2e1b50749d3cb520e856e10149ec16adb9c24f8f726d48918460fc",
+    "bytes": 3759
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/scripts/compute_norm_stats.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/scripts/compute_norm_stats.py",
+    "sha256": "8a64773495b714d6b18eded99d7cf87eb19d1bb3dd4a9fb47172b03de5d56a38",
+    "bytes": 4042
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/scripts/tools/qha_smoke_eval.py",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/scripts/tools/qha_smoke_eval.py",
+    "sha256": "f8b4ee04ea7da799336357281ac6e9b82384b580eb969078fdca14ed97285dff",
+    "bytes": 5767
+  },
+  {
+    "source": "Reflex/RoboTwin/script/eval_policy.py",
+    "destination": "third_party/overlays/robotwin/script/eval_policy.py",
+    "sha256": "f3a9cd24aa3e874b7246e1bf5b82643e9c1f1c4e89a9cec2bc80fe6641c2f763",
+    "bytes": 34698
+  },
+  {
+    "source": "Reflex/RoboTwin/script/eval_policy_client.py",
+    "destination": "third_party/overlays/robotwin/script/eval_policy_client.py",
+    "sha256": "43a7556215a327f075f78901664d0b6f1596a096baf0ef38c2d904ffdfa9fefe",
+    "bytes": 19913
+  },
+  {
+    "source": "Reflex/RoboTwin/script/policy_runtime_hooks.py",
+    "destination": "third_party/overlays/robotwin/script/policy_runtime_hooks.py",
+    "sha256": "8d0d8cb32eaee9f3577f203645b81ca457864ec5750d50161242e0cf8888dad3",
+    "bytes": 1655
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/staging/qha_heldout6_formal_20260727_05_step10000/policy/pi05_horizon/configs/qha_heldout6_teacher_manifest.json",
+    "destination": "third_party/overlays/qha_heldout/policy/pi05_horizon/configs/qha_heldout6_teacher_manifest.json",
+    "sha256": "e1016ae253cc92b417b0b914a9e7e5a31414095c7bc9032f16d35e69157a5ec2",
+    "bytes": 2208
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/staging/qha_heldout6_formal_20260727_05_step10000/policy/pi05_horizon/configs/qha_heldout_manifest_registry.json",
+    "destination": "third_party/overlays/qha_heldout/policy/pi05_horizon/configs/qha_heldout_manifest_registry.json",
+    "sha256": "763afd01db3fc1d783d815418a7bb0c70e75159a35e3d15f75f034c7ed78f7f4",
+    "bytes": 905
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/staging/qha_heldout6_formal_20260727_05_step10000/policy/pi05_horizon/configs/qha_heldout_protocol.json",
+    "destination": "third_party/overlays/qha_heldout/policy/pi05_horizon/configs/qha_heldout_protocol.json",
+    "sha256": "283dd6b967ec863cbeea33de60f6d9fe6cf893f981a32552eb40462f45750660",
+    "bytes": 940
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/staging/qha_heldout6_formal_20260727_05_step10000/policy/pi05_horizon/deploy_policy.py",
+    "destination": "third_party/overlays/qha_heldout/policy/pi05_horizon/deploy_policy.py",
+    "sha256": "73fd9a7f4f48fa5e5672ef58f81a2c14a0ea0164b657dffc4d538c4c4aceda81",
+    "bytes": 6048
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/staging/qha_heldout6_formal_20260727_05_step10000/policy/pi05_horizon/deploy_policy.yml",
+    "destination": "third_party/overlays/qha_heldout/policy/pi05_horizon/deploy_policy.yml",
+    "sha256": "7119da5f01ee7b30387e21cc616c25621028211c8716e75f4d6f963f030b5005",
+    "bytes": 1223
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/staging/qha_heldout6_formal_20260727_05_step10000/policy/pi05_horizon/heldout_protocol.py",
+    "destination": "third_party/overlays/qha_heldout/policy/pi05_horizon/heldout_protocol.py",
+    "sha256": "38dfa2443bc429ffd0417000ab3045ef8ab71a59e83ea739dac2022fb6b23f82",
+    "bytes": 21051
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/staging/qha_heldout6_formal_20260727_05_step10000/policy/pi05_horizon/pi_model.py",
+    "destination": "third_party/overlays/qha_heldout/policy/pi05_horizon/pi_model.py",
+    "sha256": "4ae9eea57bd662821a1ba512346f5b8029b69d5f83da7549ca214b75743be869",
+    "bytes": 77651
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/staging/qha_heldout6_formal_20260727_05_step10000/policy/pi05_horizon/scripts/eval_qha_heldout_manifest.sh",
+    "destination": "third_party/overlays/qha_heldout/policy/pi05_horizon/scripts/eval_qha_heldout_manifest.sh",
+    "sha256": "7bb1afe5af279aed53e5d6ef27e85a4560c81a35c7cfbe236bb3bac84fa8420e",
+    "bytes": 7079
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/staging/qha_heldout6_formal_20260727_05_step10000/policy/pi05_horizon/scripts/package_qha_heldout_delivery.sh",
+    "destination": "third_party/overlays/qha_heldout/policy/pi05_horizon/scripts/package_qha_heldout_delivery.sh",
+    "sha256": "68a47652d3cc75125f5a7e7a9035650e3a73f6852e0415777b1e70b5416b874b",
+    "bytes": 3351
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/staging/qha_heldout6_formal_20260727_05_step10000/policy/pi05_horizon/scripts/train.py",
+    "destination": "third_party/overlays/qha_heldout/policy/pi05_horizon/scripts/train.py",
+    "sha256": "1b923d300a8846b681c35cc9f010ee808c977ec7224582057d8a37ddbc037908",
+    "bytes": 31493
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/staging/qha_heldout6_formal_20260727_05_step10000/policy/pi05_horizon/scripts/train_qha_heldout_8gpu.sh",
+    "destination": "third_party/overlays/qha_heldout/policy/pi05_horizon/scripts/train_qha_heldout_8gpu.sh",
+    "sha256": "5ea7a3904328b0015b3a66c474690f516f36e7195068d88c3e76b85de38c2c64",
+    "bytes": 6714
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/staging/qha_heldout6_formal_20260727_05_step10000/policy/pi05_horizon/scripts/verify_qha_heldout_run.py",
+    "destination": "third_party/overlays/qha_heldout/policy/pi05_horizon/scripts/verify_qha_heldout_run.py",
+    "sha256": "9937b3594586e672983f408339378c0dd6f0eaab212dacc8979ce6d575573ed1",
+    "bytes": 9150
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/staging/qha_heldout6_formal_20260727_05_step10000/policy/pi05_horizon/src/openpi/models/pi0.py",
+    "destination": "third_party/overlays/qha_heldout/policy/pi05_horizon/src/openpi/models/pi0.py",
+    "sha256": "f8a009b16bed8decd6af4038708ffb1166a50718c7bfbe6f0afe7c5dbac7d4df",
+    "bytes": 42766
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/staging/qha_heldout6_formal_20260727_05_step10000/policy/pi05_horizon/src/openpi/models/pi0_config.py",
+    "destination": "third_party/overlays/qha_heldout/policy/pi05_horizon/src/openpi/models/pi0_config.py",
+    "sha256": "904d0536e6c4fef9976b86f658aac1ff1010eb5eaf2ab2b113de465aaaac9d90",
+    "bytes": 10373
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/staging/qha_heldout6_formal_20260727_05_step10000/policy/pi05_horizon/src/openpi/models/qha.py",
+    "destination": "third_party/overlays/qha_heldout/policy/pi05_horizon/src/openpi/models/qha.py",
+    "sha256": "f2b6a5e697f5ee89aeb65a944c537e18b0630c754463f11d1f1e45edbb509ca1",
+    "bytes": 30658
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/staging/qha_heldout6_formal_20260727_05_step10000/policy/pi05_horizon/src/openpi/training/checkpoints.py",
+    "destination": "third_party/overlays/qha_heldout/policy/pi05_horizon/src/openpi/training/checkpoints.py",
+    "sha256": "7f44d2f42ee7c283c2f5cfb56842a530144adef15cd769e3f888fa447e0abdcf",
+    "bytes": 16140
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/staging/qha_heldout6_formal_20260727_05_step10000/policy/pi05_horizon/src/openpi/training/config.py",
+    "destination": "third_party/overlays/qha_heldout/policy/pi05_horizon/src/openpi/training/config.py",
+    "sha256": "59b15f20642b99a39ec1619ad14136ea7ab976dfdb9b73ee084bfda840a9e07c",
+    "bytes": 52887
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/staging/qha_heldout6_formal_20260727_05_step10000/policy/pi05_horizon/src/openpi/training/data_loader.py",
+    "destination": "third_party/overlays/qha_heldout/policy/pi05_horizon/src/openpi/training/data_loader.py",
+    "sha256": "9c655e90979c9dce40f331cac901839ef1273e210420bc085cdbce71aa6476d5",
+    "bytes": 71663
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/staging/qha_heldout6_formal_20260727_05_step10000/policy/pi05_horizon/src/openpi/training/online_teacher_workers.py",
+    "destination": "third_party/overlays/qha_heldout/policy/pi05_horizon/src/openpi/training/online_teacher_workers.py",
+    "sha256": "586f220eda191e6134f74949c96234d89433aafef1a0b01c54f56cf8177bf6ec",
+    "bytes": 10076
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/staging/qha_heldout6_formal_20260727_05_step10000/policy/pi05_horizon/src/openpi/training/online_teachers.py",
+    "destination": "third_party/overlays/qha_heldout/policy/pi05_horizon/src/openpi/training/online_teachers.py",
+    "sha256": "3a71534c3289f088e3d7ea768355ada761368d4b350570cb12ca01ed5135163e",
+    "bytes": 30633
+  },
+  {
+    "source": "starVLA/examples/Robocasa_tabletop/eval_files/adaptive_ensemble.py",
+    "destination": "third_party/overlays/starvla/examples/Robocasa_tabletop/eval_files/adaptive_ensemble.py",
+    "sha256": "50ff24b1bb33d5bc53fe0cb8d79f3cf4e9cedd039f25d5fd0adf8902bf7d9609",
+    "bytes": 1617
+  },
+  {
+    "source": "starVLA/examples/Robocasa_tabletop/eval_files/base_config.py",
+    "destination": "third_party/overlays/starvla/examples/Robocasa_tabletop/eval_files/base_config.py",
+    "sha256": "7ee710b98c5053b9be6aff74d713f44f3e48024d5543e5a7fe372114178f93a9",
+    "bytes": 1051
+  },
+  {
+    "source": "starVLA/examples/Robocasa_tabletop/eval_files/denoise_logger.py",
+    "destination": "third_party/overlays/starvla/examples/Robocasa_tabletop/eval_files/denoise_logger.py",
+    "sha256": "3ab620617637015e19de18f12f6d2d1fd74b8c9ce0f8527efededf955b373088",
+    "bytes": 4572
+  },
+  {
+    "source": "starVLA/examples/Robocasa_tabletop/eval_files/horizon_selector.py",
+    "destination": "third_party/overlays/starvla/examples/Robocasa_tabletop/eval_files/horizon_selector.py",
+    "sha256": "d72c7f280cf6fd9710f9611d6df52279db5d32c515a17b93f2a10794f0da97dc",
+    "bytes": 21687
+  },
+  {
+    "source": "starVLA/examples/Robocasa_tabletop/eval_files/model2robocasa_interface.py",
+    "destination": "third_party/overlays/starvla/examples/Robocasa_tabletop/eval_files/model2robocasa_interface.py",
+    "sha256": "3755a55a0aaaa269f7a844381cdc2fe36fa9f9b58f9130eb8dd4d7d142ffacdf",
+    "bytes": 39987
+  },
+  {
+    "source": "starVLA/examples/Robocasa_tabletop/eval_files/simulation_env.py",
+    "destination": "third_party/overlays/starvla/examples/Robocasa_tabletop/eval_files/simulation_env.py",
+    "sha256": "2987889100da79e6147220151c8c151307d567f857844fe796dc3448484ddea5",
+    "bytes": 18107
+  },
+  {
+    "source": "starVLA/examples/Robocasa_tabletop/eval_files/stride_selector.py",
+    "destination": "third_party/overlays/starvla/examples/Robocasa_tabletop/eval_files/stride_selector.py",
+    "sha256": "73541b51143a3ea7bc7c466e494aae9a204f79993d71e031a58e83ff0323b110",
+    "bytes": 24718
+  },
+  {
+    "source": "starVLA/examples/Robocasa_tabletop/eval_files/test_horizon_runtime.py",
+    "destination": "third_party/overlays/starvla/examples/Robocasa_tabletop/eval_files/test_horizon_runtime.py",
+    "sha256": "e13970006ef58b21640b5335de0e33ebbe06c74944af5e8ae981fdf30cfec285",
+    "bytes": 4912
+  },
+  {
+    "source": "starVLA/examples/Robocasa_tabletop/eval_files/test_horizon_selector.py",
+    "destination": "third_party/overlays/starvla/examples/Robocasa_tabletop/eval_files/test_horizon_selector.py",
+    "sha256": "664a238e79aa1d63a9fe11a0f33197b767fabb2b6b1638a434e62254c76e8fef",
+    "bytes": 2942
+  },
+  {
+    "source": "starVLA/examples/Robocasa_tabletop/eval_files/wrappers/multistep_wrapper.py",
+    "destination": "third_party/overlays/starvla/examples/Robocasa_tabletop/eval_files/wrappers/multistep_wrapper.py",
+    "sha256": "e242fcf0dcfbc36310cf7d87502562fa6b5f4699dc30f25c1aed1ec193c7067b",
+    "bytes": 12526
+  },
+  {
+    "source": "starVLA/examples/Robocasa_tabletop/eval_files/wrappers/obs_index_selection_wrapper.py",
+    "destination": "third_party/overlays/starvla/examples/Robocasa_tabletop/eval_files/wrappers/obs_index_selection_wrapper.py",
+    "sha256": "397c79a037072b2468f7f09ad7cb7fa9a0a92f813b044d8fb53157586735372c",
+    "bytes": 5208
+  },
+  {
+    "source": "starVLA/examples/Robocasa_tabletop/eval_files/wrappers/video_recording_wrapper.py",
+    "destination": "third_party/overlays/starvla/examples/Robocasa_tabletop/eval_files/wrappers/video_recording_wrapper.py",
+    "sha256": "11937d9cfc85742bb0ae0fe78eca7c47a29e53091a1d6b34af68eb1fad05277b",
+    "bytes": 8219
+  },
+  {
+    "source": "starVLA/starVLA/model/framework/QwenGR00T.py",
+    "destination": "third_party/overlays/starvla/starVLA/model/framework/QwenGR00T.py",
+    "sha256": "80584312c3e34f24d7a0b93a7b0e653a8a7e8310450ac5dd7fbb78bc49d8627a",
+    "bytes": 12309
+  },
+  {
+    "source": "starVLA/starVLA/model/modules/action_model/GR00T_ActionHeader.py",
+    "destination": "third_party/overlays/starvla/starVLA/model/modules/action_model/GR00T_ActionHeader.py",
+    "sha256": "58f5b12ae5becd5b43b825cbf26d1272930da55330ef7f6e2ac1b1e530928be5",
+    "bytes": 17125
+  },
+  {
+    "source": "starVLA/LICENSE",
+    "destination": "third_party/licenses/starvla-LICENSE",
+    "sha256": "6ca01970c4e66d2d5bebd0a00b55de5b4081017e0f0c97ddb415cda28e3e8ffa",
+    "bytes": 1387
+  },
+  {
+    "source": "starVLA/pyproject.toml",
+    "destination": "environments/starvla/pyproject.toml",
+    "sha256": "17d01326b0fa38590a8869ee9430cd2aa1d9a3b87c905a2caa30408242a52485",
+    "bytes": 2255
+  },
+  {
+    "source": "starVLA/requirements.txt",
+    "destination": "environments/starvla/requirements.txt",
+    "sha256": "e3c9080f0b8abe752301d6e11f3853412df8427a5dce3e3c64c7ce529d23f5ea",
+    "bytes": 463
+  },
+  {
+    "source": "Isaac-GR00T/gr00t/eval/denoise_logger.py",
+    "destination": "third_party/overlays/gr00t_n16/gr00t/eval/denoise_logger.py",
+    "sha256": "50c9e0188d182f81314603a2b0dc1aafc22a74a9d2d1433fc59c2eaeacd9fe42",
+    "bytes": 4392
+  },
+  {
+    "source": "Isaac-GR00T/gr00t/eval/horizon_selector.py",
+    "destination": "third_party/overlays/gr00t_n16/gr00t/eval/horizon_selector.py",
+    "sha256": "afccc1b0b0bc34cb54ba89586e8cd00ca5f323f40e0ace24e051aa855b9690c7",
+    "bytes": 25563
+  },
+  {
+    "source": "Isaac-GR00T/gr00t/eval/rollout_policy.py",
+    "destination": "third_party/overlays/gr00t_n16/gr00t/eval/rollout_policy.py",
+    "sha256": "0a6325b7e2b9ead2ece74b580a0809b62e82dfc33613ba4a9cfb2ef8b6064cf9",
+    "bytes": 53019
+  },
+  {
+    "source": "Isaac-GR00T/gr00t/eval/sim/wrapper/multistep_wrapper.py",
+    "destination": "third_party/overlays/gr00t_n16/gr00t/eval/sim/wrapper/multistep_wrapper.py",
+    "sha256": "1df4c2d60d73d68bc5545f98f255d1d3675f7cb4aee4b1eb0e0b3bb629c34072",
+    "bytes": 16550
+  },
+  {
+    "source": "Isaac-GR00T/gr00t/eval/sim/wrapper/video_recording_wrapper.py",
+    "destination": "third_party/overlays/gr00t_n16/gr00t/eval/sim/wrapper/video_recording_wrapper.py",
+    "sha256": "c8474e0c9099595dde6c29a1a6e303b68c365536bd483c156a944b0bbbbc8792",
+    "bytes": 19930
+  },
+  {
+    "source": "Isaac-GR00T/gr00t/eval/stride_selector.py",
+    "destination": "third_party/overlays/gr00t_n16/gr00t/eval/stride_selector.py",
+    "sha256": "73541b51143a3ea7bc7c466e494aae9a204f79993d71e031a58e83ff0323b110",
+    "bytes": 24718
+  },
+  {
+    "source": "Isaac-GR00T/gr00t/model/gr00t_n1d6/gr00t_n1d6.py",
+    "destination": "third_party/overlays/gr00t_n16/gr00t/model/gr00t_n1d6/gr00t_n1d6.py",
+    "sha256": "290148bc44f703f4460f9de1cffccf00877529a15d6cc3ee9671d1d51cccaa18",
+    "bytes": 22503
+  },
+  {
+    "source": "Isaac-GR00T/gr00t/policy/gr00t_policy.py",
+    "destination": "third_party/overlays/gr00t_n16/gr00t/policy/gr00t_policy.py",
+    "sha256": "6f8629493c7a80abb85e4f721d7fff86ccfa95e0a7958dd8e7c2f7ea4e493648",
+    "bytes": 31199
+  },
+  {
+    "source": "Isaac-GR00T/scripts/deployment/__init__.py",
+    "destination": "third_party/overlays/gr00t_n16/scripts/deployment/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "source": "Isaac-GR00T/scripts/deployment/benchmark_inference.py",
+    "destination": "third_party/overlays/gr00t_n16/scripts/deployment/benchmark_inference.py",
+    "sha256": "c364ce9c25481db192f9ff1ade8b05c865cebec7f9383a36374e6c09bdcd0728",
+    "bytes": 22102
+  },
+  {
+    "source": "Isaac-GR00T/scripts/deployment/build_tensorrt_engine.py",
+    "destination": "third_party/overlays/gr00t_n16/scripts/deployment/build_tensorrt_engine.py",
+    "sha256": "5a274ab2185e61cd673931699d3d9b9f77dc937774cb33ebc69822e5657b58b0",
+    "bytes": 7833
+  },
+  {
+    "source": "Isaac-GR00T/scripts/deployment/export_onnx_n1d6.py",
+    "destination": "third_party/overlays/gr00t_n16/scripts/deployment/export_onnx_n1d6.py",
+    "sha256": "e3193edbe1e59a3a2633f002e4363f39b76937dbcfa6f7877f9b3b040baa5ace",
+    "bytes": 14533
+  },
+  {
+    "source": "Isaac-GR00T/scripts/deployment/standalone_inference_script.py",
+    "destination": "third_party/overlays/gr00t_n16/scripts/deployment/standalone_inference_script.py",
+    "sha256": "a512740881a2f175386014803ce62c2c8254b8e5dc49987d684c9d8e04a59c31",
+    "bytes": 29132
+  },
+  {
+    "source": "Isaac-GR00T/scripts/eval/check_sim_eval_ready.py",
+    "destination": "third_party/overlays/gr00t_n16/scripts/eval/check_sim_eval_ready.py",
+    "sha256": "a76b87175e46ee1538b08997190e67524ffb644378253915407d3791928a1c82",
+    "bytes": 10210
+  },
+  {
+    "source": "Isaac-GR00T/scripts/lerobot_conversion/convert_v3_to_v2.py",
+    "destination": "third_party/overlays/gr00t_n16/scripts/lerobot_conversion/convert_v3_to_v2.py",
+    "sha256": "29a8388e48759aa10a17bfcbfd961e038f569e8520392ab61b6014382aec8c0e",
+    "bytes": 18790
+  },
+  {
+    "source": "Isaac-GR00T/scripts/tools/build_task_metrics.py",
+    "destination": "third_party/overlays/gr00t_n16/scripts/tools/build_task_metrics.py",
+    "sha256": "a647977a7b437dfb705780a5cc70aede6f019c5853dc8b7a8938a577c6194fc5",
+    "bytes": 7160
+  },
+  {
+    "source": "Isaac-GR00T/scripts/tools/fix_n15_stride_direct.py",
+    "destination": "third_party/overlays/gr00t_n16/scripts/tools/fix_n15_stride_direct.py",
+    "sha256": "78f84be9549626082f1a31a93a26e1509d68ca2bb1959be2c77814cb5d3ff995",
+    "bytes": 17256
+  },
+  {
+    "source": "Isaac-GR00T/scripts/tools/migrate_united_eval_results.py",
+    "destination": "third_party/overlays/gr00t_n16/scripts/tools/migrate_united_eval_results.py",
+    "sha256": "343a0b46f55e07b039146b6ced765995ab5285f0b9c695e6ea11a5bd2c5f15d5",
+    "bytes": 9003
+  },
+  {
+    "source": "Isaac-GR00T/scripts/tools/patch_n15_stride_ts.py",
+    "destination": "third_party/overlays/gr00t_n16/scripts/tools/patch_n15_stride_ts.py",
+    "sha256": "b9cf4364817bdc9dc1c59edff12393aed74c213dca57a0313d4016c126b4985a",
+    "bytes": 81148
+  },
+  {
+    "source": "Isaac-GR00T/scripts/tools/patch_starvla_stride_ts.py",
+    "destination": "third_party/overlays/gr00t_n16/scripts/tools/patch_starvla_stride_ts.py",
+    "sha256": "1a4f3bb669e1e22ecb637e97344c555b9cb6a9a074cdfd75e2e07634b52d2b87",
+    "bytes": 17069
+  },
+  {
+    "source": "Isaac-GR00T/scripts/tools/refill_chunk_from_npz.py",
+    "destination": "third_party/overlays/gr00t_n16/scripts/tools/refill_chunk_from_npz.py",
+    "sha256": "fe6f78fb7b90dca8c065727da7b273fdace9e41a998bd2e5b71f916f5b8b8eeb",
+    "bytes": 10848
+  },
+  {
+    "source": "Isaac-GR00T/LICENSE",
+    "destination": "third_party/licenses/gr00t_n16-LICENSE",
+    "sha256": "564046abbef821cefd5c169d34ee1e96b3dfb72cf0be81de41ef8f4a1323c5a3",
+    "bytes": 4729
+  },
+  {
+    "source": "Isaac-GR00T/pyproject.toml",
+    "destination": "environments/gr00t_n16/pyproject.toml",
+    "sha256": "9259d597890adf3a0e355c628d7423078f6a96a75afe886c74b9a12499305a29",
+    "bytes": 3363
+  },
+  {
+    "source": "Isaac-GR00T/uv.lock",
+    "destination": "environments/gr00t_n16/uv.lock",
+    "sha256": "fc0a04224158627271440c98edae34ba96e240f20fd4c631eeafcc20a6caf6e5",
+    "bytes": 505321
+  },
+  {
+    "source": "Isaac-GR00T-n1.5/gr00t/eval/denoise_logger.py",
+    "destination": "third_party/overlays/gr00t_n15/gr00t/eval/denoise_logger.py",
+    "sha256": "50c9e0188d182f81314603a2b0dc1aafc22a74a9d2d1433fc59c2eaeacd9fe42",
+    "bytes": 4392
+  },
+  {
+    "source": "Isaac-GR00T-n1.5/gr00t/eval/robot.py",
+    "destination": "third_party/overlays/gr00t_n15/gr00t/eval/robot.py",
+    "sha256": "2cd5fce136c81339de27eec3acc7b3172315a3b018da9206e346689c69d49744",
+    "bytes": 2256
+  },
+  {
+    "source": "Isaac-GR00T-n1.5/gr00t/eval/simulation.py",
+    "destination": "third_party/overlays/gr00t_n15/gr00t/eval/simulation.py",
+    "sha256": "0dd368f43fd1e7c329aab4639f6a681495a178b4422a5f36c68f7e31dcadc181",
+    "bytes": 44287
+  },
+  {
+    "source": "Isaac-GR00T-n1.5/gr00t/eval/stride_selector.py",
+    "destination": "third_party/overlays/gr00t_n15/gr00t/eval/stride_selector.py",
+    "sha256": "8ad47e374f5168df09ce5ab4e0a9b95914e19cdf712e44c5f162094646ffe8ed",
+    "bytes": 25489
+  },
+  {
+    "source": "Isaac-GR00T-n1.5/gr00t/eval/wrappers/multistep_wrapper.py",
+    "destination": "third_party/overlays/gr00t_n15/gr00t/eval/wrappers/multistep_wrapper.py",
+    "sha256": "5bbc26daa670a175a9b8be40806a2a8ee78897c02aeb0932f1ded604eed1ca06",
+    "bytes": 13406
+  },
+  {
+    "source": "Isaac-GR00T-n1.5/gr00t/eval/wrappers/video_recording_wrapper.py",
+    "destination": "third_party/overlays/gr00t_n15/gr00t/eval/wrappers/video_recording_wrapper.py",
+    "sha256": "68793da6208543ad9ff34b45784014b9ab3b67b353c31583c119d6129a849f4b",
+    "bytes": 8571
+  },
+  {
+    "source": "Isaac-GR00T-n1.5/gr00t/model/action_head/flow_matching_action_head.py",
+    "destination": "third_party/overlays/gr00t_n15/gr00t/model/action_head/flow_matching_action_head.py",
+    "sha256": "28c66a21d404039eba4497f3042820f0e180db1e7560eba89ac384f50100ee20",
+    "bytes": 17968
+  },
+  {
+    "source": "Isaac-GR00T-n1.5/gr00t/model/gr00t_n1.py",
+    "destination": "third_party/overlays/gr00t_n15/gr00t/model/gr00t_n1.py",
+    "sha256": "288c1939a80d56daf6bf55246db62c4845ab88f38c0fac3e1a1a84915d4b294a",
+    "bytes": 9952
+  },
+  {
+    "source": "Isaac-GR00T-n1.5/gr00t/model/policy.py",
+    "destination": "third_party/overlays/gr00t_n15/gr00t/model/policy.py",
+    "sha256": "5f68de58eec7ad8a53e31e0b7d1ca7f77527f12e8f78e054c08e850a77f38962",
+    "bytes": 15386
+  },
+  {
+    "source": "Isaac-GR00T-n1.5/scripts/eval_policy.py",
+    "destination": "third_party/overlays/gr00t_n15/scripts/eval_policy.py",
+    "sha256": "61c4cbbd0d4aa0eda047bcd242eeec768d138527e0e09f060800751bdc252c7e",
+    "bytes": 5827
+  },
+  {
+    "source": "Isaac-GR00T-n1.5/scripts/gr00t_finetune.py",
+    "destination": "third_party/overlays/gr00t_n15/scripts/gr00t_finetune.py",
+    "sha256": "d2e48341e279ef762a4907f72d5bbc74dc07620f5f5f385a2b456cd5364d8175",
+    "bytes": 17356
+  },
+  {
+    "source": "Isaac-GR00T-n1.5/scripts/http_client_example.py",
+    "destination": "third_party/overlays/gr00t_n15/scripts/http_client_example.py",
+    "sha256": "8f04c6c5702b47f7adfeeee295e2e67513f5061622fb6b3ed4f3ed0c91c6464f",
+    "bytes": 695
+  },
+  {
+    "source": "Isaac-GR00T-n1.5/scripts/inference_service.py",
+    "destination": "third_party/overlays/gr00t_n15/scripts/inference_service.py",
+    "sha256": "865e94236a4d9178771f9e7992b66964e08c91f96126ed89f4b8e0f18d3de879",
+    "bytes": 9596
+  },
+  {
+    "source": "Isaac-GR00T-n1.5/scripts/load_dataset.py",
+    "destination": "third_party/overlays/gr00t_n15/scripts/load_dataset.py",
+    "sha256": "c8c952b2548656264687e0a46f1b1eb4eefa94d1ca405654718562896585cc26",
+    "bytes": 11712
+  },
+  {
+    "source": "Isaac-GR00T-n1.5/scripts/simulation_service.py",
+    "destination": "third_party/overlays/gr00t_n15/scripts/simulation_service.py",
+    "sha256": "ee72aa2bc6fd9434f7ccbd3dedcb1271b2a83fb62cc1a0b312e0561b7ceba66a",
+    "bytes": 7720
+  },
+  {
+    "source": "Isaac-GR00T-n1.5/LICENSE",
+    "destination": "third_party/licenses/gr00t_n15-LICENSE",
+    "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+    "bytes": 11357
+  },
+  {
+    "source": "Isaac-GR00T-n1.5/pyproject.toml",
+    "destination": "environments/gr00t_n15/pyproject.toml",
+    "sha256": "47af71692d3ae90d2153548adb5f8afe7525b8b877f09cf396d758bbbb8031c3",
+    "bytes": 3641
+  },
+  {
+    "source": "X-VLA/evaluation/robotwin-2.0_horizon/client.py",
+    "destination": "third_party/overlays/xvla/evaluation/robotwin-2.0_horizon/client.py",
+    "sha256": "1eb40a2c0f6a94b211722561af7b89e7d36782261df5ec008069eadbb91e4ada",
+    "bytes": 67333
+  },
+  {
+    "source": "X-VLA/evaluation/robotwin-2.0_horizon/denoise_logger.py",
+    "destination": "third_party/overlays/xvla/evaluation/robotwin-2.0_horizon/denoise_logger.py",
+    "sha256": "7af4661d7c2eef9539e0793ff81f52056803735fe3f88a88301e8fd8bad7aad7",
+    "bytes": 4990
+  },
+  {
+    "source": "X-VLA/evaluation/robotwin-2.0_horizon/scripts/tools/validate_horizon_info_schema.py",
+    "destination": "third_party/overlays/xvla/evaluation/robotwin-2.0_horizon/scripts/tools/validate_horizon_info_schema.py",
+    "sha256": "1c8fdcd2ca012f2e8b167791a38e8fb99d939ee452e04aecc5a2a28004297cda",
+    "bytes": 5586
+  },
+  {
+    "source": "X-VLA/evaluation/robotwin-2.0_horizon/scripts/tools/validate_horizon_selectors.py",
+    "destination": "third_party/overlays/xvla/evaluation/robotwin-2.0_horizon/scripts/tools/validate_horizon_selectors.py",
+    "sha256": "7a3b1bfd6872d68e070ae4450d5964db51fb48b0ae613050477c77ef4433d97d",
+    "bytes": 5576
+  },
+  {
+    "source": "X-VLA/models/modeling_xvla.py",
+    "destination": "third_party/overlays/xvla/models/modeling_xvla.py",
+    "sha256": "d02841a35b0b2ebd67052249d8ca9d4f34aa08b7e05de44f4588a5083dcf1395",
+    "bytes": 13395
+  },
+  {
+    "source": "X-VLA/LICENSE",
+    "destination": "third_party/licenses/xvla-LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "bytes": 11357
+  },
+  {
+    "source": "X-VLA/requirements.txt",
+    "destination": "environments/xvla/requirements.txt",
+    "sha256": "45c55a83f3cc60a0a9787f2d00a0ca4eb0b5340d85c4439e4c9a4e5037adead3",
+    "bytes": 251
+  },
+  {
+    "source": "X-VLA/environment.yml",
+    "destination": "environments/xvla/environment.yml",
+    "sha256": "7888fc94b6233b91110702477abac2421f6dec9d3010a6025045c3dd6ce104c2",
+    "bytes": 1019
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/audit_semantics.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/audit_semantics.py",
+    "sha256": "1f3650be488e420d22eae0fc9e297a7772b10cb81d0368723012a1b8aca53a11",
+    "bytes": 9827
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/calibrate.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/calibrate.py",
+    "sha256": "ce2b1f416633b3ac74acef44832e69b4e32bdffffb309d6d737ae5bd2da8759d",
+    "bytes": 6009
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/common.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/common.py",
+    "sha256": "c4ea4009db0c45492f8b222bc6860e9bb5ca37922119247d9f0dbce9f83c59d2",
+    "bytes": 3328
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/controller.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/controller.py",
+    "sha256": "fc3327e6919d29dbfa14357b644a95b55e041fd24d3c8bc9242c78bbe39023b8",
+    "bytes": 6390
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/controller_audit.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/controller_audit.py",
+    "sha256": "4a60c0bc101d98666665ce5d7f58f1b9416655ef9f3da172c3a18a4c375b15ca",
+    "bytes": 2065
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/engine.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/engine.py",
+    "sha256": "be2d147d6dd71915dd332537458e6ed5ba81968701c16b83d399e2455536cb5a",
+    "bytes": 5090
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/focused_dashboard.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/focused_dashboard.py",
+    "sha256": "982e8dbf67fd4a81c2cdb97622b6680ea0414bfd17e6fc45868dbff5ab3ab253",
+    "bytes": 5191
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/formal_cohorts.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/formal_cohorts.py",
+    "sha256": "d8a80923b302fb1a20a5649ff831df5a5bc4149cc535dd8652ae7e6a2a428122",
+    "bytes": 3639
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/integrity.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/integrity.py",
+    "sha256": "3949260d67e85410c1bb8bb3434745c8999b993cd10ee5201673d3613a812b62",
+    "bytes": 1018
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/k40_pipeline.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/k40_pipeline.py",
+    "sha256": "e3aa8a201d76abd5f042f3965669169eade5106bcc34e77355f6cec79785eec0",
+    "bytes": 8804
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/latency_profile.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/latency_profile.py",
+    "sha256": "47475ac5ce9935274ede9bb493b53b7b0436be05df7970ea70781e19d05ebdb6",
+    "bytes": 3744
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/lazy_planner.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/lazy_planner.py",
+    "sha256": "3a97c68d5e9591465644354f2549b5e8c7da1912b2f9dd838c758998c21c7e61",
+    "bytes": 1513
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/manifests.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/manifests.py",
+    "sha256": "41f03e52c63cd153af7c750e1274879b693fde47985bfee6e3b3ee258f0bd4e8",
+    "bytes": 2785
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/monitor.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/monitor.py",
+    "sha256": "0d7325b3813caeb4ff6d9372667b266833ac2bb7e09d2227c93de9248c6d52d9",
+    "bytes": 3018
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/n100_pipeline.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/n100_pipeline.py",
+    "sha256": "3d1cddc5d88ad05f5b2989b0cf644434e6562bb28a9750c49c761348516c996f",
+    "bytes": 7586
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/original_controller.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/original_controller.py",
+    "sha256": "14706a0d0351f0d7bb4be44a8ff92a0d09dbdebd056f2c315dc61028bf9eeb0f",
+    "bytes": 6120
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/panel_config.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/panel_config.py",
+    "sha256": "5f10a643db5ab21641ee74828210c94773575fc7ae1f348a06ff9f90214515df",
+    "bytes": 2704
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/panel_run_block.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/panel_run_block.py",
+    "sha256": "7491f584a3dbf287bb6a4440868d064f22d7c9e259a636a7025f9569f9318ab2",
+    "bytes": 4247
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/pi05_four_queue.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/pi05_four_queue.py",
+    "sha256": "d57e86d2d20e7a07e9c7c4876d9c1e3c1e3763f46132d02a69a7c244df320232",
+    "bytes": 4129
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/pipeline.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/pipeline.py",
+    "sha256": "00b4bfdbf2c8182f079b2e4e0004b70f474aaea81b844a6dc7c806cfed3c63b3",
+    "bytes": 12063
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/plot_timeline.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/plot_timeline.py",
+    "sha256": "e777fef233d5be2cb7635536f3166d776da578e8867d3d6ce12dcf493add4111",
+    "bytes": 2322
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/priority_pipeline.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/priority_pipeline.py",
+    "sha256": "0325b4dfbbad4d7501008104113128b1b1b5afc5309e449bfaabb0d2348f6af7",
+    "bytes": 11851
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/probe_model.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/probe_model.py",
+    "sha256": "12c35629502641b06e3e6fa05e99fddea62f94ea180c8c8039716766e8b14af7",
+    "bytes": 3500
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/probe_scene.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/probe_scene.py",
+    "sha256": "651eb07e245d7e41461b50d34250df8d240353897edbdd18d29d7a7a732be1e2",
+    "bytes": 1008
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/provenance.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/provenance.py",
+    "sha256": "b9add8b4ed455b45b975e4f91949fcb33b21afad2f913d635a2f5e298976583d",
+    "bytes": 2639
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/recovery_probe.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/recovery_probe.py",
+    "sha256": "54877fd88b8895c5ddc395eebc3f576d14e7f4ad9a0f76757740e0f72643960a",
+    "bytes": 3332
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/report.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/report.py",
+    "sha256": "946579683a8f7e0158faab30d114734833492e30c9a262fede2f21dd733a395f",
+    "bytes": 18368
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/run_block.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/run_block.py",
+    "sha256": "df739f10f08f9ffd31bbcb7e15222c90653542606a8ddb6b7379f5a6069dec08",
+    "bytes": 9076
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/run_tests.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/run_tests.py",
+    "sha256": "f48650face17ced02121f4481fe06c6a45d3311082df7de5124753a1c6976158",
+    "bytes": 694
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/sampler.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/sampler.py",
+    "sha256": "2b6dbca3433282813125d4b329f9133c7227633c029b91431ee27b924a5c0528",
+    "bytes": 4401
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/scene.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/scene.py",
+    "sha256": "8b2d83fcc93e25496d96b7efff504e38e6e72cc2eaca25ede08a5ea8b017b1b6",
+    "bytes": 2016
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/selector.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/selector.py",
+    "sha256": "44ee901b6397c77405e073cc5909d18e869dd64f96aea7e2c17d94475481b8bd",
+    "bytes": 19781
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/semantic_gate.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/semantic_gate.py",
+    "sha256": "2ef4a4b0d7005974d1ed153f977573097bb7403d23fd180f1617d7de83dd4bdb",
+    "bytes": 3433
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/trace_io.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/trace_io.py",
+    "sha256": "441d5acb186806f609e79f69c49b7291681d09f815695fef77c6e380802bd71b",
+    "bytes": 1036
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/update_live_panel_md.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/update_live_panel_md.py",
+    "sha256": "0aff656d00a603c6f56c6014752f507b58b1746e4f5f753134a31149fe1c1b85",
+    "bytes": 3762
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/worker.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/runtime/worker.py",
+    "sha256": "3f2a0fe015338776f393d3feff05d602731cd042adb2e9c5e2c572b996c73cf3",
+    "bytes": 16469
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/tests/test_contracts.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/tests/test_contracts.py",
+    "sha256": "607ebcbe1135ac3ace0ce6c398e1bb98057b4d9e3032ff679085ab20e1936d5a",
+    "bytes": 9042
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/tests/test_focus_queue.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/tests/test_focus_queue.py",
+    "sha256": "3f42a38fd698579ea468d981fa6e553b0467640f5506c93e513f565faf8d6aec",
+    "bytes": 2394
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/tests/test_n100_resume.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/tests/test_n100_resume.py",
+    "sha256": "9bb927a5e43e22d65471b6f049ad229077a01b6507d933a1bc05871e645dadca",
+    "bytes": 4783
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/tests/test_panel_reuse.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/tests/test_panel_reuse.py",
+    "sha256": "cdec729d91479d31a05d5cd5dbfd5fb2754233af6b80f7c4b7b290db143584f9",
+    "bytes": 4680
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/tests/test_revision.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/tests/test_revision.py",
+    "sha256": "dcce8d5bd26f00904753d781cef7ec512b99d605f07b18d3db8b1047a2003749",
+    "bytes": 6166
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/tests/test_rtc_equations.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/tests/test_rtc_equations.py",
+    "sha256": "8724a95c4e0fdd66b272272164324383db544422710d1036ad4f335dcc22a023",
+    "bytes": 3659
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/tests/test_trace_io.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/tests/test_trace_io.py",
+    "sha256": "dc6cf7b44dcd56358a1b7d98adca81ebeb421bfe52ab5b4d59ce593c4883f280",
+    "bytes": 1316
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/audit_semantics.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/audit_semantics.py",
+    "sha256": "1f3650be488e420d22eae0fc9e297a7772b10cb81d0368723012a1b8aca53a11",
+    "bytes": 9827
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/calibrate.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/calibrate.py",
+    "sha256": "ce2b1f416633b3ac74acef44832e69b4e32bdffffb309d6d737ae5bd2da8759d",
+    "bytes": 6009
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/common.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/common.py",
+    "sha256": "c4ea4009db0c45492f8b222bc6860e9bb5ca37922119247d9f0dbce9f83c59d2",
+    "bytes": 3328
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/controller.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/controller.py",
+    "sha256": "fc3327e6919d29dbfa14357b644a95b55e041fd24d3c8bc9242c78bbe39023b8",
+    "bytes": 6390
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/controller_audit.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/controller_audit.py",
+    "sha256": "4a60c0bc101d98666665ce5d7f58f1b9416655ef9f3da172c3a18a4c375b15ca",
+    "bytes": 2065
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/easy_contract.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/easy_contract.py",
+    "sha256": "88d787ac25149751be90acf0c4d0bc6f23699d2ed04e9226c3cd89b0fc9ab4a8",
+    "bytes": 2079
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/easy_pipeline.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/easy_pipeline.py",
+    "sha256": "192add6fef55cbaf2040dc9f3300db9d1296bc7c436fe1bf745b8d9dc477b172",
+    "bytes": 2309
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/easy_run_block.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/easy_run_block.py",
+    "sha256": "1730cb9820214a75eb3c4a2b0449b328addb63be07398937d707ebd2af9aa2c4",
+    "bytes": 1780
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/engine.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/engine.py",
+    "sha256": "be2d147d6dd71915dd332537458e6ed5ba81968701c16b83d399e2455536cb5a",
+    "bytes": 5090
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/formal_cohorts.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/formal_cohorts.py",
+    "sha256": "d8a80923b302fb1a20a5649ff831df5a5bc4149cc535dd8652ae7e6a2a428122",
+    "bytes": 3639
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/integrity.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/integrity.py",
+    "sha256": "3949260d67e85410c1bb8bb3434745c8999b993cd10ee5201673d3613a812b62",
+    "bytes": 1018
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/k40_pipeline.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/k40_pipeline.py",
+    "sha256": "e3aa8a201d76abd5f042f3965669169eade5106bcc34e77355f6cec79785eec0",
+    "bytes": 8804
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/latency_profile.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/latency_profile.py",
+    "sha256": "47475ac5ce9935274ede9bb493b53b7b0436be05df7970ea70781e19d05ebdb6",
+    "bytes": 3744
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/lazy_planner.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/lazy_planner.py",
+    "sha256": "3a97c68d5e9591465644354f2549b5e8c7da1912b2f9dd838c758998c21c7e61",
+    "bytes": 1513
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/manifests.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/manifests.py",
+    "sha256": "f5a730963784eda84bfbe3196c84a0219df97c6d5bc5e28b8a53061d1f9c0435",
+    "bytes": 2780
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/monitor.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/monitor.py",
+    "sha256": "0d7325b3813caeb4ff6d9372667b266833ac2bb7e09d2227c93de9248c6d52d9",
+    "bytes": 3018
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/n100_pipeline.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/n100_pipeline.py",
+    "sha256": "3d1cddc5d88ad05f5b2989b0cf644434e6562bb28a9750c49c761348516c996f",
+    "bytes": 7586
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/original_controller.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/original_controller.py",
+    "sha256": "14706a0d0351f0d7bb4be44a8ff92a0d09dbdebd056f2c315dc61028bf9eeb0f",
+    "bytes": 6120
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/panel_config.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/panel_config.py",
+    "sha256": "5f10a643db5ab21641ee74828210c94773575fc7ae1f348a06ff9f90214515df",
+    "bytes": 2704
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/panel_run_block.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/panel_run_block.py",
+    "sha256": "7491f584a3dbf287bb6a4440868d064f22d7c9e259a636a7025f9569f9318ab2",
+    "bytes": 4247
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/pipeline.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/pipeline.py",
+    "sha256": "eec31cca367b237f14cd0bc24b639fed0a699e97abed45544e4d2a61c8b585d9",
+    "bytes": 12085
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/plot_timeline.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/plot_timeline.py",
+    "sha256": "e777fef233d5be2cb7635536f3166d776da578e8867d3d6ce12dcf493add4111",
+    "bytes": 2322
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/priority_pipeline.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/priority_pipeline.py",
+    "sha256": "0325b4dfbbad4d7501008104113128b1b1b5afc5309e449bfaabb0d2348f6af7",
+    "bytes": 11851
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/probe_model.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/probe_model.py",
+    "sha256": "12c35629502641b06e3e6fa05e99fddea62f94ea180c8c8039716766e8b14af7",
+    "bytes": 3500
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/probe_scene.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/probe_scene.py",
+    "sha256": "651eb07e245d7e41461b50d34250df8d240353897edbdd18d29d7a7a732be1e2",
+    "bytes": 1008
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/provenance.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/provenance.py",
+    "sha256": "b9add8b4ed455b45b975e4f91949fcb33b21afad2f913d635a2f5e298976583d",
+    "bytes": 2639
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/recovery_probe.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/recovery_probe.py",
+    "sha256": "54877fd88b8895c5ddc395eebc3f576d14e7f4ad9a0f76757740e0f72643960a",
+    "bytes": 3332
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/report.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/report.py",
+    "sha256": "946579683a8f7e0158faab30d114734833492e30c9a262fede2f21dd733a395f",
+    "bytes": 18368
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/run_block.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/run_block.py",
+    "sha256": "df739f10f08f9ffd31bbcb7e15222c90653542606a8ddb6b7379f5a6069dec08",
+    "bytes": 9076
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/run_tests.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/run_tests.py",
+    "sha256": "f48650face17ced02121f4481fe06c6a45d3311082df7de5124753a1c6976158",
+    "bytes": 694
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/sampler.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/sampler.py",
+    "sha256": "2b6dbca3433282813125d4b329f9133c7227633c029b91431ee27b924a5c0528",
+    "bytes": 4401
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/scene.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/scene.py",
+    "sha256": "ce919635e13203229b06f8fa7f9ebe9c9ec0995b24ad68f35ff12f5e222335cb",
+    "bytes": 2011
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/selector.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/selector.py",
+    "sha256": "44ee901b6397c77405e073cc5909d18e869dd64f96aea7e2c17d94475481b8bd",
+    "bytes": 19781
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/semantic_gate.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/semantic_gate.py",
+    "sha256": "2ef4a4b0d7005974d1ed153f977573097bb7403d23fd180f1617d7de83dd4bdb",
+    "bytes": 3433
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/trace_io.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/trace_io.py",
+    "sha256": "441d5acb186806f609e79f69c49b7291681d09f815695fef77c6e380802bd71b",
+    "bytes": 1036
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/update_live_panel_md.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/update_live_panel_md.py",
+    "sha256": "1445cb098ac2b14e1e8a555ffcc6a6e9f1f14b1f896bb4ff958f9a13985b1e0c",
+    "bytes": 3615
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/worker.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/runtime/worker.py",
+    "sha256": "3f2a0fe015338776f393d3feff05d602731cd042adb2e9c5e2c572b996c73cf3",
+    "bytes": 16469
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/tests/test_contracts.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/tests/test_contracts.py",
+    "sha256": "607ebcbe1135ac3ace0ce6c398e1bb98057b4d9e3032ff679085ab20e1936d5a",
+    "bytes": 9042
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/tests/test_n100_resume.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/tests/test_n100_resume.py",
+    "sha256": "9bb927a5e43e22d65471b6f049ad229077a01b6507d933a1bc05871e645dadca",
+    "bytes": 4783
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/tests/test_panel_reuse.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/tests/test_panel_reuse.py",
+    "sha256": "cdec729d91479d31a05d5cd5dbfd5fb2754233af6b80f7c4b7b290db143584f9",
+    "bytes": 4680
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/tests/test_revision.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/tests/test_revision.py",
+    "sha256": "dcce8d5bd26f00904753d781cef7ec512b99d605f07b18d3db8b1047a2003749",
+    "bytes": 6166
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/tests/test_rtc_equations.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/tests/test_rtc_equations.py",
+    "sha256": "8724a95c4e0fdd66b272272164324383db544422710d1036ad4f335dcc22a023",
+    "bytes": 3659
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/tests/test_trace_io.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/tests/test_trace_io.py",
+    "sha256": "dc6cf7b44dcd56358a1b7d98adca81ebeb421bfe52ab5b4d59ce593c4883f280",
+    "bytes": 1316
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/__init__.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/conftest.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/conftest.py",
+    "sha256": "626672e385fb276396c119e2220421065c58f8ec602401e8bf2ae509f9fffaf3",
+    "bytes": 339
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/models/__init__.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/models/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/models/gemma.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/models/gemma.py",
+    "sha256": "7e42ada4ae7e9995f0ef3e33a0c224758323c2015e2d9d72ec15726a8a001d2a",
+    "bytes": 17146
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/models/gemma_fast.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/models/gemma_fast.py",
+    "sha256": "563c6e1ffd8afa31c406bcb8894a605e87df88f6c075d398d97a57af6bc3aefa",
+    "bytes": 15643
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/models/lora.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/models/lora.py",
+    "sha256": "ced28716950c34d84a1a6d0b03b1d9550000732721df884818080b6e78cb3289",
+    "bytes": 5342
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/models/lora_test.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/models/lora_test.py",
+    "sha256": "a0f10525de7773310402b3ffa636e88ffff7035f3179b140aacc6809c122f085",
+    "bytes": 3138
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/models/model.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/models/model.py",
+    "sha256": "b6230d6d277bc26c53add1c6cd8161455b9d14970392e535722c24337b4c5332",
+    "bytes": 12943
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/models/model_test.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/models/model_test.py",
+    "sha256": "325ae89dcbd6b253deba851e1df2536901ec8aa78c428a738de29a49be1c776b",
+    "bytes": 6487
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/models/pi0.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/models/pi0.py",
+    "sha256": "f8a009b16bed8decd6af4038708ffb1166a50718c7bfbe6f0afe7c5dbac7d4df",
+    "bytes": 42766
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/models/pi0_config.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/models/pi0_config.py",
+    "sha256": "904d0536e6c4fef9976b86f658aac1ff1010eb5eaf2ab2b113de465aaaac9d90",
+    "bytes": 10373
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/models/pi0_fast.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/models/pi0_fast.py",
+    "sha256": "627332a555046f2744ef144c45f8bd3361a9820cf68854a4528d0fdbba7e9aa3",
+    "bytes": 13209
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/models/pi0_test.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/models/pi0_test.py",
+    "sha256": "5082873014a7fc45fb8414f517909e1c24cdafea980a1fb612e0aea6058ed0fe",
+    "bytes": 1631
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/models/qha.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/models/qha.py",
+    "sha256": "f2b6a5e697f5ee89aeb65a944c537e18b0630c754463f11d1f1e45edbb509ca1",
+    "bytes": 30658
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/models/siglip.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/models/siglip.py",
+    "sha256": "14b4df0be280d5769fb0dc31a40cde27525dbb1980cc998c28475d62fa3cad32",
+    "bytes": 12078
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/models/tokenizer.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/models/tokenizer.py",
+    "sha256": "965be8b3c393a6811875bbc32da9e01a5d01cc2f87802de801cf7293e049748c",
+    "bytes": 17517
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/models/tokenizer_test.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/models/tokenizer_test.py",
+    "sha256": "5abd179ce883420e39d4d18b33d0123290af752da243003aa48a3bc06dbb9517",
+    "bytes": 807
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/models/utils/fsq_tokenizer.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/models/utils/fsq_tokenizer.py",
+    "sha256": "88866638ee4775f46a222561a957bd35e20600fe38c5888b587016ad77b1065f",
+    "bytes": 15928
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/models/vit.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/models/vit.py",
+    "sha256": "d285d057636c3cba2d1fd3b37693b18075ad4b9c3b47bbde807c34c6c376ac93",
+    "bytes": 10266
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/models_pytorch/gemma_pytorch.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/models_pytorch/gemma_pytorch.py",
+    "sha256": "08fd8d750519f0fb44fc5173311e50a30f4c8f32c02e51244b4f8e47b32cd52f",
+    "bytes": 13509
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/models_pytorch/pi0_pytorch.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/models_pytorch/pi0_pytorch.py",
+    "sha256": "0c7b9f1de02ed886da49035e3fa1b38efea46eb6209489cb4f594f777f97b70c",
+    "bytes": 19014
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/models_pytorch/preprocessing_pytorch.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/models_pytorch/preprocessing_pytorch.py",
+    "sha256": "6a44e91be2d7a724c6140d2cc98ed0a631b8d38bbb29f63b380a0a19f903bbf6",
+    "bytes": 7264
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/models_pytorch/transformers_replace/models/gemma/configuration_gemma.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/models_pytorch/transformers_replace/models/gemma/configuration_gemma.py",
+    "sha256": "26fd0d0f52730ab32b6f337eb73ae9a26cb71ae0915bc49eced1d0e2ed8d0ec6",
+    "bytes": 8958
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/models_pytorch/transformers_replace/models/gemma/modeling_gemma.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/models_pytorch/transformers_replace/models/gemma/modeling_gemma.py",
+    "sha256": "17eeb54e277939e58cd6f8a92719a275e36baf0c9f463b2754227d42f87aedde",
+    "bytes": 36392
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/models_pytorch/transformers_replace/models/paligemma/modeling_paligemma.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/models_pytorch/transformers_replace/models/paligemma/modeling_paligemma.py",
+    "sha256": "c945d330b829264f927f3ee5339f977238631772de07a28e855e265bb85fd53c",
+    "bytes": 27688
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/models_pytorch/transformers_replace/models/siglip/check.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/models_pytorch/transformers_replace/models/siglip/check.py",
+    "sha256": "466e8eb7887ac5ccc98118a3169298d6ab65a284d834bae74751e3854dbc4245",
+    "bytes": 133
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/models_pytorch/transformers_replace/models/siglip/modeling_siglip.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/models_pytorch/transformers_replace/models/siglip/modeling_siglip.py",
+    "sha256": "ef2e99500f263fdd78db9d4d9a255e29d844eb92f53c25ad640f8056700ef84b",
+    "bytes": 50231
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/policies/aloha_policy.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/policies/aloha_policy.py",
+    "sha256": "2482f5f09ecccea9ab846009df5793e1eb6db6da6a58d5a905f98fbf82de350e",
+    "bytes": 8318
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/policies/droid_policy.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/policies/droid_policy.py",
+    "sha256": "7d0893555964d485e231f70084125084a99495705ddd74b29461229d524fff26",
+    "bytes": 3186
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/policies/gr1_tabletop_policy.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/policies/gr1_tabletop_policy.py",
+    "sha256": "7c8543b69fef12980654866ed21b4d729ab73999fdef048c0d3a80264559ef31",
+    "bytes": 5014
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/policies/gr1_tabletop_policy_test.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/policies/gr1_tabletop_policy_test.py",
+    "sha256": "51cd34f3b52623ba951a59d7646e7c9900c8aaf5b9a216ab1029a461609ac703",
+    "bytes": 2798
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/policies/libero_policy.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/policies/libero_policy.py",
+    "sha256": "ad01e5be74516d9ec9aeb1f76294d5c9f7f7179a60f1f7fbbb35e7646534f81a",
+    "bytes": 4320
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/policies/policy.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/policies/policy.py",
+    "sha256": "eb70d3b176b6a74e3ae23eb94a9b39c8630ddcba8dc2684139a417ec86eb6e0b",
+    "bytes": 9924
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/policies/policy_config.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/policies/policy_config.py",
+    "sha256": "c0719935a0d1ff63cd80453f549baddae50c90c976fbfdbec87042a1a42350b3",
+    "bytes": 9322
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/policies/policy_test.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/policies/policy_test.py",
+    "sha256": "9dbb20963600367a7e7abfc97d1e326916777c57a87b39b1bc4070ba64676683",
+    "bytes": 1127
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/serving/websocket_policy_server.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/serving/websocket_policy_server.py",
+    "sha256": "1370d345e6c3c5b8f15573050e485e60a5b423d1df33e24b237805e6b442b026",
+    "bytes": 3051
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/shared/__init__.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/shared/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/shared/array_typing.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/shared/array_typing.py",
+    "sha256": "6524945566eab3eb97b75a6280ba4724617b4d028c55f05172b283c3de68a026",
+    "bytes": 3402
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/shared/download.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/shared/download.py",
+    "sha256": "6f49ff4917fd180b650ab753132a78ff146f30aff8f9f8f7519505a359f62881",
+    "bytes": 7866
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/shared/download_test.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/shared/download_test.py",
+    "sha256": "234ee70ab2501a1421f6c44cbd83c1e16747597023319ae1446bed9d44f17072",
+    "bytes": 1490
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/shared/image_tools.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/shared/image_tools.py",
+    "sha256": "0f8fcb355288119e56acb56d550c1cc1f3a9edddceb0dc5b319f955943ef7767",
+    "bytes": 4665
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/shared/image_tools_test.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/shared/image_tools_test.py",
+    "sha256": "842374579dc9f4c2907da5e8bb555efe5a3f4902b659720c8e90115863dd59fe",
+    "bytes": 1418
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/shared/nnx_utils.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/shared/nnx_utils.py",
+    "sha256": "4da7111ba3011c4d1c381c9ed17257771df6a50ed89182647c3fb6f79208005e",
+    "bytes": 2844
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/shared/normalize.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/shared/normalize.py",
+    "sha256": "6c2cea4946fb07e51801530400d2b2fd94730e195cd290d6b6960114eca9739d",
+    "bytes": 5529
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/shared/normalize_test.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/shared/normalize_test.py",
+    "sha256": "fda27a21cf37f337b12bcab71229407c2a349c5965c33f278bdc468ed03f58af",
+    "bytes": 1521
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/training/checkpoints.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/training/checkpoints.py",
+    "sha256": "19db7180515d400e7425017190fc7050d418a5b40bf8c8874a4568ef1dbd9031",
+    "bytes": 19089
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/training/config.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/training/config.py",
+    "sha256": "3a0cf0ccf7b53fb08a5f7d8eb6500664d56a0fd7e5ceb5dd5a034f2d1ded2450",
+    "bytes": 70255
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/training/data_loader.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/training/data_loader.py",
+    "sha256": "bd374ab23d36524f3f021fe715261609ed0a432ac3f4cf3c0c83f68c1c30e861",
+    "bytes": 79793
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/training/data_loader_test.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/training/data_loader_test.py",
+    "sha256": "e95607e8ff648065d96eb9f03fe2188fa5af65ee81e0686580642636bceb75bf",
+    "bytes": 4787
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/training/droid_rlds_dataset.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/training/droid_rlds_dataset.py",
+    "sha256": "9480e75ab2dbcc16d9219ed0f0982b057e5ba555b1b2b5abc692956568bdc722",
+    "bytes": 9305
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/training/gr1_tabletop24_test.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/training/gr1_tabletop24_test.py",
+    "sha256": "3f307ffb83cc6ce2c17419468be0fd27127a496e037f1d82492978740e970707",
+    "bytes": 7094
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/training/misc/roboarena_config.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/training/misc/roboarena_config.py",
+    "sha256": "914acdd74ccf90e6779c13a5093140595c7e4f687e9e0b167439446a81d74c01",
+    "bytes": 4804
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/training/multitask50_test.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/training/multitask50_test.py",
+    "sha256": "89706b7a34c462038fb14c32b5ab98e43c31f053dc83806770555b7f3dcf0ff8",
+    "bytes": 8244
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/training/online_teacher_workers.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/training/online_teacher_workers.py",
+    "sha256": "586f220eda191e6134f74949c96234d89433aafef1a0b01c54f56cf8177bf6ec",
+    "bytes": 10076
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/training/online_teachers.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/training/online_teachers.py",
+    "sha256": "3a71534c3289f088e3d7ea768355ada761368d4b350570cb12ca01ed5135163e",
+    "bytes": 30633
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/training/optimizer.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/training/optimizer.py",
+    "sha256": "cfb5d6f6aec61fbe961287b4015c652260628a0ed4682a0dbdc271b8e65431fa",
+    "bytes": 3202
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/training/sharding.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/training/sharding.py",
+    "sha256": "2384acbb4c33b1796294efdb088c6cd1a1f6100f505e636434e3c0c894f7def6",
+    "bytes": 4100
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/training/task_sampler_test.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/training/task_sampler_test.py",
+    "sha256": "4ca2d5b0cbbd4c18b926f639b9e364df5337e484dce583251162d88ca888b64f",
+    "bytes": 846
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/training/utils.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/training/utils.py",
+    "sha256": "b684e674343f86ef5e976f279a586d3fe2f885e901f396ac899ed136abc7eca6",
+    "bytes": 1217
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/training/weight_loaders.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/training/weight_loaders.py",
+    "sha256": "a4a06919021b43befd7d18b0a72d0a6ffaac3bd39a76c7322fcb0863b74c5d07",
+    "bytes": 4617
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/transforms.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/transforms.py",
+    "sha256": "4e32529ced5032cb56b0e136545d3bad38aa2b599d43f130d0d250696beaf3c6",
+    "bytes": 20406
+  },
+  {
+    "source": "AUTHOR_HOME/models/pi05_robocasa_gr1_tabletop24_step30000/openpi_runtime/src/openpi/transforms_test.py",
+    "destination": "third_party/overlays/pi05_gr1/src/openpi/transforms_test.py",
+    "sha256": "7a7de46653fc6dac90f26bd93049acae3317d692ac0038879cee7438c2785e33",
+    "bytes": 6178
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/scripts/run_pi05_robocasa_server.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/scripts/run_pi05_robocasa_server.py",
+    "sha256": "88789e77d06c30e80f2190fc819b6ec1310dd0a66fe50ec90c2859599e61d809",
+    "bytes": 5400
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/scripts/run_pi05_robocasa_cell.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/scripts/run_pi05_robocasa_cell.py",
+    "sha256": "c935f7876abfb1fdc5bf0459ae8546321032d694db1d819e25e51be1d67c0133",
+    "bytes": 22229
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/scripts/pi05_robocasa_common.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/scripts/pi05_robocasa_common.py",
+    "sha256": "246a0f671549356c485da342adfa4a905cae34b2686d9afde86c95268370114c",
+    "bytes": 7696
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/scripts/aggregate_pi05_robocasa_base_vs_ahs.py",
+    "destination": "third_party/overlays/robotwin/eval_rebuttal/scripts/aggregate_pi05_robocasa_base_vs_ahs.py",
+    "sha256": "a5bd227e6b2e861e407f34f79560d7898fc9d0cc294094bfdaa8d22e018aa50f",
+    "bytes": 19872
+  },
+  {
+    "source": "Reflex/RoboTwin/LICENSE",
+    "destination": "third_party/licenses/robotwin-LICENSE",
+    "sha256": "c695d421718e54e6f3a60858f0c601125c3ecc60c199332c15947360561e2a9f",
+    "bytes": 1081
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/LICENSE",
+    "destination": "third_party/licenses/openpi-LICENSE",
+    "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+    "bytes": 11356
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/staging/qha_heldout6_formal_20260727_05_step10000/script/eval_policy.py",
+    "destination": "third_party/overlays/qha_heldout/script/eval_policy.py",
+    "sha256": "6690ed66040e90863169268d7785b8d4a86da72faf8beea00ea5b7a0711dd495",
+    "bytes": 30759
+  },
+  {
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/staging/qha_heldout6_formal_20260727_05_step10000/script/build_qha_heldout_manifest.py",
+    "destination": "third_party/overlays/qha_heldout/script/build_qha_heldout_manifest.py",
+    "sha256": "7d25e84467a2807f05fc6d6a3e07d3263581f51f4b02e8f75605c684a4a2bbd9",
+    "bytes": 9475
+  },
+  {
+    "source": "Reflex/RoboTwin/envs/_base_task.py",
+    "destination": "third_party/overlays/robotwin/envs/_base_task.py",
+    "sha256": "594103ef3e72be817630f3a366af3a3531f4bdb0481f15cb5f793d0d754244e7",
+    "bytes": 69259
+  },
+  {
+    "source": "Reflex/RoboTwin/envs/open_laptop.py",
+    "destination": "third_party/overlays/robotwin/envs/open_laptop.py",
+    "sha256": "56313b8c96a97842afab5d6cf553c1fc6418c7bcc7e99015ec0f51c44e4f8d9b",
+    "bytes": 2517
+  },
+  {
+    "source": "Reflex/RoboTwin/envs/place_bread_basket.py",
+    "destination": "third_party/overlays/robotwin/envs/place_bread_basket.py",
+    "sha256": "324f2b1a5a720ec49a85a27e31a00e250bfe957d3f159c3a8e3006fe9535448b",
+    "bytes": 8446
+  },
+  {
+    "source": "Reflex/RoboTwin/envs/place_object_scale.py",
+    "destination": "third_party/overlays/robotwin/envs/place_object_scale.py",
+    "sha256": "818275479c247ca80d0ba9b10d87e3cb2524903af3a48544e8122d1caa0a1218",
+    "bytes": 4893
+  },
+  {
+    "source": "Reflex/RoboTwin/envs/put_object_cabinet.py",
+    "destination": "third_party/overlays/robotwin/envs/put_object_cabinet.py",
+    "sha256": "d648b53754b87635b6d4651af61221783ac22740605b1de14537915cb1643d6b",
+    "bytes": 4628
+  },
+  {
+    "source": "Reflex/RoboTwin/script/eval_result_paths.py",
+    "destination": "third_party/overlays/robotwin/script/eval_result_paths.py",
+    "sha256": "dd35d7590ab7b1ff69345c6beabfa56dfb0e74b7feb0769de84f6aa4ea893487",
+    "bytes": 4815
+  },
+  {
+    "source": "Reflex/RoboTwin/script/policy_model_server.py",
+    "destination": "third_party/overlays/robotwin/script/policy_model_server.py",
+    "sha256": "50187c3c1d82145c9ef8f3f15b0177eddea502c7cdecd004c83cf6b6bb6b1c8c",
+    "bytes": 9636
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi0/eval.sh",
+    "destination": "third_party/overlays/robotwin/policy/pi0/eval.sh",
+    "sha256": "59cbd418fcabf6cd8dce77c936040179e2e419e78c856f070c6fc9ce75744b11",
+    "bytes": 2619
+  },
+  {
+    "source": "Reflex/RoboTwin/policy/pi05_horizon/eval.sh",
+    "destination": "third_party/overlays/robotwin/policy/pi05_horizon/eval.sh",
+    "sha256": "0f334e3199f529523db0dddfbc87b5b8eeaf0fb431db96cc3173e9e540f1aca7",
+    "bytes": 6419
+  }
+]

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chunktrust"
+version = "0.1.0"
+description = "Execution horizon adaptation from action-expert evidence"
+requires-python = ">=3.11"
+dependencies = ["numpy==1.26.4"]
+license = {file = "LICENSE"}
+
+[project.optional-dependencies]
+test = ["pytest==8.3.5"]
+
+[project.scripts]
+chunktrust = "chunktrust.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

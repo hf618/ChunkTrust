@@ -1,0 +1,335 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/pick_diverse_bottles__demo_clean.json",
+    "parent_manifest_sha256": "e4329b3703b3b26d08e6098106f40948fd525dc50da045004b412852fa82b015",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_pick_diverse_bottles_demo_clean",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9480000,
+      "instruction": "Grab the green plastic bottle with ridged bottom and the cylindrical plastic bottle for carrying water at the same time.",
+      "instruction_sha1": "f7bdb3e9429611fb791f842bd63ae323e7357d24",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9480001,
+      "instruction": "Pick up the bottle with ridged neck and take the medium bottle together.",
+      "instruction_sha1": "cc2a51b698e501f970b85ef349bda9bd1692718d",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9480005,
+      "instruction": "Pick up the hand-sized bottle with ridged bottom and the liquid container dark brown plastic together.",
+      "instruction_sha1": "c4cd887ac158eefd87f4a269ef85cce926b5de0d",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9480006,
+      "instruction": "Use each arm to grab the medium-sized drink bottle and the medium bottle.",
+      "instruction_sha1": "d8643e857740fd2204e3e3fe9ba73945ec9f9f2c",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9480008,
+      "instruction": "Grab the yellow rectangular bottle and grab the green plastic bottle with ridged bottom at once.",
+      "instruction_sha1": "89e5f0eb036b1719f40aa76b41f4081713fc7858",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9480013,
+      "instruction": "Pick up the liquid container dark brown plastic and take the orange bottle with smooth texture together.",
+      "instruction_sha1": "6c304364cb140a15f29ffa1f24599fb5650ecf5b",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9480015,
+      "instruction": "Use each arm to grab the brown bottle and the bottle with ridged neck.",
+      "instruction_sha1": "b50d0a8163824c509fa342643d8f41077ca9d6ea",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9480016,
+      "instruction": "Pick up the bottle with rounded edges with one arm, grab the liquid container dark brown plastic with the other.",
+      "instruction_sha1": "53660f76676930829cbf00d1ce111eb9db601bd6",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9480017,
+      "instruction": "Grab the brown bottle and grab the medium bottle for liquids at once.",
+      "instruction_sha1": "4e86e7b9344b109076cfbf4f9ddfca430511a6b0",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9480018,
+      "instruction": "Grab the bottle with red screw cap with one arm, grab the plastic soda bottle with the other.",
+      "instruction_sha1": "aa293e6e90416886d201f9725bfcc2fbbd227c0e",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9480020,
+      "instruction": "Grab the hand-sized yellow plastic bottle and the bottle with attached loop on cap at the same time.",
+      "instruction_sha1": "ae66698e13fcc840852709b0627130d5e4e18b40",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9480021,
+      "instruction": "Use each arm to grab the bottle with curved neck design and the bottle with yellow sticker label.",
+      "instruction_sha1": "d4ff8290f664d9a11784799ce3a474e7b48d0ca3",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9480022,
+      "instruction": "Grab the smooth bottle with blue text with one arm, grab the lightweight plastic brown bottle with the other.",
+      "instruction_sha1": "be3076411590ec7a93eb4d455e584bbd3726563b",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9480023,
+      "instruction": "Grab the medium bottle for liquids with one arm, grab the glossy brown bottle with the other.",
+      "instruction_sha1": "c48a8cd5d8953bd2c2af96efd72514e81e8f8b37",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9480026,
+      "instruction": "Grab the bottle with attached loop on cap and the plastic orange bottle with rounded base at the same time.",
+      "instruction_sha1": "4f48bc5f6627cc751b54adba44ec196773975509",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9480027,
+      "instruction": "Grab the curvy yellow plastic bottle and grab the brown bottle at once.",
+      "instruction_sha1": "69d3af3b10dd0d586f4852019fdd26abff79eb4c",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9480029,
+      "instruction": "Grab the green plastic bottle with ridged bottom with one arm, grab the bottle with ridges near base with the other.",
+      "instruction_sha1": "56436ac8186a7938994f8d51f9df6d8849f009fc",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9480031,
+      "instruction": "Grab the medium-sized plastic bottle with capped top with one arm, grab the green plastic bottle with ridged bottom with the other.",
+      "instruction_sha1": "5a6bb73ebd632a2b21f15015435173e7e7a8623c",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9480032,
+      "instruction": "Grab the plastic orange bottle with rounded base with one arm, grab the smooth blue water bottle with the other.",
+      "instruction_sha1": "c6363834b75f132dafb9b85d427afce5412d7144",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9480033,
+      "instruction": "Pick up the bottle with white cap and take the curvy orange bottle with white section together.",
+      "instruction_sha1": "c7ce3a21a99952dc53f5dfed51d73ed5f4b77a5f",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-07-31T19:23:27.280129+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_pick_diverse_bottles_demo_clean_first20",
+  "rejected_pre_manifest_candidates": [
+    {
+      "episode_seed": 9480002,
+      "reason": "UnStableError: Objects is unstable in seed(9480002), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9480003,
+      "reason": "UnStableError: Objects is unstable in seed(9480003), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9480004,
+      "reason": "UnStableError: Objects is unstable in seed(9480004), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9480007,
+      "reason": "UnStableError: Objects is unstable in seed(9480007), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9480009,
+      "reason": "UnStableError: Objects is unstable in seed(9480009), unstable objects: 001_bottle, 001_bottle"
+    },
+    {
+      "episode_seed": 9480010,
+      "reason": "UnStableError: Objects is unstable in seed(9480010), unstable objects: 001_bottle, 001_bottle"
+    },
+    {
+      "episode_seed": 9480011,
+      "reason": "UnStableError: Objects is unstable in seed(9480011), unstable objects: 001_bottle, 001_bottle"
+    },
+    {
+      "episode_seed": 9480012,
+      "reason": "UnStableError: Objects is unstable in seed(9480012), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9480014,
+      "reason": "UnStableError: Objects is unstable in seed(9480014), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9480019,
+      "reason": "UnStableError: Objects is unstable in seed(9480019), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9480024,
+      "reason": "UnStableError: Objects is unstable in seed(9480024), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9480025,
+      "reason": "UnStableError: Objects is unstable in seed(9480025), unstable objects: 001_bottle, 001_bottle"
+    },
+    {
+      "episode_seed": 9480028,
+      "reason": "UnStableError: Objects is unstable in seed(9480028), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9480030,
+      "reason": "UnStableError: Objects is unstable in seed(9480030), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9480034,
+      "reason": "UnStableError: Objects is unstable in seed(9480034), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9480035,
+      "reason": "UnStableError: Objects is unstable in seed(9480035), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9480039,
+      "reason": "UnStableError: Objects is unstable in seed(9480039), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9480041,
+      "reason": "UnStableError: Objects is unstable in seed(9480041), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9480046,
+      "reason": "UnStableError: Objects is unstable in seed(9480046), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9480048,
+      "reason": "UnStableError: Objects is unstable in seed(9480048), unstable objects: 001_bottle, 001_bottle"
+    },
+    {
+      "episode_seed": 9480050,
+      "reason": "UnStableError: Objects is unstable in seed(9480050), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9480053,
+      "reason": "UnStableError: Objects is unstable in seed(9480053), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9480054,
+      "reason": "UnStableError: Objects is unstable in seed(9480054), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9480057,
+      "reason": "UnStableError: Objects is unstable in seed(9480057), unstable objects: 001_bottle, 001_bottle"
+    },
+    {
+      "episode_seed": 9480060,
+      "reason": "UnStableError: Objects is unstable in seed(9480060), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9480065,
+      "reason": "UnStableError: Objects is unstable in seed(9480065), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9480067,
+      "reason": "UnStableError: Objects is unstable in seed(9480067), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9480068,
+      "reason": "UnStableError: Objects is unstable in seed(9480068), unstable objects: 001_bottle, 001_bottle"
+    },
+    {
+      "episode_seed": 9480069,
+      "reason": "UnStableError: Objects is unstable in seed(9480069), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9480071,
+      "reason": "UnStableError: Objects is unstable in seed(9480071), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9480074,
+      "reason": "UnStableError: Objects is unstable in seed(9480074), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9480075,
+      "reason": "UnStableError: Objects is unstable in seed(9480075), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9480076,
+      "reason": "UnStableError: Objects is unstable in seed(9480076), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9480078,
+      "reason": "UnStableError: Objects is unstable in seed(9480078), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9480079,
+      "reason": "UnStableError: Objects is unstable in seed(9480079), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9480082,
+      "reason": "UnStableError: Objects is unstable in seed(9480082), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9480083,
+      "reason": "UnStableError: Objects is unstable in seed(9480083), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9480084,
+      "reason": "UnStableError: Objects is unstable in seed(9480084), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9480085,
+      "reason": "UnStableError: Objects is unstable in seed(9480085), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9480086,
+      "reason": "UnStableError: Objects is unstable in seed(9480086), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9480087,
+      "reason": "UnStableError: Objects is unstable in seed(9480087), unstable objects: 001_bottle, 001_bottle"
+    }
+  ],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9480000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_clean",
+  "task_name": "pick_diverse_bottles"
+}

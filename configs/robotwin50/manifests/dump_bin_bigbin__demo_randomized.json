@@ -1,0 +1,367 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/dump_bin_bigbin__demo_randomized.json",
+    "parent_manifest_sha256": "5eb2176c7fe0bc744c3acb935336aa91edc897238e4887af94aa910dd7a75fff",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_dump_bin_bigbin_demo_randomized",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9361000,
+      "instruction": "Lift the tabletrashbin made of plastic and transfer the contents.",
+      "instruction_sha1": "d208f6ddb96e0dfdf66fe8656fdd3efac5c3703f",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9361002,
+      "instruction": "Take the small bin for table waste and empty it.",
+      "instruction_sha1": "773f30ce88c5f0b45412262987a3559ad15e77e9",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9361003,
+      "instruction": "Take the lightweight round tabletop trashbin and empty into big bin",
+      "instruction_sha1": "89abe8d2be3ef6e8488880d83176fa3b7de27206",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9361004,
+      "instruction": "Lift the tabletrashbin for tabletop use and transfer the contents.",
+      "instruction_sha1": "5f7c168ca51d43f3ddf921bf3aed39892103fa86",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9361005,
+      "instruction": "Lift the small smooth gray trashbin and transfer the contents.",
+      "instruction_sha1": "27808b3a6d946530fac73e5ba0b6497aa9bf263f",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9361007,
+      "instruction": "Grab the compact tabletop trashbin and pour into big bin",
+      "instruction_sha1": "810ea66ce46b535bd2b50006d9e38ca4af248524",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9361009,
+      "instruction": "Pour the small bin for table waste into the big bin.",
+      "instruction_sha1": "58d0cf21bff997320763472cb42fbed8f95877e1",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9361010,
+      "instruction": "Lift the small smooth gray trashbin and transfer the contents.",
+      "instruction_sha1": "27808b3a6d946530fac73e5ba0b6497aa9bf263f",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9361011,
+      "instruction": "Grab the plastic tiny trashbin for tables and pour into big bin",
+      "instruction_sha1": "c2af423cfe8ab0c4d965aa26d0028acad7410dbf",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9361012,
+      "instruction": "Take the little tabletrashbin with smooth texture and empty it.",
+      "instruction_sha1": "cd679758e999368b670a46c4419fd6a1c01b0b8f",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9361013,
+      "instruction": "Pick up the compact tabletop trashbin and pour it.",
+      "instruction_sha1": "a0c3faa34e76fc5f2eeafe9eaf94cdc367ca27fd",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9361019,
+      "instruction": "Grab the tabletrashbin made of plastic and pour into big bin",
+      "instruction_sha1": "dfba2b0d7bc3c8b723e3f10a288c36890b5d52e7",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9361020,
+      "instruction": "Take the smooth plastic tabletrashbin and empty it.",
+      "instruction_sha1": "3177a510394aa34f0487ce9a728988cdf4495e16",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9361021,
+      "instruction": "Lift the compact tabletop trashbin and transfer the contents.",
+      "instruction_sha1": "6d80dfec60b61a79461e70668e7d71094b5a5b51",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9361025,
+      "instruction": "Pick up the plastic tiny trashbin for tables, pour balls into the bin.",
+      "instruction_sha1": "1f02e38c55ee62e7f3dea167e88b923b17e4cfdd",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9361027,
+      "instruction": "Lift the smooth plastic tabletrashbin and empty it.",
+      "instruction_sha1": "50cd245861b12d88d9dce6d87c6069ee5c5ce863",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9361030,
+      "instruction": "Lift the tabletrashbin made of plastic and transfer the contents.",
+      "instruction_sha1": "d208f6ddb96e0dfdf66fe8656fdd3efac5c3703f",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9361037,
+      "instruction": "Grab the smooth plastic tabletrashbin and pour balls.",
+      "instruction_sha1": "cb87a53594b922c2bebf20d55cdfb78212bd7bf6",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9361038,
+      "instruction": "Pick up the small bin for table waste, pour balls into the bin.",
+      "instruction_sha1": "5f802356adfe5c0859cc9d0a289c0f0a3a76d4ee",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9361039,
+      "instruction": "Take the compact tabletop trashbin and empty into big bin",
+      "instruction_sha1": "d7823deffce050fce85f3689bbaedd4c110c03bf",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-07-31T15:42:57.676995+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_dump_bin_bigbin_demo_randomized_first20",
+  "rejected_pre_manifest_candidates": [
+    {
+      "episode_seed": 9361001,
+      "reason": "UnStableError: Objects is unstable in seed(9361001), unstable objects: garbage"
+    },
+    {
+      "episode_seed": 9361006,
+      "reason": "UnStableError: Objects is unstable in seed(9361006), unstable objects: garbage, garbage"
+    },
+    {
+      "episode_seed": 9361008,
+      "reason": "UnStableError: Objects is unstable in seed(9361008), unstable objects: garbage, garbage"
+    },
+    {
+      "episode_seed": 9361014,
+      "reason": "UnStableError: Objects is unstable in seed(9361014), unstable objects: garbage, garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361015,
+      "reason": "UnStableError: Objects is unstable in seed(9361015), unstable objects: garbage, garbage, garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361016,
+      "reason": "UnStableError: Objects is unstable in seed(9361016), unstable objects: garbage, garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361017,
+      "reason": "UnStableError: Objects is unstable in seed(9361017), unstable objects: garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361018,
+      "reason": "UnStableError: Objects is unstable in seed(9361018), unstable objects: garbage, garbage, garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361022,
+      "reason": "UnStableError: Objects is unstable in seed(9361022), unstable objects: garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361023,
+      "reason": "UnStableError: Objects is unstable in seed(9361023), unstable objects: garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361024,
+      "reason": "UnStableError: Objects is unstable in seed(9361024), unstable objects: garbage, garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361026,
+      "reason": "UnStableError: Objects is unstable in seed(9361026), unstable objects: garbage, garbage"
+    },
+    {
+      "episode_seed": 9361028,
+      "reason": "UnStableError: Objects is unstable in seed(9361028), unstable objects: garbage, garbage, garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361029,
+      "reason": "UnStableError: Objects is unstable in seed(9361029), unstable objects: garbage, garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361031,
+      "reason": "UnStableError: Objects is unstable in seed(9361031), unstable objects: garbage, garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361032,
+      "reason": "UnStableError: Objects is unstable in seed(9361032), unstable objects: garbage"
+    },
+    {
+      "episode_seed": 9361033,
+      "reason": "UnStableError: Objects is unstable in seed(9361033), unstable objects: garbage, garbage, garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361034,
+      "reason": "UnStableError: Objects is unstable in seed(9361034), unstable objects: garbage, garbage, garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361035,
+      "reason": "UnStableError: Objects is unstable in seed(9361035), unstable objects: garbage, garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361036,
+      "reason": "UnStableError: Objects is unstable in seed(9361036), unstable objects: garbage, garbage, garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361041,
+      "reason": "UnStableError: Objects is unstable in seed(9361041), unstable objects: garbage, garbage, garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361042,
+      "reason": "UnStableError: Objects is unstable in seed(9361042), unstable objects: garbage"
+    },
+    {
+      "episode_seed": 9361043,
+      "reason": "UnStableError: Objects is unstable in seed(9361043), unstable objects: garbage"
+    },
+    {
+      "episode_seed": 9361044,
+      "reason": "UnStableError: Objects is unstable in seed(9361044), unstable objects: garbage, garbage, garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361045,
+      "reason": "UnStableError: Objects is unstable in seed(9361045), unstable objects: garbage, garbage"
+    },
+    {
+      "episode_seed": 9361047,
+      "reason": "UnStableError: Objects is unstable in seed(9361047), unstable objects: garbage, garbage, garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361050,
+      "reason": "UnStableError: Objects is unstable in seed(9361050), unstable objects: garbage, garbage, garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361051,
+      "reason": "UnStableError: Objects is unstable in seed(9361051), unstable objects: garbage, garbage, garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361055,
+      "reason": "UnStableError: Objects is unstable in seed(9361055), unstable objects: garbage, garbage, garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361056,
+      "reason": "UnStableError: Objects is unstable in seed(9361056), unstable objects: garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361059,
+      "reason": "UnStableError: Objects is unstable in seed(9361059), unstable objects: garbage, garbage, garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361060,
+      "reason": "UnStableError: Objects is unstable in seed(9361060), unstable objects: garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361061,
+      "reason": "UnStableError: Objects is unstable in seed(9361061), unstable objects: garbage, garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361062,
+      "reason": "UnStableError: Objects is unstable in seed(9361062), unstable objects: garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361064,
+      "reason": "UnStableError: Objects is unstable in seed(9361064), unstable objects: garbage, garbage, garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361065,
+      "reason": "UnStableError: Objects is unstable in seed(9361065), unstable objects: garbage, garbage, garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361066,
+      "reason": "UnStableError: Objects is unstable in seed(9361066), unstable objects: garbage, garbage, garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361067,
+      "reason": "UnStableError: Objects is unstable in seed(9361067), unstable objects: garbage, garbage, garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361068,
+      "reason": "UnStableError: Objects is unstable in seed(9361068), unstable objects: garbage, garbage"
+    },
+    {
+      "episode_seed": 9361071,
+      "reason": "UnStableError: Objects is unstable in seed(9361071), unstable objects: garbage, garbage, garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361074,
+      "reason": "UnStableError: Objects is unstable in seed(9361074), unstable objects: garbage, garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361078,
+      "reason": "UnStableError: Objects is unstable in seed(9361078), unstable objects: garbage"
+    },
+    {
+      "episode_seed": 9361080,
+      "reason": "UnStableError: Objects is unstable in seed(9361080), unstable objects: garbage, garbage, garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361083,
+      "reason": "UnStableError: Objects is unstable in seed(9361083), unstable objects: garbage, garbage"
+    },
+    {
+      "episode_seed": 9361084,
+      "reason": "UnStableError: Objects is unstable in seed(9361084), unstable objects: garbage, garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361087,
+      "reason": "UnStableError: Objects is unstable in seed(9361087), unstable objects: garbage"
+    },
+    {
+      "episode_seed": 9361089,
+      "reason": "UnStableError: Objects is unstable in seed(9361089), unstable objects: garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361090,
+      "reason": "UnStableError: Objects is unstable in seed(9361090), unstable objects: garbage, garbage, garbage, garbage, garbage"
+    },
+    {
+      "episode_seed": 9361092,
+      "reason": "UnStableError: Objects is unstable in seed(9361092), unstable objects: garbage, garbage, garbage, garbage, garbage"
+    }
+  ],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9361000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_randomized",
+  "task_name": "dump_bin_bigbin"
+}

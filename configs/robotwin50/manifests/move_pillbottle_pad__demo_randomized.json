@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/move_pillbottle_pad__demo_randomized.json",
+    "parent_manifest_sha256": "60c327ee5c3f6b2f5f75da904279209558d4ba235d44df2b555dffcdaf708dcc",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_move_pillbottle_pad_demo_randomized",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9431000,
+      "instruction": "Pick the rounded white bottle with teal base and put it onto the pad",
+      "instruction_sha1": "2bb57ebbbc4e9e4c01fc7e1725962fbc6688f495",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9431001,
+      "instruction": "Pick the bottle with smooth brown texture and set it onto the pad.",
+      "instruction_sha1": "23db62a696e62718495546577dece84be1aa5cad",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9431002,
+      "instruction": "Pick the hand-sized bottle with screw cap and put it onto the pad",
+      "instruction_sha1": "14d9a8fe77e64bb15ff6b62004ee7f102538b2cf",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9431003,
+      "instruction": "Pick the bottle with white screw-on cap and set it on the pad",
+      "instruction_sha1": "71a0889dc363f6e0f88e38d79cd63804c371fa8a",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9431004,
+      "instruction": "Pick the orange bottle and set it on the pad",
+      "instruction_sha1": "d8691a7ecea3dbe2bd8c19a8246218ad364783be",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9431005,
+      "instruction": "Pick the white bottle with teal ends and set it onto the pad.",
+      "instruction_sha1": "ca340377aec580c58fad9473b6161611ce2e3b77",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9431006,
+      "instruction": "Grab the bottle with smooth brown texture and set it on the pad",
+      "instruction_sha1": "c8ffdc0f7b6bd6440560c83446729e709f58b0c1",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9431007,
+      "instruction": "Use the right arm to grab the bottle capped with textured white lid and place it",
+      "instruction_sha1": "5ee8c79430b1c0cba4f5c1d2d16cbf89b5bf281c",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9431008,
+      "instruction": "Use the left arm to pick the orange bottle and place it.",
+      "instruction_sha1": "0b58d5e77bf42e580de97822efc285c8fdac832b",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9431009,
+      "instruction": "Use the right arm to grab the white cylindrical bottle and place it",
+      "instruction_sha1": "de04bf4214b7e284b8296241302d2f7474325a9a",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9431010,
+      "instruction": "Pick the bottle capped with textured white lid and set it onto the pad.",
+      "instruction_sha1": "11aa2ecb9b1e2c92156670cedac5fa198b8d4601",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9431011,
+      "instruction": "Pick the hand-sized orange capped bottle and set it on the pad",
+      "instruction_sha1": "963f7e8ec68d6488321e015936cc3de0f711fb65",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9431012,
+      "instruction": "Use the left arm to pick the bottle capped with textured white lid and place it.",
+      "instruction_sha1": "7c94b762a0857faa2304e0c57864b3ce3b53c520",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9431013,
+      "instruction": "Use the right arm to grab the cylindrical bottle with ribbed cap and place it",
+      "instruction_sha1": "28ecfd119e5ef4210b98b4ff22152d87d455754e",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9431014,
+      "instruction": "Use the right arm to pick the hand-sized orange capped bottle and place it.",
+      "instruction_sha1": "113c4a770f3905a790206160e3f81c56afe0e00d",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9431015,
+      "instruction": "Pick the orange capped bottle and set it on the pad",
+      "instruction_sha1": "eeed4a4cfb565841da14d83f3c5ae588927a03c4",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9431016,
+      "instruction": "Pick the white cylindrical bottle and put it onto the pad",
+      "instruction_sha1": "648a843c0fbd92dd0dbe11e6a02708d46e982f03",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9431017,
+      "instruction": "Pick the bottle capped with textured white lid and set it on the pad",
+      "instruction_sha1": "5b69c2e57b49d8239f4bd20cc2ce442c6a96f5c5",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9431018,
+      "instruction": "Use the left arm to grab the white bottle for storing items and place it",
+      "instruction_sha1": "00c8598a335e062e1903b79150cc43b22c604b2a",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9431019,
+      "instruction": "Use the right arm to grab the bottle with smooth brown texture and place it",
+      "instruction_sha1": "008d98d2936bcacd6d7f902593dbdf836e5391dc",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-07-31T17:50:14.406026+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_move_pillbottle_pad_demo_randomized_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9431000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_randomized",
+  "task_name": "move_pillbottle_pad"
+}

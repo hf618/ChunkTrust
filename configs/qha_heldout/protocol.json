@@ -1,0 +1,103 @@
+{
+  "checkpoint": {
+    "base_is_qnorm": false,
+    "base_model_template": "pi05_{task}_clean50",
+    "base_root": "pi05_base_aloha_robotwin_full",
+    "base_step": 20000,
+    "qha_model": "qha_heldout6_formal_20260727_05",
+    "qha_step": 10000
+  },
+  "dense_candidates": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50
+  ],
+  "episodes_per_method_condition": 100,
+  "execution": "expected_round",
+  "identity_source": "immutable scene-feasibility manifests; no policy-outcome selection",
+  "manifests": {
+    "blocks_ranking_rgb/demo_clean": {
+      "episodes": 100,
+      "path": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/manifests/blocks_ranking_rgb_demo_clean_100.json",
+      "sha256": "4b7b9fa93e20fb4d3678ed9e54ca30dacfb5208a6e84e79f2acf4627a907a1f9"
+    },
+    "blocks_ranking_rgb/demo_randomized": {
+      "episodes": 100,
+      "path": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/manifests/blocks_ranking_rgb_demo_randomized_100.json",
+      "sha256": "0fdf423407924c58e5878fec43768d2b214d0cc28b0c404f58483dfd86df3ab9"
+    },
+    "place_bread_basket/demo_clean": {
+      "episodes": 100,
+      "path": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/manifests/place_bread_basket_demo_clean_100.json",
+      "sha256": "16030ea9ddd4d1a89cfee60e6e0dffe3a5d3027936c833a707943cc73c8634c6"
+    },
+    "place_bread_basket/demo_randomized": {
+      "episodes": 100,
+      "path": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/manifests/place_bread_basket_demo_randomized_100.json",
+      "sha256": "4c7ea45156ed8f6bb62d89b12f226f61de6b63dcd03a84e71893aee421717904"
+    }
+  },
+  "methods": [
+    "ahs_only",
+    "qha_only",
+    "ahs_qha"
+  ],
+  "protocol": "qha_heldout_step10000_formal_paired_v1",
+  "schema_version": 1,
+  "settings": [
+    "demo_clean",
+    "demo_randomized"
+  ],
+  "tasks": [
+    "blocks_ranking_rgb",
+    "place_bread_basket"
+  ],
+  "temperature": 1.0
+}

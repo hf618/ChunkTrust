@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 20,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/stamp_seal__demo_clean.json",
+    "parent_manifest_sha256": "e98e9bc3e37715ef39fe623aec45a892e8ae735d87edaba24f2771a48c90c5f1",
+    "parent_protocol_id": "clean50_base_ahs_parent_min20_runtime_v4_freshscene_hashseed0_deadline_20260801_stamp_seal_demo_clean",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9780000,
+      "instruction": "Grab the red seal on rectangular base and stamp Green",
+      "instruction_sha1": "008803b0688beeabb3952655030baf06f6f4f62e",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9780001,
+      "instruction": "Pick the smooth stone seal with writing and stamp on Navy",
+      "instruction_sha1": "e9d87a6c40e6e95f92c4c8d39b208d1e3ff41d98",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9780002,
+      "instruction": "Grab the smooth stone seal with writing and stamp Purple",
+      "instruction_sha1": "ed1d7bbaae93a6dd7622940e33cfe059952c2cc5",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9780003,
+      "instruction": "Pick the small rectangular seal for stamping and press on Tan.",
+      "instruction_sha1": "c87cb25d14f3bc7d3b1860b5ebeb0fe4cac56d21",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9780004,
+      "instruction": "Pick the small rectangular seal for stamping to stamp Lime",
+      "instruction_sha1": "012e9a058e59da7f5f897672823ec26d50f84a0a",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9780005,
+      "instruction": "Grab the smooth stone seal with writing, press onto Maroon",
+      "instruction_sha1": "c803ef15e7e519d0a50006a4ac0ec2705acbd3dd",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9780006,
+      "instruction": "Pick the stamp with beige handle to stamp Magenta",
+      "instruction_sha1": "b203bffe81d5fd07e4406d0c680b3e2d21767476",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9780007,
+      "instruction": "Stamp Silver using the block-shaped seal with angled edges",
+      "instruction_sha1": "80eb5755534355b03bdb7f15b727ca15dff10c07",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9780008,
+      "instruction": "Pick the small slanted-edged brown seal to stamp Gray",
+      "instruction_sha1": "8bb7db5b8ef43affe4afa04cb0c98f0200ce398d",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9780009,
+      "instruction": "Pick the solid brown seal and stamp Turquoise",
+      "instruction_sha1": "0f1d802b3e124ba9bd180dc819bd853d51436ec9",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9780010,
+      "instruction": "Pick the seal with black base and stamp Olive",
+      "instruction_sha1": "0bf4f49289bec1b937b1853d2ba630d3ee4d176e",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9780011,
+      "instruction": "Grab the small carved seal using the left arm and stamp Coral",
+      "instruction_sha1": "d52de03793df1e41495993c1203b7523d8da0689",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9780012,
+      "instruction": "Pick the stamp with beige handle and press on Black.",
+      "instruction_sha1": "ba579093776e3880bf032435ae6f1806d10c6368",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9780013,
+      "instruction": "Grab the seal with black base using the left arm and stamp Yellow",
+      "instruction_sha1": "1fd334c3c0aa1f173edbde55f53e9c71a4827e9b",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9780014,
+      "instruction": "Grab the smooth stone seal with writing, press onto Turquoise",
+      "instruction_sha1": "2a8d32f9555d81195364638591ac42e50d9a4da9",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9780015,
+      "instruction": "Pick the seal with black base and stamp Red",
+      "instruction_sha1": "a30c5a8891fe1a69540a148379a33058a848a4e8",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9780016,
+      "instruction": "Grab the smooth stone seal with writing, press onto Silver",
+      "instruction_sha1": "5a2b428c91d6909b4111d8df3e84ce5f615b038a",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9780017,
+      "instruction": "Pick the seal with smooth texture and press on Silver.",
+      "instruction_sha1": "87e3dba97a33c8e6444d61a429a7625020c8e8a9",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9780018,
+      "instruction": "Grab the small rectangular seal for stamping, press onto Purple",
+      "instruction_sha1": "0608c67d059af75fb6e882815988285ae8f79c83",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9780019,
+      "instruction": "Pick the seal with smooth texture and press on Green.",
+      "instruction_sha1": "707d1193e6b9a48cdf180a319d22c082343e1f5d",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-08-01T05:49:04.257298+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_parent_min20_runtime_v4_freshscene_hashseed0_deadline_20260801_stamp_seal_demo_clean_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9780000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_clean",
+  "task_name": "stamp_seal"
+}

@@ -1,0 +1,267 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/adjust_bottle__demo_randomized.json",
+    "parent_manifest_sha256": "64893e658017acb869acdf89c50d3b327b0a3d5dbd1fa74bdf4546d952f7ed97",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_adjust_bottle_demo_randomized",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9301000,
+      "instruction": "Pick up the plastic soda bottle from the table head-up.",
+      "instruction_sha1": "fcaf8166a94ab1ef9b19d4422484054af27ad9dd",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9301001,
+      "instruction": "Use the left arm to grab the plastic soda bottle upright",
+      "instruction_sha1": "dada0b84e90ef81a62007ebb20b1ff1853769097",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9301002,
+      "instruction": "Use the left arm to grab the bottle the green bottle",
+      "instruction_sha1": "c6a9e12bf293bd07ad2e5d28d94a063febbe0efa",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9301005,
+      "instruction": "Use the right arm to grab the bottle with red screw cap upright",
+      "instruction_sha1": "d4c4d23764b11288aa0dd1154baf7233f9f17bc2",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9301007,
+      "instruction": "Use the right arm to grab the bottle with red screw cap head-up.",
+      "instruction_sha1": "5f5fe801fd93dedb5814a8cf579bf3b00a40f39d",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9301009,
+      "instruction": "Lift the green bottle from the table using the right arm.",
+      "instruction_sha1": "1b2a485984272667dddecfaee302d7cb3ade1f8f",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9301011,
+      "instruction": "Pick up the bottle with red screw cap carefully using the right arm",
+      "instruction_sha1": "48ea6f696d971d9a2e98a2a11b1e9da0bd864f59",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9301013,
+      "instruction": "Pick up the plastic soda bottle carefully using the left arm",
+      "instruction_sha1": "212f3c92e6e0781f3479f1abc50b3da0ec9c35e3",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9301014,
+      "instruction": "Grab the plastic soda bottle on the table and raise it.",
+      "instruction_sha1": "5c046662b429ada275447337c8421a4cb153b317",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9301015,
+      "instruction": "Pick up the plastic soda bottle carefully using the right arm",
+      "instruction_sha1": "168dcb0bbca991470a69c5fb4272be9a687a9a2b",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9301018,
+      "instruction": "Pick up the bottle with red screw cap using the right arm in an upright position",
+      "instruction_sha1": "fd1f679f33c384905054ebff547cbed7e05b8e98",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9301019,
+      "instruction": "Use the right arm to grab the bottle the brown bottle",
+      "instruction_sha1": "0bf3e7cc955a018fe34147dcbf4952cbb004028b",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9301020,
+      "instruction": "Grab the bottle with red screw cap on the table and raise it.",
+      "instruction_sha1": "6e87041c15a5c7bd1318e7d2df79c8ba0a7d9f8a",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9301022,
+      "instruction": "Lift the plastic soda bottle from the table using the right arm.",
+      "instruction_sha1": "f2e079c62e5bcdd595bc2d4434c766fef621c2df",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9301023,
+      "instruction": "Grab the green plastic bottle with ridged bottom from the table with the right arm",
+      "instruction_sha1": "33a39f94106349b09b3e52d8e8a5d5207622fe89",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9301024,
+      "instruction": "Use the right arm to grab the bottle the brown bottle",
+      "instruction_sha1": "0bf3e7cc955a018fe34147dcbf4952cbb004028b",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9301025,
+      "instruction": "Pick up the bottle with red screw cap from the table head-up.",
+      "instruction_sha1": "94bd5737a09f1ae91ae60766df81d282cf152ce9",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9301026,
+      "instruction": "Use the right arm to grab the bottle the bottle with red screw cap",
+      "instruction_sha1": "b03fae1eddaaa9728d4c70e1378597c621610148",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9301027,
+      "instruction": "Use the right arm to grab the plastic soda bottle head-up.",
+      "instruction_sha1": "59292bee70a4c31b74d56554d34235610f2d77fe",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9301029,
+      "instruction": "Use the right arm to grab the bottle with red screw cap upright",
+      "instruction_sha1": "d4c4d23764b11288aa0dd1154baf7233f9f17bc2",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-07-31T13:40:22.226616+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_adjust_bottle_demo_randomized_first20",
+  "rejected_pre_manifest_candidates": [
+    {
+      "episode_seed": 9301003,
+      "reason": "UnStableError: Objects is unstable in seed(9301003), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9301004,
+      "reason": "UnStableError: Objects is unstable in seed(9301004), unstable objects: 066_vinegar"
+    },
+    {
+      "episode_seed": 9301006,
+      "reason": "UnStableError: Objects is unstable in seed(9301006), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9301008,
+      "reason": "UnStableError: Objects is unstable in seed(9301008), unstable objects: 065_soy-sauce"
+    },
+    {
+      "episode_seed": 9301010,
+      "reason": "UnStableError: Objects is unstable in seed(9301010), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9301012,
+      "reason": "UnStableError: Objects is unstable in seed(9301012), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9301016,
+      "reason": "UnStableError: Objects is unstable in seed(9301016), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9301017,
+      "reason": "UnStableError: Objects is unstable in seed(9301017), unstable objects: 001_bottle, 066_vinegar"
+    },
+    {
+      "episode_seed": 9301021,
+      "reason": "UnStableError: Objects is unstable in seed(9301021), unstable objects: 086_woodenblock"
+    },
+    {
+      "episode_seed": 9301028,
+      "reason": "UnStableError: Objects is unstable in seed(9301028), unstable objects: 086_woodenblock"
+    },
+    {
+      "episode_seed": 9301030,
+      "reason": "UnStableError: Objects is unstable in seed(9301030), unstable objects: 086_woodenblock"
+    },
+    {
+      "episode_seed": 9301034,
+      "reason": "UnStableError: Objects is unstable in seed(9301034), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9301039,
+      "reason": "UnStableError: Objects is unstable in seed(9301039), unstable objects: 088_wineglass"
+    },
+    {
+      "episode_seed": 9301043,
+      "reason": "UnStableError: Objects is unstable in seed(9301043), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9301047,
+      "reason": "UnStableError: Objects is unstable in seed(9301047), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9301051,
+      "reason": "UnStableError: Objects is unstable in seed(9301051), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9301052,
+      "reason": "UnStableError: Objects is unstable in seed(9301052), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9301053,
+      "reason": "UnStableError: Objects is unstable in seed(9301053), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9301057,
+      "reason": "UnStableError: Objects is unstable in seed(9301057), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9301060,
+      "reason": "UnStableError: Objects is unstable in seed(9301060), unstable objects: 086_woodenblock"
+    },
+    {
+      "episode_seed": 9301064,
+      "reason": "UnStableError: Objects is unstable in seed(9301064), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9301067,
+      "reason": "UnStableError: Objects is unstable in seed(9301067), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9301071,
+      "reason": "UnStableError: Objects is unstable in seed(9301071), unstable objects: 001_bottle"
+    },
+    {
+      "episode_seed": 9301072,
+      "reason": "UnStableError: Objects is unstable in seed(9301072), unstable objects: 001_bottle"
+    }
+  ],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9301000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_randomized",
+  "task_name": "adjust_bottle"
+}

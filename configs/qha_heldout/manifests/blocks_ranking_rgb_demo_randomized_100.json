@@ -1,0 +1,719 @@
+{
+  "schema_version": "qha-heldout-v1",
+  "kind": "immutable_eval_manifest",
+  "task_name": "blocks_ranking_rgb",
+  "task_config": "demo_randomized",
+  "episodes": [
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-000",
+      "seed": 100005,
+      "instruction": "Arrange red block, green block, and blue block in a row with red block on the left, green block in the middle, and blue block on the right.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-001",
+      "seed": 100006,
+      "instruction": "Place red block on the left, then set green block to its right and blue block next to green block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-002",
+      "seed": 100007,
+      "instruction": "Place red block on the left, then set green block to its right and blue block next to green block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-003",
+      "seed": 100008,
+      "instruction": "Use the left arm to arrange red block first, then use the right arm for green block, and finally use the left arm for blue block in a row.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-004",
+      "seed": 100009,
+      "instruction": "Set red block on the left, then green block in the center, and finally blue block on the right.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-005",
+      "seed": 100011,
+      "instruction": "Set red block, green block, and blue block in a row from left to right in the order red, green, blue.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-006",
+      "seed": 100012,
+      "instruction": "Pick up red block, set it on the left. Then grab green block, position it next to red block. Finally, place blue block to the right of green block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-007",
+      "seed": 100013,
+      "instruction": "Set red block on the left, then green block in the center, and finally blue block on the right.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-008",
+      "seed": 100014,
+      "instruction": "Set red block on the left, then green block in the center, and finally blue block on the right.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-009",
+      "seed": 100015,
+      "instruction": "Arrange red block, green block, and blue block from left to right in a row.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-010",
+      "seed": 100016,
+      "instruction": "Arrange red block, green block, and blue block in a row with red block on the left, green block in the middle, and blue block on the right.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-011",
+      "seed": 100017,
+      "instruction": "Place red block, green block, and blue block sequentially in a row, starting with red block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-012",
+      "seed": 100018,
+      "instruction": "Arrange red block, green block, and blue block side by side, starting with red block on the left.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-013",
+      "seed": 100019,
+      "instruction": "Arrange red block, green block, and blue block from left to right in a row.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-014",
+      "seed": 100020,
+      "instruction": "Arrange red block, green block, and blue block side by side, starting with red block on the left.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-015",
+      "seed": 100021,
+      "instruction": "Set red block on the left, then green block in the center, and finally blue block on the right.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-016",
+      "seed": 100022,
+      "instruction": "Arrange red block, green block, and blue block from left to right in a row.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-017",
+      "seed": 100023,
+      "instruction": "Start by placing red block to the left, followed by green block next to red block, and end with blue block on the far right.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-018",
+      "seed": 100024,
+      "instruction": "Set red block on the left, then green block in the center, and finally blue block on the right.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-019",
+      "seed": 100025,
+      "instruction": "Start by placing red block to the left, followed by green block next to red block, and end with blue block on the far right.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-020",
+      "seed": 100026,
+      "instruction": "Use the left arm to arrange red block first, then use the right arm for green block, and finally use the right arm for blue block in a row.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-021",
+      "seed": 100027,
+      "instruction": "Start by placing red block to the left, followed by green block next to red block, and end with blue block on the far right.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-022",
+      "seed": 100028,
+      "instruction": "Pick up red block, set it on the left. Then grab green block, position it next to red block. Finally, place blue block to the right of green block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-023",
+      "seed": 100029,
+      "instruction": "Arrange red block, green block, and blue block from left to right in a row.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-024",
+      "seed": 100030,
+      "instruction": "Start by placing red block to the left, followed by green block next to red block, and end with blue block on the far right.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-025",
+      "seed": 100032,
+      "instruction": "Use the left arm to arrange red block first, then use the right arm for green block, and finally use the right arm for blue block in a row.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-026",
+      "seed": 100033,
+      "instruction": "Place red block on the left, then set green block to its right and blue block next to green block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-027",
+      "seed": 100034,
+      "instruction": "Pick up red block, set it on the left. Then grab green block, position it next to red block. Finally, place blue block to the right of green block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-028",
+      "seed": 100035,
+      "instruction": "Arrange red block, green block, and blue block side by side, starting with red block on the left.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-029",
+      "seed": 100037,
+      "instruction": "Place red block on the left, then set green block to its right and blue block next to green block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-030",
+      "seed": 100038,
+      "instruction": "Use the right arm to arrange red block first, then use the left arm for green block, and finally use the right arm for blue block in a row.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-031",
+      "seed": 100039,
+      "instruction": "Use the right arm to arrange red block first, then use the left arm for green block, and finally use the left arm for blue block in a row.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-032",
+      "seed": 100040,
+      "instruction": "Set red block, green block, and blue block in a row from left to right in the order red, green, blue.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-033",
+      "seed": 100041,
+      "instruction": "Arrange red block, green block, and blue block in a row with red block on the left, green block in the middle, and blue block on the right.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-034",
+      "seed": 100043,
+      "instruction": "Use the right arm to arrange red block first, then use the left arm for green block, and finally use the left arm for blue block in a row.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-035",
+      "seed": 100044,
+      "instruction": "Use the right arm to arrange red block first, then use the left arm for green block, and finally use the left arm for blue block in a row.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-036",
+      "seed": 100045,
+      "instruction": "Place red block, green block, and blue block sequentially in a row, starting with red block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-037",
+      "seed": 100046,
+      "instruction": "Pick up red block, set it on the left. Then grab green block, position it next to red block. Finally, place blue block to the right of green block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-038",
+      "seed": 100047,
+      "instruction": "Set red block, green block, and blue block in a row from left to right in the order red, green, blue.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-039",
+      "seed": 100048,
+      "instruction": "Pick up red block, set it on the left. Then grab green block, position it next to red block. Finally, place blue block to the right of green block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-040",
+      "seed": 100049,
+      "instruction": "Use the left arm to arrange red block first, then use the right arm for green block, and finally use the right arm for blue block in a row.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-041",
+      "seed": 100050,
+      "instruction": "Arrange red block, green block, and blue block from left to right in a row.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-042",
+      "seed": 100051,
+      "instruction": "Place red block, green block, and blue block sequentially in a row, starting with red block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-043",
+      "seed": 100052,
+      "instruction": "Place red block, green block, and blue block sequentially in a row, starting with red block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-044",
+      "seed": 100053,
+      "instruction": "Arrange red block, green block, and blue block from left to right in a row.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-045",
+      "seed": 100054,
+      "instruction": "Set red block, green block, and blue block in a row from left to right in the order red, green, blue.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-046",
+      "seed": 100105,
+      "instruction": "Set red block, green block, and blue block in a row from left to right in the order red, green, blue.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-047",
+      "seed": 100106,
+      "instruction": "Pick up red block, set it on the left. Then grab green block, position it next to red block. Finally, place blue block to the right of green block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-048",
+      "seed": 100107,
+      "instruction": "Arrange red block, green block, and blue block side by side, starting with red block on the left.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-049",
+      "seed": 100108,
+      "instruction": "Arrange red block, green block, and blue block in a row with red block on the left, green block in the middle, and blue block on the right.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-050",
+      "seed": 100055,
+      "instruction": "Place red block on the left, then set green block to its right and blue block next to green block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-051",
+      "seed": 100058,
+      "instruction": "Place red block, green block, and blue block sequentially in a row, starting with red block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-052",
+      "seed": 100059,
+      "instruction": "Set red block, green block, and blue block in a row from left to right in the order red, green, blue.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-053",
+      "seed": 100060,
+      "instruction": "Pick up red block, set it on the left. Then grab green block, position it next to red block. Finally, place blue block to the right of green block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-054",
+      "seed": 100061,
+      "instruction": "Arrange red block, green block, and blue block from left to right in a row.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-055",
+      "seed": 100062,
+      "instruction": "Place red block on the left, then set green block to its right and blue block next to green block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-056",
+      "seed": 100063,
+      "instruction": "Place red block on the left, then set green block to its right and blue block next to green block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-057",
+      "seed": 100064,
+      "instruction": "Pick up red block, set it on the left. Then grab green block, position it next to red block. Finally, place blue block to the right of green block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-058",
+      "seed": 100065,
+      "instruction": "Place red block on the left, then set green block to its right and blue block next to green block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-059",
+      "seed": 100066,
+      "instruction": "Use the right arm to arrange red block first, then use the left arm for green block, and finally use the right arm for blue block in a row.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-060",
+      "seed": 100067,
+      "instruction": "Arrange red block, green block, and blue block in a row with red block on the left, green block in the middle, and blue block on the right.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-061",
+      "seed": 100068,
+      "instruction": "Arrange red block, green block, and blue block side by side, starting with red block on the left.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-062",
+      "seed": 100069,
+      "instruction": "Start by placing red block to the left, followed by green block next to red block, and end with blue block on the far right.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-063",
+      "seed": 100070,
+      "instruction": "Place red block on the left, then set green block to its right and blue block next to green block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-064",
+      "seed": 100071,
+      "instruction": "Place red block, green block, and blue block sequentially in a row, starting with red block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-065",
+      "seed": 100072,
+      "instruction": "Place red block on the left, then set green block to its right and blue block next to green block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-066",
+      "seed": 100073,
+      "instruction": "Start by placing red block to the left, followed by green block next to red block, and end with blue block on the far right.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-067",
+      "seed": 100075,
+      "instruction": "Use the left arm to arrange red block first, then use the left arm for green block, and finally use the right arm for blue block in a row.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-068",
+      "seed": 100077,
+      "instruction": "Set red block on the left, then green block in the center, and finally blue block on the right.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-069",
+      "seed": 100078,
+      "instruction": "Arrange red block, green block, and blue block in a row with red block on the left, green block in the middle, and blue block on the right.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-070",
+      "seed": 100079,
+      "instruction": "Place red block on the left, then set green block to its right and blue block next to green block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-071",
+      "seed": 100080,
+      "instruction": "Pick up red block, set it on the left. Then grab green block, position it next to red block. Finally, place blue block to the right of green block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-072",
+      "seed": 100081,
+      "instruction": "Start by placing red block to the left, followed by green block next to red block, and end with blue block on the far right.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-073",
+      "seed": 100082,
+      "instruction": "Arrange red block, green block, and blue block side by side, starting with red block on the left.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-074",
+      "seed": 100083,
+      "instruction": "Pick up red block, set it on the left. Then grab green block, position it next to red block. Finally, place blue block to the right of green block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-075",
+      "seed": 100084,
+      "instruction": "Set red block on the left, then green block in the center, and finally blue block on the right.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-076",
+      "seed": 100085,
+      "instruction": "Pick up red block, set it on the left. Then grab green block, position it next to red block. Finally, place blue block to the right of green block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-077",
+      "seed": 100086,
+      "instruction": "Pick up red block, set it on the left. Then grab green block, position it next to red block. Finally, place blue block to the right of green block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-078",
+      "seed": 100087,
+      "instruction": "Arrange red block, green block, and blue block in a row with red block on the left, green block in the middle, and blue block on the right.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-079",
+      "seed": 100088,
+      "instruction": "Arrange red block, green block, and blue block from left to right in a row.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-080",
+      "seed": 100089,
+      "instruction": "Set red block, green block, and blue block in a row from left to right in the order red, green, blue.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-081",
+      "seed": 100090,
+      "instruction": "Place red block on the left, then set green block to its right and blue block next to green block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-082",
+      "seed": 100091,
+      "instruction": "Pick up red block, set it on the left. Then grab green block, position it next to red block. Finally, place blue block to the right of green block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-083",
+      "seed": 100092,
+      "instruction": "Arrange red block, green block, and blue block from left to right in a row.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-084",
+      "seed": 100093,
+      "instruction": "Use the right arm to arrange red block first, then use the right arm for green block, and finally use the left arm for blue block in a row.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-085",
+      "seed": 100094,
+      "instruction": "Set red block on the left, then green block in the center, and finally blue block on the right.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-086",
+      "seed": 100095,
+      "instruction": "Arrange red block, green block, and blue block from left to right in a row.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-087",
+      "seed": 100096,
+      "instruction": "Arrange red block, green block, and blue block in a row with red block on the left, green block in the middle, and blue block on the right.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-088",
+      "seed": 100097,
+      "instruction": "Start by placing red block to the left, followed by green block next to red block, and end with blue block on the far right.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-089",
+      "seed": 100098,
+      "instruction": "Arrange red block, green block, and blue block side by side, starting with red block on the left.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-090",
+      "seed": 100099,
+      "instruction": "Arrange red block, green block, and blue block in a row with red block on the left, green block in the middle, and blue block on the right.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-091",
+      "seed": 100100,
+      "instruction": "Pick up red block, set it on the left. Then grab green block, position it next to red block. Finally, place blue block to the right of green block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-092",
+      "seed": 100101,
+      "instruction": "Set red block on the left, then green block in the center, and finally blue block on the right.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-093",
+      "seed": 100102,
+      "instruction": "Set red block on the left, then green block in the center, and finally blue block on the right.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-094",
+      "seed": 100103,
+      "instruction": "Arrange red block, green block, and blue block in a row with red block on the left, green block in the middle, and blue block on the right.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-095",
+      "seed": 100104,
+      "instruction": "Place red block on the left, then set green block to its right and blue block next to green block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-096",
+      "seed": 100155,
+      "instruction": "Use the right arm to arrange red block first, then use the left arm for green block, and finally use the right arm for blue block in a row.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-097",
+      "seed": 100156,
+      "instruction": "Pick up red block, set it on the left. Then grab green block, position it next to red block. Finally, place blue block to the right of green block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-098",
+      "seed": 100157,
+      "instruction": "Pick up red block, set it on the left. Then grab green block, position it next to red block. Finally, place blue block to the right of green block.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "blocks_ranking_rgb-demo_randomized-099",
+      "seed": 100158,
+      "instruction": "Arrange red block, green block, and blue block in a row with red block on the left, green block in the middle, and blue block on the right.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    }
+  ],
+  "generator_metadata": {
+    "generator": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/combine_and_shard_heldout_manifest.py",
+    "purpose": "100_rollouts_per_task_setting_main_result_alignment",
+    "source_manifest_sha256": {
+      "blocks_ranking_rgb_demo_randomized_a.json": "82f259bd02f4ae4308f6bbb4970e84c0d4923d5b4c1827564ed57ccd966d3c2b",
+      "blocks_ranking_rgb_demo_randomized_b.json": "3ef12590c94cbf2b19c898cfb84c7405fd6e5fc47e2749bede63df4dff80e148"
+    },
+    "episode_count": 100,
+    "shard_count": 5,
+    "episodes_per_shard": 20
+  }
+}

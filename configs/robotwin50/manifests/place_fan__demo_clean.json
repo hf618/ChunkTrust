@@ -1,0 +1,175 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_fan__demo_clean.json",
+    "parent_manifest_sha256": "8be8ff54bd6d6da13e006117e040d3e7a3e4532a2b5c92559487a4693a21faaf",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_place_fan_demo_clean",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9600000,
+      "instruction": "Grab the off-white fan with beige accents and set it on the Gray mat facing the robot",
+      "instruction_sha1": "08befa2d3cdd65c9ff3f7203941d30ab1f117515",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9600001,
+      "instruction": "Grab the fan with small round shape and set it on the Olive mat facing the robot.",
+      "instruction_sha1": "56144ff49fd5ba2fe8b4da358dad6b5cd790ed79",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9600002,
+      "instruction": "Grab the plastic fan with the left arm and position it on the Cyan mat facing the robot.",
+      "instruction_sha1": "a908019167c505a205197fccc963cfd5cee620d0",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9600003,
+      "instruction": "Use the right arm to grab the plastic fan, then place it on the Silver mat facing the robot.",
+      "instruction_sha1": "709073ae56791a942d364402e0b118b9a83eed99",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9600004,
+      "instruction": "Use the left arm to grab the white desk fan and place it on the Gray mat facing the robot.",
+      "instruction_sha1": "8f3d026e453039f23cd625f28930151809f85161",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9600005,
+      "instruction": "Place the white desk fan onto the Indigo colored mat facing the robot.",
+      "instruction_sha1": "5c461f2c92313302a8eb5d787a83b7ce322af832",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9600006,
+      "instruction": "Grab the plastic fan and set it on the Cyan mat.",
+      "instruction_sha1": "11f948a739bc8f0fc11e7ef379c9f89936ccc0e7",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9600007,
+      "instruction": "Pick the beige circular blade fan and set it on the Olive mat facing the robot.",
+      "instruction_sha1": "8de8fc9beef29c3cd9757cd2d928c09e028325fc",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9600008,
+      "instruction": "Use the right arm to grab the beige circular blade fan, then place it on the Silver mat facing the robot.",
+      "instruction_sha1": "4e8801217bfcf11e786769d3ec6ab7d68fead919",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9600009,
+      "instruction": "Grab the beige circular blade fan with the left arm and position it on the Black mat facing the robot.",
+      "instruction_sha1": "bd7cb18b498c47d765e4d33fdc8b7917672bdce7",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9600010,
+      "instruction": "Pick up the plastic fan and set it on the Maroon mat facing the robot.",
+      "instruction_sha1": "969df4164d76224f9a28f7fcc4a1519191d63304",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9600011,
+      "instruction": "Grab the off-white fan with beige accents and set it on the Indigo mat.",
+      "instruction_sha1": "eff296ec686b5662b13153e8a3b546952e2bd723",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9600012,
+      "instruction": "Grab the plastic fan and set it on the Tan mat facing the robot.",
+      "instruction_sha1": "dfaae2704424bbddbc0129e28eeabb02ec83130b",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9600013,
+      "instruction": "Place the plastic fan onto the Silver colored mat facing the robot.",
+      "instruction_sha1": "73772a174bc2a145c500da3684cc2533094ed747",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9600014,
+      "instruction": "Pick the white desk fan and set it on the Maroon mat facing the robot.",
+      "instruction_sha1": "edd6d538665fa9611b24d409ac598b31c363425d",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9600015,
+      "instruction": "Pick the beige circular blade fan and set it on the Pink mat facing the robot.",
+      "instruction_sha1": "f159cdd74fc21b823a67ac7ee19c126f3d2194cf",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9600016,
+      "instruction": "Pick the beige circular blade fan and set it on the Red mat facing the robot.",
+      "instruction_sha1": "18386ee3e4a3f2ccf2b7f13ac172f975aa793235",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9600017,
+      "instruction": "Use the left arm to grab the plastic fan and place it on the Blue mat facing the robot.",
+      "instruction_sha1": "58485348da90e1272515ae016a40903fe4f9a047",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9600018,
+      "instruction": "Grab the portable curved handle fan and set it on the Red mat facing the robot.",
+      "instruction_sha1": "e9a0bfa3f9d43e8fa31372f851ba971dbc918ee0",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9600019,
+      "instruction": "Grab the fan with small round shape and set it on the Cyan mat facing the robot",
+      "instruction_sha1": "97d9c3871bf29c663410652b158e4c7ad051f49f",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-07-31T23:34:10.221782+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_place_fan_demo_clean_first20",
+  "rejected_pre_manifest_candidates": [
+    {
+      "episode_seed": 9600045,
+      "reason": "UnStableError: Objects is unstable in seed(9600045), unstable objects: 099_fan"
+    }
+  ],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9600000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_clean",
+  "task_name": "place_fan"
+}

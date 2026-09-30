@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_burger_fries__demo_randomized.json",
+    "parent_manifest_sha256": "572345d03b04d2819bed03a49359ab2e1a98f3cf2d42c67820d64df9b3df9655",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_place_burger_fries_demo_randomized",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9541000,
+      "instruction": "Use both arms to grab the cardboard hamburg box and the Crispy potato fries with red box and set them on the beige tray with soft edges.",
+      "instruction_sha1": "9668d342e6230c87fc7825b5ac96efa4e5bcacb0",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9541001,
+      "instruction": "Place the cardboard hamburg container and the hand-sized fries container onto the green tray.",
+      "instruction_sha1": "ed6fc9fcb060d329d87c089f9b616f0afa73cf75",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9541002,
+      "instruction": "Pick the hamburg with white and orange and the golden crispy fries inside red box, then place them on the rectangular bright orange serving tray.",
+      "instruction_sha1": "112a8854504bff62295b5eabc8ddafc999f29fe3",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9541003,
+      "instruction": "Use both arms to grab the rectangular cardboard box for hamburg and the golden fries in red holder and set them on the rectangular tray with rounded edges.",
+      "instruction_sha1": "2cec2eab9865f6018dbb7541800e7b89b2f83aa9",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9541004,
+      "instruction": "Pick up the palm-sized hamburg and the hand-sized fries container together, then drop on the rectangular bright orange serving tray",
+      "instruction_sha1": "a25da9dacca39023239c666c7cfe07cdf012aae2",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9541005,
+      "instruction": "Place the hamburg with soft texture and the Red carton box fries crispy golden onto the medium flat tray.",
+      "instruction_sha1": "33529389fd0039ac6971961ad1f6740b67ea13bb",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9541006,
+      "instruction": "Grab the hamburg with curved surfaces and the golden crispy fries inside red box together, setting them on the flat brown serving tray.",
+      "instruction_sha1": "453dee1b4d9a61fc04f6e37ad02d47c0e3b26a3d",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9541007,
+      "instruction": "Use both arms to grab the hamburg with white sides and the hand-sized fries container and set them on the medium-sized tray with rounded corners.",
+      "instruction_sha1": "054a02d017f8b3d37f40e9f1483b2f550b4a8cbe",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9541008,
+      "instruction": "Grab the golden brown food within wrapper and the Red carton box fries crispy golden together, setting them on the smooth green tray.",
+      "instruction_sha1": "12b05c675f544cafbc40297b4ec652e59e375058",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9541009,
+      "instruction": "Pick up the palm-sized hamburg and the golden fries in red holder, then place on the medium green tray for carrying.",
+      "instruction_sha1": "f75fca610d614dc55a1a2673ee96bdfdbabc34a0",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9541010,
+      "instruction": "Pick up the golden brown hamburg and the Red carton box fries crispy golden, then place on the medium-sized tray with rounded corners.",
+      "instruction_sha1": "767d2f9c61d8b4e558c1442ce62b50598f66a486",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9541011,
+      "instruction": "Pick up the rectangular cardboard box for hamburg and the golden fries in red holder, then place on the rectangular tray with rounded edges.",
+      "instruction_sha1": "13f286b2ddd2f3dcbfe3eb8edb5bc070c1fc3fe4",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9541012,
+      "instruction": "Grab the golden brown food within wrapper and the Golden fries in red carton box, then set them on the rectangular bright orange serving tray",
+      "instruction_sha1": "95229ba1b7cb1dc8327068051909cd611dd322cb",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9541013,
+      "instruction": "Grab the hamburg with white and orange and the golden crispy fries inside red box together, setting them on the medium beige plastic tray.",
+      "instruction_sha1": "86e087c62e5e2281c2f77f628bbff89aa3aadd03",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9541014,
+      "instruction": "Use both arms to place the small rectangular hamburg and the Golden fries in red carton box on the smooth green tray.",
+      "instruction_sha1": "a58fcc551116713629531f621d972f83967cbe10",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9541015,
+      "instruction": "Place the small rectangular hamburg and the golden crispy fries inside red box onto the rectangular beige tray.",
+      "instruction_sha1": "15fa4fcecc1118c26e11a9fdcb93b12a24b760d6",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9541016,
+      "instruction": "Grab the stackable hamburg box and the Red carton box fries crispy golden together, setting them on the tray for carrying items.",
+      "instruction_sha1": "b8a245ecf164172b51ee9a8faafb874258ce1932",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9541017,
+      "instruction": "Grab the hamburg with uneven white surface and the golden fries in red holder, then set them on the smooth green tray",
+      "instruction_sha1": "4d6cb6b66c68790285d1d19837efc9e20b5d5ff9",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9541018,
+      "instruction": "Grab the rounded rectangular hamburg wrap and the Golden fries in red carton box together, setting them on the medium-sized tray with rounded corners.",
+      "instruction_sha1": "faabaa55ee8bdec9eec678ac79136a39fd6af105",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9541019,
+      "instruction": "Use both arms to place the palm-sized hamburg and the Red carton box fries crispy golden on the medium-sized tray with rounded corners.",
+      "instruction_sha1": "61f2eb0a40725ab1352adebadf037b6a25961a40",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-07-31T21:41:04.305047+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_place_burger_fries_demo_randomized_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9541000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_randomized",
+  "task_name": "place_burger_fries"
+}

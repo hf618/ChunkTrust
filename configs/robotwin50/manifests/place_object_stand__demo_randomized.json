@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_object_stand__demo_randomized.json",
+    "parent_manifest_sha256": "2f5e4971cba01fb239a21ebd91ee1098087650a46063b9ff4f4be294e47d32f1",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_place_object_stand_demo_randomized",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9641000,
+      "instruction": "Grab the remotecontrol designed for TV, then place it on the medium-sized hollow black displaystand",
+      "instruction_sha1": "621f2b98b44a57eb5df71855749c5e0b5f9c5a40",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9641001,
+      "instruction": "Place the gray base toycar onto the black displaystand with the left arm",
+      "instruction_sha1": "6b5da57e4104cd994fd73eb4ce9c1e19a8e5ec6e",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9641002,
+      "instruction": "Use the right arm to place the handheld rubikscube on the medium-sized hollow black displaystand.",
+      "instruction_sha1": "044af64af0c9c23b666b97d6431db723e0ed5569",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9641003,
+      "instruction": "Use the left arm to place the palm-sized bell on the medium-sized displaystand.",
+      "instruction_sha1": "0523091d892b7ceaf53351d148f3a08d497053d7",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9641004,
+      "instruction": "Set the rubikscube for twisting and turning onto the displaystand with hollow center using the right arm.",
+      "instruction_sha1": "136658d73d03f965782da14909d168681f9144cd",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9641005,
+      "instruction": "Set the remotecontrol for controlling devices on the displaystand with hollow center.",
+      "instruction_sha1": "c447d59b8738864dc4d219881b9020680aa95e34",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9641006,
+      "instruction": "Set the smooth metal bell onto the hollow rectangular black displaystand using the right arm.",
+      "instruction_sha1": "2a7ea4d4416460b5af87c3e918fe366260aa182b",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9641007,
+      "instruction": "Use the left arm to place the red stapler with silver chamber on the hollow rectangular black displaystand.",
+      "instruction_sha1": "28eb2ba871835274b4d5ad37c0df702a88d40237",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9641008,
+      "instruction": "Set the palm-sized bell onto the dark brown displaystand using the right arm.",
+      "instruction_sha1": "7584086a49d79f9127eff39599cc455252a47357",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9641009,
+      "instruction": "Grab the mouse with scroll wheel using the left arm and place on the medium-sized hollow black displaystand.",
+      "instruction_sha1": "4e6a16d2f6065470338ed83c5473d107b52741b4",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9641010,
+      "instruction": "Set the hand-sized rubikscube with colored squares onto the compact black hollow displaystand using the right arm.",
+      "instruction_sha1": "658821bd99ca5ab3ab8376c92f3b0dc8180a7c5e",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9641011,
+      "instruction": "Grab the red stapler with silver chamber, then place it on the displaystand with angled sides",
+      "instruction_sha1": "6c12afd514188a82adc9d3ab7be73d33eac5ece2",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9641012,
+      "instruction": "Place the medium-sized bell on the medium displaystand with smooth finish with the left arm.",
+      "instruction_sha1": "4a8b7c07ba35fe94065de0369f4fc86a33cc3dca",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9641013,
+      "instruction": "Place the hand-sized black-gray mouse on the medium-sized hollow black displaystand with the right arm.",
+      "instruction_sha1": "2e3161e8e00943eb4a85614a70644ae8d0b547db",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9641014,
+      "instruction": "Use the left arm to place the toycar with smooth finish on the medium brown displaystand with slot.",
+      "instruction_sha1": "0b7726bc8644d37f7f943a1e9982e31b8adf39c7",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9641015,
+      "instruction": "Place the bell with raised round top on the angled rectangular metal displaystand using the right arm.",
+      "instruction_sha1": "6e36ac34832406d7aaccfe53239794ee4aff96d5",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9641016,
+      "instruction": "Grab the toycar with rounded edges using the right arm and place on the black frame displaystand with open sides.",
+      "instruction_sha1": "eba959ddaac6388688ef661e4912be191d161c46",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9641017,
+      "instruction": "Use the left arm to place the black stapler on the medium-sized hollow black displaystand",
+      "instruction_sha1": "dc52acb4c3de26958001f25aa591c3335f397380",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9641018,
+      "instruction": "Grab the compact toycar with rotating wheels using the left arm and place on the rectangular base displaystand.",
+      "instruction_sha1": "ba322f42697d8a16a074e3579e1cd9c976e999dc",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9641019,
+      "instruction": "Set the palm-sized bell on the black displaystand.",
+      "instruction_sha1": "9205d06f4f33cf32b6ab93e070abe79eec5fd488",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-08-01T01:08:50.467358+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_place_object_stand_demo_randomized_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9641000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_randomized",
+  "task_name": "place_object_stand"
+}

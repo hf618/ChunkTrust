@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/lift_pot__demo_clean.json",
+    "parent_manifest_sha256": "fccea01f794210870abd5abb3dfdad8a9101f5775ee81034ff1e4766d71136f9",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_lift_pot_demo_clean",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9410000,
+      "instruction": "Use both arms to lift the round pot with blue top",
+      "instruction_sha1": "251744b1b95b216c7e97dc01572f3ab04a19f90a",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9410001,
+      "instruction": "Use both arms for the kitchenpot with two side handles",
+      "instruction_sha1": "d8fe847274ba4aa23130d374c0078aeca395ad11",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9410002,
+      "instruction": "Lift the kitchenpot with smooth matte body using both arms",
+      "instruction_sha1": "98a6795f824a9501c68094bcff71593cacd6233d",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9410003,
+      "instruction": "Lift the round pot with blue top upward using arms.",
+      "instruction_sha1": "ed4d3448093dde19c7848269d8607cfd707a5698",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9410004,
+      "instruction": "Lift the round pot with blue top with both arms",
+      "instruction_sha1": "33f1c67ff0c4c0d3647fc7fcbe32c9cdb629bd30",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9410005,
+      "instruction": "Hold the kitchenpot with two side handles firmly and lift it",
+      "instruction_sha1": "bd7c0f021ccf5210507ec3a5d9681f368df89d62",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9410006,
+      "instruction": "Grab the medium stove pot with both arms.",
+      "instruction_sha1": "a9eafc636e9d4052d3c6444906b33e9f67c24ff2",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9410007,
+      "instruction": "Lift the kitchenpot with smooth matte body using both arms",
+      "instruction_sha1": "98a6795f824a9501c68094bcff71593cacd6233d",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9410008,
+      "instruction": "Lift the kitchenpot with smooth matte body upward using arms.",
+      "instruction_sha1": "a1273307d2cc513094044df5378392bd5228f70e",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9410009,
+      "instruction": "Use both arms for the dark gray cooking kitchenpot",
+      "instruction_sha1": "8dd8e76bc24d1c7339e98c533efbe1a7524c1cf3",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9410010,
+      "instruction": "Lift the kitchenpot with smooth matte body with both arms",
+      "instruction_sha1": "4c4880f0cb84f38af838fa46e4f7396e93f302dd",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9410011,
+      "instruction": "Lift the round pot with blue top using both arms",
+      "instruction_sha1": "3616a545399132bb06aa34415cf0ce867e3311ec",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9410012,
+      "instruction": "Grab the medium stove pot with both arms.",
+      "instruction_sha1": "a9eafc636e9d4052d3c6444906b33e9f67c24ff2",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9410013,
+      "instruction": "Lift the kitchenpot with two side handles using both arms",
+      "instruction_sha1": "a02fc44487b0512ffed6dd56d2acbde4a176a9c5",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9410014,
+      "instruction": "Hold the kitchenpot with smooth matte body firmly and lift it",
+      "instruction_sha1": "e3dfc7ff9558b23369403bd2b2b75de12d8db4a9",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9410015,
+      "instruction": "Use both arms to lift the gray kitchenpot with rounded edges",
+      "instruction_sha1": "301c4a16987ebdabcfe1e5dda76fbb51832c2464",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9410016,
+      "instruction": "Lift the kitchenpot with two side handles using both arms",
+      "instruction_sha1": "a02fc44487b0512ffed6dd56d2acbde4a176a9c5",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9410017,
+      "instruction": "Lift the kitchenpot with two side handles upward using arms.",
+      "instruction_sha1": "384c84d72f018586daa2b30bc3d77ff4b5ce73f6",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9410018,
+      "instruction": "Together lift the gray kitchenpot with rounded edges up",
+      "instruction_sha1": "3345511f656772003794713096c478cd8ec0f991",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9410019,
+      "instruction": "Lift the kitchenpot with two side handles using both arms",
+      "instruction_sha1": "a02fc44487b0512ffed6dd56d2acbde4a176a9c5",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-07-31T17:04:08.752668+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_lift_pot_demo_clean_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9410000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_clean",
+  "task_name": "lift_pot"
+}

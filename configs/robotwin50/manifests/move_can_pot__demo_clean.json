@@ -1,0 +1,175 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/move_can_pot__demo_clean.json",
+    "parent_manifest_sha256": "441f835889b8b577ebf227dde9e79a236b8ba814c173ed09f5b8c471e269a926",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_move_can_pot_demo_clean",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9420000,
+      "instruction": "Use the right arm to pick up the brown sauce can with top lid and move it beside the compact kitchenpot with lid-like surface",
+      "instruction_sha1": "d5c382e5fb2335d1b8b2b0fcb266b3622fb92587",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9420001,
+      "instruction": "Pick up the sauce can with red lid and set it beside the compact kitchenpot with lid-like surface",
+      "instruction_sha1": "711aad38ca6f8c974f69d08496cc608e56430128",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9420002,
+      "instruction": "Use the right arm to pick up the brown sauce can with top lid, move it near the teal blue cooking pot",
+      "instruction_sha1": "1681bca47e3bc50ed1d471e4548385d7fe3c3be8",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9420003,
+      "instruction": "Pick up the sauce can with smooth surface and move it near the teal blue cooking pot",
+      "instruction_sha1": "4d3f9e0c7e00833a12a5cca81a98b0f5fdff9e97",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9420004,
+      "instruction": "Use the right arm to pick up the brown sauce can with top lid, move it near the medium black kitchenpot with lid",
+      "instruction_sha1": "90daefaba34f9cbdf29c5235031def33688e8901",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9420005,
+      "instruction": "Grab the sauce can and move it near the dark gray cooking kitchenpot",
+      "instruction_sha1": "2b8b6f8ea469466f5af77b5617eae0298826ca3c",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9420006,
+      "instruction": "Grab the sauce can with round ridged lid and set it beside the kitchenpot for cooking food",
+      "instruction_sha1": "4ad7e92532f569960c9d85f07ed52d3a7a01f151",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9420007,
+      "instruction": "Lift the yellow label on sauce can and set it beside the shiny black kitchenpot",
+      "instruction_sha1": "890a02bc4336c8dff99aebe392ee8ea44af35cab",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9420009,
+      "instruction": "Use the right arm to pick up the metal body sauce can, move it near the compact kitchenpot with lid-like surface",
+      "instruction_sha1": "beafc5bce95b839ad25088d8952cdeea6a07b8c2",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9420010,
+      "instruction": "Grab the medium sauce can with white label and place it near the dark gray cooking kitchenpot",
+      "instruction_sha1": "9261f50fb61dbd0a6f6eb56f9f5016a34f115c3d",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9420011,
+      "instruction": "Grab the sauce can with round ridged lid and place it near the shiny black kitchenpot",
+      "instruction_sha1": "acb16777c39d6cede9e277e75b6f54a02c0f093c",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9420012,
+      "instruction": "Pick up the smooth cylindrical sauce can and move it near the dark gray cooking kitchenpot",
+      "instruction_sha1": "f5351bc4db54154c848f3cbd32e6624c20fde87d",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9420013,
+      "instruction": "Grab the medium sauce can with white label and move it near the medium kitchenpot",
+      "instruction_sha1": "841cca50351f4dc0cc4ae6e6ca9b7704cb737237",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9420014,
+      "instruction": "Grab the medium sauce can with white label and move it near the round black kitchenpot",
+      "instruction_sha1": "5297b4e00ab351ec1113de5b17d1ea7d5b7bbdb3",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9420015,
+      "instruction": "Lift the sauce can with red lid and set it beside the rounded cooking pot with two handles",
+      "instruction_sha1": "a061615e0210a31938ef3ed12d0dc076931b9c97",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9420016,
+      "instruction": "Use the right arm to pick up the medium sauce can with white label and move it beside the medium kitchenpot",
+      "instruction_sha1": "9b91ca021ab956caa37d7d19f0cfdd4c8c7e5a56",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9420017,
+      "instruction": "Grab the sauce can with round ridged lid and move it near the kitchenpot for stovetop boiling",
+      "instruction_sha1": "04a6763c47c8ecd6066845ec79429b5bc99a08bf",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9420018,
+      "instruction": "Grab the medium sauce can and place it beside the round pot with blue top",
+      "instruction_sha1": "48f79423da8849fb16cd863e0f4e88ba7c5ad05f",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9420019,
+      "instruction": "Grab the medium-size cylindrical sauce can and set it beside the medium kitchenpot",
+      "instruction_sha1": "496e11834afb55ce4bb99586ab62880a3e7cbd58",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9420020,
+      "instruction": "Grab the yellow label on sauce can and place it beside the cylindrical kitchenpot for cooking",
+      "instruction_sha1": "b674fb96097d340c71bad36e3edcd770bf8e0719",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-07-31T17:22:34.887769+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_move_can_pot_demo_clean_first20",
+  "rejected_pre_manifest_candidates": [
+    {
+      "episode_seed": 9420008,
+      "reason": "UnStableError: Objects is unstable in seed(9420008), unstable objects: 105_sauce-can"
+    }
+  ],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9420000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_clean",
+  "task_name": "move_can_pot"
+}

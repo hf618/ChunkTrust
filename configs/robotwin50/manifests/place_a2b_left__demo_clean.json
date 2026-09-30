@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_a2b_left__demo_clean.json",
+    "parent_manifest_sha256": "ba7f22bbe221630f696ae50e110a7374fa6106577e201e9115aa026bb6de89c1",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_place_a2b_left_demo_clean",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9500000,
+      "instruction": "Place the blue toycar with yellow buttons to the left of the medium rectangular woodenblock with grain using the right arm",
+      "instruction_sha1": "5a3bc196c24c52a73542932b2c957272ac59e991",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9500001,
+      "instruction": "Pick the hard black box for card deck and set it left of the bright green toycar.",
+      "instruction_sha1": "a46a2a8d4d9a0f50c3cb9ac18771136d065d9d32",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9500002,
+      "instruction": "Set the plastic toycar down to the left of the handheld rubikscube",
+      "instruction_sha1": "7db9cb118e5754c117ede821f66e2afd22612851",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9500003,
+      "instruction": "Place the medium bread loaf to the left of the rectangular playingcards pack using the left arm",
+      "instruction_sha1": "6529c6275f23aa1e6aee3984724b1ae0142ee9b4",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9500004,
+      "instruction": "Pick the toycar with rounded body and set it left of the small packet of playingcards.",
+      "instruction_sha1": "cb6cd954bfe2a5bfe7d7b5b37b2f8a200487e87e",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9500005,
+      "instruction": "Set the hand-sized black-gray mouse down to the left of the red tea-box with golden designs",
+      "instruction_sha1": "63a015f0d53493eb20e7234daf489d775815d804",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9500006,
+      "instruction": "Pick the square bread with light spots and set it left of the hand-sized rubikscube with colored squares.",
+      "instruction_sha1": "51b5afbc080e019a164e5474d7c2d128b8ea337c",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9500007,
+      "instruction": "Use the left arm to put the woodenblock for stacking left of the rectangular playingcards pack.",
+      "instruction_sha1": "454c50eb888c08c56cbfdc51ea72979afa415832",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9500008,
+      "instruction": "Set the red, blue, green, yellow rubikscube down to the left of the lightweight bell with smooth surface",
+      "instruction_sha1": "dfc02b2f20ed643160408deeb9df09482f0eb08a",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9500009,
+      "instruction": "Set the braided top round bread to the left of the box with coffee mug design",
+      "instruction_sha1": "a38cb1d93199e5e194d412f79ed10c072edc01d6",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9500010,
+      "instruction": "Set the blue and white stapler to the left of the rectangular phone with curved edges",
+      "instruction_sha1": "e9a59badd3e71dc14ae2472220ef8dd031d67a72",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9500011,
+      "instruction": "Set the box with coffee mug design on the left side of the hand-sized black-gray mouse.",
+      "instruction_sha1": "79151962c5fd880390d5c2dd7e80e6b2fb295754",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9500012,
+      "instruction": "Position the bell with raised round top on the left of the smartphone with black display",
+      "instruction_sha1": "7696bba73505e83480f3d653a5cfabe6a9e32576",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9500013,
+      "instruction": "Pick the rectangular woodenblock and set it left of the medium-sized bell.",
+      "instruction_sha1": "5e282737dc3a3bb8c1103813663f0f610fbb0efa",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9500014,
+      "instruction": "Use the right arm to put the sealed coffee box with flat sides left of the small rounded plastic mouse.",
+      "instruction_sha1": "6206bffdd37fe080080963c2eb1c0d7177454120",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9500015,
+      "instruction": "Set the playingcards with red packaging down to the left of the phone with rounded edges",
+      "instruction_sha1": "2735a0b286f7cc1f0a5bd0bab68a32c0466e49dd",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9500016,
+      "instruction": "Set the light yellow soap for hygiene on the left side of the plastic teal car with wheels.",
+      "instruction_sha1": "ded39780cb3998dcc9b358ebecb3f5f8d2c17fd7",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9500017,
+      "instruction": "Pick the dark phone with shiny finish and set it left of the box with coffee mug design.",
+      "instruction_sha1": "1f3f4b18c41150e25db89b9de6d82b2eab769f57",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9500018,
+      "instruction": "Set the loaf-shaped brown bread on the left side of the rectangular orange block with green triangle",
+      "instruction_sha1": "a09b654d621095bb1066cf8eafdb69c13ab98347",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9500019,
+      "instruction": "Set the black box with smooth surface to the left of the dark bar soap",
+      "instruction_sha1": "e1bf9e34ba59dafa308f8ca312a1806d0d9e1370",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-07-31T20:12:18.959970+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_place_a2b_left_demo_clean_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9500000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_clean",
+  "task_name": "place_a2b_left"
+}

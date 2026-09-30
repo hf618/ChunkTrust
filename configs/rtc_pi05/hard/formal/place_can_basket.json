@@ -1,0 +1,858 @@
+{
+  "entries": [
+    {
+      "episode_seed": 953000,
+      "instruction": "Grab the can with shiny smooth surface, drop it into the yellow basket with open slots, lift the yellow basket with open slots with another arm.",
+      "precheck_status": "accepted",
+      "rollout_id": 0,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "120602be8e7b2948dceafb1a6ceaba19544c0ca6906968ee953243f2af05e620",
+          "cam_left_wrist": "4f08e1c84afd907da321514f8475e493b17eef6b90e597cbab2e9b808590d864",
+          "cam_right_wrist": "abc5c0d770d6f707d5cf0049896ab37a1805c9b2dbeade4fe6d30191aa4af62d"
+        },
+        "instruction_sha256": "af482be38a65decd911b36f4868262f88490c8302e51decdb2f7d27df5992d55",
+        "scene_sha256": "79d492ff4d7adbfed035070501dba295a81982e4869c442342cdf0d9894c42a6",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953001,
+      "instruction": "Use the right arm to grab the red can with white top, put it in the yellow rectangular basket with dual grips, and lift the yellow rectangular basket with dual grips.",
+      "precheck_status": "accepted",
+      "rollout_id": 1,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "4d2091f1ff6f4d9616563398447cbef4ee48ddd8d227d5fde71de8b9d009c4e5",
+          "cam_left_wrist": "4666d2dcb402d937579ca38e2518d89f56c6f79aba096873c7db60c0c3a26a6b",
+          "cam_right_wrist": "204ad5db488173c8ef7144a6e1fdb5d592e4672d5852e7ebcfebd2a04f0ceecf"
+        },
+        "instruction_sha256": "35367a85cf118940254fe2563fae8051184225efebd777833362c9dae8fd986a",
+        "scene_sha256": "629c278d2fc150b880f843670858ec917fc423cea0188887ac140479e87d3924",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953002,
+      "instruction": "Use the left arm to pick the small red soda can, place it into the yellow basket with open slots, and lift the basket.",
+      "precheck_status": "accepted",
+      "rollout_id": 2,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "594a4bf6216988aab44ef7868baee1d47567c333c3e30b8456aba4475b8a69bf",
+          "cam_left_wrist": "1fb2b08bfdbbf8b957c46522c0134221ff8debfe17868cfae83f3052fe1ac07d",
+          "cam_right_wrist": "d531904b2181ce3a819bfd5958a1aa8539e320a239f348466f9c698446b8dff1"
+        },
+        "instruction_sha256": "89360b202bcee8f58f41a44dd74198e4d6538894d7d2e4a46dcc08b8d626b0f2",
+        "scene_sha256": "e242b269a4554a5caaf994d88f5bcc7d48e8f6c31302ec78df75e70fa0078c19",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953004,
+      "instruction": "Pick up the palm-sized red metal Coca-Cola can, place it in the medium-sized basket with perforated texture, then lift the medium-sized basket with perforated texture.",
+      "precheck_status": "accepted",
+      "rollout_id": 3,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "97869f6bd23a97bb75e51214772026d7d00b809781a9d9d702e8e2333d72aee7",
+          "cam_left_wrist": "202d766f3062a36bd6b584dc186133ba0c84aab667fd8f9252f55c99bb4a9ada",
+          "cam_right_wrist": "e78d93ea25d4abb93401954aa73cf7c86e4297731a83dd8ba43cd273fbd453de"
+        },
+        "instruction_sha256": "c71e7056267ad8bd2aa36f58846adf19565e299fa01a55f4601a1674b573f243",
+        "scene_sha256": "e8baf6540c1cff17f01c6c0c31b447dea751922a1d37024d497a19a12d6d86ac",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953005,
+      "instruction": "Use the left arm to pick the metal can fits easily in hand, drop it into the medium-sized basket with perforated texture, then lift the medium-sized basket with perforated texture.",
+      "precheck_status": "accepted",
+      "rollout_id": 4,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "80b82fecdf496d204f59911628d042c3829b1909563d8378ce0c7296feeb39e4",
+          "cam_left_wrist": "95c2b341f0acb721c12d520d9241b0465500d756bd932a3dd0c13badb9e67cce",
+          "cam_right_wrist": "e689a6828d12cc6ece61821c3ffe3e1bef6177c2791abca8c905adec1d2fb26e"
+        },
+        "instruction_sha256": "7483e23b5dbf962f75f031ce8ddda638dd6dbb93c47bfd34d6b2796005bac2e1",
+        "scene_sha256": "98376af1ed6ae433bfa748fc8b4433bcc7ff2c0ae86a6ba0a2964b7cf9fca7aa",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953006,
+      "instruction": "Pick the small red soda can, put it in the oval basket with medium storage space, then lift the oval basket with medium storage space.",
+      "precheck_status": "accepted",
+      "rollout_id": 5,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "5888b459bbce7995aaea7e40fd94c2368843559f53319f8f0b1dc7320d9f7fe5",
+          "cam_left_wrist": "145f61cc20cced2837c368f77e36b67de6be8093334e3edbc0b6f140252c6ec8",
+          "cam_right_wrist": "0d6e15bdee2073610125a5020d13344fef6a1c6d89bcbc52ce2b2f4959ca8b18"
+        },
+        "instruction_sha256": "f5032f764f82812a56ef17c59d53fe3ba67243051754bd8dc22560e04700e572",
+        "scene_sha256": "b86e791db6029f50c61837dd730b3b887b93b8049a18e7ae1437a0c51388959b",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953007,
+      "instruction": "Use the right arm to pick up the cylindrical can with bright colors, put it into the medium-sized basket with perforated texture, the other arm lifts the medium-sized basket with perforated texture.",
+      "precheck_status": "accepted",
+      "rollout_id": 6,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "c076627b7898bc2c9ef37dc4c31c2f5a8ea09ebf900ea8f6d41b39ca9319277a",
+          "cam_left_wrist": "66c842844aa9727b9b401c76a61ff06532deef7370eba486c48fe920c1d43ea9",
+          "cam_right_wrist": "b872c8f383d37eb68d92504e0f2a420b0443b9f38bf58edfd4230904590c7eed"
+        },
+        "instruction_sha256": "4eb3953396612377c07bbccf969d03e53b0cbf068d636d6c4bb41e2c750e4d7b",
+        "scene_sha256": "95e9e49a9ed746bc8de40313a24b10869ab54f7cbca9322c5dd8cc2e372d603c",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953008,
+      "instruction": "Grab the red can, drop it into the medium-sized basket with perforated texture, lift the medium-sized basket with perforated texture with another arm.",
+      "precheck_status": "accepted",
+      "rollout_id": 7,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "55f5f7197d7a316dfff55c298c7ab1ca92519ebd7fcc9862576a5776d87e3953",
+          "cam_left_wrist": "7b8951311c96ff39d0c75d6a8430154e06a23c0479f92280a1488451c88aee6c",
+          "cam_right_wrist": "74143802051f1cd09c4b16b416389de9fbf7c53afb8e678bcf820e330b459e3b"
+        },
+        "instruction_sha256": "7861b380b933c08b151051e342c19b0aac5870d5d4076f696598dfa877354baa",
+        "scene_sha256": "1fed3d3c654ec4a6198f3018615c0f1441698022004675edcbacd94a17aff444",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953009,
+      "instruction": "Use the right arm to pick the gold and red soda can, place it into the yellow basket with open slots, and lift the basket.",
+      "precheck_status": "accepted",
+      "rollout_id": 8,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "c232039678a573282cf787523aa4a117d024aeb4a1a3e61548fa96097e404dff",
+          "cam_left_wrist": "253cc8a289e5b5d13a3052bc69b89ddb865fb9ec691dc07a15f184f41b8e6fe6",
+          "cam_right_wrist": "fd3a1caecb31dcdace20e1153b085c6e0fab0fd7529bb84f10442fc99b551588"
+        },
+        "instruction_sha256": "ea85fb8c65671a57394b5eaa23ba7e59959bde3558468de0beb8170b1ca39e54",
+        "scene_sha256": "b2f139a65b88ade6467d1377d0a238d3097fbb941dbd2b23eee754661e8da0df",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953011,
+      "instruction": "Pick up the small aluminum can, place it in the basket with rounded edges, then lift the basket with rounded edges.",
+      "precheck_status": "accepted",
+      "rollout_id": 9,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "3d426cde758f4146d83226085ba077891b9cbba399e77304eb49e5504d343bd9",
+          "cam_left_wrist": "679263ea670c0078270c98822d56e2f067c378f13c6e6f6ab226c0f8f25dff41",
+          "cam_right_wrist": "1a622312c9f3c607ef7131d55b99c256e2339c1f79081c6e5e4a954b54b253a0"
+        },
+        "instruction_sha256": "984c5e394799924db214a766681066ea0470fac58fc095e94caba84870081134",
+        "scene_sha256": "680537c61cd237220ac00a829a406759855d1a4cbb7a727a8889be572b99dda2",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953012,
+      "instruction": "Use the right arm to pick the hand-sized can with metallic finish, place it into the medium basket with smooth texture, and lift the basket.",
+      "precheck_status": "accepted",
+      "rollout_id": 10,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "729cac81439e219e0d6f2550afa987c32054a70ed86f030c2b4c2e7336775049",
+          "cam_left_wrist": "38af8976db78632126854cbe8a0a4427fc728480e30562a6ca7146bf2ed8f835",
+          "cam_right_wrist": "f55e75e0693473ac8cbb9ec7e85e614610d5ec65a0d17f2f4d3a588f1456e162"
+        },
+        "instruction_sha256": "57d7ad380adcf1ea5891f7fd3a74751c68d5e9ea34c5b39895ce96bb9207a345",
+        "scene_sha256": "a67c40ded559cf887bfff0a0ebd2c8536f155aaed480c4a084a97e313a4a775a",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953013,
+      "instruction": "Grab the palm-sized red metal Coca-Cola can, put it in the medium-sized basket with perforated texture, lift the medium-sized basket with perforated texture.",
+      "precheck_status": "accepted",
+      "rollout_id": 11,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "cc70583eded4d6669a768026f5727761c1779fd44340609ccc70603b9ec939d7",
+          "cam_left_wrist": "1977e510ec9fa9cc40f11175e194b9f25ee8888b784efdcd31d10699febaba83",
+          "cam_right_wrist": "d2d79e2439a919d32c8174eb78599e2018d2908fca906a0fefa8cac66fa6fc83"
+        },
+        "instruction_sha256": "d84baecdde75eedfe904d7615a33881340258f5884e5966ec22ad27d381735c2",
+        "scene_sha256": "9a522d936596b401e023bfcfcc7b6a837a94977e5295b75f96021b2031a40a6b",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953014,
+      "instruction": "Grab the can with red body, drop it into the yellow basket with open slots, lift the yellow basket with open slots with another arm.",
+      "precheck_status": "accepted",
+      "rollout_id": 12,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "910747483c1aa9bcc614177017030687a4b469eb3283f798b9121b6f5ff85393",
+          "cam_left_wrist": "0d83157ae215698288f850b1956f6d59101e97705c0674809cee038d90e8f1fb",
+          "cam_right_wrist": "ebc968b967d90044493498b9cd857bf9a22f547386106dee890577ec26b9aea9"
+        },
+        "instruction_sha256": "8abeecef29971d7892d56e9c613a68803b376e6cec9c2762bded5c862b46adab",
+        "scene_sha256": "4c696a004c024ca52e096b4b9bde7b0fd06a04a3998aed8ef4e4eee8ce67d80a",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953015,
+      "instruction": "Grab the cylindrical can with smooth surface and put it in the yellow basket with open slots, then lift the yellow basket with open slots.",
+      "precheck_status": "accepted",
+      "rollout_id": 13,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "9ab94b27dbee21441edf7afdda6d87e3f5f8ca0cd5127bd9ae860ebc2f15be94",
+          "cam_left_wrist": "821b5f32d674bc2232fca1d9b88170f967f93d6d988a1bff5627f58c8143fc41",
+          "cam_right_wrist": "895043608f93b1b78eedb534fdf45dc6d045daaee465da0f04aedebeab0c7384"
+        },
+        "instruction_sha256": "bd048b89a17fecca77a79248aa112662fbc213db7a9a7c8733ac0dc3f133afe8",
+        "scene_sha256": "c3e90a9408e0c43415e7ab7eb0f536ff175870c14a661757b28855e1a5511b29",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953017,
+      "instruction": "Grab the cylindrical brown drink can with white markings and put it in the oval basket with medium storage space, then lift the oval basket with medium storage space.",
+      "precheck_status": "accepted",
+      "rollout_id": 14,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "b3c904b49dbf0b6ca04f29701f141e00d54d804f95e48e354ad2217fe9354478",
+          "cam_left_wrist": "2849f39fa063b55a1ccee6d340c67a087a8842bcef055aec7240e570d1d29c36",
+          "cam_right_wrist": "1f9067b5cd8a5821b12090e63ae3d932482c247256aa2c64676f12f7df9904cc"
+        },
+        "instruction_sha256": "1040a15f034d030a65a0ce2d45c69f8391832b3ef5f3896d8bae607120099157",
+        "scene_sha256": "649b6f9d85685c0e8970b3646babc68ed4f683c58a0a511f0e97d06c7d240730",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953018,
+      "instruction": "Use the right arm to pick the can with red body, drop it into the oval basket with medium storage space, then lift the oval basket with medium storage space.",
+      "precheck_status": "accepted",
+      "rollout_id": 15,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "ae6925e932490cfaf8cb776dad67a9d15e40c29c6e2da17d37839f38ebc0128b",
+          "cam_left_wrist": "536e8d7f290ace60de6000adfb17481337252c684efed330fea1ada00582ff12",
+          "cam_right_wrist": "fa5e8365809814b564ca99fcf4605cf39243f76c6395a12184da1a9b54ce9061"
+        },
+        "instruction_sha256": "14735194353a9aa4dbbee04d94238906c0e7997b615d47c1c56004a32f052b60",
+        "scene_sha256": "4308a462a95b25064acd77d321e757ef0b4626a8eb2658cc989888ed350b8305",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953019,
+      "instruction": "Grab the red can with white top, put it in the basket with rounded edges, lift the basket with rounded edges.",
+      "precheck_status": "accepted",
+      "rollout_id": 16,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "e1fd874798381b5c33d95bcb09bccc64775932130df6af0cd05ea57c39e67904",
+          "cam_left_wrist": "13c8feae0b5d2d1cd9c114faa2fbc870d08489ee69a2b3504ba95f1a17b53d0b",
+          "cam_right_wrist": "5198ad4d7009c2fc92b910d10e366347bbe3716b2de7e76dae0b9122403ae1b9"
+        },
+        "instruction_sha256": "1ff520fedf8aabb56a689452bf1010c592df82f53f6e5fe1e43fd9f66a37b2a9",
+        "scene_sha256": "93f5c10644af9d5d85c9b188e132daf34704ded23580f54290987726fc65e9da",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953020,
+      "instruction": "Grab the gold and red soda can, drop it in the yellow rectangular basket with dual grips, and lift the yellow rectangular basket with dual grips.",
+      "precheck_status": "accepted",
+      "rollout_id": 17,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "62c8cf5bd97f070c711c94fabb1b78ac5c190401009c4d4b5e04eb5a90abd24b",
+          "cam_left_wrist": "79b8d02893663ae9f09493afa922915c47aeec6d5565787e7773d9584bd9eaa6",
+          "cam_right_wrist": "93497eb35e78535705da2cce1d3b67890e43887ec33f432800519a02cabf8157"
+        },
+        "instruction_sha256": "c68e1a4b0c5affdf544819fd67272cc4e2d90adf2df3b83a47550255c36309d1",
+        "scene_sha256": "a1ed5b69c12beff50a8c5bb76b9d017c979400c2064d65e31666011caa78122d",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953021,
+      "instruction": "Grab the rounded can with smooth printed surface, drop it into the yellow basket with open slots, lift the yellow basket with open slots with another arm.",
+      "precheck_status": "accepted",
+      "rollout_id": 18,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "10adbd6810408adc4ef1917fb3c8d95562b845cddcde77d2fab45e29e181ee08",
+          "cam_left_wrist": "3122e8cd6933cd436edba0175e3ae799d8f6ecaccafe8ecc0770a4c4775dcdf4",
+          "cam_right_wrist": "7a463add425f89282d5119504207491d3716737462195024b9d30d1c3bf74538"
+        },
+        "instruction_sha256": "78a1352f892620c6c7fb3caf24bc09a5b64d174d3e692e02aac700860d0900fc",
+        "scene_sha256": "5a77e9286ca4c6416b82fbdc99503f9ab7e576c293dae518ebf75c5b62846372",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953022,
+      "instruction": "Grab the cylindrical can with bright colors and put it in the yellow basket with open slots, then lift the yellow basket with open slots.",
+      "precheck_status": "accepted",
+      "rollout_id": 19,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "7ae761d04795415e1616b7743ad651b32db5db10541b775b75887414cb8d9a95",
+          "cam_left_wrist": "b6b90b86bbf1bccee604e9cced2b2fb614e43d40b44126803663a914f05a5fce",
+          "cam_right_wrist": "a998edc0b75973d1623b716b1c132b16f51a12e121d78256c04db95698183088"
+        },
+        "instruction_sha256": "eb5cbd23d7c6cb95b69df2f110ad49da85aa7fbc0d89c43a4406777592c5de8b",
+        "scene_sha256": "9f5c1855611be0852bcfd85c9acebdadb5dd570dea95889302d02c6e466edf80",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953023,
+      "instruction": "Use the right arm to pick the red can with white top, drop it into the yellow rectangular basket with dual grips, then lift the yellow rectangular basket with dual grips.",
+      "precheck_status": "accepted",
+      "rollout_id": 20,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "597878b572b09dcfef28383504ed3dea9e7e71c5c519073e5c39c95c73be6177",
+          "cam_left_wrist": "c9ec05912bd33d266d60c3bb64f38b3ab4a612e6db770e0a7526adeb6bc25f58",
+          "cam_right_wrist": "4bcda2e04312e07df49519adffafce713f1613d5ab91dc1709ba8f8fd01f000e"
+        },
+        "instruction_sha256": "3f11fef035a5d2bf47629fad36828cb8349f3e0f1690de7fa7d83aafe2f234ea",
+        "scene_sha256": "5254e0e4e40885123de5fbeb2b84e3e30f9a1befeb79f1b719f4bf425ceb9a1e",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953024,
+      "instruction": "Pick the red can, put it in the basket with rounded edges, then lift the basket with rounded edges.",
+      "precheck_status": "accepted",
+      "rollout_id": 21,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "b4b7ba56342b73e279e2def563cca25857d8b22323cef7e918fca4becdf177ac",
+          "cam_left_wrist": "22dc846cca2cea023c16d6786592561445b0375f646340650cc6492fb64f9f42",
+          "cam_right_wrist": "a359b3053a6fa5832e5ae3be31716140dc9bc61ab3476df3c5389e8efe425927"
+        },
+        "instruction_sha256": "3e1a8e9004f5eb0e0abb7999a68fc3e3e5c39cace15413df3a508e654855f93c",
+        "scene_sha256": "78a9b1cb1572b06161019d8520c243a68378a833806d360e2c180ad919ba754a",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953025,
+      "instruction": "Grab the red can, drop it in the oval basket with medium storage space, and lift the oval basket with medium storage space.",
+      "precheck_status": "accepted",
+      "rollout_id": 22,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "f6366f22d0135b00642a647736e3eeda91587473ecbe1d0d6dd87a925a04b3dc",
+          "cam_left_wrist": "b30871e8fd988e2f3487f2f6e917c3a3a4dc64b6165ae39e3621ec6433a5f1df",
+          "cam_right_wrist": "ab1b675d4fbcb61abf969c7278628cd210eabaf527d32e2fce84df1b3b51e9f9"
+        },
+        "instruction_sha256": "73612b1edd6c2486cfe42c0f23e2f7f26517af0a7af6d177d77688269db6fbc1",
+        "scene_sha256": "e67d8f067f1cf2df6a58cc67a38f0f67a61fed7d9ca9ce234eaf1309d1c8f6c2",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953026,
+      "instruction": "Pick the cylindrical can with bright colors, put it in the yellow rectangular basket with dual grips, then lift the yellow rectangular basket with dual grips.",
+      "precheck_status": "accepted",
+      "rollout_id": 23,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "bed3b68ceef89746ae23ac9b93ef35947e2da362f561d98dd157fe148ea43f90",
+          "cam_left_wrist": "3eaceb9b4cba9ed28e2ab39c10ae07a7eee9284f80a15e61769b639675141fd0",
+          "cam_right_wrist": "7c8ba58629ddd68eaf6a118c68914953d94704dc759be98aa3c5d2473a258962"
+        },
+        "instruction_sha256": "363e700215aa2e5cad72f72a758516550da097f6170d4faa126f4d58165d450c",
+        "scene_sha256": "c9ff60cfb45adf8f9bff83be56716da49dc8675dbfbe82f71499e6981eee999f",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953027,
+      "instruction": "Grab the can with red body and put it in the oval basket with medium storage space, then lift the oval basket with medium storage space.",
+      "precheck_status": "accepted",
+      "rollout_id": 24,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "ca0afad31a5eb1a146658f8c7931ca33b63527439d7b469b55c8f0d18abd7660",
+          "cam_left_wrist": "d904b2f6be1361ecb852003b84494f90c5563576df082f961a7c4a785a8309e0",
+          "cam_right_wrist": "d8e40f3f6c5025a72172b132fcc136213a6f62f32d48b72478c4710e911f8e2a"
+        },
+        "instruction_sha256": "a681cb8e07d6533f74d3947cceb67874f1dda29efa22fe66c96c45f79a2762a8",
+        "scene_sha256": "51a762adf0218494931044d351aeaecfc61ce8a2830d4b8ce206e5bb7cad4e4f",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953029,
+      "instruction": "Grab the light brown cylindrical can, put it in the oval basket with medium storage space, lift the oval basket with medium storage space.",
+      "precheck_status": "accepted",
+      "rollout_id": 25,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "b022cebc74069a799ef7b71b53db194e7829258504884f4a85cd312e33d4662c",
+          "cam_left_wrist": "1b233d29c8dd852528be7c3e92e510d934ff5abce466e469b518eca90a9abf05",
+          "cam_right_wrist": "672a99d722724db6ba176acacb1c52860881872b77f893f9a63f7be947ae9d16"
+        },
+        "instruction_sha256": "f125863a56a3eb169c59dafdef45438275ca3e064309950a2b1c2b240b14576c",
+        "scene_sha256": "be2f8fa995fae06b9f9fcf5f008b8b0dec99f6e064fbff912d1f969e87ff33ad",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953031,
+      "instruction": "Use the right arm to grab the can with shiny smooth surface, put it in the basket with rounded edges, and lift the basket with rounded edges.",
+      "precheck_status": "accepted",
+      "rollout_id": 26,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "d4b968cdab1eef1dd5ebb626c1b05f81c98d342a6e5dbc36670433276866d5bf",
+          "cam_left_wrist": "85556d2eec57732e5b837e8cf896e2b7431baa4a627a70b4a598353f5ede1e40",
+          "cam_right_wrist": "560ad68392e7cef7abcf661cf5b91f2491ce9f859d17a12341c385e0f8b4d69e"
+        },
+        "instruction_sha256": "fa05bbac8c403f37f29f0a1323e42cac0004f8602f1e729f2462147832f967e4",
+        "scene_sha256": "9f04b8f80c6b33273b4cb473e68e8a2e09797de1669a80978b9bf49636e5f965",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953033,
+      "instruction": "Grab the small aluminum can, drop it in the yellow rectangular basket with dual grips, and lift the yellow rectangular basket with dual grips.",
+      "precheck_status": "accepted",
+      "rollout_id": 27,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "81d829234105ac814175bc014766ead855f8d546d9a96b9488e4427e84c04808",
+          "cam_left_wrist": "dbb9874d7c84715fb1057946a56c9ec48b979208dcfe8b6c7ad378de1cdf7308",
+          "cam_right_wrist": "790e194f9eb2f073cd86d193e4ac8fb81ae6c34ed1efb1fd48c5243892040b78"
+        },
+        "instruction_sha256": "83fd43a1c1a988fb95c51fe7e2402c27b1bfe319ebfe9fe528b0574a9a3f117e",
+        "scene_sha256": "575bca3be59a01f5be228958b7155ae940ff2cd1b4d9e83df0b9dab6558d46df",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953034,
+      "instruction": "Grab the small red soda can, drop it in the oval basket with medium storage space, and lift the oval basket with medium storage space.",
+      "precheck_status": "accepted",
+      "rollout_id": 28,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "dcbe094589e5d65b9ab4980b1154e5fb1b6c3ccdea40d035701d16b362c02599",
+          "cam_left_wrist": "f1bb2ac30f956f7fb85dba2a3a7c047d364c0aea1e179d485092ebd4ae0be33a",
+          "cam_right_wrist": "41b1a7536e5cc47494b609e924f529338c5fa34ad46f80791f8687cb2ba187af"
+        },
+        "instruction_sha256": "c3376ed6d9e3e8bfe60df93504e91a55266d4c825a5129dd236fea9538577973",
+        "scene_sha256": "4afedc0b8be810ac57f6f5ba26d39c34842a2b05b98359dd5624cf4f429a516d",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953036,
+      "instruction": "Grab the cylindrical can with bright colors, drop it into the medium-sized basket with perforated texture, lift the medium-sized basket with perforated texture with another arm.",
+      "precheck_status": "accepted",
+      "rollout_id": 29,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "efe7c11a2d8380754b6f13f20ed8b07f7190cf1b359283d2889515c4b334ddd9",
+          "cam_left_wrist": "b2007dadaeec8ef99c8c1852ac7849f030c1c5978efea1c528c4d42d0851b398",
+          "cam_right_wrist": "136adf45f620aa92b20c7c7a0169ef0671e924186667c9cbecebf6a6623d32ef"
+        },
+        "instruction_sha256": "7c8dbde29e409e2d9fbee8722ac2e4681952376bced9c3b8866e4335af24fdc1",
+        "scene_sha256": "55b83e8651bab3f3e38e4eaaf1dee5f920bebc0eab9bcb6ce1a907d7d8740bd0",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953037,
+      "instruction": "Grab the hand-sized can with metallic finish, put it in the yellow rectangular basket with dual grips, lift the yellow rectangular basket with dual grips.",
+      "precheck_status": "accepted",
+      "rollout_id": 30,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "7b68ec2958b78f28d12af7e3a9353983d3e4d7df7d68c0c351ee8571bb0125ec",
+          "cam_left_wrist": "0e7fbf808fb1401a13e97a1ed1b18dee7034bc9ab5f36c2444654b4c0ae65add",
+          "cam_right_wrist": "39a47e4c57ade010d24300b924a06da61345d19dd5e9f0ca7974328a980a7259"
+        },
+        "instruction_sha256": "53f72a376f4bc7fde5f628384ac8305920f4e7f7d7160e5d925aa6c8d400b076",
+        "scene_sha256": "f537eb89acc103fcfb18194019e818dbb8ffb2d9f53b1eba4d25bb5aa2a1abf4",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953038,
+      "instruction": "Pick up the red can with white top, place it in the basket with rounded edges, then lift the basket with rounded edges.",
+      "precheck_status": "accepted",
+      "rollout_id": 31,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "66ae75a11d4b95074d11dac1f687700e2571716cab3d891ec2c5c93037906afc",
+          "cam_left_wrist": "47aee1831ae0ebc9e0106645e1c770515750eb89637939b15cbdc8b8d1c237e2",
+          "cam_right_wrist": "1fbd1930436465fcf40f9aaa2c246e3f0699c3235920c34b3dc868ff61256cc0"
+        },
+        "instruction_sha256": "659bd2cdf4f41fc09241e04b323737199a7257d71bb2cd306b40229ef6f524c7",
+        "scene_sha256": "21ee470fd87e175543227ccf36c324a2698b6d1a13b5797c7956f5206fd23b34",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953039,
+      "instruction": "Use the right arm to grab the cylindrical brown drink can with white markings, put it in the yellow basket with open slots, and lift the yellow basket with open slots.",
+      "precheck_status": "accepted",
+      "rollout_id": 32,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "fb09112d5b96b17c68929fe5eb5689197e40b6ca40487a8e226bf95703f9c13d",
+          "cam_left_wrist": "35601ba71db68739844fd4ceffaa9aab8f850ecd1153015df9ee68cf27442266",
+          "cam_right_wrist": "5cc54f3b124979d5b12b3534e4e0dcdce5c362525e453802aced060e81ba82c1"
+        },
+        "instruction_sha256": "824bb4cffc1acb83e73de7804adeb6ff0b2af4f7db1850d1c8f22f49e85680cb",
+        "scene_sha256": "f481e9c14a43a481d2a81effe6d3c69e096e226e60bbc46c148286f66f8a91f5",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953040,
+      "instruction": "Pick up the cylindrical can with bright colors, place it in the medium basket with smooth texture, then lift the medium basket with smooth texture.",
+      "precheck_status": "accepted",
+      "rollout_id": 33,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "1e3d099db1d86d41420228457d0141a7b57b9f4b2e5defbd5d8470b96b778d86",
+          "cam_left_wrist": "70751c8fe0d5ac218194e542a4579909676b5b33fece4e6cb76243785f634356",
+          "cam_right_wrist": "544b7059fdb74cb9f96cc400a594119a8a262420aa7e30065505618a2f9b2562"
+        },
+        "instruction_sha256": "64b6ae168426a41f9fcc982e343de47c04a116f38074e141b42b06100fc05973",
+        "scene_sha256": "9960d6dd48b075728b1acc636f571cb4bd3b58b324861ac034b1eed6f2053b30",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953041,
+      "instruction": "Grab the can with gold logo design, drop it into the oval basket with medium storage space, lift the oval basket with medium storage space with another arm.",
+      "precheck_status": "accepted",
+      "rollout_id": 34,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "4e60eeefe65cee1110eec9bfae3eb62b8909ccee53ee55da0e17fbd9fc98c5af",
+          "cam_left_wrist": "35ce8f95fe9c40f861e82c9f1044c1dca5e41278066ffe015126184a712ce6f4",
+          "cam_right_wrist": "a26a553b0736a923635c8d97a1a6c85e787700553a38248999de27732e41d38e"
+        },
+        "instruction_sha256": "b55d76a4eb1fe15701aed44e7c4c4a33de427103902f748569485139d0aec9d0",
+        "scene_sha256": "c7cbc64113a87dfc912f88ac9b220db0143a70bb93e6a5e3a3b6364765a12b10",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953042,
+      "instruction": "Pick up the small aluminum can, place it in the yellow basket with open slots, then lift the yellow basket with open slots.",
+      "precheck_status": "accepted",
+      "rollout_id": 35,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "bc7e10b939ae02b1bb82f5d0334041397254134b7f018c8cb7d223ba04c9436c",
+          "cam_left_wrist": "41cd06b7ca2d00c6092203d01a588711f78afda47a31ea533c6348e4f6909697",
+          "cam_right_wrist": "a839b71c92f0c907500ed9b2ff96d6e68e91fa110a41ebe4c4c156f6bb15f8d6"
+        },
+        "instruction_sha256": "d63f25124eef037f9f0df918df6d8aa7625c235320c3e8ae9625026361f76255",
+        "scene_sha256": "353d43e2befee0c83e513707ef268210f3a9a470e587a48c965eecc24617a68e",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953043,
+      "instruction": "Grab the cylindrical brown drink can with white markings and put it in the oval basket with medium storage space, then lift the oval basket with medium storage space.",
+      "precheck_status": "accepted",
+      "rollout_id": 36,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "31b0835499f9ca4c6bec08d9dba21c3a824852b3acf68a86d016a9fad8439da2",
+          "cam_left_wrist": "0de2dd1b6be7809bf46be37c7f366a16e2c015d6b6bf906d2fe949de4c634891",
+          "cam_right_wrist": "99bc51508f17a6e13d1f19a42d07d27460321a0e1bede5806c84ac70f0c015e3"
+        },
+        "instruction_sha256": "1040a15f034d030a65a0ce2d45c69f8391832b3ef5f3896d8bae607120099157",
+        "scene_sha256": "7affe25a6123d46162fa9d8aef9468d1a137097f638ef330f6c3e31bc775373e",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953044,
+      "instruction": "Use the left arm to pick the red can with white top, drop it into the yellow rectangular basket with dual grips, then lift the yellow rectangular basket with dual grips.",
+      "precheck_status": "accepted",
+      "rollout_id": 37,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "7d966f4c67ab3a345f584ab6c64f5dfe22985614200e7be6c9961ea0e4693b8a",
+          "cam_left_wrist": "881c22b3e4fac396220408109bb77cd446466ef866f0d9cf7e72c249fdbd86f0",
+          "cam_right_wrist": "a8328d58e9f8206e56bcb524dbcb65bb847c9c979d4e898f149056dae4fa20c8"
+        },
+        "instruction_sha256": "e0f40b3f7400bf1278b8ceb140905b335c27c677efd248d3dc83b931d6ef5211",
+        "scene_sha256": "14bb6b242fd022c4bda51a785135e1b21b53296ca3328966dc00d663cafa0c90",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953045,
+      "instruction": "Use the right arm to pick up the gold and red soda can, put it into the basket with rounded edges, the other arm lifts the basket with rounded edges.",
+      "precheck_status": "accepted",
+      "rollout_id": 38,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "6694cf66c86b13e6e67c7766c3a020e45e3c1ee7ea63c6dbfe1c017fac6ffc76",
+          "cam_left_wrist": "118a6d40a0ed98511d4aea17bed712350ec60203b206e1340a55e046f298754d",
+          "cam_right_wrist": "14285325ddab55c96284bc6c05e7bcd6c60cd993c7eb0ca2d17f30be83a84de7"
+        },
+        "instruction_sha256": "9b527f7b53dd147e054e2777fffc3217f2bb0297396cb6a9e1c2e1fdd7c285c9",
+        "scene_sha256": "527bab04c5fe5c3a3a7d27d9b9c5d627d0cff67ab88e796765710b1d7ded4dd0",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953046,
+      "instruction": "Grab the small red soda can, drop it in the oval basket with medium storage space, and lift the oval basket with medium storage space.",
+      "precheck_status": "accepted",
+      "rollout_id": 39,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "b5388993ac8a61d1022775cbc8e432972b10e5c47b1c53a2069be820e733556b",
+          "cam_left_wrist": "1793f677bcb8cc7597679595e6e9de35ab2d7d3d4f152d66df7aafb172a35092",
+          "cam_right_wrist": "997cff0a2180bd284a4c003ffe6ff970859fbf2d21951dcabc5cfc7adebccccf"
+        },
+        "instruction_sha256": "c3376ed6d9e3e8bfe60df93504e91a55266d4c825a5129dd236fea9538577973",
+        "scene_sha256": "1ff5f03748f00040a14321d87e5b6aafaf3462e99029d6ade774f7e19ddcc35d",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953047,
+      "instruction": "Pick the red can with white top, put it in the yellow rectangular basket with dual grips, then lift the yellow rectangular basket with dual grips.",
+      "precheck_status": "accepted",
+      "rollout_id": 40,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "737b927c95e307b781b70b5f28dcb5a93b11505ad4f005e8f73e5c7ef0ee3376",
+          "cam_left_wrist": "538dcd61898764ac8cc8f9cbbf75209bc570b8eafd136c51997bf20992b667db",
+          "cam_right_wrist": "fb116573c43ba34cfda22d3dd1dda21aca279762c90ef91f6e3a19e9e020bc15"
+        },
+        "instruction_sha256": "ee8bc5a2e582cd0c77542fda3b5f4c90c7eb3a1d1c219cebb0306c30495aa925",
+        "scene_sha256": "c6a38a2e042bead16234dffba18cf7049b9301ce3dff715737da52b84ec9190a",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953048,
+      "instruction": "Pick the rounded can with smooth printed surface, put it in the yellow rectangular basket with dual grips, then lift the yellow rectangular basket with dual grips.",
+      "precheck_status": "accepted",
+      "rollout_id": 41,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "2b915ecce1488531e395bc14a605fe63128298667857033f3032a4417a7b8578",
+          "cam_left_wrist": "02111938bdc3fecf2eebd98491d3776f1464b9e5810b62b03497e20c0be3784a",
+          "cam_right_wrist": "72ba5e7b5b2b8b25f81f9786aa5a92ace63329146c4eee0f48b45e9f7ab43e5a"
+        },
+        "instruction_sha256": "0aa84d59c8e94e538dbe79f18a051016caf901de6af3db16f46620e4ef07dad9",
+        "scene_sha256": "a39feb0a0b800af36fa0f68667721744aa1fe44160d13c1007ec01bdc4f84363",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953049,
+      "instruction": "Grab the light brown cylindrical can and put it in the yellow rectangular basket with dual grips, then lift the yellow rectangular basket with dual grips.",
+      "precheck_status": "accepted",
+      "rollout_id": 42,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "1eebd8df20764f4e03ebd2f4d35d29af925aa2b7e0428652f5ba7e160a219103",
+          "cam_left_wrist": "99c52cbf21ea70fa55781d74a0b80891aa5cc087eddfbc72d3c4e81df7f8a6e5",
+          "cam_right_wrist": "80830bdaf42082df095e0c7fa681cf16ddfd9f9f762558609be29b5b4223cef1"
+        },
+        "instruction_sha256": "d57aa19c081dc477a26a08500c9243889e38f036cce4661d941982892f2a211c",
+        "scene_sha256": "fd47d57dc37dbbbe751bfbcd87eacb9a190f56dcb48399b2830be5c62b02e2fa",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953051,
+      "instruction": "Grab the small red soda can and put it in the basket with rounded edges, then lift the basket with rounded edges.",
+      "precheck_status": "accepted",
+      "rollout_id": 43,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "3f9cb5883cf3f535168d8846d47176c2f3a644558a7da9ba79645de9bdd1a4bd",
+          "cam_left_wrist": "58e62b7a573a872fda639ac9e0a520579a4908963cadf190ee0ee49dd448ebb9",
+          "cam_right_wrist": "e2687b68580aac607873ca948c29f6ad564e0f1abd00b154ce1f9a34d6db4c73"
+        },
+        "instruction_sha256": "286f27769efae416ff9a386578df122a07e00f0d825de351571d2d256fe028c9",
+        "scene_sha256": "562fdc6e36717aed29c772d4e4d86edcfb526d4041cbfc5926f0bd3bb7400572",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953052,
+      "instruction": "Use the left arm to pick up the palm-sized red metal Coca-Cola can, put it into the oval basket with medium storage space, the other arm lifts the oval basket with medium storage space.",
+      "precheck_status": "accepted",
+      "rollout_id": 44,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "4e5e9fa37c0d0cb7e3acbffe4d416f82496816e0764b514170ce6457638b88e6",
+          "cam_left_wrist": "4f806212e10d0568e2aebf8f62deeb0f3a3f2d12babea459a23e0d05daf39e1b",
+          "cam_right_wrist": "61f29a0d6e07eb2cc13abb676dfabf395bbb45856d59fb231d93ed5c02f15572"
+        },
+        "instruction_sha256": "0510038db2e673c4baa1fb4b3540e46c24e0f2367588fb493197114be24d5bf1",
+        "scene_sha256": "1e4c617407a383b83c6ca334ac2012559c7a972cc6249a9036f30231b31de3ec",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953053,
+      "instruction": "Grab the red can and put it in the yellow rectangular basket with dual grips, then lift the yellow rectangular basket with dual grips.",
+      "precheck_status": "accepted",
+      "rollout_id": 45,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "e6f986705c5bdb47cada2f2576bba77752a749dd0212f099f8d35b5bbe9c908d",
+          "cam_left_wrist": "e32054d5d986c757d231d71420aa33c43e94e27630d59656aed5489cd8347ab2",
+          "cam_right_wrist": "37226132f41c249f9d7d7ea786ded91a0f16ef24a76203f6e75eb92dbea71870"
+        },
+        "instruction_sha256": "062763dd3ad2629cf46649f7f5c7bd08d857e59543870a200b093b76dc6ff957",
+        "scene_sha256": "614bc9203b9ee6657b14301bd71248b52126f4d9b14d5a2f23a50687c3756f26",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953054,
+      "instruction": "Grab the hand-sized can with metallic finish, put it in the yellow basket with open slots, lift the yellow basket with open slots.",
+      "precheck_status": "accepted",
+      "rollout_id": 46,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "52984b08e4cf5b593be21369daeea4f58ac747e45ead39f177e3be644729f51a",
+          "cam_left_wrist": "c93db74e32dd2f053e64671863762dfe8f23838cd652d9bb625a1b7e152a73a6",
+          "cam_right_wrist": "6c3aadb82d0518240a5051744ed7b0bd896b3d93da024da3351aaa7331469960"
+        },
+        "instruction_sha256": "2923c2a9a374090ab9aa4755b1011432a8c199ff69bdaca7a42981d34b4daa1f",
+        "scene_sha256": "3a26444f684f305a55639943933e3c41f2b884cac3a8d24c056af8eb31a7c50a",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953056,
+      "instruction": "Pick the light brown cylindrical can, put it in the medium basket with smooth texture, then lift the medium basket with smooth texture.",
+      "precheck_status": "accepted",
+      "rollout_id": 47,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "c6e7811f89716478a5c7c842ba2e41fc6419c2582bb536191b08d6b820e5e8e8",
+          "cam_left_wrist": "97aa982193442212ef6e43ed0d193313a5db5e18de718c0a07a6465920b0e108",
+          "cam_right_wrist": "3f3f5e8335c73c661f7815b902fce23830de9d64b0913990cc0afc6fcad7bd44"
+        },
+        "instruction_sha256": "f0fa080d6b725e890ddb40e4793bb0044669bcf6b2a1eed7a90c8c8f884e3f41",
+        "scene_sha256": "f029a6015a772a0cfce8c497e44dd0cc8dda27a695622dc9c91c9360c07cf751",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953057,
+      "instruction": "Pick the small aluminum can, put it in the basket with rounded edges, then lift the basket with rounded edges.",
+      "precheck_status": "accepted",
+      "rollout_id": 48,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "3a930e8e43744b552aa77ba73dde58e3a587e32885f7fa9291316e3411e1282e",
+          "cam_left_wrist": "1ae5041f1739960f390a8c0c640eede39d63c515570d2564037564dac553b9ae",
+          "cam_right_wrist": "bd51f3396fce8b98a1e2bac6bea3629d01f7287ca3658b0f30d6b688746cdffd"
+        },
+        "instruction_sha256": "38f489a79cf31369bbded67837177ebd1ba25283c5ee9d12d57a023e7aeaa012",
+        "scene_sha256": "8b005706f10e3a8c8dde0a923c401296125b5dc991608678f5db3cbbeb465564",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 953058,
+      "instruction": "Use the left arm to grab the cylindrical can with smooth surface, put it in the yellow basket with open slots, and lift the yellow basket with open slots.",
+      "precheck_status": "accepted",
+      "rollout_id": 49,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "861fa769deb43836fa54e6f9bf4a8a4be7068e8a5480dfeca299c87fb17d85ca",
+          "cam_left_wrist": "4c5efb7de0a68016c069e65597190ed2b73275b54dd5256bfa6c5343ca7e5a0b",
+          "cam_right_wrist": "db76109855bb48fcacb0a935445763e185f5cec39c3cc11268bf33f274bdfe9a"
+        },
+        "instruction_sha256": "72dcf166d1460520208b62c5b370d0398c1e991e3bc12507eec106dc2b7d9951",
+        "scene_sha256": "d78596ba1ed02d2829069775e37d22734b4e29c877ad0d6b0ff35d500a11da5e",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    }
+  ],
+  "precheck": "setup_only_no_policy_or_expert_outcomes",
+  "protocol_id": "chunktrust-rtc-v1",
+  "rejections": [
+    {
+      "message": "Objects is unstable in seed(953003), unstable objects: 088_wineglass, spoon",
+      "seed": 953003,
+      "type": "UnStableError"
+    },
+    {
+      "message": "Objects is unstable in seed(953010), unstable objects: 088_wineglass, 114_bottle",
+      "seed": 953010,
+      "type": "UnStableError"
+    },
+    {
+      "message": "Objects is unstable in seed(953016), unstable objects: 045_sand-clock",
+      "seed": 953016,
+      "type": "UnStableError"
+    },
+    {
+      "message": "Objects is unstable in seed(953028), unstable objects: 065_soy-sauce",
+      "seed": 953028,
+      "type": "UnStableError"
+    },
+    {
+      "message": "Objects is unstable in seed(953030), unstable objects: 086_woodenblock",
+      "seed": 953030,
+      "type": "UnStableError"
+    },
+    {
+      "message": "Objects is unstable in seed(953032), unstable objects: 114_bottle",
+      "seed": 953032,
+      "type": "UnStableError"
+    },
+    {
+      "message": "Objects is unstable in seed(953035), unstable objects: 088_wineglass",
+      "seed": 953035,
+      "type": "UnStableError"
+    },
+    {
+      "message": "Objects is unstable in seed(953050), unstable objects: 088_wineglass",
+      "seed": 953050,
+      "type": "UnStableError"
+    },
+    {
+      "message": "Objects is unstable in seed(953055), unstable objects: 066_vinegar",
+      "seed": 953055,
+      "type": "UnStableError"
+    }
+  ],
+  "schema_version": 1,
+  "seed_candidate_start": 953000,
+  "setting": "demo_randomized",
+  "stage": "formal",
+  "task": "place_can_basket"
+}

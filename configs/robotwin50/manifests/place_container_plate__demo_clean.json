@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_container_plate__demo_clean.json",
+    "parent_manifest_sha256": "c0927b2f3762faac49b1cf897bc8f0b306f8617458154d890222b87d908a40ea",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_place_container_plate_demo_clean",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9570000,
+      "instruction": "Set the container on the gray plate for dining with the black and white round bowl.",
+      "instruction_sha1": "84461fd4634ce6dfe68333375eabc07f5987d7fc",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9570001,
+      "instruction": "Grab container with the small round drinkable cup, place it on the gray plate for dining.",
+      "instruction_sha1": "bcf6f40a40e14003ea7ef016420d470a2f7415cf",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9570002,
+      "instruction": "Move the simple dark brown plastic cup to set the container on the gray plate",
+      "instruction_sha1": "1d7487208ac99b508c8a48af90bfa151c9d9f0ba",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9570003,
+      "instruction": "Grab container with the cup made of metal, place it on the smooth round plate for serving.",
+      "instruction_sha1": "ca995f1ac7c993e7d705a5a0a4e82b7cd91f41f9",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9570004,
+      "instruction": "Grab container with the small round drinkable cup, place it on the smooth round plate for serving.",
+      "instruction_sha1": "e8646d910c1192007806c1a43cdeeabcde9c0aaa",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9570005,
+      "instruction": "Move the cup with smooth glossy surface to set the container on the gray plate",
+      "instruction_sha1": "016a555ad1317f222b30f5750098d0eae6b483a2",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9570006,
+      "instruction": "Grab container with the ceramic cup featuring blue flower prints, place it on the smooth round plate for serving.",
+      "instruction_sha1": "fb8e29964efb1e7b10616159fb2a080a5add421f",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9570007,
+      "instruction": "Grab container with the simple round bowl, place it on the gray plate.",
+      "instruction_sha1": "2eac662f6ad14b52a466e53bb65cf08c4bf96426",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9570008,
+      "instruction": "Set the container on the gray plate with the smooth bowl with glossy finish.",
+      "instruction_sha1": "6dc4064a26133b2edb1ba5b02e56b09bc2e40742",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9570009,
+      "instruction": "Move the light gray smooth round bowl to set the container on the smooth round plate for serving",
+      "instruction_sha1": "1262f8c18474ec1c0abc65438f62bef7b0ce3e8a",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9570010,
+      "instruction": "Place the container onto the gray plate with the ceramic drinking cup with floral design",
+      "instruction_sha1": "3fd682b3759bafea1d9eebf49038c7e595f4024f",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9570011,
+      "instruction": "Grab container with the curved bowl with smooth texture, place it on the gray plate for dining.",
+      "instruction_sha1": "76310881dbce1ac1bcd0265fa1a65d60e12c232f",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9570012,
+      "instruction": "Grab container with the smooth bowl with glossy finish, place it on the smooth round plate for serving.",
+      "instruction_sha1": "eb0cd6a81748e50bf757d5daf72f176cca90f393",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9570013,
+      "instruction": "Grab container with the glossy cup with floral patterns, place it on the gray plate for dining.",
+      "instruction_sha1": "b817d99e2aae8aef40eef03c0a3666f36165eec8",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9570014,
+      "instruction": "Set the container on the gray plate with the smooth bowl with glossy finish.",
+      "instruction_sha1": "6dc4064a26133b2edb1ba5b02e56b09bc2e40742",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9570015,
+      "instruction": "Move the cup with curved shiny silver handle to set the container on the smooth round plate for serving",
+      "instruction_sha1": "dceab48f1a5fca491046898d6998c0b76b1ccedc",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9570016,
+      "instruction": "Place the container onto the gray plate for dining with the smooth green cup",
+      "instruction_sha1": "127279507e9b0788792a9b61c00d94314548d66e",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9570017,
+      "instruction": "Set the container on the gray plate for dining with the cup with rounded edges.",
+      "instruction_sha1": "df0606a2fa6cb98ea54fe05b1ca7d36c5cf5f205",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9570018,
+      "instruction": "Set the container on the smooth round plate for serving with the cup with white handle.",
+      "instruction_sha1": "67bb7ebb2c8c36eb7ab4f6f6d293b6fdde1edab0",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9570019,
+      "instruction": "Grab container with the light blue bowl with darkened rim, place it on the gray plate.",
+      "instruction_sha1": "ad62c165c866d704ffca8a307e534d39c18cbec4",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-07-31T22:31:17.124196+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_place_container_plate_demo_clean_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9570000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_clean",
+  "task_name": "place_container_plate"
+}

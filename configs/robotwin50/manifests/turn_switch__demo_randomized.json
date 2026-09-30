@@ -1,0 +1,175 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 20,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/turn_switch__demo_randomized.json",
+    "parent_manifest_sha256": "9c549c06c7948bbca415648304a5e6120e931006e53b4cba7d64f93f77e7267c",
+    "parent_protocol_id": "clean50_base_ahs_parent_min20_runtime_v4_freshscene_hashseed0_deadline_20260801_turn_switch_demo_randomized",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9791000,
+      "instruction": "Activate the switch at the smooth black switch",
+      "instruction_sha1": "cdc6fd1794dbb5b2c2b4f3c37e8da6659f916740",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9791001,
+      "instruction": "Click the curved toggle switch with the left arm.",
+      "instruction_sha1": "fa96ef7aa590ca1fb99eef589827a0447cfaeabd",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9791002,
+      "instruction": "Click the smooth gray base switch with the right arm",
+      "instruction_sha1": "89dfb038cadfc05da73e01fea98ed819f0099267",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9791003,
+      "instruction": "Press the flat square gray switch using the left arm",
+      "instruction_sha1": "6fc3e9a8a9940c44bdc95567b1452ed05e1e68ef",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9791004,
+      "instruction": "Activate the switch at the flat gray switch",
+      "instruction_sha1": "8ade31f74a7c22065455d48a9a63225c1d33e4a0",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9791005,
+      "instruction": "Press the gray switch using the right arm",
+      "instruction_sha1": "b49d9189f73af8cb188340e72dc3fde853faf3bf",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9791006,
+      "instruction": "Click the gray switch with the right arm",
+      "instruction_sha1": "be2b73d93211d885cdcbba53bad20235ab17bf3b",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9791007,
+      "instruction": "Direct the left arm to click the rectangular button switch on beige base",
+      "instruction_sha1": "cd1a7c151e91a770e81cb089967e3127300c79e5",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9791008,
+      "instruction": "Use the right arm to press the matte black plastic switch.",
+      "instruction_sha1": "d99ad0c1cfac08a8b53078b9617d68e61462b723",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9791009,
+      "instruction": "Click the smooth gray base switch with the right arm",
+      "instruction_sha1": "89dfb038cadfc05da73e01fea98ed819f0099267",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9791010,
+      "instruction": "Direct the right arm to click the smooth black switch with red lever",
+      "instruction_sha1": "2253f073f0ae960b9927fe3dfb9b7969234c2b67",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9791011,
+      "instruction": "Click the smooth black switch using the right arm",
+      "instruction_sha1": "125db256d4cceccff6d7fd2d84c5547d4b45c3a8",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9791013,
+      "instruction": "Use the left arm to press the beige switch with darker brown top.",
+      "instruction_sha1": "f080e22c00de537bf224d85b32b0d85a4e42d634",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9791014,
+      "instruction": "Click the smooth black switch with red lever with the left arm",
+      "instruction_sha1": "420f5250260252c58f164291275848ff0e0e7f39",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9791015,
+      "instruction": "Click the gray switch medium size with the right arm",
+      "instruction_sha1": "6ff6b9865f54ba1f857110ac30d35fe05c05becd",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9791016,
+      "instruction": "Direct the left arm to click the smooth gray base switch",
+      "instruction_sha1": "fa224cc5e2f486642d165a785d5380d43fdb460c",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9791017,
+      "instruction": "Move and click the the small beige switch with angular sides",
+      "instruction_sha1": "dd9a816dcadc78a8cac7a30ea6e58cee3a7199c0",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9791018,
+      "instruction": "Click the small beige switch with angular sides with the left arm.",
+      "instruction_sha1": "8ef7683a4db596f8f4020288be8c90caff07f516",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9791019,
+      "instruction": "Use the right arm to press the switch with angled edges.",
+      "instruction_sha1": "7b18648cc10b024ead071451ea765be2b62e46d5",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9791020,
+      "instruction": "Activate the switch at the small beige switch with angular sides",
+      "instruction_sha1": "45b0e9f4ff0133662711a633b0b35cf4fcf5c932",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-08-01T05:58:37.266351+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_parent_min20_runtime_v4_freshscene_hashseed0_deadline_20260801_turn_switch_demo_randomized_first20",
+  "rejected_pre_manifest_candidates": [
+    {
+      "episode_seed": 9791012,
+      "reason": "UnStableError: Objects is unstable in seed(9791012), unstable objects: 114_bottle"
+    }
+  ],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9791000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_randomized",
+  "task_name": "turn_switch"
+}

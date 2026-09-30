@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_a2b_right__demo_randomized.json",
+    "parent_manifest_sha256": "f4ca3d8a7f50b5db8769643a32d8477ce305b9e6586ce2e75a5bf20f746ae9f1",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_place_a2b_right_demo_randomized",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9511000,
+      "instruction": "Place the palm-sized bell on the loaf-shaped brown bread's right side.",
+      "instruction_sha1": "c49721e47770ff1c71ff90555a681044c634f882",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9511001,
+      "instruction": "Grab the rectangular storage box for coffee and place it right of the handheld rubikscube.",
+      "instruction_sha1": "fce835219a2a63dcd98440a10a977dcabe946536",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9511002,
+      "instruction": "Put the metal and plastic stapler to the right of the teal toycar.",
+      "instruction_sha1": "f4395aa43414d5ef1052e6e344e3d8611318b013",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9511003,
+      "instruction": "Put the playable toycar with rolling wheels to the right of the phone with rounded edges",
+      "instruction_sha1": "066c924640d3b5971824115b722ee01ed9e2fd93",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9511004,
+      "instruction": "Place the lightweight bell with smooth surface on the right of the rectangular playingcards pack.",
+      "instruction_sha1": "1c2a43e4de319cb07dbe3392cae85cccd0bde7e9",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9511005,
+      "instruction": "Grab the small packet of playingcards and place it right of the bell with raised round top.",
+      "instruction_sha1": "ee861ca23d4e42cbab9b83731372400081835550",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9511006,
+      "instruction": "Put the handheld rubikscube to the right of the coffee box with slanted sides.",
+      "instruction_sha1": "c76c338c24d347a125bb740a28fd18ba2138f4c4",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9511007,
+      "instruction": "Place the smooth soap on the right of the black box with smooth surface.",
+      "instruction_sha1": "9debdfa093fc9a7c0ff9082092dac8ffefdf309d",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9511008,
+      "instruction": "Grab the round braided loaf and place it right of the rectangular phone with curved edges.",
+      "instruction_sha1": "72f227c5ea27f6cba4050da4f5da4b349b92feaf",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9511009,
+      "instruction": "Place the bright blue soap bar on the rectangular playingcards case with patterns's right side.",
+      "instruction_sha1": "337ec24f75389006ff078bb0ad406263a6d8d58e",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9511010,
+      "instruction": "Place the paper stapler with curved handle on the smooth soap's right side.",
+      "instruction_sha1": "15cb6831b50bde27193ae46be3996495c118127d",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9511011,
+      "instruction": "Put the phone with rounded edges to the right of the toycar with orange wheels",
+      "instruction_sha1": "3ac16a3490a62d1917d727383dd4f61f711866a2",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9511012,
+      "instruction": "Place the bright blue soap bar on the right of the blue and white stapler.",
+      "instruction_sha1": "59192e67daf134eab65ada5f05295ea960f51149",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9511013,
+      "instruction": "Grab the rectangular woodenblock and place it right of the small rounded plastic mouse.",
+      "instruction_sha1": "0b146a1542beb8d50795349c1c2f57e1a437d169",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9511014,
+      "instruction": "Place the dark bar soap on the black stapler's right side.",
+      "instruction_sha1": "73bd0b0b463754b3ec776a43cbe798dedbaaf387",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9511015,
+      "instruction": "Place the rubikscube for twisting and turning on the right of the hand-sized wireless mouse.",
+      "instruction_sha1": "73d58ba39c1a7345283e2fd69af328d90680169a",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9511016,
+      "instruction": "Put the blue bell with glossy finish to the right of the mouse with scroll wheel",
+      "instruction_sha1": "5583119066387c5423a12d471d0ed245f741dc8a",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9511017,
+      "instruction": "Grab the bright green toycar and place it right of the hand-sized rubikscube with colored squares.",
+      "instruction_sha1": "90b13f75510ea63adb62c910cf5b886fdf7ecdbe",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9511018,
+      "instruction": "Place the smooth textured coffee-box on the right of the medium irregular woodenblock.",
+      "instruction_sha1": "72c4c85f27c2d840fb2409eae021818572fc81da",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9511019,
+      "instruction": "Put the blue soap with printed patterns to the right of the soft bread with golden edges",
+      "instruction_sha1": "4a35a92d496104a0e92b9117dd50d6e2e4aeb550",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-07-31T20:41:33.429624+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_place_a2b_right_demo_randomized_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9511000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_randomized",
+  "task_name": "place_a2b_right"
+}

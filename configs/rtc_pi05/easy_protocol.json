@@ -1,0 +1,286 @@
+{
+  "action_limit_source": {
+    "path": "Reflex/RoboTwin/task_config/_eval_step_limit.yml",
+    "sha256": "41c62bd26184977bae45aee555edd0cc21de5cddf560c2595921fc23a1e3b551"
+  },
+  "action_limits": {
+    "blocks_ranking_rgb": 1200,
+    "handover_block": 800,
+    "handover_mic": 600,
+    "hanging_mug": 900,
+    "place_a2b_left": 400,
+    "place_bread_basket": 700,
+    "place_bread_skillet": 500,
+    "place_can_basket": 700
+  },
+  "ahs_record_k": {
+    "pi05": 20
+  },
+  "algorithm_sources": {
+    "common.py": "c4ea4009db0c45492f8b222bc6860e9bb5ca37922119247d9f0dbce9f83c59d2",
+    "controller.py": "fc3327e6919d29dbfa14357b644a95b55e041fd24d3c8bc9242c78bbe39023b8",
+    "engine.py": "be2d147d6dd71915dd332537458e6ed5ba81968701c16b83d399e2455536cb5a",
+    "integrity.py": "3949260d67e85410c1bb8bb3434745c8999b993cd10ee5201673d3613a812b62",
+    "lazy_planner.py": "3a97c68d5e9591465644354f2549b5e8c7da1912b2f9dd838c758998c21c7e61",
+    "run_block.py": "df739f10f08f9ffd31bbcb7e15222c90653542606a8ddb6b7379f5a6069dec08",
+    "sampler.py": "2b6dbca3433282813125d4b329f9133c7227633c029b91431ee27b924a5c0528",
+    "scene.py": "ce919635e13203229b06f8fa7f9ebe9c9ec0995b24ad68f35ff12f5e222335cb",
+    "selector.py": "44ee901b6397c77405e073cc5909d18e869dd64f96aea7e2c17d94475481b8bd",
+    "worker.py": "3f2a0fe015338776f393d3feff05d602731cd042adb2e9c5e2c572b996c73cf3"
+  },
+  "amendment_reason": "User requested pi05 only, finish four current Hard tasks then four Easy tasks automatically.",
+  "backbones": [
+    "pi05"
+  ],
+  "bootstrap_repetitions": 10000,
+  "bootstrap_seed": 0,
+  "combined_manifest_directory": "formal100",
+  "deferred": [
+    "pi0",
+    "other four Hard tasks",
+    "supplementary controls",
+    "native timing audit"
+  ],
+  "execution_contract": {
+    "controlled_availability": "request_tick + ceil(specified_delay / physics_dt); never inspect output earlier",
+    "fft_horizon": 50,
+    "forecast": "frozen waypoint P05-based prefix estimate guides inference and request timing, but does not compel execution",
+    "handoff": "first legal waypoint boundary at or after full prediction availability",
+    "k_semantics": "selected K is the target and maximum old execution budget; record actual actions separately; never extend K to hide a late result",
+    "late_fallback": "hold last drive target and continue physics after selected old budget is exhausted",
+    "limitations": "variable-duration waypoint adaptation; cannot interrupt TOPP or claim fixed-Hz/native-deployment equivalence",
+    "native_availability": "complete prediction received by background receiver; wall clock timestamp",
+    "protocol_id": "chunktrust-rtc-v2-fft50-ready-boundary",
+    "required_gates": [
+      "unit_tests",
+      "native_check",
+      "smoke",
+      "pilot"
+    ],
+    "scoring": "original AHS formulas on the actually available suffix; fixed H50 FFT padding; actual executed target history"
+  },
+  "execution_hash": "533b43ad2adccc75768a0b713afc06065b517a68370cfda549311338114b37dd",
+  "fixed_k": {
+    "pi05": 40
+  },
+  "formal_cohorts": [
+    {
+      "directory": "formal",
+      "rollout_ids": [
+        0,
+        49
+      ]
+    },
+    {
+      "directory": "formal_extra50",
+      "rollout_ids": [
+        50,
+        99
+      ]
+    }
+  ],
+  "formal_n_per_cell": 100,
+  "formal_seed_rule": "990000 + original task index * 1000; first 100 setup-valid identities, split 0..49/50..99; same Easy identities across every method/delay; independent of Hard seeds.",
+  "formal_total": 4800,
+  "frozen_at": "2026-09-21T03:55:24.580496+08:00",
+  "latency": {
+    "pi0": {
+      "candidates": [
+        10,
+        20,
+        30,
+        40
+      ],
+      "d0_s": 0.15860128866916057,
+      "fft_horizon": 50,
+      "forecast": "ceil(total delay / minimum task P05 calibrated waypoint duration)",
+      "handoff": "first legal waypoint boundary at/after prediction availability; forecast is not a commitment",
+      "horizon_semantics": "K is the target/upper execution budget; early ready handoff can execute fewer actions; log both",
+      "late_result_fallback": "hold last drive target after old selected K is exhausted; never extend K",
+      "max_delay_lead": 5,
+      "method_b1_p95_s": {
+        "rtc_ahs": 0.15860128866916057,
+        "rtc_fixed": 0.15780096342787148,
+        "sync_ahs": 0.09352033986360767,
+        "sync_fixed": 0.09314170569414273
+      },
+      "protocol_id": "chunktrust-rtc-v2-fft50-ready-boundary",
+      "timeout_s": 3600.0,
+      "timeout_status": "frozen uniform 3600 s physical cap; original task action limit retained",
+      "waypoint_calibration": {
+        "handover_block": {
+          "n": 200,
+          "p05_s": 0.09600000455975533,
+          "p50_s": 0.19200000911951065
+        },
+        "hanging_mug": {
+          "n": 200,
+          "p05_s": 0.0800000037997961,
+          "p50_s": 0.21200001006945968
+        },
+        "place_a2b_left": {
+          "n": 200,
+          "p05_s": 0.08400000398978591,
+          "p50_s": 0.28000001329928637
+        },
+        "place_bread_basket": {
+          "n": 200,
+          "p05_s": 0.08380000398028642,
+          "p50_s": 0.2380000113043934
+        }
+      },
+      "waypoint_lower_s": 0.0800000037997961
+    },
+    "pi05": {
+      "candidates": [
+        10,
+        20,
+        30,
+        40
+      ],
+      "d0_s": 0.14214269743533806,
+      "fft_horizon": 50,
+      "forecast": "ceil(total delay / minimum task P05 calibrated waypoint duration)",
+      "handoff": "first legal waypoint boundary at/after prediction availability; forecast is not a commitment",
+      "horizon_semantics": "K is the target/upper execution budget; early ready handoff can execute fewer actions; log both",
+      "late_result_fallback": "hold last drive target after old selected K is exhausted; never extend K",
+      "max_delay_lead": 5,
+      "method_b1_p95_s": {
+        "rtc_ahs": 0.14214269743533806,
+        "rtc_fixed": 0.14187480764230714,
+        "sync_ahs": 0.09213303164287936,
+        "sync_fixed": 0.09170135316962842
+      },
+      "protocol_id": "chunktrust-rtc-v2-fft50-ready-boundary",
+      "timeout_s": 3600.0,
+      "timeout_status": "frozen uniform 3600 s physical cap; original task action limit retained",
+      "waypoint_calibration": {
+        "handover_block": {
+          "n": 200,
+          "p05_s": 0.09200000436976552,
+          "p50_s": 0.25400001206435263
+        },
+        "hanging_mug": {
+          "n": 200,
+          "p05_s": 0.08800000417977571,
+          "p50_s": 0.2960000140592456
+        },
+        "place_a2b_left": {
+          "n": 200,
+          "p05_s": 0.0800000037997961,
+          "p50_s": 0.26600001263432205
+        },
+        "place_bread_basket": {
+          "n": 200,
+          "p05_s": 0.08400000398978591,
+          "p50_s": 0.3160000150091946
+        }
+      },
+      "waypoint_lower_s": 0.0800000037997961
+    }
+  },
+  "methods": [
+    "sync_fixed",
+    "sync_ahs",
+    "rtc_fixed",
+    "rtc_ahs"
+  ],
+  "noninferiority_margin_pp": -3.0,
+  "outcome_visibility_at_change": [
+    {
+      "backbone": "pi0",
+      "completed": 40,
+      "method": "sync_fixed"
+    },
+    {
+      "backbone": "pi0",
+      "completed": 0,
+      "method": "sync_ahs"
+    },
+    {
+      "backbone": "pi0",
+      "completed": 0,
+      "method": "rtc_fixed"
+    },
+    {
+      "backbone": "pi0",
+      "completed": 0,
+      "method": "rtc_ahs"
+    },
+    {
+      "backbone": "pi05",
+      "completed": 150,
+      "method": "sync_fixed"
+    },
+    {
+      "backbone": "pi05",
+      "completed": 150,
+      "method": "sync_ahs"
+    },
+    {
+      "backbone": "pi05",
+      "completed": 150,
+      "method": "rtc_fixed"
+    },
+    {
+      "backbone": "pi05",
+      "completed": 150,
+      "method": "rtc_ahs"
+    }
+  ],
+  "panel_protocol_id": "chunktrust-rtc-pi05-easy4-k40-n100-20260921",
+  "parent_hard": {
+    "directory": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918",
+    "execution_hash": "d6a273e21752394aa45def642cb5fb800d14f175eba98ce447fc0d8eb450cdac",
+    "protocol_file": "artifacts/formal_protocol_k40_n100.json"
+  },
+  "protocol_id": "chunktrust-rtc-v2-fft50-ready-boundary",
+  "reporting_warning": "Easy is a separate demo_clean cohort and must never be pooled into Hard. Same checkpoints and frozen latency/AHS/RTC controls; setup seeds are independent across settings.",
+  "schema_version": 5,
+  "scope": "User-directed four-task pi05 Hard/Easy latency panel; Easy changes environment only; inherit frozen Hard delay/waypoint forecast constants without outcome-dependent recalibration.",
+  "selection_mode": "User-specified long-execution K40 comparator after inspecting partial validation and K20 formal results; not validation-optimal or outcome-blind.",
+  "setting": "demo_clean",
+  "settings_files": {
+    "pi05": {
+      "place_a2b_left": {
+        "ahs": "artifacts/formal_settings_pi05_place_a2b_left.json",
+        "fixed": "artifacts/formal_settings_k40_pi05_place_a2b_left.json"
+      },
+      "place_bread_basket": {
+        "ahs": "artifacts/formal_settings_pi05_place_bread_basket.json",
+        "fixed": "artifacts/formal_settings_k40_pi05_place_bread_basket.json"
+      },
+      "place_bread_skillet": {
+        "ahs": "artifacts/formal_settings_pi05_place_bread_skillet.json",
+        "fixed": "artifacts/formal_settings_k40_pi05_place_bread_skillet.json"
+      },
+      "place_can_basket": {
+        "ahs": "artifacts/formal_settings_pi05_place_can_basket.json",
+        "fixed": "artifacts/formal_settings_k40_pi05_place_can_basket.json"
+      }
+    }
+  },
+  "status": "FROZEN_BEFORE_EASY_OUTCOMES",
+  "strong_fixed_k": {
+    "pi0": [],
+    "pi05": []
+  },
+  "strong_fixed_n_per_cell": 100,
+  "tasks": [
+    "place_a2b_left",
+    "place_bread_basket",
+    "place_bread_skillet",
+    "place_can_basket"
+  ],
+  "timeout_rule": "Original per-task action budget plus uniform 3600 s physical cap, shared by all methods/backbones/delays. No fitted P99 deadline in this panel.",
+  "timeout_s": {
+    "blocks_ranking_rgb": 3600.0,
+    "handover_block": 3600.0,
+    "handover_mic": 3600.0,
+    "hanging_mug": 3600.0,
+    "place_a2b_left": 3600.0,
+    "place_bread_basket": 3600.0,
+    "place_bread_skillet": 3600.0,
+    "place_can_basket": 3600.0
+  }
+}

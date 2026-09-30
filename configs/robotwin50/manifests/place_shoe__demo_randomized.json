@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_shoe__demo_randomized.json",
+    "parent_manifest_sha256": "c8ba181bf9bd656ce95f226f9d9d2ed92f318b9716383b5112b2fd322254e190",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_place_shoe_demo_randomized",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9661000,
+      "instruction": "Grab the beige-soled walking sneaker from the table and place it on the mat",
+      "instruction_sha1": "8f8a8a1466d03b4171c2c73323b13640bf246b0b",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9661001,
+      "instruction": "Grab the smooth plastic shoe and set it on the mat",
+      "instruction_sha1": "565509421998c5ace3f59fb97f017c78b90b5c51",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9661002,
+      "instruction": "Pick up the white leather shoe with gum sole from the table and set it down on the mat",
+      "instruction_sha1": "7436144d09d17f5424f20c966bc31600eaefc093",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9661003,
+      "instruction": "Grab the shoe with padded collar and tongue and set it on the mat",
+      "instruction_sha1": "82d50a2dd5144d7896df52df5d7d8e3f70972762",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9661004,
+      "instruction": "Pick up the the black shoe with white midsole from the table and place it on the mat",
+      "instruction_sha1": "4e0639fc25e6ca555113e82512efdab8f63ef9d7",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9661005,
+      "instruction": "Use the left arm to lift the shoe with padded collar and tongue and drop it on the mat",
+      "instruction_sha1": "e7c468fa5410cd8549f65460999ce3ebf004d9f2",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9661006,
+      "instruction": "Pick up the white shoe with tongue logo from the table and set it on the mat",
+      "instruction_sha1": "ab80303200ad464a84091b3c70cfe57456db00c6",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9661007,
+      "instruction": "Use the right arm to lift the white shoe with tongue logo and drop it on the mat",
+      "instruction_sha1": "46d37a7260987cc6d2e2002e15bd269024f5d473",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9661008,
+      "instruction": "Grab the shoe with adjustable laces from the table and place it on the mat",
+      "instruction_sha1": "32ea2dca7fea036b31f4aa4d61b0c2c7f202529e",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9661009,
+      "instruction": "Pick up the shoe with black stripe design from the table and set it down on the mat",
+      "instruction_sha1": "0c6dce799c398ab871097088881509be5576590e",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9661010,
+      "instruction": "Pick up the red sneaker medium sized from the table and set it on the mat",
+      "instruction_sha1": "2db2922264570714347c9f4110627cb843e37ccd",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9661011,
+      "instruction": "Use the right arm to grab the synthetic shoe upper from the table and place it on the mat",
+      "instruction_sha1": "bda5a59b76f5d62753df58347ab5a3d7b0596a60",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9661012,
+      "instruction": "Grab the shoe with rubber bottom off the table and drop it on the mat",
+      "instruction_sha1": "768a5192c8acef37cc3c32f73b08449fee787855",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9661013,
+      "instruction": "Use the right arm to grab the smooth plastic shoe from the table and place it on the mat",
+      "instruction_sha1": "613394d984f5e83dbce5355b9f9c9125b0fb30cb",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9661014,
+      "instruction": "Pick up the shoe with ribbed sole from the table and set it on the mat",
+      "instruction_sha1": "cc10a44c602ce10d46e71b2b958192c828eb4bca",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9661015,
+      "instruction": "Pick up the rounded white shoe from the table and set it down on the mat",
+      "instruction_sha1": "4f20e21e7bdf809db03ab3089373098805278a85",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9661016,
+      "instruction": "Pick up the the beige-soled walking sneaker from the table and place it on the mat",
+      "instruction_sha1": "8193516b8e043a1e7144ed4ca72ba0aa93b48a64",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9661017,
+      "instruction": "Pick up the white shoe with tongue logo from the table and set it on the mat",
+      "instruction_sha1": "ab80303200ad464a84091b3c70cfe57456db00c6",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9661018,
+      "instruction": "Grab the brown shoe with sturdy sole from the table and place it on the mat",
+      "instruction_sha1": "af44ab58c5d9977d2b6e3768d61b72242368314e",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9661019,
+      "instruction": "Pick up the shoe with black stripes from the table and set it on the mat",
+      "instruction_sha1": "1f5850210f5853916ed66c059ffc3c41e7874aad",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-08-01T01:51:14.896506+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_place_shoe_demo_randomized_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9661000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_randomized",
+  "task_name": "place_shoe"
+}

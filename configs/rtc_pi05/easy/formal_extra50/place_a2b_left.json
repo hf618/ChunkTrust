@@ -1,0 +1,813 @@
+{
+  "base_manifest_sha256": "da3a8ec6d3bece41e133965933a95e8b7c37fbb1bcb66dd74a0efb948310ddb0",
+  "entries": [
+    {
+      "episode_seed": 990050,
+      "instruction": "Pick the compact tea box and set it left of the bell with raised round top.",
+      "precheck_status": "accepted",
+      "rollout_id": 50,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "62ccc4cd2d0f882fc2a122e418c36a9730f427165476e2352bb718b66b0bb213",
+          "cam_left_wrist": "d2ae48481a63e8885e20bb7f87bc9a4bc3852e573b9649bc15c3d1db6e06e1d6",
+          "cam_right_wrist": "8dd8eb1b9a2c6f3ea27194cecc84fcc1a9cff23b6009c4b976caf27173f48407"
+        },
+        "instruction_sha256": "e05ed7d5a5b922e26c1170d7af6966503387942364d8dc31b6d259ba3e9c5902",
+        "scene_sha256": "f1ed67b4e35966e381619d1418a8873f4fe2af2dd8d5c19e4e18cbd886d1734d",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990051,
+      "instruction": "Use the right arm to put the paper stapler with curved handle left of the black box with smooth surface.",
+      "precheck_status": "accepted",
+      "rollout_id": 51,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "f780f8ab90282d50a3ab46d358b61b97798c8fc56ee2fb8d00e61a9a0b41c397",
+          "cam_left_wrist": "73d9325b0dc50abb8af714fa973da83080e1ff0136620acef48ebe34c8da70fb",
+          "cam_right_wrist": "06a7fefda91c209b062859748915f6713550c8dff9979e3201de6aaaee76dc83"
+        },
+        "instruction_sha256": "532eb360b9c2a39ab9be8239dffa0a4e11431c05b9efa130357b35e8bc519ad0",
+        "scene_sha256": "b5dc1d28b0f8cb46d4bff2661f37dac4586df842fa641089bd7d9ae51d5da986",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990052,
+      "instruction": "Set the light yellow cleaning soap on the left side of the dark gray wireless mouse",
+      "precheck_status": "accepted",
+      "rollout_id": 52,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "840bc5a10e6097ee53f07dcc318055941686e0db72a25ca30fd58f1ce24d601e",
+          "cam_left_wrist": "41c190105d7dfb409796625ed10bf166e1e38c2ad3d3562b4689a4b39338306e",
+          "cam_right_wrist": "83e24c186c51926af4e13f5cd66159c59bbb431554f73183781e5a8b132875f9"
+        },
+        "instruction_sha256": "7aebb520632caee5ceea130937438d93253b74af1522771f74cb0e56c92039f6",
+        "scene_sha256": "b9bf04ded29e76c3e6a902a8a20492387baccc2a3c9f5854bd3c17aabd824204",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990053,
+      "instruction": "Set the medium rectangular woodenblock with grain on the left side of the black box with smooth surface",
+      "precheck_status": "accepted",
+      "rollout_id": 53,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "8028c0d75009d82e8cfffa62a1a0e0dc4592da2d206d1e93a89b51fc838c9f02",
+          "cam_left_wrist": "718ac8d2fb4095a640087054fa29ab636352caa4ded3963b323d99ec031f252b",
+          "cam_right_wrist": "dc8853ef7c3cf0e84b5aff458f096babf1f23627b0cfa8aca0d01d74d6497851"
+        },
+        "instruction_sha256": "4a24386a61f4dea45ada4a3a0953c3bf56cb6bcfe812867231bf7d5112122e80",
+        "scene_sha256": "ccff754695e67e520059ed288490a30b6438cb3f28205bde1c47be982233cd4e",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990054,
+      "instruction": "Grab the hand-sized rubikscube with colored squares and place left of the compact stapler",
+      "precheck_status": "accepted",
+      "rollout_id": 54,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "ccf24e0b778d72ce2cf0340c6f32ea2450f37841ca5a010cc9f017a0dcfc5cb6",
+          "cam_left_wrist": "15d57a5c7144a7836df7a04ddffca08faeb21d4aea8433c5242410b9faef5e6a",
+          "cam_right_wrist": "07bcbfe63ed8a52f35edbd85f6da756683ac620ba3647fe122193b320c53ba78"
+        },
+        "instruction_sha256": "5e571cd0b5b2fac4482e1744d5dde65b3825e82e4a803b50e7e48896892bd7db",
+        "scene_sha256": "f94c864209f88dfc2a6a9ab8c410e6ead0c93636c246748b5da47b29b34d5195",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990055,
+      "instruction": "Grab the white stapler and place left of the lightweight bell with smooth surface",
+      "precheck_status": "accepted",
+      "rollout_id": 55,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "1f76b28f58c4459b1f8361cb4257081ea34fb94107fc17863b12ff53f89fbd48",
+          "cam_left_wrist": "e10fb5d56570854c8e581f3f1d52d694f5f847056e3dd84f3924f632e223f268",
+          "cam_right_wrist": "8496858f4cb0f68b925548fb2c52d30083117a6708e42fc658e9898cd9c3b360"
+        },
+        "instruction_sha256": "6df2ef7e58712a36cc0b076bb060ca8a9a327c3a019a1825a7a9217335aa1e56",
+        "scene_sha256": "493f18f8efed0e54e423773c018e8474fea8397abb9619aa2061fea39e011fa6",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990056,
+      "instruction": "Set the solid gray rectangular cleaning soap on the left side of the rectangular playingcards case with patterns",
+      "precheck_status": "accepted",
+      "rollout_id": 56,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "61a8be547254d7c0476dea5fc763e37ec18e6684ad80ad595193e2a0a2bc20f2",
+          "cam_left_wrist": "9460b25cf833595c1f58f9fd492c3cd52166c2c673cfe034d5791868e3b42ff9",
+          "cam_right_wrist": "5c74b2157b717ddef9f7ec6724b2567178c5fde9ffd518ad1763c8d5d5bde38b"
+        },
+        "instruction_sha256": "5f8ed7eb8236eda9169dde881764a6e4c60d1850012fe6de6e248211d321692a",
+        "scene_sha256": "225bc689d5a2f13adfec6a7cc5fb885f72d9889bb3e42ccb19df051281c51567",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990057,
+      "instruction": "Position the beige box with golden decoration on the left of the bread loaf with golden baked top",
+      "precheck_status": "accepted",
+      "rollout_id": 57,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "2822392a0228fce3919b25e7468b51ba18c04a9e6714bfa3f13f50e48c208853",
+          "cam_left_wrist": "f8654622880f31bafcf51ecc521caeb5e2e4db786587c6353a4525c62787c10e",
+          "cam_right_wrist": "feeb212d5acc82be53614a90b32a040564e33b7b288bcccccedd30d11ed9975b"
+        },
+        "instruction_sha256": "8332c68d0b05e524c1c7602fb5f51cb79ffca64b568aa3b461a4d4bb060ee9cb",
+        "scene_sha256": "b540f1e502b56d7128d79305ce77b6fc982759b5f7b70d44a007f4d9c47bf6c4",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990058,
+      "instruction": "Pick the small tea-box and set it left of the white-sided phone.",
+      "precheck_status": "accepted",
+      "rollout_id": 58,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "52ffa1a63607dcd479f9394a3db80b76f892cf9197896ca0c72a626f374a9776",
+          "cam_left_wrist": "349621b7d465ba28ebd908bf45d4936322d8ce871e969524b3e6b7c5ebfa0873",
+          "cam_right_wrist": "3a872684070a015c2d59f2ede27032788c5f4677fc0aa963c515b1e954f3e3f4"
+        },
+        "instruction_sha256": "e8644c6837541ea0ffeebddd1a36fe808f20477befab34f6c619113d1d04a4bc",
+        "scene_sha256": "2c25eda55f64bb45cb51dd0908834d65e87dc6087592e11c7e857c925a9fc491",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990059,
+      "instruction": "Use the right arm to put the dark bar soap left of the bell with raised round top.",
+      "precheck_status": "accepted",
+      "rollout_id": 59,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "5b8a5baccd8281419f2bf21f77a51e7104b8a739ed93b2c67bea5337e882fb3e",
+          "cam_left_wrist": "d54a635d1b834c5439d0e904268f0ad76fc570da2d22d1de88970164efecd132",
+          "cam_right_wrist": "4b9095e4f13ffbffa72378d15a936cc629b862c0276b838627027aaee073d4f8"
+        },
+        "instruction_sha256": "9c3d722b898f4b4f6a19810efa0b07edfc38d2d704b3aed58f43b0f7764e55c9",
+        "scene_sha256": "824df090779b45624b9f8176b63ceedd3eade0aeefe307c7c49b009f1630d744",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990060,
+      "instruction": "Place the blue toycar to the left of the small rounded plastic mouse using the left arm",
+      "precheck_status": "accepted",
+      "rollout_id": 60,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "670afa617776a774289a415979ecf034734d697e892e05ef54fe0de3f5b217e7",
+          "cam_left_wrist": "485123392386c3d80c72775f9d3bf1814d3cf3d0644e176053064b8cab50bb8a",
+          "cam_right_wrist": "c4b39898dbef898f2cbee86dea12698a6295e0a25292a1a6062a36e03b21b3d9"
+        },
+        "instruction_sha256": "2e39f9c20e55596d068fe336f46e1fbe8cca6e7a742163dfaa0983623bd1a74d",
+        "scene_sha256": "ceb152631641465a9614517db7592228366021c2f50c25a630446079675fd1e3",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990061,
+      "instruction": "Set the hand-sized gray soap on the left side of the palm-sized phone with glossy finish.",
+      "precheck_status": "accepted",
+      "rollout_id": 61,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "0121e25c8ed983af3be85fe53d67e349024318eaee114dbc5c0f1ae2119d01f4",
+          "cam_left_wrist": "4b589671beafe7900144a24b414a47d4f9e4233e2e66e59fbd58da3098dcec95",
+          "cam_right_wrist": "eb6d0ab349299f951a663d847257152b031bffe27d004ce1ca2b7bced61719b6"
+        },
+        "instruction_sha256": "83fc88f66eaf53f35e51170911ecfda8d8b257f90dfb4dabb787734151458d4a",
+        "scene_sha256": "04e8d7094d737a7a4c553084b8492b5343277dabca533bd32cef9a87b0e894dd",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990062,
+      "instruction": "Use the right arm to put the soap bar shaped rectangular left of the coffee-box with orange circle.",
+      "precheck_status": "accepted",
+      "rollout_id": 62,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "7486b79cb19f7ce53e95b108c9e97dfab36545eefd352dd6829f14246f857620",
+          "cam_left_wrist": "286da8bd8a49b30af0c7d160912936678f30fba76b529ffae12a6ed767bd53ac",
+          "cam_right_wrist": "09b46148abe75347c58ae82972dae0ff8b2e22706187b9d77a5df0d409b76d9c"
+        },
+        "instruction_sha256": "57d5fa176e7ba328d291e0e99a8ca07b02ece1928db4b88f179e09c764350707",
+        "scene_sha256": "7be517e87ba3b31231284dec1d69ae0f7ea8987e747ca8e9fe63480281b7dbab",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990063,
+      "instruction": "Set the toy cube with orange and blue squares down to the left of the rectangular bread loaf",
+      "precheck_status": "accepted",
+      "rollout_id": 63,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "96720a6da31bd7a55205c2df27232fa2fc53f44658c8361caa1e54cd41904c77",
+          "cam_left_wrist": "6ca74b75da0441801d710153ce35ad39f6c717a613c73731a29db75fe2324936",
+          "cam_right_wrist": "79cfdbc17a64549c7007d934cf8708af4259bb913b5a5674ba23aaf1ae68684c"
+        },
+        "instruction_sha256": "4598c684fbb51199e151693b0911835f53d35313343b13d2028a18996e791625",
+        "scene_sha256": "c407bfc479023c90ddae2b55686285c4793542d437b3379865575aeadec6f793",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990064,
+      "instruction": "Set the rectangular stapler with curved corners on the left side of the hand-sized rubikscube with colored squares",
+      "precheck_status": "accepted",
+      "rollout_id": 64,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "55958d643efc3d1094723d6e4f9e74a4e2ce5b1276eefd8ae92476907e23f40c",
+          "cam_left_wrist": "11c92e7e759f28707b3f168f5a9e2a2e060121e68f88befc26bfdb23afc0cdc9",
+          "cam_right_wrist": "ba6c9d162464b419eada39327bfc841bcc188528d0822c4209715829f6b8e02b"
+        },
+        "instruction_sha256": "6dc311f6d7f5d8654dd7ea5383f8f2a19e2a32d23b5bb69b5343738e824aee1f",
+        "scene_sha256": "a311f7568e12c0da5d31e2301bcc6ccd5e30f57923c88566294e4d0f58884cc5",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990065,
+      "instruction": "Set the handheld rubikscube down to the left of the blue stapler with smooth finish",
+      "precheck_status": "accepted",
+      "rollout_id": 65,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "36b4cc3399fdd94267adfe06ad849d22783c2dc12b99af17dc1dd2686f5cd547",
+          "cam_left_wrist": "7f3a23aa4852ea84d50125670c466609ad1e39884abdc3081afea52eac4cebf2",
+          "cam_right_wrist": "9e903113bc190f0f09b54796eab67bb741141766a6e6bfb6bdaa86458c696526"
+        },
+        "instruction_sha256": "37616c63c13487435194d1e398db5dc25b3b4d8c28af6d705d14a2a2c27f50c6",
+        "scene_sha256": "b2e79c4375b15a5be586d43a21bb711168fa3167050f885c1764118b8cb225ea",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990066,
+      "instruction": "Pick the white stapler and set it left of the phone with rounded edges.",
+      "precheck_status": "accepted",
+      "rollout_id": 66,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "493b8659a0fce7c5886665a4479f86ca3eac7669a75638fdfcd4c79e146e41a5",
+          "cam_left_wrist": "1b19011cd1043d3b2133bd82afc4ac562a9715dba9929b98b6b0539f7fa2d293",
+          "cam_right_wrist": "f1decf6a21452cc991435f26d3f19e684c9f41d9d1731b0d9ce5734f082f0d24"
+        },
+        "instruction_sha256": "dcd46c1ef4d96fc370a21aec5888bf5ead85755217d9beaf2ff04acc0b78a738",
+        "scene_sha256": "5503dc9033e0db16b76ffd777071e8426999ca679a4a6fbc50026dafcab9fdc2",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990067,
+      "instruction": "Set the handheld rubikscube to the left of the woodenblock for stacking",
+      "precheck_status": "accepted",
+      "rollout_id": 67,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "8c84a2993e40a62a1dbda2ea824c80880a7ace15d0e45b66bb063636a15f5c64",
+          "cam_left_wrist": "7aff8a9a24e85dc4e5faccf2344033cb5626c9b6e57768806dbaf1cb527bb8df",
+          "cam_right_wrist": "96c1d1d8242bf8ba980433735851e30c6b851134a137f15b78e5eacf683f6ee5"
+        },
+        "instruction_sha256": "39d309d3777321cbf199b9656d6c0ffdd2bbd9b09ad167e03ccd95c3a34863a0",
+        "scene_sha256": "0ebe2833b171cfd7621772b05a98c7d1893e5ad4888e927d554a0b9646aaa0b8",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990068,
+      "instruction": "Position the multi-colored rubikscube on the left of the palm-sized black stapler",
+      "precheck_status": "accepted",
+      "rollout_id": 68,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "51fab87a4d09e1076ee5c94e945ea96315523b111fbf7fc4aaf0f6d9db3c4520",
+          "cam_left_wrist": "52097bfeb8cc06e40e2dfd9cbc854b1463eb777f5b2d1a7702abf701b13a1f33",
+          "cam_right_wrist": "24ab6ab87b9a99882703036efb9a4d6f345dfb222646917ba961cd98d7cc53c9"
+        },
+        "instruction_sha256": "cab59fd7e5fb88acd05beab60f865acd8fcf3a64813b6b726a17dcdad7fb9ea4",
+        "scene_sha256": "7d8a3c9360b65fe520c0790d1ee9a4c1fdd657b3b23de24bb27cefe36e3f0023",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990069,
+      "instruction": "Use the left arm to place the hand-sized woodenblock left of the box with green leafy patterns.",
+      "precheck_status": "accepted",
+      "rollout_id": 69,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "4d1ce57a3eccb0b136a70030d65ab6e826082faac3189a908b75b9317214daae",
+          "cam_left_wrist": "cdc6661bcd95fc767cfbd039ef59c0908aff07dd1754d449b09dac4c02f2ff89",
+          "cam_right_wrist": "e4bc8604e3d5e43b1afa70cf047d5429d8ab2062577b85a7279202b27d763cdb"
+        },
+        "instruction_sha256": "760cba58988d1506797878d341852edbbf4227c28a9dba99fe965e9072ca5299",
+        "scene_sha256": "0e922ac5175a46e2f260ed412d6e2c89da433bf867e607c32adcc8027f2949e2",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990070,
+      "instruction": "Position the palm-sized braided golden bread on the left of the blue toycar",
+      "precheck_status": "accepted",
+      "rollout_id": 70,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "83cc0ed8c60c76dd8093bb4f11b3f2c4c92bb167c992e4c8a4ad9b7f64325213",
+          "cam_left_wrist": "e5ca84cda6b699632530a12dddfa041e19521698ecf2b138bd701e223f41b8d6",
+          "cam_right_wrist": "43be7e8ca7e52c92f2821d6e24188c80d8f5c83350351e2c2158bd1229d86856"
+        },
+        "instruction_sha256": "b2fd743449cec07e6cda48201bcaf909af2c58cd3c0f7ce4c62103f8f2f65761",
+        "scene_sha256": "75bf0e26ca018fc09d9716020e184b5271396ad19049a7f048f491b736715e57",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990071,
+      "instruction": "Set the hand-sized dark gray mouse down to the left of the solid gray rectangular cleaning soap",
+      "precheck_status": "accepted",
+      "rollout_id": 71,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "62e067e2e7986fde29a7ea718070b0e11f6621685e8db3a5c0c8a6c736370f04",
+          "cam_left_wrist": "a42074d9c9917763aefb7948c99bdfe4af29969cb5c7229c900a0d1949205cc8",
+          "cam_right_wrist": "a0c9e8ae1baedceae470cddc4818c786de217a4601f244bf8a419a456115ac6f"
+        },
+        "instruction_sha256": "1143734589373bb2456b0aeb03c961f460312c7ed92cf2183656ea19d7e0413c",
+        "scene_sha256": "160d94b908efacec0ec301196bb9894342e45fe265c6abc566754eba4c720bdf",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990072,
+      "instruction": "Set the rubikscube with yellow top on the left side of the rectangular playingcards pack",
+      "precheck_status": "accepted",
+      "rollout_id": 72,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "de6f84c67427a6e4da8192b9a8183379749c6ae9774bc97cfcb4d0a95ff24968",
+          "cam_left_wrist": "f8fbf0570d49697500108aaea185a74708f411f5f3e3d4170b0589a823e0c18d",
+          "cam_right_wrist": "d9e7107a193976ede1d8710772b55e91957b0fdc426c3bc5e17367412684a7f0"
+        },
+        "instruction_sha256": "8185ab941f25a4d7ac379b8300df2a5d6cdb01ab885350a84b23b11c4b2a584a",
+        "scene_sha256": "bc83af2573add1c6a6f39ced2a3e27b8144fd7fbdb9ca0351fa4d1d035a73403",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990073,
+      "instruction": "Use the left arm to put the compact tea box left of the skincare soap bar.",
+      "precheck_status": "accepted",
+      "rollout_id": 73,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "7a2f67e6d41eaa2866c38e785ce8a08e8686b78b548daa57d44eb02fc75ef73e",
+          "cam_left_wrist": "e2015ceeff5c5831fe8eecdd02abdcf528af79132d5de438623ae8c3f8d84547",
+          "cam_right_wrist": "ebf6a2fee0a91b6c1d9e5d606bbeda630faa5b2af49dd938144f4ef8460519cd"
+        },
+        "instruction_sha256": "f31ec4d564d4a541d81703e382837ab45c765ed86c89e4fb5c9c664cf054b018",
+        "scene_sha256": "1989906fd85cffab950c622ec94d528f3c6b7337e74073ab750ba4faa2f135ae",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990074,
+      "instruction": "Set the small rounded plastic mouse on the left side of the hand-size bright blue stapler.",
+      "precheck_status": "accepted",
+      "rollout_id": 74,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "eba159ad422222c69c7211e6d268b8d9ca8203c916ee5300a16b168bd4c8b874",
+          "cam_left_wrist": "27b0374a1375afff31fec2870a15d77b3161565a1661551520a5c1289087fa2e",
+          "cam_right_wrist": "073f38ed705f0925ee8bc9e15285d24e0736fd32467d0c063fe93efb3103d493"
+        },
+        "instruction_sha256": "43c8399c4e4f25c4ed0eaec5b9c9deff34a963b4ec8cb884efd57b06686b402b",
+        "scene_sha256": "5b85ceb78c72a86a5ab3e132e63227a2b8237d9fa0e314c09816de6c654fa4a9",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990075,
+      "instruction": "Set the handheld rubikscube on the left side of the phone with rounded edges",
+      "precheck_status": "accepted",
+      "rollout_id": 75,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "0fde11fbd6290b69af2af01f261c32a76cfbb94cf014c8350e3cbd4726c12bf2",
+          "cam_left_wrist": "6bf08bc4200c00c4ad563192f3e20c6f543ee7110aa037d2b7f9c81f0024271b",
+          "cam_right_wrist": "6a0c6392e16568384d74bb4564cb0c7983536d99bf80786f1f76216dcd12edf1"
+        },
+        "instruction_sha256": "d95ba07dd133488ad487dd26464f302590ca7dabdebca569f5862b98d5d74100",
+        "scene_sha256": "e22d20d52a99730566ac0640bc934e76eeab2794246eeebf3ecee31a3622c8ec",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990076,
+      "instruction": "Place the cardboard box for storing coffee to the left of the bell with raised round top using the left arm",
+      "precheck_status": "accepted",
+      "rollout_id": 76,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "4bb5043485b80313aa186f48d06bc48db406cf77f048d477dcf3dd1fb525411e",
+          "cam_left_wrist": "236259f1cc5140d63654cafcf763eb86f9d98306392798012d60543670a1c8cf",
+          "cam_right_wrist": "d57dabf3c845bb02faf714187bb255ef6a1d9700555be5e4109b3566a7d375e3"
+        },
+        "instruction_sha256": "5551c93ce834a8a10bbd5f660e12bbc5db22d8b32b0d0f7ce98e770f9885a5cd",
+        "scene_sha256": "6c547215cabafab62739619c4ea6aa1874941ab98f615dc7698c6565f9e303b5",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990077,
+      "instruction": "Pick the handheld rubikscube and set it left of the mouse with scroll wheel.",
+      "precheck_status": "accepted",
+      "rollout_id": 77,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "2f05d8fcf680c7553ae6c3ef9bde2652ac501899da5f9128d42c375643e09d63",
+          "cam_left_wrist": "31524b1ca708f6a3eb06bcd9f696692c0398c6cf39e058d08f15840ca89fd583",
+          "cam_right_wrist": "63ce4f30a3ea4efcda138e1fa3d2ff1428f8452cec0a54ad0f91203001124924"
+        },
+        "instruction_sha256": "2e1483d26e94b1f760d19cd178a5ec91853199a252ae31512acfa28ac82c9fff",
+        "scene_sha256": "7e00f4b30ae4f807f09e215eefa8bd3dd2d7600ca341bc418285954000a978c9",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990078,
+      "instruction": "Set the light yellow cleaning soap down to the left of the rectangular woodenblock",
+      "precheck_status": "accepted",
+      "rollout_id": 78,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "4686b19a68a9ccf3706a0ffaea1e93163870673cac43a9d869fab3a8deadfeff",
+          "cam_left_wrist": "f5a70182db63357127935fcba7c4261aa4b3497b115deaf9d044b84bb940e74b",
+          "cam_right_wrist": "f0140d20c16c0a073f25398361e2a30cdd7388eddfe79fd572cb87079b3a8e71"
+        },
+        "instruction_sha256": "c845e1c858153a8796abae56084a81041c42d19d43b7881bd40918671b8ae22a",
+        "scene_sha256": "f9a0ec8e3697e9878c97cc87aa6921a2ceee589d1abd8cd3ade8cc2f3ed905aa",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990079,
+      "instruction": "Set the red stapler with silver chamber on the left side of the toy cube with orange and blue squares.",
+      "precheck_status": "accepted",
+      "rollout_id": 79,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "8a5c35cdbc5809b03c47cd5af76f5e6171db233bf78a125b929440f7ffbd558e",
+          "cam_left_wrist": "dea722fb9168f7a781a5bdd4af8eb07d854e82ce489cc9a14eefd69b45c0948d",
+          "cam_right_wrist": "7c2a264d60c7d5c9554c4a104897290e148cbea84847e6248ffdca58c2fa05fc"
+        },
+        "instruction_sha256": "348e9a6631f13fea7439ab9ed84c79755dcdaa1f4c18e5952502aea97373753c",
+        "scene_sha256": "e795df4191af0ed1341a014d8789589dd12eb89702bb9d032b2c17439b084937",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990080,
+      "instruction": "Set the lightweight bell with smooth surface to the left of the pink toycar with white bumper",
+      "precheck_status": "accepted",
+      "rollout_id": 80,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "0562fa72ab30f350f1f146e8d08e407d8bdff01f669a319724c06024ca12783b",
+          "cam_left_wrist": "e638fc8ce9236db4a4203ded208df8bfb3f448fa758da933141a0a2c918240fc",
+          "cam_right_wrist": "5853106d1ef0ed0a3227b832049e6e9a741f3a30f1e312a6c053c19415ef159a"
+        },
+        "instruction_sha256": "af26c6c2f243cd0886ad7aa2a25be29436a7f09c37c1dad8e360963a835a1eaa",
+        "scene_sha256": "903528885d6f168cf1509a32ccc1d517f84cd644253ccab1dec031a72c4bf3fd",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990081,
+      "instruction": "Place the red, blue, green, yellow rubikscube to the left of the hand-sized gray soap using the left arm",
+      "precheck_status": "accepted",
+      "rollout_id": 81,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "889b55bd3d54945a78e107bda1648493fbcc8eefdfe1369d6ef2b2ef32d687e6",
+          "cam_left_wrist": "7d8e5fa5a49b2008c9d5fe79344fe0a67a82ba689b3330cee2e6d8f8882763f1",
+          "cam_right_wrist": "d1749369304642115d6f23df8b8a26868d8552013d9f60df068a31efb30b5dae"
+        },
+        "instruction_sha256": "3d2e134b55a94572436f381e20937c7e3dcb516188c08d2fa38b4b687cfbac3b",
+        "scene_sha256": "5c3d250a6321e02b20291da6f30589fb1c7c7625d6c965769171f6b839b15e4b",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990082,
+      "instruction": "Set the small box for playingcards on the left side of the dark gray wireless mouse.",
+      "precheck_status": "accepted",
+      "rollout_id": 82,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "41c12b9875cd16261c946158193688b0a96466a40e18ac274d14272aa85e1080",
+          "cam_left_wrist": "5b125a2db1bd22058bdf2c095a9121a097238250d898a5c8066937c5c84f1eea",
+          "cam_right_wrist": "a58821688123df87ac39287627282aa68a3b6edf3d1a75d14258a48e7d76f78d"
+        },
+        "instruction_sha256": "e8a3de72195943ea9fe853fc784fd70e9599242b50def28b8a271e6b4e1cdd1b",
+        "scene_sha256": "ea49963a57265316888fe3f4d587cdb9389a068fcb52ad53da169fb93d0528db",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990083,
+      "instruction": "Grab the lightweight bell with smooth surface and place left of the hard black box for card deck",
+      "precheck_status": "accepted",
+      "rollout_id": 83,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "765c3bdb03431626b11616045f6087869ac3e4452215b6bc0cef8868d26d93d8",
+          "cam_left_wrist": "ed30ae6fb253a8afef597bad734ff1ebe153236fe24ada94939d6347a14ace23",
+          "cam_right_wrist": "5b525f4444f2cd9e72d41bf599cc299b1617f4c85da1830db9bcfc9cd050df1d"
+        },
+        "instruction_sha256": "946c3670c08f4f3fa6ee2e7d3eaf4487c12d41d5e4a084f82b30312f2b7668c8",
+        "scene_sha256": "4a4a8a035c36ab4acc321f4d575fd3c369233a186986b3315a5d6ed7b46822e5",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990084,
+      "instruction": "Grab the playingcards with red packaging and place left of the box with coffee graphics",
+      "precheck_status": "accepted",
+      "rollout_id": 84,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "12e18ce1cdf85cd756889c8dd6817103fd7de117783172f561df35bb78941526",
+          "cam_left_wrist": "33f0bb5a28ba3e34130b46c741345507e01353b3b57b43aec4d008b36a4a2de2",
+          "cam_right_wrist": "dd689ebb61ab6a92bfae19dbb621ce4730c26b27d08e6dc9ebf732051d37a58e"
+        },
+        "instruction_sha256": "5f912667d111143fefb3993d1098b827f4a8298013ce64a5a19de5d77d063596",
+        "scene_sha256": "3af65c20d8c2ef5964bff4e254454f561bf6a98e55556312e4d9f19d8a396ff8",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990085,
+      "instruction": "Use the left arm to place the rectangular playingcards case with patterns left of the palm-sized braided golden bread.",
+      "precheck_status": "accepted",
+      "rollout_id": 85,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "de181c404b2ae4b319cd76b5bfbec9eeb2bfcd276199ff99587ea4d9333057a4",
+          "cam_left_wrist": "fc0ae2a7dd30139a3e8b574f2bfca130fe722b5c325c4114a2fb07696799d265",
+          "cam_right_wrist": "0f81e02f6c7822726d345009a1ab2e45d9e7e00865dc2ace7b5b7bca4caf9848"
+        },
+        "instruction_sha256": "e8356b18e050901fe21746d8b4e5d0e66e8226948df3fc1a1c0f15d3052acc8e",
+        "scene_sha256": "6b26a5342f5eeda2a0fb43cf4573529857f25505a4d9931f7d31789006a64004",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990086,
+      "instruction": "Position the box with coffee graphics on the left of the compact toycar with rotating wheels",
+      "precheck_status": "accepted",
+      "rollout_id": 86,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "6d48dfff584b67506a399cfa7aa842107b3abf699a21dee755738866dc38798f",
+          "cam_left_wrist": "6452af2dea202f05c8ee96f99b67ded190ee46d2da6007dd783f3d336a6837ce",
+          "cam_right_wrist": "52eff0dc7d0494e1402db6b48ef7a82f730cfe4cecf89f6e7f868e3de50c7fae"
+        },
+        "instruction_sha256": "b9ef81774ea7c1ac2d57625bb48f61d20bcf868f61b305ec26b5c6e1c77a9d34",
+        "scene_sha256": "4e8e3bbb9db33910bf5264d97f8d5efa8ba9793f6316bb9aadea74932fb20d38",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990087,
+      "instruction": "Set the lightweight bell with smooth surface on the left side of the gold text on playing cards box.",
+      "precheck_status": "accepted",
+      "rollout_id": 87,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "7f3afc19bdce8f48f4c6fba1dc0d4efbefd836f1db900946f09f94ea9494fee6",
+          "cam_left_wrist": "a659557fbd5d2e68e92bcfec45e42798d6ffd9b50714a5eec64ae1c4250b7f5b",
+          "cam_right_wrist": "36456075284e1eded7923477b690c347de88311c64cfbab21b0e3eb8a458356d"
+        },
+        "instruction_sha256": "9fecff37a0ffe9ba13906f2082fdee06ab1786c9420ab274a69c0b7c5e9532fd",
+        "scene_sha256": "6e63c4a3e55393bebd892229e80439c71165ce303dd68cbb70a45226dc13ba3e",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990088,
+      "instruction": "Pick the lightweight bell with smooth surface and set it left of the small rounded plastic mouse.",
+      "precheck_status": "accepted",
+      "rollout_id": 88,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "0da84a9e08677080c2371aae0f7465793bf7dc07102dd99ac8228c3f25fe035c",
+          "cam_left_wrist": "b92b592f9b51cbc589753a38b807d1f92e45531449723c7972f7950738e53f29",
+          "cam_right_wrist": "5ea178d5b205759f0721890ae892a76a563b08fa9411acfa75c1184285ddc276"
+        },
+        "instruction_sha256": "950d222ab52b543c2b33923e9029c6dcac445c369113d822fc5828b424887400",
+        "scene_sha256": "28aa146aa8d7841ed40fc63b0206c339ee9d31a8cff2db71efe249b78f0c3292",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990089,
+      "instruction": "Grab the smooth metal bell and place left of the light yellow soap for hygiene",
+      "precheck_status": "accepted",
+      "rollout_id": 89,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "6529a18e8b6f921b855fa48cdefb4e65666afc4456a3908ef324a356a5b240c5",
+          "cam_left_wrist": "7024f1937cfa4fdc92384a5584e3cfac06812e3f80d9a1b27c51d6b816fe3aa3",
+          "cam_right_wrist": "a52f7a796c82148473824544bce39e4e0be46bf2f7b21b3df1e8235509e803ce"
+        },
+        "instruction_sha256": "d49def7750ac83dc5c48515faa521c6641676957ba5477c99f13d5b4ff937b5d",
+        "scene_sha256": "7b7ab45b0235ef50afe63ef82f3c1cb7a6313c41147df86da87afcbf13935860",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990090,
+      "instruction": "Set the toycar with orange wheels on the left side of the coffee-box with orange circle",
+      "precheck_status": "accepted",
+      "rollout_id": 90,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "68a4cb3c1056c5e7fbaf1c17a00b03e999124958585ba6dbae77817074efb667",
+          "cam_left_wrist": "96300b814c85d8b59c43a5ea2e47a9a7d328b959277090cacfc6acd388f40110",
+          "cam_right_wrist": "703bbfa6abbe0450243ab2f4585b39f07cf23378954d31d41ae897000634d95f"
+        },
+        "instruction_sha256": "0699c079e606862fff068e3726d29af046906e7bc293ab5540807516ae6d4dab",
+        "scene_sha256": "78f633c44b6a9d6756ad90b20e3d24f47d9ed4b53835f2eb2e071fed8ca94bf7",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990091,
+      "instruction": "Set the small packet of playingcards on the left side of the bell with raised round top.",
+      "precheck_status": "accepted",
+      "rollout_id": 91,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "a69b7413c9c77c9bb8ac0049a2328818f512f0334a583f55e6ccb54e806dda73",
+          "cam_left_wrist": "c8912c6507842a0384e6a70f3110b607cdfe55fc6c822878f598ae3e49836291",
+          "cam_right_wrist": "ee99d6bfcedae2f2d3f5addb5e46787c34b2c4a7d109d0a1617a6195592acb90"
+        },
+        "instruction_sha256": "0994aa7090e8b9664bd41eff308c29e06edbad0b0583f42e07029a1a0b8d6590",
+        "scene_sha256": "c97757a87a9b6686bf4fd58b5edd8fd9e36c4fa29870109b96f2ffbb5199a675",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990092,
+      "instruction": "Use the right arm to place the tiny pink car with four wheels left of the hand-sized woodenblock.",
+      "precheck_status": "accepted",
+      "rollout_id": 92,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "d4c9430c0c7baa5a233ca0f0206cbb174e23199848fa327613612961221a4907",
+          "cam_left_wrist": "dd557ddbc567e7bd84112b6c745cef041942a1ca83ea6c64995ff86e16838ab0",
+          "cam_right_wrist": "bfc5aff5c9e5366ed0a84029ffd26d7a1c0a7d00dd60a59da81672d8fff45d6c"
+        },
+        "instruction_sha256": "26b6d38046ccabdf99362107cb33255ba66311689c235926c2efe77e5b4442a2",
+        "scene_sha256": "98de308d210a70289bc0b5969491f22426e802c4bfbc6471a235d80d791c55f0",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990093,
+      "instruction": "Use the left arm to place the lightweight bell with smooth surface left of the rectangular playingcards case with patterns.",
+      "precheck_status": "accepted",
+      "rollout_id": 93,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "3da9426db6a279b5d42a3522f8962d09ba4632164238c8ec7a70ec9476d73629",
+          "cam_left_wrist": "a8b605f78fb213d17cc65a1d63e8e6004b4d4d541535d072c6de2e94b39cdaa1",
+          "cam_right_wrist": "e383445e1fd73bacd32eb8eda0877901a2de7270177deba2ca83f07a51be2999"
+        },
+        "instruction_sha256": "251044168c68ef3becef4422d98e22559ef293be71831d2b780b44fac67d958e",
+        "scene_sha256": "e44da88913cf23eb81ee985e2d89b67d0774c8a5e4b256601d12eaa2f6ee0343",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990094,
+      "instruction": "Set the spongy golden brown bread on the left side of the light brown box for coffee storage",
+      "precheck_status": "accepted",
+      "rollout_id": 94,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "82f35489abd74aa684b72c0a1585ee1a5edb01872193d6dbcdb3da7e45dc9fd2",
+          "cam_left_wrist": "855caf7e0ff653a9fea4a56c83285d300c57750b2243353bccd1b1f01f0774f5",
+          "cam_right_wrist": "6bf5e36866b8937cfb7c64370615b74f3212169d72e1ab91ff483f4864ee714d"
+        },
+        "instruction_sha256": "2c04537e0ac24b1faa137e975212db02cf2bfc4a28f13025f28d5d295e7eae54",
+        "scene_sha256": "130b5e1f069eb161819c24b06039868f6aca9572928245657a90a4528958de42",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990095,
+      "instruction": "Place the medium woodenblock with smooth texture to the left of the rectangular red playingcards holder using the right arm",
+      "precheck_status": "accepted",
+      "rollout_id": 95,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "43a6076f8487721a5d601918c8d20aa0c2c73205e2f690d138f54e4afd75c4ec",
+          "cam_left_wrist": "4288cdc35cef4d33cf7fdf48f672549be2ed789a2652acb2d6078f334b11987e",
+          "cam_right_wrist": "aed8f8d960543716b45a5c97373c30c0b4192dde966ae2895a1a1d9a65211317"
+        },
+        "instruction_sha256": "a2600d0cb093899c61dfccb528b671b80a03e1d7d34617a425131217bd784eb5",
+        "scene_sha256": "d70353a2b5acc22dbc9dc3af14b097ffa937a0a5759d25728e1c4edec29de654",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990096,
+      "instruction": "Grab the soft bread with golden edges and place left of the cube tea box with shiny embossed patterns",
+      "precheck_status": "accepted",
+      "rollout_id": 96,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "5de5904a432d5131d34fb32bf1254b71c2ca52a6228c96300653d9891a8565d5",
+          "cam_left_wrist": "7e112870b35938a3d5c5a649bdc8131ed9edbe3792df448ffd7329879a9ba270",
+          "cam_right_wrist": "ab896980dd5361bdc1648ebac9e694e714d144c1ddde5a8eff7b0adf28b0df9b"
+        },
+        "instruction_sha256": "f03694ba6ad4a92d1715f337c861e19e74ebf2ea0aafbfdcd51b911a974ab90f",
+        "scene_sha256": "710dc651459a46c17b7d0759af72a9620615abf5718bd60405675922f79d2c54",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990097,
+      "instruction": "Grab the loaf-shaped brown bread and place left of the flat-edged rectangular phone",
+      "precheck_status": "accepted",
+      "rollout_id": 97,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "fbe9ccaa63727ad6260e9cbba6878769207d2312f5974bdbd33b241fcb3f73d8",
+          "cam_left_wrist": "23a658cd1799eab4876afecd338bb47d6080954e5148e8ebf3b630f94251f2b6",
+          "cam_right_wrist": "6bc23215816a713e47eedec3efe311e882dbbe69f245186ddb351160ce4547bf"
+        },
+        "instruction_sha256": "5eaecb0ab31c24afe2fc2728d788010817313b68bc027b6ec3085f3c732c19ac",
+        "scene_sha256": "ed06e746e6ca7733888ca96b8af66c4fc0445dee084dd34aa59f13ea569386de",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990098,
+      "instruction": "Use the right arm to put the toy cube with orange and blue squares left of the small box for playingcards.",
+      "precheck_status": "accepted",
+      "rollout_id": 98,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "a15251cd7be21af7e57dfaead45fad60e5b52b457663cbeb555177216e75e5fd",
+          "cam_left_wrist": "fd7db22468a8595e8e738957f8318442d642b30cfc7ac2932a8ac17595e95807",
+          "cam_right_wrist": "2e1b8c75fca4bf8eabf182cad37dbf8977a7338618d9c1454d02dc0bd40f97ad"
+        },
+        "instruction_sha256": "437cfa698c2764a44ad27c59faf4876e9f9208c17cffa869ccab696da3089ee0",
+        "scene_sha256": "2b62b7d94f15d0475cf11f925965dca0fa1cfd15cc6ae10ec218030606449cba",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    },
+    {
+      "episode_seed": 990099,
+      "instruction": "Use the right arm to put the dark gray wireless mouse left of the decorative golden tea box.",
+      "precheck_status": "accepted",
+      "rollout_id": 99,
+      "signature": {
+        "images_sha256": {
+          "cam_high": "cbab2ecb7f5dfd732eb22fb9b0e7a74ecab0686a3d8ee3821e09eb98ec2ff08b",
+          "cam_left_wrist": "8068a00ce08fa091cafd98fa908bd82bfc96e6120cd67c46f2cca7a118dedcf5",
+          "cam_right_wrist": "76b960d2ee97af62f9e97ed4755b9fd2073c8b5f8f2260e1cfc2d35b5a8045af"
+        },
+        "instruction_sha256": "befef73c1ea911a87786cb88adb715f3b799387b58fb0680cbd3b546d9d9c369",
+        "scene_sha256": "1e56f1e75103cebd12272866d168c7f428349e88ef9b0efc5a06b8b809fbd632",
+        "state_sha256": "aed9607efe0f26286bd388129c3f8720abc4de43b417ae34e0a12dfec2d25747"
+      }
+    }
+  ],
+  "precheck": "setup_only_no_policy_or_expert_outcomes",
+  "protocol_id": "chunktrust-rtc-v2-formal-extension",
+  "rejections": [],
+  "schema_version": 1,
+  "seed_candidate_start": 990050,
+  "setting": "demo_clean",
+  "stage": "formal_extra50",
+  "task": "place_a2b_left"
+}

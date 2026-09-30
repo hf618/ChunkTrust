@@ -1,0 +1,33 @@
+{
+  "schema_version": "qha-heldout-v1",
+  "kind": "qha_heldout_training_protocol",
+  "heldout_tasks": [
+    "blocks_ranking_rgb",
+    "place_bread_basket"
+  ],
+  "train_tasks": [
+    "handover_block",
+    "handover_mic",
+    "hanging_mug",
+    "place_a2b_left",
+    "place_bread_skillet",
+    "place_can_basket"
+  ],
+  "train_repo_ids": [
+    "handover_block_aloha-agilex_clean_50_repo",
+    "handover_mic_aloha-agilex_clean_50_repo",
+    "hanging_mug_aloha-agilex_clean_50_repo",
+    "place_a2b_left_aloha-agilex_clean_50_repo",
+    "place_bread_skillet_aloha-agilex_clean_50_repo",
+    "place_can_basket_aloha-agilex_clean_50_repo"
+  ],
+  "candidate_horizons": [
+    1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+    11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23, 24, 25, 26, 27, 28, 29, 30,
+    31, 32, 33, 34, 35, 36, 37, 38, 39, 40,
+    41, 42, 43, 44, 45, 46, 47, 48, 49, 50
+  ],
+  "selector_mode": "expected_round",
+  "temperature": 1.0
+}

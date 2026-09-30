@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/stack_blocks_two__demo_clean.json",
+    "parent_manifest_sha256": "7b9373c5c75519c453fa0b292f4368be375fcea738c44e47f1ccc1628537d66d",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_stack_blocks_two_demo_clean",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9750000,
+      "instruction": "Place red block in the middle, then stack green block on it.",
+      "instruction_sha1": "1b54182b60f243107c50d97a5c2f31bb714f73d8",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9750001,
+      "instruction": "Place red block in the middle, then stack green block on it.",
+      "instruction_sha1": "1b54182b60f243107c50d97a5c2f31bb714f73d8",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9750002,
+      "instruction": "Move red block and green block to the center, then stack green block on red block.",
+      "instruction_sha1": "8e24fc0c4a4ed1fc354336640bd5d2969940b05f",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9750003,
+      "instruction": "Take red block and green block, move them to the table's center, then stack green block on red block.",
+      "instruction_sha1": "c25e8e2510071127f40ac3004b604130c1445e4c",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9750004,
+      "instruction": "Take red block and green block, move them to the table's center, then stack green block on red block.",
+      "instruction_sha1": "c25e8e2510071127f40ac3004b604130c1445e4c",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9750005,
+      "instruction": "Grab red block, place it at the center, then stack green block on red block.",
+      "instruction_sha1": "e816648dd3cf437c2a8622016062aaae34559542",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9750006,
+      "instruction": "Move red block and green block to the center, then stack green block on red block.",
+      "instruction_sha1": "8e24fc0c4a4ed1fc354336640bd5d2969940b05f",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9750007,
+      "instruction": "Bring red block and green block to the center, then position green block above red block.",
+      "instruction_sha1": "6b58f6ab588ce7e8ce5f631bbefe70fa60b8fd2b",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9750008,
+      "instruction": "Move red block and green block to the center and place green block atop red block.",
+      "instruction_sha1": "8827152744032cc5d27d958cd184f8a4194f695b",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9750009,
+      "instruction": "Move red block and green block to the table's center, then stack green block on red block.",
+      "instruction_sha1": "2561c13bbfbfe489d2943066ae9f976b44cbdf96",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9750010,
+      "instruction": "Grab red block, place it at the center, then stack green block on red block.",
+      "instruction_sha1": "e816648dd3cf437c2a8622016062aaae34559542",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9750011,
+      "instruction": "Move red block and green block to the center and place green block atop red block.",
+      "instruction_sha1": "8827152744032cc5d27d958cd184f8a4194f695b",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9750012,
+      "instruction": "Grab red block, place it at the center, then stack green block on red block.",
+      "instruction_sha1": "e816648dd3cf437c2a8622016062aaae34559542",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9750013,
+      "instruction": "Take red block and green block, move them to the table's center, then stack green block on red block.",
+      "instruction_sha1": "c25e8e2510071127f40ac3004b604130c1445e4c",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9750014,
+      "instruction": "Place red block in the center, then stack green block on it.",
+      "instruction_sha1": "11f2785a30c58a151ebf81393f778065b1134e64",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9750015,
+      "instruction": "Place red block in the middle, then stack green block on it.",
+      "instruction_sha1": "1b54182b60f243107c50d97a5c2f31bb714f73d8",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9750016,
+      "instruction": "Move red block to the center, then put green block on top.",
+      "instruction_sha1": "cac43df0c84f16bcc81a70ff5dbbcdf1d3034723",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9750017,
+      "instruction": "Take red block and green block, move them to the table's center, then stack green block on red block.",
+      "instruction_sha1": "c25e8e2510071127f40ac3004b604130c1445e4c",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9750018,
+      "instruction": "Place red block in the center, then stack green block on it.",
+      "instruction_sha1": "11f2785a30c58a151ebf81393f778065b1134e64",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9750019,
+      "instruction": "Move red block and green block to the center, then stack green block on red block.",
+      "instruction_sha1": "8e24fc0c4a4ed1fc354336640bd5d2969940b05f",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-08-01T05:18:44.622328+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_stack_blocks_two_demo_clean_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9750000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_clean",
+  "task_name": "stack_blocks_two"
+}

@@ -1,0 +1,16 @@
+name: Core checks
+on: [push, pull_request]
+jobs:
+  core:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -e '.[test]'
+      - run: pytest -q
+      - run: python examples/quickstart.py
+      - run: python examples/replay_recorded_decisions.py
+      - run: python scripts/summarize_results.py --output outputs/summary.json
+      - run: python scripts/check_release.py

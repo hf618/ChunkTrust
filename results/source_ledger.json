@@ -1,0 +1,1375 @@
+[
+  {
+    "file": "results/robotwin50/episode_metrics.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/analysis/mixed_pairing_final/episode_metrics.csv",
+    "source_sha256": "e62b59d70e9c825f02125d757ae7368270c5bddeba37cdb4abdc251cc410f51c",
+    "released_sha256": "e62b59d70e9c825f02125d757ae7368270c5bddeba37cdb4abdc251cc410f51c",
+    "transformation": "none"
+  },
+  {
+    "file": "results/robotwin50/task_setting_metrics.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/analysis/mixed_pairing_final/task_setting_metrics.csv",
+    "source_sha256": "c353ad41eca85810451957b705f374fb1f343b13d74aacbce9f441f19e002ffc",
+    "released_sha256": "c353ad41eca85810451957b705f374fb1f343b13d74aacbce9f441f19e002ffc",
+    "transformation": "none"
+  },
+  {
+    "file": "results/robotwin50/metrics.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/analysis/mixed_pairing_final/metrics.json",
+    "source_sha256": "293c03ba8998a241c0bdcc5c40d88e24f7d54a248250d376dc91da2655cda2e4",
+    "released_sha256": "293c03ba8998a241c0bdcc5c40d88e24f7d54a248250d376dc91da2655cda2e4",
+    "transformation": "none"
+  },
+  {
+    "file": "configs/robotwin50/protocol.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/FROZEN_EVAL_PROTOCOL.json",
+    "source_sha256": "15035f570d67757a824b9f23cebaa0e9aabc0bb937b22c4a56cd85377c16c321",
+    "released_sha256": "ea6b2e6a5555789bbfa6e43a92e4b9c2f04822f56e1cbf173c47b4e70f9c701f",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/stack_blocks_two__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/stack_blocks_two__demo_randomized.json",
+    "source_sha256": "0494d0a7dbdf1af1faeae18c27fbc08ea99dd8acaee816e27b3836c68f1be5c3",
+    "released_sha256": "82e20a0ca3d21536eef6c49b205a5747acac037d2aa25a66dbec7e7091ba9914",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/shake_bottle_horizontally__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/shake_bottle_horizontally__demo_randomized.json",
+    "source_sha256": "6b2c5d8a1325aebae5e7fd4efdb4b10ac4d8f6cf807e5f72fec43b58fae45408",
+    "released_sha256": "ac23e63cca504abc1e76e0dbf947410d6285bc6eea8c41b8d77e3f5017938446",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/place_shoe__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_shoe__demo_clean.json",
+    "source_sha256": "cd5b2336e8b9e85db9a49c521649a2e208e17cfe3292e0bfe8de2ded91711caf",
+    "released_sha256": "a985cf57d81e049adce9e434d963f5193d1097314ceafab550fe63aaa59744d3",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/place_object_scale__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_object_scale__demo_clean.json",
+    "source_sha256": "1750d1e755833da79e6ae8d1fc790ae0ef99e0c86d3123f6866e8e3b312e5884",
+    "released_sha256": "7ef1e583afa46dda21f8042d37a39a088dc76cac8f191f2add7435f52d094b9f",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/blocks_ranking_rgb__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/blocks_ranking_rgb__demo_clean.json",
+    "source_sha256": "47a43ad1a9d57a7c0395bf98ea137b49ba6e7dd4a92e4b4c0b50b8de492b1b4d",
+    "released_sha256": "e4cc6161b29777c3177803c79c98af71f1e53495c66d9edc66d4d286dac7df9c",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/scan_object__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/scan_object__demo_randomized.json",
+    "source_sha256": "7bd987f3de52a17d4f4d20f0d776ed8514b331c987e1796a0b1464765b439778",
+    "released_sha256": "93fe275cbc59d9b4729f934aec0b7ba992fedf5dcedf8d5bdf9ffccd5a97fcfc",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/stack_blocks_three__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/stack_blocks_three__demo_clean.json",
+    "source_sha256": "bf8d076bd81d9b54e982e668403e7c10592addca47e46ad91574e4aa9cc95f01",
+    "released_sha256": "c24f7280226ed03231b1523313951eaff5f4c0c94af871d241ae1963188c7752",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/adjust_bottle__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/adjust_bottle__demo_clean.json",
+    "source_sha256": "95d0689b363395e14fc47653795e177e993c6c17e095f777877a6483ed588245",
+    "released_sha256": "001a836e7644e597228e14da41a14e9021d05ffb1c6a5eba385afdea5dcd847b",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/place_a2b_left__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_a2b_left__demo_clean.json",
+    "source_sha256": "29e8294b8563e681c86b5849340999cfbb29ee45aadf0e1983ab3fbed4b8ca78",
+    "released_sha256": "39744f8b5f3c3f8e21d4812e8b15f8acf891d8bc55bed923c0258d3caf83b5c5",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/place_cans_plasticbox__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_cans_plasticbox__demo_clean.json",
+    "source_sha256": "07e460635c510e677d0616da06ec6ef43d3b111d2eb68adae4fbe21aadb660f7",
+    "released_sha256": "3fd50439151a5af7ff5cda197606ba9c8e964715d1998cfc05097973d4cb73e2",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/press_stapler__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/press_stapler__demo_randomized.json",
+    "source_sha256": "c90adf6b4db618a23b1b5d0a3963203894adbf98fd3e86e551b4de4cb9ade6ad",
+    "released_sha256": "3346b0db52afa096f470193233ad21dd05c7d2b011944b46a8e50bd883eb84e1",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/turn_switch__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/turn_switch__demo_randomized.json",
+    "source_sha256": "0759545d5b549b2c5bdcc807dca8624ff96c7a7327cd1c34d8fe5667216c5f69",
+    "released_sha256": "0e1eaeb0061b66e6bc146afa96745215dae47c3d4e12bfa09570983a041188d9",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/place_phone_stand__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_phone_stand__demo_randomized.json",
+    "source_sha256": "5a8dbe0c5609e2d2a96b9836571be2efb0fff6f874fe94e1f65aae300e2bd4d9",
+    "released_sha256": "f7435bb3b58104b8ddd5d64e2671b3ecb98f96cb8be225119b4ac690a0ff5a8d",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/pick_dual_bottles__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/pick_dual_bottles__demo_clean.json",
+    "source_sha256": "5f02d64a65dddb26c05d0720b74867f2df094ac611651fd6a16b77390e637c60",
+    "released_sha256": "f208d067241c7d3bb691af726cca790e6dd6afed6f880c9f71cf0c105dfa4663",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/place_mouse_pad__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_mouse_pad__demo_randomized.json",
+    "source_sha256": "adc3ec30627f0c4a37e0e85881c71c3f3583733753f159c287eff30807af7100",
+    "released_sha256": "a4b52a9da9090c227f519d38a353eeb208db763db936b619d5ac3a056e881fe2",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/pick_diverse_bottles__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/pick_diverse_bottles__demo_clean.json",
+    "source_sha256": "8b4927b6ce0f79c6f812c49148ee6b5a07c93cb6838c7bb8f5a3a33d950b1db9",
+    "released_sha256": "d0dae9322ea6d72474eb525aedfe61bfa61945f85de5920e41750d5754559086",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/place_fan__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_fan__demo_randomized.json",
+    "source_sha256": "409bb8e3a811bf84219a39a92d329146427c5aaa3627be0857a8edf5deb34d58",
+    "released_sha256": "66bf32812ceba553d11130125196eed1a8fafa2bf2451332f68ebc633456fc96",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/move_playingcard_away__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/move_playingcard_away__demo_randomized.json",
+    "source_sha256": "47d4dd6d155d5f1dd1f8d7d2800af7b648b9efea2fae7d6a7c1940ce3f74f10a",
+    "released_sha256": "3c67c689a6f8b1977ff9e4668d7290996d4cb0403ad2402b542359e92112140e",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/handover_mic__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/handover_mic__demo_randomized.json",
+    "source_sha256": "7ba16fb9ee407a67c105c81ffce84b542392e8ca364dfb7a3af02405b93b4dca",
+    "released_sha256": "a5279c18863511b1f7cad0fb7e327313c0a316d49b5fdfa611c8461a689d66d1",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/open_laptop__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/open_laptop__demo_randomized.json",
+    "source_sha256": "e86367795796a425d6856699f0c69112efed879281cecd8fa017a940168488d6",
+    "released_sha256": "89e2360a22c20cad47443a31b497dce19c5a161f852b5cf96199dfbcf77a0ff5",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/click_alarmclock__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/click_alarmclock__demo_randomized.json",
+    "source_sha256": "24eb5e2ffe697f2e0c4ca1522a39eb9cec7476e183e58320f56b48c88e8af5fd",
+    "released_sha256": "17a099548d6b43278b4cb6f5c9f94d1465ae2b0ad3e9f21c062c27c318b41635",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/blocks_ranking_size__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/blocks_ranking_size__demo_clean.json",
+    "source_sha256": "bad13ef3df27c7f6835a6ca063035479f9817f36b67daba05db4edabef2e81ed",
+    "released_sha256": "81237bf8413bc078d6ec990b45d72b43e00ab5fc7677a72ee6e93c780cfc20d0",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/place_phone_stand__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_phone_stand__demo_clean.json",
+    "source_sha256": "4044c498f3213cb84593e4059ad2d0c2ad01d867847bfc31f154ee1a29a172ce",
+    "released_sha256": "e20145b772536a63479535470a052cba9defab4801f54329ed0fad6bda793d96",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/put_bottles_dustbin__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/put_bottles_dustbin__demo_clean.json",
+    "source_sha256": "b7be2250caf508f524f7a3f1517efbbeaf7321dbf3ea25f4d8c9556c3d17d6f9",
+    "released_sha256": "cc63ca26acbaafcf9e9cdc925d5402318b2fb27b74eb30a01946c45af2edd3be",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/blocks_ranking_size__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/blocks_ranking_size__demo_randomized.json",
+    "source_sha256": "95e94a2e410e004ff0f9e6b55b351b22678a765d6640fca0588fbbf42aa05980",
+    "released_sha256": "1a207d8cee5c6e29232fd654e479a5fc310f915852a7ce4189565c541ef67918",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/stack_bowls_three__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/stack_bowls_three__demo_randomized.json",
+    "source_sha256": "176036c626da443d5f39ca3d5055311ba3a439443eb70025b6b9824888d43ea8",
+    "released_sha256": "233c88662d692a5543479a8e06497ee632e5e40d76b69418585f6793fbe1fe9a",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/press_stapler__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/press_stapler__demo_clean.json",
+    "source_sha256": "09e193558e2d6aaa91156a9e7a55853e9580ef2315e0ac97b26b0ba1b68eccd7",
+    "released_sha256": "b9d623cc3f6b78d8cd003f9b39d46b79b0ecb5e84cb41020f0e51e4044b9ec00",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/place_mouse_pad__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_mouse_pad__demo_clean.json",
+    "source_sha256": "cf15c5485899c0102d405cf0f0275f56ddd3151f0f304afc8534e38178b979d8",
+    "released_sha256": "29c0c2cb45a8098d2b9413c88114e0c565dcf547cd0d954d41576b303fda56be",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/place_object_basket__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_object_basket__demo_clean.json",
+    "source_sha256": "1e8e92131f2794277f61465bd00eae5c8170cdfb7dccb88a36d701630be3c83f",
+    "released_sha256": "22d1fab07587370ef46c5afcd4d1226a08fd6375fe38d7eee9d39f84055d222d",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/place_container_plate__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_container_plate__demo_randomized.json",
+    "source_sha256": "cb5393a0f4693d1b2571082796d94b0829c325e98e7b3f1321c2fcc3351c552e",
+    "released_sha256": "f03f34d60f6ce798bb7d6ee53a23d14f780dfdbb9c9e6aadd4e7484e63524243",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/handover_block__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/handover_block__demo_clean.json",
+    "source_sha256": "2c279d05588fee702243e6c692e96a62ce9b2ea9ce56ced3dfd8f189fe59b8a5",
+    "released_sha256": "5971ee035352826e0939c25689a2fca0ac180e83aad55d66347acd4836280e0f",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/place_a2b_left__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_a2b_left__demo_randomized.json",
+    "source_sha256": "80b7f3e576588c3ae492eb6be7f6667acf8dd1f39182f0888f5b626f31914910",
+    "released_sha256": "65db0dbd5b06ecea37cdfcffba6fba6316df24caaaa32c3960661b59432b3415",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/stack_blocks_two__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/stack_blocks_two__demo_clean.json",
+    "source_sha256": "a6e5251d74096da4bbf21fbefc00a080c9f275d5b521d2a2ea1a387b93b8aec4",
+    "released_sha256": "62a931e3395ce6733f8540dc9382bf762f49b4544b2c8b965845cc359ebc6f52",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/lift_pot__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/lift_pot__demo_randomized.json",
+    "source_sha256": "866eaec9a5a6e1125c165e43bf44ca3f594dc809a427cdafaf59217ea3b9e3fc",
+    "released_sha256": "d396cff24679285013445de04a9ba38a4bd7d67250ecbba10d162d0606b886cb",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/pick_diverse_bottles__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/pick_diverse_bottles__demo_randomized.json",
+    "source_sha256": "663c5727c9ad8de8058ca8d7a07cd2cbc0857b3a446a48d7c0f42e43556e9d52",
+    "released_sha256": "34c2c74a3849cd2d7ec86866c0731e275138305e04c29a69163b872ccb4b8504",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/move_playingcard_away__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/move_playingcard_away__demo_clean.json",
+    "source_sha256": "77070dc2bdfe4c578670d2fe1f8af478423977d4529fc7bee65d8a66a7d8379c",
+    "released_sha256": "255193a22ce4ae3b2e2f3ba9a588264fcc8a5be45fbc4f219afdd310357c27c3",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/click_bell__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/click_bell__demo_randomized.json",
+    "source_sha256": "c22ce31496fae78797e95265a99e757478fdebaca8cce2913a2b84dec35ea4f2",
+    "released_sha256": "3d62bcf0dd89ec1c1dee6ef9e981325a6b0348623e5a8bc738b6b31ebc58436e",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/shake_bottle__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/shake_bottle__demo_randomized.json",
+    "source_sha256": "89ccfa73ced5ec0a2628de6ab9cd5d49a8aa1304fbcbf1056d656688eb1ea9ea",
+    "released_sha256": "6b02286c42c9d8256b18ac89f8964cf0ea5589cacb7f923f7596a464326f33ef",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/shake_bottle_horizontally__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/shake_bottle_horizontally__demo_clean.json",
+    "source_sha256": "ae4283687ea4ab9e6e932aac755f25fa4acfd59b14c3e048a951db9c53cd195c",
+    "released_sha256": "09e7bc4b246eb6a2403b69b6bb8dca70ff307e506e03cf3a4691b2d90f4b7827",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/move_pillbottle_pad__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/move_pillbottle_pad__demo_randomized.json",
+    "source_sha256": "5f40967ddc832781fc8e3e24bd5d8815f9bb43739ea06018cf9297d888a50fc5",
+    "released_sha256": "c47eabdad635250d151505e0a2ad1770fe3bd5357240c560a8d4c18b17659d64",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/beat_block_hammer__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/beat_block_hammer__demo_randomized.json",
+    "source_sha256": "a4aa713d1a1c6746a1f8c346bec6137beb0cc2aa2d8249ada6a5b04d59801dfd",
+    "released_sha256": "92f0b5adc4e6757f32499dcf1fd323bd8e59175d5ee0788db30b9457be024fa9",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/beat_block_hammer__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/beat_block_hammer__demo_clean.json",
+    "source_sha256": "988042d626595bda5de2877130c2172df2e4edaa71246069bf11fc5cd3471726",
+    "released_sha256": "bc7d83afba71bdb6f420804afea44f9ec8a78ebf72e2486d166f9c0f1b74677e",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/rotate_qrcode__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/rotate_qrcode__demo_randomized.json",
+    "source_sha256": "f8c743fdf9ba936a19b9dc05ebdbb48f7ba79853708b4653f4da6ff5e4f556c7",
+    "released_sha256": "ef2e6d6aea69dd249e361eb2b14b75eb0f672f34b92682bb8e64b411ed39a194",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/stamp_seal__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/stamp_seal__demo_clean.json",
+    "source_sha256": "c131c836237004f3d2817fee31835edc5e7e9380bd32513e2fe941708c6b4fd3",
+    "released_sha256": "34d2c1697bd06e8d3a735f71bec21804fa7ef672b9e32ed783b8dee8ec4872cd",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/rotate_qrcode__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/rotate_qrcode__demo_clean.json",
+    "source_sha256": "3b6ee664b4d71a63f2d31001bd4bafdfffdfd1837bac8ea55b59e01946aaced0",
+    "released_sha256": "28df3e305838bde3844a9ed31a8b6d4f941ef0be911e2ec7be04cad92a49fc30",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/place_dual_shoes__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_dual_shoes__demo_randomized.json",
+    "source_sha256": "f1cd0a4a0e424ef2a2a22ff3145b51569240ff05860cb756703c36855bccf132",
+    "released_sha256": "b8d431eb7a04d6dd9b0652974fc1a9133515c15b79594533f623a330f5d25391",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/put_bottles_dustbin__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/put_bottles_dustbin__demo_randomized.json",
+    "source_sha256": "35694682b1a0e52fc1628230d5f0473500a208f876bf09cb9b4e66b26a00520e",
+    "released_sha256": "86d3adbc19339d0634de05c5dcb5f3760dd69fd83eb415d3856b16fc80e3c82a",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/adjust_bottle__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/adjust_bottle__demo_randomized.json",
+    "source_sha256": "d59647eac3b3ed6c4ac98b601e594ad7455a36fddd1f71ead39afa6ead897327",
+    "released_sha256": "5d8bb17101c2bdb2561fe78e8e54c6fd7fd684fa767a1592da2f3da67255f5ea",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/place_bread_basket__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_bread_basket__demo_clean.json",
+    "source_sha256": "13f9fee050c947cd37a7016035f9352c174b20375ba0b25f47c888943bed4751",
+    "released_sha256": "2142ee258940dbf9a4c78313aa8b7ae56612ed50c6435d4e57321f74be9dce11",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/place_empty_cup__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_empty_cup__demo_randomized.json",
+    "source_sha256": "b307b8d9e873b064216099c6f17eb77dffd3a8c3607ab73f73d7b93d0ddc10c8",
+    "released_sha256": "6f5698bf784d2897cd5454d3cf10c32f972be6106b57409a5a6738c5afe5dd02",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/place_can_basket__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_can_basket__demo_clean.json",
+    "source_sha256": "abd5882a239c2a70863f48d31f7cd0d6c3f667d6a9405e8b619e38733ba68394",
+    "released_sha256": "9837ad8972b75bb333d114f647cec65f909e1bc6dc504d0782245074c25d4949",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/stack_bowls_two__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/stack_bowls_two__demo_randomized.json",
+    "source_sha256": "ae095898875f8adc6264e1ac9d8ea5a5201cd0724ab5fb7d95b32774c87d1607",
+    "released_sha256": "2b8b0767f5ab1ae420033294118c29a3cf4ad866dcc05248ea8842a9fbe8e27d",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/place_a2b_right__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_a2b_right__demo_clean.json",
+    "source_sha256": "614effb6732feebe5741e0aac2e85d34cefc9ae42634876315ff3375312b3b4b",
+    "released_sha256": "3b426c27961f1293248940726b07806dd4911f60c7e119c093d1648768e8f9e2",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/place_burger_fries__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_burger_fries__demo_clean.json",
+    "source_sha256": "b8978250e710a55b81b95a36d7069578ed7d96eb123451acab9e7d7dfde8993e",
+    "released_sha256": "72ecbdacadc69e43018cd3e3899d5fce153524995ac9d137813fba8bf989594e",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/turn_switch__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/turn_switch__demo_clean.json",
+    "source_sha256": "d58a3185ac02b002223e9b4e416c908fa5f62293ea76696628e710e00b742e6f",
+    "released_sha256": "1d2c55ba43249b10389aa490d49f58a8ab68c8be0046a0e9f91190cb12aeac0b",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/pick_dual_bottles__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/pick_dual_bottles__demo_randomized.json",
+    "source_sha256": "4d2f5adeda2f32a59965a3ba830dd87a08394709b71b5e4d44f3ca3d5fd03d00",
+    "released_sha256": "484332c64ff0e43f8ae35376473f2a5e31099c3aaa2ded49bc8709842ed4695e",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/place_object_basket__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_object_basket__demo_randomized.json",
+    "source_sha256": "a59c1ceaafe003d81e852005fa6dc71139bdb6f44aeb1ea5035277d2677e6764",
+    "released_sha256": "1d82a8dcd008d52033c5ffb4cc026cb491d63d7f78a4942836251f5c87d9ad77",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/hanging_mug__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/hanging_mug__demo_clean.json",
+    "source_sha256": "65693cba313ee0e87f828d97366273705588b579f5543913067b476c004e4257",
+    "released_sha256": "32e647b86bf594e01c862cfc79ca2c144344d98cb0a651a88e5f64f189fc2323",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/blocks_ranking_rgb__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/blocks_ranking_rgb__demo_randomized.json",
+    "source_sha256": "ed95cbe83a3558726fad710a0922306c884e3d71f4bd15326dc348ba8b22fbbb",
+    "released_sha256": "5ec066df47e65600bb38c1cb3e29fed9971982039f948b468af0ae3d9b047569",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/move_stapler_pad__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/move_stapler_pad__demo_randomized.json",
+    "source_sha256": "03025670f77aeeca10d3dacff14f6560005935e0ff35a838ddb5a4d6b62a3169",
+    "released_sha256": "3800bb8ceb789749791d26a4d65cab9318a31c3235a5d92d79f106784064b106",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/dump_bin_bigbin__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/dump_bin_bigbin__demo_randomized.json",
+    "source_sha256": "329ec9b73f7fb4baaa4e810f6207591669fbd2c2aa8e0b19d18f7faafe1bb125",
+    "released_sha256": "4d8366c8214f5941d9b89faa4a9d7f5ad9db87ef464839a45934aaa1ee9d510a",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/put_object_cabinet__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/put_object_cabinet__demo_randomized.json",
+    "source_sha256": "e1347693b4d8962a486b22eee9bce1271fe15840a1c2cd85d9aaf48f7675061e",
+    "released_sha256": "966ae4982f0ff74149366e3e841eaf1c19c772fe55199e0120012be687267d93",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/place_shoe__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_shoe__demo_randomized.json",
+    "source_sha256": "3d835b0248d52de19bbbacaaa8fd622dff665dae93b7573a33befceff741b2f7",
+    "released_sha256": "000aabcbc02839e884445521500a508c2c7b9e94ae84b1f4120e24836d85a3f8",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/handover_mic__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/handover_mic__demo_clean.json",
+    "source_sha256": "1446219b7861bc2cd7ff2f69166c0cde3e60734690716df66a50bfc8805adad6",
+    "released_sha256": "c6224bc8b349dfef42b8dc60359818c66626f66d4e44831f4656898971d90dbc",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/place_bread_skillet__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_bread_skillet__demo_randomized.json",
+    "source_sha256": "a99176b2788453813dc3716017141ab3b8af1790799d8f81b5c7636e380f746e",
+    "released_sha256": "f0d4160b6757da1f32c905429211072c5bb9b8dd743fd84b8b7490182d6adece",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/place_empty_cup__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_empty_cup__demo_clean.json",
+    "source_sha256": "5577fb60135c9c2c0fbaddf65d0bc1fc44ecd4e0a26c71a525c9dffb24a39c74",
+    "released_sha256": "ae4a026d653ec9f6637c397beeb4b7977a89df68dcd3d6c469d87207db990506",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/open_microwave__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/open_microwave__demo_clean.json",
+    "source_sha256": "61661b7951a94390a83ff5feebfd62eb222db0c2e7f3c5ba2bf609a4ae1f2460",
+    "released_sha256": "c18164b205d41a34c7e58fbcf9ea5a649843539cd9406acea563a14cc38f4f7b",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/place_can_basket__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_can_basket__demo_randomized.json",
+    "source_sha256": "0d0e3152e0e2d00684421c40cb39d3e79ebe1dac777633ca6329cc6bbb9e0301",
+    "released_sha256": "a115e73c9284373abf617dada45599c47f44665b5d8486b3445ce152e44ce071",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/click_alarmclock__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/click_alarmclock__demo_clean.json",
+    "source_sha256": "5e959f9f0bc9ed9d22871afadc9034d4b14ebf3a3667caf3bc3277478060e21b",
+    "released_sha256": "a94c9542b6cedfa2407d5494cd2abf376dbb3ef226103096e6e3045381ca07ad",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/click_bell__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/click_bell__demo_clean.json",
+    "source_sha256": "613e887e4fccc0c1eece996218cf8072e7180e3569a669e0b8397c55a91b2888",
+    "released_sha256": "28230b3d5713b665d70c51cd9683fbd4476a5edfb1eb9e69a0065718c1db9c93",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/place_cans_plasticbox__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_cans_plasticbox__demo_randomized.json",
+    "source_sha256": "721c892c916dd6155a142ae320effee7d960d2ff857ec01c03d1b4146cd13af7",
+    "released_sha256": "ecf3438b083bdac8ad5132744319456268e6743933d4187d085f65d1ef061348",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/stack_bowls_three__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/stack_bowls_three__demo_clean.json",
+    "source_sha256": "4e70b972201b776aea58ee512b97c92733727997f7582300182811813c816d4a",
+    "released_sha256": "e742d556a9744119a034ed4a883fd113d2f38c5e1c2076fa87a6aee995647fe5",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/stamp_seal__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/stamp_seal__demo_randomized.json",
+    "source_sha256": "0fbb17df708246f801d534c35f9f79e8c180c0c91f679c8516d92ab41187594b",
+    "released_sha256": "22e8c4ef5eea2b7aea28cc21a6123ca501a18c11136b94ba5005b31601fb8daa",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/move_can_pot__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/move_can_pot__demo_randomized.json",
+    "source_sha256": "4685af77c0ef207cb850e8e724dc09657ba8539476bdb4ec0c7d4a92231a1d81",
+    "released_sha256": "19ac722a2c04594a922ace3d939ab8fa5a8be9a56747ea933d1a2591eeed5e98",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/place_bread_skillet__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_bread_skillet__demo_clean.json",
+    "source_sha256": "e4f3993e5ce537beb1f822a2c6012cd660e99a71cf9599114f7d979407af497d",
+    "released_sha256": "f217b6ce67d9d9d448d786c8ad379c0b1e909362b6527a84f698e233d6d0df9d",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/place_fan__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_fan__demo_clean.json",
+    "source_sha256": "a9fe4c83dfbf0c2901b006663c929620e7e708d0ccb326e079f1bb4fb05cc0c4",
+    "released_sha256": "4f77a01d60699c6a54f182c521ba9cbf5b9d85a0c4ffc729ac6a71c261930bab",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/place_object_stand__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_object_stand__demo_clean.json",
+    "source_sha256": "9e86ad15cafabdbd541797386c4ca4c3a6de3d4c7bef864088e46e0ba75d7987",
+    "released_sha256": "6b65fd2406c7f61b7aca87c80263de1928aab74255edc3f68e4997d9fd8ff585",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/handover_block__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/handover_block__demo_randomized.json",
+    "source_sha256": "5e8cfc54e5f8a21ecff01047a98d5a436cc861dc93ae6327924cce71f78ee8ea",
+    "released_sha256": "9e119fdd243cb7e07dd25103ac4054d8a3fe9c2da4245c24249e3ac08967f6ae",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/move_pillbottle_pad__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/move_pillbottle_pad__demo_clean.json",
+    "source_sha256": "bb5a3c2331f652acc27817ba51201a219f307d63d795718cd64a967339c2b861",
+    "released_sha256": "1d0283997f09ac3cf34413e4a227d4db4938e32ef83e07affbe1843c454b7b9e",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/lift_pot__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/lift_pot__demo_clean.json",
+    "source_sha256": "ab89e41ba79827d2278e985efabeb54042df21691081b6606dba4c5ef2248165",
+    "released_sha256": "d9cbc861305f147cf2c0f080115135dbba6d61e52084d3aceef7cbe47ce12cad",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/stack_bowls_two__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/stack_bowls_two__demo_clean.json",
+    "source_sha256": "4242e25e15fbfb32430f466e9d1f1c01e6baffc6496a2b2756e644ebbeea83bd",
+    "released_sha256": "968dcbe8a966edfd9ece6ee0bcc5e3f6a6071f0b532ca8554d5e29eb8650a5f2",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/dump_bin_bigbin__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/dump_bin_bigbin__demo_clean.json",
+    "source_sha256": "fdae5a4c31182b8bce2aecce2d2ac789236e63255907cb9961193f37ae68f547",
+    "released_sha256": "7ba82c2046713c7364d241f81f0baf8df779000acf3a24c20521e94daa0b72b1",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/hanging_mug__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/hanging_mug__demo_randomized.json",
+    "source_sha256": "3ecf5d7e7a89c061fabdc565d78ff3881a5f70dfefaa31595579b6e1dd31739f",
+    "released_sha256": "ca9a8313bbc4e5ed790bd6ca39c769542ca97d5b8d42b9041c7386dbecc5e151",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/open_microwave__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/open_microwave__demo_randomized.json",
+    "source_sha256": "3a4112ae0b09d951c671823c322f5549387322bec73f888dcc1a251d491fac50",
+    "released_sha256": "e4cbe1f645581c8964b1998dc294ea89d09d019e05f81f3ce2cfdf8b8b388b67",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/grab_roller__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/grab_roller__demo_randomized.json",
+    "source_sha256": "5edb98a34fc32dc539feb5bbe62145a222ce0446a28a23b8aac132ae6629b8b4",
+    "released_sha256": "1d93f59382f71687b72ce0890139b10c79b5b557b456b4473198a3b887d6b2da",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/place_bread_basket__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_bread_basket__demo_randomized.json",
+    "source_sha256": "3420f2d85b9789cb6220b30b2bab83b9ccaf94e3f95473715b93376daaefb3d4",
+    "released_sha256": "18a5ba50e5da434aeead47858ebeab73de4328fffd9d86aae2070f452edcfbfb",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/place_object_scale__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_object_scale__demo_randomized.json",
+    "source_sha256": "45efc41608a9cb2290540f7a95f12d304e13bea9f831623b62406595fa45ae9b",
+    "released_sha256": "5891bd4906967091d9a76e4af8b3ac719606acf5ec8396b7d5aa167f8333484d",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/shake_bottle__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/shake_bottle__demo_clean.json",
+    "source_sha256": "2db53fb50e167d616d655a1effc02685a5943a16f144ecaae5be26596416bd01",
+    "released_sha256": "54401429dce8118734c4a1b3c9b302393808a460b122f5b562a9335e1db57256",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/open_laptop__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/open_laptop__demo_clean.json",
+    "source_sha256": "f82fb296c67d6d88043708e1ca50eb1a074f60b2d832d5e43623d6db8c728d4d",
+    "released_sha256": "ec49bba912f1636d577cbcd85c68d3385b92bbc8e38c6932a7f6c76f022b52d5",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/stack_blocks_three__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/stack_blocks_three__demo_randomized.json",
+    "source_sha256": "ae5d65a891788141a36c86ee63a59b59db2508ab42007f0aefceeaa8b973845c",
+    "released_sha256": "511f67bba7b73c8c6e6e4a570de9aa5723754414b6158f25a95d195d2a85b204",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/move_stapler_pad__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/move_stapler_pad__demo_clean.json",
+    "source_sha256": "02a71ccc159d79c18f75517cd5f4a4603e8ddad901457886eaf4730cb5b381f8",
+    "released_sha256": "ae907aeeddcade91e08c22dd7ada43a2ee4d4f104deccb17d15450dff0831faf",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/grab_roller__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/grab_roller__demo_clean.json",
+    "source_sha256": "69969b053d19a8c9c83790c596958c9e0e2b58d51548c3d3f45c2b838d5034fe",
+    "released_sha256": "6fd79640024f4320cb9092c6c9b05d35ddfbf9847ec330e13d81b24c10c3a200",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/place_dual_shoes__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_dual_shoes__demo_clean.json",
+    "source_sha256": "a7f5595b329684e8003c243e6078c37e13c947c14f02c41f2ea0ffc9f867e60a",
+    "released_sha256": "3674d27662296b725720e466e5da5912af66d315d9f445dfa71c4ea57599acbf",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/place_container_plate__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_container_plate__demo_clean.json",
+    "source_sha256": "412e106752141f2020faa03ccf08d226d3a672ca36e2046e1fdb0ab85fbd78b0",
+    "released_sha256": "9e6c8faeb1b76de8e1d6e4be1b05cf267b67af201c452e792d39952dce6720e4",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/put_object_cabinet__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/put_object_cabinet__demo_clean.json",
+    "source_sha256": "271339cf33f58d0418734035721db2b82cbdc751abb0de4d37528e9a5505f2b4",
+    "released_sha256": "20795a1fb11767d86a124a95a63ce4f6000aabedc5a8d37a242fe36dfc00e099",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/scan_object__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/scan_object__demo_clean.json",
+    "source_sha256": "89b9da7adc64f131a09699ee9da612e670d7a6bd57b5e3b4dfc269c4c72130bb",
+    "released_sha256": "2d30e33cc0760e63002170b31d8d27106be28f6195cbed57e3b36b5de34735fb",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/place_burger_fries__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_burger_fries__demo_randomized.json",
+    "source_sha256": "d5fb7e088e331408cb11c6adbc58baa8212212f4c0cec3d1e34b0c6baf47ac7b",
+    "released_sha256": "091a0f97553497c88fcbbccc4f04ba7750cbb190b17522d852222aa1b6813428",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/MANIFEST_REGISTRY.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/MANIFEST_REGISTRY.json",
+    "source_sha256": "7a68254390bbbacbc088fefb0bf310ec647431792cb9b21b8eed26ad83b79c43",
+    "released_sha256": "e09575e4807494e5693a3bbf90775cfe79e1dfad15b810db2b9b5f4acb418eda",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/place_a2b_right__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_a2b_right__demo_randomized.json",
+    "source_sha256": "74073817fa7676cf4e9931a122ce24336fd7dd16af611415c5fca83774c08b9f",
+    "released_sha256": "c11ec791212eca86df54334f948ed2275600ae7e1030b673009ee52a123ae006",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/move_can_pot__demo_clean.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/move_can_pot__demo_clean.json",
+    "source_sha256": "73cf1ce8b3d5ecf24c120c0cd1693fcc4c0b8606953236642015d833912f8e22",
+    "released_sha256": "2c270cb8cfb5b9814b5ee67b1a9dfc79db95193f0e110d3cda6e84a12c6913eb",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/robotwin50/manifests/place_object_stand__demo_randomized.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_n20/place_object_stand__demo_randomized.json",
+    "source_sha256": "9bb21c90b44b1c12f9890f9e4bfb3aa0502b8d838652a6a88a92f2acc1a74082",
+    "released_sha256": "5b45373a324f6fe46b92e3ef26516815317792976fc27a132ec03894af317148",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/qha_heldout/protocol.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/immutable_config.json",
+    "source_sha256": "e058ea975fba4cfd3cf556cc9e001578974489f6e8f39e7753261a9af8d92474",
+    "released_sha256": "00c6f4719f66323e9e613f4ab66038c80f4dd19bfd16273ff7ede027a6052425",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/qha_heldout/manifests/place_bread_basket_demo_clean_100.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/manifests/place_bread_basket_demo_clean_100.json",
+    "source_sha256": "16030ea9ddd4d1a89cfee60e6e0dffe3a5d3027936c833a707943cc73c8634c6",
+    "released_sha256": "e3f7bd6446381ea16b8d5a28823866a08aceb7d862fcaf92e5d15548f1bd1619",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/qha_heldout/manifests/blocks_ranking_rgb_demo_randomized_100.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/manifests/blocks_ranking_rgb_demo_randomized_100.json",
+    "source_sha256": "0fdf423407924c58e5878fec43768d2b214d0cc28b0c404f58483dfd86df3ab9",
+    "released_sha256": "e48ccb0c6f550714fa7f5a4e7c2687cf29a9587c96949c63567aa2aa4c6d7dac",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/qha_heldout/manifests/place_bread_basket_demo_randomized_100.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/manifests/place_bread_basket_demo_randomized_100.json",
+    "source_sha256": "4c7ea45156ed8f6bb62d89b12f226f61de6b63dcd03a84e71893aee421717904",
+    "released_sha256": "7f46d1eb81010e6d3910832d4fa8cc3254160e811c35b2c9685fdb7ef22ed657",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/qha_heldout/manifests/blocks_ranking_rgb_demo_clean_100.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/manifests/blocks_ranking_rgb_demo_clean_100.json",
+    "source_sha256": "4b7b9fa93e20fb4d3678ed9e54ca30dacfb5208a6e84e79f2acf4627a907a1f9",
+    "released_sha256": "46342b14ecd797def6cc67fc7d6285d86fcc85b25bee122d9578c736bf8c7de4",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/qha_heldout/qha_heldout_manifest_registry.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/provenance/qha_heldout_manifest_registry.json",
+    "source_sha256": "763afd01db3fc1d783d815418a7bb0c70e75159a35e3d15f75f034c7ed78f7f4",
+    "released_sha256": "9b8619496fd96edb3510d84e7c6a4036780e6d4230509675b7617b42d6c0cab3",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/qha_heldout/qha_heldout_protocol.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/provenance/qha_heldout_protocol.json",
+    "source_sha256": "283dd6b967ec863cbeea33de60f6d9fe6cf893f981a32552eb40462f45750660",
+    "released_sha256": "0978bc34fa7cfed600936e359dc1c69d94c05f5ad734f33fa28b3da54fdda690",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/qha_heldout/qha_heldout6_teacher_manifest.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/provenance/qha_heldout6_teacher_manifest.json",
+    "source_sha256": "e1016ae253cc92b417b0b914a9e7e5a31414095c7bc9032f16d35e69157a5ec2",
+    "released_sha256": "e1016ae253cc92b417b0b914a9e7e5a31414095c7bc9032f16d35e69157a5ec2",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/blocks_ranking_rgb_clean/pi05_horizon/step10000_formal_blocks_ranking_rgb_demo_clean_ahs_only_s00_6f9cb7eb0bbf/qha_heldout_ahs_only/2026-07-29_00-55-01/info/episode_outcomes.jsonl",
+    "source_sha256": "6efd4b226599e948a172585d8897b6dd5f805331c96a240cdbc9b4907d21f636",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/blocks_ranking_rgb_clean/pi05_horizon/step10000_formal_blocks_ranking_rgb_demo_clean_ahs_only_s01_24bd0d1d5ca7/qha_heldout_ahs_only/2026-07-29_01-19-59/info/episode_outcomes.jsonl",
+    "source_sha256": "1269cf85f31e89fb196f6653c6a5e36a05737a71e8e455b2da7d2a53fae0336b",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/blocks_ranking_rgb_clean/pi05_horizon/step10000_formal_blocks_ranking_rgb_demo_clean_ahs_only_s02_1127cd133a59/qha_heldout_ahs_only/2026-07-29_01-43-56/info/episode_outcomes.jsonl",
+    "source_sha256": "dc62cc3d31a9f4b07b7034a78c1f5bcb76296edc25d0a11ae8b2a51a15a15bad",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/blocks_ranking_rgb_clean/pi05_horizon/step10000_formal_blocks_ranking_rgb_demo_clean_ahs_only_s03_b73e2615a884/qha_heldout_ahs_only/2026-07-29_02-09-37/info/episode_outcomes.jsonl",
+    "source_sha256": "688ba07934a4f994144654959d6a5ca546a1ae774f0259f4f3c36de007d2a793",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/blocks_ranking_rgb_clean/pi05_horizon/step10000_formal_blocks_ranking_rgb_demo_clean_ahs_only_s04_19ef68afb4e9/qha_heldout_ahs_only/2026-07-29_02-34-47/info/episode_outcomes.jsonl",
+    "source_sha256": "a511c3144c37c33ff1d763c2c4954c9813d262f9cc4ba954fbb2291925f645eb",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/blocks_ranking_rgb_clean/pi05_horizon/step10000_formal_blocks_ranking_rgb_demo_clean_qha_only_s00_6f9cb7eb0bbf/qha_heldout_qha_only/2026-07-29_03-03-36/info/episode_outcomes.jsonl",
+    "source_sha256": "0165142e97c4b22c505dc8814950d7a644da100b4049166d14f073496dab7214",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/blocks_ranking_rgb_clean/pi05_horizon/step10000_formal_blocks_ranking_rgb_demo_clean_qha_only_s01_24bd0d1d5ca7/qha_heldout_qha_only/2026-07-29_03-37-06/info/episode_outcomes.jsonl",
+    "source_sha256": "c20dbb904a4f7115943c2774c7fafce636fa9d29bc6081ca1d0d052f739ccbcd",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/blocks_ranking_rgb_clean/pi05_horizon/step10000_formal_blocks_ranking_rgb_demo_clean_qha_only_s02_1127cd133a59/qha_heldout_qha_only/2026-07-29_04-06-24/info/episode_outcomes.jsonl",
+    "source_sha256": "edfbfadd62c043fc06f62f3def0ccf09b7da4fe8bd5ba6be31e08f9734118bd0",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/blocks_ranking_rgb_clean/pi05_horizon/step10000_formal_blocks_ranking_rgb_demo_clean_qha_only_s03_b73e2615a884/qha_heldout_qha_only/2026-07-29_04-35-57/info/episode_outcomes.jsonl",
+    "source_sha256": "23460713f5e8ca5e0f076bdea6f31a0e7fb54d115149d0d2e1a8cd1e28d0a1d9",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/blocks_ranking_rgb_clean/pi05_horizon/step10000_formal_blocks_ranking_rgb_demo_clean_qha_only_s04_19ef68afb4e9/qha_heldout_qha_only/2026-07-29_05-08-02/info/episode_outcomes.jsonl",
+    "source_sha256": "25b67ff96f56f89c7872120e0048e1a856057b269ef448c412491600940f746a",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/blocks_ranking_rgb_clean/pi05_horizon/step10000_formal_blocks_ranking_rgb_demo_clean_ahs_qha_s00_6f9cb7eb0bbf/qha_heldout_ahs_qha/2026-07-29_05-40-03/info/episode_outcomes.jsonl",
+    "source_sha256": "a92db6eaeebae48b18a146d801367677f0190567fe039d6ddfc9fd6dadfb36fe",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/blocks_ranking_rgb_clean/pi05_horizon/step10000_formal_blocks_ranking_rgb_demo_clean_ahs_qha_s01_24bd0d1d5ca7/qha_heldout_ahs_qha/2026-07-29_06-08-30/info/episode_outcomes.jsonl",
+    "source_sha256": "3a35b55a148a98092a6ff920ec77f34a381f11eb6326705f99126bc4e5225269",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/blocks_ranking_rgb_clean/pi05_horizon/step10000_formal_blocks_ranking_rgb_demo_clean_ahs_qha_s02_1127cd133a59/qha_heldout_ahs_qha/2026-07-29_06-39-32/info/episode_outcomes.jsonl",
+    "source_sha256": "91fc8647f780bf407a39b26675ded9ebff9dfc507f7733e070136192b570e278",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/blocks_ranking_rgb_clean/pi05_horizon/step10000_formal_blocks_ranking_rgb_demo_clean_ahs_qha_s03_b73e2615a884/qha_heldout_ahs_qha/2026-07-29_07-05-56/info/episode_outcomes.jsonl",
+    "source_sha256": "e104320c37ff9d248c145ee3f87edfc39597a0b956f0006929b082c02c11a33e",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/blocks_ranking_rgb_clean/pi05_horizon/step10000_formal_blocks_ranking_rgb_demo_clean_ahs_qha_s04_19ef68afb4e9/qha_heldout_ahs_qha/2026-07-29_07-38-34/info/episode_outcomes.jsonl",
+    "source_sha256": "3ce354d0260be3247a120fd3212fa548cab95cd1f2752e9b982338f18f374f2c",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/blocks_ranking_rgb_randomized/pi05_horizon/step10000_formal_blocks_ranking_rgb_demo_randomized_ahs_only_s00_9fb7f350c10c/qha_heldout_ahs_only/2026-07-29_08-09-38/info/episode_outcomes.jsonl",
+    "source_sha256": "aa2544b908e3db18e0f87c8aab8e4ee881032972dbf52b5c90c3f8adfbeb6318",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/blocks_ranking_rgb_randomized/pi05_horizon/step10000_formal_blocks_ranking_rgb_demo_randomized_ahs_only_s01_a84e210cb1d1/qha_heldout_ahs_only/2026-07-29_08-45-07/info/episode_outcomes.jsonl",
+    "source_sha256": "bc18c113a2765b87179f5d6cf7d85548d97588cc033128234196189d807252e0",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/blocks_ranking_rgb_randomized/pi05_horizon/step10000_formal_blocks_ranking_rgb_demo_randomized_ahs_only_s02_ded4b72aff49/qha_heldout_ahs_only/2026-07-29_09-18-01/info/episode_outcomes.jsonl",
+    "source_sha256": "2ca924e2863fea3935a6f0758185f631ecd7f69fc6db262b410b10656c3ac307",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/blocks_ranking_rgb_randomized/pi05_horizon/step10000_formal_blocks_ranking_rgb_demo_randomized_ahs_only_s03_bd35524cbc42/qha_heldout_ahs_only/2026-07-29_09-50-54/info/episode_outcomes.jsonl",
+    "source_sha256": "2207d66d23a49a71ef36a2448f30b7fb635cd441437acccc12e2afca363c6c65",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/blocks_ranking_rgb_randomized/pi05_horizon/step10000_formal_blocks_ranking_rgb_demo_randomized_ahs_only_s04_1bd9b965246a/qha_heldout_ahs_only/2026-07-29_10-20-49/info/episode_outcomes.jsonl",
+    "source_sha256": "41ad8758289d42714c21e9c85caf662b3a6d44305056accf2297833ac5aea1f4",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/blocks_ranking_rgb_randomized/pi05_horizon/step10000_formal_blocks_ranking_rgb_demo_randomized_qha_only_s00_9fb7f350c10c/qha_heldout_qha_only/2026-07-29_10-54-36/info/episode_outcomes.jsonl",
+    "source_sha256": "3474289a1b976fa690dcb7643a6923c4bb748fc14a1618d1e3c32324e2a364c9",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/blocks_ranking_rgb_randomized/pi05_horizon/step10000_formal_blocks_ranking_rgb_demo_randomized_qha_only_s01_a84e210cb1d1/qha_heldout_qha_only/2026-07-29_11-40-31/info/episode_outcomes.jsonl",
+    "source_sha256": "6c973248cfbe900bbf4f32813a8d4661b03374f3d643822ac15c686dd46f4d37",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/blocks_ranking_rgb_randomized/pi05_horizon/step10000_formal_blocks_ranking_rgb_demo_randomized_qha_only_s02_ded4b72aff49/qha_heldout_qha_only/2026-07-29_12-17-08/info/episode_outcomes.jsonl",
+    "source_sha256": "e448b999b7beb69fc07a4c30fbc3b5ba23c2c470f79598f758414eb00c03956f",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/blocks_ranking_rgb_randomized/pi05_horizon/step10000_formal_blocks_ranking_rgb_demo_randomized_qha_only_s03_bd35524cbc42/qha_heldout_qha_only/2026-07-29_12-54-51/info/episode_outcomes.jsonl",
+    "source_sha256": "946ee266d130a604b1d30631ad87adda31088298f39c73204f971da828698c07",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/blocks_ranking_rgb_randomized/pi05_horizon/step10000_formal_blocks_ranking_rgb_demo_randomized_qha_only_s04_1bd9b965246a/qha_heldout_qha_only/2026-07-29_13-34-26/info/episode_outcomes.jsonl",
+    "source_sha256": "2423938fa71c6fb2f9dd4111875d790d5cfbea5b6aaee9803f33942c26e43c42",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/blocks_ranking_rgb_randomized/pi05_horizon/step10000_formal_blocks_ranking_rgb_demo_randomized_ahs_qha_s00_9fb7f350c10c/qha_heldout_ahs_qha/2026-07-29_14-13-37/info/episode_outcomes.jsonl",
+    "source_sha256": "a9803390cd565a7ca9e900669b5a7d33b02a5dae61d6d1b0913e089150db622f",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/blocks_ranking_rgb_randomized/pi05_horizon/step10000_formal_blocks_ranking_rgb_demo_randomized_ahs_qha_s01_a84e210cb1d1/qha_heldout_ahs_qha/2026-07-29_14-54-42/info/episode_outcomes.jsonl",
+    "source_sha256": "b4269d6feeaef9caa03900a4f7bf190b3aea1c5037a276dfc1c5d27f0a52df36",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/blocks_ranking_rgb_randomized/pi05_horizon/step10000_formal_blocks_ranking_rgb_demo_randomized_ahs_qha_s02_ded4b72aff49/qha_heldout_ahs_qha/2026-07-29_15-38-13/info/episode_outcomes.jsonl",
+    "source_sha256": "88f6c66cef50a2e4f435a52d56b1aeaf2b30b9520fbceb07fc4ebe035cf6ef4a",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/blocks_ranking_rgb_randomized/pi05_horizon/step10000_formal_blocks_ranking_rgb_demo_randomized_ahs_qha_s03_bd35524cbc42/qha_heldout_ahs_qha/2026-07-29_16-18-18/info/episode_outcomes.jsonl",
+    "source_sha256": "ac7769f73108ca5dbb29814f0fd4eaa0da864697474c1d338db71a253dc1052a",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/blocks_ranking_rgb_randomized/pi05_horizon/step10000_formal_blocks_ranking_rgb_demo_randomized_ahs_qha_s04_1bd9b965246a/qha_heldout_ahs_qha/2026-07-29_16-57-29/info/episode_outcomes.jsonl",
+    "source_sha256": "9f2f5690634604abd51a286e18d1c3fbd1fe8d51aed8b7ee624d209518e17457",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/place_bread_basket_clean/pi05_horizon/step10000_formal_place_bread_basket_demo_clean_ahs_only_s00_cb4738d1937f/qha_heldout_ahs_only/2026-07-29_17-37-13/info/episode_outcomes.jsonl",
+    "source_sha256": "b070787d90b4491d6b5fa38f4e227e07831e1c0e0e44fbd0598a310525c9d71c",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/place_bread_basket_clean/pi05_horizon/step10000_formal_place_bread_basket_demo_clean_ahs_only_s01_fc14fb8cdef9/qha_heldout_ahs_only/2026-07-29_17-53-21/info/episode_outcomes.jsonl",
+    "source_sha256": "ac47c2c1da229bed277dd6eed7de445b316799c344375137fda3b79aea29fc4f",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/place_bread_basket_clean/pi05_horizon/step10000_formal_place_bread_basket_demo_clean_ahs_only_s02_e5c86f7f5389/qha_heldout_ahs_only/2026-07-29_18-07-22/info/episode_outcomes.jsonl",
+    "source_sha256": "8fee5c776942b18c8dac38bb840bc9d1dfbf81966662a751b055611f90980151",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/place_bread_basket_clean/pi05_horizon/step10000_formal_place_bread_basket_demo_clean_ahs_only_s03_0b00e079136e/qha_heldout_ahs_only/2026-07-29_18-23-15/info/episode_outcomes.jsonl",
+    "source_sha256": "1ea4465ece6544f74a52faa170cc09e655d3a2ab4e5371ada302577ec371b27f",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/place_bread_basket_clean/pi05_horizon/step10000_formal_place_bread_basket_demo_clean_ahs_only_s04_8ef4f7199b86/qha_heldout_ahs_only/2026-07-29_18-38-09/info/episode_outcomes.jsonl",
+    "source_sha256": "47231b4cff2adfa1e7099a776c104848b443a390b1278b4e728a9bef199995eb",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/place_bread_basket_clean/pi05_horizon/step10000_formal_place_bread_basket_demo_clean_qha_only_s00_cb4738d1937f/qha_heldout_qha_only/2026-07-29_18-51-38/info/episode_outcomes.jsonl",
+    "source_sha256": "0474ca4573b43fa92c2267ae431189877861a1960f5922d9d56008c447f0ecaa",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/place_bread_basket_clean/pi05_horizon/step10000_formal_place_bread_basket_demo_clean_qha_only_s01_fc14fb8cdef9/qha_heldout_qha_only/2026-07-29_19-09-45/info/episode_outcomes.jsonl",
+    "source_sha256": "64749cdcfc5bd3dd4ed03311d26b68a411eb9de2208aa02e1963fd84f4ea205c",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/place_bread_basket_clean/pi05_horizon/step10000_formal_place_bread_basket_demo_clean_qha_only_s02_e5c86f7f5389/qha_heldout_qha_only/2026-07-29_19-28-05/info/episode_outcomes.jsonl",
+    "source_sha256": "fa7f6d51f31f0aa014dcdc54c7b15d23cffdeb51c29b203fb323a8beb4dc4675",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/place_bread_basket_clean/pi05_horizon/step10000_formal_place_bread_basket_demo_clean_qha_only_s03_0b00e079136e/qha_heldout_qha_only/2026-07-29_19-48-03/info/episode_outcomes.jsonl",
+    "source_sha256": "30d4e1ea76a891be2b6a015a98bb3aa26da87c56205898267410b008a9c4aeb0",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/place_bread_basket_clean/pi05_horizon/step10000_formal_place_bread_basket_demo_clean_qha_only_s04_8ef4f7199b86/qha_heldout_qha_only/2026-07-29_20-05-26/info/episode_outcomes.jsonl",
+    "source_sha256": "4f89d100b2744ca0e8bc2c84108308ab113a3a4f8e611e03796ca5a11afd36a0",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/place_bread_basket_clean/pi05_horizon/step10000_formal_place_bread_basket_demo_clean_ahs_qha_s00_cb4738d1937f/qha_heldout_ahs_qha/2026-07-29_20-22-06/info/episode_outcomes.jsonl",
+    "source_sha256": "e5be832941a88de64441b2deab73e7e819e48d8aa1a459db0c366725e354583e",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/place_bread_basket_clean/pi05_horizon/step10000_formal_place_bread_basket_demo_clean_ahs_qha_s01_fc14fb8cdef9/qha_heldout_ahs_qha/2026-07-29_20-42-21/info/episode_outcomes.jsonl",
+    "source_sha256": "df7a3a6f7f36b91c7bd93d2ff70d62fe4f8ad690a9cabecd7ca3659c44a7deff",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/place_bread_basket_clean/pi05_horizon/step10000_formal_place_bread_basket_demo_clean_ahs_qha_s02_e5c86f7f5389/qha_heldout_ahs_qha/2026-07-29_21-01-34/info/episode_outcomes.jsonl",
+    "source_sha256": "eb041616adbaf814fe8c0b55f3d1cb9176e2da1fa605702966951d4352fae92e",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/place_bread_basket_clean/pi05_horizon/step10000_formal_place_bread_basket_demo_clean_ahs_qha_s03_0b00e079136e/qha_heldout_ahs_qha/2026-07-29_21-22-24/info/episode_outcomes.jsonl",
+    "source_sha256": "bb6dbc673dfec9f6002363d238b60b88aed0f5ceb80fa5df621445d8c87e3e08",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/place_bread_basket_clean/pi05_horizon/step10000_formal_place_bread_basket_demo_clean_ahs_qha_s04_8ef4f7199b86/qha_heldout_ahs_qha/2026-07-29_21-42-18/info/episode_outcomes.jsonl",
+    "source_sha256": "226886c84bdc3c55a17ee5640f7f27ef65350247448f16dfb506a949986eb235",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/place_bread_basket_randomized/pi05_horizon/step10000_formal_place_bread_basket_demo_randomized_ahs_only_s00_8462ed6dc86b/qha_heldout_ahs_only/2026-07-29_22-00-38/info/episode_outcomes.jsonl",
+    "source_sha256": "4eb003e41b1d9763863d6a93cdc6de40ee3aff0544be557a0d652e558f600b9c",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/place_bread_basket_randomized/pi05_horizon/step10000_formal_place_bread_basket_demo_randomized_ahs_only_s01_e9a81373597a/qha_heldout_ahs_only/2026-07-29_22-25-06/info/episode_outcomes.jsonl",
+    "source_sha256": "6e12fff1f181e3206a83e48fde0fd068beebafc70e5f7cc461ebe3b0de48f308",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/place_bread_basket_randomized/pi05_horizon/step10000_formal_place_bread_basket_demo_randomized_ahs_only_s02_f9fc0de02d7d/qha_heldout_ahs_only/2026-07-29_22-45-14/info/episode_outcomes.jsonl",
+    "source_sha256": "1b7a5816ed3cbab97d96de9337f50fe522698ef2d480e8e1ec671e95835f7fc2",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/place_bread_basket_randomized/pi05_horizon/step10000_formal_place_bread_basket_demo_randomized_ahs_only_s03_9c65be7efee7/qha_heldout_ahs_only/2026-07-29_23-05-03/info/episode_outcomes.jsonl",
+    "source_sha256": "ba4244886d8886a11d6de8c6d1686b7784272a584510fb073c88b73d534c2175",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/place_bread_basket_randomized/pi05_horizon/step10000_formal_place_bread_basket_demo_randomized_ahs_only_s04_a8ffc7d81d37/qha_heldout_ahs_only/2026-07-29_23-22-31/info/episode_outcomes.jsonl",
+    "source_sha256": "e759dfa66432e020b71de8e00480ee18a76d2941597cf70afb0790780591adeb",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/place_bread_basket_randomized/pi05_horizon/step10000_formal_place_bread_basket_demo_randomized_qha_only_s00_8462ed6dc86b/qha_heldout_qha_only/2026-07-29_23-40-18/info/episode_outcomes.jsonl",
+    "source_sha256": "87baca42260a9890d7e28ab36e136af53513df3eb436ed3e9e2322425ab8f264",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/place_bread_basket_randomized/pi05_horizon/step10000_formal_place_bread_basket_demo_randomized_qha_only_s01_e9a81373597a/qha_heldout_qha_only/2026-07-30_00-03-59/info/episode_outcomes.jsonl",
+    "source_sha256": "192dcd63d85e2e2c4e31a950b47b64423fd116898fa18dfd5b005b7844403322",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/place_bread_basket_randomized/pi05_horizon/step10000_formal_place_bread_basket_demo_randomized_qha_only_s02_f9fc0de02d7d/qha_heldout_qha_only/2026-07-30_00-24-08/info/episode_outcomes.jsonl",
+    "source_sha256": "c6e327b0b3f75b4a92bf2a367bc6c09f406ce4dd04dedabe9431dc4a1bc42d8a",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/place_bread_basket_randomized/pi05_horizon/step10000_formal_place_bread_basket_demo_randomized_qha_only_s03_9c65be7efee7/qha_heldout_qha_only/2026-07-30_00-46-30/info/episode_outcomes.jsonl",
+    "source_sha256": "2cbbaf002f5f50b6e95354f9ae8473adc93b8d48340143370c6d980ac2ad85e7",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/place_bread_basket_randomized/pi05_horizon/step10000_formal_place_bread_basket_demo_randomized_qha_only_s04_a8ffc7d81d37/qha_heldout_qha_only/2026-07-30_01-05-53/info/episode_outcomes.jsonl",
+    "source_sha256": "46f806bb5fbfffa910573566808c3db4a9ecad451b93ee87b7948bfcb2fe0761",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/place_bread_basket_randomized/pi05_horizon/step10000_formal_place_bread_basket_demo_randomized_ahs_qha_s00_8462ed6dc86b/qha_heldout_ahs_qha/2026-07-30_01-27-51/info/episode_outcomes.jsonl",
+    "source_sha256": "680ef20187cb8cb6b73fdba97feaa523889467be786d60e1b988c4af2acd158d",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/place_bread_basket_randomized/pi05_horizon/step10000_formal_place_bread_basket_demo_randomized_ahs_qha_s01_e9a81373597a/qha_heldout_ahs_qha/2026-07-30_01-52-45/info/episode_outcomes.jsonl",
+    "source_sha256": "bf004ea30e766848e703df60f7c9139f0c31ff4fd022448421157a58e672f206",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/place_bread_basket_randomized/pi05_horizon/step10000_formal_place_bread_basket_demo_randomized_ahs_qha_s02_f9fc0de02d7d/qha_heldout_ahs_qha/2026-07-30_02-14-15/info/episode_outcomes.jsonl",
+    "source_sha256": "e43ba2376dbc02b14b181e5c17f1acc9190ece6178f9ff2a8845bc537dfbd370",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/place_bread_basket_randomized/pi05_horizon/step10000_formal_place_bread_basket_demo_randomized_ahs_qha_s03_9c65be7efee7/qha_heldout_ahs_qha/2026-07-30_02-38-33/info/episode_outcomes.jsonl",
+    "source_sha256": "6c3e4b128c2897e7596ed04576d773289f9b8ac653f65d29cf5361034ed31943",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/formal/results/place_bread_basket_randomized/pi05_horizon/step10000_formal_place_bread_basket_demo_randomized_ahs_qha_s04_a8ffc7d81d37/qha_heldout_ahs_qha/2026-07-30_02-57-16/info/episode_outcomes.jsonl",
+    "source_sha256": "f5de5aca1edefe779c47979edc8c2c4457efe3605b4ecabae5969b4b4eb30e8a",
+    "transformation": "selected fields from all validated formal shards"
+  },
+  {
+    "file": "results/qha_heldout/metrics.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/analysis/metrics.csv",
+    "source_sha256": "6ddf0e19f06c62ffa343b33d403b86c38702b35e9bb40ee33a7d5c70d08a3008",
+    "released_sha256": "6ddf0e19f06c62ffa343b33d403b86c38702b35e9bb40ee33a7d5c70d08a3008",
+    "transformation": "none"
+  },
+  {
+    "file": "results/qha_heldout/task_setting_metrics.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/heldout_main100_step10000_20260728/analysis/task_setting_metrics.csv",
+    "source_sha256": "be5add05859b410160d0e7f426e637fc4cb52c9a7432377c6b2ccf25b70596ad",
+    "released_sha256": "be5add05859b410160d0e7f426e637fc4cb52c9a7432377c6b2ccf25b70596ad",
+    "transformation": "none"
+  },
+  {
+    "file": "results/robocasa_pi05/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/09_pi05_robocasa_gr1_tabletop24_base_vs_ahs_20260801/runtime_v2_seeded_20260802/base_results.jsonl",
+    "source_sha256": "4f5fb78e0e550b4315d82bb08acac8381021e4cf205987e79540903e3ba61c03",
+    "transformation": "completed records; selected fields"
+  },
+  {
+    "file": "results/robocasa_pi05/episodes.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/09_pi05_robocasa_gr1_tabletop24_base_vs_ahs_20260801/runtime_v2_seeded_20260802/ahs_results.jsonl",
+    "source_sha256": "5fd62468afb8bf289d93e66742b317e35388bef2e7bdf9db0e37181eed458a18",
+    "transformation": "completed records; selected fields"
+  },
+  {
+    "file": "configs/robocasa_pi05/protocol.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/09_pi05_robocasa_gr1_tabletop24_base_vs_ahs_20260801/runtime_v2_seeded_20260802/FROZEN_EVAL_PROTOCOL.json",
+    "source_sha256": "34a8f08ecf8b820c9c7797e57dc0cbc063e3a845ffad598a7497dca1386a1bf8",
+    "released_sha256": "d947e17e85db4914858dbf02842d6c7ad1efabf1c498ed5b7662970867e8f3c6",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "results/robocasa_pi05/task_level_summary.csv",
+    "source": "Reflex/RoboTwin/eval_rebuttal/09_pi05_robocasa_gr1_tabletop24_base_vs_ahs_20260801/runtime_v2_seeded_20260802/task_level_summary.csv",
+    "source_sha256": "4f147303338f6afd1fa1712f6b413b18248fd622c070dc9085b3c93eb52d64bf",
+    "released_sha256": "4f147303338f6afd1fa1712f6b413b18248fd622c070dc9085b3c93eb52d64bf",
+    "transformation": "none"
+  },
+  {
+    "file": "configs/rtc_pi05/hard_protocol.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/artifacts/formal_protocol_k40_n100.json",
+    "source_sha256": "143888b1ed99bb3af18d237778f97c51d11edd2beb86bd36a60afb692139940f",
+    "released_sha256": "c5393bf3288fcaefe408afce6b755d300098ae8776c5adfbdca424f06ed4841b",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/rtc_pi05/hard/formal/place_a2b_left.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/manifests/formal/place_a2b_left.json",
+    "source_sha256": "74dac585ef0ed7a311070c163cad48987bb244399f81c8dba1cf0a7555b8e952",
+    "released_sha256": "74dac585ef0ed7a311070c163cad48987bb244399f81c8dba1cf0a7555b8e952",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/rtc_pi05/hard/formal/place_can_basket.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/manifests/formal/place_can_basket.json",
+    "source_sha256": "48bb40981644c061b824f18493cc7bb17bbc766b8a1d7d08ce94b60e3fe0935d",
+    "released_sha256": "48bb40981644c061b824f18493cc7bb17bbc766b8a1d7d08ce94b60e3fe0935d",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/rtc_pi05/hard/formal/place_bread_skillet.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/manifests/formal/place_bread_skillet.json",
+    "source_sha256": "f79ea19b2f5f4dd171d781859d6a42bf338735b846d77c5b149902999869d30e",
+    "released_sha256": "f79ea19b2f5f4dd171d781859d6a42bf338735b846d77c5b149902999869d30e",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/rtc_pi05/hard/formal/place_bread_basket.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/manifests/formal/place_bread_basket.json",
+    "source_sha256": "bec3fff9bb8f424631b329f48c783c245107fe8508043ae41fb006f503fed7ce",
+    "released_sha256": "bec3fff9bb8f424631b329f48c783c245107fe8508043ae41fb006f503fed7ce",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/rtc_pi05/hard/formal_extra50/place_a2b_left.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/manifests/formal_extra50/place_a2b_left.json",
+    "source_sha256": "642e16d03a75d5e10d482f53703dd55a0877498b78ab7af50b94921ad38679a5",
+    "released_sha256": "642e16d03a75d5e10d482f53703dd55a0877498b78ab7af50b94921ad38679a5",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/rtc_pi05/hard/formal_extra50/place_can_basket.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/manifests/formal_extra50/place_can_basket.json",
+    "source_sha256": "87e4776cce8b682352fee6dbb9074320b021bfdc88a4bea9f22cee1811f4f180",
+    "released_sha256": "87e4776cce8b682352fee6dbb9074320b021bfdc88a4bea9f22cee1811f4f180",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/rtc_pi05/hard/formal_extra50/place_bread_skillet.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/manifests/formal_extra50/place_bread_skillet.json",
+    "source_sha256": "bec88e2d251ab9eace0d5ded7b27693fe06bd6583e2344e8a685c975b28bf983",
+    "released_sha256": "bec88e2d251ab9eace0d5ded7b27693fe06bd6583e2344e8a685c975b28bf983",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/rtc_pi05/hard/formal_extra50/place_bread_basket.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/manifests/formal_extra50/place_bread_basket.json",
+    "source_sha256": "e91432ec130227a96ad04d0584e3d71ac3cbdc511bc327426f60ede156a8acdf",
+    "released_sha256": "e91432ec130227a96ad04d0584e3d71ac3cbdc511bc327426f60ede156a8acdf",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/rtc_pi05/hard/formal100/place_a2b_left.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/manifests/formal100/place_a2b_left.json",
+    "source_sha256": "c90473e72fc207aedf9280b3aaefb809a0d7e299b08a3a179d8c321b0c05d956",
+    "released_sha256": "c90473e72fc207aedf9280b3aaefb809a0d7e299b08a3a179d8c321b0c05d956",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/rtc_pi05/hard/formal100/place_can_basket.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/manifests/formal100/place_can_basket.json",
+    "source_sha256": "c3fd0a2fba820a48e39cab3e2a72c0e47cda4c44cad76cb2ab9db484f72aed21",
+    "released_sha256": "c3fd0a2fba820a48e39cab3e2a72c0e47cda4c44cad76cb2ab9db484f72aed21",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/rtc_pi05/hard/formal100/place_bread_skillet.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/manifests/formal100/place_bread_skillet.json",
+    "source_sha256": "1d5baf1674f12337ca414b7f12130c6dc0aa4a5d248545a9a00a50581aa29ba3",
+    "released_sha256": "1d5baf1674f12337ca414b7f12130c6dc0aa4a5d248545a9a00a50581aa29ba3",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/rtc_pi05/hard/formal100/place_bread_basket.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/12_chunktrust_rtc_pi0_pi05_fft50_ready_20260918/manifests/formal100/place_bread_basket.json",
+    "source_sha256": "7b4043451334f153b977f67c446de2f396cec04dbbf3b5d0d81973b95bcba967",
+    "released_sha256": "7b4043451334f153b977f67c446de2f396cec04dbbf3b5d0d81973b95bcba967",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/rtc_pi05/easy_protocol.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/artifacts/formal_protocol_pi05_easy4.json",
+    "source_sha256": "799f193fc90f5cd48c48320c12dff40c9793d652320666d8f22aa7fc550f60e5",
+    "released_sha256": "e5f316bbac5ae848c7fa65509e9ca7198d3b8aab12a8a3956e51581966a26d4b",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/rtc_pi05/easy/formal/place_a2b_left.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/manifests/formal/place_a2b_left.json",
+    "source_sha256": "da3a8ec6d3bece41e133965933a95e8b7c37fbb1bcb66dd74a0efb948310ddb0",
+    "released_sha256": "da3a8ec6d3bece41e133965933a95e8b7c37fbb1bcb66dd74a0efb948310ddb0",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/rtc_pi05/easy/formal/place_can_basket.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/manifests/formal/place_can_basket.json",
+    "source_sha256": "c05382822a0429cf282a54449ca0a15020e573975780715140d5cf3c3a264593",
+    "released_sha256": "c05382822a0429cf282a54449ca0a15020e573975780715140d5cf3c3a264593",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/rtc_pi05/easy/formal/place_bread_skillet.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/manifests/formal/place_bread_skillet.json",
+    "source_sha256": "4cdc4b99e070e6f4ae2afa35d4b5af4cfc6c122de4f27808ad03220760e3e984",
+    "released_sha256": "4cdc4b99e070e6f4ae2afa35d4b5af4cfc6c122de4f27808ad03220760e3e984",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/rtc_pi05/easy/formal/place_bread_basket.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/manifests/formal/place_bread_basket.json",
+    "source_sha256": "7a0479f366f35d761ce2c0c19a02f56c217e8fd99ed8ab093137780f746a0ece",
+    "released_sha256": "7a0479f366f35d761ce2c0c19a02f56c217e8fd99ed8ab093137780f746a0ece",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/rtc_pi05/easy/formal_extra50/place_a2b_left.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/manifests/formal_extra50/place_a2b_left.json",
+    "source_sha256": "565adf23a7eae380b831821cc1bf02ddd2121339b69ec30baf8a8a2180422bc5",
+    "released_sha256": "565adf23a7eae380b831821cc1bf02ddd2121339b69ec30baf8a8a2180422bc5",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/rtc_pi05/easy/formal_extra50/place_can_basket.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/manifests/formal_extra50/place_can_basket.json",
+    "source_sha256": "e7e28195f2a720ecb3bafd9894604ec8676c849f87cdbf4aaf37962753ce0f4e",
+    "released_sha256": "e7e28195f2a720ecb3bafd9894604ec8676c849f87cdbf4aaf37962753ce0f4e",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/rtc_pi05/easy/formal_extra50/place_bread_skillet.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/manifests/formal_extra50/place_bread_skillet.json",
+    "source_sha256": "bee3534c35eeabf6344c527080579c2eaf75addac06a7069971f112c2deb08b5",
+    "released_sha256": "bee3534c35eeabf6344c527080579c2eaf75addac06a7069971f112c2deb08b5",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/rtc_pi05/easy/formal_extra50/place_bread_basket.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/manifests/formal_extra50/place_bread_basket.json",
+    "source_sha256": "76bab3b381fcdfc09c2f44d5c8c9f05df9951f36ee0238f0ef97f9c883919522",
+    "released_sha256": "76bab3b381fcdfc09c2f44d5c8c9f05df9951f36ee0238f0ef97f9c883919522",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/rtc_pi05/easy/formal100/place_a2b_left.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/manifests/formal100/place_a2b_left.json",
+    "source_sha256": "e5b60d26d7139fae236d547b0794c9e6b0a617d4a6b5b997d22df7a227454c20",
+    "released_sha256": "e5b60d26d7139fae236d547b0794c9e6b0a617d4a6b5b997d22df7a227454c20",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/rtc_pi05/easy/formal100/place_can_basket.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/manifests/formal100/place_can_basket.json",
+    "source_sha256": "86c61b47c2df9b24b08eeff296b008c255586290b1053f93eb68284703ca4aaa",
+    "released_sha256": "86c61b47c2df9b24b08eeff296b008c255586290b1053f93eb68284703ca4aaa",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/rtc_pi05/easy/formal100/place_bread_skillet.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/manifests/formal100/place_bread_skillet.json",
+    "source_sha256": "48cb3aefab6a592b661263afadc7e452c94133464581d6a9fcbd8fddc8c4e924",
+    "released_sha256": "48cb3aefab6a592b661263afadc7e452c94133464581d6a9fcbd8fddc8c4e924",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  },
+  {
+    "file": "configs/rtc_pi05/easy/formal100/place_bread_basket.json",
+    "source": "Reflex/RoboTwin/eval_rebuttal/13_chunktrust_rtc_pi05_easy4_20260921/manifests/formal100/place_bread_basket.json",
+    "source_sha256": "d935466a42b2eaad6442a7fa9dbf1a87022f87d77206f4d8b518c929c5caee0c",
+    "released_sha256": "d935466a42b2eaad6442a7fa9dbf1a87022f87d77206f4d8b518c929c5caee0c",
+    "transformation": "portable paths / selected fields; outcomes unchanged"
+  }
+]

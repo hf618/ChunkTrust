@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_phone_stand__demo_randomized.json",
+    "parent_manifest_sha256": "019da37e5afed5c486678840588a33ace4a87a7d472618f751abec88e6a6ebd4",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_place_phone_stand_demo_randomized",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9651000,
+      "instruction": "Set the rectangular phone on the L-shaped smooth brown phonestand.",
+      "instruction_sha1": "f41a112504c3685d772fa5b1fe18bf81c8929476",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9651001,
+      "instruction": "Set the white-sided phone on the dark green phonestand.",
+      "instruction_sha1": "935fb71b309ea013460981d80af757c484dd0ea5",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9651002,
+      "instruction": "Set the handheld phone with silver frame on the adjustable phone holder.",
+      "instruction_sha1": "e78e6616536ca08a97618a14a9cae41bd19bf1af",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9651003,
+      "instruction": "Set the smartphone with black display on the L-shaped smooth brown phonestand.",
+      "instruction_sha1": "87b3561345460ad23f16a57a7741a762656aa649",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9651004,
+      "instruction": "Set the phone with rounded edges on the L-shaped smooth brown phonestand.",
+      "instruction_sha1": "d08f52430b689e8765fafa9cf0979439fcc3c071",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9651005,
+      "instruction": "Set the rectangular phone on the L-shaped smooth brown phonestand.",
+      "instruction_sha1": "f41a112504c3685d772fa5b1fe18bf81c8929476",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9651006,
+      "instruction": "Set the phone with rounded edges on the brown angled plastic phonestand.",
+      "instruction_sha1": "894b1c9bf1e8f139415efe8da1eadae2a1c7f4c8",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9651007,
+      "instruction": "Set the palm-sized phone with glossy finish on the dark green phonestand.",
+      "instruction_sha1": "3833b2fb044a64f77037655b15afe35344f16a85",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9651008,
+      "instruction": "Set the phone with shiny black back on the angled brown phonestand.",
+      "instruction_sha1": "949ea361cf93bf4388bb333ec041fd3022a9d69f",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9651009,
+      "instruction": "Set the phone with rounded edges on the angled brown phonestand.",
+      "instruction_sha1": "ee6b0346d09fa75637b49c9fea54695fcbd69e9c",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9651010,
+      "instruction": "Set the phone with rounded edges on the L-shaped smooth brown phonestand.",
+      "instruction_sha1": "d08f52430b689e8765fafa9cf0979439fcc3c071",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9651011,
+      "instruction": "Set the rectangular phone with curved edges on the L-shaped smooth brown phonestand.",
+      "instruction_sha1": "0a9788ac8d45dd8b047abf7fcd2002b9ddcca0b1",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9651012,
+      "instruction": "Set the rectangular silver phone with rounded edges on the adjustable phone holder.",
+      "instruction_sha1": "cf89482dd48cbb0351fa59804d6dccb87cd820d9",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9651013,
+      "instruction": "Set the phone with rounded edges on the L-shaped smooth brown phonestand.",
+      "instruction_sha1": "d08f52430b689e8765fafa9cf0979439fcc3c071",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9651014,
+      "instruction": "Set the phone with shiny black back on the adjustable phone holder.",
+      "instruction_sha1": "e2f93665486ec4314891aa24e71d1764db2dc641",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9651015,
+      "instruction": "Set the handheld phone with silver frame on the adjustable phone holder.",
+      "instruction_sha1": "e78e6616536ca08a97618a14a9cae41bd19bf1af",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9651016,
+      "instruction": "Set the white-sided phone on the silver arm phonestand.",
+      "instruction_sha1": "6d9731ae8ee2c48dbc950f6551772c9e761c4e48",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9651017,
+      "instruction": "Set the phone with shiny black back on the L-shaped smooth brown phonestand.",
+      "instruction_sha1": "ef3fb8267087d91be7b7fa782b2ae52c9c9143d4",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9651018,
+      "instruction": "Set the white-sided phone on the adjustable phone holder.",
+      "instruction_sha1": "aff21101e57b739dcee3308a6f7a4738d6fc4b4c",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9651019,
+      "instruction": "Set the palm-sized phone with glossy finish on the dark green phonestand.",
+      "instruction_sha1": "3833b2fb044a64f77037655b15afe35344f16a85",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-08-01T01:29:58.034013+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_place_phone_stand_demo_randomized_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9651000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_randomized",
+  "task_name": "place_phone_stand"
+}

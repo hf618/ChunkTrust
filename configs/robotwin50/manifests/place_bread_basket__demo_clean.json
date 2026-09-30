@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_bread_basket__demo_clean.json",
+    "parent_manifest_sha256": "e2e48ada6d76628b9a3a1664e5d0305b7eba3ab5a6026a9dd757e51e04a23d85",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_place_bread_basket_demo_clean",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9520000,
+      "instruction": "Pick the soft rectangular bread loaf and place it in the medium-sized breadbasket.",
+      "instruction_sha1": "f3ad810406877b95bddf8adf98c0d353e9670743",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9520001,
+      "instruction": "Grab the rectangular bread loaf and the bread loaf with soft surface and drop it into the rectangular light brown breadbasket.",
+      "instruction_sha1": "321638a5bf3f90dbaa112401a835ee9cf8aa9b3c",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9520002,
+      "instruction": "Grab the rectangular bread loaf and drop it into the white basket with beige bottom.",
+      "instruction_sha1": "460fe326313691a7ae312f47a3bb53ef26739ef2",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9520003,
+      "instruction": "Use the dual arm to pick up the small loaf-shaped bread and the braided top round bread, then place them in the medium-sized breadbasket.",
+      "instruction_sha1": "f64a690546a1881782386bb76d762926d17eab3d",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9520004,
+      "instruction": "Grab the oval-shaped soft bread and drop it into the shallow rectangular breadbasket.",
+      "instruction_sha1": "2dfa9833f6a8cfa8b245ea01303fd8c48bc53d7d",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9520005,
+      "instruction": "Grab the small loaf-shaped bread and the oval-shaped soft bread and drop them into the breadbasket with woven pattern.",
+      "instruction_sha1": "002ce7590b07a6db368da83df41cea595bed95fe",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9520006,
+      "instruction": "Grab the soft rectangular bread loaf with one arm, place in the breadbasket with hollowed white walls.",
+      "instruction_sha1": "6dda991fdc3033c9715b2a94ad5e951050825d7a",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9520007,
+      "instruction": "Grab the braided top round bread and drop it into the round beige breadbasket.",
+      "instruction_sha1": "e8db6ea3b489771adc8b214bbdc5b318dc48aeb6",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9520008,
+      "instruction": "Pick the spongy golden brown bread and place it in the medium light brown breadbasket.",
+      "instruction_sha1": "9645bdf3df60a53b88297701e5084e6bd9495f49",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9520009,
+      "instruction": "Grab the small loaf-shaped bread and put it in the breadbasket with smooth bottom grid sides.",
+      "instruction_sha1": "77718ca1ec4a459e8e2d5a69b2e8521db3c1e23f",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9520010,
+      "instruction": "Grab the oval bread and the rounded oval bread and put them in the rectangular breadbasket.",
+      "instruction_sha1": "c6d220741ad05e4e47fd6ac3332f81b2e8d89ecf",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9520011,
+      "instruction": "Use one arm to grab the braided top round bread and the soft rectangular bread loaf, drop in the breadbasket with woven pattern.",
+      "instruction_sha1": "91db2452a4bc4ec02c8508f5f3f057429638af48",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9520012,
+      "instruction": "Pick the rectangular bread loaf and the bread loaf with soft surface and place them in the beige breadbasket.",
+      "instruction_sha1": "eabc17ed8e1767c2f77bb29733e0d0c462af0bb4",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9520013,
+      "instruction": "Pick the rectangular bread loaf and place it in the breadbasket with ridged texture.",
+      "instruction_sha1": "f625be557b01dad2ee21c06e5800b37ef2e270c1",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9520014,
+      "instruction": "Use one arm to grab the rectangular bread loaf, drop in the breadbasket with ridged texture.",
+      "instruction_sha1": "093a37d5a9b88c81edca7eb06a794a2d09de9f46",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9520015,
+      "instruction": "Grab the braided top round bread and the square bread with light spots and drop them into the shallow rectangular breadbasket.",
+      "instruction_sha1": "9f62f70cac5e7cc6329c4e6d9c4bac62647aeaef",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9520016,
+      "instruction": "Grab the bread loaf with soft surface and the soft bread with golden edges and drop them into the white basket with beige bottom.",
+      "instruction_sha1": "9919ca463bb8c74e5d84b6bfef65247623daf09d",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9520017,
+      "instruction": "Place the oval bread and the bread loaf with soft surface into the rectangular breadbasket using the right arm",
+      "instruction_sha1": "7d8fceda27b9757cbfa7e7b486723dfce90c0d68",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9520018,
+      "instruction": "Use the dual arm to pick up the soft bread with golden edges and the soft bread with golden edges, then place them in the breadbasket with woven pattern.",
+      "instruction_sha1": "9a0faed22652446298b23d574f18ec1383d21891",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9520019,
+      "instruction": "Grab the soft rectangular bread loaf and the square bread with light spots and put them in the medium light brown breadbasket.",
+      "instruction_sha1": "44a7b05b9670c872714eb9566c59feb7380a6057",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-07-31T20:51:21.502884+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_place_bread_basket_demo_clean_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9520000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_clean",
+  "task_name": "place_bread_basket"
+}

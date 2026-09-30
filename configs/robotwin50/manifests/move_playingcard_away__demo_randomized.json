@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/move_playingcard_away__demo_randomized.json",
+    "parent_manifest_sha256": "575df00e8484f2d1f311f3b91c2375bcd1d8c4ec024c9c201be32e032e6dd462",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_move_playingcard_away_demo_randomized",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9441000,
+      "instruction": "Use the right arm to grab the black box with smooth surface and relocate it.",
+      "instruction_sha1": "0ecbcfacc8ad5cf24ca01d4689f80af57dcce063",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9441001,
+      "instruction": "Grab the black box with smooth surface and move it off the table.",
+      "instruction_sha1": "a718d275dc650a769a931d50d5c3b1dead4f6c26",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9441002,
+      "instruction": "Grab the black box with smooth surface and move it outward.",
+      "instruction_sha1": "a5720d78066ed7fc2361ea724ee567edc9fb9711",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9441003,
+      "instruction": "Pick up the rectangular playingcards case with patterns and move it outward.",
+      "instruction_sha1": "a3f5092e6a9906601b52c75800efadd744d30045",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9441004,
+      "instruction": "Grab the hard black box for card deck and move it off the table.",
+      "instruction_sha1": "5a7f83cebdc84019221c3db7cdc44ae3a2c9d4c1",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9441005,
+      "instruction": "Lift the hard black box for card deck from the table and shift it.",
+      "instruction_sha1": "49d3fbb1014658aaa64a49fa508ea8f179017aaa",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9441006,
+      "instruction": "Pick up the rectangular red playingcards holder and shift it outward.",
+      "instruction_sha1": "2d8e6034c80c8dda67e7867eaa1022093f8c26e8",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9441007,
+      "instruction": "Pick up the small box for playingcards and move it outward.",
+      "instruction_sha1": "16f173802fd6a1386eaa190a5f4fc7cfeba71796",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9441008,
+      "instruction": "Lift the hard black box for card deck from the table and shift it.",
+      "instruction_sha1": "49d3fbb1014658aaa64a49fa508ea8f179017aaa",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9441009,
+      "instruction": "Pick up the black box with smooth surface and move it outward.",
+      "instruction_sha1": "f7a936d515211084bc1d9837ca91e111cf7b5eda",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9441010,
+      "instruction": "Grab the black box with smooth surface and move it outward.",
+      "instruction_sha1": "a5720d78066ed7fc2361ea724ee567edc9fb9711",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9441011,
+      "instruction": "Grab the hard black box for card deck and move it off the table.",
+      "instruction_sha1": "5a7f83cebdc84019221c3db7cdc44ae3a2c9d4c1",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9441012,
+      "instruction": "Grab the rectangular red playingcards holder and move it outward.",
+      "instruction_sha1": "72c03b5a6606c6dd531325194b5a1c573638f53c",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9441013,
+      "instruction": "Pick up the black box with smooth surface and move it outward.",
+      "instruction_sha1": "f7a936d515211084bc1d9837ca91e111cf7b5eda",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9441014,
+      "instruction": "Pick up the playingcards with red packaging and move it outward.",
+      "instruction_sha1": "cc49c29e8ca49a52df223182683c31c311e47c38",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9441015,
+      "instruction": "Use the left arm to grab the small box for playingcards and relocate it.",
+      "instruction_sha1": "0a05b907f9f1a0bc2e8554a165185d42e917c803",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9441016,
+      "instruction": "Pick up the hard black box for card deck and move it outward.",
+      "instruction_sha1": "3e4871db6583abde834445d6d0ba7db28fdec42d",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9441017,
+      "instruction": "Pick up the playingcards with red packaging and move it outward.",
+      "instruction_sha1": "cc49c29e8ca49a52df223182683c31c311e47c38",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9441018,
+      "instruction": "Lift the rectangular playingcards pack from the table and shift it.",
+      "instruction_sha1": "9c4a903392d1813c75284cc0f1ae0820e2458bfe",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9441019,
+      "instruction": "Pick up the small box for playingcards and move it outward.",
+      "instruction_sha1": "16f173802fd6a1386eaa190a5f4fc7cfeba71796",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-07-31T18:08:44.745690+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_move_playingcard_away_demo_randomized_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9441000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_randomized",
+  "task_name": "move_playingcard_away"
+}

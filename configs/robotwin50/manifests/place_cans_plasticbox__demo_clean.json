@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_cans_plasticbox__demo_clean.json",
+    "parent_manifest_sha256": "480d4ddb11ac3304ee14528c35bc3cb1ee5dc06b363867e61d20ef383624b073",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_place_cans_plasticbox_demo_clean",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9560000,
+      "instruction": "Grab the lightweight cylindrical metal can, drop it in the medium-sized smooth plasticbox, and do the same for the red can.",
+      "instruction_sha1": "8adbeb732da0883bddc117a8b68e4f50970f6ac6",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9560001,
+      "instruction": "Grab the red can and the can with red body and place them in the rectangular plasticbox",
+      "instruction_sha1": "fa818fb559b824896438d156a471911874608892",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9560002,
+      "instruction": "Grab the can with red body and drop it into the hard plastic rectangular box, then do the same for the red can.",
+      "instruction_sha1": "fb512bb22b4e92cd3c19cae1f6c4528eec1c0164",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9560003,
+      "instruction": "Move the metal can fits easily in hand into the rectangular plasticbox, then move the lightweight cylindrical metal can into the rectangular plasticbox.",
+      "instruction_sha1": "845e5ab91e5289bf3922dda4638b0c6696883334",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9560004,
+      "instruction": "Grab the cylindrical can with bright colors, drop it into the rectangular plasticbox with locking clips. Repeat for the lightweight cylindrical metal can.",
+      "instruction_sha1": "a597e95bcffb55165ce684c2c5da1ae01904c6a4",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9560005,
+      "instruction": "Move the palm-sized red metal Coca-Cola can into the smooth exterior blue plasticbox, then move the palm-sized red metal Coca-Cola can into the smooth exterior blue plasticbox.",
+      "instruction_sha1": "cd37257d5920c4973534ed53e913f000aa06c5d1",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9560006,
+      "instruction": "Pick the red can with white top, set it in the rectangular plasticbox, then repeat with the red can with white top.",
+      "instruction_sha1": "91f894e23a56ea0db5ccf081937db92db2081d49",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9560007,
+      "instruction": "Grab the cylindrical can with smooth surface and drop it into the rectangular plasticbox, then do the same for the lightweight cylindrical metal can.",
+      "instruction_sha1": "e8933a564c92d9ca1fa81b279a1bc0b40c22af09",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9560008,
+      "instruction": "Grab the cylindrical can with bright colors and the cylindrical brown drink can with white markings and place them in the rectangular plasticbox with locking clips",
+      "instruction_sha1": "3e531920d0a6bde314d394bc13f289efc98df5a7",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9560009,
+      "instruction": "Grab the rounded can with smooth printed surface and drop it into the smooth exterior blue plasticbox, then do the same for the light brown cylindrical can.",
+      "instruction_sha1": "91cd8f0ffc802dd32d4214fa8a9896cc61a5fbca",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9560010,
+      "instruction": "Grab the small red soda can and drop it into the rectangular plasticbox, then do the same for the red can with white top.",
+      "instruction_sha1": "1076e4d815994b9053d3096f847351ad49683e16",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9560011,
+      "instruction": "Pick the cylindrical can with bright colors and place it into the medium-sized smooth plasticbox. Then do the same for the red can with white top.",
+      "instruction_sha1": "23fcaff271804ef255191ef83417b3b8e149aa47",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9560012,
+      "instruction": "Pick up the small aluminum can and the red can, drop them together into the portable light blue storage plasticbox",
+      "instruction_sha1": "8af9d5664f07a37dd7eb34945ad3d536163002e2",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9560013,
+      "instruction": "Lift the red can with white top and the hand-sized can with metallic finish, drop both into the rectangular plasticbox.",
+      "instruction_sha1": "416e804ac5d80b246177ccf493cccf573545febe",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9560014,
+      "instruction": "Grab the can with red body and the cylindrical brown drink can with white markings and place them in the hard plastic rectangular box",
+      "instruction_sha1": "80274599909133d0c3f309c98ee68b2d67656cac",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9560015,
+      "instruction": "Pick the gold and red soda can, place it into the hard plastic rectangular box, then repeat with the gold and red soda can.",
+      "instruction_sha1": "4da8ac48acd419c8ddd8d0f10be730fd3ac65573",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9560016,
+      "instruction": "Pick the can with red body, set it in the hard plastic rectangular box, then repeat with the cylindrical can with smooth surface.",
+      "instruction_sha1": "45504b1e7ce260d66280ffe1ce81b6e4ce289f27",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9560017,
+      "instruction": "Grab the can with shiny smooth surface, drop it into the rectangular plasticbox. Repeat for the red can with white top.",
+      "instruction_sha1": "abdff5fa479481b32f0eda0b190c70e2fb05cb31",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9560018,
+      "instruction": "Grab the cylindrical can with smooth surface, drop it in the smooth exterior blue plasticbox, and do the same for the small aluminum can.",
+      "instruction_sha1": "d4a1da486a3620c617fc42371e79c3a40c99f90a",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9560019,
+      "instruction": "Grab the cylindrical brown drink can with white markings and drop it into the hard plastic rectangular box, then do the same for the lightweight cylindrical metal can.",
+      "instruction_sha1": "42784b7eb65f10edf47ad402a0615f4bee7a1796",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-07-31T22:11:07.830738+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_place_cans_plasticbox_demo_clean_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9560000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_clean",
+  "task_name": "place_cans_plasticbox"
+}

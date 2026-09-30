@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/click_alarmclock__demo_clean.json",
+    "parent_manifest_sha256": "06d8808c7b27f8b50050116d89bd97f7429114772ed804a65a5c67160daf330a",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_click_alarmclock_demo_clean",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9340000,
+      "instruction": "Click the top button of the alarm-clock with beige screen",
+      "instruction_sha1": "3588153f7d2b1e7720e369f967f2b79e0e093e4d",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9340001,
+      "instruction": "Tap the center top button of the alarm-clock with large numbers",
+      "instruction_sha1": "7f090db9df32157a4ca4428c18add2c6200356f0",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9340002,
+      "instruction": "Tap the center top button of the alarm-clock for bedside table",
+      "instruction_sha1": "e6f6499e04f2232e2b85aa962f304ad48c24d90f",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9340003,
+      "instruction": "Press the compact alarm clock's top center button.",
+      "instruction_sha1": "7688859968fdda3c333da9966bf1716aca86db9f",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9340004,
+      "instruction": "Click the top button of the alarm clock with smooth finish",
+      "instruction_sha1": "41d064f911020e6fe7d721620c88c9b7d1700676",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9340005,
+      "instruction": "Press the alarm clock with smooth finish's top center button.",
+      "instruction_sha1": "1e73acde5fafd8dcba3591886f4d807153c14610",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9340006,
+      "instruction": "Press the top button on the alarm-clock with large numbers",
+      "instruction_sha1": "6080700098ba00293ea42128543f89d7133373b1",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9340007,
+      "instruction": "Tap the center top button of the compact alarm clock",
+      "instruction_sha1": "9dc6cca3264ffdcc9f586eba1020238ec67b039c",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9340008,
+      "instruction": "Tap the center top button of the alarm clock with smooth finish",
+      "instruction_sha1": "daf2b01c6a7abc4848afe644a44835092d46bbee",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9340009,
+      "instruction": "Press the alarm-clock for bedside table's top center button.",
+      "instruction_sha1": "11861150328427464df23e0f156ab5c346040780",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9340010,
+      "instruction": "Press the top button on the alarm-clock for bedside table",
+      "instruction_sha1": "8a334b51dbf7454613a2233f035ae31938cd023c",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9340011,
+      "instruction": "Click the top button of the alarm-clock for bedside table",
+      "instruction_sha1": "7490ac9ed74efffd46a472a6c8bd7731f8e768ac",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9340012,
+      "instruction": "Press the compact alarm clock's center top button",
+      "instruction_sha1": "c7ca66667a43704223ffbfd80037812e69fc5eb4",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9340013,
+      "instruction": "Press the compact alarm clock's top center button.",
+      "instruction_sha1": "7688859968fdda3c333da9966bf1716aca86db9f",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9340014,
+      "instruction": "Press the blue alarm clock's top center button.",
+      "instruction_sha1": "0ad53c20c81f6e91e9f325fea9d21424592170f0",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9340015,
+      "instruction": "Click the top button of the alarm clock with smooth finish",
+      "instruction_sha1": "41d064f911020e6fe7d721620c88c9b7d1700676",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9340016,
+      "instruction": "Click the central top button on the alarm clock with smooth finish.",
+      "instruction_sha1": "ec3d7aa881070424328136df6a94256246c64a39",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9340017,
+      "instruction": "Click the central top button on the blue alarm clock.",
+      "instruction_sha1": "c79e281f2f1a5224ff727590099874d06c8244ac",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9340018,
+      "instruction": "Press the alarm-clock with large numbers's top center button.",
+      "instruction_sha1": "ac821fadbd9015b6d1e05c50b69b9056f6aab238",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9340019,
+      "instruction": "Click the center top button of the alarm-clock for bedside table",
+      "instruction_sha1": "1e1cf6a69308a3a8469d4bcdb9d524c48261024c",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-07-31T14:42:05.783894+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_click_alarmclock_demo_clean_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9340000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_clean",
+  "task_name": "click_alarmclock"
+}

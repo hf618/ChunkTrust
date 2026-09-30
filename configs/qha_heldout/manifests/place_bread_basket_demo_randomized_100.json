@@ -1,0 +1,719 @@
+{
+  "schema_version": "qha-heldout-v1",
+  "kind": "immutable_eval_manifest",
+  "task_name": "place_bread_basket",
+  "task_config": "demo_randomized",
+  "episodes": [
+    {
+      "episode_id": "place_bread_basket-demo_randomized-000",
+      "seed": 100005,
+      "instruction": "Grab the bread with golden crust and put it in the shallow rectangular breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-001",
+      "seed": 100006,
+      "instruction": "Place the soft rectangular bread loaf and the rectangular bread loaf into the breadbasket with smooth bottom grid sides using the left arm",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-002",
+      "seed": 100007,
+      "instruction": "Grab the oval-shaped soft bread and the bread with golden crust and drop it into the beige breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-003",
+      "seed": 100008,
+      "instruction": "Grab the soft bread with golden edges and the braided top round bread and drop it into the woven shallow breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-004",
+      "seed": 100009,
+      "instruction": "Pick the soft bread with golden edges and the bread loaf medium-sized and place them in the medium-sized breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-005",
+      "seed": 100010,
+      "instruction": "Grab the rounded oval bread and the bread loaf medium-sized and drop it into the rectangular light brown breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-006",
+      "seed": 100011,
+      "instruction": "Use one arm to grab the square bread with light spots, drop in the medium light brown breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-007",
+      "seed": 100012,
+      "instruction": "Use the left arm to pick up the rectangular bread loaf and the bread loaf with soft surface, then place them in the rectangular breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-008",
+      "seed": 100013,
+      "instruction": "Grab the bread with golden crust and drop it into the breadbasket with smooth bottom grid sides.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-009",
+      "seed": 100014,
+      "instruction": "Grab the bread with golden crust and the soft bread with golden edges and put them in the beige breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-010",
+      "seed": 100015,
+      "instruction": "Grab the braided top round bread and the bread loaf medium-sized and drop them into the shallow rectangular breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-011",
+      "seed": 100016,
+      "instruction": "Use the left arm to pick up the bread loaf with soft surface and the rounded oval bread, then place them in the medium light brown breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-012",
+      "seed": 100017,
+      "instruction": "Grab the square bread with light spots and the rectangular bread loaf with two arms, place in the medium light brown breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-013",
+      "seed": 100018,
+      "instruction": "Grab the square bread with light spots and the bread loaf medium-sized with two arms, place in the medium-sized breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-014",
+      "seed": 100019,
+      "instruction": "Grab the small loaf-shaped bread and the bread loaf with soft surface with two arms, place in the breadbasket with woven pattern.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-015",
+      "seed": 100020,
+      "instruction": "Pick the soft bread with golden edges and drop it in the light wooden breadbasket",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-016",
+      "seed": 100021,
+      "instruction": "Grab the bread loaf with soft surface and the braided top round bread and drop them into the medium light brown breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-017",
+      "seed": 100022,
+      "instruction": "Pick the small loaf-shaped bread and the oval-shaped soft bread and place them in the light wooden breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-018",
+      "seed": 100023,
+      "instruction": "Use one arm to grab the spongy golden brown bread and the rectangular bread loaf, drop in the beige breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-019",
+      "seed": 100024,
+      "instruction": "Place the palm-sized braided golden bread and the bread with golden crust into the shallow rectangular breadbasket using the left arm",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-020",
+      "seed": 100025,
+      "instruction": "Grab the oval-shaped soft bread and put it in the breadbasket with woven pattern.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-021",
+      "seed": 100026,
+      "instruction": "Grab the spongy golden brown bread and the square bread with light spots and drop them into the rectangular light brown breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-022",
+      "seed": 100027,
+      "instruction": "Grab the rounded oval bread and the palm-sized braided golden bread and drop it into the rectangular breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-023",
+      "seed": 100028,
+      "instruction": "Grab the oval-shaped soft bread with one arm, place in the shallow rectangular breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-024",
+      "seed": 100029,
+      "instruction": "Use the dual arm to pick the bread loaf with soft surface and the palm-sized braided golden bread and place in the light wooden breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-025",
+      "seed": 100030,
+      "instruction": "Pick the small loaf-shaped bread and the rectangular bread loaf and place them in the breadbasket with woven pattern.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-026",
+      "seed": 100031,
+      "instruction": "Grab the spongy golden brown bread and the bread loaf medium-sized and put them in the rectangular breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-027",
+      "seed": 100032,
+      "instruction": "Place the oval bread and the braided top round bread into the beige breadbasket using the dual arm",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-028",
+      "seed": 100033,
+      "instruction": "Grab the bread with golden crust and the braided top round bread and drop it into the medium light brown breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-029",
+      "seed": 100034,
+      "instruction": "Grab the rectangular bread loaf and the palm-sized braided golden bread and drop it into the white basket with beige bottom.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-030",
+      "seed": 100035,
+      "instruction": "Grab the bread with golden crust and the round braided loaf and drop it into the rectangular light brown breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-031",
+      "seed": 100036,
+      "instruction": "Grab the bread loaf medium-sized and drop it into the breadbasket with woven pattern.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-032",
+      "seed": 100037,
+      "instruction": "Grab the soft rectangular bread loaf and the bread loaf with soft surface and drop them into the medium light brown breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-033",
+      "seed": 100038,
+      "instruction": "Use the right arm to pick up the spongy golden brown bread, then place it in the round beige breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-034",
+      "seed": 100039,
+      "instruction": "Use the left arm to pick up the rectangular bread loaf and the spongy golden brown bread, then place them in the breadbasket with ridged texture.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-035",
+      "seed": 100040,
+      "instruction": "Place the soft bread with golden edges into the white basket with beige bottom using the left arm",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-036",
+      "seed": 100041,
+      "instruction": "Use one arm to grab the round braided loaf and the oval-shaped soft bread, drop in the beige breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-037",
+      "seed": 100042,
+      "instruction": "Pick the soft bread with golden edges and drop it in the light wooden breadbasket",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-038",
+      "seed": 100043,
+      "instruction": "Place the oval bread into the breadbasket with woven pattern using the right arm",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-039",
+      "seed": 100044,
+      "instruction": "Pick the oval bread and drop it in the white basket with beige bottom",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-040",
+      "seed": 100045,
+      "instruction": "Use the right arm to pick the bread with golden crust and the oval-shaped soft bread and place in the breadbasket with hollowed white walls.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-041",
+      "seed": 100046,
+      "instruction": "Grab the bread loaf with soft surface and the rectangular bread loaf with two arms, place in the rectangular breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-042",
+      "seed": 100047,
+      "instruction": "Place the soft rectangular bread loaf and the round braided loaf into the woven shallow breadbasket using the dual arm",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-043",
+      "seed": 100048,
+      "instruction": "Grab the oval-shaped soft bread with one arm, place in the breadbasket with woven pattern.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-044",
+      "seed": 100049,
+      "instruction": "Use the dual arm to pick the soft bread with golden edges and the soft bread with golden edges and place in the light wooden breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-045",
+      "seed": 100051,
+      "instruction": "Grab the bread loaf with soft surface and put it in the breadbasket with woven pattern.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-046",
+      "seed": 100052,
+      "instruction": "Grab the round braided loaf and put it in the medium light brown breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-047",
+      "seed": 100053,
+      "instruction": "Grab the soft bread with golden edges and the spongy golden brown bread and drop it into the breadbasket with smooth bottom grid sides.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-048",
+      "seed": 100054,
+      "instruction": "Grab the bread with golden crust and the oval bread and drop it into the round beige breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-049",
+      "seed": 100105,
+      "instruction": "Use one arm to grab the soft bread with golden edges, drop in the breadbasket with smooth bottom grid sides.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-050",
+      "seed": 100055,
+      "instruction": "Pick the oval bread and the oval bread and place them in the medium light brown breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-051",
+      "seed": 100057,
+      "instruction": "Grab the soft rectangular bread loaf and drop it into the shallow rectangular breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-052",
+      "seed": 100058,
+      "instruction": "Pick the bread loaf with soft surface and the oval bread and place them in the round beige breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-053",
+      "seed": 100059,
+      "instruction": "Use one arm to grab the square bread with light spots, drop in the beige breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-054",
+      "seed": 100060,
+      "instruction": "Use the dual arm to pick the oval-shaped soft bread and the bread loaf with soft surface and place in the breadbasket with woven pattern.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-055",
+      "seed": 100061,
+      "instruction": "Use the dual arm to pick up the palm-sized braided golden bread and the bread loaf medium-sized, then place them in the beige breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-056",
+      "seed": 100062,
+      "instruction": "Use the right arm to pick the soft bread with golden edges and place in the medium-sized breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-057",
+      "seed": 100063,
+      "instruction": "Use one arm to grab the rounded oval bread and the round braided loaf, drop in the light wooden breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-058",
+      "seed": 100064,
+      "instruction": "Place the palm-sized braided golden bread into the white basket with beige bottom using the right arm",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-059",
+      "seed": 100065,
+      "instruction": "Pick the oval-shaped soft bread and the spongy golden brown bread and place them in the rectangular breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-060",
+      "seed": 100067,
+      "instruction": "Use one arm to grab the small loaf-shaped bread, drop in the round beige breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-061",
+      "seed": 100068,
+      "instruction": "Use the right arm to pick the oval bread and place in the medium-sized breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-062",
+      "seed": 100069,
+      "instruction": "Grab the rectangular bread loaf and the rounded oval bread and put them in the breadbasket with ridged texture.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-063",
+      "seed": 100070,
+      "instruction": "Use the dual arm to pick up the braided top round bread and the oval bread, then place them in the round beige breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-064",
+      "seed": 100071,
+      "instruction": "Place the square bread with light spots into the breadbasket with woven pattern using the right arm",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-065",
+      "seed": 100072,
+      "instruction": "Grab the bread loaf medium-sized and the rectangular bread loaf with two arms, place in the medium light brown breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-066",
+      "seed": 100073,
+      "instruction": "Use one arm to grab the bread loaf with soft surface and the oval-shaped soft bread, drop in the round beige breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-067",
+      "seed": 100074,
+      "instruction": "Place the soft bread with golden edges and the bread loaf with soft surface into the light wooden breadbasket using the left arm",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-068",
+      "seed": 100075,
+      "instruction": "Grab the rectangular bread loaf and drop it into the round beige breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-069",
+      "seed": 100076,
+      "instruction": "Pick the rectangular bread loaf and place it in the breadbasket with hollowed white walls.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-070",
+      "seed": 100077,
+      "instruction": "Grab the bread loaf medium-sized and drop it into the beige breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-071",
+      "seed": 100078,
+      "instruction": "Grab the round braided loaf and the rectangular bread loaf and drop them into the rectangular light brown breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-072",
+      "seed": 100079,
+      "instruction": "Grab the bread loaf with soft surface and the bread loaf with soft surface with two arms, place in the rectangular breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-073",
+      "seed": 100080,
+      "instruction": "Use one arm to grab the spongy golden brown bread, drop in the round beige breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-074",
+      "seed": 100081,
+      "instruction": "Grab the round braided loaf and the square bread with light spots with two arms, place in the breadbasket with ridged texture.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-075",
+      "seed": 100082,
+      "instruction": "Pick the round braided loaf and drop it in the woven shallow breadbasket",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-076",
+      "seed": 100083,
+      "instruction": "Grab the rectangular bread loaf with one arm, place in the shallow rectangular breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-077",
+      "seed": 100084,
+      "instruction": "Place the oval-shaped soft bread into the breadbasket with hollowed white walls using the left arm",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-078",
+      "seed": 100085,
+      "instruction": "Grab the bread loaf medium-sized and the small loaf-shaped bread with two arms, place in the rectangular breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-079",
+      "seed": 100086,
+      "instruction": "Grab the oval bread and the palm-sized braided golden bread and drop them into the beige breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-080",
+      "seed": 100087,
+      "instruction": "Grab the rounded oval bread and the bread loaf with soft surface and drop them into the beige breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-081",
+      "seed": 100088,
+      "instruction": "Grab the oval-shaped soft bread with one arm, place in the white basket with beige bottom.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-082",
+      "seed": 100089,
+      "instruction": "Use one arm to grab the oval-shaped soft bread and the bread loaf with soft surface, drop in the light wooden breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-083",
+      "seed": 100090,
+      "instruction": "Use one arm to grab the bread loaf with soft surface, drop in the beige breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-084",
+      "seed": 100091,
+      "instruction": "Use the dual arm to pick up the soft rectangular bread loaf and the bread with golden crust, then place them in the breadbasket with smooth bottom grid sides.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-085",
+      "seed": 100093,
+      "instruction": "Grab the round braided loaf and the spongy golden brown bread and drop them into the beige breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-086",
+      "seed": 100094,
+      "instruction": "Grab the bread loaf with soft surface and the spongy golden brown bread with two arms, place in the medium-sized breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-087",
+      "seed": 100095,
+      "instruction": "Pick the bread loaf with soft surface and the rounded oval bread and place them in the beige breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-088",
+      "seed": 100097,
+      "instruction": "Use the dual arm to pick the bread loaf with soft surface and the braided top round bread and place in the breadbasket with ridged texture.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-089",
+      "seed": 100098,
+      "instruction": "Grab the spongy golden brown bread and the rectangular bread loaf and drop it into the light wooden breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-090",
+      "seed": 100099,
+      "instruction": "Grab the square bread with light spots and put it in the beige breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-091",
+      "seed": 100101,
+      "instruction": "Grab the braided top round bread and the small loaf-shaped bread and drop it into the rectangular light brown breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-092",
+      "seed": 100102,
+      "instruction": "Pick the spongy golden brown bread and the small loaf-shaped bread and place them in the light wooden breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-093",
+      "seed": 100104,
+      "instruction": "Grab the small loaf-shaped bread and the small loaf-shaped bread and drop them into the light wooden breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-094",
+      "seed": 100106,
+      "instruction": "Use one arm to grab the bread loaf medium-sized, drop in the breadbasket with woven pattern.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-095",
+      "seed": 100108,
+      "instruction": "Place the spongy golden brown bread and the oval-shaped soft bread into the medium-sized breadbasket using the dual arm",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-096",
+      "seed": 100109,
+      "instruction": "Grab the oval-shaped soft bread and the bread loaf medium-sized and drop it into the woven shallow breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-097",
+      "seed": 100110,
+      "instruction": "Use one arm to grab the soft bread with golden edges and the square bread with light spots, drop in the woven shallow breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-098",
+      "seed": 100111,
+      "instruction": "Use one arm to grab the rectangular bread loaf, drop in the beige breadbasket.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    },
+    {
+      "episode_id": "place_bread_basket-demo_randomized-099",
+      "seed": 100112,
+      "instruction": "Use one arm to grab the soft bread with golden edges and the bread loaf with soft surface, drop in the breadbasket with hollowed white walls.",
+      "expert_preflight_passed": null,
+      "scene_setup_attempts": 1
+    }
+  ],
+  "generator_metadata": {
+    "generator": "Reflex/RoboTwin/eval_rebuttal/04_qha_transfer/combine_and_shard_heldout_manifest.py",
+    "purpose": "100_rollouts_per_task_setting_main_result_alignment",
+    "source_manifest_sha256": {
+      "place_bread_basket_demo_randomized_a.json": "a5936435f3c6c73de1c93454260347d47cafedc97b42b7e4517037d2f04b4a2a",
+      "place_bread_basket_demo_randomized_b.json": "fdf06b53f91d069d0c5e036841f3f37300860aa8c8da7cdb80c337f63e42aa4a"
+    },
+    "episode_count": 100,
+    "shard_count": 5,
+    "episodes_per_shard": 20
+  }
+}

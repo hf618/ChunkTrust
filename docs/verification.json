@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-30",
+  "release_status": "code release candidate; large weight uploads in progress",
+  "core_pytest": {
+    "status": "PASS",
+    "tests": 14,
+    "environment": "fresh Python 3.11 core venv, NumPy 1.26.4",
+    "includes": "PI numerical equivalence, prior fusion, reset/resume, source data checks, StarVLA and GR00T selector state"
+  },
+  "starvla_selector_tests": {
+    "status": "PASS",
+    "tests": 2
+  },
+  "real_trace_replay": {
+    "status": "PASS",
+    "replans": 23,
+    "scope": "recorded decision arithmetic only"
+  },
+  "qha_head_cpu": {
+    "status": "PASS",
+    "optimizer_steps": 3,
+    "losses": [
+      1.0749411582946777,
+      0.8574579954147339,
+      0.6994357109069824
+    ],
+    "parameter_roundtrip": "PASS",
+    "inputs": "synthetic frozen features"
+  },
+  "pi05_qha_checkpoint_inference": {
+    "status": "PASS",
+    "input_kind": "synthetic observations",
+    "rollout": false,
+    "predictions": [
+      {
+        "actions_shape": [
+          50,
+          14
+        ],
+        "selected_k": 20,
+        "prior_sum": 0.9981689453125,
+        "prior_dtype": "bfloat16",
+        "sum_tolerance": 0.015625
+      },
+      {
+        "actions_shape": [
+          50,
+          14
+        ],
+        "selected_k": 21,
+        "prior_sum": 1.0008544921875,
+        "prior_dtype": "bfloat16",
+        "sum_tolerance": 0.015625
+      }
+    ]
+  },
+  "pi05_qha_robotwin_smoke": {
+    "status": "PASS",
+    "task": "place_bread_basket",
+    "setting": "demo_clean",
+    "seed": 100005,
+    "episodes": 1,
+    "scope": "one real simulator episode in newly prepared source checkout, using existing installed backend environment and simulator assets",
+    "fresh_dependency_install": false,
+    "performance_estimate": false
+  },
+  "other_backend_rollouts": "not rerun in release workspace",
+  "full_suite_rerun": false,
+  "aggregation": {
+    "status": "PASS",
+    "episodes": 17200,
+    "discrepancies": [
+      "RoboCasa pi05 Base: recorded 42.0833 vs paper 40.08",
+      "Held-out AHS+QHA: recorded 41.25 vs paper 42.75"
+    ]
+  },
+  "open_dependencies": [
+    "Eight-task QHA result/checkpoint mapping",
+    "training teacher weights and preprocessed caches",
+    "device-side RoboDriver source",
+    "portable full-suite and RTC orchestration validation",
+    "fresh end-to-end validation for all other backends"
+  ],
+  "video": {
+    "resolution": [
+      3840,
+      2160
+    ],
+    "fps": 30,
+    "seconds": 177.5,
+    "sha256": "19c35d003ec93128ec41315dd1051f30274d241a319a9ca6f56e8214282868ff",
+    "hf_status": "published"
+  },
+  "asset_download_check": {
+    "qha_heldout": "PASS; downloaded from public HF and verified every SHA-256",
+    "video_4k": "PASS; downloaded public 4K MP4 and SHA-256 matches local master"
+  },
+  "clean_source_archive": {
+    "tests": 14,
+    "status": "PASS",
+    "recorded_replay": "23 decisions pass",
+    "local_links_and_credentials": "PASS"
+  }
+}

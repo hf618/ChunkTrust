@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/move_can_pot__demo_randomized.json",
+    "parent_manifest_sha256": "2fa0bd0d1b4c5b646ce07f19fa700fdd70a54e67334deea8104febe0eeeb1246",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_move_can_pot_demo_randomized",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9421000,
+      "instruction": "Pick up the smooth cylindrical sauce can and move it near the round pot with blue top",
+      "instruction_sha1": "73704e6b26405d81d9050e68fca953a593268c9d",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9421001,
+      "instruction": "Use the left arm to grab the sauce can with round ridged lid and place it by the metal pot with curved handles",
+      "instruction_sha1": "d9db00f3d02cdabba9099dd7593236a0a69be9f4",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9421002,
+      "instruction": "Grab the sauce can with round ridged lid and set it beside the round black kitchenpot",
+      "instruction_sha1": "9da90af20bd4e73ae7f41942a53947844c8d409d",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9421003,
+      "instruction": "Use the right arm to pick up the metal body sauce can, move it near the gray kitchenpot with rounded edges",
+      "instruction_sha1": "d478e452563da4688eff2ec34f22468d1099d776",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9421004,
+      "instruction": "Lift the sauce can with smooth surface and set it beside the medium stove pot",
+      "instruction_sha1": "44dc1c9fff3fcf56605e33b944e7a89a8ff0f2a5",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9421005,
+      "instruction": "Use the right arm to pick up the brown sauce can with top lid and move it beside the medium stove pot",
+      "instruction_sha1": "55d7e2226428c4d67a57e03f1f7e1465e7f58087",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9421006,
+      "instruction": "Grab the red sauce can and place it near the metal pot with curved handles",
+      "instruction_sha1": "89b7ecaed1fea48315aab6965f3341162eb81c7a",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9421007,
+      "instruction": "Use the right arm to pick up the red sauce can and move it beside the smooth gray pot with matte finish",
+      "instruction_sha1": "289ebcf19feeadff7e9b0918472b63ba6ed18fbc",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9421008,
+      "instruction": "Pick up the sauce can and set it beside the round black kitchenpot",
+      "instruction_sha1": "21023c547e7fc98970c0c88ceadc9172699ad511",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9421009,
+      "instruction": "Grab the sauce can and place it beside the metal pot with curved handles",
+      "instruction_sha1": "805af29f32b116129c6b594394fb1aca62bf989f",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9421010,
+      "instruction": "Pick up the sauce can with smooth surface and move it near the kitchenpot for cooking food",
+      "instruction_sha1": "900d4b49c0e58e42ea9ebbbf9e33ee59eaff35e9",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9421011,
+      "instruction": "Grab the metal body sauce can and move it near the medium kitchenpot",
+      "instruction_sha1": "a6ad43fe8d4e0817b472fc4605b88270170e6aef",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9421012,
+      "instruction": "Lift the medium-size cylindrical sauce can and set it beside the shiny black kitchenpot",
+      "instruction_sha1": "b40a0ad7e4c0203974b7fef3a7cf3c1796687c9d",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9421013,
+      "instruction": "Grab the smooth sauce can and move it near the smooth gray pot with matte finish",
+      "instruction_sha1": "8b22f1259c011bab5b65983e2ffd586df03ddbdf",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9421014,
+      "instruction": "Use the left arm to grab the medium sauce can with white label and place it by the medium stove pot",
+      "instruction_sha1": "1308f473a902df9995e6c858c3fc7d54120d694d",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9421015,
+      "instruction": "Grab the smooth sauce can and place it beside the medium kitchenpot",
+      "instruction_sha1": "81b006d97e49abad7629d8613d0bc9649c62ce16",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9421016,
+      "instruction": "Use the left arm to pick up the red sauce can, move it near the round pot with blue top",
+      "instruction_sha1": "e2cc77dc7cab9092726f6e799a4f94e90d7bba6f",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9421017,
+      "instruction": "Lift the medium sauce can with white label and set it beside the gray kitchenpot with rounded edges",
+      "instruction_sha1": "ec4474c29541cb6e9291ffbfdc8daadcc556d38b",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9421018,
+      "instruction": "Use the right arm to grab the sauce can with smooth surface and place it by the kitchenpot for stovetop boiling",
+      "instruction_sha1": "4af616c04b1fce5ac79d9c64d29fd57f7b619bf3",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9421019,
+      "instruction": "Use the right arm to grab the sauce can and place it by the smooth gray pot with matte finish",
+      "instruction_sha1": "e85553208f6a7e3b231d0f90eda6207619d52a4f",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-07-31T17:31:47.294921+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_move_can_pot_demo_randomized_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9421000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_randomized",
+  "task_name": "move_can_pot"
+}

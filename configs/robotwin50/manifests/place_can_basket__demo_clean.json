@@ -1,0 +1,170 @@
+{
+  "derivation": {
+    "derived_entry_count": 20,
+    "deriver_code_sha256": "a7013e6e452a7c3af1fc983a1a112e6babd443727061b11c134f931a82e5f091",
+    "parent_entry_count": 50,
+    "parent_manifest_path": "Reflex/RoboTwin/eval_rebuttal/08_clean50_base_vs_ahs_full50_runtime_v4_freshscene_hashseed0_20260731/manifests/formal_parent50/place_can_basket__demo_clean.json",
+    "parent_manifest_sha256": "05b7e70c88122ffa880ea296626a2ac1a3fcac5141b33d5311eeed0cd5808d3d",
+    "parent_protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_place_can_basket_demo_clean",
+    "selection_rule": "first N entries in ascending canonical rollout_id order"
+  },
+  "entries": [
+    {
+      "episode_seed": 9550000,
+      "instruction": "Grab the red can with white top and put it in the basket with rounded edges, then lift the basket with rounded edges.",
+      "instruction_sha1": "d0366add74532a312c3c8556bed59e941ac49d56",
+      "precheck_status": "accepted",
+      "rollout_id": 0
+    },
+    {
+      "episode_seed": 9550001,
+      "instruction": "Use the left arm to pick the metal can fits easily in hand, drop it into the medium-sized basket with perforated texture, then lift the medium-sized basket with perforated texture.",
+      "instruction_sha1": "5d5803594940bc01bb0b43af2d635f6d4496ac8a",
+      "precheck_status": "accepted",
+      "rollout_id": 1
+    },
+    {
+      "episode_seed": 9550002,
+      "instruction": "Pick the cylindrical can with smooth surface, put it in the yellow rectangular basket with dual grips, then lift the yellow rectangular basket with dual grips.",
+      "instruction_sha1": "0af968e5f1710970543fffcc23d94ca8ca3f6a01",
+      "precheck_status": "accepted",
+      "rollout_id": 2
+    },
+    {
+      "episode_seed": 9550003,
+      "instruction": "Use the right arm to grab the palm-sized red metal Coca-Cola can, put it in the yellow basket with open slots, and lift the yellow basket with open slots.",
+      "instruction_sha1": "1f6528a66af28988a86861607d0ff4171fca1656",
+      "precheck_status": "accepted",
+      "rollout_id": 3
+    },
+    {
+      "episode_seed": 9550004,
+      "instruction": "Use the left arm to pick up the rounded can with smooth printed surface, put it into the medium-sized basket with perforated texture, the other arm lifts the medium-sized basket with perforated texture.",
+      "instruction_sha1": "ba34fd2fdb7e8ca2e32953486b7ea7d79658a9ea",
+      "precheck_status": "accepted",
+      "rollout_id": 4
+    },
+    {
+      "episode_seed": 9550005,
+      "instruction": "Grab the cylindrical brown drink can with white markings and put it in the medium-sized basket with perforated texture, then lift the medium-sized basket with perforated texture.",
+      "instruction_sha1": "6e621aae82e58e8ad90816aaddb1bada43d2d2a6",
+      "precheck_status": "accepted",
+      "rollout_id": 5
+    },
+    {
+      "episode_seed": 9550006,
+      "instruction": "Grab the red can and put it in the yellow rectangular basket with dual grips, then lift the yellow rectangular basket with dual grips.",
+      "instruction_sha1": "5bc4f9f8dd3b6da9e578dbb18ae9f8a4be7235b1",
+      "precheck_status": "accepted",
+      "rollout_id": 6
+    },
+    {
+      "episode_seed": 9550007,
+      "instruction": "Grab the small aluminum can and put it in the basket with rounded edges, then lift the basket with rounded edges.",
+      "instruction_sha1": "f1630004cefa27d48e43e5f07f60fa36862c2572",
+      "precheck_status": "accepted",
+      "rollout_id": 7
+    },
+    {
+      "episode_seed": 9550008,
+      "instruction": "Grab the red can, drop it in the medium-sized basket with perforated texture, and lift the medium-sized basket with perforated texture.",
+      "instruction_sha1": "a59b7b20a54d48a52b6c30cb1951f76444d26a8b",
+      "precheck_status": "accepted",
+      "rollout_id": 8
+    },
+    {
+      "episode_seed": 9550009,
+      "instruction": "Grab the cylindrical brown drink can with white markings, put it in the oval basket with medium storage space, lift the oval basket with medium storage space.",
+      "instruction_sha1": "5bef7025e1f361a07e0929f67519ca15ad0beda4",
+      "precheck_status": "accepted",
+      "rollout_id": 9
+    },
+    {
+      "episode_seed": 9550010,
+      "instruction": "Grab the metal can fits easily in hand, put it in the yellow rectangular basket with dual grips, lift the yellow rectangular basket with dual grips.",
+      "instruction_sha1": "14767f411902f0fbaa867035de32ff4e9040bc62",
+      "precheck_status": "accepted",
+      "rollout_id": 10
+    },
+    {
+      "episode_seed": 9550011,
+      "instruction": "Grab the cylindrical brown drink can with white markings, drop it into the medium basket with smooth texture, lift the medium basket with smooth texture with another arm.",
+      "instruction_sha1": "89fb68ebea5707ea7d917f6a72be2b7cd28aabec",
+      "precheck_status": "accepted",
+      "rollout_id": 11
+    },
+    {
+      "episode_seed": 9550012,
+      "instruction": "Grab the red can, drop it into the yellow basket with open slots, lift the yellow basket with open slots with another arm.",
+      "instruction_sha1": "3ed2d2c69027b5b60175e1ec849c30eea94a58bb",
+      "precheck_status": "accepted",
+      "rollout_id": 12
+    },
+    {
+      "episode_seed": 9550013,
+      "instruction": "Use the right arm to pick the can with gold logo design, place it into the medium-sized basket with perforated texture, and lift the basket.",
+      "instruction_sha1": "a721e2bae3c94e8d247d191965757eef5a732c7d",
+      "precheck_status": "accepted",
+      "rollout_id": 13
+    },
+    {
+      "episode_seed": 9550014,
+      "instruction": "Grab the palm-sized red metal Coca-Cola can and put it in the medium basket with smooth texture, then lift the medium basket with smooth texture.",
+      "instruction_sha1": "2a759b3c7f6d7aab0d5a9d7cb529826c6ea5d4d3",
+      "precheck_status": "accepted",
+      "rollout_id": 14
+    },
+    {
+      "episode_seed": 9550015,
+      "instruction": "Use the right arm to pick the red can with white top, drop it into the yellow basket with open slots, then lift the yellow basket with open slots.",
+      "instruction_sha1": "1c540e3a3fe28e5eb998304cb5c67df48fbabf80",
+      "precheck_status": "accepted",
+      "rollout_id": 15
+    },
+    {
+      "episode_seed": 9550016,
+      "instruction": "Grab the red can with white top, put it in the medium basket with smooth texture, lift the medium basket with smooth texture.",
+      "instruction_sha1": "af9cd970d723e6529dd6dc554b69c0f949f787ad",
+      "precheck_status": "accepted",
+      "rollout_id": 16
+    },
+    {
+      "episode_seed": 9550017,
+      "instruction": "Grab the red can with white top, drop it into the yellow basket with open slots, lift the yellow basket with open slots with another arm.",
+      "instruction_sha1": "e16f81fcf97acfab3adf2ce481bc36d77405c6aa",
+      "precheck_status": "accepted",
+      "rollout_id": 17
+    },
+    {
+      "episode_seed": 9550018,
+      "instruction": "Use the left arm to pick up the can with shiny smooth surface, put it into the basket with rounded edges, the other arm lifts the basket with rounded edges.",
+      "instruction_sha1": "5832a2a25f76379c27569e40f18dc63928f0ce6d",
+      "precheck_status": "accepted",
+      "rollout_id": 18
+    },
+    {
+      "episode_seed": 9550019,
+      "instruction": "Use the right arm to grab the small red soda can, put it in the yellow basket with open slots, and lift the yellow basket with open slots.",
+      "instruction_sha1": "545fc18031fb0edfe8d8fb18b3fa10a11c191d7e",
+      "precheck_status": "accepted",
+      "rollout_id": 19
+    }
+  ],
+  "generated_at": "2026-07-31T21:51:02.904189+00:00",
+  "generator_code_sha256": "cbbfe356da75db4f9fb127ec42de57c46246d58156d7db33c5103bd15d7287ce",
+  "instruction_type": "unseen",
+  "precheck_mode": "setup_only_initial_scene",
+  "protocol_id": "clean50_base_ahs_formal_parent50_runtime_v4_freshscene_hashseed0_20260731_place_can_basket_demo_clean_first20",
+  "rejected_pre_manifest_candidates": [],
+  "schema_version": 1,
+  "selection_policy": {
+    "acceptance_rule": "setup_demo and literal instruction generation succeed; no expert or policy outcome",
+    "candidate_seed_start": 9550000,
+    "environment_lifecycle": "fresh task environment per candidate seed",
+    "max_seed_attempts": 500,
+    "ordering": "first accepted candidates in increasing integer seed order",
+    "replacement_rule": "pre-manifest scene-validity rejection only; immutable after write"
+  },
+  "task_config": "demo_clean",
+  "task_name": "place_can_basket"
+}
