@@ -14,7 +14,7 @@ def tracked_candidates():
     for name in roots:
         for p in (ROOT/name).rglob('*'):
             if p.is_file() and '__pycache__' not in p.parts and '.pytest_cache' not in p.parts and not any(x.endswith('.egg-info') for x in p.parts) and p.suffix!='.pyc':yield p
-    for name in ['README.md','LICENSE','pyproject.toml','.gitignore','CITATION.cff']:
+    for name in ['README.md','LICENSE','pyproject.toml','.gitignore','CITATION.cff','environment.yml','requirements.txt']:
         p=ROOT/name
         if p.is_file():yield p
 

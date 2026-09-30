@@ -106,12 +106,29 @@
   },
   "asset_download_check": {
     "qha_heldout": "PASS; downloaded from public HF and verified every SHA-256",
-    "video_4k": "PASS; downloaded public 4K MP4 and SHA-256 matches local master"
+    "video_4k": "PASS; downloaded public 4K MP4 and SHA-256 matches local master",
+    "qha_pi0_8task_step5000": "PASS; downloaded all files from the public HF revision and checked against the local source",
+    "qha_pi05_8task_step5000": "PASS; downloaded all files from the public HF revision and checked against the local source"
   },
   "clean_source_archive": {
     "tests": 14,
     "status": "PASS",
     "recorded_replay": "23 decisions pass",
     "local_links_and_credentials": "PASS"
+  },
+  "qha_eight_task_recipe": {
+    "status": "PASS; released runtime CLI parsed and task/teacher split checked",
+    "policy": "pi05",
+    "batch_size": 256,
+    "num_train_steps": 10000,
+    "tasks": 8,
+    "training_executed": false
+  },
+  "installation_readme": {
+    "requirements_install": "PASS; fresh Python 3.11 venv",
+    "no_build_isolation_editable": "PASS",
+    "quickstart": "PASS",
+    "pytest": 14,
+    "conda_environment_dry_run": "PASS"
   }
 }

@@ -77,5 +77,171 @@
         "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
       }
     ]
+  },
+  "qha_pi0_8task_step5000": {
+    "status": "published",
+    "repo_id": "Niugan/ChunkTrust",
+    "files": [
+      {
+        "remote_path": "checkpoints/qha_pi0_8task_step5000/assets/_QHA_ONLY",
+        "local_path": "assets/_QHA_ONLY",
+        "bytes": 1,
+        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+      },
+      {
+        "remote_path": "checkpoints/qha_pi0_8task_step5000/assets/_train_config_model.json",
+        "local_path": "assets/_train_config_model.json",
+        "bytes": 1526,
+        "sha256": "a13d6aa94908589bcff2d4eb16e4ccdb8bf1ca97c444b64bf21109a636f80b1f"
+      },
+      {
+        "remote_path": "checkpoints/qha_pi0_8task_step5000/params/_CHECKPOINT_METADATA",
+        "local_path": "params/_CHECKPOINT_METADATA",
+        "bytes": 249,
+        "sha256": "3aa8b290145a2cc196ddd079b158128057ec7186e3938a16bd5e4c3b8e04b527"
+      },
+      {
+        "remote_path": "checkpoints/qha_pi0_8task_step5000/params/_METADATA",
+        "local_path": "params/_METADATA",
+        "bytes": 13362,
+        "sha256": "0eab4354d25e72cf8621d45c38b5ea02073429954f1eab1543553660125dfd44"
+      },
+      {
+        "remote_path": "checkpoints/qha_pi0_8task_step5000/params/_sharding",
+        "local_path": "params/_sharding",
+        "bytes": 10791,
+        "sha256": "40e66f5c4d39e8e4bde4451f6e90caf5e19d0f8882358eb4f928e2754e00fbb9"
+      },
+      {
+        "remote_path": "checkpoints/qha_pi0_8task_step5000/params/d/0d42c4b835ea92cd859aad04045fe83c",
+        "local_path": "params/d/0d42c4b835ea92cd859aad04045fe83c",
+        "bytes": 19172,
+        "sha256": "a8f40d6293ae69bdf10d8ad16b002f7a221f510aab26bac0a8c149c151961f5e"
+      },
+      {
+        "remote_path": "checkpoints/qha_pi0_8task_step5000/params/manifest.ocdbt",
+        "local_path": "params/manifest.ocdbt",
+        "bytes": 118,
+        "sha256": "e661c5a81be4885527a350edfc528d89ea7e50851487e17a7e294728c50dba71"
+      },
+      {
+        "remote_path": "checkpoints/qha_pi0_8task_step5000/params/ocdbt.process_0/d/11761671fd76b4f7153432f50f1041c7",
+        "local_path": "params/ocdbt.process_0/d/11761671fd76b4f7153432f50f1041c7",
+        "bytes": 6612890,
+        "sha256": "1896bb76646324e7a4ab4e1dad6f939e38d6932fe527a5ef27c813245c5c4f41"
+      },
+      {
+        "remote_path": "checkpoints/qha_pi0_8task_step5000/params/ocdbt.process_0/d/4c896f5f6de853689c1c1f18cbfa61c6",
+        "local_path": "params/ocdbt.process_0/d/4c896f5f6de853689c1c1f18cbfa61c6",
+        "bytes": 472,
+        "sha256": "e1f4f74a71f79ca1657284c95f2b3f41b53eb41d7aa0f4c17219c84e78f775cd"
+      },
+      {
+        "remote_path": "checkpoints/qha_pi0_8task_step5000/params/ocdbt.process_0/d/6c5477a41f41fbeeb5ed78443707d600",
+        "local_path": "params/ocdbt.process_0/d/6c5477a41f41fbeeb5ed78443707d600",
+        "bytes": 484888,
+        "sha256": "3dee259be1c0f78ca0060fc9c4beb319c536f96d8a67dcf65b737aeae34d7e33"
+      },
+      {
+        "remote_path": "checkpoints/qha_pi0_8task_step5000/params/ocdbt.process_0/d/bde4eae44e332be1e7a2499f27966a82",
+        "local_path": "params/ocdbt.process_0/d/bde4eae44e332be1e7a2499f27966a82",
+        "bytes": 202,
+        "sha256": "176f99edf9cc6e1d7e80e559117bf28c03638124ac81704535f21dc642e42791"
+      },
+      {
+        "remote_path": "checkpoints/qha_pi0_8task_step5000/params/ocdbt.process_0/manifest.ocdbt",
+        "local_path": "params/ocdbt.process_0/manifest.ocdbt",
+        "bytes": 257,
+        "sha256": "0f837a27c0d8774d4f98964fb2acee8114e7aa2add278cdd215cd03dd2499f89"
+      }
+    ],
+    "training_tasks": 8,
+    "step": 5000,
+    "checkpoint_kind": "intermediate",
+    "paper_result_mapping": "not established",
+    "revision": "61105bfe4c5d3a04c75416b6083bfd0d7200bc1b"
+  },
+  "qha_pi05_8task_step5000": {
+    "status": "published",
+    "repo_id": "Niugan/ChunkTrust",
+    "files": [
+      {
+        "remote_path": "checkpoints/qha_pi05_8task_step5000/assets/_QHA_ONLY",
+        "local_path": "assets/_QHA_ONLY",
+        "bytes": 1,
+        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+      },
+      {
+        "remote_path": "checkpoints/qha_pi05_8task_step5000/assets/_train_config_model.json",
+        "local_path": "assets/_train_config_model.json",
+        "bytes": 1565,
+        "sha256": "11e56182c7b1dce2998650c770f1ed9d05d80bdf0dcf78540a23fcf5fc832288"
+      },
+      {
+        "remote_path": "checkpoints/qha_pi05_8task_step5000/params/_CHECKPOINT_METADATA",
+        "local_path": "params/_CHECKPOINT_METADATA",
+        "bytes": 249,
+        "sha256": "4f83109c02c5b2135432a17915a67ae67b1c2d9ee601db766723d90d888dda26"
+      },
+      {
+        "remote_path": "checkpoints/qha_pi05_8task_step5000/params/_METADATA",
+        "local_path": "params/_METADATA",
+        "bytes": 13362,
+        "sha256": "0eab4354d25e72cf8621d45c38b5ea02073429954f1eab1543553660125dfd44"
+      },
+      {
+        "remote_path": "checkpoints/qha_pi05_8task_step5000/params/_sharding",
+        "local_path": "params/_sharding",
+        "bytes": 10791,
+        "sha256": "40e66f5c4d39e8e4bde4451f6e90caf5e19d0f8882358eb4f928e2754e00fbb9"
+      },
+      {
+        "remote_path": "checkpoints/qha_pi05_8task_step5000/params/d/c34dea0860683ebe825bee8775cef00d",
+        "local_path": "params/d/c34dea0860683ebe825bee8775cef00d",
+        "bytes": 17160,
+        "sha256": "6138549e94ecd7ced8b569e6d8d6de6942e06c31d7c040706d3d5eed674b84d7"
+      },
+      {
+        "remote_path": "checkpoints/qha_pi05_8task_step5000/params/manifest.ocdbt",
+        "local_path": "params/manifest.ocdbt",
+        "bytes": 118,
+        "sha256": "4060fe010ee36cd4395c69398a110b1143b80d4a5c2e9c25d55f745d0ed17464"
+      },
+      {
+        "remote_path": "checkpoints/qha_pi05_8task_step5000/params/ocdbt.process_0/d/15b80bc4e47d9a68bdfb8ff2202fbb71",
+        "local_path": "params/ocdbt.process_0/d/15b80bc4e47d9a68bdfb8ff2202fbb71",
+        "bytes": 202,
+        "sha256": "176f99edf9cc6e1d7e80e559117bf28c03638124ac81704535f21dc642e42791"
+      },
+      {
+        "remote_path": "checkpoints/qha_pi05_8task_step5000/params/ocdbt.process_0/d/4c6aaaa1707848d7b00cbf3ab07aaa83",
+        "local_path": "params/ocdbt.process_0/d/4c6aaaa1707848d7b00cbf3ab07aaa83",
+        "bytes": 725533,
+        "sha256": "615c74b03276430be19a9b4f241b6d8fc5da058006cbd8625e23fdc16da13a8f"
+      },
+      {
+        "remote_path": "checkpoints/qha_pi05_8task_step5000/params/ocdbt.process_0/d/65a6986e4446ef3a312cd6db2aa8c9c3",
+        "local_path": "params/ocdbt.process_0/d/65a6986e4446ef3a312cd6db2aa8c9c3",
+        "bytes": 6370443,
+        "sha256": "c6565d748082d3da910c5d38e0149674c33607018e236e265e78fd5381268262"
+      },
+      {
+        "remote_path": "checkpoints/qha_pi05_8task_step5000/params/ocdbt.process_0/d/d3a1cf7b6f0392601afbfef5dfa2a7d2",
+        "local_path": "params/ocdbt.process_0/d/d3a1cf7b6f0392601afbfef5dfa2a7d2",
+        "bytes": 1508,
+        "sha256": "ab906da256e5a2237684537a4540b6f479cadc94235a5abe959c9e8660b2bcbd"
+      },
+      {
+        "remote_path": "checkpoints/qha_pi05_8task_step5000/params/ocdbt.process_0/manifest.ocdbt",
+        "local_path": "params/ocdbt.process_0/manifest.ocdbt",
+        "bytes": 256,
+        "sha256": "1a3b1fbe877fbc2506c0b42446e9f9f901797002a8c7928f7da461903f009ca0"
+      }
+    ],
+    "training_tasks": 8,
+    "step": 5000,
+    "checkpoint_kind": "intermediate",
+    "paper_result_mapping": "not established",
+    "revision": "61105bfe4c5d3a04c75416b6083bfd0d7200bc1b"
   }
 }

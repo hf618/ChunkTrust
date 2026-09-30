@@ -1,0 +1,4 @@
+setuptools>=68
+wheel
+numpy==1.26.4
+-e .

@@ -24,7 +24,7 @@ Its SHA-256 is
 | Eight task-specific pi0.5 bases, step 20000 | Task-specific evaluation and RTC | Upload queue; 12.44 GB each |
 | Eight task-specific pi0 bases, step 30000 | Task-specific evaluation | Upload queue; 5.40 GB each |
 | pi0.5 RoboCasa GR1, step 30000 | RoboCasa Base/AHS | Existing [ModelScope package](https://modelscope.cn/models/NewGain/pi05_robocasa_gr1_tabletop24) |
-| Eight-task QHA heads for Table 2A | Augmentation table | Exact result-to-checkpoint mapping unresolved |
+| Eight-task pi0 and pi0.5 QHA heads, step 5000 | Intermediate training snapshots | Published; Table 2A association remains unresolved |
 
 A QHA head is not a standalone robot policy. It must be overlaid on the matching
 base checkpoint, using the retained normalization and embodiment settings.

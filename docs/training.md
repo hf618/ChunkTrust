@@ -4,6 +4,16 @@ QHA learns a prior over execution horizons while the base generator stays frozen
 Targets are preferences derived from action-expert evidence, not ground-truth
 optimal horizons or environment rewards.
 
+Install the [OpenPI backend environment](backends.md) and activate its `.venv`
+before using the training commands. With a prepared checkout:
+
+```bash
+cd "$ROBOTWIN_ROOT/policy/pi05_horizon"
+uv sync --frozen
+uv pip install --no-deps -e "$CHUNKTRUST_ROOT"
+source .venv/bin/activate
+```
+
 ## Lightweight architecture check
 
 Inside the OpenPI environment, with its `src` on `PYTHONPATH`:
@@ -52,7 +62,44 @@ catalog; unprovided data is a reproduction dependency, not automatically fetched
 
 ## Eight-task QHA
 
-The source architecture and training code are included. The mapping between
-approved Table 2A rows, selected head, gamma and evidence variant remains
-unresolved. Historical step-5000 heads must not be treated as identified Table 2A
-weights based on directory names alone.
+Prepare the backend with `--heldout` to include the online-teacher runtime used
+by both task splits. The eight-task launcher selects the separate
+`pi05_base_aloha_robotwin_full_qha_joint` config; it does not use the held-out split.
+After installing the OpenPI backend environment, activate it before launching:
+
+```bash
+export ROBOTWIN_ROOT="$CHUNKTRUST_ROOT/workspaces/robotwin-qha"
+bash "$CHUNKTRUST_ROOT/scripts/train_qha_eight_task.sh" --exp-name qha-eight-task --dry-run
+bash "$CHUNKTRUST_ROOT/scripts/train_qha_eight_task.sh" --exp-name qha-eight-task
+```
+
+This pi0.5 recipe reconstructs the manuscript's batch-256, 10,000-step setup:
+32 examples per task, 64 history and 50 future steps, eight queries of width 256,
+AdamW, 1,000 warmup steps, peak learning rate 5e-5, final rate 5e-6, and EMA 0.99.
+The student uses GPUs 0 and 1; eight frozen teachers are routed over GPUs 2–7.
+Two teacher workers each hold two policies, so allow enough GPU memory for both.
+The launcher is validated for configuration and CLI parsing, not a completed
+new training run.
+
+`configs/qha_8task/pi05_teachers.json` identifies the eight qnorm teacher
+checkpoints expected under `policy/pi05/checkpoints`. Supply these teacher
+weights, clean50 LeRobot datasets, normalization assets and preprocessed caches
+before launching; they are distinct from the non-qnorm evaluation bases.
+Training includes the six tasks above plus Blocks Ranking RGB and Place Bread
+Basket. Outputs are saved beneath
+`policy/pi05_horizon/checkpoints/pi05_base_aloha_robotwin_full_qha_joint/<exp-name>/`.
+
+### Released eight-task checkpoints
+
+The pi0 and pi0.5 heads under `qha_pi0_8task_step5000` and
+`qha_pi05_8task_step5000` are intermediate step-5000 checkpoints from the
+historical `b256_s10k_balanced` runs. Their original model snapshots are included.
+They are not identified as the final Table 2A checkpoints: association with the
+reported results, gamma and evidence variant remains unresolved. Do not infer a
+10,000-step checkpoint from a run name containing `s10k`.
+
+The runnable eight-task launcher currently covers pi0.5. The historical pi0
+head uses a LoRA base, and the available pi0 trainer does not include the routed
+online-teacher training path. A pi0 command is not presented as runnable until
+that matching training source is recovered. Its checkpoint is released for
+inspection and use with the corresponding pi0 base.

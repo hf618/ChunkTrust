@@ -30,15 +30,12 @@
 </details>
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/6c989d41-c0ec-424e-b9c4-6bc86a29b885" controls width="100%"></video>
-  <p><b>Complete project video · 2K preview · 2 min 57 s · English narration and captions</b></p>
-  <p><a href="https://github.com/hf618/ChunkTrust/releases/tag/media-v1">Download the original 4K video on GitHub</a></p>
+  <video src="https://github.com/user-attachments/assets/921168dc-0bb9-48a2-ba1c-035c392da6b7" controls width="100%"></video>
 </div>
 
 ## 🔥 News
 
-- **2026.09.30:** Released the core selectors, backend source integrations, training and evaluation recipes, and recorded outcomes. See the [reproduction status](docs/reproducibility.md) for verified checks and remaining dependencies.
-- **2026.09.30:** The [project page](https://hf618.github.io/ChunkTrust.github.io/) and complete [4K introduction](https://github.com/hf618/ChunkTrust/releases/tag/media-v1) are available.
+- **2026.09.30:** Our [Project Page](https://hf618.github.io/ChunkTrust.github.io/) is live!
 
 ## 🧭 Overview
 
@@ -76,88 +73,79 @@ Selected results from the [paper](https://hf618.github.io/ChunkTrust.github.io/a
 
 The 50-task and eight-task RoboTwin evaluations use different checkpoint regimes. Full protocols and per-task outcomes are in the paper.
 
-This release includes **17,200 recorded episode outcomes** and scripts for recomputing the available aggregates. The RoboTwin-50 figures above match the released cohort. Two other located cohorts differ from the paper: RoboCasa π0.5 Base is 42.08% in the records versus 40.08% in the paper, and held-out AHS+QHA is 41.25% versus 42.75%. The eight-task QHA checkpoint-to-result mapping also remains unresolved. Details and original outcomes are retained in the [reproduction audit](docs/reproducibility.md).
-
 ## 🛠️ Installation
-
-The standalone selector requires **Python 3.11 and NumPy**, without a GPU or simulator.
 
 ```bash
 git clone https://github.com/hf618/ChunkTrust.git
 cd ChunkTrust
-python3.11 -m venv .venv
-source .venv/bin/activate
-pip install -e '.[test]'
+conda env create -f environment.yml
+conda activate chunktrust
+python -m pip install -e . --no-build-isolation
+```
+
+For selector smoke tests:
+
+```bash
+python -m pip install -e '.[test]' --no-build-isolation
 python examples/quickstart.py
-python examples/replay_recorded_decisions.py
 pytest -q
 ```
 
-The quickstart uses synthetic inputs. The replay checks **23 recorded real-robot horizon decisions**. Neither estimates task success rates.
+Alternatively, in a Python 3.11 environment:
 
-```python
-from chunktrust import AHS, AHSConfig
-
-selector = AHS(AHSConfig(horizon=50, candidates=(10, 20, 30, 40, 50)), seed=0)
-k, evidence = selector.select(velocity, predicted_actions, executed_history)
-# Execute at most the first k actions, then acquire the next observation.
-# Reset for each new episode. Preserve selector state when resuming.
+```bash
+python -m pip install -r requirements.txt
 ```
 
-`velocity` has shape `[denoising_steps, horizon, action_dim]`. Predicted actions and executed history must use the same coordinates.
-
-Policy and simulator environments are separate from the core installation:
-
-| Integration | Included implementation | Setup |
-| --- | --- | --- |
-| RoboTwin π0 and π0.5 | AHS, QHA, generation traces and evaluation hooks | [Backends](docs/backends.md) |
-| RoboCasa π0.5 | GR1 observation/action adapter and runtime | [Models](docs/models.md) |
-| GR00T N1.5 and N1.6 | Model and simulation integrations | [Backends](docs/backends.md) |
-| Qwen3GR00T | StarVLA RoboCasa interface and AHS | [Backends](docs/backends.md) |
-| X-VLA | RoboTwin horizon client | [Backends](docs/backends.md) |
-| RTC + AHS | Controlled latency runtimes for Easy and Hard | [Evaluation](docs/evaluation.md#latency-and-rtc) |
-| Real robot | Recorded decision replay and interface contract | [Real robot](docs/real_robot.md) |
-
-Upstreams are pinned to commits and source overlays retain backend-specific behavior. Fresh rollout checks and outstanding dependencies are recorded in [verification.json](docs/verification.json).
+Policy training and simulation use the [backend environments](docs/backends.md).
 
 ## 📦 Data and Checkpoints
 
-Model weights are hosted at [Niugan/ChunkTrust](https://huggingface.co/Niugan/ChunkTrust). The [asset catalog](configs/assets.json) pins immutable revisions and per-file SHA-256 checksums.
-
-```bash
-python scripts/download_asset.py qha_heldout --destination checkpoints/qha-heldout/10000
-```
-
-| Artifact | Availability |
-| --- | --- |
-| π0.5 held-out-six-task QHA head, step 10000 | Published with configuration assets |
-| RoboTwin multitask and task-specific base checkpoints | Uploads in progress, see the [model guide](docs/models.md) |
-| Evaluation manifests and selected traces | Included under `configs/`, `results/` and `examples/` |
-| Full demonstrations and preprocessed teacher caches | Separate dependencies, see [training](docs/training.md) |
-
-A QHA head requires its matching base policy and normalization assets. Partial uploads are not marked as usable checkpoints. The **4K video is hosted on [GitHub Releases](https://github.com/hf618/ChunkTrust/releases/tag/media-v1)**.
+Find model weights at [Niugan/ChunkTrust](https://huggingface.co/Niugan/ChunkTrust). Task splits and evaluation manifests are in `configs/`, with recorded results in `results/`.
 
 ## 🏋️ QHA Training
 
-QHA learns horizon preferences while the action generator stays frozen. Its targets come from complementary action-expert evidence.
+QHA learns horizon preferences from action-expert evidence while the base policy stays frozen.
 
-Prepare the identified six-task training and two-task held-out protocol:
+| Protocol | Policy | Training | Checkpoint |
+| --- | --- | --- | --- |
+| Eight-task augmentation | π0.5 | Batch 256, 10,000 steps | [Intermediate head, step 5,000](https://huggingface.co/Niugan/ChunkTrust/tree/main/checkpoints/qha_pi05_8task_step5000) |
+| Eight-task augmentation | π0 | See [training details](docs/training.md#eight-task-qha) | [Intermediate head, step 5,000](https://huggingface.co/Niugan/ChunkTrust/tree/main/checkpoints/qha_pi0_8task_step5000) |
+| Six-task training, two held-out tasks | π0.5 | Batch 384, 10,000 steps | [Head, step 10,000](https://huggingface.co/Niugan/ChunkTrust/tree/main/checkpoints/qha_pi05_heldout6_step10000) |
+
+Prepare the π0.5 QHA backend from the repository root, then install its [environment and training data](docs/training.md):
 
 ```bash
 export CHUNKTRUST_ROOT="$PWD"
-python scripts/prepare_backend.py robotwin --heldout --destination workspaces/robotwin-heldout
-export ROBOTWIN_ROOT="$CHUNKTRUST_ROOT/workspaces/robotwin-heldout"
-cd "$ROBOTWIN_ROOT/policy/pi05_horizon"
-bash scripts/train_qha_heldout_8gpu.sh --mode smoke --exp-name qha-smoke --dry-run
+python scripts/prepare_backend.py robotwin --heldout --destination workspaces/robotwin-qha
+export ROBOTWIN_ROOT="$CHUNKTRUST_ROOT/workspaces/robotwin-qha"
 ```
 
-After installing the backend environment and preparing the datasets, caches and teacher checkpoints, launch the registered recipe:
+**Eight-task training:**
 
 ```bash
-bash scripts/train_qha_heldout_8gpu.sh --mode formal --exp-name qha-heldout-reproduction
+bash "$CHUNKTRUST_ROOT/scripts/train_qha_eight_task.sh" --exp-name qha-eight-task
 ```
 
-This recipe uses two student GPUs and six teacher GPUs, batch 384, and 10,000 steps. It is distinct from the eight-task augmentation recipe. See [training details](docs/training.md) for the task split, teacher normalization and unresolved material dependencies.
+**Six-task training with two held-out tasks:**
+
+```bash
+cd "$ROBOTWIN_ROOT/policy/pi05_horizon"
+bash scripts/train_qha_heldout_8gpu.sh --mode formal --exp-name qha-heldout
+```
+
+Both launchers accept `--dry-run`. The held-out split trains on Handover Block, Handover Mic, Hanging Mug, Place A2B Left, Place Bread Skillet and Place Can Basket. Blocks Ranking RGB and Place Bread Basket are held out.
+
+**Download QHA heads:**
+
+```bash
+cd "$CHUNKTRUST_ROOT"
+python scripts/download_asset.py qha_pi05_8task_step5000 --destination checkpoints/qha-pi05-eight/5000
+python scripts/download_asset.py qha_pi0_8task_step5000 --destination checkpoints/qha-pi0-eight/5000
+python scripts/download_asset.py qha_heldout --destination checkpoints/qha-heldout/10000
+```
+
+Each head is loaded alongside its matching frozen base policy. See [training details](docs/training.md) for the eight-task recipe and checkpoint provenance.
 
 ## 🧪 Evaluation
 
@@ -175,7 +163,7 @@ python scripts/eval_robotwin50.py --task place_a2b_left --setting demo_clean \
   --method ahs --backend-root workspaces/robotwin --output outputs/robotwin50 --dry-run
 ```
 
-Remove `--dry-run` after setting up the backend, simulation assets and matching checkpoints. Full-suite source equivalence and the 36 missing archived cell commands remain open audit items.
+Remove `--dry-run` after setting up the backend, simulation assets and matching checkpoints.
 
 The [evaluation guide](docs/evaluation.md) also covers held-out QHA, RoboCasa GR1, and the RTC panels with four tasks, four methods, three delays and 100 episodes per cell in both Easy and Hard. Latency reports include success rate, waiting time, policy calls, inference time and mean observation age.
 
