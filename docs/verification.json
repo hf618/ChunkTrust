@@ -93,7 +93,7 @@
     "github_status": "published; GitHub asset digest matches original master",
     "readme_inline_player": "PASS; anonymous Chrome playback verified in GitHub-rendered README",
     "inline_preview": {
-      "url": "https://github.com/user-attachments/assets/6c989d41-c0ec-424e-b9c4-6bc86a29b885",
+      "url": "https://github.com/user-attachments/assets/921168dc-0bb9-48a2-ba1c-035c392da6b7",
       "resolution": [
         2560,
         1440
@@ -101,7 +101,8 @@
       "seconds": 177.515,
       "status": "PASS; playback advances without a media error",
       "hosting": "GitHub user attachment",
-      "note": "GitHub renders the attachment as a signed media URL; the bare attachment URL returns 404 when accessed anonymously."
+      "note": "GitHub renders the attachment as a signed media URL and supplies the filename bar.",
+      "display_name": "ChunkTrust.mp4"
     }
   },
   "asset_download_check": {
