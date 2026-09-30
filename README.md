@@ -193,6 +193,6 @@ docs/           Training, evaluation, integration and reproduction status
 
 ## 🙏 Acknowledgements
 
-Built on OpenPI, RoboTwin, RoboCasa, Isaac-GR00T, StarVLA and X-VLA. Please cite the corresponding upstream projects when using their models or benchmarks.
+Built on [OpenPI](https://github.com/Physical-Intelligence/openpi), [RoboTwin](https://github.com/RoboTwin-Platform/RoboTwin), [RoboCasa](https://github.com/robocasa/robocasa), [Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T), [StarVLA](https://github.com/starVLA/starVLA) and [X-VLA](https://github.com/2toinf/X-VLA). Please cite the corresponding upstream projects when using their models or benchmarks.
 
 Original ChunkTrust code uses the repository's MIT license. Upstream and adapted files retain their applicable licenses and attribution, listed in [third-party notices](third_party/NOTICE.md). Model and dataset terms are separate from the code license.
