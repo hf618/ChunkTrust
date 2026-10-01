@@ -5,7 +5,7 @@
 
 **Learning when to observe again, from the policy's own action predictions.**
 
-[![Paper](https://img.shields.io/badge/Paper-PDF-B31B1B?style=for-the-badge&logo=readthedocs&logoColor=white)](https://hf618.github.io/ChunkTrust.github.io/assets/paper/ChunkTrust.pdf)
+[![Paper](https://img.shields.io/badge/Paper-arXiv-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.39754)
 [![Project Page](https://img.shields.io/badge/Project_Page-1A73E8?style=for-the-badge&logo=googlechrome&logoColor=white)](https://hf618.github.io/ChunkTrust.github.io/)
 [![Models](https://img.shields.io/badge/Models-Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/Niugan/ChunkTrust)
 [![Core checks](https://img.shields.io/github/actions/workflow/status/hf618/ChunkTrust/core.yml?branch=main&style=for-the-badge&label=Core%20checks&logo=githubactions&logoColor=white&color=4C8C4A)](https://github.com/hf618/ChunkTrust/actions/workflows/core.yml)
@@ -216,7 +216,10 @@ docs/           Training, evaluation, integration and reproduction status
   title={ChunkTrust: Adapting Execution Horizons for Robot Policies with Action-Expert Evidence},
   author={Huang, Fanding and Jiang, Jingyan and Bao, Shifeng and Pu, Mingkang and Li, Shiwei and Xu, Jing and Xu, Shijia and Huang, Guanbo and Gu, Chenghao and Huang, Yuzhi and Li, Chenxin and Khan, Faisal Nadeem and Yang, Huan and Wang, Yan and Chi, Cheng and Wang, Zhi},
   year={2026},
-  url={https://hf618.github.io/ChunkTrust.github.io/}
+  eprint={2609.39754},
+  archivePrefix={arXiv},
+  primaryClass={cs.RO},
+  url={https://arxiv.org/abs/2609.39754}
 }
 ```
 
