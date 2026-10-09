@@ -20,9 +20,9 @@ Its SHA-256 is
 | Artifact | Purpose | Availability |
 |---|---|---|
 | pi0.5 QHA held-out6, step 10000 | Six-task trained head, two held-out tasks | Published; 7.14 MB with assets |
-| pi0.5 RoboTwin multitask50, step 30000 | RoboTwin 50-task Base/AHS | Upload queue; 12.44 GB |
-| Eight task-specific pi0.5 bases, step 20000 | Task-specific evaluation and RTC | Upload queue; 12.44 GB each |
-| Eight task-specific pi0 bases, step 30000 | Task-specific evaluation | Upload queue; 5.40 GB each |
+| pi0.5 RoboTwin multitask50, step 30000 | RoboTwin 50-task Base/AHS | Published; 12.44 GB |
+| Eight task-specific pi0.5 bases, step 20000 | Task-specific evaluation and RTC | All eight published; 12.44 GB each |
+| Eight task-specific pi0 bases, step 30000 | Task-specific evaluation | All eight published; 5.40 GB each |
 | pi0.5 RoboCasa GR1, step 30000 | RoboCasa Base/AHS | Existing [ModelScope package](https://modelscope.cn/models/NewGain/pi05_robocasa_gr1_tabletop24) |
 | Eight-task pi0 and pi0.5 QHA heads, step 5000 | Intermediate training snapshots | Published; Table 2A association remains unresolved |
 
@@ -48,7 +48,7 @@ training cache. Obtain benchmark assets through the benchmark's official
 instructions. A training-data package is not marked available until its schema,
 task split and checksums have been verified.
 
-As base checkpoints finish uploading, an updated catalog is published at
+The public model catalog is also available at
 [code/assets.json](https://huggingface.co/Niugan/ChunkTrust/blob/main/code/assets.json).
 Download that catalog, then pass `--catalog /path/to/assets.json` to
 `scripts/download_asset.py`. Each entry still pins an immutable model revision

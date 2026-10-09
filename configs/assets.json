@@ -1,4 +1,17 @@
 {
+  "video_4k": {
+    "status": "published",
+    "repo_id": "Niugan/ChunkTrust",
+    "revision": "ce2f5cb6a297d960297c0f700eaa6eced283bf2e",
+    "files": [
+      {
+        "remote_path": "media/ChunkTrust_work_intro_4k.mp4",
+        "local_path": "ChunkTrust_work_intro_4k.mp4",
+        "bytes": 88685428,
+        "sha256": "19c35d003ec93128ec41315dd1051f30274d241a319a9ca6f56e8214282868ff"
+      }
+    ]
+  },
   "qha_heldout": {
     "status": "published",
     "repo_id": "Niugan/ChunkTrust",
@@ -75,6 +88,2252 @@
         "local_path": "assets/_QHA_ONLY",
         "bytes": 1,
         "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+      }
+    ]
+  },
+  "pi05_blocks_ranking_rgb_clean50": {
+    "status": "published",
+    "repo_id": "Niugan/ChunkTrust",
+    "revision": "27f3ea9b026e5d7ed9f0594e5a6fdac046fa6daa",
+    "files": [
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_blocks_ranking_rgb_clean50/20000/assets/blocks_ranking_rgb_aloha-agilex_clean_50_repo/norm_stats.json",
+        "local_path": "assets/blocks_ranking_rgb_aloha-agilex_clean_50_repo/norm_stats.json",
+        "bytes": 3377,
+        "sha256": "6fe3bf837ec389c6bc6e3d54f836f2b79e4388692c4e42048436e664d3231d3e"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_blocks_ranking_rgb_clean50/20000/params/_METADATA",
+        "local_path": "params/_METADATA",
+        "bytes": 22038,
+        "sha256": "4292d734e52ebf8111126bc166d60a48c592d532472c2ca5461a283759ee8ea4"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_blocks_ranking_rgb_clean50/20000/params/_sharding",
+        "local_path": "params/_sharding",
+        "bytes": 15300,
+        "sha256": "1e9d1ab166a3644c567742d374d6ff2bf61bfa33ec505c36e24a3b34ebf700f3"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_blocks_ranking_rgb_clean50/20000/params/d/1c8d983cf10cd9692702bc3563cacde1",
+        "local_path": "params/d/1c8d983cf10cd9692702bc3563cacde1",
+        "bytes": 2967,
+        "sha256": "41656d4e6c4e23332fba85291cfaf846e4592feb944c494b36cc60cdbfad120a"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_blocks_ranking_rgb_clean50/20000/params/manifest.ocdbt",
+        "local_path": "params/manifest.ocdbt",
+        "bytes": 118,
+        "sha256": "8f6b5eb92bbf27ef92cf4ba1e2bd542d932686dab25750c148980ee4bf5cdf3f"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_blocks_ranking_rgb_clean50/20000/params/ocdbt.process_0/d/00607632d20e2ef2a1dab93c93047296",
+        "local_path": "params/ocdbt.process_0/d/00607632d20e2ef2a1dab93c93047296",
+        "bytes": 213,
+        "sha256": "fff2f8b328c86ab34912c01d5758210df1805bcd73e3709be401d1989b9b18c3"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_blocks_ranking_rgb_clean50/20000/params/ocdbt.process_0/d/148c3b32f538596bb065c0e6c39c35c2",
+        "local_path": "params/ocdbt.process_0/d/148c3b32f538596bb065c0e6c39c35c2",
+        "bytes": 489153110,
+        "sha256": "27cb0fc0b1ebb23d145bda0ff878cfc984a4d439850989dad686f20899387647"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_blocks_ranking_rgb_clean50/20000/params/ocdbt.process_0/d/179c6a316ff2bc9b63149e9c04b53e26",
+        "local_path": "params/ocdbt.process_0/d/179c6a316ff2bc9b63149e9c04b53e26",
+        "bytes": 1366474411,
+        "sha256": "5e104d0f713eab0cae3880403e1e28ffa4a16a974a872029ce46f3190c9eecb7"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_blocks_ranking_rgb_clean50/20000/params/ocdbt.process_0/d/239011365ab3fc34f688a2b1eeee0c2f",
+        "local_path": "params/ocdbt.process_0/d/239011365ab3fc34f688a2b1eeee0c2f",
+        "bytes": 887,
+        "sha256": "00e789f8b89702b411788fa26a58f9a6f58cf5465b261962ccbb74cca02883f5"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_blocks_ranking_rgb_clean50/20000/params/ocdbt.process_0/d/3127229defadb3075707cce1026d0d94",
+        "local_path": "params/ocdbt.process_0/d/3127229defadb3075707cce1026d0d94",
+        "bytes": 1238576,
+        "sha256": "d379a838988f5d3d02f6ecd17e967af19357178fad135c19d0877de8f6c253a6"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_blocks_ranking_rgb_clean50/20000/params/ocdbt.process_0/d/5f165b96dea6499a1d5a1de20f5b16bf",
+        "local_path": "params/ocdbt.process_0/d/5f165b96dea6499a1d5a1de20f5b16bf",
+        "bytes": 1120143002,
+        "sha256": "202818df95f13bcddf8cab4e4716d78f94e6b32a216646d4bae55cd3aeeca86f"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_blocks_ranking_rgb_clean50/20000/params/ocdbt.process_0/d/672aa203dc37f8c6cde1e69601ef7df7",
+        "local_path": "params/ocdbt.process_0/d/672aa203dc37f8c6cde1e69601ef7df7",
+        "bytes": 1120152040,
+        "sha256": "dc7f0ee0ae8411eef1bd2fd543a0d141ae23d16edd301a3f32712876957c6d24"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_blocks_ranking_rgb_clean50/20000/params/ocdbt.process_0/d/682cf4ca44ddff5b78d2653f2ab5b797",
+        "local_path": "params/ocdbt.process_0/d/682cf4ca44ddff5b78d2653f2ab5b797",
+        "bytes": 355,
+        "sha256": "92431e8462e302b81f1c0411489968a6e8ea1f4c2e7fad509a55a146fdc27ca3"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_blocks_ranking_rgb_clean50/20000/params/ocdbt.process_0/d/80a7564cd173e8057a43031b76d4b953",
+        "local_path": "params/ocdbt.process_0/d/80a7564cd173e8057a43031b76d4b953",
+        "bytes": 2843,
+        "sha256": "9c2a1ee31bf516f80df009512b692f80e12fa9ed02269cfc469b3110bb7931bc"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_blocks_ranking_rgb_clean50/20000/params/ocdbt.process_0/d/88a9cef1cd973b8877cb012b0d6e6a90",
+        "local_path": "params/ocdbt.process_0/d/88a9cef1cd973b8877cb012b0d6e6a90",
+        "bytes": 2240285286,
+        "sha256": "cf234d5a5acea5bef497634dbe43656b1f9cef6ac9d6bc17349e923ce5712620"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_blocks_ranking_rgb_clean50/20000/params/ocdbt.process_0/d/98b2c4661deee793b58209eb090139c7",
+        "local_path": "params/ocdbt.process_0/d/98b2c4661deee793b58209eb090139c7",
+        "bytes": 1467818504,
+        "sha256": "52e2869648c4848beefc3af36d973b088387a3aeb699b0166829ca5bf237b0f6"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_blocks_ranking_rgb_clean50/20000/params/ocdbt.process_0/d/b10b6a20db0d3cb16e69ff09beae6803",
+        "local_path": "params/ocdbt.process_0/d/b10b6a20db0d3cb16e69ff09beae6803",
+        "bytes": 602772188,
+        "sha256": "c4b3799f187a775b5d8a5436c8519c7098b030bf19c71fe38cc686e0c3caa91f"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_blocks_ranking_rgb_clean50/20000/params/ocdbt.process_0/d/b6380d96ddb909e22b28d65f18899ba4",
+        "local_path": "params/ocdbt.process_0/d/b6380d96ddb909e22b28d65f18899ba4",
+        "bytes": 2240570914,
+        "sha256": "f45a9a5debf02e3d91da9f3f9344179d75c5677d2dd14f1970d1c154ac512d34"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_blocks_ranking_rgb_clean50/20000/params/ocdbt.process_0/d/b811d9a06f4aec87db03acc773545cde",
+        "local_path": "params/ocdbt.process_0/d/b811d9a06f4aec87db03acc773545cde",
+        "bytes": 238350025,
+        "sha256": "a1b860a8c7141168a678d319249427bde843ebfb8d5b58f3771cddee94260d6c"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_blocks_ranking_rgb_clean50/20000/params/ocdbt.process_0/d/c8181b47dc370d4c8b83849548443bb5",
+        "local_path": "params/ocdbt.process_0/d/c8181b47dc370d4c8b83849548443bb5",
+        "bytes": 287,
+        "sha256": "43238e7a7f73f6cdb651ee147af330d6e734bb14d849285a4ba57c4ca5dafa90"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_blocks_ranking_rgb_clean50/20000/params/ocdbt.process_0/d/d86dc8b17f274a1e86a9568917827cd7",
+        "local_path": "params/ocdbt.process_0/d/d86dc8b17f274a1e86a9568917827cd7",
+        "bytes": 1553449057,
+        "sha256": "d8b09a2426efe2f7660077fdde31ebe2c4a2a471db21e0d854fa04e31e6d4586"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_blocks_ranking_rgb_clean50/20000/params/ocdbt.process_0/d/e8130d5c8f51049ab8901bc1ff610819",
+        "local_path": "params/ocdbt.process_0/d/e8130d5c8f51049ab8901bc1ff610819",
+        "bytes": 1080,
+        "sha256": "29c9bf4f8dfb16229f48749e77798870beb8545b2efc7e0891627f5015c2be29"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_blocks_ranking_rgb_clean50/20000/params/ocdbt.process_0/manifest.ocdbt",
+        "local_path": "params/ocdbt.process_0/manifest.ocdbt",
+        "bytes": 731,
+        "sha256": "e51c781bd7670881aaf5a9b3eba8fea2990dc6fe5abc1f20b0d9f166ff4c282e"
+      }
+    ]
+  },
+  "pi05_place_bread_basket_clean50": {
+    "status": "published",
+    "repo_id": "Niugan/ChunkTrust",
+    "revision": "edda97ce70b7f526c185b67a0f1eea3d7a78ee22",
+    "files": [
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/assets/place_bread_basket_aloha-agilex_clean_50_repo/norm_stats.json",
+        "local_path": "assets/place_bread_basket_aloha-agilex_clean_50_repo/norm_stats.json",
+        "bytes": 3339,
+        "sha256": "d81eb0d6b5ff616ae0cf8d65374a29ca90c5b06b04920401db8c44eea54b2177"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/_METADATA",
+        "local_path": "params/_METADATA",
+        "bytes": 22038,
+        "sha256": "4292d734e52ebf8111126bc166d60a48c592d532472c2ca5461a283759ee8ea4"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/_sharding",
+        "local_path": "params/_sharding",
+        "bytes": 15300,
+        "sha256": "1e9d1ab166a3644c567742d374d6ff2bf61bfa33ec505c36e24a3b34ebf700f3"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/d/344814594098a96fba13ee5db1cb8dc1",
+        "local_path": "params/d/344814594098a96fba13ee5db1cb8dc1",
+        "bytes": 3355,
+        "sha256": "fc1dfa797d721c46431e2078fb7251e360fbd4043da13bba4cd68d54f3875173"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/manifest.ocdbt",
+        "local_path": "params/manifest.ocdbt",
+        "bytes": 118,
+        "sha256": "301566bd600986a00cc4d76c5d8b2c19074f02f2f2a65b4030a6fde3976862df"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/0130be36a8adf2c75042a150c90791ff",
+        "local_path": "params/ocdbt.process_0/d/0130be36a8adf2c75042a150c90791ff",
+        "bytes": 372948513,
+        "sha256": "081609bd4579d930c8745a6a94d21f3cc07c872e2f36585525313a069555f6bf"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/09c6c2dd5b9428c30ed101c64e64e1df",
+        "local_path": "params/ocdbt.process_0/d/09c6c2dd5b9428c30ed101c64e64e1df",
+        "bytes": 489185681,
+        "sha256": "d842aa1a54b1159c619f1ca6ff8d6e5d88e3cccd28d1745e84c694920c3ce604"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/0b899ec2597bc15078048d3b203b8528",
+        "local_path": "params/ocdbt.process_0/d/0b899ec2597bc15078048d3b203b8528",
+        "bytes": 194301892,
+        "sha256": "5afd915d3b34ada7a36802cef72b9f07d62da54aa029d2bb2d0e0cd1314ccdf3"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/0e212c870f5c5662a39b5089490ffdfb",
+        "local_path": "params/ocdbt.process_0/d/0e212c870f5c5662a39b5089490ffdfb",
+        "bytes": 70052935,
+        "sha256": "28135f1ee6dd111bc5a37628db635aa4054219f5f93def4c52e069d449438422"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/0ee1f447318594b35e84d39ccf3dec09",
+        "local_path": "params/ocdbt.process_0/d/0ee1f447318594b35e84d39ccf3dec09",
+        "bytes": 70028955,
+        "sha256": "3d50272850ff96a5e9244eb8493009b60d989d3dc4e29ad72083b9b3c3462cf6"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/15a82de5d2fb4897988b0bd7fe7e423a",
+        "local_path": "params/ocdbt.process_0/d/15a82de5d2fb4897988b0bd7fe7e423a",
+        "bytes": 213,
+        "sha256": "fff2f8b328c86ab34912c01d5758210df1805bcd73e3709be401d1989b9b18c3"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/1a23ee15f235cdd88ab748d743e61806",
+        "local_path": "params/ocdbt.process_0/d/1a23ee15f235cdd88ab748d743e61806",
+        "bytes": 523,
+        "sha256": "9b523d318bd896b23cde4a176c888d9e8a9cd754ceaedab7183cdd5142e20f7e"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/23baaf519ea9ba95432e72346be5a750",
+        "local_path": "params/ocdbt.process_0/d/23baaf519ea9ba95432e72346be5a750",
+        "bytes": 348626409,
+        "sha256": "a3f018bef5baea686c04550a1c28937b58012c11d86b09ff747e86d189345fc4"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/30cd0fd01c6985a8736c23604d08eb4c",
+        "local_path": "params/ocdbt.process_0/d/30cd0fd01c6985a8736c23604d08eb4c",
+        "bytes": 9859283,
+        "sha256": "c95cda2e3e0d41e8cd3b797372f4c93d57cad26ff0d3fe92832c9442c1049f7f"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/32cbb3bea28ea4f0c073938ecf00aebd",
+        "local_path": "params/ocdbt.process_0/d/32cbb3bea28ea4f0c073938ecf00aebd",
+        "bytes": 451,
+        "sha256": "2471fe74f6f76a93a4a65a2a11b9802a56ccaa59a15b706d0713a1d44146e46d"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/4143d369dadcdb3f0a2c55261049bbaa",
+        "local_path": "params/ocdbt.process_0/d/4143d369dadcdb3f0a2c55261049bbaa",
+        "bytes": 264051224,
+        "sha256": "7a0a78f5aa431618e4e074b84e2c1d89b449019fbd1608bb01fabf3f28f2ff0a"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/43ccd83e15fe65825fa66955455a81f4",
+        "local_path": "params/ocdbt.process_0/d/43ccd83e15fe65825fa66955455a81f4",
+        "bytes": 1120144842,
+        "sha256": "9a48da21527abbcc00427249f432090b5092b3b6c670ef4b3f1c023e55a36000"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/58b876cd1e89b4c7a1fe49766eae83b4",
+        "local_path": "params/ocdbt.process_0/d/58b876cd1e89b4c7a1fe49766eae83b4",
+        "bytes": 184173986,
+        "sha256": "27db421a848c59e0c78b30ef9cd356772a20bb0e42025b12ac39b3b1f9fed7e5"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/59c26131cfd9e90f4c23c823e824e35e",
+        "local_path": "params/ocdbt.process_0/d/59c26131cfd9e90f4c23c823e824e35e",
+        "bytes": 52593854,
+        "sha256": "123a57d15067d710c0cd2008803020817c07a1438e8f6b51daa7fa0b095a7b21"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/5a7ac98c033b49b21a47cc8737c4833f",
+        "local_path": "params/ocdbt.process_0/d/5a7ac98c033b49b21a47cc8737c4833f",
+        "bytes": 317,
+        "sha256": "2ddb4c9f5459d8aa46c0a27bee7b6f1ac878a20f10e3f952138e2af7b6e6a526"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/6c867b62e2a3ca8d25693ac845654bf1",
+        "local_path": "params/ocdbt.process_0/d/6c867b62e2a3ca8d25693ac845654bf1",
+        "bytes": 174939711,
+        "sha256": "b1339851872fcfb7679235197bd73572af275bb5d974a69c76b5d839d4fb3404"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/6fe248e38081eb998d9062bd96ddb628",
+        "local_path": "params/ocdbt.process_0/d/6fe248e38081eb998d9062bd96ddb628",
+        "bytes": 324484852,
+        "sha256": "f4d35f5c7283784c12ff43100ebde0faefc8238a61ff59ec0ab234442bb9cd20"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/7514063ce06f426666af48590249c493",
+        "local_path": "params/ocdbt.process_0/d/7514063ce06f426666af48590249c493",
+        "bytes": 2684,
+        "sha256": "a00242b2ba458b4876f4ee259418c1529c3a377571e6de035ed5d0468a6029fc"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/79e0a745420f488bcfd125b43768ab77",
+        "local_path": "params/ocdbt.process_0/d/79e0a745420f488bcfd125b43768ab77",
+        "bytes": 70050523,
+        "sha256": "a4350f9e40ce216f918442904080d1ea30c48a9f31a0198bba1eb2d5b555664b"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/8896dddb76a7fa55bc4ddf4679b03199",
+        "local_path": "params/ocdbt.process_0/d/8896dddb76a7fa55bc4ddf4679b03199",
+        "bytes": 496,
+        "sha256": "c855fc3b8125a5b85dd99336b3e9d0cf936ddde1e56f743185b7843739494772"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/920cbd8f74c5290b76960eb1c14baff9",
+        "local_path": "params/ocdbt.process_0/d/920cbd8f74c5290b76960eb1c14baff9",
+        "bytes": 139793602,
+        "sha256": "0cc1f19b511c4c0b4296accdc501e158106991fbbb9e5b9240f684a650efdee4"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/9f4877d11958488af4f439d034184344",
+        "local_path": "params/ocdbt.process_0/d/9f4877d11958488af4f439d034184344",
+        "bytes": 2027932080,
+        "sha256": "b2db00b2170ee0cf121566def1d169e0fa750c638365a69a568ecd703d9b3bbb"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/a11013596f99e8ca2fb8d54ac074a40d",
+        "local_path": "params/ocdbt.process_0/d/a11013596f99e8ca2fb8d54ac074a40d",
+        "bytes": 139792773,
+        "sha256": "a2eba1a0710bf1239dd0abb943c7e8e97eefe4bcd1de21685d6b35d418b36d70"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/afb168f94d4a554dcb5c145d3c922e83",
+        "local_path": "params/ocdbt.process_0/d/afb168f94d4a554dcb5c145d3c922e83",
+        "bytes": 52697948,
+        "sha256": "2a87547fbcd86793f34804ac409ea87391ff8f8b221a71ba6472da57b6f989d1"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/affc64754c5b06d48eb80a27cfdaa3b9",
+        "local_path": "params/ocdbt.process_0/d/affc64754c5b06d48eb80a27cfdaa3b9",
+        "bytes": 69996909,
+        "sha256": "c8975a6fe81a20b88f1265a8879d19af65848747343dfb2b9b9268af062130b5"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/b9de9024348d2e76910c70dce8cab2b0",
+        "local_path": "params/ocdbt.process_0/d/b9de9024348d2e76910c70dce8cab2b0",
+        "bytes": 1080,
+        "sha256": "29c9bf4f8dfb16229f48749e77798870beb8545b2efc7e0891627f5015c2be29"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/bad0e33e3e4dce7d22365d0cd5ff1ed7",
+        "local_path": "params/ocdbt.process_0/d/bad0e33e3e4dce7d22365d0cd5ff1ed7",
+        "bytes": 124260747,
+        "sha256": "baaef76d31ee3d0e2418423f9250901555cbe224cbd64ae5ff94681fc35ca657"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/bf5ee0934df614ff8e4ebd093ad9bca3",
+        "local_path": "params/ocdbt.process_0/d/bf5ee0934df614ff8e4ebd093ad9bca3",
+        "bytes": 122751167,
+        "sha256": "c2fcbd9b72a19b790cd9761f30a47fcc63781270c9e74923a3281e46d6a0317c"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/c28c14f00591f03299f60dea9a83f02f",
+        "local_path": "params/ocdbt.process_0/d/c28c14f00591f03299f60dea9a83f02f",
+        "bytes": 17514498,
+        "sha256": "afcc691feecbfbbce02498b8a0b483bf43d53b17fc6c18622cc91f48697b027f"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/c917f2efa4e952a0c34f020a6184b51c",
+        "local_path": "params/ocdbt.process_0/d/c917f2efa4e952a0c34f020a6184b51c",
+        "bytes": 124260510,
+        "sha256": "39459fb069bfb9baa541b81ff4957a2f7de309ebaf1ec6cf0f827b634064d0c3"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/cca00c38f4b303477b836aca016e195d",
+        "local_path": "params/ocdbt.process_0/d/cca00c38f4b303477b836aca016e195d",
+        "bytes": 139792211,
+        "sha256": "94977ce8799f3cd55d1745c18dc610c0c1eb20e10a4bd74ee393a6cc40acdf41"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/cee2f44c5fe680d418b9475aee3661e8",
+        "local_path": "params/ocdbt.process_0/d/cee2f44c5fe680d418b9475aee3661e8",
+        "bytes": 1680436686,
+        "sha256": "f22d6f8934fa75cfecd2ad923615c11a0a1df7ca6cfbd828990e27409771841c"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/cfdee9fab8af143d2c0ec9e22ca4ff43",
+        "local_path": "params/ocdbt.process_0/d/cfdee9fab8af143d2c0ec9e22ca4ff43",
+        "bytes": 210011325,
+        "sha256": "56b29d888b9bd00fc1cf3731ae69576d776523c487297d78e74143fd03b8f0b6"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/d6046c4bafbc711c9a46ced87601bf99",
+        "local_path": "params/ocdbt.process_0/d/d6046c4bafbc711c9a46ced87601bf99",
+        "bytes": 1120139569,
+        "sha256": "2b0a3287a9c87517edb0e80f4a4445759889d9e911dda233696c45c7c560055c"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/d73f5b2a8a719f8bbacf3de48290c2bf",
+        "local_path": "params/ocdbt.process_0/d/d73f5b2a8a719f8bbacf3de48290c2bf",
+        "bytes": 2240296032,
+        "sha256": "6cdf2a9e6c758111f1990e7b83b4a7921a130e3794ca1140506f5e77913cbd44"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/dedadf8f7182ebe3f216512729740458",
+        "local_path": "params/ocdbt.process_0/d/dedadf8f7182ebe3f216512729740458",
+        "bytes": 124321281,
+        "sha256": "43c7ab1c08c3a1c996d567a62d7e1bf670feebbd11617b656f778302134b9cc0"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/f85ad296dbe599c8343381a7c667997e",
+        "local_path": "params/ocdbt.process_0/d/f85ad296dbe599c8343381a7c667997e",
+        "bytes": 261255992,
+        "sha256": "0d7e509fad0d04267a5d31b881d8dda6a8d3aa2d15dcfd8c935d972dbc0d4d15"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/d/f89f7ec6c5d1648e490d9bf6ac117706",
+        "local_path": "params/ocdbt.process_0/d/f89f7ec6c5d1648e490d9bf6ac117706",
+        "bytes": 99775487,
+        "sha256": "03c8f57a1e609bdbccc83b13fc59ec5bcc61230ab77292f9f10cf69dbfd52314"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_basket_clean50/20000/params/ocdbt.process_0/manifest.ocdbt",
+        "local_path": "params/ocdbt.process_0/manifest.ocdbt",
+        "bytes": 376,
+        "sha256": "a8b9d16acdb692698a5699bb490214ed28e7368c63bcb0db98dc24819867c31e"
+      }
+    ]
+  },
+  "pi0_blocks_ranking_rgb_clean50": {
+    "status": "published",
+    "repo_id": "Niugan/ChunkTrust",
+    "revision": "943bec6a2c3f93c137f0f59a059556c52d9dacc3",
+    "files": [
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_blocks_ranking_rgb_clean50/30000/_CHECKPOINT_METADATA",
+        "local_path": "_CHECKPOINT_METADATA",
+        "bytes": 417,
+        "sha256": "06fe539b8f151df0c585180fbf6b81ab7bd0b5cea3ddd6f394162b838c155922"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_blocks_ranking_rgb_clean50/30000/assets/blocks_ranking_rgb_aloha-agilex_clean_50_repo/norm_stats.json",
+        "local_path": "assets/blocks_ranking_rgb_aloha-agilex_clean_50_repo/norm_stats.json",
+        "bytes": 5242,
+        "sha256": "697005dc8ab5aa4a86f46baf461fc9e39b6fb4317b1b28abcaadfbe7ab906e78"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_blocks_ranking_rgb_clean50/30000/params/_METADATA",
+        "local_path": "params/_METADATA",
+        "bytes": 29988,
+        "sha256": "25b2cece8bfacb05d448290b58c7d94ee90400afb4c09ee478279e64065dd144"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_blocks_ranking_rgb_clean50/30000/params/_sharding",
+        "local_path": "params/_sharding",
+        "bytes": 20583,
+        "sha256": "54f2eacb4a9da6c6d3565bd58ee99fbc29e73b3808c8678870c08104882b1f7d"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_blocks_ranking_rgb_clean50/30000/params/d/ca58b322c31731a8361979fe4cff777f",
+        "local_path": "params/d/ca58b322c31731a8361979fe4cff777f",
+        "bytes": 2689,
+        "sha256": "4a03af82c3d587ac128e1ce98a6ce5c24d0cb298f83b4362db1e7fedfe3a3ad4"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_blocks_ranking_rgb_clean50/30000/params/manifest.ocdbt",
+        "local_path": "params/manifest.ocdbt",
+        "bytes": 118,
+        "sha256": "e5e7872ff6af4a096404a6f86a9a7744adb1c8533b26ff97e7eb6311b49ab645"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_blocks_ranking_rgb_clean50/30000/params/ocdbt.process_0/d/0f7366498ac1669fc57bca5bad9a1295",
+        "local_path": "params/ocdbt.process_0/d/0f7366498ac1669fc57bca5bad9a1295",
+        "bytes": 689534807,
+        "sha256": "593aec18990c347b01f91609b139452641e6c8408e7fbab8d1a49dabeab6941b"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_blocks_ranking_rgb_clean50/30000/params/ocdbt.process_0/d/16f32f60e39041fe3a55f5357877759e",
+        "local_path": "params/ocdbt.process_0/d/16f32f60e39041fe3a55f5357877759e",
+        "bytes": 13416595,
+        "sha256": "bef43af7749fe7d377686392e55778a9a74cd2d3d985a49bdcdcea63aeb1d40e"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_blocks_ranking_rgb_clean50/30000/params/ocdbt.process_0/d/1f0861d8a7b09a71a53733f756f22a46",
+        "local_path": "params/ocdbt.process_0/d/1f0861d8a7b09a71a53733f756f22a46",
+        "bytes": 195397859,
+        "sha256": "c68635297e9c2800a1ec8d7800ed4b703caa713cdb7b3c6f24f972b5bd728b75"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_blocks_ranking_rgb_clean50/30000/params/ocdbt.process_0/d/2db87561e7afc751b2a42640ef0afa52",
+        "local_path": "params/ocdbt.process_0/d/2db87561e7afc751b2a42640ef0afa52",
+        "bytes": 53526264,
+        "sha256": "f9539a621adef5a15fca531bb56e254b3eeeb485b2de327a67dad9175ce9a980"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_blocks_ranking_rgb_clean50/30000/params/ocdbt.process_0/d/3884f067d7c4ddd253b5479d9fe3a6eb",
+        "local_path": "params/ocdbt.process_0/d/3884f067d7c4ddd253b5479d9fe3a6eb",
+        "bytes": 230,
+        "sha256": "3313fa2b0bca853ac26633498f057821c74e7e87559a084dd78a2318f10e0bc3"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_blocks_ranking_rgb_clean50/30000/params/ocdbt.process_0/d/38ebc1f26d441cf5191bcb3cbb78b6b2",
+        "local_path": "params/ocdbt.process_0/d/38ebc1f26d441cf5191bcb3cbb78b6b2",
+        "bytes": 121336518,
+        "sha256": "4c0ad9c4cad8a8047b0b72a27d1921285384a2e5166e869b33eadda6565abca0"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_blocks_ranking_rgb_clean50/30000/params/ocdbt.process_0/d/51219229d558fabaf7e90fc6950fe76e",
+        "local_path": "params/ocdbt.process_0/d/51219229d558fabaf7e90fc6950fe76e",
+        "bytes": 49026464,
+        "sha256": "b9a321354426e0ab097248d041077d5b3a58cc89e0783c02d2092f7c41f81f51"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_blocks_ranking_rgb_clean50/30000/params/ocdbt.process_0/d/572eef708c46a44321eb5514eabad956",
+        "local_path": "params/ocdbt.process_0/d/572eef708c46a44321eb5514eabad956",
+        "bytes": 784936504,
+        "sha256": "bd8b29584d25dbc77c10d7b9f7138bf87c4c8cc4a8d1cbecec08572ee3cf631d"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_blocks_ranking_rgb_clean50/30000/params/ocdbt.process_0/d/5823f5f322ca34d601708a39162d6c18",
+        "local_path": "params/ocdbt.process_0/d/5823f5f322ca34d601708a39162d6c18",
+        "bytes": 1363,
+        "sha256": "62e19cfba87ffeb3dd905f8a32566cfd2360f9271de6df279eb2f8bdc67a235e"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_blocks_ranking_rgb_clean50/30000/params/ocdbt.process_0/d/6eb8e9d84fef6a48e2e36f313738b200",
+        "local_path": "params/ocdbt.process_0/d/6eb8e9d84fef6a48e2e36f313738b200",
+        "bytes": 2288,
+        "sha256": "fac2e9a0b0a0762897f63e3cd508bc763852142261d8bb02b4fac903a9a277b2"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_blocks_ranking_rgb_clean50/30000/params/ocdbt.process_0/d/7e57e0e82deb1193040fd7eb01fe64c0",
+        "local_path": "params/ocdbt.process_0/d/7e57e0e82deb1193040fd7eb01fe64c0",
+        "bytes": 496765364,
+        "sha256": "00160e4b5a40a31367f7d37a3b22cae9ef8f96d571c25913f3ef83ea093368f8"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_blocks_ranking_rgb_clean50/30000/params/ocdbt.process_0/d/9dba14ce0ce90101a35e3fedda670b39",
+        "local_path": "params/ocdbt.process_0/d/9dba14ce0ce90101a35e3fedda670b39",
+        "bytes": 784969506,
+        "sha256": "dc5b06028edf287527042bd3cf6173a270ec88286e339a1fcdfdbc0a30727413"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_blocks_ranking_rgb_clean50/30000/params/ocdbt.process_0/d/b0d1a1d2bce4385de7fd52c3652bdc2c",
+        "local_path": "params/ocdbt.process_0/d/b0d1a1d2bce4385de7fd52c3652bdc2c",
+        "bytes": 692363299,
+        "sha256": "8ad4af83eaac970dcb3ecf29e89999fa2e8dc5e7e87cd1b3077666c1c495f23b"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_blocks_ranking_rgb_clean50/30000/params/ocdbt.process_0/d/c4cbf1982a450b0e8d921ae3c9859fc2",
+        "local_path": "params/ocdbt.process_0/d/c4cbf1982a450b0e8d921ae3c9859fc2",
+        "bytes": 497038510,
+        "sha256": "eade36df6024e64dcf77dd43bce9428bee93d96e620aca99a6b5127752b2aca0"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_blocks_ranking_rgb_clean50/30000/params/ocdbt.process_0/d/c98dc5f266521b344a4fca89fba27114",
+        "local_path": "params/ocdbt.process_0/d/c98dc5f266521b344a4fca89fba27114",
+        "bytes": 784971471,
+        "sha256": "927b4211a07027e63441fae7a91f3e5c703c3c7abf9120dc773d13ef622200af"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_blocks_ranking_rgb_clean50/30000/params/ocdbt.process_0/d/d2490e360b9130f4dd2d42b961d2e2cc",
+        "local_path": "params/ocdbt.process_0/d/d2490e360b9130f4dd2d42b961d2e2cc",
+        "bytes": 132939552,
+        "sha256": "096700d7b9b63884759d206579985dc7d1d29bfea4b67719344c5605653127d5"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_blocks_ranking_rgb_clean50/30000/params/ocdbt.process_0/d/dd1d1389141ea67bfb936a191c609558",
+        "local_path": "params/ocdbt.process_0/d/dd1d1389141ea67bfb936a191c609558",
+        "bytes": 108425454,
+        "sha256": "8cd32bf17e37f57f56396acb35dc6dfd43a175e449ec5eea37e2e7ef281b61dc"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_blocks_ranking_rgb_clean50/30000/params/ocdbt.process_0/d/f388472cd68e4a00bcfd8b3df2396305",
+        "local_path": "params/ocdbt.process_0/d/f388472cd68e4a00bcfd8b3df2396305",
+        "bytes": 982,
+        "sha256": "b52e74d1f3735e577953b4dde4a3ab58877179315d4419f268e56d265457a354"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_blocks_ranking_rgb_clean50/30000/params/ocdbt.process_0/manifest.ocdbt",
+        "local_path": "params/ocdbt.process_0/manifest.ocdbt",
+        "bytes": 202,
+        "sha256": "112c972ec3a037a87cb8c68f450d90f8d092b46fb7854602a35d07b4446958ed"
+      }
+    ]
+  },
+  "pi0_handover_block_clean50": {
+    "status": "published",
+    "repo_id": "Niugan/ChunkTrust",
+    "revision": "b8585928910cde5034f18767a6757557b520c88a",
+    "files": [
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_block_clean50/30000/_CHECKPOINT_METADATA",
+        "local_path": "_CHECKPOINT_METADATA",
+        "bytes": 417,
+        "sha256": "dc8b41afa5338af049e3ac088b00f83bd9d44717c3b5c0e1bd57088a5cd6c1ac"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_block_clean50/30000/assets/handover_block_aloha-agilex_clean_50_repo/norm_stats.json",
+        "local_path": "assets/handover_block_aloha-agilex_clean_50_repo/norm_stats.json",
+        "bytes": 5192,
+        "sha256": "47dc94baf08a5f5c3e7500e9f00dc3a025e7ca76c2a1ecef142d6dba7ca21f52"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_block_clean50/30000/params/_METADATA",
+        "local_path": "params/_METADATA",
+        "bytes": 29988,
+        "sha256": "25b2cece8bfacb05d448290b58c7d94ee90400afb4c09ee478279e64065dd144"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_block_clean50/30000/params/_sharding",
+        "local_path": "params/_sharding",
+        "bytes": 20583,
+        "sha256": "54f2eacb4a9da6c6d3565bd58ee99fbc29e73b3808c8678870c08104882b1f7d"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_block_clean50/30000/params/d/564f1a2cbf67977430beec3527920e3e",
+        "local_path": "params/d/564f1a2cbf67977430beec3527920e3e",
+        "bytes": 2748,
+        "sha256": "01e89c7d93eec6a469713d5746826300899b42a105142121e6d9e1029ed88ef6"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_block_clean50/30000/params/manifest.ocdbt",
+        "local_path": "params/manifest.ocdbt",
+        "bytes": 118,
+        "sha256": "68f59af898677eeb23a342f73fc3bb78fa9266ffa8269beabbf7b262cfd8af72"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_block_clean50/30000/params/ocdbt.process_0/d/0bd36ae4fa3a0710748d37bb9a2f959c",
+        "local_path": "params/ocdbt.process_0/d/0bd36ae4fa3a0710748d37bb9a2f959c",
+        "bytes": 159665919,
+        "sha256": "6e963048956a636e7fcc351bd9c5c3dd30b878c8111db8863d473a4dac10c1c2"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_block_clean50/30000/params/ocdbt.process_0/d/267ce5ff751dc1bbd77c12a5059db66f",
+        "local_path": "params/ocdbt.process_0/d/267ce5ff751dc1bbd77c12a5059db66f",
+        "bytes": 784969533,
+        "sha256": "6e13f56260712cbdf3463108272d96a37e936e9196939557fb9c1b0528e44bf3"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_block_clean50/30000/params/ocdbt.process_0/d/2aa41729f4672dd5681f1acd6ac36e98",
+        "local_path": "params/ocdbt.process_0/d/2aa41729f4672dd5681f1acd6ac36e98",
+        "bytes": 98114099,
+        "sha256": "859756028c4380219986a031b09bdeb4ed2467ac178607df65685d5d43f0a240"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_block_clean50/30000/params/ocdbt.process_0/d/309cbd50eb77717f7ca6de41aa1e0698",
+        "local_path": "params/ocdbt.process_0/d/309cbd50eb77717f7ca6de41aa1e0698",
+        "bytes": 1363,
+        "sha256": "62e19cfba87ffeb3dd905f8a32566cfd2360f9271de6df279eb2f8bdc67a235e"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_block_clean50/30000/params/ocdbt.process_0/d/3a495aca77536cc565688389a6296bc6",
+        "local_path": "params/ocdbt.process_0/d/3a495aca77536cc565688389a6296bc6",
+        "bytes": 496757488,
+        "sha256": "b48aa6568f5600eacf4f5b1e8b6e9d8f368323ab103effeb92586f9ecb998920"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_block_clean50/30000/params/ocdbt.process_0/d/4819c497373124af7ddf4ab86fa28445",
+        "local_path": "params/ocdbt.process_0/d/4819c497373124af7ddf4ab86fa28445",
+        "bytes": 230170636,
+        "sha256": "3a2aaf857e02fc0d35f36a6f418f005e0698e02860198a9e578078afaafcfb42"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_block_clean50/30000/params/ocdbt.process_0/d/4de27f5c628726d939cbdb6cfbf3cc55",
+        "local_path": "params/ocdbt.process_0/d/4de27f5c628726d939cbdb6cfbf3cc55",
+        "bytes": 213,
+        "sha256": "fff2f8b328c86ab34912c01d5758210df1805bcd73e3709be401d1989b9b18c3"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_block_clean50/30000/params/ocdbt.process_0/d/4f323955889d0efbb081b892c227c55b",
+        "local_path": "params/ocdbt.process_0/d/4f323955889d0efbb081b892c227c55b",
+        "bytes": 24607821,
+        "sha256": "179c628b77271bcc3abca6fb261e4ecdbd62e9bfbe81e743de34bc108a8c2c78"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_block_clean50/30000/params/ocdbt.process_0/d/5d23aaeea7eac09394d5c4ce477a8ccc",
+        "local_path": "params/ocdbt.process_0/d/5d23aaeea7eac09394d5c4ce477a8ccc",
+        "bytes": 497034293,
+        "sha256": "36e6ac178f70388e86ac6e7f6868f92706c334e420bf04344a0cf54b28b306a3"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_block_clean50/30000/params/ocdbt.process_0/d/71caf7667477325e652891bba746b4d3",
+        "local_path": "params/ocdbt.process_0/d/71caf7667477325e652891bba746b4d3",
+        "bytes": 195397940,
+        "sha256": "3a15ded905990a12b82a1160f85e32741fe0a717cc91cac4ae1dd898033612eb"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_block_clean50/30000/params/ocdbt.process_0/d/72519a672444e5eca7733bfcfe0b195a",
+        "local_path": "params/ocdbt.process_0/d/72519a672444e5eca7733bfcfe0b195a",
+        "bytes": 784937424,
+        "sha256": "24b688b0d9b2505f853282f745465483c73f7b58b047f8bc44efd191ba30a1e2"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_block_clean50/30000/params/ocdbt.process_0/d/7cab5a7b294a9cefbaae7a90ed2a333e",
+        "local_path": "params/ocdbt.process_0/d/7cab5a7b294a9cefbaae7a90ed2a333e",
+        "bytes": 49026465,
+        "sha256": "45fabf1fffaa00298a68477e769ebca6ba66c3c6ed229f2f0106ec82424d47fc"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_block_clean50/30000/params/ocdbt.process_0/d/823559e9e48ffa3867834f9b03aa6db5",
+        "local_path": "params/ocdbt.process_0/d/823559e9e48ffa3867834f9b03aa6db5",
+        "bytes": 5712,
+        "sha256": "ce34672516a6d4ec5e404513f03d172be0ec60e3bfb5926eaebc1c36b4a5ab4a"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_block_clean50/30000/params/ocdbt.process_0/d/827694ade6a8a177b765d2dc22e49df4",
+        "local_path": "params/ocdbt.process_0/d/827694ade6a8a177b765d2dc22e49df4",
+        "bytes": 784970732,
+        "sha256": "3765e4a1ed4491abc6554810a95485cc983ea5ef5b3a6d1f225b675aad313222"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_block_clean50/30000/params/ocdbt.process_0/d/92b3c2460fc50cb3e0b8d6478b737717",
+        "local_path": "params/ocdbt.process_0/d/92b3c2460fc50cb3e0b8d6478b737717",
+        "bytes": 63538132,
+        "sha256": "5b99d1bf401cdc47c10e143e24b3586d7dce2a997b2b3b10ceac31d9e80da756"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_block_clean50/30000/params/ocdbt.process_0/d/c693f71eb58b397eabd90f9e411b26a6",
+        "local_path": "params/ocdbt.process_0/d/c693f71eb58b397eabd90f9e411b26a6",
+        "bytes": 48896560,
+        "sha256": "c5603b68d0f0b3e41e14ca22b9c44b5c0b5195d8cc33619fc55ac115a184a8a3"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_block_clean50/30000/params/ocdbt.process_0/d/cb6e63066191156a093efae85b606e2f",
+        "local_path": "params/ocdbt.process_0/d/cb6e63066191156a093efae85b606e2f",
+        "bytes": 398750977,
+        "sha256": "da73b80a290138eb5ef4b63f7b9f07caf9ff5f95b2cb5ce3074467741c3c9bd7"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_block_clean50/30000/params/ocdbt.process_0/d/e0a2f27339ca01bbf7df8f17814407c3",
+        "local_path": "params/ocdbt.process_0/d/e0a2f27339ca01bbf7df8f17814407c3",
+        "bytes": 98271083,
+        "sha256": "a31bf62954d66193a8478c79b39500a02e45201e1c752e7b8ca2736a61b7276a"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_block_clean50/30000/params/ocdbt.process_0/d/e3750fa32ce375ac2f21d22f6aab02ee",
+        "local_path": "params/ocdbt.process_0/d/e3750fa32ce375ac2f21d22f6aab02ee",
+        "bytes": 689534880,
+        "sha256": "f106296a90cb452564ee5be47f6ddc66fb90a39cc029a5b20dee6285b3bcef6c"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_block_clean50/30000/params/ocdbt.process_0/manifest.ocdbt",
+        "local_path": "params/ocdbt.process_0/manifest.ocdbt",
+        "bytes": 264,
+        "sha256": "d672b9d0a3fe28c12e5e23e91b3c04c8ce51f5b088061e99f175b621de53ba62"
+      }
+    ]
+  },
+  "pi0_handover_mic_clean50": {
+    "status": "published",
+    "repo_id": "Niugan/ChunkTrust",
+    "revision": "64b5fb4a4a2c8f87c529ff8e26a1aad54889f900",
+    "files": [
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_mic_clean50/30000/_CHECKPOINT_METADATA",
+        "local_path": "_CHECKPOINT_METADATA",
+        "bytes": 417,
+        "sha256": "6a1b72d2a54f1798f188e8b797bb4fd7927456a2faedb3a7e1cfc8a10cca9bfa"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_mic_clean50/30000/assets/handover_mic_aloha-agilex_clean_50_repo/norm_stats.json",
+        "local_path": "assets/handover_mic_aloha-agilex_clean_50_repo/norm_stats.json",
+        "bytes": 5144,
+        "sha256": "9bfac887a82a5968faea239061911987678888962d95b2f4045a225e5b3c4039"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_mic_clean50/30000/params/_METADATA",
+        "local_path": "params/_METADATA",
+        "bytes": 29988,
+        "sha256": "25b2cece8bfacb05d448290b58c7d94ee90400afb4c09ee478279e64065dd144"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_mic_clean50/30000/params/_sharding",
+        "local_path": "params/_sharding",
+        "bytes": 20583,
+        "sha256": "54f2eacb4a9da6c6d3565bd58ee99fbc29e73b3808c8678870c08104882b1f7d"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_mic_clean50/30000/params/d/fff1bdcb1038566ab9a82cacc00e6089",
+        "local_path": "params/d/fff1bdcb1038566ab9a82cacc00e6089",
+        "bytes": 2689,
+        "sha256": "837a1efeb1fcb23fd154bdf868ba989dbee40e6459c8aac856727a96356216f2"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_mic_clean50/30000/params/manifest.ocdbt",
+        "local_path": "params/manifest.ocdbt",
+        "bytes": 118,
+        "sha256": "acbf362cca66ffe0df5658f63e895952cb789bc32648b57713db0d848d83df2f"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_mic_clean50/30000/params/ocdbt.process_0/d/039db1df5f361d4632cb9a6a45b38807",
+        "local_path": "params/ocdbt.process_0/d/039db1df5f361d4632cb9a6a45b38807",
+        "bytes": 98758456,
+        "sha256": "c5aca579933052db1c049cd21d9e19a758cd2017656b0047d52e7c799cf10f49"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_mic_clean50/30000/params/ocdbt.process_0/d/07c02dd03be2a5a26e4e6d634b9f0cc4",
+        "local_path": "params/ocdbt.process_0/d/07c02dd03be2a5a26e4e6d634b9f0cc4",
+        "bytes": 594223490,
+        "sha256": "1df85f94fd8d50c4dd841e4e1d93c52c86d616479f2b52726104cdd269109e48"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_mic_clean50/30000/params/ocdbt.process_0/d/17dce178e26bf0aaa2636d383027fb77",
+        "local_path": "params/ocdbt.process_0/d/17dce178e26bf0aaa2636d383027fb77",
+        "bytes": 496759027,
+        "sha256": "85a114b7ca870564aeaf43f2d5a2681f60c96475a170f57bb4b9c46cdbdac1fd"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_mic_clean50/30000/params/ocdbt.process_0/d/3557121dc8665df83c3fdffbc66a73a1",
+        "local_path": "params/ocdbt.process_0/d/3557121dc8665df83c3fdffbc66a73a1",
+        "bytes": 497035153,
+        "sha256": "7113af94de4f8b73c48e33b3264d849414fbb0b2059dbf8b8b2bdb700eeb7366"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_mic_clean50/30000/params/ocdbt.process_0/d/47a909c2024a5b4521b3df77f3880b9e",
+        "local_path": "params/ocdbt.process_0/d/47a909c2024a5b4521b3df77f3880b9e",
+        "bytes": 195397859,
+        "sha256": "73316176dd29c70d48ca338cc375491dc390f989d514dfd1e41be71cd6217e9b"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_mic_clean50/30000/params/ocdbt.process_0/d/58ac6601cc939dd0daa884efefff22f3",
+        "local_path": "params/ocdbt.process_0/d/58ac6601cc939dd0daa884efefff22f3",
+        "bytes": 48896516,
+        "sha256": "f1f0f2a09d0c773d5a93b20761b910b5c3e368d043f4a661fdbf95be1bed483b"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_mic_clean50/30000/params/ocdbt.process_0/d/6a79a408f5c076f9359007f964dd4e30",
+        "local_path": "params/ocdbt.process_0/d/6a79a408f5c076f9359007f964dd4e30",
+        "bytes": 784969515,
+        "sha256": "724c402093cda88d122b58ef83365384c00b55bb267d58587cbc3b2e10ccbb07"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_mic_clean50/30000/params/ocdbt.process_0/d/870392e5a87683f58f5b44f0c98b4af9",
+        "local_path": "params/ocdbt.process_0/d/870392e5a87683f58f5b44f0c98b4af9",
+        "bytes": 1401,
+        "sha256": "5a65b6e802d015cc4a916645169f80e5522f313527414b0997ed5fb37e1ac0e4"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_mic_clean50/30000/params/ocdbt.process_0/d/884a3ef139f13d6ad81bceea278983fd",
+        "local_path": "params/ocdbt.process_0/d/884a3ef139f13d6ad81bceea278983fd",
+        "bytes": 5671,
+        "sha256": "f395c11bbe22616ceeb1b932d29ef0af1aedbbe468791cd48988a5a0916c9cdc"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_mic_clean50/30000/params/ocdbt.process_0/d/b08b4b652e57f70f9b6c163fdac1b69d",
+        "local_path": "params/ocdbt.process_0/d/b08b4b652e57f70f9b6c163fdac1b69d",
+        "bytes": 213,
+        "sha256": "fff2f8b328c86ab34912c01d5758210df1805bcd73e3709be401d1989b9b18c3"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_mic_clean50/30000/params/ocdbt.process_0/d/ba0531637b0e861b4698dc6a421bf34b",
+        "local_path": "params/ocdbt.process_0/d/ba0531637b0e861b4698dc6a421bf34b",
+        "bytes": 784936498,
+        "sha256": "53b10236a115197f32019577f91c1fdcb2e1b09baba034484f9fb40882d714f8"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_mic_clean50/30000/params/ocdbt.process_0/d/cc20e1d15ad3ed5510fa002ad983b6b9",
+        "local_path": "params/ocdbt.process_0/d/cc20e1d15ad3ed5510fa002ad983b6b9",
+        "bytes": 689534806,
+        "sha256": "70b1b8a7061d43dbe5da67195fc568d330a4bdbb952921feb8ca136624682bbf"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_mic_clean50/30000/params/ocdbt.process_0/d/cdc94e58d064d19eb8182020917fd858",
+        "local_path": "params/ocdbt.process_0/d/cdc94e58d064d19eb8182020917fd858",
+        "bytes": 784970631,
+        "sha256": "a0117abfd8245ff8a16a8b1e5bd0c12f1af0d23c36b75b4d7d8d722d6fe4c149"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_mic_clean50/30000/params/ocdbt.process_0/d/d282629a194fce95e1580f172bfd7823",
+        "local_path": "params/ocdbt.process_0/d/d282629a194fce95e1580f172bfd7823",
+        "bytes": 98114062,
+        "sha256": "45d960c9f5b1db09deac62683ac20338a2c2848c0617181daeaa3e3fe3ce9606"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_mic_clean50/30000/params/ocdbt.process_0/d/ed9fb06e618f91f79caf6dea1cb143d3",
+        "local_path": "params/ocdbt.process_0/d/ed9fb06e618f91f79caf6dea1cb143d3",
+        "bytes": 132966828,
+        "sha256": "e23ca69ec21ec07c180eb9848001027336fea26a0578d1bc8121576d2f61a12c"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_mic_clean50/30000/params/ocdbt.process_0/d/fe9b2aae4e9f57e837e5a351fc8a2a2f",
+        "local_path": "params/ocdbt.process_0/d/fe9b2aae4e9f57e837e5a351fc8a2a2f",
+        "bytes": 198075226,
+        "sha256": "756005bfe7506b14978b8cdbb429459df22015e7b9691f334169609b7bc31c8a"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_handover_mic_clean50/30000/params/ocdbt.process_0/manifest.ocdbt",
+        "local_path": "params/ocdbt.process_0/manifest.ocdbt",
+        "bytes": 805,
+        "sha256": "8134526a43e126990586bf767e27df15cf4527141912cb2bcd9fa13cb4b479de"
+      }
+    ]
+  },
+  "pi0_hanging_mug_clean50": {
+    "status": "published",
+    "repo_id": "Niugan/ChunkTrust",
+    "revision": "371ba2ad9a1f9157ea92dbf0a6510e56fc3a4d95",
+    "files": [
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_hanging_mug_clean50/30000/_CHECKPOINT_METADATA",
+        "local_path": "_CHECKPOINT_METADATA",
+        "bytes": 417,
+        "sha256": "84a02ae775fb4261f7978c9d1e9b31197a54f52ddc14da305d45df3556ea38e4"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_hanging_mug_clean50/30000/assets/hanging_mug_aloha-agilex_clean_50_repo/norm_stats.json",
+        "local_path": "assets/hanging_mug_aloha-agilex_clean_50_repo/norm_stats.json",
+        "bytes": 5209,
+        "sha256": "061a8d70538f44f1f01098c8cd60e2c8b0b7488185e22b4f01f06d322ec57638"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_hanging_mug_clean50/30000/params/_METADATA",
+        "local_path": "params/_METADATA",
+        "bytes": 29988,
+        "sha256": "25b2cece8bfacb05d448290b58c7d94ee90400afb4c09ee478279e64065dd144"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_hanging_mug_clean50/30000/params/_sharding",
+        "local_path": "params/_sharding",
+        "bytes": 20583,
+        "sha256": "54f2eacb4a9da6c6d3565bd58ee99fbc29e73b3808c8678870c08104882b1f7d"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_hanging_mug_clean50/30000/params/d/ce10011806bd5a24b0c57af484f7a9b6",
+        "local_path": "params/d/ce10011806bd5a24b0c57af484f7a9b6",
+        "bytes": 2717,
+        "sha256": "ad7d58f751f62cd498c6d8f16e53e6328cca6354c7d07af575190b567aef87ea"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_hanging_mug_clean50/30000/params/manifest.ocdbt",
+        "local_path": "params/manifest.ocdbt",
+        "bytes": 118,
+        "sha256": "f5d4e316a9ef5d62f092070649b1d674048abc932e922b65e6a59625888af0b2"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_hanging_mug_clean50/30000/params/ocdbt.process_0/d/02e04b03ae9e66d77540d29f170e9890",
+        "local_path": "params/ocdbt.process_0/d/02e04b03ae9e66d77540d29f170e9890",
+        "bytes": 195397885,
+        "sha256": "194e31bec2ba0b3e54789f1fdce14452785cc8a51a196ef6de15c21d52a108a9"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_hanging_mug_clean50/30000/params/ocdbt.process_0/d/146fede8503d7bcd141dc3211dfc3b5e",
+        "local_path": "params/ocdbt.process_0/d/146fede8503d7bcd141dc3211dfc3b5e",
+        "bytes": 213,
+        "sha256": "fff2f8b328c86ab34912c01d5758210df1805bcd73e3709be401d1989b9b18c3"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_hanging_mug_clean50/30000/params/ocdbt.process_0/d/1d10a94f5c705549f0c1e034b4725b0e",
+        "local_path": "params/ocdbt.process_0/d/1d10a94f5c705549f0c1e034b4725b0e",
+        "bytes": 689534844,
+        "sha256": "2813d6a7d8bb2728e63d98bb24e9dafe0297cfff831bd06e357cf2910ecb7980"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_hanging_mug_clean50/30000/params/ocdbt.process_0/d/1f14663ce852a361bcce5c4ce1c4b5c0",
+        "local_path": "params/ocdbt.process_0/d/1f14663ce852a361bcce5c4ce1c4b5c0",
+        "bytes": 293586496,
+        "sha256": "6d8bdda379e2cda49848374c051ec3631a6ea937003a7a7e387f1334d7fad8f0"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_hanging_mug_clean50/30000/params/ocdbt.process_0/d/252ea9a272f3b30ee174ce0a36bca77c",
+        "local_path": "params/ocdbt.process_0/d/252ea9a272f3b30ee174ce0a36bca77c",
+        "bytes": 121312810,
+        "sha256": "78f4e6cbb7851e1726f247b1287e76f3a488dcc1ef8f42c694566727d2ff5cc9"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_hanging_mug_clean50/30000/params/ocdbt.process_0/d/59790bf6ed3af92515397c0abb4a0ad2",
+        "local_path": "params/ocdbt.process_0/d/59790bf6ed3af92515397c0abb4a0ad2",
+        "bytes": 398778690,
+        "sha256": "9a2c36cf0acb03a92931a487e7f1ab0cc225db13254674c3aee4bb7d79a88f0b"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_hanging_mug_clean50/30000/params/ocdbt.process_0/d/5db6b0ec9d19a35189ddbf3d21981212",
+        "local_path": "params/ocdbt.process_0/d/5db6b0ec9d19a35189ddbf3d21981212",
+        "bytes": 132935367,
+        "sha256": "369e5320ff69c3c6467a8ef4a0f69e66fab63a76e49e2443251657dca51b65f5"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_hanging_mug_clean50/30000/params/ocdbt.process_0/d/61462a40b33cc4ddea36e5b576e4c35b",
+        "local_path": "params/ocdbt.process_0/d/61462a40b33cc4ddea36e5b576e4c35b",
+        "bytes": 5665,
+        "sha256": "2b48f9897b7dc8c2dfd1d1f1b88195edcad255ab4cb1bdcd4c0c5833b81c46c0"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_hanging_mug_clean50/30000/params/ocdbt.process_0/d/82d611a90e0f8d44e790ba67fd1f0711",
+        "local_path": "params/ocdbt.process_0/d/82d611a90e0f8d44e790ba67fd1f0711",
+        "bytes": 496759393,
+        "sha256": "8a9cb26b99a9392696faa69516dffe3c5345f44058ed5f16a08bcf8957a8b46f"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_hanging_mug_clean50/30000/params/ocdbt.process_0/d/9676402f50e979bc63d1c8204d57b0b7",
+        "local_path": "params/ocdbt.process_0/d/9676402f50e979bc63d1c8204d57b0b7",
+        "bytes": 125435301,
+        "sha256": "7a7fe4227b8c605dbd9e9771541c000a5efa2eedaa3254602783ea735d994980"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_hanging_mug_clean50/30000/params/ocdbt.process_0/d/a19ac2767d99faa06906de8e33c30c25",
+        "local_path": "params/ocdbt.process_0/d/a19ac2767d99faa06906de8e33c30c25",
+        "bytes": 784969489,
+        "sha256": "0175730b915e57d2e01a1a4da907294e929b410a0a5e438beb337d8ed709cf3f"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_hanging_mug_clean50/30000/params/ocdbt.process_0/d/ac0f5d446e22a6ed1046d90c991420e8",
+        "local_path": "params/ocdbt.process_0/d/ac0f5d446e22a6ed1046d90c991420e8",
+        "bytes": 1061252,
+        "sha256": "abb2b7daf23d014f4463390246a15b9553499619cdd479d984d3b500b0c48f28"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_hanging_mug_clean50/30000/params/ocdbt.process_0/d/bec3ad163f1ad7d6a4734d5deffafa1c",
+        "local_path": "params/ocdbt.process_0/d/bec3ad163f1ad7d6a4734d5deffafa1c",
+        "bytes": 784970694,
+        "sha256": "f6452c9f73f792658ec7789671182ce902cc5444ac802a79689f35f1d8731fc7"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_hanging_mug_clean50/30000/params/ocdbt.process_0/d/cb276176e0bcfe89f1791da1accdaa8d",
+        "local_path": "params/ocdbt.process_0/d/cb276176e0bcfe89f1791da1accdaa8d",
+        "bytes": 497035780,
+        "sha256": "6f9c7a043ddd16bd732654b73a202672cb11a969d11333920c92a9ba89ee9169"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_hanging_mug_clean50/30000/params/ocdbt.process_0/d/d488eb58acf3c304aecd066bcb18666d",
+        "local_path": "params/ocdbt.process_0/d/d488eb58acf3c304aecd066bcb18666d",
+        "bytes": 784936531,
+        "sha256": "e9cc4da69ca4d231779095915b6eb893c9762fb5c70cdff3096427636310ca51"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_hanging_mug_clean50/30000/params/ocdbt.process_0/d/e18b6893a2f8e7dedb8c21803ecd11f6",
+        "local_path": "params/ocdbt.process_0/d/e18b6893a2f8e7dedb8c21803ecd11f6",
+        "bytes": 97920683,
+        "sha256": "ac2cdf89266bd5118ee972c4707e0beee7ea7b640fa4d1676d9a3cd774d7bb2a"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_hanging_mug_clean50/30000/params/ocdbt.process_0/manifest.ocdbt",
+        "local_path": "params/ocdbt.process_0/manifest.ocdbt",
+        "bytes": 806,
+        "sha256": "8e9d02ec8b04e2fd2243cd85156cf3eade4c07f5641cae56bd89bb5c70f52a28"
+      }
+    ]
+  },
+  "pi0_place_a2b_left_clean50": {
+    "status": "published",
+    "repo_id": "Niugan/ChunkTrust",
+    "revision": "c218166a1b69af260c82edbeedc4045422abb908",
+    "files": [
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_a2b_left_clean50/30000/_CHECKPOINT_METADATA",
+        "local_path": "_CHECKPOINT_METADATA",
+        "bytes": 417,
+        "sha256": "fb26b46f9e41246961c3638fd59a6a64986e4a7f3e6b568511f19624b5522761"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_a2b_left_clean50/30000/assets/place_a2b_left_aloha-agilex_clean_50_repo/norm_stats.json",
+        "local_path": "assets/place_a2b_left_aloha-agilex_clean_50_repo/norm_stats.json",
+        "bytes": 5162,
+        "sha256": "9430a91e214c39f5041b880eff3e8e285844bad956d219a69a11132522a97d34"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_a2b_left_clean50/30000/params/_METADATA",
+        "local_path": "params/_METADATA",
+        "bytes": 29988,
+        "sha256": "25b2cece8bfacb05d448290b58c7d94ee90400afb4c09ee478279e64065dd144"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_a2b_left_clean50/30000/params/_sharding",
+        "local_path": "params/_sharding",
+        "bytes": 20583,
+        "sha256": "54f2eacb4a9da6c6d3565bd58ee99fbc29e73b3808c8678870c08104882b1f7d"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_a2b_left_clean50/30000/params/d/0b5046e6d76965ff2c43beaf97e8e533",
+        "local_path": "params/d/0b5046e6d76965ff2c43beaf97e8e533",
+        "bytes": 2745,
+        "sha256": "526f671dab3064f2381636b415f291016c0cde9a940555fc66a253ea031edcbb"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_a2b_left_clean50/30000/params/manifest.ocdbt",
+        "local_path": "params/manifest.ocdbt",
+        "bytes": 118,
+        "sha256": "074e04b97b90d2c1e820ab2cf355dec4cee505e877efe68ad12934ff8068a872"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_a2b_left_clean50/30000/params/ocdbt.process_0/d/12eb8ebdf35c700a80775e49f21a4cfa",
+        "local_path": "params/ocdbt.process_0/d/12eb8ebdf35c700a80775e49f21a4cfa",
+        "bytes": 689534874,
+        "sha256": "8ec12aadf1dc4c3aaaeeade8483c709d8ca15c13b7ba6bb9fd130ecf21a70030"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_a2b_left_clean50/30000/params/ocdbt.process_0/d/1d8814bdbfc86e60b3712c0155a05708",
+        "local_path": "params/ocdbt.process_0/d/1d8814bdbfc86e60b3712c0155a05708",
+        "bytes": 610,
+        "sha256": "b2c8d05921f4335379dd2a682f65984234358b9437a50c8efa429ed793a6cef7"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_a2b_left_clean50/30000/params/ocdbt.process_0/d/36bdec7c5c0431266fe926d5595a801c",
+        "local_path": "params/ocdbt.process_0/d/36bdec7c5c0431266fe926d5595a801c",
+        "bytes": 49026474,
+        "sha256": "15ec19fd761623da1d676c7f11eddd7b87e332ffd286f5889d81bd7fea6a3059"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_a2b_left_clean50/30000/params/ocdbt.process_0/d/59729b12ecdaff7e5333172cb5e9780b",
+        "local_path": "params/ocdbt.process_0/d/59729b12ecdaff7e5333172cb5e9780b",
+        "bytes": 180268794,
+        "sha256": "b649ebcb16c5a2c56e82bde3b07e0110d65340ef0633de605f41371c47e0e1fe"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_a2b_left_clean50/30000/params/ocdbt.process_0/d/5f1909175060903fbc4ef1543761293d",
+        "local_path": "params/ocdbt.process_0/d/5f1909175060903fbc4ef1543761293d",
+        "bytes": 496759983,
+        "sha256": "8874262c7eb0a61ca316683742287691d3ecd57e2a9b1d98c2bcf7d26cf1cbea"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_a2b_left_clean50/30000/params/ocdbt.process_0/d/68ef232743f61fa9b7d9df307c6a17bd",
+        "local_path": "params/ocdbt.process_0/d/68ef232743f61fa9b7d9df307c6a17bd",
+        "bytes": 497033611,
+        "sha256": "6a2681b22296345953dcd746f98eea42937320ceb0f8a7c3f65119faedd49e4d"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_a2b_left_clean50/30000/params/ocdbt.process_0/d/6b81484de19d7786489a2a24864d04be",
+        "local_path": "params/ocdbt.process_0/d/6b81484de19d7786489a2a24864d04be",
+        "bytes": 5658,
+        "sha256": "66ebe26d42ec8d95cb6c9e7deb18deed1da4fb1e71e0781055a994cba3fbf1d1"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_a2b_left_clean50/30000/params/ocdbt.process_0/d/6be37dac0c637341e2ca943aae2d9b6c",
+        "local_path": "params/ocdbt.process_0/d/6be37dac0c637341e2ca943aae2d9b6c",
+        "bytes": 784970393,
+        "sha256": "23d9d48862f2437ddbc69ae75f0c300dc99ed043fbdfec27f16535ba6e66703a"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_a2b_left_clean50/30000/params/ocdbt.process_0/d/6ed0ec7afa8607755696d1fdc0891583",
+        "local_path": "params/ocdbt.process_0/d/6ed0ec7afa8607755696d1fdc0891583",
+        "bytes": 48896594,
+        "sha256": "9fd2b458233fed6683f189a9c1212ea2a64d4a4cdf1d86a4a37f12fcae4339a2"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_a2b_left_clean50/30000/params/ocdbt.process_0/d/716da139d097fbe1711b03caa3a53020",
+        "local_path": "params/ocdbt.process_0/d/716da139d097fbe1711b03caa3a53020",
+        "bytes": 24607846,
+        "sha256": "6d90dd1a9ddf8540d1ff7c00ebda1b9876f4b5adbbf9b690349113260a60422f"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_a2b_left_clean50/30000/params/ocdbt.process_0/d/983c519ea5d1d7028f761afe4fdc4237",
+        "local_path": "params/ocdbt.process_0/d/983c519ea5d1d7028f761afe4fdc4237",
+        "bytes": 784936575,
+        "sha256": "8289cfea48b02d37e64bfef30f1daef9aa0e9265cdc446a72b665db3ba2e801d"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_a2b_left_clean50/30000/params/ocdbt.process_0/d/988590ed4b8eeaea193159b1ae302954",
+        "local_path": "params/ocdbt.process_0/d/988590ed4b8eeaea193159b1ae302954",
+        "bytes": 195397906,
+        "sha256": "83e0f50227136c858bd5d7513ecc0eb328a1c89174ef907f2a6a7a4dc5ca852d"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_a2b_left_clean50/30000/params/ocdbt.process_0/d/a6dd9707779083ba44eded75fe7bf833",
+        "local_path": "params/ocdbt.process_0/d/a6dd9707779083ba44eded75fe7bf833",
+        "bytes": 132937941,
+        "sha256": "392160559e233ee8dcfe6153429a881eac68f723171c6cb821019b682b4fa77f"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_a2b_left_clean50/30000/params/ocdbt.process_0/d/ac22c41fd70a0ea98cb5fdd03e0fd4ca",
+        "local_path": "params/ocdbt.process_0/d/ac22c41fd70a0ea98cb5fdd03e0fd4ca",
+        "bytes": 5100136,
+        "sha256": "7fd979d2eba6ad552019fc92f901df43f874af5c2a59a64e8a7fee52f6a30273"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_a2b_left_clean50/30000/params/ocdbt.process_0/d/b1aeeb16f2e6b927d2b9aa46aac1cf8d",
+        "local_path": "params/ocdbt.process_0/d/b1aeeb16f2e6b927d2b9aa46aac1cf8d",
+        "bytes": 213,
+        "sha256": "fff2f8b328c86ab34912c01d5758210df1805bcd73e3709be401d1989b9b18c3"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_a2b_left_clean50/30000/params/ocdbt.process_0/d/de1e655ae33e4d35c205476ecb78f8af",
+        "local_path": "params/ocdbt.process_0/d/de1e655ae33e4d35c205476ecb78f8af",
+        "bytes": 37831391,
+        "sha256": "56e33c17da452cccad07c91e7c2f45907e66a1a2c983e818f47fbb7dcae4f83c"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_a2b_left_clean50/30000/params/ocdbt.process_0/d/e5d89a2d1dc251b467df6022457a1ddb",
+        "local_path": "params/ocdbt.process_0/d/e5d89a2d1dc251b467df6022457a1ddb",
+        "bytes": 784970722,
+        "sha256": "2f795829466257e55a1fb1b1e0787ffd692537b69d5399a471170ac5b0689fc8"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_a2b_left_clean50/30000/params/ocdbt.process_0/d/fa999891402daec861a31cbf4d3c9f4f",
+        "local_path": "params/ocdbt.process_0/d/fa999891402daec861a31cbf4d3c9f4f",
+        "bytes": 692365919,
+        "sha256": "870836e3a64e248f4c72a7b205d233bb66432d62883fbe379a31ab146380c6d9"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_a2b_left_clean50/30000/params/ocdbt.process_0/manifest.ocdbt",
+        "local_path": "params/ocdbt.process_0/manifest.ocdbt",
+        "bytes": 202,
+        "sha256": "1589117996a8f7a7f6c007a8898d7970bfd3262cc0eacab844073ec397e3b279"
+      }
+    ]
+  },
+  "pi0_place_bread_basket_clean50": {
+    "status": "published",
+    "repo_id": "Niugan/ChunkTrust",
+    "revision": "f77f83a8e0d150de506dd980cf5ad4ab46b86944",
+    "files": [
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_basket_clean50/30000/_CHECKPOINT_METADATA",
+        "local_path": "_CHECKPOINT_METADATA",
+        "bytes": 417,
+        "sha256": "73a966c13e47cef0a5f418e788486fbad96bb1d3ac3103c8f3f37b430aa35fb4"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_basket_clean50/30000/assets/place_bread_basket_aloha-agilex_clean_50_repo/norm_stats.json",
+        "local_path": "assets/place_bread_basket_aloha-agilex_clean_50_repo/norm_stats.json",
+        "bytes": 5198,
+        "sha256": "3bdbc9a7a63845fcb8b7d35709b7c7b4d703c7f5e8a82bdc25bd632c732b01fd"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_basket_clean50/30000/params/_METADATA",
+        "local_path": "params/_METADATA",
+        "bytes": 29988,
+        "sha256": "25b2cece8bfacb05d448290b58c7d94ee90400afb4c09ee478279e64065dd144"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_basket_clean50/30000/params/_sharding",
+        "local_path": "params/_sharding",
+        "bytes": 20583,
+        "sha256": "54f2eacb4a9da6c6d3565bd58ee99fbc29e73b3808c8678870c08104882b1f7d"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_basket_clean50/30000/params/d/6a71a65aa36e7f6b147b86eee4a8dc73",
+        "local_path": "params/d/6a71a65aa36e7f6b147b86eee4a8dc73",
+        "bytes": 2731,
+        "sha256": "df755a2790d00befc3408d4bbe6784b829633c363473c854b058b97dfd9f7f54"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_basket_clean50/30000/params/manifest.ocdbt",
+        "local_path": "params/manifest.ocdbt",
+        "bytes": 118,
+        "sha256": "ff5e4b265763106bdefc5d40a213540847e9da4a9ccf738434f5ccc0010ec62a"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_basket_clean50/30000/params/ocdbt.process_0/d/0f7b2ebbac70037e4136e95a7f5d1114",
+        "local_path": "params/ocdbt.process_0/d/0f7b2ebbac70037e4136e95a7f5d1114",
+        "bytes": 195397912,
+        "sha256": "56e3ffddc122792078b753f8ae0bc521f0294a93b97bc3de6672c20a17208b3e"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_basket_clean50/30000/params/ocdbt.process_0/d/1955f2ef09c5fd9f2733f7e306c773ff",
+        "local_path": "params/ocdbt.process_0/d/1955f2ef09c5fd9f2733f7e306c773ff",
+        "bytes": 1363,
+        "sha256": "62e19cfba87ffeb3dd905f8a32566cfd2360f9271de6df279eb2f8bdc67a235e"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_basket_clean50/30000/params/ocdbt.process_0/d/1e374fbb6acfbda389a65a09d3fb855c",
+        "local_path": "params/ocdbt.process_0/d/1e374fbb6acfbda389a65a09d3fb855c",
+        "bytes": 59530564,
+        "sha256": "9bf10641c0fbfbef4feed161cf5d3a3b1150dfd426afe180af21238aa81f7692"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_basket_clean50/30000/params/ocdbt.process_0/d/2e7a25e227b89ecdb2aba67dd2c7a521",
+        "local_path": "params/ocdbt.process_0/d/2e7a25e227b89ecdb2aba67dd2c7a521",
+        "bytes": 98114090,
+        "sha256": "d6653b762346b224e76373d722a2127bb99ec760b39aa6b80b4396c73d1d4f0c"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_basket_clean50/30000/params/ocdbt.process_0/d/37dc05baeb1769149e9b1c81e94ec52e",
+        "local_path": "params/ocdbt.process_0/d/37dc05baeb1769149e9b1c81e94ec52e",
+        "bytes": 43983447,
+        "sha256": "23851011a2e4519d1f38bab96c36825ff8ce3dca462504da65ee6d4417278852"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_basket_clean50/30000/params/ocdbt.process_0/d/575f52457088cb47198f7da172bed4f9",
+        "local_path": "params/ocdbt.process_0/d/575f52457088cb47198f7da172bed4f9",
+        "bytes": 461286476,
+        "sha256": "129d571d562b1549ff6d5e28fb95826e35cf1280c15ca96075325a19e0db1e78"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_basket_clean50/30000/params/ocdbt.process_0/d/5bea6c4310cf8f05ac129336da89cc1f",
+        "local_path": "params/ocdbt.process_0/d/5bea6c4310cf8f05ac129336da89cc1f",
+        "bytes": 144286569,
+        "sha256": "a9e14cca6ac499d352a728071231a404625fb39253a3c21e3241e4b32226e425"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_basket_clean50/30000/params/ocdbt.process_0/d/62f5217e5de95be06cad57e9c0c37257",
+        "local_path": "params/ocdbt.process_0/d/62f5217e5de95be06cad57e9c0c37257",
+        "bytes": 5706,
+        "sha256": "be8ad5abc8e10246460bf2d45f833eebd7aabc2ca54a6382ad78be16f4b83cf3"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_basket_clean50/30000/params/ocdbt.process_0/d/680967c0a68a09425d2e046354dab675",
+        "local_path": "params/ocdbt.process_0/d/680967c0a68a09425d2e046354dab675",
+        "bytes": 784936558,
+        "sha256": "da5908119821e7626cec68cb7d76820ee67420c017b796e59137745c5e9b01f6"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_basket_clean50/30000/params/ocdbt.process_0/d/6f6da4237b26992fade9af87de88a316",
+        "local_path": "params/ocdbt.process_0/d/6f6da4237b26992fade9af87de88a316",
+        "bytes": 784970378,
+        "sha256": "922d5ebfa36b18c60ff2b6d138a52635486481c4883be4c51fb9d04dfa62dfa9"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_basket_clean50/30000/params/ocdbt.process_0/d/747924382d934add4bdf90fda631d701",
+        "local_path": "params/ocdbt.process_0/d/747924382d934add4bdf90fda631d701",
+        "bytes": 265902277,
+        "sha256": "9b7b60c045aaab7bedb9859d789b7ab03f59aa75c911fecba284f1bb35ee6954"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_basket_clean50/30000/params/ocdbt.process_0/d/880f3e42dc16c1675c88b613204e042e",
+        "local_path": "params/ocdbt.process_0/d/880f3e42dc16c1675c88b613204e042e",
+        "bytes": 49026454,
+        "sha256": "ffcdad0e8312937fb3f5ddf7936f938b288d5c1df0b68a3bc10470dc35ffe704"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_basket_clean50/30000/params/ocdbt.process_0/d/88881aebc9ef563d8821afbe784ebd07",
+        "local_path": "params/ocdbt.process_0/d/88881aebc9ef563d8821afbe784ebd07",
+        "bytes": 689534865,
+        "sha256": "acaeb7122d228674d288937dc5ead72cdfe308fb7effd3442ebedad51229311e"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_basket_clean50/30000/params/ocdbt.process_0/d/8de595488ae75998255af55511d7389d",
+        "local_path": "params/ocdbt.process_0/d/8de595488ae75998255af55511d7389d",
+        "bytes": 48896567,
+        "sha256": "36538b297f104c4cdfbfd0d259dd4242ddb37ddfe0043b3ad319b3c9baa6e55c"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_basket_clean50/30000/params/ocdbt.process_0/d/94a9873db03283eba8f995d7ab068fbf",
+        "local_path": "params/ocdbt.process_0/d/94a9873db03283eba8f995d7ab068fbf",
+        "bytes": 784970721,
+        "sha256": "78ea997e2fc7918dea1e25ee4e219d63b5cd265100789c2deb0e0b6f936636a4"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_basket_clean50/30000/params/ocdbt.process_0/d/bdb954d0e3e8a84176396eaaa181e8fb",
+        "local_path": "params/ocdbt.process_0/d/bdb954d0e3e8a84176396eaaa181e8fb",
+        "bytes": 497036712,
+        "sha256": "a80ad8a660e5ff7f232842ee56961e1c3c292f4663cd654d73cb5bc715eef85f"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_basket_clean50/30000/params/ocdbt.process_0/d/d762f724a87a88d163b7ae5a7c6f5157",
+        "local_path": "params/ocdbt.process_0/d/d762f724a87a88d163b7ae5a7c6f5157",
+        "bytes": 496759167,
+        "sha256": "c502d4dac31a71ed4457ca1e7b0348b0d55b2d2143f02456b89475d8578094b6"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_basket_clean50/30000/params/ocdbt.process_0/d/ede9de75c4a5ffb1cb560ac5fa358321",
+        "local_path": "params/ocdbt.process_0/d/ede9de75c4a5ffb1cb560ac5fa358321",
+        "bytes": 213,
+        "sha256": "fff2f8b328c86ab34912c01d5758210df1805bcd73e3709be401d1989b9b18c3"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_basket_clean50/30000/params/ocdbt.process_0/manifest.ocdbt",
+        "local_path": "params/ocdbt.process_0/manifest.ocdbt",
+        "bytes": 202,
+        "sha256": "fe18b930221a4671d990e46504480830ab40481279590648a9ea54996d4985cc"
+      }
+    ]
+  },
+  "pi0_place_bread_skillet_clean50": {
+    "status": "published",
+    "repo_id": "Niugan/ChunkTrust",
+    "revision": "1ddf8a83351d56bff4fd38e4f6f88ac6b6df2a00",
+    "files": [
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_skillet_clean50/30000/_CHECKPOINT_METADATA",
+        "local_path": "_CHECKPOINT_METADATA",
+        "bytes": 417,
+        "sha256": "0ce471aa977de4500e289ea696b89127ad65445a18c4693451fa4399138cd65c"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_skillet_clean50/30000/assets/place_bread_skillet_aloha-agilex_clean_50_repo/norm_stats.json",
+        "local_path": "assets/place_bread_skillet_aloha-agilex_clean_50_repo/norm_stats.json",
+        "bytes": 5157,
+        "sha256": "7184a272cc09006c375d05bcb04e98efe30d9bd6cbc92cf4f5fd75e2559ae6c6"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_skillet_clean50/30000/params/_METADATA",
+        "local_path": "params/_METADATA",
+        "bytes": 29988,
+        "sha256": "25b2cece8bfacb05d448290b58c7d94ee90400afb4c09ee478279e64065dd144"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_skillet_clean50/30000/params/_sharding",
+        "local_path": "params/_sharding",
+        "bytes": 20583,
+        "sha256": "54f2eacb4a9da6c6d3565bd58ee99fbc29e73b3808c8678870c08104882b1f7d"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_skillet_clean50/30000/params/d/cff571e43e99fc71c1f4dd120ff97a89",
+        "local_path": "params/d/cff571e43e99fc71c1f4dd120ff97a89",
+        "bytes": 2715,
+        "sha256": "d16e9d3926898043332089ac7406532551f52b061999c442a953f9c096230c4d"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_skillet_clean50/30000/params/manifest.ocdbt",
+        "local_path": "params/manifest.ocdbt",
+        "bytes": 118,
+        "sha256": "5a56fa7c4991a89e1fd0540c0145c757c642190b99d60f1abbd42af4d9a48abe"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_skillet_clean50/30000/params/ocdbt.process_0/d/0aab7c7699321321ff148b9d9dc1bcc8",
+        "local_path": "params/ocdbt.process_0/d/0aab7c7699321321ff148b9d9dc1bcc8",
+        "bytes": 784936543,
+        "sha256": "3a1f2ffcc0a43c91c4f2a946342fa8bc37fb76c5e43ce2c5948aba4834ce8756"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_skillet_clean50/30000/params/ocdbt.process_0/d/109a15e8dd3d6691dd2107fffdfdfa84",
+        "local_path": "params/ocdbt.process_0/d/109a15e8dd3d6691dd2107fffdfdfa84",
+        "bytes": 97920695,
+        "sha256": "d214bd2c480cb1c01faf702d851e9b85afcb0f8655b8a6e8693ee3439ea3a328"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_skillet_clean50/30000/params/ocdbt.process_0/d/13acf2b72ac3065e35f6039646770c63",
+        "local_path": "params/ocdbt.process_0/d/13acf2b72ac3065e35f6039646770c63",
+        "bytes": 196382817,
+        "sha256": "6ba11778e04d08b95c0e63b817014d9f8de876164e29f0247af50e3c33d488ab"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_skillet_clean50/30000/params/ocdbt.process_0/d/1ec789de7d1c64680d569d1bad6f08b9",
+        "local_path": "params/ocdbt.process_0/d/1ec789de7d1c64680d569d1bad6f08b9",
+        "bytes": 132971035,
+        "sha256": "714d698750182aac716b533eaadca74ed2260f497822811db3336229158155e1"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_skillet_clean50/30000/params/ocdbt.process_0/d/3c564f9380baf709e5163b45435697d0",
+        "local_path": "params/ocdbt.process_0/d/3c564f9380baf709e5163b45435697d0",
+        "bytes": 784970398,
+        "sha256": "5262fd64028961c9caf2b03d394ba6db967420da51a91aad31753e77637bc31b"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_skillet_clean50/30000/params/ocdbt.process_0/d/53650443ea6140dac28dc842c47a0be2",
+        "local_path": "params/ocdbt.process_0/d/53650443ea6140dac28dc842c47a0be2",
+        "bytes": 5671,
+        "sha256": "9ab3308c74e13394a2c902277a5b300931f19be53c0ac7b5e971ec043bd0a103"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_skillet_clean50/30000/params/ocdbt.process_0/d/6d4f2ee50bd530bca847f0bf703de64a",
+        "local_path": "params/ocdbt.process_0/d/6d4f2ee50bd530bca847f0bf703de64a",
+        "bytes": 784970652,
+        "sha256": "4bdebb23adf5d5b2a5cf2dafe932fa6124534e7c1de6287351d67aa957f75d73"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_skillet_clean50/30000/params/ocdbt.process_0/d/86967fd2b34f89c39361a66d24517eb7",
+        "local_path": "params/ocdbt.process_0/d/86967fd2b34f89c39361a66d24517eb7",
+        "bytes": 496759779,
+        "sha256": "73a6530696477bc38ddb1f1b803c6643af5ea14668d7b6a606896679dbb8ed3b"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_skillet_clean50/30000/params/ocdbt.process_0/d/9c5fc13cbb458dfb0b532061cff01723",
+        "local_path": "params/ocdbt.process_0/d/9c5fc13cbb458dfb0b532061cff01723",
+        "bytes": 495952034,
+        "sha256": "8085999330cbd9d0c247fbd603ba4fedbef4739992dd7293aaa4c284e8dc05f7"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_skillet_clean50/30000/params/ocdbt.process_0/d/a0141a0ae356365bab3d09c39efb01c2",
+        "local_path": "params/ocdbt.process_0/d/a0141a0ae356365bab3d09c39efb01c2",
+        "bytes": 497036946,
+        "sha256": "82bce761e94036ec907955b67dc3340b855d5c92448927cdcf1e17fcc2152895"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_skillet_clean50/30000/params/ocdbt.process_0/d/a99024e506afb47766721a2d5d62e6ec",
+        "local_path": "params/ocdbt.process_0/d/a99024e506afb47766721a2d5d62e6ec",
+        "bytes": 128479909,
+        "sha256": "ba601b74573fa07756929c66da5033dafc132566eb874c5ae84e49dceddfdf6c"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_skillet_clean50/30000/params/ocdbt.process_0/d/c3c22ad7a3c12582c956430dc1b8965b",
+        "local_path": "params/ocdbt.process_0/d/c3c22ad7a3c12582c956430dc1b8965b",
+        "bytes": 213,
+        "sha256": "fff2f8b328c86ab34912c01d5758210df1805bcd73e3709be401d1989b9b18c3"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_skillet_clean50/30000/params/ocdbt.process_0/d/c87fd666f73be11084cbf516f68f4542",
+        "local_path": "params/ocdbt.process_0/d/c87fd666f73be11084cbf516f68f4542",
+        "bytes": 930,
+        "sha256": "974c2e91d3fd6a581e026c9a38cbf3c998e8b7ac3b94282073947511d7f9d923"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_skillet_clean50/30000/params/ocdbt.process_0/d/d222c9f01e1cb940ccf6568ebc2f087c",
+        "local_path": "params/ocdbt.process_0/d/d222c9f01e1cb940ccf6568ebc2f087c",
+        "bytes": 689534849,
+        "sha256": "e36f02c42c398acc6257e356d048e4efdf944c74e7aaf63be27581ca28bc1afd"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_skillet_clean50/30000/params/ocdbt.process_0/d/f76a37318dd63807f37513561280447b",
+        "local_path": "params/ocdbt.process_0/d/f76a37318dd63807f37513561280447b",
+        "bytes": 9044597,
+        "sha256": "919073d7eb978d7437e0fb0a4014d4633db10c70759e86fe6c0832e47bdfdc6f"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_skillet_clean50/30000/params/ocdbt.process_0/d/fe35a3c33fdcd4bb2bd5f9be4d795274",
+        "local_path": "params/ocdbt.process_0/d/fe35a3c33fdcd4bb2bd5f9be4d795274",
+        "bytes": 110285208,
+        "sha256": "5417c7a67b5eac610dd65d60b5498fcf403fad6839321b8eab2197a59062b086"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_skillet_clean50/30000/params/ocdbt.process_0/d/ff3da64f3b8d3754e2eef2496f680723",
+        "local_path": "params/ocdbt.process_0/d/ff3da64f3b8d3754e2eef2496f680723",
+        "bytes": 195397887,
+        "sha256": "3d669f407ef3324f386d0df4ee58355a47457246a41a2f387782cf8472f9d8ba"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_bread_skillet_clean50/30000/params/ocdbt.process_0/manifest.ocdbt",
+        "local_path": "params/ocdbt.process_0/manifest.ocdbt",
+        "bytes": 140,
+        "sha256": "0edfcd34ac577adee6024d2d91bbae58be5e86821a2649b2d0757b2395820bd1"
+      }
+    ]
+  },
+  "pi0_place_can_basket_clean50": {
+    "status": "published",
+    "repo_id": "Niugan/ChunkTrust",
+    "revision": "9d8e4901f417924ed3f26e80a5e8fcc3a13d1d37",
+    "files": [
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_can_basket_clean50/30000/_CHECKPOINT_METADATA",
+        "local_path": "_CHECKPOINT_METADATA",
+        "bytes": 417,
+        "sha256": "2208f5a829cfef6f07d93dd20b51e2866ae2d8335092ef359eab8adcbfb058b6"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_can_basket_clean50/30000/assets/place_can_basket_aloha-agilex_clean_50_repo/norm_stats.json",
+        "local_path": "assets/place_can_basket_aloha-agilex_clean_50_repo/norm_stats.json",
+        "bytes": 5217,
+        "sha256": "6143cd698aeb9ee95f8d109c451efbbd38dd92153ae2fbd89a182bce016bd0fc"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_can_basket_clean50/30000/params/_METADATA",
+        "local_path": "params/_METADATA",
+        "bytes": 29988,
+        "sha256": "25b2cece8bfacb05d448290b58c7d94ee90400afb4c09ee478279e64065dd144"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_can_basket_clean50/30000/params/_sharding",
+        "local_path": "params/_sharding",
+        "bytes": 20583,
+        "sha256": "54f2eacb4a9da6c6d3565bd58ee99fbc29e73b3808c8678870c08104882b1f7d"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_can_basket_clean50/30000/params/d/13f487f81692b9d2015958d9cc0a5162",
+        "local_path": "params/d/13f487f81692b9d2015958d9cc0a5162",
+        "bytes": 2743,
+        "sha256": "18bdb97760280107e7c602d75e6842d7732989101d7f03f34bd94700e67e6ae8"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_can_basket_clean50/30000/params/manifest.ocdbt",
+        "local_path": "params/manifest.ocdbt",
+        "bytes": 118,
+        "sha256": "a5cbbc66c38b26629595c3fb25297198a33e7236668a1a00c553262169dd585f"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_can_basket_clean50/30000/params/ocdbt.process_0/d/0c2bbb13f953a91a23f1979e3a04ca89",
+        "local_path": "params/ocdbt.process_0/d/0c2bbb13f953a91a23f1979e3a04ca89",
+        "bytes": 784970721,
+        "sha256": "0a89f6f11f9623a24ad4eb094fef92bda4b44e23e1d779fa12f115391b51dc7e"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_can_basket_clean50/30000/params/ocdbt.process_0/d/101cdff67223d81dc3b7e8bb3c0b3353",
+        "local_path": "params/ocdbt.process_0/d/101cdff67223d81dc3b7e8bb3c0b3353",
+        "bytes": 1363,
+        "sha256": "62e19cfba87ffeb3dd905f8a32566cfd2360f9271de6df279eb2f8bdc67a235e"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_can_basket_clean50/30000/params/ocdbt.process_0/d/118689855fd999ddb7e82eddfe04600c",
+        "local_path": "params/ocdbt.process_0/d/118689855fd999ddb7e82eddfe04600c",
+        "bytes": 689534874,
+        "sha256": "94d914371e8ceedb86832082e95a459d447e3c61d7f729b9e166ad7ba412d1e4"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_can_basket_clean50/30000/params/ocdbt.process_0/d/1dd5e2b9d3e75da40f5a4865b067f6ca",
+        "local_path": "params/ocdbt.process_0/d/1dd5e2b9d3e75da40f5a4865b067f6ca",
+        "bytes": 496890132,
+        "sha256": "3263c03b27ece658ddaea72c4a51d79ab21b8984b4b6788bcf99bfb5bef3d0a1"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_can_basket_clean50/30000/params/ocdbt.process_0/d/1f4d1017f8db4c7f4345e01daa982b4d",
+        "local_path": "params/ocdbt.process_0/d/1f4d1017f8db4c7f4345e01daa982b4d",
+        "bytes": 97920695,
+        "sha256": "f4900f5e9444ac553d603faef38024c0644a15f72085245c4b4778ec82885d5b"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_can_basket_clean50/30000/params/ocdbt.process_0/d/34bab5a707bd867612700873ebfaf042",
+        "local_path": "params/ocdbt.process_0/d/34bab5a707bd867612700873ebfaf042",
+        "bytes": 132937329,
+        "sha256": "003cfe22579333d651124f47674fcd541ca159172bb694e2c5de1adf3d367b36"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_can_basket_clean50/30000/params/ocdbt.process_0/d/3785ec1ac0cba49594b513a566feee2b",
+        "local_path": "params/ocdbt.process_0/d/3785ec1ac0cba49594b513a566feee2b",
+        "bytes": 497037104,
+        "sha256": "5f106d0567bdd6c61ba7e21f6444649aca899fc12e49eccdaa363e141a3e0aab"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_can_basket_clean50/30000/params/ocdbt.process_0/d/3b45c7fa44d58231ef168200a36b3d85",
+        "local_path": "params/ocdbt.process_0/d/3b45c7fa44d58231ef168200a36b3d85",
+        "bytes": 5707,
+        "sha256": "010dd758c0a5749a99efaf444ef997e31eafcac845ce67e34f644df75bf2e2fd"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_can_basket_clean50/30000/params/ocdbt.process_0/d/40a16e7e50eb21d90edcc442046e39dc",
+        "local_path": "params/ocdbt.process_0/d/40a16e7e50eb21d90edcc442046e39dc",
+        "bytes": 127045352,
+        "sha256": "52cbec9ff6d3e7aee20d8106872fb1636fb7f7d12762c3785d8b1ad42fb50d4b"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_can_basket_clean50/30000/params/ocdbt.process_0/d/540859845b12e733070cc5198b10e841",
+        "local_path": "params/ocdbt.process_0/d/540859845b12e733070cc5198b10e841",
+        "bytes": 213,
+        "sha256": "fff2f8b328c86ab34912c01d5758210df1805bcd73e3709be401d1989b9b18c3"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_can_basket_clean50/30000/params/ocdbt.process_0/d/560abf8306020d311fac2f51a27f5b0c",
+        "local_path": "params/ocdbt.process_0/d/560abf8306020d311fac2f51a27f5b0c",
+        "bytes": 59531282,
+        "sha256": "26a029e9d778237e82a6cc9d5f8f424e3ec45073bc6cfa0bbaefefe49955ab7d"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_can_basket_clean50/30000/params/ocdbt.process_0/d/5740b2da6b5c8d2f7f2c969ef9bb0cb9",
+        "local_path": "params/ocdbt.process_0/d/5740b2da6b5c8d2f7f2c969ef9bb0cb9",
+        "bytes": 97206110,
+        "sha256": "1f561aefa93f3a906e1b51f0452df9d0a631c181c33903dad4c49c48f162f5b8"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_can_basket_clean50/30000/params/ocdbt.process_0/d/679bcac1819a108163b94577c9ee0453",
+        "local_path": "params/ocdbt.process_0/d/679bcac1819a108163b94577c9ee0453",
+        "bytes": 784936563,
+        "sha256": "bf2a1d7cf4173ec0bccc1e383aa64c93f2a7ad8b9810bef4aafdabfa846723ee"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_can_basket_clean50/30000/params/ocdbt.process_0/d/7a077698690e017e8583d28de6f14518",
+        "local_path": "params/ocdbt.process_0/d/7a077698690e017e8583d28de6f14518",
+        "bytes": 784970383,
+        "sha256": "dca3cfd6567ec3aa4677d74da7397f0f025d84f1ff599f3d814447680b310d16"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_can_basket_clean50/30000/params/ocdbt.process_0/d/9f258cbbcf4d2b2eb279cc554bdcde67",
+        "local_path": "params/ocdbt.process_0/d/9f258cbbcf4d2b2eb279cc554bdcde67",
+        "bytes": 496757973,
+        "sha256": "c8b180b46a56f03cf86f92168922aa4676c038be795074e55d46d5dcdd6d8a7e"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_can_basket_clean50/30000/params/ocdbt.process_0/d/ce532d95a6315ac63914c8a4b6e7cce4",
+        "local_path": "params/ocdbt.process_0/d/ce532d95a6315ac63914c8a4b6e7cce4",
+        "bytes": 195397920,
+        "sha256": "e27cbc90cfdb8085f83c8a69ecb3095e5573871fbe41d1d5ec8c1eed1c5c3709"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_can_basket_clean50/30000/params/ocdbt.process_0/d/e877d47cc7ad97b0bd6aaf3c7a330e68",
+        "local_path": "params/ocdbt.process_0/d/e877d47cc7ad97b0bd6aaf3c7a330e68",
+        "bytes": 98271103,
+        "sha256": "f796844f50b3b92cec19f9d292cb6511b19f9d9f2b6c93f9ecd61d6e5b8c277c"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_can_basket_clean50/30000/params/ocdbt.process_0/d/f26dd223727f9857b1f9f3b6e48c8c9f",
+        "local_path": "params/ocdbt.process_0/d/f26dd223727f9857b1f9f3b6e48c8c9f",
+        "bytes": 61234407,
+        "sha256": "66f062f0133fb31d451f5d434249a12db3ab3dcd4fead6852d75b76fc0178070"
+      },
+      {
+        "remote_path": "checkpoints/pi0/pi0_base_aloha_robotwin_lora/pi0_place_can_basket_clean50/30000/params/ocdbt.process_0/manifest.ocdbt",
+        "local_path": "params/ocdbt.process_0/manifest.ocdbt",
+        "bytes": 202,
+        "sha256": "1baa4c1ccc653b6fc2af6d2dbe174b24646163946d7940aa7ccb283e403047db"
+      }
+    ]
+  },
+  "pi05_handover_block_clean50": {
+    "status": "published",
+    "repo_id": "Niugan/ChunkTrust",
+    "revision": "cfea9c85907ea322ea845ac1b75ada21564faa95",
+    "files": [
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_block_clean50/20000/assets/handover_block_aloha-agilex_clean_50_repo/norm_stats.json",
+        "local_path": "assets/handover_block_aloha-agilex_clean_50_repo/norm_stats.json",
+        "bytes": 3311,
+        "sha256": "7d2a7fad2215ff4e9a7c0e1e6298d02ff32f0415efef067ed8685a6a76da77f8"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_block_clean50/20000/params/_METADATA",
+        "local_path": "params/_METADATA",
+        "bytes": 22038,
+        "sha256": "4292d734e52ebf8111126bc166d60a48c592d532472c2ca5461a283759ee8ea4"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_block_clean50/20000/params/_sharding",
+        "local_path": "params/_sharding",
+        "bytes": 15300,
+        "sha256": "1e9d1ab166a3644c567742d374d6ff2bf61bfa33ec505c36e24a3b34ebf700f3"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_block_clean50/20000/params/d/b72d09cee7ca86ea3f0bf8bc0283be5d",
+        "local_path": "params/d/b72d09cee7ca86ea3f0bf8bc0283be5d",
+        "bytes": 2965,
+        "sha256": "f2aa1876eaa55377829c7fd1883d6b70e4545b2703a3a23567086ad3603ebe21"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_block_clean50/20000/params/manifest.ocdbt",
+        "local_path": "params/manifest.ocdbt",
+        "bytes": 118,
+        "sha256": "34b9d85f8bb437d0447b84d8c10d0141e01719145d199d209f263b69cf79a94b"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_block_clean50/20000/params/ocdbt.process_0/d/1d7bfcd70d8a6711a70ec0d1b3d5386a",
+        "local_path": "params/ocdbt.process_0/d/1d7bfcd70d8a6711a70ec0d1b3d5386a",
+        "bytes": 2939,
+        "sha256": "720250bdb59820091b9a86ba1597b576ef29a47df5552a3dd7cd9cdc4a0623b8"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_block_clean50/20000/params/ocdbt.process_0/d/37e47fb8b54f073ca119c25af796fcb9",
+        "local_path": "params/ocdbt.process_0/d/37e47fb8b54f073ca119c25af796fcb9",
+        "bytes": 2240281132,
+        "sha256": "bd0d9bd166198a27c29aae348f1c3a76d722fa6a00d85d44f8e49408a41d0508"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_block_clean50/20000/params/ocdbt.process_0/d/3d5b50433bb745cbfd8cee804759c80a",
+        "local_path": "params/ocdbt.process_0/d/3d5b50433bb745cbfd8cee804759c80a",
+        "bytes": 405983567,
+        "sha256": "c79829722ea5976d39d176810b6234104cae697be8fdf19b0ec08ad3a00899c8"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_block_clean50/20000/params/ocdbt.process_0/d/47aa3eee5b89f5b121cf4ddd03daac81",
+        "local_path": "params/ocdbt.process_0/d/47aa3eee5b89f5b121cf4ddd03daac81",
+        "bytes": 213,
+        "sha256": "fff2f8b328c86ab34912c01d5758210df1805bcd73e3709be401d1989b9b18c3"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_block_clean50/20000/params/ocdbt.process_0/d/4af02412a9ed55488246f67b889d1aa7",
+        "local_path": "params/ocdbt.process_0/d/4af02412a9ed55488246f67b889d1aa7",
+        "bytes": 1120145053,
+        "sha256": "1da644830722c2c7000d65cf3a4b7dcc321bffd4b91649aaa2f30a46feae823b"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_block_clean50/20000/params/ocdbt.process_0/d/5f769fa8c018f4a3209e76f90658bcba",
+        "local_path": "params/ocdbt.process_0/d/5f769fa8c018f4a3209e76f90658bcba",
+        "bytes": 1467645227,
+        "sha256": "15c891a579954e29dc2ecc343eaa1485e65c8dc441aaa91e36575849d8407125"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_block_clean50/20000/params/ocdbt.process_0/d/84f217c3079119b662f7d688076f863f",
+        "local_path": "params/ocdbt.process_0/d/84f217c3079119b662f7d688076f863f",
+        "bytes": 2831,
+        "sha256": "4175c92aad58e8c014d1e81281a1e28dc0d4a4998ebbeffe02f1a840763eb850"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_block_clean50/20000/params/ocdbt.process_0/d/b15b8049e73a42ae24b8651bcd8d427e",
+        "local_path": "params/ocdbt.process_0/d/b15b8049e73a42ae24b8651bcd8d427e",
+        "bytes": 1260049724,
+        "sha256": "fcba33a9aa386bedf87c0c2bf7d7f0319a929c7b96cc1211f802d12e72e2095e"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_block_clean50/20000/params/ocdbt.process_0/d/b183f8ded002dd072b97c46217096f9d",
+        "local_path": "params/ocdbt.process_0/d/b183f8ded002dd072b97c46217096f9d",
+        "bytes": 5386,
+        "sha256": "bb3f06e970cebdfd47a147a729b08470462c90d5db6a9eb7e64ad760ba886358"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_block_clean50/20000/params/ocdbt.process_0/d/b976b55beb4cbd715d5c0788a4b3de46",
+        "local_path": "params/ocdbt.process_0/d/b976b55beb4cbd715d5c0788a4b3de46",
+        "bytes": 1121,
+        "sha256": "9c4ec931019da64c043d1a9557983d18f7dc68c5c44683ea5b9695e420aab711"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_block_clean50/20000/params/ocdbt.process_0/d/cc4d0df13362109309633326c785c68b",
+        "local_path": "params/ocdbt.process_0/d/cc4d0df13362109309633326c785c68b",
+        "bytes": 2240577039,
+        "sha256": "d5d018196fd3e424bffd69ebfdf7c21e7514ae9d807be018efb615b92dddc7fa"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_block_clean50/20000/params/ocdbt.process_0/d/d552d187933d2c14b8937317c8b9a1a7",
+        "local_path": "params/ocdbt.process_0/d/d552d187933d2c14b8937317c8b9a1a7",
+        "bytes": 489326218,
+        "sha256": "7db94516151900afb76487775f5ee73870ca73b3a7ab7c1a10dcbaebb42db282"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_block_clean50/20000/params/ocdbt.process_0/d/e61a1d7eda66d28aac41515cc0338358",
+        "local_path": "params/ocdbt.process_0/d/e61a1d7eda66d28aac41515cc0338358",
+        "bytes": 2096239320,
+        "sha256": "6f4403086ad44ead3a37a334151cf4e511f890b35b2028c5f2fd4c0542cbbe48"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_block_clean50/20000/params/ocdbt.process_0/d/fc2a404efc617c888a31cabfa5aca4ed",
+        "local_path": "params/ocdbt.process_0/d/fc2a404efc617c888a31cabfa5aca4ed",
+        "bytes": 1120146055,
+        "sha256": "5b9171c17097c13968f8e19243e9ae8d79e111565dc5fa8c93b1cb94aa0b1873"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_block_clean50/20000/params/ocdbt.process_0/manifest.ocdbt",
+        "local_path": "params/ocdbt.process_0/manifest.ocdbt",
+        "bytes": 633,
+        "sha256": "7ed55a9b61c7114a4007817636eca3de6f5eb05c53979d99cab41aefc7746008"
+      }
+    ]
+  },
+  "pi05_handover_mic_clean50": {
+    "status": "published",
+    "repo_id": "Niugan/ChunkTrust",
+    "revision": "065e792c218184d9317bbef9c5aae8ba8d4a4a91",
+    "files": [
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_mic_clean50/20000/assets/handover_mic_aloha-agilex_clean_50_repo/norm_stats.json",
+        "local_path": "assets/handover_mic_aloha-agilex_clean_50_repo/norm_stats.json",
+        "bytes": 3275,
+        "sha256": "7999e4e591f0ddc1ccb7311e71c345e0e7953e2d9c2581200602e0e668b0e85f"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_mic_clean50/20000/params/_METADATA",
+        "local_path": "params/_METADATA",
+        "bytes": 22038,
+        "sha256": "4292d734e52ebf8111126bc166d60a48c592d532472c2ca5461a283759ee8ea4"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_mic_clean50/20000/params/_sharding",
+        "local_path": "params/_sharding",
+        "bytes": 15300,
+        "sha256": "1e9d1ab166a3644c567742d374d6ff2bf61bfa33ec505c36e24a3b34ebf700f3"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_mic_clean50/20000/params/d/fb7ac6d6149845508178799a21853405",
+        "local_path": "params/d/fb7ac6d6149845508178799a21853405",
+        "bytes": 2907,
+        "sha256": "9e481549f21385f480aa68063309b9acf7ed2b7e2229470966559956ced3b6d4"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_mic_clean50/20000/params/manifest.ocdbt",
+        "local_path": "params/manifest.ocdbt",
+        "bytes": 118,
+        "sha256": "d35eca8e1b24e7bc64898ac25e34605038799a1401d95687eb757b419d964852"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_mic_clean50/20000/params/ocdbt.process_0/d/17b46892ebd7c21ab2598b079acfb174",
+        "local_path": "params/ocdbt.process_0/d/17b46892ebd7c21ab2598b079acfb174",
+        "bytes": 1120147664,
+        "sha256": "add8932366eff7e6bb16888fcaba2198665e705deeb71118d4aefdf58de41000"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_mic_clean50/20000/params/ocdbt.process_0/d/21f26450a6b17aa461e6205bd4a667fa",
+        "local_path": "params/ocdbt.process_0/d/21f26450a6b17aa461e6205bd4a667fa",
+        "bytes": 1273868880,
+        "sha256": "8caa477b31f91292ed1256e386cca331dc6383db7cdc88165072ad4f903228cb"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_mic_clean50/20000/params/ocdbt.process_0/d/3c5cce2db123b6dfc6bcb9ea28eb1364",
+        "local_path": "params/ocdbt.process_0/d/3c5cce2db123b6dfc6bcb9ea28eb1364",
+        "bytes": 762522362,
+        "sha256": "f3224745dc32c197098297e57b1b86e841f997d62edae8ed1731f5256b5896a7"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_mic_clean50/20000/params/ocdbt.process_0/d/595c8c94672f81bf7f9bfdbd6fa405cd",
+        "local_path": "params/ocdbt.process_0/d/595c8c94672f81bf7f9bfdbd6fa405cd",
+        "bytes": 1120150058,
+        "sha256": "c8b2ed41c29f1b0a3f0ce11e2dd8eb174927706180d237aa09966513a438e005"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_mic_clean50/20000/params/ocdbt.process_0/d/a3a4695440c43ff1aee5d052384e730f",
+        "local_path": "params/ocdbt.process_0/d/a3a4695440c43ff1aee5d052384e730f",
+        "bytes": 1725880366,
+        "sha256": "dc3b6b71a45ba52ea7d4424cafc7d390f83970e37b8c044c5a6b6a2a1923a19f"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_mic_clean50/20000/params/ocdbt.process_0/d/b66a0f1c1faf031b247f04f6af4b5ca8",
+        "local_path": "params/ocdbt.process_0/d/b66a0f1c1faf031b247f04f6af4b5ca8",
+        "bytes": 2786,
+        "sha256": "c026e6bb432c203ade8d6763994f275b374560304ae30151d6128629c82ce00f"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_mic_clean50/20000/params/ocdbt.process_0/d/bc81687b7e06fc043bdfc3ef305a5caf",
+        "local_path": "params/ocdbt.process_0/d/bc81687b7e06fc043bdfc3ef305a5caf",
+        "bytes": 1080,
+        "sha256": "29c9bf4f8dfb16229f48749e77798870beb8545b2efc7e0891627f5015c2be29"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_mic_clean50/20000/params/ocdbt.process_0/d/c3d694b92c90c65b50fd2da453e8ae97",
+        "local_path": "params/ocdbt.process_0/d/c3d694b92c90c65b50fd2da453e8ae97",
+        "bytes": 2240293045,
+        "sha256": "5b8cf4783cfea26e060aea6e3da1a1873336ca46af0003d5241699e444c0edd9"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_mic_clean50/20000/params/ocdbt.process_0/d/d9618e2d8c84084a9f4a1abf42100f89",
+        "local_path": "params/ocdbt.process_0/d/d9618e2d8c84084a9f4a1abf42100f89",
+        "bytes": 213,
+        "sha256": "fff2f8b328c86ab34912c01d5758210df1805bcd73e3709be401d1989b9b18c3"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_mic_clean50/20000/params/ocdbt.process_0/d/e3061dd0e5d80300ac61593b2857a82d",
+        "local_path": "params/ocdbt.process_0/d/e3061dd0e5d80300ac61593b2857a82d",
+        "bytes": 2517111338,
+        "sha256": "229ea0a6dc46204c8df1c38370f98301e2faba50b7f9a96e0421ed018c08eaa2"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_mic_clean50/20000/params/ocdbt.process_0/d/ee16721d2ee27d94b767fec316be9f3c",
+        "local_path": "params/ocdbt.process_0/d/ee16721d2ee27d94b767fec316be9f3c",
+        "bytes": 1680429240,
+        "sha256": "19f5a771144ff0e7177c8a3d1d9d481d5ce8725171077fe08d21e961d71bbbce"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_handover_mic_clean50/20000/params/ocdbt.process_0/manifest.ocdbt",
+        "local_path": "params/ocdbt.process_0/manifest.ocdbt",
+        "bytes": 507,
+        "sha256": "6cfe04c10882f10965a7118a8b0bd5eb0197da355ad0be6cbe7255369c9119c0"
+      }
+    ]
+  },
+  "pi05_hanging_mug_clean50": {
+    "status": "published",
+    "repo_id": "Niugan/ChunkTrust",
+    "revision": "4bbe6e89b9908399673221dd6d921f982c2a0ee1",
+    "files": [
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_hanging_mug_clean50/20000/assets/hanging_mug_aloha-agilex_clean_50_repo/norm_stats.json",
+        "local_path": "assets/hanging_mug_aloha-agilex_clean_50_repo/norm_stats.json",
+        "bytes": 3328,
+        "sha256": "aab8eac7c6783fdcb837b66673d74b9146cc28c0dddc3b3df5b70296a0d717bb"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_hanging_mug_clean50/20000/params/_METADATA",
+        "local_path": "params/_METADATA",
+        "bytes": 22038,
+        "sha256": "4292d734e52ebf8111126bc166d60a48c592d532472c2ca5461a283759ee8ea4"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_hanging_mug_clean50/20000/params/_sharding",
+        "local_path": "params/_sharding",
+        "bytes": 15300,
+        "sha256": "1e9d1ab166a3644c567742d374d6ff2bf61bfa33ec505c36e24a3b34ebf700f3"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_hanging_mug_clean50/20000/params/d/9b3eade6518acb09d374ddd1cebe9a97",
+        "local_path": "params/d/9b3eade6518acb09d374ddd1cebe9a97",
+        "bytes": 2971,
+        "sha256": "8a3d54faa5881d5049d0b9b2d5049fba75ceb8b9746ddc3f858294a0c61bca42"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_hanging_mug_clean50/20000/params/manifest.ocdbt",
+        "local_path": "params/manifest.ocdbt",
+        "bytes": 118,
+        "sha256": "f39b0eb0d30d7370c1a500ad0fbd874953e6bc1a4adbe22e9b08b86f5530676e"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_hanging_mug_clean50/20000/params/ocdbt.process_0/d/023922010059faac98427fefa4f618c3",
+        "local_path": "params/ocdbt.process_0/d/023922010059faac98427fefa4f618c3",
+        "bytes": 279968118,
+        "sha256": "422add895cc0825799795ab31dbcfd86a3963266a5ea5e5839d27a61770b28a0"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_hanging_mug_clean50/20000/params/ocdbt.process_0/d/047399b49cf1bd19e19a4c10fb34462d",
+        "local_path": "params/ocdbt.process_0/d/047399b49cf1bd19e19a4c10fb34462d",
+        "bytes": 474596986,
+        "sha256": "ea537ff9fa3319a6bb17df3dcb625975a0beb3845f1cbd3793a765d9f82253ea"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_hanging_mug_clean50/20000/params/ocdbt.process_0/d/27d5772bc04fa07b28ff7245d0741190",
+        "local_path": "params/ocdbt.process_0/d/27d5772bc04fa07b28ff7245d0741190",
+        "bytes": 5382,
+        "sha256": "5d50ff5d3a426148a0fad0f4e5ac363a779983e8224d7b53a5c41f4bdd99abf7"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_hanging_mug_clean50/20000/params/ocdbt.process_0/d/4543eed5bc4fc449b963576c47c20a51",
+        "local_path": "params/ocdbt.process_0/d/4543eed5bc4fc449b963576c47c20a51",
+        "bytes": 213,
+        "sha256": "fff2f8b328c86ab34912c01d5758210df1805bcd73e3709be401d1989b9b18c3"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_hanging_mug_clean50/20000/params/ocdbt.process_0/d/6267bb80926b9d410517bb21e6a466ab",
+        "local_path": "params/ocdbt.process_0/d/6267bb80926b9d410517bb21e6a466ab",
+        "bytes": 1173800855,
+        "sha256": "256b874b57877280d09feaa2c7412d2faf057102e01e551cedd394b86aabf828"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_hanging_mug_clean50/20000/params/ocdbt.process_0/d/8173ef093f2ecaeab23838561ae29cf3",
+        "local_path": "params/ocdbt.process_0/d/8173ef093f2ecaeab23838561ae29cf3",
+        "bytes": 342012,
+        "sha256": "0ff49e45ff96477e55411c7097a79937c34118bf823c8d7790490fd88dd5b650"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_hanging_mug_clean50/20000/params/ocdbt.process_0/d/8aa3753888739a6cfecbf082f9f9efc0",
+        "local_path": "params/ocdbt.process_0/d/8aa3753888739a6cfecbf082f9f9efc0",
+        "bytes": 489313266,
+        "sha256": "9a4c166ceec8cb649c4c93524b20ce9222e2d0f02309ecd6db03f8bd7abaa859"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_hanging_mug_clean50/20000/params/ocdbt.process_0/d/8ce49a860cdc048cbc9c334764c14b2a",
+        "local_path": "params/ocdbt.process_0/d/8ce49a860cdc048cbc9c334764c14b2a",
+        "bytes": 2027806052,
+        "sha256": "51b6c43ec7bd11aadb4149b0d2230b132f18a8c4942250b97964502f2a829ab5"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_hanging_mug_clean50/20000/params/ocdbt.process_0/d/97aead3d9d4a38d301c78401b76d4e76",
+        "local_path": "params/ocdbt.process_0/d/97aead3d9d4a38d301c78401b76d4e76",
+        "bytes": 2800573259,
+        "sha256": "0fc719c7ded1b235b2bd8b10d06f4bfc034e4adf38dd6a62cfb703809598c895"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_hanging_mug_clean50/20000/params/ocdbt.process_0/d/aa84f1d186488f47feecd2f2071c4570",
+        "local_path": "params/ocdbt.process_0/d/aa84f1d186488f47feecd2f2071c4570",
+        "bytes": 1833569695,
+        "sha256": "43441c3c0b348315452af4b7ae9a98d01711ea1fd8e1b12139c61b56fbcd35f7"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_hanging_mug_clean50/20000/params/ocdbt.process_0/d/e55ae20a1d8784139a5e256cdde84fa2",
+        "local_path": "params/ocdbt.process_0/d/e55ae20a1d8784139a5e256cdde84fa2",
+        "bytes": 2240283774,
+        "sha256": "ed7be9abe2053d74059fb7a6144cda085f399b43d88ba54ca4710c6c405c396d"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_hanging_mug_clean50/20000/params/ocdbt.process_0/d/ee2e7909bc6efdec47e55f60e6f544d6",
+        "local_path": "params/ocdbt.process_0/d/ee2e7909bc6efdec47e55f60e6f544d6",
+        "bytes": 1120143204,
+        "sha256": "b1d19648e7c3a7d2548ed252e88e38e4e62c3d117f8f9c63c29530cc9c0c3d4a"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_hanging_mug_clean50/20000/params/ocdbt.process_0/manifest.ocdbt",
+        "local_path": "params/ocdbt.process_0/manifest.ocdbt",
+        "bytes": 598,
+        "sha256": "c5d4ed0a7f703819efb1e73fd536f37a58d0900196ce563af70495ef5adf501b"
+      }
+    ]
+  },
+  "pi05_place_bread_skillet_clean50": {
+    "status": "published",
+    "repo_id": "Niugan/ChunkTrust",
+    "revision": "00587fcc15347d78572ab1fb98dbf8419f38f7e8",
+    "files": [
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/assets/place_bread_skillet_aloha-agilex_clean_50_repo/norm_stats.json",
+        "local_path": "assets/place_bread_skillet_aloha-agilex_clean_50_repo/norm_stats.json",
+        "bytes": 3287,
+        "sha256": "f3031508e4031aa78ba7bd0e82a00c5ad571562f51eb92dc3601f38b1b55177a"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/_METADATA",
+        "local_path": "params/_METADATA",
+        "bytes": 22038,
+        "sha256": "4292d734e52ebf8111126bc166d60a48c592d532472c2ca5461a283759ee8ea4"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/_sharding",
+        "local_path": "params/_sharding",
+        "bytes": 15300,
+        "sha256": "1e9d1ab166a3644c567742d374d6ff2bf61bfa33ec505c36e24a3b34ebf700f3"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/d/9581d695f81ecbe491f7878e7d50f702",
+        "local_path": "params/d/9581d695f81ecbe491f7878e7d50f702",
+        "bytes": 3324,
+        "sha256": "bf520202330dcfc493d31f6779fdadcbaccf3455793d6be666369b57b1805446"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/manifest.ocdbt",
+        "local_path": "params/manifest.ocdbt",
+        "bytes": 118,
+        "sha256": "d1aefe677896f493209a5b12246d912f26340f42417bb3db6517e012afdaede7"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/d/05a729182f871c7498986ff32e141dd5",
+        "local_path": "params/ocdbt.process_0/d/05a729182f871c7498986ff32e141dd5",
+        "bytes": 120930292,
+        "sha256": "349c0637b8c24f62487f8b826036dd3cd8f8577fa2e5294faf09c88de3fedd8f"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/d/0aa1b1c5453679701704aa9c70774c35",
+        "local_path": "params/ocdbt.process_0/d/0aa1b1c5453679701704aa9c70774c35",
+        "bytes": 1120142294,
+        "sha256": "8512c2a97e0b3a84c597153ebc9100f376ed84fa5f2a4bcb76e283e3fc4b7342"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/d/0f2e969d68f2a973eb7f3eb227023cad",
+        "local_path": "params/ocdbt.process_0/d/0f2e969d68f2a973eb7f3eb227023cad",
+        "bytes": 156005953,
+        "sha256": "42bf04e10189bfeffafd5c3bd3c55823d8c11b9681ef33b472739a39a9c7c5e3"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/d/202be90d79bbb4f7d54288e7a2f29985",
+        "local_path": "params/ocdbt.process_0/d/202be90d79bbb4f7d54288e7a2f29985",
+        "bytes": 8597823,
+        "sha256": "cf09491bfc50497cd55435d4ddd867658a64eeb7ea4d6e46ed72ce84408bb299"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/d/28b4c30062b47614045cd16238ea24eb",
+        "local_path": "params/ocdbt.process_0/d/28b4c30062b47614045cd16238ea24eb",
+        "bytes": 69996517,
+        "sha256": "59a316b7833d8af6e56cf0bbaa2752b4807de684bfa137a3df038cd969b0e065"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/d/32e52eca942d028848f8770bc3006d52",
+        "local_path": "params/ocdbt.process_0/d/32e52eca942d028848f8770bc3006d52",
+        "bytes": 1120154305,
+        "sha256": "8652e87709348f644fe07848b271426e5211ec9ef3057f83628a5bf56e0ad9dd"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/d/36c4e87654a9098039fd3c5437afbe7e",
+        "local_path": "params/ocdbt.process_0/d/36c4e87654a9098039fd3c5437afbe7e",
+        "bytes": 69996025,
+        "sha256": "910698f9256ae79cef7ab609dd1743c6c5e86a2128ebcd7f3767b40e9a84e37a"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/d/49ad114ed76692f16a3a6f06a27a70ce",
+        "local_path": "params/ocdbt.process_0/d/49ad114ed76692f16a3a6f06a27a70ce",
+        "bytes": 70021046,
+        "sha256": "deb1fb32b063e67ff2a6559fa5888b6197f3089a8c1d6000e9a2f1944a29c545"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/d/4abeabfac556f4777da6ed6d179b7c40",
+        "local_path": "params/ocdbt.process_0/d/4abeabfac556f4777da6ed6d179b7c40",
+        "bytes": 139791517,
+        "sha256": "63c2c9551d1d9487671388f8ef7a069532e1dbc016388aa40f249d6412c270ba"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/d/4c432309b42da17c63e91e8351097c84",
+        "local_path": "params/ocdbt.process_0/d/4c432309b42da17c63e91e8351097c84",
+        "bytes": 140295592,
+        "sha256": "f426869cdb2ec15548a992ddc91b2e404062338f0b8b00c63fdf9c7d04ff888f"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/d/5207b2acb26e0c1d61b69e51c1013c7a",
+        "local_path": "params/ocdbt.process_0/d/5207b2acb26e0c1d61b69e51c1013c7a",
+        "bytes": 139792913,
+        "sha256": "2e59ea56a7a96726348c4c773c1f0be8d27d928ff0e41cdc75aece18433d59c5"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/d/59069e3fbe50658e9fe66dd6b41396f7",
+        "local_path": "params/ocdbt.process_0/d/59069e3fbe50658e9fe66dd6b41396f7",
+        "bytes": 140056903,
+        "sha256": "d51263394340a199f3810b64cb6eee7d9067434e565c1df7778a562ac3cd6e75"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/d/624e91a6dae89748826c45a1e198b7e2",
+        "local_path": "params/ocdbt.process_0/d/624e91a6dae89748826c45a1e198b7e2",
+        "bytes": 248638001,
+        "sha256": "efd1163de2979a3805005692888d911ec58c1cc320b73148a3d485d852157a7c"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/d/658e95f5bcd1d6f041438df725f592b8",
+        "local_path": "params/ocdbt.process_0/d/658e95f5bcd1d6f041438df725f592b8",
+        "bytes": 489326585,
+        "sha256": "7674e52b803563f44d0f8c8047f83d74e9126eaa30f3b05d085f7e7d99613919"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/d/74fa0a09c1d9b01d63d9dfb774e912e5",
+        "local_path": "params/ocdbt.process_0/d/74fa0a09c1d9b01d63d9dfb774e912e5",
+        "bytes": 374491746,
+        "sha256": "9294d4f4147563a4e8e43e50288eb52abb60640adc56d859bea7ac9a61e02d61"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/d/7abc2b19ed1c272fcd183a3451e00709",
+        "local_path": "params/ocdbt.process_0/d/7abc2b19ed1c272fcd183a3451e00709",
+        "bytes": 210095560,
+        "sha256": "6543e44456b888e60b27082125b864301ff0ad3974b71e1e288b64a2ac6345d0"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/d/84f1903e5e5632ed40cf1fbef5b70f17",
+        "local_path": "params/ocdbt.process_0/d/84f1903e5e5632ed40cf1fbef5b70f17",
+        "bytes": 1467645684,
+        "sha256": "16ee8b42c30cc67ac1e04613babe4f8c2ee9a22b1c37a87bb331559ef99d4c32"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/d/91120c4788d00fccf7ebe0d962c9e305",
+        "local_path": "params/ocdbt.process_0/d/91120c4788d00fccf7ebe0d962c9e305",
+        "bytes": 175293594,
+        "sha256": "0de318050224b34f547ca6af05ba050f57cb0be891101d9460dd16b0795340f8"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/d/91df9255f77658e53b17cb9d6abe8de4",
+        "local_path": "params/ocdbt.process_0/d/91df9255f77658e53b17cb9d6abe8de4",
+        "bytes": 2240283346,
+        "sha256": "ffd71d3c5dd087a0fba4fb2c3b93cb92172fc45aec7d312ba7eccad15d1c1396"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/d/953edb72a5ec67c1e50b6271b087d0da",
+        "local_path": "params/ocdbt.process_0/d/953edb72a5ec67c1e50b6271b087d0da",
+        "bytes": 498988766,
+        "sha256": "bf35179e2db6600a74b2810c1fba0022cc1dab5f2171973ea0e0913c9efe8e95"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/d/9993ba2b920a1f8712bce1a8ed6d3792",
+        "local_path": "params/ocdbt.process_0/d/9993ba2b920a1f8712bce1a8ed6d3792",
+        "bytes": 248510902,
+        "sha256": "0394839bac2df194ebd579a182ff455f1a135fa0ea2740a3ea5b44c4dc31b327"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/d/adbc63b4d5eff8864e6d037e4c83bcad",
+        "local_path": "params/ocdbt.process_0/d/adbc63b4d5eff8864e6d037e4c83bcad",
+        "bytes": 34973496,
+        "sha256": "332dbc39b85a468c0e2e897bce912299db2b5d4378a322dce576d970ab18ccbe"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/d/b10bb44cc7462e78a34511ffdac1b82e",
+        "local_path": "params/ocdbt.process_0/d/b10bb44cc7462e78a34511ffdac1b82e",
+        "bytes": 248576751,
+        "sha256": "a7edfb60d6a61c61006971a5e9db523564f1b851e52b10c4c1cf150f3fbecf40"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/d/c101a41e91f49b5eecff0db6c4424792",
+        "local_path": "params/ocdbt.process_0/d/c101a41e91f49b5eecff0db6c4424792",
+        "bytes": 2873,
+        "sha256": "6afeebe7df2028633d814c1bd5bb080e3bb781ad9844185c8392d3116976e819"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/d/c241e73805ed119bdb9b9337571db1fb",
+        "local_path": "params/ocdbt.process_0/d/c241e73805ed119bdb9b9337571db1fb",
+        "bytes": 2734,
+        "sha256": "ebbffcf513f45310bdf1e7bc8d6515cda0a18ae54ef195d999b520b40f5e9be5"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/d/c44aa8170cd5542389939709f12dbafb",
+        "local_path": "params/ocdbt.process_0/d/c44aa8170cd5542389939709f12dbafb",
+        "bytes": 1080,
+        "sha256": "29c9bf4f8dfb16229f48749e77798870beb8545b2efc7e0891627f5015c2be29"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/d/caaae50f5139124737d71f1a4034a2e9",
+        "local_path": "params/ocdbt.process_0/d/caaae50f5139124737d71f1a4034a2e9",
+        "bytes": 5410,
+        "sha256": "e5027afd248a6772fae2a48eb4e89fdd74ae2a4c61d7051dba79e9dc08240094"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/d/ccfbca08f922728044e042082e41c3aa",
+        "local_path": "params/ocdbt.process_0/d/ccfbca08f922728044e042082e41c3aa",
+        "bytes": 1120287696,
+        "sha256": "67fb0e3a3465d8c011ebfd5c4328544c323a81094537bab60da240a38ae0c073"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/d/d5a4e30c2d66755d76b0d2db5bd2f599",
+        "local_path": "params/ocdbt.process_0/d/d5a4e30c2d66755d76b0d2db5bd2f599",
+        "bytes": 318597307,
+        "sha256": "341d95262be921f59c20dd5f93613403bb65ddf925a5f1fb9159281d6574c3a1"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/d/e93e5ff3edbbfe1c5c1fe49d028f1b2e",
+        "local_path": "params/ocdbt.process_0/d/e93e5ff3edbbfe1c5c1fe49d028f1b2e",
+        "bytes": 213,
+        "sha256": "fff2f8b328c86ab34912c01d5758210df1805bcd73e3709be401d1989b9b18c3"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/d/efc2b29fc7614739604d48a1fabdf241",
+        "local_path": "params/ocdbt.process_0/d/efc2b29fc7614739604d48a1fabdf241",
+        "bytes": 16382904,
+        "sha256": "8e6e46af6fcd694b2c400b30267634b48602e9f9185e29b6494ffe0d6c87e31b"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/d/f530cbcf288c492b60d4ce4e9a872579",
+        "local_path": "params/ocdbt.process_0/d/f530cbcf288c492b60d4ce4e9a872579",
+        "bytes": 1120284245,
+        "sha256": "b5d0a57d63b731cde581619013fb9378394e9f627ee92a8a2a615903825ae5ac"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/d/fa464110dc9738bd95ca2ed265fb59d4",
+        "local_path": "params/ocdbt.process_0/d/fa464110dc9738bd95ca2ed265fb59d4",
+        "bytes": 52709681,
+        "sha256": "f05d328f05b477d5c58b13696684600bd2a40be1fb0775c1726cdc1620c7fed6"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/d/fca6c45118221a197318591b4640fbae",
+        "local_path": "params/ocdbt.process_0/d/fca6c45118221a197318591b4640fbae",
+        "bytes": 279585523,
+        "sha256": "27232e6392faa7d392d5ee37f1daaae29f7e66f8d1de8d9599cf6bcd14d24d0b"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_bread_skillet_clean50/20000/params/ocdbt.process_0/manifest.ocdbt",
+        "local_path": "params/ocdbt.process_0/manifest.ocdbt",
+        "bytes": 141,
+        "sha256": "65dff2a45c9a277910c9c4e9a1366e98290cce300701302563eb7750ac5b7487"
       }
     ]
   },
@@ -243,5 +2502,788 @@
     "checkpoint_kind": "intermediate",
     "paper_result_mapping": "not established",
     "revision": "61105bfe4c5d3a04c75416b6083bfd0d7200bc1b"
+  },
+  "pi05_robotwin_clean50_multitask50_formal_20260728_01": {
+    "status": "published",
+    "repo_id": "Niugan/ChunkTrust",
+    "revision": "a9580e0497f3a6fb0a398c7d9e86adb269a8598d",
+    "family": "pi05",
+    "step": 30000,
+    "files": [
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/.msc",
+        "local_path": ".msc",
+        "bytes": 6009,
+        "sha256": "7e0dc555e50f4e1b6996019d8e4e35d32ff9ebf7f74f641ffb3d0348507932f3"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/.mv",
+        "local_path": ".mv",
+        "bytes": 36,
+        "sha256": "bd9d4b07cb9be689dbebad817d7e0cf39f11cf559e6fcea21c57890d72ec0ce5"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/INFERENCE_ONLY_MANIFEST.json",
+        "local_path": "INFERENCE_ONLY_MANIFEST.json",
+        "bytes": 1335,
+        "sha256": "7de8afafc19392b4954c71afdcb99c79cad404fcfd74e543e8c3b8d1f4c6d4e4"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/README.md",
+        "local_path": "README.md",
+        "bytes": 2118,
+        "sha256": "d7ef55a806cedfd33fb76699455d515fa911b53ff09c8d6f333992364b4fc163"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/assets/_audit/ROBOTWIN_CLEAN50_MULTITASK50_TRAINING_RECIPE_20260728.md",
+        "local_path": "assets/_audit/ROBOTWIN_CLEAN50_MULTITASK50_TRAINING_RECIPE_20260728.md",
+        "bytes": 15949,
+        "sha256": "3861e68df4299c61ad1218ce7599b0a5797d8ec0a710f73d70e7d38ccc16da44"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/assets/_audit/cache_horizon50_norm_exact_comparison.json",
+        "local_path": "assets/_audit/cache_horizon50_norm_exact_comparison.json",
+        "bytes": 43327,
+        "sha256": "eb5b511442792db1d35080141b12fa0af41e3707f825ca961a90c1508143742b"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/assets/_audit/cache_summary.json",
+        "local_path": "assets/_audit/cache_summary.json",
+        "bytes": 33107,
+        "sha256": "a84bc580abafef8544e286b9343522058fd50f7a7b44385e23f267d8771b8313"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/assets/_audit/conversion_summary.json",
+        "local_path": "assets/_audit/conversion_summary.json",
+        "bytes": 515210,
+        "sha256": "7eefb99a47c1db458bc609194778a552de5b331ddce862bc76dc9be6262365cd"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/assets/_audit/lerobot_files.sha256",
+        "local_path": "assets/_audit/lerobot_files.sha256",
+        "bytes": 407616,
+        "sha256": "58284d4e4f758648cc6fc173fcf25d1be38222f3c9dec682f5fe75a145eba4ee"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/assets/_audit/metadata.sha256",
+        "local_path": "assets/_audit/metadata.sha256",
+        "bytes": 1214,
+        "sha256": "c86903fab09d71ffc856f650584880b191eb66282433a290ce743229356d49a5"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/assets/_audit/norm_stats_audit.json",
+        "local_path": "assets/_audit/norm_stats_audit.json",
+        "bytes": 8959,
+        "sha256": "be594f8da70cda790bc485c63a0b9eee0ccdc846b20334d132a4936392ab8b02"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/assets/_audit/preflight_gate.json",
+        "local_path": "assets/_audit/preflight_gate.json",
+        "bytes": 2824,
+        "sha256": "bffc34135e37e4777817cc46746f6265b8e8bc696f870783810a09bc358241d7"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/assets/_audit/robotwin_clean50_multitask50_manifest.json",
+        "local_path": "assets/_audit/robotwin_clean50_multitask50_manifest.json",
+        "bytes": 6095,
+        "sha256": "f1e8ed7184a864d8aecd86258929ab22a5cf1300e58d90eada043c9252c9d67e"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/assets/_audit/runtime_files.sha256",
+        "local_path": "assets/_audit/runtime_files.sha256",
+        "bytes": 2122,
+        "sha256": "1ee7200815457c8087a518c1648a1c3a5388fc816f954ffc5524d73efeea5a13"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/assets/_audit/sampler_audit.json",
+        "local_path": "assets/_audit/sampler_audit.json",
+        "bytes": 8176,
+        "sha256": "41239047565ad986ab49ad8bcf31da9120662c92c917aacb800abcc899816d2b"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/assets/_audit/source_audit_summary.json",
+        "local_path": "assets/_audit/source_audit_summary.json",
+        "bytes": 9495,
+        "sha256": "a4fc84c80e5677f8f29b5631347331218ae450604a3be6227a8201aea80418ae"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/assets/_audit/source_files.sha256",
+        "local_path": "assets/_audit/source_files.sha256",
+        "bytes": 964150,
+        "sha256": "7ace500d7f2fe3947a9435c8cf8d5731881a03e82ec999acc036708f7c9efc29"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/assets/_audit/task_membership.json",
+        "local_path": "assets/_audit/task_membership.json",
+        "bytes": 5462,
+        "sha256": "97cb74d790d2110de55196186a531d0f0150ae9d2474b6df8f62612488c11a89"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/assets/_train_config_model.json",
+        "local_path": "assets/_train_config_model.json",
+        "bytes": 1438,
+        "sha256": "b6b13536f38e2cfcb0e2fe0aa1936f92f40b7cc52140d2d2f0d0eeac644bf2b4"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/assets/_train_config_resolved.json",
+        "local_path": "assets/_train_config_resolved.json",
+        "bytes": 9607,
+        "sha256": "7004ae21b3213084ffa408452e9855bba37ed18bdaa41f33215e877070346233"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/assets/robotwin_aloha_agilex_clean50_multitask50_global/norm_stats.json",
+        "local_path": "assets/robotwin_aloha_agilex_clean50_multitask50_global/norm_stats.json",
+        "bytes": 3355,
+        "sha256": "f9d838c69875cf8d891cc40cf01cfb261b6f69b5ec0ea0118072d41668191832"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/configuration.json",
+        "local_path": "configuration.json",
+        "bytes": 69,
+        "sha256": "2213eb1d2bef612be64a96c9204fbc91bce1676b0f339676ce893f7d1465b4b8"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/inference_files.sha256",
+        "local_path": "inference_files.sha256",
+        "bytes": 6643,
+        "sha256": "cb68b1583e211f51d51347dee120357ce56e3d6e5a4e2c06407691f5a82127f8"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/_METADATA",
+        "local_path": "params/_METADATA",
+        "bytes": 22038,
+        "sha256": "4292d734e52ebf8111126bc166d60a48c592d532472c2ca5461a283759ee8ea4"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/_sharding",
+        "local_path": "params/_sharding",
+        "bytes": 18054,
+        "sha256": "3d1226ac07f6334094cece0bcbcd1fce68d22d34899136b67831b59f4a820add"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/d/b66788be90c032aaf6de98b2690b943d",
+        "local_path": "params/d/b66788be90c032aaf6de98b2690b943d",
+        "bytes": 3334,
+        "sha256": "d78361a4f91c6c3f4fd53a4c2110ccc273edd61ec253e6f82d8096d62fbec79a"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/manifest.ocdbt",
+        "local_path": "params/manifest.ocdbt",
+        "bytes": 118,
+        "sha256": "21d47f15cc6a14ebedaee5a5e22d83e9b936b8a33367152e9bbf49952d3e983b"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/ocdbt.process_0/d/02df726be08622a61d6cf47f091d341a",
+        "local_path": "params/ocdbt.process_0/d/02df726be08622a61d6cf47f091d341a",
+        "bytes": 34972244,
+        "sha256": "a6b4f215e1240951278d817dbfa3384d3a33d9b64920475693744d5dd464e611"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/ocdbt.process_0/d/062a433f2b85c29e5c632112187258a4",
+        "local_path": "params/ocdbt.process_0/d/062a433f2b85c29e5c632112187258a4",
+        "bytes": 1304791860,
+        "sha256": "e7dd73a426676a47d1ef39231e22e0fba548c5a9200035fb2a7928b28a0c2fd8"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/ocdbt.process_0/d/125f691780577c8344671fb27dc354a3",
+        "local_path": "params/ocdbt.process_0/d/125f691780577c8344671fb27dc354a3",
+        "bytes": 140023263,
+        "sha256": "ba04add51ee0d06b4ba7944fa3a393e29f185d3a47d8949ffd5538329dbf95e6"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/ocdbt.process_0/d/1be762b45f33a04eb6133cfc374c1358",
+        "local_path": "params/ocdbt.process_0/d/1be762b45f33a04eb6133cfc374c1358",
+        "bytes": 183773943,
+        "sha256": "a57aa99b4078d553545a8cf671633fde992c4c2af4ca41d5fde6f34cd0d78d50"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/ocdbt.process_0/d/2b0059faeb15a970a634e67dabb1d261",
+        "local_path": "params/ocdbt.process_0/d/2b0059faeb15a970a634e67dabb1d261",
+        "bytes": 148740158,
+        "sha256": "8ee45ac0955c36fe181b62e6ab8ed4d359b7438e808cfd987422459e187e7ad2"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/ocdbt.process_0/d/2c17950ffab4019bc7ef2cdea25e8b11",
+        "local_path": "params/ocdbt.process_0/d/2c17950ffab4019bc7ef2cdea25e8b11",
+        "bytes": 105589717,
+        "sha256": "1edf3e384b0dd3b61b5bf66e37c5de4603faaafdd72de5400dc77c18bda23f7f"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/ocdbt.process_0/d/3d266d104f7dcbd88f27672a3183c330",
+        "local_path": "params/ocdbt.process_0/d/3d266d104f7dcbd88f27672a3183c330",
+        "bytes": 70047355,
+        "sha256": "33311b81e503dbf9d28ee244e1ba7dfac3b7d9a1a8b81fc9de87386dcbe51761"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/ocdbt.process_0/d/3f035bfc08ccc897bcb5308fc8d3a357",
+        "local_path": "params/ocdbt.process_0/d/3f035bfc08ccc897bcb5308fc8d3a357",
+        "bytes": 124319018,
+        "sha256": "a78ec976980d23dde70e146aa13bd4c0f2c8a4982ebef83aec0af89e58b265a9"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/ocdbt.process_0/d/50a69fe4d0cfccd658cf77d72e1dc933",
+        "local_path": "params/ocdbt.process_0/d/50a69fe4d0cfccd658cf77d72e1dc933",
+        "bytes": 52597293,
+        "sha256": "5411ebedc92a2f27374ff705ed8f3ba00d76017dbfae7c30cd55543272dcfc2b"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/ocdbt.process_0/d/5184f1b5a2fba980bec6ba1e1fee3e4a",
+        "local_path": "params/ocdbt.process_0/d/5184f1b5a2fba980bec6ba1e1fee3e4a",
+        "bytes": 34966276,
+        "sha256": "b8261baa1ea675a8bd38ffb2c0c86867ff37300408bc5899b54d9525e14387fa"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/ocdbt.process_0/d/6010cf01414638748dbcef418e96ac52",
+        "local_path": "params/ocdbt.process_0/d/6010cf01414638748dbcef418e96ac52",
+        "bytes": 75225022,
+        "sha256": "2a2974fea3beeedf90b679d7f59d3cdc2937dc982dca7365fcc7078c17d40e9a"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/ocdbt.process_0/d/62db0b2b9aebd5946852f473211d00b8",
+        "local_path": "params/ocdbt.process_0/d/62db0b2b9aebd5946852f473211d00b8",
+        "bytes": 360158,
+        "sha256": "7e468243797f97bd4e655488f058338905d4e6fda903e4c7c0b30342752c6e3e"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/ocdbt.process_0/d/6df5ffba38f7648d476bf683c656843b",
+        "local_path": "params/ocdbt.process_0/d/6df5ffba38f7648d476bf683c656843b",
+        "bytes": 3318,
+        "sha256": "8ce75987229359abfd54e79cf868f0c1dd25da29253662f5d121ea7161277641"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/ocdbt.process_0/d/82b7c3de41dcc212f99c526f79e1a544",
+        "local_path": "params/ocdbt.process_0/d/82b7c3de41dcc212f99c526f79e1a544",
+        "bytes": 2027943152,
+        "sha256": "b22ec59954e5b2f4633d049cdecb258d55ec292643281cccafbd71b882bdb20e"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/ocdbt.process_0/d/8e48ca5f23596b983a967a5b09272896",
+        "local_path": "params/ocdbt.process_0/d/8e48ca5f23596b983a967a5b09272896",
+        "bytes": 213,
+        "sha256": "fff2f8b328c86ab34912c01d5758210df1805bcd73e3709be401d1989b9b18c3"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/ocdbt.process_0/d/90ad08590c451e8edb2bcafd8425498b",
+        "local_path": "params/ocdbt.process_0/d/90ad08590c451e8edb2bcafd8425498b",
+        "bytes": 52698004,
+        "sha256": "beb03c09a91916a811d4d2d4493c60eb86a5fa781abfed023f35e807a2e800a0"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/ocdbt.process_0/d/91dd7e4418e8d7c310b561d1be1a34a9",
+        "local_path": "params/ocdbt.process_0/d/91dd7e4418e8d7c310b561d1be1a34a9",
+        "bytes": 69997871,
+        "sha256": "0c9cfdbcc00d69c779031a5a52dec8af3ad04b55c2afe4f2eaf699d904f511d3"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/ocdbt.process_0/d/a33d648dfeed480250ace85cb8dabb7b",
+        "local_path": "params/ocdbt.process_0/d/a33d648dfeed480250ace85cb8dabb7b",
+        "bytes": 299557826,
+        "sha256": "73a490c3e535fce86fe9486a63548830af87bf5346c01be416756ff26760a6bc"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/ocdbt.process_0/d/a62fcfcf1ce68bf22f6cb5b7260348de",
+        "local_path": "params/ocdbt.process_0/d/a62fcfcf1ce68bf22f6cb5b7260348de",
+        "bytes": 175017321,
+        "sha256": "7c3fe479139a9b9ed58e4f1a5f30c145325db0756834b88b07af8264bd0388d2"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/ocdbt.process_0/d/b1e35a6aa4a75b235b42e112ac84bb1a",
+        "local_path": "params/ocdbt.process_0/d/b1e35a6aa4a75b235b42e112ac84bb1a",
+        "bytes": 46968490,
+        "sha256": "2a20ce8e281ec213ce993a86ba2d55e7d112fca0bdac3ff66aac39b78238c1bb"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/ocdbt.process_0/d/b65d5fc95eef66539908de4d977bb204",
+        "local_path": "params/ocdbt.process_0/d/b65d5fc95eef66539908de4d977bb204",
+        "bytes": 69998689,
+        "sha256": "e5eb802ea444208d4f0145cbc3d865cc4d99f109353d9a21be6932c4e8d9a23f"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/ocdbt.process_0/d/bf6abcc38f15e5ceebe5f8f6658c66fb",
+        "local_path": "params/ocdbt.process_0/d/bf6abcc38f15e5ceebe5f8f6658c66fb",
+        "bytes": 70050345,
+        "sha256": "8177132ab604664939aec1a9e2f2f88c1238060e70fde062937fba369d5c73b7"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/ocdbt.process_0/d/c2f397e682f53b03c42d1621bd58044c",
+        "local_path": "params/ocdbt.process_0/d/c2f397e682f53b03c42d1621bd58044c",
+        "bytes": 2240222266,
+        "sha256": "44574ebd9b4d65919cebae6388d3d884d7d797311d0f09458b86c2bccc14f44f"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/ocdbt.process_0/d/c4a720041b013e6695d2c7f34a7c13a5",
+        "local_path": "params/ocdbt.process_0/d/c4a720041b013e6695d2c7f34a7c13a5",
+        "bytes": 489152986,
+        "sha256": "de59cd02a3fd64efaf9617cda720987383a3cfe3c34fd0fb83b1b9aeff8fa686"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/ocdbt.process_0/d/c653d94337eeff1eb4ec14d4868e4393",
+        "local_path": "params/ocdbt.process_0/d/c653d94337eeff1eb4ec14d4868e4393",
+        "bytes": 140077384,
+        "sha256": "1604bc6117a79c24f9e406fd63f9be8c5c45f067530fec8adbb81e3ed1a4108f"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/ocdbt.process_0/d/c8bc162635004862b631f078c17bd137",
+        "local_path": "params/ocdbt.process_0/d/c8bc162635004862b631f078c17bd137",
+        "bytes": 122496902,
+        "sha256": "0ca9c5b7db1d78a7577dc3e8d5571b7ec44bf25e5ec7ac9a9abc17825234debe"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/ocdbt.process_0/d/ca383ae7b9d304571f08409f60836121",
+        "local_path": "params/ocdbt.process_0/d/ca383ae7b9d304571f08409f60836121",
+        "bytes": 4428080,
+        "sha256": "e93b96c50e50aa17f9e9747c93709db6cba897c6962d075269dfbb229f14c65e"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/ocdbt.process_0/d/d2e13429bbb9b740d8ce5e2b2716c122",
+        "local_path": "params/ocdbt.process_0/d/d2e13429bbb9b740d8ce5e2b2716c122",
+        "bytes": 2240217490,
+        "sha256": "3b207243e79976244a79248b01acf3dd09fc75b48060e9fffe3b6ca3c6ab984b"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/ocdbt.process_0/d/e435fa846e78acc339e416160a1f61db",
+        "local_path": "params/ocdbt.process_0/d/e435fa846e78acc339e416160a1f61db",
+        "bytes": 99729772,
+        "sha256": "6d074c31362f4d3b050d53008057965713da907a3410765c83a37c36bd8bc6f9"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/ocdbt.process_0/d/e472a21713455d92c576496d205f9984",
+        "local_path": "params/ocdbt.process_0/d/e472a21713455d92c576496d205f9984",
+        "bytes": 315191820,
+        "sha256": "954c536969fb3977c743237c2076d5f018cd18061da5cc05682b733e3fdfcda6"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/ocdbt.process_0/d/ed0ef2f6922513e976d8a3d7a5f98090",
+        "local_path": "params/ocdbt.process_0/d/ed0ef2f6922513e976d8a3d7a5f98090",
+        "bytes": 20671519,
+        "sha256": "3caee08e7cc8525c58e53046ccfb15822a69c5324750a526a1ad9f64880940ff"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/ocdbt.process_0/d/fc44175b643372726ca31b1592dd0f1b",
+        "local_path": "params/ocdbt.process_0/d/fc44175b643372726ca31b1592dd0f1b",
+        "bytes": 1080,
+        "sha256": "29c9bf4f8dfb16229f48749e77798870beb8545b2efc7e0891627f5015c2be29"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/ocdbt.process_0/d/fec1060e89dad200d5efd973a3906934",
+        "local_path": "params/ocdbt.process_0/d/fec1060e89dad200d5efd973a3906934",
+        "bytes": 1680371478,
+        "sha256": "4259c17d68035ed95bddc5ecd6c2e9d100861eabf4a98765bda1c8b11bbc267a"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full_multitask50/pi05_robotwin_clean50_multitask50_formal_20260728_01/30000/params/ocdbt.process_0/manifest.ocdbt",
+        "local_path": "params/ocdbt.process_0/manifest.ocdbt",
+        "bytes": 815,
+        "sha256": "64d6bcd635845cd4fc4013a322e52e15d8e4565b87edd083a5dcaa4b5537c611"
+      }
+    ]
+  },
+  "pi05_place_a2b_left_clean50": {
+    "status": "published",
+    "repo_id": "Niugan/ChunkTrust",
+    "revision": "149b9fbe5945245dce3cadb4138a31d6766e9ca3",
+    "family": "pi05",
+    "step": 20000,
+    "files": [
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/assets/place_a2b_left_aloha-agilex_clean_50_repo/norm_stats.json",
+        "local_path": "assets/place_a2b_left_aloha-agilex_clean_50_repo/norm_stats.json",
+        "bytes": 3295,
+        "sha256": "ef88ae10375eed436621d5b04e5c7586bf71d6482065a7b5ef9ca9d7fda73fa1"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/_METADATA",
+        "local_path": "params/_METADATA",
+        "bytes": 22038,
+        "sha256": "4292d734e52ebf8111126bc166d60a48c592d532472c2ca5461a283759ee8ea4"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/_sharding",
+        "local_path": "params/_sharding",
+        "bytes": 15300,
+        "sha256": "1e9d1ab166a3644c567742d374d6ff2bf61bfa33ec505c36e24a3b34ebf700f3"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/d/eb3c875b8cc77f6b135a98aa594e4b3b",
+        "local_path": "params/d/eb3c875b8cc77f6b135a98aa594e4b3b",
+        "bytes": 3428,
+        "sha256": "24e93f4b83d8a9b95645ecf1baac6bb9f3001d6a4e30fe0d717505a3263eab01"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/manifest.ocdbt",
+        "local_path": "params/manifest.ocdbt",
+        "bytes": 118,
+        "sha256": "90ce91c4ccd90a2104376fd58d1d3793cf562c5b7b4f9995dc0b581909a01863"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/028076f243ae59fa2783d03e8818559c",
+        "local_path": "params/ocdbt.process_0/d/028076f243ae59fa2783d03e8818559c",
+        "bytes": 2240575073,
+        "sha256": "300aced326ceb4c58390d86d27fd55c1a09f6fb875f7985f0d5b46919fc7bdb9"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/02f1fea7fadb0430c2a902f15b104336",
+        "local_path": "params/ocdbt.process_0/d/02f1fea7fadb0430c2a902f15b104336",
+        "bytes": 34971481,
+        "sha256": "aae05e8bdf78f11612c043f27b5e093de91bcca07e78e1679b6bff32c2fe2c51"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/1cada74949fded39878e8ad6f0263275",
+        "local_path": "params/ocdbt.process_0/d/1cada74949fded39878e8ad6f0263275",
+        "bytes": 248632164,
+        "sha256": "df6067508455fecf7e56c7f548090261d22720feaefec9d16c010015f1e0b0cd"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/207e42ac6cf1dc07b9f41f4c4a099665",
+        "local_path": "params/ocdbt.process_0/d/207e42ac6cf1dc07b9f41f4c4a099665",
+        "bytes": 361805133,
+        "sha256": "2a0df3493c1828850d7b4180ebf82c0c231190214692379ba76d5ad73ed472c1"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/236a3076b3314590750d2ce9c47def09",
+        "local_path": "params/ocdbt.process_0/d/236a3076b3314590750d2ce9c47def09",
+        "bytes": 52705617,
+        "sha256": "72773579c3eb19302847fb1d3ab0dd11dcadeb7d05d771cc76309741b50d3f85"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/26ee5a99f6c6b8292db2327c85dfeb66",
+        "local_path": "params/ocdbt.process_0/d/26ee5a99f6c6b8292db2327c85dfeb66",
+        "bytes": 585,
+        "sha256": "19d1458ad6097d515c630e7acb27681e21ff6f7b38a09b63060db89b3c747c98"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/2ab33c54cb9963b2436ccd1790a9f159",
+        "local_path": "params/ocdbt.process_0/d/2ab33c54cb9963b2436ccd1790a9f159",
+        "bytes": 124262197,
+        "sha256": "21d93f47b14afc12550effb18724c68a26159a7752e0fa258eb8d8e2ec15708a"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/333b3deb38c2cdc66380c92534c58d7c",
+        "local_path": "params/ocdbt.process_0/d/333b3deb38c2cdc66380c92534c58d7c",
+        "bytes": 1467658788,
+        "sha256": "2031ebcd608a858b1a658707db95bc3e85330a92563b22b71bec592c3d2163a8"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/475725a33453927907804b29a1be599f",
+        "local_path": "params/ocdbt.process_0/d/475725a33453927907804b29a1be599f",
+        "bytes": 489313648,
+        "sha256": "2966442220c8a7a401e05bfe7b249f5e726ffcc22253f758e3095a0b23239426"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/4d12304c2ff4b3d5535ee781bc1034c2",
+        "local_path": "params/ocdbt.process_0/d/4d12304c2ff4b3d5535ee781bc1034c2",
+        "bytes": 33254621,
+        "sha256": "df18347c64c953d81a0cc13444d43a443a1353c2c21447807123009d44f68390"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/4d65ea49225ca377083c189ad52eba27",
+        "local_path": "params/ocdbt.process_0/d/4d65ea49225ca377083c189ad52eba27",
+        "bytes": 372767317,
+        "sha256": "0e6b83f37d77d5fe34cc6fe9cf87d13df7ce10d36ec89f248421cfd827f00710"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/5838c9e48b701e988f1bd9d26229dfd5",
+        "local_path": "params/ocdbt.process_0/d/5838c9e48b701e988f1bd9d26229dfd5",
+        "bytes": 1120144567,
+        "sha256": "2c014f0c002d36a7d176aebbb90412559821061fa2729c25e6da28e1874f1576"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/59fdbdade86064f2e176d808ba60c1ee",
+        "local_path": "params/ocdbt.process_0/d/59fdbdade86064f2e176d808ba60c1ee",
+        "bytes": 139792213,
+        "sha256": "5b2f0c76e83e4aeb82cf49d47369ab043353c69399799c64029b58a3dbb033b0"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/5af49e86a6e33c9a0ef123cbeb1c2335",
+        "local_path": "params/ocdbt.process_0/d/5af49e86a6e33c9a0ef123cbeb1c2335",
+        "bytes": 2640,
+        "sha256": "62dff63805548d7de1f116d3754301f0c69191eecfed51f03e4a6c7b38d392d5"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/645a73136fac747992dce3a615211e12",
+        "local_path": "params/ocdbt.process_0/d/645a73136fac747992dce3a615211e12",
+        "bytes": 192492605,
+        "sha256": "d26509ad66bfbe9bc467112efc021985042294e8b6d8862490892d93d3f07a67"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/788a0a8038c7f465130d11a8c7c01710",
+        "local_path": "params/ocdbt.process_0/d/788a0a8038c7f465130d11a8c7c01710",
+        "bytes": 190091861,
+        "sha256": "4dc1855d69cf1650f28997ca22a648537ec3d5e211a965f2039d068f51f9d2c8"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/7b5803a3c280b70b93f1ecc8d17ca63c",
+        "local_path": "params/ocdbt.process_0/d/7b5803a3c280b70b93f1ecc8d17ca63c",
+        "bytes": 2240291213,
+        "sha256": "a1fd0f4fc2eb2bd9ada05502cad6df4d4c382ce040c10ba571362c5680853aad"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/7d7ecbef8a7f7923e3acb164ef4e14ef",
+        "local_path": "params/ocdbt.process_0/d/7d7ecbef8a7f7923e3acb164ef4e14ef",
+        "bytes": 213,
+        "sha256": "fff2f8b328c86ab34912c01d5758210df1805bcd73e3709be401d1989b9b18c3"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/82f57b29d40627c4aabde3005bdbf0dc",
+        "local_path": "params/ocdbt.process_0/d/82f57b29d40627c4aabde3005bdbf0dc",
+        "bytes": 124322292,
+        "sha256": "16e32fbe74ace32e6bd78332c1f9702cc205dd97a34d6484d2c3c5bb87d8d9a1"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/847f0af89c1feed9dd704e50c6589370",
+        "local_path": "params/ocdbt.process_0/d/847f0af89c1feed9dd704e50c6589370",
+        "bytes": 279584764,
+        "sha256": "e2de61b36e8bf8569f275f1394601bc36fdee7864aa8d911c863d9945e9193b6"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/8a2f47cb8f20751a04c0fdc92fc2eef9",
+        "local_path": "params/ocdbt.process_0/d/8a2f47cb8f20751a04c0fdc92fc2eef9",
+        "bytes": 524,
+        "sha256": "db24546a4819f06e1414917573e15d64fe30b172913d03df0f2cc66f9ff1dea9"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/90dedd1c384910a8eba59810dd57e808",
+        "local_path": "params/ocdbt.process_0/d/90dedd1c384910a8eba59810dd57e808",
+        "bytes": 139792721,
+        "sha256": "95a82097d5dffb20a1346729f26384c7008257aeb2bec53bcb79cfdeaf4b0b69"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/911e3c99fdbeaa70819c19ba2a04eadf",
+        "local_path": "params/ocdbt.process_0/d/911e3c99fdbeaa70819c19ba2a04eadf",
+        "bytes": 124321503,
+        "sha256": "377ef1a6982a468c0d8860b085826eec60926da76217c79d05259621c16e1c56"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/9560e87d795a744f747428aaee516309",
+        "local_path": "params/ocdbt.process_0/d/9560e87d795a744f747428aaee516309",
+        "bytes": 52863526,
+        "sha256": "a98dfd6fc097a4e6f66ad280e07060acaed90fb653bc117670b86a962645a539"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/9a1dd7097ec25c0b6874b67afc46e143",
+        "local_path": "params/ocdbt.process_0/d/9a1dd7097ec25c0b6874b67afc46e143",
+        "bytes": 139991106,
+        "sha256": "a5e37c7f82dddc92bc1a033847c37fb3743b97d52078ae2541871de7ec06e025"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/a2b4cdec7c54c48d46672c47f7d874bb",
+        "local_path": "params/ocdbt.process_0/d/a2b4cdec7c54c48d46672c47f7d874bb",
+        "bytes": 70024720,
+        "sha256": "506bd36bf46af36f83b9bb81c74c679b1d103b050b9fa42bed116fc0f59a855d"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/ac63a57567917243d3511cb14a01763e",
+        "local_path": "params/ocdbt.process_0/d/ac63a57567917243d3511cb14a01763e",
+        "bytes": 105157297,
+        "sha256": "124c023122d5788c920043824bd1053867e1582d40c408adf1db75b494f01f23"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/b32977d2d1a603b806ba6f387e184040",
+        "local_path": "params/ocdbt.process_0/d/b32977d2d1a603b806ba6f387e184040",
+        "bytes": 122768809,
+        "sha256": "029d515cede942b6fe2f0786e618cb83664fcb4cfc98cae4c3fa2b448e634f3e"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/b3dbd8431a8f834a6b79f3df08d98b44",
+        "local_path": "params/ocdbt.process_0/d/b3dbd8431a8f834a6b79f3df08d98b44",
+        "bytes": 140067316,
+        "sha256": "6881800e5ba008be117f9488c2ae28cb24caf74480513b5be5d0f5f056bcbe25"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/c4ae17a315a2a309701d1d508ec5aa68",
+        "local_path": "params/ocdbt.process_0/d/c4ae17a315a2a309701d1d508ec5aa68",
+        "bytes": 1080,
+        "sha256": "29c9bf4f8dfb16229f48749e77798870beb8545b2efc7e0891627f5015c2be29"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/cb5dae8c4bd585ba63259764404f605a",
+        "local_path": "params/ocdbt.process_0/d/cb5dae8c4bd585ba63259764404f605a",
+        "bytes": 69997017,
+        "sha256": "4037c263fe629f6f88bc46f8f0ec7183845fe22b9388a5db75cf3011ddc5fd72"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/d1087e349883d2d26ebedfa48442dcc7",
+        "local_path": "params/ocdbt.process_0/d/d1087e349883d2d26ebedfa48442dcc7",
+        "bytes": 3277,
+        "sha256": "c3626a4927405672906707cc0d7e041fa893a81f639eb8b1cff938371301cf1e"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/d4dddd6ccb39083356a896a1548d7e7a",
+        "local_path": "params/ocdbt.process_0/d/d4dddd6ccb39083356a896a1548d7e7a",
+        "bytes": 70058067,
+        "sha256": "6f15014c0263a82a56c97d359ab601bfd1cabf7d3c5b3ce5b9dda7d1a9c5ead6"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/d6b0f02534e0f42416678b2986883b36",
+        "local_path": "params/ocdbt.process_0/d/d6b0f02534e0f42416678b2986883b36",
+        "bytes": 140078503,
+        "sha256": "c29eb788eb614a142c566e7cf140619790679632431a364a7a83447feea6990b"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/d7619955b0dd3268f0cec39c1cf89f77",
+        "local_path": "params/ocdbt.process_0/d/d7619955b0dd3268f0cec39c1cf89f77",
+        "bytes": 70028648,
+        "sha256": "cb429156136e1a54aa0fde2813201a6009a58e8e73383c3a5e7392653ad6c877"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/dbc44d91aafa0ca68a1a9f8f2e2d7907",
+        "local_path": "params/ocdbt.process_0/d/dbc44d91aafa0ca68a1a9f8f2e2d7907",
+        "bytes": 1120151041,
+        "sha256": "10ac6a21780866675b48494971fc2f2e8c6504015c7bd8b4dbd5b0eea22fecb3"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/e4e6cd45ae4cfcff9edf9fef0d133b6e",
+        "local_path": "params/ocdbt.process_0/d/e4e6cd45ae4cfcff9edf9fef0d133b6e",
+        "bytes": 3017,
+        "sha256": "4da106a4311ec1cea8a905dfda64986c34955d615110f6f2c67ec3e49500e5c4"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/e705ea43d69b46cf957ebf6580791a8a",
+        "local_path": "params/ocdbt.process_0/d/e705ea43d69b46cf957ebf6580791a8a",
+        "bytes": 367,
+        "sha256": "0f229a4fea0cc2da78ae5c8c2e38e5a9706106a94943586c96d667b97015ae0e"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/f9779e56cef37609262ae6cf1546870c",
+        "local_path": "params/ocdbt.process_0/d/f9779e56cef37609262ae6cf1546870c",
+        "bytes": 362492991,
+        "sha256": "34acfb4d9125fd2c3b6c2bb0243fed90f31454c708109a747bb163dd6517d5eb"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/d/fb19edf122111a4a4442b8f929607fea",
+        "local_path": "params/ocdbt.process_0/d/fb19edf122111a4a4442b8f929607fea",
+        "bytes": 481,
+        "sha256": "d2ca1250154040802263b0cfb5d6483b7ca7f17abea9e9fa743667aa8c71083a"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_a2b_left_clean50/20000/params/ocdbt.process_0/manifest.ocdbt",
+        "local_path": "params/ocdbt.process_0/manifest.ocdbt",
+        "bytes": 417,
+        "sha256": "80a20bf5eb7d9df56fa50092eae9fb731b81d390cb148481be17881e4c950d39"
+      }
+    ]
+  },
+  "pi05_place_can_basket_clean50": {
+    "status": "published",
+    "repo_id": "Niugan/ChunkTrust",
+    "revision": "8caf84537867c9d07c8a862d51c040d2cc78c175",
+    "family": "pi05",
+    "step": 20000,
+    "files": [
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_can_basket_clean50/20000/assets/place_can_basket_aloha-agilex_clean_50_repo/norm_stats.json",
+        "local_path": "assets/place_can_basket_aloha-agilex_clean_50_repo/norm_stats.json",
+        "bytes": 3349,
+        "sha256": "6bac1f145796cd1119a1819aca88f55b2e7f952ea8211b2a8329903357a1ce81"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_can_basket_clean50/20000/params/_METADATA",
+        "local_path": "params/_METADATA",
+        "bytes": 22038,
+        "sha256": "4292d734e52ebf8111126bc166d60a48c592d532472c2ca5461a283759ee8ea4"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_can_basket_clean50/20000/params/_sharding",
+        "local_path": "params/_sharding",
+        "bytes": 15300,
+        "sha256": "1e9d1ab166a3644c567742d374d6ff2bf61bfa33ec505c36e24a3b34ebf700f3"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_can_basket_clean50/20000/params/d/ea9771b9b522ebd0cd082bd3f257affe",
+        "local_path": "params/d/ea9771b9b522ebd0cd082bd3f257affe",
+        "bytes": 2954,
+        "sha256": "ea1ebff670e35411d7a46ac62dd691f86fe6b2eb4d21a85923e7cc28ca1971c3"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_can_basket_clean50/20000/params/manifest.ocdbt",
+        "local_path": "params/manifest.ocdbt",
+        "bytes": 118,
+        "sha256": "bf185b701b73d24601587efe7ec6f8df69d53a263a67b07702ba9fe8ab69f81f"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_can_basket_clean50/20000/params/ocdbt.process_0/d/11b2a7844d8fbcaa00e1a65ce3ed0dff",
+        "local_path": "params/ocdbt.process_0/d/11b2a7844d8fbcaa00e1a65ce3ed0dff",
+        "bytes": 1120142871,
+        "sha256": "26a48eb0c3125d8576d6f2fd965c10dfcb718d2b2a73332f3d6c0618be7455b3"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_can_basket_clean50/20000/params/ocdbt.process_0/d/155de2423ca8a9fd7b234d04038e5671",
+        "local_path": "params/ocdbt.process_0/d/155de2423ca8a9fd7b234d04038e5671",
+        "bytes": 1101913854,
+        "sha256": "a7851b89780038ab930e158554542d9ca8750d55ec8701b8ac2768093b812308"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_can_basket_clean50/20000/params/ocdbt.process_0/d/1dea678ae1bdb666073e319e73f58174",
+        "local_path": "params/ocdbt.process_0/d/1dea678ae1bdb666073e319e73f58174",
+        "bytes": 1538478270,
+        "sha256": "6cc41e1a87946fe00398b98b297f51a54ea0fa2ed7b22e8ee1a4f22f206d6398"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_can_basket_clean50/20000/params/ocdbt.process_0/d/2726ddd5b5f2915798aded4dedb6b4aa",
+        "local_path": "params/ocdbt.process_0/d/2726ddd5b5f2915798aded4dedb6b4aa",
+        "bytes": 5383,
+        "sha256": "d8fd9bf764049c6251f25e805ba5e7f12a310b08f52fbea2c069ff2609eadd9d"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_can_basket_clean50/20000/params/ocdbt.process_0/d/440c75c9439d4760590fd060dc3e908f",
+        "local_path": "params/ocdbt.process_0/d/440c75c9439d4760590fd060dc3e908f",
+        "bytes": 423908587,
+        "sha256": "b67c1ea3315f6980a510691dbe08acfd5cb2553ad9026c9302637a2f8166968e"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_can_basket_clean50/20000/params/ocdbt.process_0/d/61a17599c7f09985904e55c0e462cdd8",
+        "local_path": "params/ocdbt.process_0/d/61a17599c7f09985904e55c0e462cdd8",
+        "bytes": 2240290625,
+        "sha256": "f78c39795c46e284dbde598f69e6551002ae06430f4781329de9d413db10641d"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_can_basket_clean50/20000/params/ocdbt.process_0/d/6505de8e73e9a3bf7bf5237c1ddfe534",
+        "local_path": "params/ocdbt.process_0/d/6505de8e73e9a3bf7bf5237c1ddfe534",
+        "bytes": 2236452919,
+        "sha256": "c97dc2121bf4ef4eb058e4e6ed4afd5df39de214aff51d8cf5bdbe16a63c28b0"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_can_basket_clean50/20000/params/ocdbt.process_0/d/6f39e4cc4072b2fa90735edc91504cdc",
+        "local_path": "params/ocdbt.process_0/d/6f39e4cc4072b2fa90735edc91504cdc",
+        "bytes": 489313172,
+        "sha256": "327ecd745ac2ae76822ce912b0ebbf2377dd2365ee3dc2be24ae08e0bc9352be"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_can_basket_clean50/20000/params/ocdbt.process_0/d/7e59d883286bcdfd5c394c1bcec3008d",
+        "local_path": "params/ocdbt.process_0/d/7e59d883286bcdfd5c394c1bcec3008d",
+        "bytes": 213,
+        "sha256": "fff2f8b328c86ab34912c01d5758210df1805bcd73e3709be401d1989b9b18c3"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_can_basket_clean50/20000/params/ocdbt.process_0/d/d45c92d34a8eb34a3d057c1bda0ea9a4",
+        "local_path": "params/ocdbt.process_0/d/d45c92d34a8eb34a3d057c1bda0ea9a4",
+        "bytes": 1118,
+        "sha256": "98a4d0147ac18b9f770e926138dd15b8e0d788c807b86d56f2a44839b2084669"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_can_basket_clean50/20000/params/ocdbt.process_0/d/e5d9a0067c22f3d9670eba51a0422a4b",
+        "local_path": "params/ocdbt.process_0/d/e5d9a0067c22f3d9670eba51a0422a4b",
+        "bytes": 1120148058,
+        "sha256": "cf7a9e18222c207bcf86b8db32a25fc5cc799d2fafac7942e04f7af2a1738d64"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_can_basket_clean50/20000/params/ocdbt.process_0/d/eb12c30aac9897397da1328993a55624",
+        "local_path": "params/ocdbt.process_0/d/eb12c30aac9897397da1328993a55624",
+        "bytes": 2169749796,
+        "sha256": "42422f8e316323db9296c69e2e135a906bd65e0b177f0e83d92ad90ce8214486"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_can_basket_clean50/20000/params/ocdbt.process_0/d/f81f2249f626fdec0e5a13bee057ec13",
+        "local_path": "params/ocdbt.process_0/d/f81f2249f626fdec0e5a13bee057ec13",
+        "bytes": 2828,
+        "sha256": "e6f793b320a196d6dd5472977f7f8228fb5918b73af93c9a87f6f0da79b0310a"
+      },
+      {
+        "remote_path": "checkpoints/pi05/pi05_base_aloha_robotwin_full/pi05_place_can_basket_clean50/20000/params/ocdbt.process_0/manifest.ocdbt",
+        "local_path": "params/ocdbt.process_0/manifest.ocdbt",
+        "bytes": 539,
+        "sha256": "f070b3b6484462be4261d408b0a5d0cb33a73c9359c230960333636d1a993698"
+      }
+    ]
   }
 }
