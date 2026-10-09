@@ -8,7 +8,6 @@
 [![Paper](https://img.shields.io/badge/Paper-arXiv-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.39754)
 [![Project Page](https://img.shields.io/badge/Project_Page-1A73E8?style=for-the-badge&logo=googlechrome&logoColor=white)](https://hf618.github.io/ChunkTrust.github.io/)
 [![Models](https://img.shields.io/badge/Models-Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/Niugan/ChunkTrust)
-[![Core checks](https://img.shields.io/github/actions/workflow/status/hf618/ChunkTrust/core.yml?branch=main&style=for-the-badge&label=Core%20checks&logo=githubactions&logoColor=white&color=4C8C4A)](https://github.com/hf618/ChunkTrust/actions/workflows/core.yml)
 
 </div>
 
