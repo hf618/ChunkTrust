@@ -15,15 +15,15 @@
 <details>
 <summary>Authors and affiliations</summary>
 
-**Fanding Huang**¹²\*, **Jingyan Jiang**⁴\*, **Shifeng Bao**³\*, **Mingkang Pu**¹,
-**Shiwei Li**⁵, **Jing Xu**⁶, **Shijia Xu**⁷, **Guanbo Huang**¹, **Chenghao Gu**¹,
-**Yuzhi Huang**¹, **Chenxin Li**⁸, **Faisal Nadeem Khan**¹, **Huan Yang**²,
-**Yan Wang**¹, **Cheng Chi**³†, **Zhi Wang**¹†
+**Fanding Huang**¹\*, **Jingyan Jiang**³\*, **Shifeng Bao**²\*, **Mingkang Pu**¹,
+**Shiwei Li**⁴, **Jing Xu**⁵, **Shijia Xu**⁶, **Guanbo Huang**¹, **Chenghao Gu**¹,
+**Yuzhi Huang**¹, **Chenxin Li**⁷, **Faisal Nadeem Khan**¹, **Huan Yang**⁸,
+**Yan Wang**¹, **Cheng Chi**²†, **Zhi Wang**¹†
 
-¹ Tsinghua University · ² Beijing Academy of Artificial Intelligence ·
-³ Renmin University of China · ⁴ Shenzhen Technology University ·
-⁵ Hefei University of Technology · ⁶ Jiangnan University ·
-⁷ Chongqing University · ⁸ The Chinese University of Hong Kong
+¹ Tsinghua University · ² Renmin University of China ·
+³ Shenzhen Technology University · ⁴ Hefei University of Technology ·
+⁵ Jiangnan University · ⁶ Chongqing University ·
+⁷ The Chinese University of Hong Kong · ⁸ Beijing Academy of Artificial Intelligence
 
 \* Equal contribution. † Corresponding authors.
 
