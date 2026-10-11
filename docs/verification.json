@@ -91,18 +91,23 @@
     "sha256": "19c35d003ec93128ec41315dd1051f30274d241a319a9ca6f56e8214282868ff",
     "github_release": "https://github.com/hf618/ChunkTrust/releases/tag/media-v1",
     "github_status": "published; GitHub asset digest matches original master",
-    "readme_inline_player": "PASS; anonymous Chrome playback verified in GitHub-rendered README",
+    "readme_inline_player": "Updated attachment; anonymous playback check pending",
     "inline_preview": {
-      "url": "https://github.com/user-attachments/assets/921168dc-0bb9-48a2-ba1c-035c392da6b7",
+      "url": "https://github.com/user-attachments/assets/b279117d-510c-4033-a91e-2c41569e583d",
       "resolution": [
         2560,
         1440
       ],
       "seconds": 177.515,
-      "status": "PASS; playback advances without a media error",
+      "status": "Local decode/playback PASS; refreshed GitHub README playback verification pending",
       "hosting": "GitHub user attachment",
       "note": "GitHub renders the attachment as a signed media URL and supplies the filename bar.",
-      "display_name": "ChunkTrust.mp4"
+      "display_name": "ChunkTrust_work_overview_logos.mp4",
+      "previous_url": "https://github.com/user-attachments/assets/921168dc-0bb9-48a2-ba1c-035c392da6b7",
+      "sha256": "dcf105dce62b158f293300fb8a20bcde5dda6f77e20b752ea6f74d5dec1b339c",
+      "bytes": 18811813,
+      "revision_date": "2026-10-11",
+      "revision": "Official Tsinghua and Renmin seals added to opening and closing title cards; source AAC packets preserved."
     }
   },
   "asset_download_check": {

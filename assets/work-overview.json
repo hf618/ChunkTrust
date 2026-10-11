@@ -1,0 +1,69 @@
+{
+  "revision": "2026-10-11 university seals",
+  "video_url": "https://github.com/user-attachments/assets/b279117d-510c-4033-a91e-2c41569e583d",
+  "sha256": "dcf105dce62b158f293300fb8a20bcde5dda6f77e20b752ea6f74d5dec1b339c",
+  "bytes": 18811813,
+  "resolution": [
+    2560,
+    1440
+  ],
+  "fps": 24,
+  "duration_seconds": 177.515,
+  "source_video_url": "https://github.com/user-attachments/assets/921168dc-0bb9-48a2-ba1c-035c392da6b7",
+  "source_sha256": "11ebdc30ac1ca88f0a7ddf4a807da548215ad176d3c96b29c142a1825793d85a",
+  "modified_intervals_seconds": [
+    [
+      0,
+      1.5
+    ],
+    [
+      167.5,
+      177.5
+    ]
+  ],
+  "opening_fade_out_seconds": [
+    1.208333333,
+    1.5
+  ],
+  "logos": [
+    {
+      "name": "清华大学",
+      "position": [
+        80,
+        64
+      ],
+      "size": [
+        144,
+        144
+      ]
+    },
+    {
+      "name": "中国人民大学",
+      "position": [
+        284,
+        64
+      ],
+      "size": [
+        144,
+        144
+      ]
+    }
+  ],
+  "logo_sources": [
+    {
+      "name": "清华大学校徽",
+      "page": "https://vi.tsinghua.edu.cn/gk/xxbz/xh/bzjbzsy.htm",
+      "asset": "https://vi.tsinghua.edu.cn/__local/8/1C/21/2F02A66E31BF084FE340463BB47_B9A95F73_185BC.jpg",
+      "sha256": "90132d030d8a70f9d21375c85d8a0c614d44a6201ab82200067b10aca38986a8"
+    },
+    {
+      "name": "中国人民大学校徽",
+      "page": "https://www.ruc.edu.cn/xuexiaobiaozhi1924747550510977025.html",
+      "asset": "https://www.ruc.edu.cn/template/1/out/imgs/VI/1.png",
+      "sha256": "a575c41178e453251c572809d4788f4d92c8c5bf5c7868fbd2299116d89a357c"
+    }
+  ],
+  "audio_bitstream_unchanged": true,
+  "video_encoding": "H.264 / libx264 CRF 18 / yuv420p",
+  "note": "This revises the README inline preview. The original media-v1 4K master remains archived."
+}
