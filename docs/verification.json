@@ -91,7 +91,7 @@
     "sha256": "19c35d003ec93128ec41315dd1051f30274d241a319a9ca6f56e8214282868ff",
     "github_release": "https://github.com/hf618/ChunkTrust/releases/tag/media-v1",
     "github_status": "published; GitHub asset digest matches original master",
-    "readme_inline_player": "Updated attachment; anonymous playback check pending",
+    "readme_inline_player": "PASS; anonymous Chrome playback verified after page load, 2026-10-11",
     "inline_preview": {
       "url": "https://github.com/user-attachments/assets/b279117d-510c-4033-a91e-2c41569e583d",
       "resolution": [
@@ -99,7 +99,7 @@
         1440
       ],
       "seconds": 177.515,
-      "status": "Local decode/playback PASS; refreshed GitHub README playback verification pending",
+      "status": "PASS; playback advances without a media error; downloaded attachment SHA-256 matches the revised local MP4",
       "hosting": "GitHub user attachment",
       "note": "GitHub renders the attachment as a signed media URL and supplies the filename bar.",
       "display_name": "ChunkTrust_work_overview_logos.mp4",
