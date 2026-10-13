@@ -1,6 +1,6 @@
 {
-  "revision": "2026-10-13 · approved 95-second overview",
-  "video_url": "https://github.com/user-attachments/assets/9690f239-4d84-4f0b-ba8b-827a07755ee4",
+  "revision": "2026-10-13 · approved overview / ChunkTrust.mp4",
+  "video_url": "https://github.com/user-attachments/assets/2097d45f-749b-4e43-96cc-0508d1e73abe",
   "sha256": "a08cd0c956a169f4c12e7792e380fd634b02ee980ad4636ea5e16e7c6d9cc8ea",
   "bytes": 18913012,
   "resolution": [
@@ -35,5 +35,6 @@
     }
   ],
   "video_encoding": "H.264 / libx264 CRF 18 / yuv420p / variable frame rate; AAC 48 kHz",
-  "note": "Approved V20 media. The original media-v1 4K master remains archived."
+  "note": "Approved V20 media. The original media-v1 4K master remains archived.",
+  "filename": "ChunkTrust.mp4"
 }
