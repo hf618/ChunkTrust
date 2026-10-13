@@ -1,54 +1,25 @@
 {
-  "revision": "2026-10-11 university seals",
-  "video_url": "https://github.com/user-attachments/assets/b279117d-510c-4033-a91e-2c41569e583d",
-  "sha256": "dcf105dce62b158f293300fb8a20bcde5dda6f77e20b752ea6f74d5dec1b339c",
-  "bytes": 18811813,
+  "revision": "2026-10-13 · approved 95-second overview",
+  "video_url": "https://github.com/user-attachments/assets/9690f239-4d84-4f0b-ba8b-827a07755ee4",
+  "sha256": "a08cd0c956a169f4c12e7792e380fd634b02ee980ad4636ea5e16e7c6d9cc8ea",
+  "bytes": 18913012,
   "resolution": [
     2560,
     1440
   ],
-  "fps": 24,
-  "duration_seconds": 177.515,
-  "source_video_url": "https://github.com/user-attachments/assets/921168dc-0bb9-48a2-ba1c-035c392da6b7",
-  "source_sha256": "11ebdc30ac1ca88f0a7ddf4a807da548215ad176d3c96b29c142a1825793d85a",
-  "modified_intervals_seconds": [
-    [
-      0,
-      1.5
-    ],
-    [
-      167.5,
-      177.5
-    ]
-  ],
-  "opening_fade_out_seconds": [
-    1.208333333,
-    1.5
-  ],
-  "logos": [
-    {
-      "name": "清华大学",
-      "position": [
-        80,
-        64
-      ],
-      "size": [
-        144,
-        144
-      ]
-    },
-    {
-      "name": "中国人民大学",
-      "position": [
-        284,
-        64
-      ],
-      "size": [
-        144,
-        144
-      ]
-    }
-  ],
+  "duration_seconds": 95,
+  "source_frames": 4260,
+  "output_frames": 4260,
+  "all_demonstration_frames_preserved": true,
+  "source_frame_order_preserved": true,
+  "results_panels": "RoboTwin, RoboCasa and real-robot panels shown simultaneously for 8.43 seconds",
+  "narration": "Original synthetic English male voice; concise script at one native speaking rate; no post-hoc time stretching",
+  "subtitles": "English; word-aligned to revised narration",
+  "cover_and_closing": "Frosted glass, Tsinghua University and Renmin University seals; Project / Code labels",
+  "previous_video_url": "https://github.com/user-attachments/assets/b279117d-510c-4033-a91e-2c41569e583d",
+  "previous_sha256": "dcf105dce62b158f293300fb8a20bcde5dda6f77e20b752ea6f74d5dec1b339c",
+  "original_video_url": "https://github.com/user-attachments/assets/921168dc-0bb9-48a2-ba1c-035c392da6b7",
+  "original_sha256": "11ebdc30ac1ca88f0a7ddf4a807da548215ad176d3c96b29c142a1825793d85a",
   "logo_sources": [
     {
       "name": "清华大学校徽",
@@ -63,7 +34,6 @@
       "sha256": "a575c41178e453251c572809d4788f4d92c8c5bf5c7868fbd2299116d89a357c"
     }
   ],
-  "audio_bitstream_unchanged": true,
-  "video_encoding": "H.264 / libx264 CRF 18 / yuv420p",
-  "note": "This revises the README inline preview. The original media-v1 4K master remains archived."
+  "video_encoding": "H.264 / libx264 CRF 18 / yuv420p / variable frame rate; AAC 48 kHz",
+  "note": "Approved V20 media. The original media-v1 4K master remains archived."
 }

@@ -26,7 +26,7 @@
 \* Equal contribution. † Corresponding authors.
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/b279117d-510c-4033-a91e-2c41569e583d" controls width="100%"></video>
+  <video src="https://github.com/user-attachments/assets/9690f239-4d84-4f0b-ba8b-827a07755ee4" controls width="100%"></video>
 </div>
 
 ## 🔥 News
