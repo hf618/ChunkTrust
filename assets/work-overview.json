@@ -1,8 +1,8 @@
 {
-  "revision": "2026-10-14 · two-row resource panel with full HTTPS URLs",
-  "video_url": "https://github.com/user-attachments/assets/5a0d018c-637d-4e1e-9818-4368f5a58db7",
-  "sha256": "01baac41fbf8624d2f6f9596c75fa51a56bbe572d0c66ba103deee0f37fc603f",
-  "bytes": 21475118,
+  "revision": "2026-10-14 · centered compact resource panel",
+  "video_url": "https://github.com/user-attachments/assets/eed2f642-1c96-4e5b-bf2e-5f67642de755",
+  "sha256": "2fe1b3be6174d7b6a3cf0f5b02d5ad79a3dd3d1929ffc785621eb9973eb6264c",
+  "bytes": 21456085,
   "resolution": [
     2560,
     1440
@@ -15,9 +15,9 @@
   "results_panels": "RoboTwin, RoboCasa and real-robot panels shown simultaneously for 8.43 seconds",
   "narration": "Original synthetic English male voice; concise script at one native speaking rate; no post-hoc time stretching",
   "subtitles": "English; word-aligned to revised narration",
-  "cover_and_closing": "Frosted glass, Tsinghua University and Renmin University seals; Project page / Code on separate rows with full HTTPS URLs",
-  "previous_video_url": "https://github.com/user-attachments/assets/58ea77e8-c12b-4341-9bcc-17b16de53eca",
-  "previous_sha256": "4883e5314c8e801338cd281bed4b971deb5b66425cdeb5cce6cb6cc3fb14b567",
+  "cover_and_closing": "Compact frosted glass, centered Project page / Code label-and-URL rows, no row divider, full HTTPS URLs without trailing slash",
+  "previous_video_url": "https://github.com/user-attachments/assets/5a0d018c-637d-4e1e-9818-4368f5a58db7",
+  "previous_sha256": "01baac41fbf8624d2f6f9596c75fa51a56bbe572d0c66ba103deee0f37fc603f",
   "original_video_url": "https://github.com/user-attachments/assets/921168dc-0bb9-48a2-ba1c-035c392da6b7",
   "original_sha256": "11ebdc30ac1ca88f0a7ddf4a807da548215ad176d3c96b29c142a1825793d85a",
   "logo_sources": [
@@ -35,7 +35,7 @@
     }
   ],
   "video_encoding": "H.264 / libx264 CRF 17 / yuv420p / variable frame rate; AAC 48 kHz",
-  "note": "Cover and closing use Project page and Code on two rows, with full HTTPS URLs. All 4,260 frames, timing, captions and narration retained. Filename remains ChunkTrust.mp4.",
+  "note": "Center both resource rows, shrink the glass plate to content and remove the row divider and trailing URL slash. All 4,260 frames, timestamps, narration and captions retained. Duration remains 92 seconds.",
   "filename": "ChunkTrust.mp4",
   "opening": "Explains action chunks and execution prefixes before the horizon question; observation and replanning are illustrated explicitly.",
   "project_page_video_url": "https://hf618.github.io/ChunkTrust.github.io/assets/videos/overview/ChunkTrust.mp4"
