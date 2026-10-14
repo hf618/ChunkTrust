@@ -1,8 +1,8 @@
 {
-  "revision": "2026-10-14 · approved 92-second A opening",
-  "video_url": "https://github.com/user-attachments/assets/58ea77e8-c12b-4341-9bcc-17b16de53eca",
-  "sha256": "4883e5314c8e801338cd281bed4b971deb5b66425cdeb5cce6cb6cc3fb14b567",
-  "bytes": 19833280,
+  "revision": "2026-10-14 · two-row resource panel with full HTTPS URLs",
+  "video_url": "https://github.com/user-attachments/assets/5a0d018c-637d-4e1e-9818-4368f5a58db7",
+  "sha256": "01baac41fbf8624d2f6f9596c75fa51a56bbe572d0c66ba103deee0f37fc603f",
+  "bytes": 21475118,
   "resolution": [
     2560,
     1440
@@ -15,9 +15,9 @@
   "results_panels": "RoboTwin, RoboCasa and real-robot panels shown simultaneously for 8.43 seconds",
   "narration": "Original synthetic English male voice; concise script at one native speaking rate; no post-hoc time stretching",
   "subtitles": "English; word-aligned to revised narration",
-  "cover_and_closing": "Frosted glass, Tsinghua University and Renmin University seals; Project / Code labels",
-  "previous_video_url": "https://github.com/user-attachments/assets/2097d45f-749b-4e43-96cc-0508d1e73abe",
-  "previous_sha256": "a08cd0c956a169f4c12e7792e380fd634b02ee980ad4636ea5e16e7c6d9cc8ea",
+  "cover_and_closing": "Frosted glass, Tsinghua University and Renmin University seals; Project page / Code on separate rows with full HTTPS URLs",
+  "previous_video_url": "https://github.com/user-attachments/assets/58ea77e8-c12b-4341-9bcc-17b16de53eca",
+  "previous_sha256": "4883e5314c8e801338cd281bed4b971deb5b66425cdeb5cce6cb6cc3fb14b567",
   "original_video_url": "https://github.com/user-attachments/assets/921168dc-0bb9-48a2-ba1c-035c392da6b7",
   "original_sha256": "11ebdc30ac1ca88f0a7ddf4a807da548215ad176d3c96b29c142a1825793d85a",
   "logo_sources": [
@@ -34,8 +34,8 @@
       "sha256": "a575c41178e453251c572809d4788f4d92c8c5bf5c7868fbd2299116d89a357c"
     }
   ],
-  "video_encoding": "H.264 / libx264 CRF 18 / yuv420p / variable frame rate; AAC 48 kHz",
-  "note": "Approved 92-second A overview. All demonstration frames retained in order. Filename remains ChunkTrust.mp4.",
+  "video_encoding": "H.264 / libx264 CRF 17 / yuv420p / variable frame rate; AAC 48 kHz",
+  "note": "Cover and closing use Project page and Code on two rows, with full HTTPS URLs. All 4,260 frames, timing, captions and narration retained. Filename remains ChunkTrust.mp4.",
   "filename": "ChunkTrust.mp4",
   "opening": "Explains action chunks and execution prefixes before the horizon question; observation and replanning are illustrated explicitly.",
   "project_page_video_url": "https://hf618.github.io/ChunkTrust.github.io/assets/videos/overview/ChunkTrust.mp4"
