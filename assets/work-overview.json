@@ -1,42 +1,28 @@
 {
-  "revision": "2026-10-14 · centered compact resource panel",
-  "video_url": "https://github.com/user-attachments/assets/eed2f642-1c96-4e5b-bf2e-5f67642de755",
-  "sha256": "2fe1b3be6174d7b6a3cf0f5b02d5ad79a3dd3d1929ffc785621eb9973eb6264c",
-  "bytes": 21456085,
-  "resolution": [
-    2560,
-    1440
-  ],
-  "duration_seconds": 92,
-  "source_frames": 4260,
-  "output_frames": 4260,
-  "all_demonstration_frames_preserved": true,
-  "source_frame_order_preserved": true,
-  "results_panels": "RoboTwin, RoboCasa and real-robot panels shown simultaneously for 8.43 seconds",
-  "narration": "Original synthetic English male voice; concise script at one native speaking rate; no post-hoc time stretching",
-  "subtitles": "English; word-aligned to revised narration",
-  "cover_and_closing": "Compact frosted glass, centered Project page / Code label-and-URL rows, no row divider, full HTTPS URLs without trailing slash",
-  "previous_video_url": "https://github.com/user-attachments/assets/5a0d018c-637d-4e1e-9818-4368f5a58db7",
-  "previous_sha256": "01baac41fbf8624d2f6f9596c75fa51a56bbe572d0c66ba103deee0f37fc603f",
-  "original_video_url": "https://github.com/user-attachments/assets/921168dc-0bb9-48a2-ba1c-035c392da6b7",
-  "original_sha256": "11ebdc30ac1ca88f0a7ddf4a807da548215ad176d3c96b29c142a1825793d85a",
-  "logo_sources": [
-    {
-      "name": "清华大学校徽",
-      "page": "https://vi.tsinghua.edu.cn/gk/xxbz/xh/bzjbzsy.htm",
-      "asset": "https://vi.tsinghua.edu.cn/__local/8/1C/21/2F02A66E31BF084FE340463BB47_B9A95F73_185BC.jpg",
-      "sha256": "90132d030d8a70f9d21375c85d8a0c614d44a6201ab82200067b10aca38986a8"
-    },
-    {
-      "name": "中国人民大学校徽",
-      "page": "https://www.ruc.edu.cn/xuexiaobiaozhi1924747550510977025.html",
-      "asset": "https://www.ruc.edu.cn/template/1/out/imgs/VI/1.png",
-      "sha256": "a575c41178e453251c572809d4788f4d92c8c5bf5c7868fbd2299116d89a357c"
-    }
-  ],
-  "video_encoding": "H.264 / libx264 CRF 17 / yuv420p / variable frame rate; AAC 48 kHz",
-  "note": "Center both resource rows, shrink the glass plate to content and remove the row divider and trailing URL slash. All 4,260 frames, timestamps, narration and captions retained. Duration remains 92 seconds.",
-  "filename": "ChunkTrust.mp4",
-  "opening": "Explains action chunks and execution prefixes before the horizon question; observation and replanning are illustrated explicitly.",
-  "project_page_video_url": "https://hf618.github.io/ChunkTrust.github.io/assets/videos/overview/ChunkTrust.mp4"
+  "revision": "2026-10-15 Claude v5",
+  "branch": "claude",
+  "version": "v5",
+  "file": "ChunkTrust.mp4",
+  "url": "https://github.com/user-attachments/assets/8c8f03e4-4933-46a2-906d-4ce37c9829d5",
+  "duration_seconds": 59.819,
+  "width": 2560,
+  "height": 1440,
+  "fps": 30.0,
+  "codec": "h264",
+  "pixel_format": "yuv420p",
+  "audio_codec": "aac",
+  "sample_rate": 48000,
+  "bytes": 26765610,
+  "sha256": "12f0d5817ecb33a944ffb374d9d8b4bd5f1fceb5bd27ca5dcc5dcdce19679474",
+  "frames": 1794,
+  "audio_frames": 2804,
+  "last_frame": 59.766666666666666,
+  "full_decode": "passed",
+  "source": "video/overview/claude/v5/ChunkTrust_promo_60s.mp4",
+  "captions_source": "video/overview/claude/v5/ChunkTrust_promo_60s.srt",
+  "publication": "User-approved source published without re-editing or transcoding.",
+  "previous_url": "https://github.com/user-attachments/assets/eed2f642-1c96-4e5b-bf2e-5f67642de755",
+  "previous_sha256": "2fe1b3be6174d7b6a3cf0f5b02d5ad79a3dd3d1929ffc785621eb9973eb6264c",
+  "astra_backup": "video/overview/astra/v1/ChunkTrust.mp4",
+  "project_video": "https://hf618.github.io/ChunkTrust.github.io/assets/videos/overview/ChunkTrust.mp4?v=20261015-claude-v5"
 }
