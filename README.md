@@ -15,13 +15,13 @@
 
 **Fanding Huang**¹\*, **Jingyan Jiang**³\*, **Shifeng Bao**²\*, **Mingkang Pu**¹,
 **Shiwei Li**⁴, **Jing Xu**⁵, **Shijia Xu**⁶, **Guanbo Huang**¹, **Chenghao Gu**¹,
-**Yuzhi Huang**¹, **Chenxin Li**⁷, **Faisal Nadeem Khan**¹, **Huan Yang**,
+**Yuzhi Huang**¹, **Chenxin Li**⁷, **Faisal Nadeem Khan**¹, **Huan Yang**⁸,
 **Yan Wang**¹, **Cheng Chi**²†, **Zhi Wang**¹†
 
 ¹ Tsinghua University · ² Renmin University of China ·
 ³ Shenzhen Technology University · ⁴ Hefei University of Technology ·
 ⁵ Jiangnan University · ⁶ Chongqing University ·
-⁷ The Chinese University of Hong Kong
+⁷ The Chinese University of Hong Kong · ⁸ Shanghai Jiao Tong University
 
 \* Equal contribution. † Corresponding authors.
 
