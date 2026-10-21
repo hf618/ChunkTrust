@@ -37,6 +37,8 @@ The six-task held-out step-10000 head has a separate, identified training protoc
   the configured full prediction length used for zero padding.
 - Episode memory is reset between episodes. Resume includes both Beta state and
   random-generator state. Executed history contains only targets actually sent.
+  The historical device bridge records policy prefixes instead; see the
+  preserved differences in the [real-robot guide](real_robot.md).
 - Keep QHA training targets, sparse/dense evidence, candidate basis, temperature,
   prior strength and checkpoint tied to each cohort.
 - Held-out base policies remain task-specific. Only QHA is task-held-out.
@@ -59,6 +61,14 @@ The CPU QHA smoke checks three optimization steps on synthetic frozen features
 and a parameter roundtrip. It does not establish full-policy training or a
 simulator rollout. Existing experimental validation reports are historical;
 new release validation is recorded separately in `docs/verification.json`.
+
+The located robot-workstation source is now exported as pinned RoboDriver and
+AgileX OpenPI overlays. CPU tests cover device mapping, clipping/gating,
+historical selector arithmetic, trace serialization and preparation without
+opening hardware or loading checkpoints. The asynchronous bridge retains its
+original prefetch behavior and is separate from the simulator RTC protocol.
+This source recovery does not establish a new robot run or resolve missing
+calibration and full process-score records.
 
 A separate real-checkpoint smoke passed two predictions and one RoboTwin
 Place Bread Basket Easy episode (seed 100005). This validates the prepared source

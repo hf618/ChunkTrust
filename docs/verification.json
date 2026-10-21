@@ -1,6 +1,44 @@
 {
   "date": "2026-09-30",
   "release_status": "code release candidate; large weight uploads in progress",
+  "real_robot_workstation_export": {
+    "date": "2026-10-21",
+    "device_scripts": 7,
+    "server_override_files": 5,
+    "provenance": [
+      "third_party/robodriver_sources.json",
+      "third_party/agilex_openpi_sources.json"
+    ],
+    "fresh_core_environment": {
+      "python": "3.11.15",
+      "numpy": "1.26.4",
+      "pytest": "8.3.5",
+      "passed": 57,
+      "skipped": 1,
+      "skip_reason": "Optional bfloat16 dtype test requires ml_dtypes, which is not a core dependency.",
+      "robot_policy_video_dependencies_installed": false
+    },
+    "server_delta_tests_in_existing_backend_environment": {
+      "passed": 17,
+      "includes": "bfloat16 trace conversion, mocked inference, raw-state/action mapping, transform roundtrip, CLI forwarding and norm-stat fallback",
+      "checkpoint_loaded": false
+    },
+    "source_preparation": "PASS; both pinned backends prepared from local committed Git objects with released overlays; no original working-tree changes imported",
+    "device_cli_help": "PASS; all five commands with RoboDriver, OpenPI client and OpenCV imports explicitly forbidden",
+    "server_cli_help": "PASS; prepared source using existing OpenPI environment plus ChunkTrust package path; no checkpoint loaded or server opened",
+    "recorded_decision_replay": "PASS; all 23 released Duck-to-Drawer decisions unchanged",
+    "release_integrity": "PASS; released file hashes, local links and credential-pattern checks",
+    "hardware_run": false,
+    "camera_capture": false,
+    "policy_inference": false,
+    "fresh_backend_dependency_install": false,
+    "preserved_historical_limitations": [
+      "Shrinking FFT horizon and candidate reset near episode budget",
+      "Policy-prefix history rather than clipped commands actually sent",
+      "Async prefetch has no expired-action offset or observation-age rejection",
+      "Async NPZ lacks synchronous per-step AHS arrays"
+    ]
+  },
   "core_pytest": {
     "status": "PASS",
     "tests": 14,
@@ -77,7 +115,7 @@
   "open_dependencies": [
     "Eight-task QHA result/checkpoint mapping",
     "training teacher weights and preprocessed caches",
-    "device-side RoboDriver source",
+    "installation-specific real-robot device configuration, calibration and complete scoring records",
     "portable full-suite and RTC orchestration validation",
     "fresh end-to-end validation for all other backends"
   ],

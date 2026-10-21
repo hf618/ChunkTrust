@@ -1,4 +1,15 @@
 {
+  "robodriver": {
+    "url": "https://github.com/FlagOpen/RoboDriver.git",
+    "commit": "5beceeabb92291ed30c2d58c11d68cb1b8bd63e3",
+    "overlay": "third_party/overlays/robodriver"
+  },
+  "agilex_openpi": {
+    "url": "https://github.com/Physical-Intelligence/openpi.git",
+    "commit": "650c5b0283a49c42784fb5055a0507da2c6d347d",
+    "overlay": "third_party/overlays/agilex_openpi",
+    "overlays": ["robotwin/policy/pi05_horizon", "agilex_openpi"]
+  },
   "robotwin": {
     "url": "https://github.com/RoboTwin-Platform/RoboTwin.git",
     "commit": "668952bcfad412bf3508b74b62c0bbad2eb072cc",

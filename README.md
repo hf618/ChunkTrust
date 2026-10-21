@@ -93,6 +93,11 @@ python -m pip install -r requirements.txt
 
 Policy training and simulation use the [backend environments](docs/backends.md).
 
+AgileX device-side bridges, the matching pi0.5 server overlay and source
+provenance are available in the [real-robot guide](docs/real_robot.md).
+Offline source checks are provided; hardware reproduction still requires the
+installation's device setup, calibration and task-specific checkpoints.
+
 ## 📦 Data and Checkpoints
 
 Find model weights at [Niugan/ChunkTrust](https://huggingface.co/Niugan/ChunkTrust). Task splits and evaluation manifests are in `configs/`, with recorded results in `results/`.

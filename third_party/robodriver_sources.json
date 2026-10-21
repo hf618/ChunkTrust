@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "origin": {
+    "repository": "https://github.com/FlagOpen/RoboDriver.git",
+    "revision": "5beceeabb92291ed30c2d58c11d68cb1b8bd63e3",
+    "source_state": "untracked workstation extensions; source hashes identify the exported files, not the upstream revision"
+  },
+  "files": [
+    {
+      "source_path": "scripts/openpi_bridge_smoke_action.py",
+      "source_sha256": "cf66e327c170ebcd2f970b9bd827fe488e933a519c42793f09140259edabed89",
+      "source_bytes": 14316,
+      "destination_path": "third_party/overlays/robodriver/scripts/openpi_bridge_smoke_action.py",
+      "release_sha256": "61667fe494b83b0d14b2b365860c40466c1c2f3378fbe686cab878383b4a31c0",
+      "changes": [
+        "Defer RoboDriver and OpenPI client imports until hardware/policy entry points; numeric/controller code unchanged."
+      ]
+    },
+    {
+      "source_path": "scripts/openpi_bridge_reset_pose.py",
+      "source_sha256": "2587d808359568d898b85c94e133dfb70410498f613cc1fcda197f27233fc4c7",
+      "source_bytes": 7937,
+      "destination_path": "third_party/overlays/robodriver/scripts/openpi_bridge_reset_pose.py",
+      "release_sha256": "2587d808359568d898b85c94e133dfb70410498f613cc1fcda197f27233fc4c7",
+      "changes": []
+    },
+    {
+      "source_path": "scripts/openpi_bridge_rollout_safe.py",
+      "source_sha256": "7a9033d03934b74f3b996ce7197004ac69709a8098b794b3def7fae9f31a0e81",
+      "source_bytes": 16015,
+      "destination_path": "third_party/overlays/robodriver/scripts/openpi_bridge_rollout_safe.py",
+      "release_sha256": "12c539907d6fda04902f0bd60b2e83b366cc9d94b270eb44db92d1baeb27c6d4",
+      "changes": [
+        "Defer OpenPI client import until after CLI parsing; numeric/controller code unchanged."
+      ]
+    },
+    {
+      "source_path": "scripts/openpi_bridge_rollout_ahs.py",
+      "source_sha256": "dca791e9dd1f511cddaa7ba874b71ba24b8a193873597defd3d71a6beb181bca",
+      "source_bytes": 58413,
+      "destination_path": "third_party/overlays/robodriver/scripts/openpi_bridge_rollout_ahs.py",
+      "release_sha256": "400d8afc94d25e86e32a723fca76e06deb3914a7e5af5b3fb54fe0772f224960",
+      "changes": [
+        "Defer OpenPI client import until after CLI parsing; numeric/controller code unchanged."
+      ]
+    },
+    {
+      "source_path": "scripts/openpi_bridge_rollout_ahs_async.py",
+      "source_sha256": "cdad86d5a9b7aa56dad8935f95a52c43ad8dc0aea4d1f38e1dec7e233cf409c9",
+      "source_bytes": 27798,
+      "destination_path": "third_party/overlays/robodriver/scripts/openpi_bridge_rollout_ahs_async.py",
+      "release_sha256": "88f45697d858b1cdda546c8bbd3f9860fa3a80a5e70793babed2e556ef0f7182",
+      "changes": [
+        "Defer OpenPI client import until after CLI parsing; numeric/controller code unchanged."
+      ]
+    },
+    {
+      "source_path": "scripts/eval_episode_npz_logger.py",
+      "source_sha256": "7ae8959ee37297e7e589de01031ef76da45828d26b62a7e4a2f427f9089a8898",
+      "source_bytes": 18709,
+      "destination_path": "third_party/overlays/robodriver/scripts/eval_episode_npz_logger.py",
+      "release_sha256": "7ae8959ee37297e7e589de01031ef76da45828d26b62a7e4a2f427f9089a8898",
+      "changes": []
+    },
+    {
+      "source_path": "scripts/eval_video_recorder.py",
+      "source_sha256": "ac4ff130aeb80ddb1d56c5d57b0d967c44168ff630218689bb025f115b50a73a",
+      "source_bytes": 20059,
+      "destination_path": "third_party/overlays/robodriver/scripts/eval_video_recorder.py",
+      "release_sha256": "7f036d5e691dd7ee28741ee1ab0057b42bbdf7151b630d51167f7899b1aa2a3a",
+      "changes": [
+        "Use relative records/eval_videos as recording default.",
+        "Defer OpenCV import until a video recorder is constructed; frame conversion/encoding unchanged."
+      ]
+    }
+  ],
+  "known_limitations": [
+    "Robot, recorder and websocket-client startup occur before the rollout try/finally; startup failures can skip normal robot.disconnect cleanup. Exception-safe hardware teardown is not validated by this export.",
+    "Historical workstation AHS behavior is preserved: FFT length shrinks to min(remaining episode steps, trace horizon, action horizon), and filtering candidate horizons resets Beta state. This differs from the public fixed-full-horizon FFT selector.",
+    "Selector history records policy action prefixes, not post-clipping/EMA/gating commands actually sent to the robot.",
+    "Async prefetch captures an observation before the current prefix finishes. Activation starts the returned plan at action index zero with no age rejection or latency offset; the selector may also run before the just-finishing prefix is added to history.",
+    "Async NPZ files retain replan AHS metadata and async event arrays, but the historical logger writes per-step AHS arrays only for rollout_kind='ahs', not 'ahs_async'.",
+    "Offline tests do not validate robot motion, camera I/O, CAN/Dora integration, network service behavior, or real-time scheduling.",
+    "Saved robot reset poses, recordings, checkpoints, device calibration, and other workstation state are deliberately excluded."
+  ]
+}
