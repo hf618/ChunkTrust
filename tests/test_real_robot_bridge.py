@@ -1,6 +1,8 @@
 """Offline robot adapter checks; no device, client service, or camera is opened."""
 
 import argparse
+import ast
+import copy
 import hashlib
 import importlib
 import json
@@ -16,11 +18,8 @@ import pytest
 ROOT = Path(__file__).resolve().parents[1]
 SCRIPTS = ROOT / "third_party/overlays/robodriver/scripts"
 CLI_SCRIPTS = (
-    "openpi_bridge_smoke_action.py",
-    "openpi_bridge_reset_pose.py",
     "openpi_bridge_rollout_safe.py",
     "openpi_bridge_rollout_ahs.py",
-    "openpi_bridge_rollout_ahs_async.py",
 )
 
 
@@ -30,11 +29,9 @@ def bridges(monkeypatch):
     modules = {
         name: importlib.import_module(module)
         for name, module in {
-            "smoke": "openpi_bridge_smoke_action",
-            "reset": "openpi_bridge_reset_pose",
+            "common": "openpi_bridge_common",
             "safe": "openpi_bridge_rollout_safe",
             "ahs": "openpi_bridge_rollout_ahs",
-            "async_ahs": "openpi_bridge_rollout_ahs_async",
             "video": "eval_video_recorder",
             "npz": "eval_episode_npz_logger",
         }.items()
@@ -43,16 +40,15 @@ def bridges(monkeypatch):
 
 
 @pytest.fixture
-def rollout_args(bridges, monkeypatch):
-    monkeypatch.setattr(sys, "argv", ["openpi_bridge_rollout_ahs_async.py"])
-    return bridges.async_ahs.parse_args()
+def rollout_args(bridges):
+    return bridges.ahs.parse_args([])
 
 
 def test_raw26_state_and_policy_camera_mapping(bridges):
     observation = {}
-    for index, key in enumerate(bridges.smoke.RIGHT_KEYS):
+    for index, key in enumerate(bridges.common.RIGHT_KEYS):
         observation[f"follower_{key}.pos"] = index
-    for index, key in enumerate(bridges.smoke.LEFT_KEYS):
+    for index, key in enumerate(bridges.common.LEFT_KEYS):
         observation[f"follower_{key}.pos"] = index + 13
     for index, axis in enumerate(("x", "y", "z", "rx", "ry", "rz")):
         observation[f"follower_pose_right_{axis}.pos"] = index + 7
@@ -60,35 +56,35 @@ def test_raw26_state_and_policy_camera_mapping(bridges):
     for index, camera in enumerate(("image_top", "image_left", "image_right")):
         observation[camera] = np.full((4, 5, 3), index + 1, dtype=np.uint8)
 
-    raw = bridges.smoke.observation_to_raw26(observation)
+    raw = bridges.common.observation_to_raw26(observation)
     np.testing.assert_array_equal(raw, np.arange(26, dtype=np.float32))
     assert raw.dtype == np.float32
-    left, right = bridges.smoke.raw26_to_left_right(raw)
+    left, right = bridges.common.raw26_to_left_right(raw)
     np.testing.assert_array_equal(left, np.arange(13, 20))
     np.testing.assert_array_equal(right, np.arange(7))
-    command = bridges.smoke.action_dict_from_left_right(left, right)
+    command = bridges.common.action_dict_from_left_right(left, right)
     assert command["leader_joint1_left.pos"] == 13
     assert command["leader_joint1_right.pos"] == 0
     assert command["leader_gripper_left.pos"] == 19
     assert command["leader_gripper_right.pos"] == 6
     assert len(command) == 14
-    policy_input = bridges.smoke.observation_to_policy_input(observation, raw)
+    policy_input = bridges.common.observation_to_policy_input(observation, raw)
     assert policy_input["state"] is raw
     for index, camera in enumerate(("cam_high", "cam_left_wrist", "cam_right_wrist")):
         np.testing.assert_array_equal(policy_input["images"][camera], np.full((3, 4, 5), index + 1))
     del observation["follower_joint1_left.pos"]
     with pytest.raises(KeyError):
-        bridges.smoke.observation_to_raw26(observation)
+        bridges.common.observation_to_raw26(observation)
 
 
 def test_float_images_are_rgb_chw_uint8(bridges):
     image = np.zeros((4, 5, 3), dtype=np.float32)
     image[..., 0], image[..., 1], image[..., 2] = -0.5, 0.5, 1.5
-    output = bridges.smoke.chw_uint8(image)
+    output = bridges.common.chw_uint8(image)
     assert output.dtype == np.uint8
     np.testing.assert_array_equal(output[:, 0, 0], [0, 127, 255])
     with pytest.raises(RuntimeError, match="3 color channels"):
-        bridges.smoke.chw_uint8(np.zeros((4, 5, 4)))
+        bridges.common.chw_uint8(np.zeros((4, 5, 4)))
 
 
 @pytest.mark.parametrize("module_name", ["safe", "ahs"])
@@ -139,24 +135,22 @@ def test_policy_alpha_precedes_ema_and_clipping(bridges, rollout_args):
     np.testing.assert_allclose(right, 0.175)
 
 
-def test_smoke_action_preserves_gate_defaults(bridges):
-    args = SimpleNamespace(policy_alpha=0.03, max_joint_delta_rad=0.005,
-                           max_gripper_delta=0.002, single_arm_only="left", disable_gripper=True)
-    current = np.zeros(7, dtype=np.float32)
-    left, right = bridges.smoke.limit_target(current, current, np.ones(7), -np.ones(7), args)
-    np.testing.assert_allclose(left, [0.005] * 6 + [0.0])
-    np.testing.assert_array_equal(right, current)
-
-
-def test_reset_defaults_and_step_do_not_ship_a_robot_pose(bridges):
-    assert bridges.reset.DEFAULT_POSE_PATH.parent == SCRIPTS
-    assert not bridges.reset.DEFAULT_POSE_PATH.exists()
-    args = SimpleNamespace(max_joint_step_rad=0.03, max_gripper_step=0.005, include_gripper=False)
-    current = np.zeros(7)
-    target = bridges.reset.step_toward(current, np.ones(7), args)
-    np.testing.assert_allclose(target, [0.03] * 6 + [0.0])
-    args.include_gripper = True
-    np.testing.assert_allclose(bridges.reset.step_toward(current, np.ones(7), args), [0.03] * 6 + [0.005])
+@pytest.mark.parametrize("module_name", ["safe", "ahs"])
+def test_ctrl_c_hold_uses_current_pose_only(bridges, monkeypatch, module_name):
+    module = getattr(bridges, module_name)
+    args = module.parse_args([])
+    assert args.ctrl_c_soft_reset == 1
+    assert args.execute == 0
+    args.soft_reset_repeat, args.soft_reset_sleep_sec = 2, 0.0
+    current = np.arange(26, dtype=np.float32) * 0.01
+    monkeypatch.setattr(module, "get_complete_observation", lambda robot: object())
+    monkeypatch.setattr(module, "observation_to_raw26", lambda observation: current.copy())
+    commands = []
+    robot = SimpleNamespace(send_action=lambda command: commands.append(command))
+    module.soft_reset_hold_current(robot, args)
+    left, right = bridges.common.raw26_to_left_right(current)
+    expected = bridges.common.action_dict_from_left_right(left, right)
+    assert commands == [expected, expected]
 
 
 def _replay_inputs():
@@ -175,7 +169,7 @@ def test_original_workstation_selector_numerical_replay(bridges, rollout_args):
     # Golden values were captured from the untouched original source's numeric
     # AST, with NumPy 1.26.4. Provenance and original source SHA are in the manifest.
     # These intentionally retain the historical shrinking FFT and candidate reset.
-    _, selector = bridges.async_ahs.make_ahs_selectors(rollout_args, [10, 20, 30, 40, 50])
+    _, selector = bridges.ahs.make_ahs_selectors(rollout_args, [10, 20, 30, 40, 50])
     velocity, actions, history = _replay_inputs()
     selector.record_executed_actions(history)
     golden = [
@@ -203,7 +197,7 @@ def test_original_workstation_selector_numerical_replay(bridges, rollout_args):
 
 
 def test_required_ahs_metadata_and_explicit_fallback(bridges, rollout_args):
-    ahs, horizon = bridges.async_ahs.make_ahs_selectors(rollout_args, [10, 20, 30, 40, 50])
+    ahs, horizon = bridges.ahs.make_ahs_selectors(rollout_args, [10, 20, 30, 40, 50])
     actions = np.zeros((50, 14), dtype=np.float32)
 
     def choose(result, remaining=25):
@@ -229,7 +223,7 @@ def test_required_ahs_metadata_and_explicit_fallback(bridges, rollout_args):
 
 def test_qha_metadata_selection_preserves_effective_score_math(bridges, rollout_args):
     rollout_args.ahs_exec_mode = "qmix_expected_round"
-    ahs, horizon = bridges.async_ahs.make_ahs_selectors(rollout_args, [10, 20, 50])
+    ahs, horizon = bridges.ahs.make_ahs_selectors(rollout_args, [10, 20, 50])
     actions = np.zeros((50, 14), dtype=np.float32)
     choice = bridges.ahs.choose_ahs_exec_length(
         {"qha_candidate_horizons": [10, 20, 50], "qha_posterior": [0.2, 0.3, 0.5],
@@ -300,8 +294,11 @@ def test_export_manifest_is_bounded_and_release_hashes_match():
     metadata = json.loads((ROOT / "third_party/robodriver_sources.json").read_text())
     assert metadata["origin"]["repository"] == "https://github.com/FlagOpen/RoboDriver.git"
     assert len(metadata["origin"]["revision"]) == 40
-    expected_names = set(CLI_SCRIPTS) | {"eval_episode_npz_logger.py", "eval_video_recorder.py"}
-    assert {Path(row["source_path"]).name for row in metadata["files"]} == expected_names
+    expected_names = set(CLI_SCRIPTS) | {
+        "openpi_bridge_common.py", "eval_episode_npz_logger.py", "eval_video_recorder.py"
+    }
+    assert {Path(row["destination_path"]).name for row in metadata["files"]} == expected_names
+    assert {path.name for path in SCRIPTS.glob("*.py")} == expected_names
     for row in metadata["files"]:
         assert row["source_bytes"] > 0
         assert len(row["source_sha256"]) == 64
@@ -309,3 +306,64 @@ def test_export_manifest_is_bounded_and_release_hashes_match():
         assert destination.parent == SCRIPTS
         assert hashlib.sha256(destination.read_bytes()).hexdigest() == row["release_sha256"]
     assert not list(SCRIPTS.glob("*.json"))
+
+
+def _definition_digest(nodes):
+    class DropImports(ast.NodeTransformer):
+        def generic_visit(self, node):
+            node = super().generic_visit(node)
+            if "type_params" in node._fields and not node.type_params:
+                node._fields = tuple(field for field in node._fields if field != "type_params")
+            return node
+
+        def visit_Import(self, node):
+            return None
+
+        def visit_ImportFrom(self, node):
+            return None
+
+    tree = ast.Module(body=copy.deepcopy(nodes), type_ignores=[])
+    normalized = DropImports().visit(tree)
+    return hashlib.sha256(ast.dump(normalized, include_attributes=False).encode()).hexdigest()
+
+
+def test_released_numerics_and_control_match_captured_source_ast():
+    # Digests come from the untouched workstation source, not the release copy.
+    # They travel with the repository so future CI needs no workstation access.
+    metadata = json.loads((ROOT / "third_party/robodriver_sources.json").read_text())
+    for row in metadata["files"]:
+        tree = ast.parse((ROOT / row["destination_path"]).read_text())
+        expected = row["source_definitions_ast"]
+        definitions = [node for node in tree.body
+                       if isinstance(node, (ast.FunctionDef, ast.ClassDef))
+                       and node.name in expected["symbols"]]
+        assert [node.name for node in definitions] == expected["symbols"]
+        assert _definition_digest(definitions) == expected["sha256"], row["destination_path"]
+        if "source_main_ast_sha256" not in row:
+            continue
+        main = next(node for node in tree.body if isinstance(node, ast.FunctionDef) and node.name == "main")
+        if "source_selector_constructors_ast_sha256" in row:
+            factory = next(node for node in tree.body
+                           if isinstance(node, ast.FunctionDef) and node.name == "make_ahs_selectors")
+            constructors = [node for node in factory.body if isinstance(node, ast.Assign)]
+            assert _definition_digest(constructors) == row["source_selector_constructors_ast_sha256"]
+            # Reinsert the two assignments exactly where main now calls the factory.
+            expanded = []
+            factory_calls = 0
+            for node in main.body:
+                if (isinstance(node, ast.Assign) and isinstance(node.value, ast.Call)
+                        and isinstance(node.value.func, ast.Name)
+                        and node.value.func.id == "make_ahs_selectors"):
+                    factory_calls += 1
+                    assert ast.dump(node.targets[0]) == ast.dump(
+                        ast.Tuple(elts=[ast.Name(id="ahs_selector", ctx=ast.Store()),
+                                        ast.Name(id="horizon_selector", ctx=ast.Store())], ctx=ast.Store())
+                    )
+                    assert [arg.id for arg in node.value.args] == ["args", "ahs_candidates"]
+                    assert not node.value.keywords
+                    expanded.extend(copy.deepcopy(constructors))
+                else:
+                    expanded.append(node)
+            assert factory_calls == 1
+            main.body = expanded
+        assert _definition_digest([main]) == row["source_main_ast_sha256"], row["destination_path"]

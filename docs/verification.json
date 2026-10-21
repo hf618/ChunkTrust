@@ -3,7 +3,8 @@
   "release_status": "code release candidate; large weight uploads in progress",
   "real_robot_workstation_export": {
     "date": "2026-10-21",
-    "device_scripts": 7,
+    "device_scripts": 5,
+    "public_rollout_entrypoints": ["fixed_prefix", "synchronous_ahs"],
     "server_override_files": 5,
     "provenance": [
       "third_party/robodriver_sources.json",
@@ -13,7 +14,7 @@
       "python": "3.11.15",
       "numpy": "1.26.4",
       "pytest": "8.3.5",
-      "passed": 57,
+      "passed": 60,
       "skipped": 1,
       "skip_reason": "Optional bfloat16 dtype test requires ml_dtypes, which is not a core dependency.",
       "robot_policy_video_dependencies_installed": false
@@ -24,7 +25,28 @@
       "checkpoint_loaded": false
     },
     "source_preparation": "PASS; both pinned backends prepared from local committed Git objects with released overlays; no original working-tree changes imported",
-    "device_cli_help": "PASS; all five commands with RoboDriver, OpenPI client and OpenCV imports explicitly forbidden",
+    "public_remote_source_preparation": {
+      "status": "PASS; both backends cloned directly from public upstream URLs without --local-source",
+      "robodriver_final_overlay_files": 5,
+      "agilex_openpi_final_overlay_files": 92,
+      "all_final_file_hashes_match_unique_receipt_entries": true,
+      "excluded_device_entrypoints_absent": true,
+      "device_cli_help": "PASS in the core-only Python environment"
+    },
+    "device_cli_help": "PASS; both rollout commands with RoboDriver, OpenPI client and OpenCV imports explicitly forbidden",
+    "disconnected_rollout_entrypoint_tests": {
+      "passed": 5,
+      "scope": "Both real main functions with a deterministic fake provider and in-memory command sink: multiple replans, preview/no sends, complete action dispatch and normal disconnect, required-trace failure/no sends/disconnect. No hardware or network provider is constructed."
+    },
+    "portable_core_smoke": "PASS; synthetic raw26/camera/action/trace dictionaries through the released fixed-prefix and synchronous AHS core; fixed K=25, AHS K=45, zero hardware sends",
+    "original_function_preservation": "PASS; source AST fingerprints for numeric/control functions, shared I/O, selector constructor statements and expanded rollout main functions match captured workstation baselines",
+    "installed_dependency_source_audit": {
+      "reference": "configs/real_robot/runtime_reference.json",
+      "public_wheels_compared": 4,
+      "installed_python_files_compared": 405,
+      "all_match": true,
+      "machine_only_core_sdk_edits_found": false
+    },
     "server_cli_help": "PASS; prepared source using existing OpenPI environment plus ChunkTrust package path; no checkpoint loaded or server opened",
     "recorded_decision_replay": "PASS; all 23 released Duck-to-Drawer decisions unchanged",
     "release_integrity": "PASS; released file hashes, local links and credential-pattern checks",
@@ -35,8 +57,7 @@
     "preserved_historical_limitations": [
       "Shrinking FFT horizon and candidate reset near episode budget",
       "Policy-prefix history rather than clipped commands actually sent",
-      "Async prefetch has no expired-action offset or observation-age rejection",
-      "Async NPZ lacks synchronous per-step AHS arrays"
+      "Startup failures before try/finally can skip normal robot disconnect"
     ]
   },
   "core_pytest": {

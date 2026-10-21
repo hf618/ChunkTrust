@@ -21,7 +21,7 @@ tree. Use a new checkout with `--heldout` for the separate held-out QHA recipe.
 | X-VLA | `xvla` | RoboTwin horizon client |
 | RoboCasa pi0.5 | OpenPI GR1 export | `third_party/overlays/pi05_gr1` and exported model package |
 | RTC pi0.5 | `robotwin` | Separate Hard/Easy runtime modules under `eval_rebuttal` |
-| AgileX device bridge | `robodriver` | Historical control, baseline, saved-pose and recording tools |
+| AgileX device bridge | `robodriver` | Fixed-prefix and synchronous AHS rollouts, shared mapping and optional recording |
 | AgileX pi0.5 server | `agilex_openpi` | Released PI0.5 backend plus real-state alignment and websocket traces |
 
 The AgileX backends use separate policy-server and device environments. See the

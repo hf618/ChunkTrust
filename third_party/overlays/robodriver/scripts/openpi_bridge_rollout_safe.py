@@ -12,7 +12,7 @@ import numpy as np
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from openpi_bridge_smoke_action import (  # noqa: E402
+from openpi_bridge_common import (  # noqa: E402
     PROMPT as DEFAULT_PROMPT,
     action_dict_from_left_right,
     get_complete_observation,
@@ -26,7 +26,7 @@ from eval_video_recorder import add_recording_args, create_eval_video_recorder  
 from eval_episode_npz_logger import EvalEpisodeNpzLogger  # noqa: E402
 
 
-def parse_args() -> argparse.Namespace:
+def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--host", default="127.0.0.1")
     parser.add_argument("--port", type=int, default=8000)
@@ -54,7 +54,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--motion-observed-threshold-rad", type=float, default=0.003)
     add_recording_args(parser)
     parser.add_argument("--execute", type=int, choices=[0, 1], default=0)
-    return parser.parse_args()
+    return parser.parse_args(argv)
 
 
 def clip_step(current: np.ndarray, desired: np.ndarray, *, max_joint_delta: float, max_gripper_delta: float) -> np.ndarray:

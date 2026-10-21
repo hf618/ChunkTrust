@@ -65,8 +65,8 @@ new release validation is recorded separately in `docs/verification.json`.
 The located robot-workstation source is now exported as pinned RoboDriver and
 AgileX OpenPI overlays. CPU tests cover device mapping, clipping/gating,
 historical selector arithmetic, trace serialization and preparation without
-opening hardware or loading checkpoints. The asynchronous bridge retains its
-original prefetch behavior and is separate from the simulator RTC protocol.
+opening hardware or loading checkpoints. Only fixed-prefix and synchronous AHS
+rollouts are included; the source export adds no asynchronous device protocol.
 This source recovery does not establish a new robot run or resolve missing
 calibration and full process-score records.
 

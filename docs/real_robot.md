@@ -8,22 +8,28 @@ binary success rate.
 The device-side source has now been located on the robot workstation and is
 released as a [RoboDriver overlay](../third_party/overlays/robodriver/scripts/).
 A separate [OpenPI overlay](../third_party/overlays/agilex_openpi/) supplies the
-trained AgileX state layout and websocket denoising traces. These are source
+trained AgileX state layout and websocket denoising traces. The two deployment
+entrypoints are the fixed-prefix baseline and synchronous AHS. Their shared
+mapping and optional recording helpers are included as supporting code. These are source
 exports with offline regression checks, not a new hardware evaluation or a
 reconstruction of all paper rollouts. Calibration, task-specific checkpoints
 and complete scoring records are still needed for hardware reproduction.
 
-## Source layout
+## Core source layout
 
 | Entry in prepared RoboDriver `scripts/` | Purpose |
 |---|---|
-| `openpi_bridge_smoke_action.py` | Observation mapping, limited first-step/manual command preview, current-pose hold |
 | `openpi_bridge_rollout_safe.py` | Fixed-prefix baseline |
 | `openpi_bridge_rollout_ahs.py` | Historical synchronous AHS device integration |
-| `openpi_bridge_rollout_ahs_async.py` | Historical prefetch experiment; see limitations below |
-| `openpi_bridge_reset_pose.py` | Save, display and return to a user-recorded pose |
-| `eval_video_recorder.py` | Three robot videos plus overview-camera recording |
-| `eval_episode_npz_logger.py` | Commands, observations, timing, AHS evidence and Beta states |
+| `openpi_bridge_common.py` | Shared robot construction, raw26/camera mapping and action-dictionary helpers |
+| `eval_video_recorder.py` | Optional three robot videos plus overview-camera recording |
+| `eval_episode_npz_logger.py` | Optional commands, observations, timing, AHS evidence and Beta states |
+
+Only the first two files are rollout commands. Async prefetch, standalone reset,
+manual motion and free-mode utilities are outside this core export. The original
+workstation files remain unchanged. `make_ahs_selectors(args, candidates)` in the
+synchronous module exposes the original selector construction without importing
+hardware or model libraries.
 
 Original and exported hashes, source state and portability changes are in
 [robodriver_sources.json](../third_party/robodriver_sources.json) and
@@ -116,6 +122,24 @@ joint training targets except for grippers, restores absolute targets on output,
 and preserves pi0.5 quantile normalization. Gripper scales must match the
 checkpoint and driver; raw numerical limits are not a universal unit conversion.
 
+The exact inspected driver packages, public wheel hashes and wire formulas are
+retained in [runtime_reference.json](../configs/real_robot/runtime_reference.json).
+The installed Python sources match those public wheels: `dora-arm-piper==0.0.5`,
+`dora-camera-realsense==0.0.2` and `piper-sdk==0.6.2`. These are observed reference
+versions, not a complete environment lock. Pin the intended node packages when
+configuring a new dataflow; an unversioned package install can select another
+implementation in the future.
+
+In that Piper node, a joint command is encoded as
+`round(q * 57324.840764)` and feedback divides by the same factor. The gripper
+command is `int(abs(g * 100000))`, while feedback divides the SDK value by
+100000. The SDK documents 0.001 mm per gripper unit, so nonnegative raw `g`
+corresponds nominally to `g / 10` metres. This does not establish physical
+closed/open calibration. RoboDriver's degree/range metadata labels do not
+convert these raw node values. A ManiMux adapter must map the calibrated physical
+width into its normalized opening explicitly; forwarding raw `g` as metres or
+as `[0,1]` aperture would change the checkpoint's action meaning.
+
 `denoise_trace['v']` has shape `[denoising_steps,H,model_action_dim]` (or one
 leading singleton batch dimension). It stays in normalized model coordinates;
 the historical bridge uses its first 14 dimensions. Returned `actions[H,14]`
@@ -131,7 +155,6 @@ work without a robot, policy server, OpenPI client or video dependencies:
 cd "$ROBODRIVER_ROOT"
 python scripts/openpi_bridge_rollout_ahs.py --help
 python scripts/openpi_bridge_rollout_safe.py --help
-python scripts/openpi_bridge_reset_pose.py --help
 ```
 
 After CAN and the installation's Dora dataflow are configured and running, the
@@ -167,11 +190,10 @@ control rate, limits, filtering and selector parameters explicitly. The CLI
 defaults to temperature 1.0; portable `AHSConfig` defaults to 0.8, and the
 released Duck replay records 0.6.
 
-`soft-reset` holds the current pose; it does not return to a saved initial pose.
-Save an installation-specific pose with
-`openpi_bridge_reset_pose.py --mode save-current --pose-path <path>` and preview
-a return with `--mode reset --pose-path <path> --execute 0`. Saving reads live
-hardware and writes the pose file. No pre-recorded reset target is distributed.
+The two rollout commands retain their existing `--ctrl-c-soft-reset` option:
+after Ctrl-C during execution it holds the current pose. It does not return to a
+saved initial pose. No standalone reset command or recorded reset target is
+distributed.
 
 ## Historical behavior and recording
 
@@ -185,9 +207,6 @@ silently substituting `chunktrust.AHS`:
   the clipped/blended commands actually sent. History can advance in preview
   mode. NPZ `executed_action_lr14` separately records filtered targets with
   `execute_enabled`; a preview target is not a sent command.
-- Async prefetch uses the observation captured at submission and executes the
-  new plan from index zero. It does not remove latency-expired actions or impose
-  an observation-age limit. It is not the released simulator RTC protocol.
 - `--ahs-metadata-policy require` prevents missing metadata silently producing
   a fixed-prefix run. Choice precedence is server `exec_length`, denoising
   trace, then QHA metadata.
@@ -200,8 +219,7 @@ Recording is opt-in with `--record-video 1`. It writes to relative
 camera (auto-detected DJI Osmo, or `--record-overview-device <device>`), OpenCV,
 FFmpeg and video-device access. These scripts have no NPZ-only recording mode.
 Metadata includes CLI arguments, available source revisions, frame timestamps,
-targets, evidence and posterior snapshots. Async records replan AHS arrays and
-async events but not the synchronous per-step AHS arrays. Replan action ranges
+targets, evidence and posterior snapshots. Replan action ranges
 describe intended prefixes and can overrun an interrupted recording; inspect
 per-step rows and `execute_enabled` to determine what was logged as sent.
 
@@ -218,3 +236,42 @@ Its source recording ended by interruption; this is a selection-arithmetic audit
 and is not used to infer success. It retains evidence, selected horizons and
 before/after Beta states. Source identity and hash accompany the example. The
 project video does not replace calibration or complete scoring records.
+
+## Developer handoff without the robot workstation
+
+All source for these two entrypoints and their model-side trace path is either
+in this repository or in the pinned upstream revisions. Source preparation uses
+public remotes by default; no author checkout, workstation path, editable
+installation on the robot, or saved pose is required for code development.
+
+In a Python 3.11 environment, from a fresh ChunkTrust clone:
+
+```bash
+python -m pip install -e '.[test]'
+python examples/real_robot_core_smoke.py
+python -m pytest -q
+python scripts/check_release.py
+```
+
+The smoke uses explicitly synthetic state, camera pixels, actions and denoising
+velocities. It imports the released fixed/synchronous modules, runs the original
+selector and command mapping, and prints a small JSON report. It opens no socket,
+camera, robot or model checkpoint. The numerical replay tests retain original
+source identities and golden decisions, including the historical end-of-budget
+FFT/candidate behavior. These checks can be used when developing on another
+machine without silently substituting a different selector.
+
+For a future ManiMux integration, the model framework should own the AgileX
+observation profile and opt-in trace sampler, while the runtime strategy owns
+K selection, episode state, acceptance/reset and execution history. The exported
+controller loop is a reference implementation; it does not implement ManiMux's
+plugin interfaces. Preserve the explicit raw26-to-left/right mapping, camera
+order, checkpoint normalization and gripper convention. Port the fixed-prefix
+and synchronous AHS paths first. Define behavior for rejected plans and actually
+sent commands before adding asynchronous scheduling.
+
+Code development can continue from this repository. Running the trained policy
+still requires a compatible real-robot checkpoint and its normalization assets;
+physical execution additionally needs the new station's device configuration
+and calibration. Neither weights nor station-specific addresses are embedded in
+the source export.

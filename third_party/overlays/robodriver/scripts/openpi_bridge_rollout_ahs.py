@@ -15,7 +15,7 @@ import numpy as np
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from openpi_bridge_smoke_action import (  # noqa: E402
+from openpi_bridge_common import (  # noqa: E402
     PROMPT as DEFAULT_PROMPT,
     action_dict_from_left_right,
     get_complete_observation,
@@ -545,7 +545,7 @@ class TestTimeHorizonSelector:
         return k_exec, out
 
 
-def parse_args() -> argparse.Namespace:
+def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--host", default="127.0.0.1")
     parser.add_argument("--port", type=int, default=8000)
@@ -598,7 +598,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--horizon-inter-fallback", choices=["ehh_only", "neutral"], default="ehh_only")
     add_recording_args(parser)
     parser.add_argument("--execute", type=int, choices=[0, 1], default=0)
-    return parser.parse_args()
+    return parser.parse_args(argv)
 
 
 def parse_candidates(raw: str) -> list[int]:
@@ -1032,11 +1032,8 @@ def observed_joint_motion(start_left: np.ndarray, start_right: np.ndarray, now_l
     return max(left_motion, right_motion)
 
 
-def main() -> None:
-    args = parse_args()
-    from openpi_client.websocket_client_policy import WebsocketClientPolicy
-
-    ahs_candidates = parse_candidates(args.ahs_candidates)
+def make_ahs_selectors(args: argparse.Namespace, ahs_candidates: list[int]) -> tuple[AHSRuntimeSelector, TestTimeHorizonSelector]:
+    """Build both selectors with the original synchronous rollout parameters."""
     ahs_selector = AHSRuntimeSelector(
         candidate_horizons=ahs_candidates,
         exec_mode=args.ahs_exec_mode,
@@ -1070,6 +1067,15 @@ def main() -> None:
         inter_beta=args.horizon_inter_beta,
         inter_fallback=args.horizon_inter_fallback,
     )
+    return ahs_selector, horizon_selector
+
+
+def main() -> None:
+    args = parse_args()
+    from openpi_client.websocket_client_policy import WebsocketClientPolicy
+
+    ahs_candidates = parse_candidates(args.ahs_candidates)
+    ahs_selector, horizon_selector = make_ahs_selectors(args, ahs_candidates)
     robot = make_robot()
     recorder = create_eval_video_recorder(args, robot, rollout_kind="ahs")
     if recorder is not None:
