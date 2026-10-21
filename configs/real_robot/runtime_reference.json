@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "observed_on": "2026-10-21",
+  "scope": "Workstation dependency and wire-contract reference for fixed-prefix and synchronous AHS. This is not a complete environment lock or a hardware qualification.",
+  "public_packages": [
+    {
+      "name": "dora-arm-piper",
+      "version": "0.0.5",
+      "wheel_url": "https://files.pythonhosted.org/packages/b0/a9/fa37b18f382eb384199b66b3687fe0600203120edfe1c742c0f9ebb441e2/dora_arm_piper-0.0.5-py3-none-any.whl",
+      "wheel_sha256": "e8a746ceb7de829321a60989f5e98832b6c49b860d5ac5a81ec5bf138f78d68d",
+      "installed_python_files_compared": 2,
+      "all_python_files_match_public_wheel": true,
+      "contract_source": "dora_arm_piper/main.py",
+      "contract_source_sha256": "607acd5655cb8b12582280728ba99bb27752a6c3de99f886e278f2ab2671ed87"
+    },
+    {
+      "name": "dora-camera-realsense",
+      "version": "0.0.2",
+      "wheel_url": "https://files.pythonhosted.org/packages/b1/50/23f464c9028ee860c61520a4754c6bf6ec5540a303c200d5cbf5cf35c628/dora_camera_realsense-0.0.2-py3-none-any.whl",
+      "wheel_sha256": "dda5a0c85d0047b01402c5ba02391323b9acc0fe7d408221a01f774969415ea6",
+      "installed_python_files_compared": 1,
+      "all_python_files_match_public_wheel": true,
+      "contract_source": "dora_camera_realsense/main.py",
+      "contract_source_sha256": "7deda85a317c247f1d9a4ae5184d242116ca7d587d877f83dad10123331e0bbe"
+    },
+    {
+      "name": "lerobot-robodriver",
+      "version": "0.4.3",
+      "wheel_url": "https://files.pythonhosted.org/packages/68/29/7e6656c441cfda994f0813a90c1b945288efdd03909ab6d176ad0c6606b5/lerobot_robodriver-0.4.3-py3-none-any.whl",
+      "wheel_sha256": "029f6f3fb2284f37df861f695167281959d053745fd5582672a89c374e75a1fe",
+      "installed_python_files_compared": 286,
+      "all_python_files_match_public_wheel": true
+    },
+    {
+      "name": "piper-sdk",
+      "version": "0.6.2",
+      "wheel_url": "https://files.pythonhosted.org/packages/10/2f/5c96034de9816d7da431b4c007efff2c8d4afd3182d4541ac3c64493080c/piper_sdk-0.6.2-py3-none-any.whl",
+      "wheel_sha256": "d4aa1088fd6716f2f8c81a269dc5fb88b4c875a859e1c06e95bf2e9e8a6493c6",
+      "installed_python_files_compared": 116,
+      "all_python_files_match_public_wheel": true,
+      "contract_source": "piper_sdk/interface/piper_interface.py",
+      "contract_source_sha256": "ee63f0fa68286f7d0970ac9b53828c407f135ee68624064404fc419b0acede92"
+    }
+  ],
+  "other_observed_versions": {
+    "dora-rs": "0.3.13",
+    "lerobot-robodriver": "0.4.3",
+    "bridge_websockets": "16.0",
+    "installed_openpi_client_upstream": "Physical-Intelligence/openpi@650c5b0283a49c42784fb5055a0507da2c6d347d"
+  },
+  "device_wire_contract": {
+    "joint_command": "joint_sdk_i = round(joint_bridge_i * 57324.840764)",
+    "joint_feedback": "joint_bridge_i = joint_sdk_i / 57324.840764",
+    "joint_bridge_unit": "nominal radians; retain the exact historical factor for numerical reproduction",
+    "joint_sdk_unit": "0.001 degree, as documented by piper-sdk 0.6.2 JointCtrl and GetArmJointMsgs",
+    "gripper_command": "gripper_sdk = int(abs(gripper_bridge * 1000 * 100))",
+    "gripper_feedback": "gripper_bridge = gripper_sdk / 1000 / 100",
+    "gripper_sdk_unit": "0.001 millimetre, as documented by piper-sdk 0.6.2 GripperCtrl",
+    "nominal_gripper_width_metres": "gripper_bridge / 10 for nonnegative values; this is a wire-scale conversion, not calibrated physical travel",
+    "driver_metadata_caveat": "RoboDriver use_degrees=True and RANGE_0_100 labels do not transform the raw Dora feedback or command values in this bridge path. Do not infer command units from these labels.",
+    "policy_action_order": "left six joints, left gripper, right six joints, right gripper",
+    "native_transport": "OpenPI websocket metadata greeting followed by msgpack NumPy observation/action dictionaries; host/port mode is shared by the pinned client source and the installed workstation client"
+  },
+  "portability_audit": {
+    "machine_only_sdk_python_modifications_found": false,
+    "local_simulator_and_robodriver_cli_edits_required_by_direct_bridge": false,
+    "source_client_local_modifications": false,
+    "local_dataflow_changes_exported": false,
+    "dataflow_caveat": "Several workstation env names are ignored by the pinned public node implementations. Configure actual supported node options and station bindings rather than assuming local dataflow additions implement startup delays or timeouts.",
+    "checkpoints_or_private_station_bindings_included": false
+  }
+}

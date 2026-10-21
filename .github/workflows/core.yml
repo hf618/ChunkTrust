@@ -12,5 +12,6 @@ jobs:
       - run: pytest -q
       - run: python examples/quickstart.py
       - run: python examples/replay_recorded_decisions.py
+      - run: python examples/real_robot_core_smoke.py
       - run: python scripts/summarize_results.py --output outputs/summary.json
       - run: python scripts/check_release.py

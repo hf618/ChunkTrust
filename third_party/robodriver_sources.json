@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "origin": {
+    "repository": "https://github.com/FlagOpen/RoboDriver.git",
+    "revision": "5beceeabb92291ed30c2d58c11d68cb1b8bd63e3",
+    "source_state": "untracked workstation extensions; source hashes identify the exported files, not the upstream revision"
+  },
+  "ast_normalization": "SHA-256 of Python 3.11 ast.dump(Module(body=selected top-level definitions, type_ignores=[]), include_attributes=False), recursively omitting imports and empty type_params fields added by newer Python versions. Captured from the original workstation sources; tests compare released definitions without requiring that workstation. Main hashes inline the extracted selector-constructor assignments before comparison.",
+  "files": [
+    {
+      "source_path": "scripts/openpi_bridge_smoke_action.py",
+      "source_sha256": "cf66e327c170ebcd2f970b9bd827fe488e933a519c42793f09140259edabed89",
+      "source_bytes": 14316,
+      "destination_path": "third_party/overlays/robodriver/scripts/openpi_bridge_common.py",
+      "release_sha256": "82f11270d85825e482d8ffff6b8a9bc1a8d4b111a7693d042cdd76fafed16f4d",
+      "source_definitions_ast": {
+        "symbols": ["make_robot", "get_complete_observation", "observation_to_raw26", "observation_to_policy_input", "chw_uint8", "raw26_to_left_right", "action_dict_from_left_right", "print_delta"],
+        "sha256": "2e904d701aef64cacd547b305348ba1c63df92764149536b73f4df41ed1361de"
+      },
+      "changes": [
+        "Extract only PROMPT, arm-key constants and the eight shared I/O helpers needed by the fixed-prefix and synchronous AHS rollouts; no standalone CLI.",
+        "Defer RoboDriver imports until make_robot; shared helper bodies otherwise match the source."
+      ]
+    },
+    {
+      "source_path": "scripts/openpi_bridge_rollout_safe.py",
+      "source_sha256": "7a9033d03934b74f3b996ce7197004ac69709a8098b794b3def7fae9f31a0e81",
+      "source_bytes": 16015,
+      "destination_path": "third_party/overlays/robodriver/scripts/openpi_bridge_rollout_safe.py",
+      "release_sha256": "b600b049ca1fb1b04cab2992b85043140c0868810922bed070758c8e27652a66",
+      "source_definitions_ast": {
+        "symbols": ["clip_step", "target_from_policy_step", "progress_style", "max_joint_delta", "gripper_delta", "total_replans", "print_replan_header", "print_step_progress", "finish_compact_line", "observed_joint_motion", "soft_reset_hold_current"],
+        "sha256": "6ca69a21585e4e45201229dad6f1fded506f271eb9cc4e6d99b940f24c2b5a33"
+      },
+      "source_main_ast_sha256": "8d129f6d4bba91d4bac5e4653d06aba61a371e8138deb0ada221d35bb968d870",
+      "changes": [
+        "Import shared helpers from openpi_bridge_common and defer OpenPI client import until after CLI parsing.",
+        "Allow optional argv in parse_args for offline reuse; CLI defaults and numeric/controller behavior unchanged."
+      ]
+    },
+    {
+      "source_path": "scripts/openpi_bridge_rollout_ahs.py",
+      "source_sha256": "dca791e9dd1f511cddaa7ba874b71ba24b8a193873597defd3d71a6beb181bca",
+      "source_bytes": 58413,
+      "destination_path": "third_party/overlays/robodriver/scripts/openpi_bridge_rollout_ahs.py",
+      "release_sha256": "cdaf3febee865937407ea3586b492d5e29f0d32c60b3aee2aa310a3bad642082",
+      "source_definitions_ast": {
+        "symbols": ["AHSChoice", "AHSRuntimeSelector", "TestTimeHorizonSelector", "parse_candidates", "normalize_probabilities", "normalize_scores", "compress_posterior_to_basis", "clip_step", "target_from_policy_step", "choose_ahs_exec_length", "scalar_or_none", "progress_style", "max_joint_delta", "gripper_delta", "total_replans", "print_replan_header", "print_ahs_details", "ahs_log_fields", "beta_state_snapshot", "beta_candidates_for_choice", "beta_ab_from_snapshot", "print_step_progress", "finish_compact_line", "observed_joint_motion", "soft_reset_hold_current"],
+        "sha256": "79e4fdae7016d0b72d2f59eba1ab8ed229251ea5bcbb5914fcca77e482e122c8"
+      },
+      "source_main_ast_sha256": "28a2da57cacdc6e5d47c91565b4777b0c7fcbee9448e14c8ea8d61cad99d85fe",
+      "source_selector_constructors_ast_sha256": "7f30c4cca85c73488eb0e14bd2f1543dd2b56565c5eb53ca8f0973385fe70119",
+      "changes": [
+        "Import shared helpers from openpi_bridge_common and defer OpenPI client import until after CLI parsing.",
+        "Allow optional argv in parse_args for offline reuse; CLI defaults and numeric/controller behavior unchanged.",
+        "Move the original two selector constructor assignments unchanged into make_ahs_selectors for offline reuse; main calls the helper."
+      ]
+    },
+    {
+      "source_path": "scripts/eval_episode_npz_logger.py",
+      "source_sha256": "7ae8959ee37297e7e589de01031ef76da45828d26b62a7e4a2f427f9089a8898",
+      "source_bytes": 18709,
+      "destination_path": "third_party/overlays/robodriver/scripts/eval_episode_npz_logger.py",
+      "release_sha256": "7ae8959ee37297e7e589de01031ef76da45828d26b62a7e4a2f427f9089a8898",
+      "source_definitions_ast": {
+        "symbols": ["EvalEpisodeNpzLogger", "_stack_or_empty", "_to_int", "_to_float", "_as_float_array", "_as_int_array", "_as_float_matrix", "_pad_rows", "_pad_int_rows", "_pad_matrices", "_nearest_frame_indices", "_load_camera_monotonic_times", "_overview_monotonic_times", "_probe_video_frame_count", "_frame_count_from_duration", "_estimate_overview_frame_count"],
+        "sha256": "7166fb149552acba6a9908c2be99eac7452e0ead62429f976b967d3f230946eb"
+      },
+      "changes": []
+    },
+    {
+      "source_path": "scripts/eval_video_recorder.py",
+      "source_sha256": "ac4ff130aeb80ddb1d56c5d57b0d967c44168ff630218689bb025f115b50a73a",
+      "source_bytes": 20059,
+      "destination_path": "third_party/overlays/robodriver/scripts/eval_video_recorder.py",
+      "release_sha256": "7f036d5e691dd7ee28741ee1ab0057b42bbdf7151b630d51167f7899b1aa2a3a",
+      "source_definitions_ast": {
+        "symbols": ["create_eval_video_recorder", "_sanitize_name", "_resolve_task_name", "_resolve_overview_device", "_find_osmo_action_device"],
+        "sha256": "826cbb87eccea91a747bd54e480efe916cff8249d5b9a1aaddee5999b702f9c1"
+      },
+      "changes": [
+        "Use relative records/eval_videos as recording default.",
+        "Defer OpenCV import until a video recorder is constructed; frame conversion/encoding unchanged."
+      ]
+    }
+  ],
+  "known_limitations": [
+    "Robot, recorder and websocket-client startup occur before the rollout try/finally; startup failures can skip normal robot.disconnect cleanup. Exception-safe hardware teardown is not validated by this export.",
+    "Historical workstation AHS behavior is preserved: FFT length shrinks to min(remaining episode steps, trace horizon, action horizon), and filtering candidate horizons resets Beta state. This differs from the public fixed-full-horizon FFT selector.",
+    "Selector history records policy action prefixes, not post-clipping/EMA/gating commands actually sent to the robot.",
+    "Offline tests do not validate robot motion, camera I/O, CAN/Dora integration, network service behavior, or real-time scheduling.",
+    "Saved poses, recordings, checkpoints, device calibration, and other workstation state are deliberately excluded."
+  ]
+}

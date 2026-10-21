@@ -16,28 +16,33 @@ ROOT = Path(__file__).resolve().parents[1]
 def prepare(name, destination, local_source=None, heldout=False):
     catalog = json.loads((ROOT / "third_party/upstreams.json").read_text())
     spec = catalog[name]
+    if heldout and name != "robotwin":
+        raise ValueError("held-out QHA overlay requires robotwin")
     destination = destination.resolve()
     if destination.exists():
         raise ValueError(f"destination already exists: {destination}; choose a new directory")
+    overlays = list(spec.get("overlays", [name]))
+    if heldout:
+        overlays.append("qha_heldout")
+    sources = [ROOT / "third_party" / "overlays" / overlay for overlay in overlays]
+    for source in sources:
+        if not source.is_dir():
+            raise ValueError(f"released overlay is missing: {source}")
     subprocess.run(["git", "clone", "--no-checkout", str(local_source or spec["url"]), str(destination)], check=True)
     subprocess.run(["git", "-C", str(destination), "checkout", "--detach", spec["commit"]], check=True)
-    overlays = [name]
-    if heldout:
-        if name != "robotwin":
-            raise ValueError("held-out QHA overlay requires robotwin")
-        overlays.append("qha_heldout")
-    installed = []
-    for overlay in overlays:
-        source = ROOT / "third_party" / "overlays" / overlay
+    installed = {}
+    for source in sources:
         for p in sorted(source.rglob('*')):
             if not p.is_file() or '__pycache__' in p.parts:
                 continue
             target = destination / p.relative_to(source)
             target.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(p, target)
-            installed.append({"path": str(target.relative_to(destination)), "sha256": hashlib.sha256(p.read_bytes()).hexdigest()})
-    (destination / ".chunktrust-install.json").write_text(json.dumps({"upstream": spec, "overlays": overlays, "files": installed}, indent=2)+'\n')
-    print(f"Prepared {name} at {destination}; install its environment following docs/backends.md")
+            relative = str(target.relative_to(destination))
+            installed[relative] = {"path": relative, "sha256": hashlib.sha256(p.read_bytes()).hexdigest()}
+    (destination / ".chunktrust-install.json").write_text(json.dumps({"upstream": spec, "overlays": overlays, "files": list(installed.values())}, indent=2)+'\n')
+    guide = "docs/real_robot.md" if name in {"robodriver", "agilex_openpi"} else "docs/backends.md"
+    print(f"Prepared {name} at {destination}; install its environment following {guide}")
 
 
 if __name__ == '__main__':

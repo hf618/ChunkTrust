@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "description": "Bounded AgileX real-robot server delta on top of the released pi05_horizon layer; no checkpoints or datasets.",
+  "upstream": {
+    "repository": "https://github.com/Physical-Intelligence/openpi.git",
+    "commit": "650c5b0283a49c42784fb5055a0507da2c6d347d"
+  },
+  "source_workspace": {
+    "name": "pi05_horizon_server",
+    "version_control": "Local working tree without .git; source bytes are identified by per-file SHA-256."
+  },
+  "license": "Apache-2.0",
+  "composition": [
+    "third_party/overlays/robotwin/policy/pi05_horizon",
+    "third_party/overlays/agilex_openpi"
+  ],
+  "contract": {
+    "checkpoint_config": "pi05_base_aloha_agilex_real_full",
+    "state_input": "Raw AgileX state with last dimension >=26; concatenate [13:20, 0:7] into left7/right7.",
+    "action_training_input": "Raw AgileX action with last dimension >=14; concatenate [7:14, 0:7] into left7/right7.",
+    "action_output": "14-D left7/right7 absolute joint and gripper commands, with adapt_to_pi=False.",
+    "normalization": "PI05 defaults to checkpoint quantile stats; joints use deltas to observation state, grippers remain absolute. Explicit use_quantile_norm_override remains available.",
+    "trace": "v [steps,horizon,model_dim], ds [steps], x0/xt_internal [horizon,model_dim]; normalized padded model coordinates, singleton batch removed, floating arrays cast to float32 for msgpack.",
+    "dataset": "CHUNKTRUST_AGILEX_DATASET overrides the portable dataset id; inference reads checkpoint assets and requires no training dataset.",
+    "norm_stats_fallback": "Use the requested checkpoint asset_id when present. If missing, use a fallback only when exactly one assets/*/norm_stats.json exists; multiple or zero alternatives raise."
+  },
+  "files": {
+    "src/openpi/training/agilex_real_alignment.py": {
+      "source": {
+        "workspace": "pi05_horizon_server",
+        "path": "src/openpi/training/agilex_real_alignment.py",
+        "sha256": "fa2de63529b9ea70a5088cbc9dc4d7757fec8b66f86add6beda22f238618d807"
+      },
+      "release_sha256": "7f3ceb4cbc0d783a35e4d4c8da47dcd44ac975e7fd69f58c92ab28430f55aa67",
+      "changes": [
+        "Export the local AgileX raw-state/action alignment and camera mapping.",
+        "Replace the source workstation dataset path with CHUNKTRUST_AGILEX_DATASET and a portable default dataset id."
+      ]
+    },
+    "src/openpi/training/config.py": {
+      "source": {
+        "workspace": "pi05_horizon_server",
+        "path": "src/openpi/training/config.py",
+        "sha256": "55057900a860cc8d645b1e2ea8fd1c08d94db1030e9ea1b96ad6b085c1e6c150"
+      },
+      "release_sha256": "9148d7092e0eebbe8f60cae63d8b3672298d300c050c94fa6cfa3b21199fcdde",
+      "changes": [
+        "Merge only AgilexRealAlohaDataConfig, its alignment import and pi05_base_aloha_agilex_real_full registration into the released config.",
+        "Retain the newer public multi-task config, QHA history transforms and portable ChunkTrust path resolution."
+      ],
+      "released_base": {
+        "path": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/training/config.py",
+        "sha256": "158e5c120c3692bc28842623d1a381b8805cee47bce99670443fbf1772d485b3"
+      }
+    },
+    "src/openpi/policies/policy.py": {
+      "source": {
+        "workspace": "pi05_horizon_server",
+        "path": "src/openpi/policies/policy.py",
+        "sha256": "92f32f463886d9a9f138444da5529378c57c556d7a32f9a64f58e5362a5f2d0f"
+      },
+      "release_sha256": "4b5ad286263e2cd09ea76274d15e27dbddbccf2c4cba69f5618d5c58297a3c63",
+      "changes": [
+        "Merge the local floating trace -> float32 serialization helper into the released policy.",
+        "Keep all released QHA feature traces, teacher outputs, reset_rng and infer_with_forked_rng implementations.",
+        "Trace coordinates remain normalized model space and bypass action output transforms."
+      ],
+      "released_base": {
+        "path": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/policies/policy.py",
+        "sha256": "b4430691be232cd09779ad889f7247e07806daaa8e15f7e6e11c82a61a6941b5"
+      }
+    },
+    "src/openpi/policies/policy_config.py": {
+      "source": {
+        "workspace": "pi05_horizon_server",
+        "path": "src/openpi/policies/policy_config.py",
+        "sha256": "f77de7858006c273a3c089b282c7e9801722a262215faad9ad421c6675c758a9"
+      },
+      "release_sha256": "f77de7858006c273a3c089b282c7e9801722a262215faad9ad421c6675c758a9",
+      "changes": [
+        "Add the local singleton checkpoint normalization asset fallback at both full-policy and base-plus-QHA loaders.",
+        "Retain the released resolved-model-config loading and QHA candidate overrides."
+      ],
+      "released_base": {
+        "path": "third_party/overlays/robotwin/policy/pi05_horizon/src/openpi/policies/policy_config.py",
+        "sha256": "35ecbd472d01f837d403911aca038e164864a63699c2dba00eb247de14c04e7d"
+      }
+    },
+    "scripts/serve_policy.py": {
+      "source": {
+        "workspace": "pi05_horizon_server",
+        "path": "scripts/serve_policy.py",
+        "sha256": "d90b96b0a40ae649d6b5c3a4830b5c6a843ffc62d1ea4293f5df61a98aeea592"
+      },
+      "release_sha256": "d90b96b0a40ae649d6b5c3a4830b5c6a843ffc62d1ea4293f5df61a98aeea592",
+      "changes": [
+        "Expose --return-denoise-trace and pass its sampler kwargs for explicit and default checkpoints."
+      ],
+      "released_base": {
+        "path": "third_party/overlays/robotwin/policy/pi05_horizon/scripts/serve_policy.py",
+        "sha256": "6e88fab47c2e1b50749d3cb520e856e10149ec16adb9c24f8f726d48918460fc"
+      }
+    }
+  }
+}
