@@ -5,6 +5,8 @@ backend. GR00T/StarVLA paper integrations retain their own frozen selectors.
 """
 from dataclasses import asdict, dataclass
 import copy
+import math
+from numbers import Integral, Real
 import numpy as np
 from ._pi_ahs import Selector
 
@@ -23,12 +25,35 @@ class AHSConfig:
     mix_mode: str = "both"
 
     def __post_init__(self):
-        object.__setattr__(self, "candidates", tuple(self.candidates))
+        for name in ("horizon", "action_dim", "history_window"):
+            value = getattr(self, name)
+            if isinstance(value, (bool, np.bool_)) or not isinstance(value, Integral):
+                raise ValueError(f"{name} must be an integer, not a boolean")
+            object.__setattr__(self, name, int(value))
+        try:
+            candidates = tuple(self.candidates)
+        except TypeError as exc:
+            raise ValueError("candidates must be a sequence of integers") from exc
+        if any(isinstance(value, (bool, np.bool_)) or not isinstance(value, Integral)
+               for value in candidates):
+            raise ValueError("candidate horizons must be integers, not booleans")
+        object.__setattr__(self, "candidates", tuple(int(value) for value in candidates))
+        for name in ("temperature", "epsilon", "kernel_bandwidth", "forget_rho", "update_eta"):
+            value = getattr(self, name)
+            if isinstance(value, (bool, np.bool_)) or not isinstance(value, Real):
+                raise ValueError(f"{name} must be a finite real number, not a boolean")
+            try:
+                value = float(value)
+            except (OverflowError, ValueError) as exc:
+                raise ValueError(f"{name} must be finite") from exc
+            if not math.isfinite(value):
+                raise ValueError(f"{name} must be finite")
+            object.__setattr__(self, name, value)
         if not self.candidates or list(self.candidates) != sorted(set(self.candidates)):
             raise ValueError("candidates must be nonempty, unique and increasing")
         if self.candidates[0] < 1 or self.candidates[-1] > self.horizon:
             raise ValueError("candidate horizons must lie within the prediction horizon")
-        if self.action_dim < 1 or self.history_window < 4 or self.temperature <= 0:
+        if self.horizon < 1 or self.action_dim < 1 or self.history_window < 4 or self.temperature <= 0:
             raise ValueError("invalid dimensions, history window, or temperature")
         if not 0 <= self.epsilon <= 1 or not 0 < self.forget_rho <= 1:
             raise ValueError("invalid exploration or forgetting parameter")

@@ -96,3 +96,69 @@ def test_evidence_does_not_advance_rng_or_memory():
 def test_nonfinite_input_rejected(bad):
     v=np.ones((10,50,14));v[0,0,0]=bad
     with pytest.raises(ValueError):AHS().select(v,np.zeros((50,14)))
+
+
+@pytest.mark.parametrize("field", ["horizon", "action_dim", "history_window"])
+@pytest.mark.parametrize("bad", [True, False, np.bool_(True), 14.0, "14", None, np.nan, np.inf, 1j])
+def test_config_dimensions_require_integers(field, bad):
+    with pytest.raises(ValueError, match=field):
+        AHSConfig(**{field: bad})
+
+
+@pytest.mark.parametrize("bad", [None, "10,20", (), (True, 20), (np.bool_(True), 20),
+                                  (10.0, 20), (10.5, 20), ("10", 20), (10, 10),
+                                  (20, 10), (0, 20), (10, 51)])
+def test_config_candidates_require_a_valid_integer_basis(bad):
+    with pytest.raises(ValueError, match="candidate"):
+        AHSConfig(candidates=bad)
+
+
+@pytest.mark.parametrize("field", ["temperature", "epsilon", "kernel_bandwidth", "forget_rho", "update_eta"])
+@pytest.mark.parametrize("bad", [np.nan, np.inf, -np.inf, True, np.bool_(False), "0.8", None, 1j, 10**1000])
+def test_config_parameters_require_finite_real_numbers(field, bad):
+    with pytest.raises(ValueError, match=field):
+        AHSConfig(**{field: bad})
+
+
+@pytest.mark.parametrize("values", [
+    {"horizon": 0}, {"action_dim": 0}, {"history_window": 3},
+    {"temperature": 0}, {"temperature": -1}, {"epsilon": -0.1}, {"epsilon": 1.1},
+    {"kernel_bandwidth": 0}, {"kernel_bandwidth": -1},
+    {"forget_rho": 0}, {"forget_rho": 1.1}, {"update_eta": -1},
+])
+def test_config_preserves_original_parameter_bounds(values):
+    with pytest.raises(ValueError):
+        AHSConfig(**values)
+
+
+@pytest.mark.parametrize("epsilon", [0, 1])
+def test_config_accepts_numeric_endpoints_and_numpy_scalars(epsilon):
+    config = AHSConfig(
+        horizon=np.int64(50), action_dim=np.int32(14), history_window=np.int64(60),
+        candidates=np.asarray([10, 20, 30, 40], dtype=np.int32),
+        temperature=np.float64(1), epsilon=epsilon, kernel_bandwidth=10,
+        forget_rho=1, update_eta=0,
+    )
+    assert type(config.horizon) is type(config.action_dim) is type(config.history_window) is int
+    assert all(type(value) is int for value in config.candidates)
+    for name in ("temperature", "epsilon", "kernel_bandwidth", "forget_rho", "update_eta"):
+        assert type(getattr(config, name)) is float
+    selector = AHS(config, seed=17)
+    state = json.loads(json.dumps(selector.state_dict(), allow_nan=False))
+    AHS(config).load_state_dict(state)
+
+
+@pytest.mark.parametrize("field", ["velocity", "actions", "history"])
+@pytest.mark.parametrize("bad", [np.nan, np.inf, -np.inf])
+def test_invalid_inputs_do_not_advance_posterior_or_rng(field, bad):
+    selector = AHS(seed=11)
+    inputs = {
+        "velocity": np.ones((10, 50, 14)), "actions": np.zeros((50, 14)),
+        "history": np.zeros((60, 14)),
+    }
+    selector.select(**inputs)
+    before = selector.state_dict()
+    inputs[field].flat[0] = bad
+    with pytest.raises(ValueError, match="finite"):
+        selector.select(**inputs)
+    assert selector.state_dict() == before

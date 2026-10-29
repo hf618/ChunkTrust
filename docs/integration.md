@@ -19,6 +19,23 @@ while not done:
 This pseudocode describes the synchronous interface. Real controllers can stop
 before k on termination or an error; do not append unused actions to history.
 The portable selector validates finite inputs and candidate feasibility.
+Configuration dimensions and candidate horizons must be integers (not booleans
+or integral-valued floats). Numeric selector parameters must be finite real
+numbers; booleans and numeric strings are rejected. NumPy integer and floating
+scalars are normalized to Python scalars for JSON state serialization.
+
+Reproduce the local dependency and distribution checks with Python 3.11+ and `uv`,
+from the repository root:
+
+```bash
+python scripts/check_runtime_matrix.py --output outputs/runtime-matrix
+```
+
+This runs the four documented Python/NumPy cases, source regression tests,
+synthetic examples, wheel/sdist content checks and an installed-wheel check from
+a temporary directory outside the checkout. Commands, versions and results are
+recorded in the output directory; no model or device is constructed.
+The four-case matrix is a local validation tool; the existing CI is unchanged.
 
 For QHA, use the frozen model's context tokens and action-expert latents as
 inputs to the released head. Match the head's candidate basis exactly. Call

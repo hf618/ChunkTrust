@@ -91,6 +91,24 @@ Alternatively, in a Python 3.11 environment:
 python -m pip install -r requirements.txt
 ```
 
+The lightweight runtime package accepts NumPy `>=1.26.4,<2.5`. Local runtime checks
+passed with Python 3.11 and NumPy 1.26.4, 2.0.2 and 2.4.6, plus Python 3.12 with
+NumPy 2.4.6. The existing CI keeps its single Python 3.11 job. To reproduce the
+four local cases, including wheel/sdist and installed-package checks, install
+`uv` and run from this checkout:
+
+```bash
+python scripts/check_runtime_matrix.py --output outputs/runtime-matrix
+```
+
+The runner keeps environments inside `.venv/` and records commands, interpreter
+and NumPy versions, results and logs under the selected output directory.
+`--dry-run` writes the command plan without creating environments or running checks.
+
+`requirements.txt`, `environment.yml` and backend recipes retain their historical
+pins for experiment reproduction; a compatible runtime install does not replace
+those experiment environments. Other model frameworks remain in separate environments.
+
 Policy training and simulation use the [backend environments](docs/backends.md).
 
 AgileX fixed-prefix and synchronous AHS bridges, the matching pi0.5 server overlay and source

@@ -1,0 +1,3 @@
+include scripts/check_distribution.py
+include scripts/check_installed_distribution.py
+include scripts/check_runtime_matrix.py
